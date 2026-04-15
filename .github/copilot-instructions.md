@@ -5,15 +5,14 @@ This repository contains course notes and study materials for the **Arquitectura
 
 ## Repository Structure
 ```
-isil/
-├── 2026-1/
-│   └── arq-empresarial/
-│       └── clase-2/
-│           ├── arquitectura-empresarial-zachman-togaf.md (main course notes)
-│           ├── ae-fundamentos-clase-2.png (fundamentals diagram)
-│           ├── zachman-togaf-diagrama-clase-2.png (framework comparison)
-│           └── zachman-cobertura-matriz-6x6.png (6x6 matrix reference)
-└── README.md (empty, to be populated)
+2026-1/
+└── arq-empresarial/
+  └── clase-2/
+    ├── arquitectura-empresarial-zachman-togaf.md (main course notes)
+    ├── ae-fundamentos-clase-2.png (fundamentals diagram)
+    ├── zachman-togaf-diagrama-clase-2.png (framework comparison)
+    └── zachman-cobertura-matriz-6x6.png (6x6 matrix reference)
+README.md (empty, to be populated)
 ```
 
 ## Key Patterns & Conventions
@@ -58,11 +57,53 @@ When documenting class content:
 - **Technical but accessible**: Explain EA concepts to professionals with technical background (developers, network engineers, security specialists)
 - **Business-aligned**: Emphasize strategic alignment over pure technical implementation
 
-## Common Tasks
-- **Adding new class notes**: Create `{framework}-{topic}.md` in `2026-1/arq-empresarial/clase-X/` directory
-- **Documenting diagrams**: Save images with semantic names; add `### Imagen X:` section referencing the file
-- **Updating README**: Build index of all class materials organized by module (Frameworks, TOGAF, Zachman, practical cases)
-- **Linking frameworks**: Always note when TOGAF and Zachman are complementary, not competing
+
+## Arquitectura de Carpetas (OBLIGATORIA)
+
+```txt
+.github/
+└── copilot-instructions.md
+2026-1/
+└── arq-empresarial/
+  ├── clase-1/
+  ├── clase-2/
+  │   ├── arquitectura-empresarial-zachman-togaf.md
+  │   ├── ae-fundamentos-clase-2.png
+  │   ├── zachman-togaf-diagrama-clase-2.png
+  │   └── zachman-cobertura-matriz-6x6.png
+  └── clase-N/
+README.md
+```
+
+**REGLAS ESTRICTAS:**
+- Cada clase tiene su propia carpeta: `clase-1/`, `clase-2/`, etc.
+- Los archivos van DENTRO de la carpeta de su clase, no en raíz
+- Nombres de archivo SIEMPRE semánticos: `{tema}-{descriptor}-clase-N.{ext}`
+- NO crear subcarpetas adicionales dentro de `clase-X/`
+
+## Órdenes Estrictas para el Agente
+
+**Al agregar nueva clase:**
+1. ✅ Crear carpeta: `2026-1/arq-empresarial/clase-X/`
+2. ✅ Crear markdown: `{tema}-{descriptor}-clase-X.md` dentro de `clase-X/`
+3. ✅ Guardar imágenes: `{concepto}-{descriptor}-clase-X.png` dentro de `clase-X/`
+4. ✅ Nombrar TODO semánticamente (NO: `image.png`, `clase-3.md`)
+5. ✅ Actualizar README.md con enlace a nueva clase
+6. ✅ NO mover archivos después de crearlos
+7. ✅ Usar solo estas extensiones: `.md`, `.png`, `.jpg`, `.gif`
+
+**Al documentar contenido:**
+- Estructura: `##` para títulos, `###` para subsecciones (Imagen X, Conceptos, etc.)
+- Imágenes: referenciar dentro del markdown con `### Imagen X: {nombre-archivo}.png`
+- Ejemplos: siempre incluir casos de sectores reales (banca, Smart Cities, etc.)
+- Idioma: 100% español, sin excepciones
+- Framework names: TOGAF, Zachman, ADM (en negrita)
+
+## Common Tasks REVISADO
+- **Adding new class notes**: `2026-1/arq-empresarial/clase-X/` → crear `.md` con nombre semántico
+- **Documenting diagrams**: `{concepto}-clase-X.png` → guardar en `clase-X/` → referenciar en markdown
+- **Updating README**: Agregar enlace a clase nueva DESPUÉS de crear la carpeta
+- **Linking frameworks**: Siempre anotar complementariedad TOGAF + Zachman
 
 ## Key Files to Reference
 - `2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf.md`: Main class 2 notes with complete framework definitions and practical workflows
