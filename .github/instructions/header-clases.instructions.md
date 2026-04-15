@@ -27,7 +27,7 @@ Cuando crees o edites un archivo Markdown dentro de una carpeta `clase-X/`, revi
 - Mantén dos espacios al final de las dos primeras líneas de metadatos para respetar el salto de línea en Markdown.
 - Usa fechas en formato `DD/MM/AAAA`.
 - El número de clase del título debe coincidir con la carpeta `clase-X/`.
-- La clase también es dinámica: usa el número real de la carpeta o sesión, no un valor fijo como `Clase 1`.
+- El número de clase también es dinámico: usa el número real de la carpeta o sesión, no un valor fijo como `Clase 1`.
 - El nombre del curso y la fecha deben corresponder a la carpeta o al material fuente con el que se está trabajando.
 - Si el tema cambia, solo cambia la parte temática del título; conserva la estructura general.
 - No fijes el curso, el docente ni la fecha con valores globales si la carpeta pertenece a otro curso.
