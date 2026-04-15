@@ -1,6 +1,11 @@
-# Arquitectura Empresarial — Clase 02 (Gráficos)
+# Arquitectura Empresarial: Gráficos de apoyo (Clase 2)
+
+**Curso:** Arquitectura Empresarial (ISIL, 2026-1)  
+**Docente:** Richard Anthony Romero Mori  
+**Fecha:** 15/04/2026
 
 ## 1) Relación entre capas de AE
+
 ```mermaid
 flowchart TB
   E[Contexto y objetivos del negocio] --> N[Capa de Negocio]
@@ -12,6 +17,7 @@ flowchart TB
 ```
 
 ## 2) Mapa mental de conceptos de Clase 02
+
 ```mermaid
 mindmap
   root((Arquitectura Empresarial))
@@ -36,6 +42,7 @@ mindmap
 ```
 
 ## 3) Trazabilidad simple: negocio a tecnología
+
 ```mermaid
 flowchart LR
   OBJ[Objetivo de negocio] --> PROC[Proceso clave]
