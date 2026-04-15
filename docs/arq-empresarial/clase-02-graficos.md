@@ -27,7 +27,7 @@ mindmap
     Artefactos
       Mapa de capacidades
       Mapa de aplicaciones
-      Diagramas de integración
+      Diagramas de relaciones
       AS-IS / TO-BE
     Resultado
       Visión compartida
