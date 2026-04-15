@@ -2,7 +2,7 @@
 
 ## Propósito
 
-Este repositorio contiene apuntes y materiales de estudio del curso de Arquitectura Empresarial de ISIL.
+Este repositorio contiene apuntes y materiales de estudio de distintos cursos de ISIL.
 
 El objetivo de cualquier agente en este workspace es ayudar a crear, mejorar y organizar documentación que sea fácil de entender para humanos, especialmente para estudiantes o profesionales que necesitan revisar conceptos con rapidez.
 
@@ -38,7 +38,14 @@ Si el texto no responde estas preguntas con facilidad, simplifícalo.
 
 ## Contexto del contenido
 
-El repositorio gira alrededor de arquitectura empresarial, especialmente:
+El repositorio puede contener varios cursos. Cuando trabajes dentro de una carpeta de curso:
+
+- identifica primero el curso correcto;
+- adapta el vocabulario al tema real de esa carpeta;
+- usa ejemplos del dominio correspondiente;
+- no mezcles conceptos de otro curso si no aportan valor.
+
+Si el contenido es de arquitectura empresarial, puedes apoyarte en temas como:
 
 - **TOGAF**
 - **Zachman**
@@ -48,16 +55,10 @@ El repositorio gira alrededor de arquitectura empresarial, especialmente:
 - arquitectura de aplicaciones
 - arquitectura de tecnología
 
-Cuando expliques estos temas:
-
-- define el concepto en lenguaje simple;
-- explica su valor práctico;
-- usa ejemplos de sectores reales como banca, gobierno, retail, salud o Smart Cities;
-- resalta la relación entre negocio y tecnología.
-
 ## Estructura esperada del repositorio
 
-- Cada clase vive en su propia carpeta: `2026-1/arq-empresarial/clase-X/`.
+- Cada curso vive en su propia carpeta, por ejemplo: `2026-1/{curso}/`.
+- Cada clase vive en su propia carpeta dentro del curso: `2026-1/{curso}/clase-X/`.
 - No crees subcarpetas dentro de `clase-X/`.
 - Usa nombres semánticos para archivos Markdown e imágenes.
 - Si agregas una nueva clase, actualiza también el `README.md`.
@@ -76,6 +77,8 @@ Cuando trabajes sobre archivos `.md`, sigue también las instrucciones de `.gith
 
 Ese archivo contiene el skill específico de documentación humana y tiene prioridad práctica para mantener la redacción clara, escaneable y útil.
 
+Si el archivo está dentro de una carpeta `clase-X/`, sigue también `.github/instructions/header-clases.instructions.md`.
+
 ## Qué evitar
 
 - Texto inflado o redundante.
@@ -83,6 +86,7 @@ Ese archivo contiene el skill específico de documentación humana y tiene prior
 - Explicaciones demasiado abstractas sin ejemplo.
 - Nombres genéricos de archivo.
 - Contenido fuera de la carpeta correcta de clase.
+- Encabezados con curso, docente o fecha copiados de otra carpeta.
 
 ## Criterio de calidad
 
@@ -91,5 +95,6 @@ Antes de dar por terminado un cambio, verifica que:
 - el documento se entiende en lectura rápida;
 - la estructura visual ayuda a estudiar;
 - hay al menos un ejemplo cuando el concepto lo necesita;
+- el contenido respeta el curso real de la carpeta y no arrastra datos de otra clase;
 - el contenido conecta negocio, datos, aplicaciones y tecnología cuando aplique;
 - el resultado parece escrito para personas, no para una máquina.
