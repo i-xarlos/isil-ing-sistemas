@@ -3,7 +3,7 @@
 ## 1) Relación entre capas de AE
 ```mermaid
 flowchart TB
-  E[Estrategia y objetivos] --> N[Capa de Negocio]
+  E[Contexto y objetivos del negocio] --> N[Capa de Negocio]
   N --> D[Capa de Datos / Información]
   N --> A[Capa de Aplicaciones]
   D --> A
@@ -16,7 +16,7 @@ flowchart TB
 mindmap
   root((Arquitectura Empresarial))
     Objetivo
-      Alinear negocio y TI
+      Alinear negocio y tecnología
       Reducir duplicidades
       Mejorar decisiones
     Capas

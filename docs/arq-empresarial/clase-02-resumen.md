@@ -6,11 +6,11 @@
 - Reconocer los artefactos básicos que ayudan a documentar el estado actual y el estado objetivo.
 
 ## Conceptos clave
-- **Arquitectura Empresarial (AE):** enfoque para alinear estrategia, procesos, información, aplicaciones y tecnología.
-- **Capa de negocio:** define objetivos, capacidades y procesos que generan valor.
-- **Capa de datos/información:** organiza los datos críticos del negocio y su uso.
-- **Capa de aplicaciones:** describe los sistemas que soportan procesos y capacidades.
-- **Capa tecnológica:** infraestructura y plataformas donde operan las aplicaciones.
+- **Arquitectura Empresarial (AE):** Estructura organizativa que define la relación entre negocio, información, aplicaciones y tecnología para orientar decisiones de cambio.
+- **Capa de negocio:** Define objetivos, capacidades y procesos que generan valor (por ejemplo, atención de clientes o gestión de pedidos).
+- **Capa de datos/información:** Organiza los datos críticos del negocio y su uso.
+- **Capa de aplicaciones:** Describe los sistemas que soportan procesos y capacidades.
+- **Capa tecnológica:** Define la infraestructura y plataformas donde operan las aplicaciones.
 
 > Idea central: un cambio en negocio normalmente impacta en datos, aplicaciones y tecnología.
 
