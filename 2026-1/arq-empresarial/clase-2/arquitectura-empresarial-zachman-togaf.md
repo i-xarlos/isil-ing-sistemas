@@ -9,7 +9,7 @@
 - El uso de frameworks y librerías es común en el desarrollo de software para acelerar el proceso de desarrollo y aprovechar soluciones ya existentes.
 - Provee un lenguaje común y una estructura para el desarrollo de aplicaciones.
 - Facilita la colaboración entre desarrolladores al seguir convenciones y patrones establecidos.
-- Permiten enfocarse en la lógica de negocio en lugar de reinventar la rueda para tareas repetitivas.
+- Permite enfocarse en la lógica de negocio en lugar de reinventar la rueda para tareas repetitivas.
 
 ## TOGAF
 
