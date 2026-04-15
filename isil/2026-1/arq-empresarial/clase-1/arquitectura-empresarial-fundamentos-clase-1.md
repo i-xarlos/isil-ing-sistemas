@@ -1,45 +1,48 @@
-# Arquitectura Empresarial: Fundamentos - Clase 1
+# Arquitectura Empresarial: Fundamentos (Clase 1)
 
-Fecha: 08/04/2026
+**Curso:** Arquitectura Empresarial (ISIL, 2026-1)  
+**Docente:** Richard Anthony Romero Mori  
+**Fecha:** 08/04/2026
 
-## Resumen
-- Introducción a la Arquitectura Empresarial (AE).
-- Revisión de los conceptos fundamentales y dominios.
+## Resumen de la sesión
+La clase definió la **Arquitectura Empresarial (AE)** como una disciplina **estratégica** orientada a alinear tecnología y negocio. Se enfatizó que la AE ayuda a gestionar la complejidad organizacional evitando soluciones aisladas (“parches”) y promoviendo una visión integral.
 
-## Fundamentos de AE
-- La importancia de entender la AE para el alineamiento estratégico.
-- Diferencias entre arquitectura de negocio, datos, aplicaciones y tecnología.
+## 1. Fundamentos de la Arquitectura Empresarial
+- **Alineamiento estratégico:** cada iniciativa tecnológica debe responder a objetivos de negocio.
+- **Visión holística:** comprender la interacción entre procesos, datos, aplicaciones y tecnología.
+- **Gestión de complejidad:** evolución ordenada de la organización como sistema integrado.
 
-## Dominios
-- **Negocio**: Estructura organizativa y procesos.
-- **Datos**: Información que soporta las decisiones.
-- **Aplicaciones**: Sistemas y software utilizados.
-- **Tecnología**: Infraestructura necesaria para el soporte
+## 2. Dominios clave (4 pilares)
+1. **Negocio:** estrategia y procesos.
+2. **Datos:** gestión de información para decisiones.
+3. **Aplicaciones:** interacción e integración de sistemas.
+4. **Tecnología:** infraestructura, plataformas y hardware de soporte.
 
-## TOGAF y ADM (Introducción)
-- **TOGAF**: Marco de arquitectura empresarial ampliamente adoptado.
-- **ADM**: Método de desarrollo de arquitectura que guía el proceso de AE.
+## 3. Metodologías y herramientas
+### TOGAF y ADM (introducción)
+- **TOGAF** como marco de referencia de AE.
+- **ADM** para guiar la transición de estado **AS-IS** a **TO-BE**.
 
-## Reutilización
-- La importancia de la reutilización de artefactos de arquitectura.
-- Ejemplos de activos reutilizables en AE.
+### Reutilización
+- Uso de patrones y componentes probados para reducir costos y riesgos.
 
-## Perfil del grupo
-- Composición del grupo de estudio.
-- Expectativas y perfiles de los integrantes.
+## 4. Dinámica de clase y perfil del grupo
+- Grupo con base técnica sólida (Desarrollo, Redes, Ciberseguridad).
+- Estudiantes en proceso de convalidación hacia Ingeniería de Sistemas.
+- Participación de sectores como banca, educación, sector público, seguros y hotelería.
 
-## Casos prácticos
-- **Smart Cities**: Ejemplo de integración tecnológica y procesos urbanos.
-- **Contingencia bancaria**: Cómo la AE puede ayudar en situaciones de crisis.
-- **Cambridge Analytica**: Análisis del uso de datos en campañas.
+## 5. Casos prácticos revisados
+- **Smart Cities:** enfoque de “sistema de sistemas” con sensores y Big Data.
+- **Continuidad bancaria:** inversión en contingencia para mitigar pérdidas operativas.
+- **Cambridge Analytica:** discusión sobre ética, perfilado y gobierno de datos.
 
-## Próximos pasos
-- Ultimar detalles sobre los ejercicios prácticos.
-- Planificación de la siguiente clase.
+## 6. Próximos pasos del curso
+- Comunicación por grupo de WhatsApp.
+- Enfoque mayormente aplicativo con herramientas para diseño de arquitectura.
 
-## Glosario
-- **AS-IS**: Estado actual de la arquitectura.
-- **TO-BE**: Estado futuro deseado.
-- **AE**: Arquitectura Empresarial.
-- **TOGAF**: The Open Group Architecture Framework.
-- **ADM**: Architecture Development Method.
+## Glosario básico
+- **AE:** Arquitectura Empresarial.
+- **AS-IS:** estado actual.
+- **TO-BE:** estado objetivo.
+- **TOGAF:** The Open Group Architecture Framework.
+- **ADM:** Architecture Development Method.
