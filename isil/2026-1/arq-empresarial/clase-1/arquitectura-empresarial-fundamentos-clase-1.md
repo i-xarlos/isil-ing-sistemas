@@ -1,4 +1,4 @@
-# Arquitectura Empresarial — Fundamentos (Clase 1)
+# Arquitectura Empresarial: Fundamentos (Clase 1)
 
 **Curso:** Arquitectura Empresarial (ISIL, 2026-1)  
 **Docente:** Richard Anthony Romero Mori  
@@ -16,7 +16,7 @@ La clase definió la **Arquitectura Empresarial (AE)** como una disciplina **est
 1. **Negocio:** estrategia y procesos.
 2. **Datos:** gestión de información para decisiones.
 3. **Aplicaciones:** interacción e integración de sistemas.
-4. **Tecnología:** infraestructura, plataformas y hardware.
+4. **Tecnología:** infraestructura, plataformas y hardware de soporte.
 
 ## 3. Metodologías y herramientas
 ### TOGAF y ADM (introducción)
