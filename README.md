@@ -19,13 +19,13 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 ---
 
-### Diseño de Soluciones con IA — 6508.202610 (`diseno-soluciones-ia-6508`)
+### Diseño de Soluciones con IA — 6508.202610 (`diseno-soluciones-ia`)
 
 **Docente:** Omar David Visitación Romero
 
 | Clase | Tema | Enlace |
 |---|---|---|
-| Clase 1 | Introducción, metodología y estructura del curso | [ver notas](2026-1/diseno-soluciones-ia-6508/clase-1/diseno-soluciones-ia-introduccion-clase-1.md) |
+| Clase 1 | Introducción, metodología y estructura del curso | [ver notas](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md) |
 
 ---
 
@@ -42,7 +42,7 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 │   │   ├── zachman-togaf-diagrama-clase-2.png
 │   │   └── zachman-cobertura-matriz-6x6.png
 │   └── ...
-└── diseno-soluciones-ia-6508/
+└── diseno-soluciones-ia/
     ├── clase-1/
     │   └── diseno-soluciones-ia-introduccion-clase-1.md
     └── ...

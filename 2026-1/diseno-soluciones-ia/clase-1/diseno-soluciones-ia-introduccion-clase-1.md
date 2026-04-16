@@ -2,7 +2,7 @@
 
 **Curso:** Diseño de Soluciones con IA - 6508.202610 (ISIL, 2026-1)  
 **Docente:** Omar David Visitación Romero  
-**Fecha:** [pendiente]
+**Fecha:** 08/04/2026
 
 ---
 
