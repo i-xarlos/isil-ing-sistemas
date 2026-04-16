@@ -12,10 +12,8 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 **Docente:** Richard Anthony Romero Mori
 
-| Clase | Tema | Enlace |
-|---|---|---|
-| Clase 1 | Fundamentos de Arquitectura Empresarial | [ver notas](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md) |
-| Clase 2 | Frameworks TOGAF y Zachman | [ver notas](2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf.md) |
+- **Clase 1:** Fundamentos de Arquitectura Empresarial — [ver notas](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
+- **Clase 2:** Frameworks TOGAF y Zachman — [ver notas](2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md)
 
 ---
 
@@ -23,9 +21,8 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 **Docente:** Omar David Visitación Romero
 
-| Clase | Tema | Enlace |
-|---|---|---|
-| Clase 1 | Introducción, metodología y estructura del curso | [ver notas](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md) |
+- **Clase 1:** Introducción, metodología y estructura del curso — [ver notas](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md)
+- **Clase 2:** Inteligencia artificial y sus ramas principales — [ver notas](2026-1/diseno-soluciones-ia/clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md)
 
 ---
 
@@ -37,14 +34,20 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 │   ├── clase-1/
 │   │   └── arquitectura-empresarial-fundamentos-clase-1.md
 │   ├── clase-2/
-│   │   ├── arquitectura-empresarial-zachman-togaf.md
-│   │   ├── ae-fundamentos-clase-2.png
-│   │   ├── zachman-togaf-diagrama-clase-2.png
-│   │   └── zachman-cobertura-matriz-6x6.png
+│   │   ├── arquitectura-empresarial-zachman-togaf-clase-2.md
+│   │   ├── arquitectura-empresarial-fundamentos-clase-2.png
+│   │   ├── zachman-togaf-relacion-clase-2.png
+│   │   └── zachman-matriz-cobertura-6x6-clase-2.png
 │   └── ...
 └── diseno-soluciones-ia/
     ├── clase-1/
     │   └── diseno-soluciones-ia-introduccion-clase-1.md
+    ├── clase-2/
+    │   ├── diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md
+    │   ├── inteligencia-artificial-introduccion-clase-2.png
+    │   ├── inteligencia-artificial-ramas-clase-2.png
+    │   ├── inteligencia-artificial-capacidades-clave-clase-2.png
+    │   └── inteligencia-artificial-datos-y-valor-clase-2.png
     └── ...
 README.md
 ```
@@ -59,8 +62,8 @@ README.md
 
 ### Nombres de archivos
 
-- **Markdown**: descriptivo del tema → `diseno-soluciones-ia-introduccion-clase-1.md`
-- **Imágenes**: `{concepto}-{descriptor}-clase-N.png` → `ae-fundamentos-clase-2.png`
+- **Markdown**: descriptivo del tema → `diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md`
+- **Imágenes**: `{concepto}-{descriptor}-clase-N.png` → `inteligencia-artificial-ramas-clase-2.png`
 
 ### Contenido esperado por clase
 
