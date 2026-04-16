@@ -10,12 +10,11 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 ### Arquitectura Empresarial (`arq-empresarial`)
 
-**Docente:** Richard Anthony Romero Mori
-
-| Semana | Tema | Notas |
-|---|---|---|
-| 1 | Fundamentos de Arquitectura Empresarial | [Ver](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md) |
-| 2 | Frameworks TOGAF y Zachman | [Ver](2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) |
+| Semana | Tema | Docente | Notas |
+|---|---|---|---|
+| 1 | Fundamentos de Arquitectura Empresarial | Richard Anthony Romero Mori | [Ver](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md) |
+| 1 | Customer Centricity y Agilidad en TI | Henry Joseph Paredes del Alamo | [Ver](2026-1/arq-empresarial/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| 2 | Frameworks TOGAF y Zachman | Richard Anthony Romero Mori | [Ver](2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) |
 
 ---
 
@@ -68,7 +67,8 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 │   └── ...
 ├── arq-empresarial/
 │   ├── clase-1/
-│   │   └── arquitectura-empresarial-fundamentos-clase-1.md
+│   │   ├── arquitectura-empresarial-fundamentos-clase-1.md
+│   │   └── customer-centricity-agilidad-ti-clase-1.md
 │   ├── clase-2/
 │   │   ├── arquitectura-empresarial-zachman-togaf-clase-2.md
 │   │   ├── arquitectura-empresarial-fundamentos-clase-2.png
