@@ -23,7 +23,7 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 | Semana | Tema | Notas |
 |---|---|---|
-| 1 | Estadística descriptiva: medidas de resumen | [Ver](2026-1/analisis-estadistico-data-mining/clase-1/estadistica-descriptiva-medidas-resumen-clase-1.md) |
+| 2 | Estadística descriptiva: medidas de resumen | [Ver](2026-1/analisis-estadistico-data-mining/clase-2/estadistica-descriptiva-medidas-resumen-clase-2.md) |
 
 ---
 
@@ -44,8 +44,8 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 ```txt
 2026-1/
 ├── analisis-estadistico-data-mining/
-│   ├── clase-1/
-│   │   └── estadistica-descriptiva-medidas-resumen-clase-1.md
+│   ├── clase-2/
+│   │   └── estadistica-descriptiva-medidas-resumen-clase-2.md
 │   └── ...
 ├── arq-empresarial/
 │   ├── clase-1/
