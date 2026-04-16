@@ -64,10 +64,22 @@ README.md
 
 ## Convenciones
 
+## Convenciones
+
 ### Nombres de archivos
 
 - **Markdown**: descriptivo del tema → `diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md`
 - **Imágenes**: `{concepto}-{descriptor}-clase-N.png` → `inteligencia-artificial-ramas-clase-2.png`
+
+### Agregar nuevas clases
+
+Si vas a crear una nueva clase, usa la [PLANTILLA-NUEVAS-CLASES.md](PLANTILLA-NUEVAS-CLASES.md) como guía. Garantiza:
+
+- Estructura consistente
+- Formato claro y escaneable
+- Ejemplos prácticos
+- Conexiones con otros cursos
+- Checklist de calidad
 
 ### Contenido esperado por clase
 
@@ -83,6 +95,7 @@ Cada carpeta de clase incluye:
 2. **Revisar rápido**: cada clase resume lo esencial sin jerga innecesaria
 3. **Casos prácticos**: busca ejemplos de sectores en los que trabajas
 4. **Conectar conceptos**: ve las relaciones entre clases con cross-references
+5. **Índice de conceptos**: usa [INDICE-CONCEPTOS.md](INDICE-CONCEPTOS.md) para navegar rápidamente todos los términos clave entre cursos
 
 ---
 

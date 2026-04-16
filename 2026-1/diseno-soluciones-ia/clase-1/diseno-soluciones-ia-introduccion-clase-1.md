@@ -154,3 +154,32 @@ Lo que el curso espera del alumno y del proyecto:
 ## Conceptos relacionados en otros cursos
 
 - **Arquitectura Empresarial — Clase 1:** trabaja el concepto de **alineamiento estratégico**, donde cada decisión tecnológica debe justificar su aporte al negocio. En diseño de IA, esto se traduce en definir KPIs de negocio desde el inicio. [Ver notas](../../arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
+
+---
+
+## Flujo visual del curso
+
+```mermaid
+flowchart TD
+    A["Semanas 1-3: Fundamentos e Identificación<br/>Machine Learning, NLP, Visión por Computadora"] --> B["Identificar caso de uso real<br/>Definir problema y alcance"]
+    B --> C["Semanas 4-7: Preparación de Datos<br/>Limpieza y exploración con Python"]
+    C --> D["Garantizar datos confiables<br/>Evitar sesgos"]
+    D --> E["Semanas 9-12: Modelamiento y Entrenamiento<br/>Clasificación, regresión, clusterización"]
+    E --> F["Entrenar y validar modelo"]
+    F --> G["Semanas 13-16: Prototipado y Despliegue<br/>Demo funcional con interfaz"]
+    G --> H["Presentar con KPIs de negocio<br/>Demostrar impacto medible"]
+    
+    style A fill:#e1f5ff
+    style C fill:#e1f5ff
+    style E fill:#e1f5ff
+    style G fill:#e1f5ff
+    style H fill:#c8e6c9
+```
+
+### Explicación del flujo
+
+- **Bloques azules:** etapas de aprendizaje y desarrollo (semanas)
+- **Rectángulos blancos:** actividades clave dentro de cada bloque
+- **Bloque verde:** entregable final (semana 16)
+
+El énfasis está en que no es un proceso lineal de "aplicar tecnología", sino un ciclo de **entender → preparar → modelar → demostrar valor**.

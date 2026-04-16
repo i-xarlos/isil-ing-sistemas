@@ -117,3 +117,40 @@ La clase incluyó presentación del grupo y contexto profesional.
 ## Conceptos relacionados en otros cursos
 
 - **Diseño de Soluciones con IA — Clase 1:** introduce el concepto de "alineamiento de diseño", similar a cómo AE alinea negocio con tecnología. Ambos enfoques priorizan **entender el problema antes de elegir la solución**. [Ver notas](../../diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md)
+
+---
+
+## Visión integrada de los 4 dominios
+
+```mermaid
+flowchart TB
+    OBJ["🎯 Objetivo del Negocio"] --> PROC["📋 Procesos Clave"]
+    PROC --> APP["💻 Aplicaciones"]
+    PROC --> DATA["📊 Datos"]
+    DATA --> APP
+    APP --> TECH["🔧 Tecnología"]
+    TECH --> CONT["♻️ Continuidad Operativa"]
+    
+    PROC -.Impactado por.-> NEGOCIO["DOMINIO NEGOCIO"]
+    DATA -.Impactado por.-> DATOS["DOMINIO DATOS"]
+    APP -.Impactado por.-> APLICACIONES["DOMINIO APLICACIONES"]
+    TECH -.Impactado por.-> TECNOLOGIA["DOMINIO TECNOLOGÍA"]
+    
+    NEGOCIO --> RESULT["✅ Decisiones alineadas<br/>Menos parches<br/>Más valor sostenible"]
+    DATOS --> RESULT
+    APLICACIONES --> RESULT
+    TECNOLOGIA --> RESULT
+    
+    style OBJ fill:#fff3e0
+    style RESULT fill:#c8e6c9
+    style NEGOCIO fill:#e3f2fd
+    style DATOS fill:#f3e5f5
+    style APLICACIONES fill:#fce4ec
+    style TECNOLOGIA fill:#e0f2f1
+```
+
+### Clave del diagrama
+
+- Los **4 dominios** están conectados: cambios en uno afectan a los otros
+- Un **objetivo de negocio** debe traducirse en procesos, datos, aplicaciones y tecnología alineados
+- El resultado es una **arquitectura coherente** que evita decisiones aisladas
