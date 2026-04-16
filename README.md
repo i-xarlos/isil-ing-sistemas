@@ -12,8 +12,10 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 **Docente:** Richard Anthony Romero Mori
 
-- **Clase 1:** Fundamentos de Arquitectura Empresarial — [ver notas](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
-- **Clase 2:** Frameworks TOGAF y Zachman — [ver notas](2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md)
+| Semana | Tema | Notas |
+|---|---|---|
+| 1 | Fundamentos de Arquitectura Empresarial | [Ver](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md) |
+| 2 | Frameworks TOGAF y Zachman | [Ver](2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) |
 
 ---
 
@@ -21,8 +23,10 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 **Docente:** Omar David Visitación Romero
 
-- **Clase 1:** Introducción, metodología y estructura del curso — [ver notas](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md)
-- **Clase 2:** Inteligencia artificial, Machine Learning y Deep Learning — [ver notas](2026-1/diseno-soluciones-ia/clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md)
+| Semana | Tema | Notas |
+|---|---|---|
+| 1 | Introducción, metodología y estructura del curso | [Ver](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md) |
+| 2 | Inteligencia artificial, Machine Learning y Deep Learning | [Ver](2026-1/diseno-soluciones-ia/clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md) |
 
 ---
 

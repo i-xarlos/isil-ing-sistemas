@@ -13,7 +13,7 @@ La idea central: la IA vale cuando resuelve un problema real con impacto medible
 
 ---
 
-## 1. Introducción y Metodología
+## Introducción y Metodología
 
 El docente es ingeniero electrónico y de telecomunicaciones, especializado en analítica de datos y desarrollo de software.
 
@@ -25,18 +25,18 @@ El curso sigue la metodología de **"aprender haciendo"**:
 
 ---
 
-## 2. El Rol del Diseño en Soluciones de IA
+## El Rol del Diseño en Soluciones de IA
 
 El énfasis del curso no está en "usar IA", sino en **saber diseñar** la solución correcta.
 
-### 2.1 Identificación del Problema
+### Identificación del Problema
 
 Antes de aplicar cualquier modelo o herramienta:
 
 - **Delimitar el alcance** del problema evita desperdicio de recursos (tiempo, datos, infraestructura).
 - Un problema mal definido produce una solución costosa y poco útil.
 
-### 2.2 Análisis Costo-Beneficio
+### Análisis Costo-Beneficio
 
 La IA **no siempre conviene**. El criterio es económico y estratégico:
 
@@ -57,7 +57,7 @@ La IA genera valor cuando aporta:
 
 ---
 
-## 3. Estructura del Curso (Semanas 1–16)
+## Estructura del Curso (Semanas 1–16)
 
 El curso se divide en cuatro bloques progresivos:
 
@@ -84,9 +84,9 @@ El curso se divide en cuatro bloques progresivos:
 
 ---
 
-## 4. Conceptos Técnicos Transversales
+## Conceptos Técnicos Transversales
 
-### 4.1 Cloud Computing
+### Cloud Computing
 
 | Modelo | Descripción |
 |---|---|
@@ -95,13 +95,13 @@ El curso se divide en cuatro bloques progresivos:
 
 Ventaja clave de la nube: **flexibilidad y escalabilidad** sin inversión inicial en hardware.
 
-### 4.2 Ética y Transparencia
+### Ética y Transparencia
 
 - El manejo de **datos sensibles** requiere protocolos claros de confidencialidad.
 - Usar herramientas como **ChatGPT** en entornos corporativos conlleva riesgos de filtración de información.
 - La ética no es opcional: es parte del diseño de la solución.
 
-### 4.3 KPIs
+### KPIs
 
 - Las métricas técnicas (precisión del modelo, latencia, F1-score) deben traducirse a **indicadores de negocio**.
 - Los decisores no evalúan modelos; evalúan impacto: reducción de costos, aumento de ventas, mejora en tiempos.
@@ -110,7 +110,7 @@ Ventaja clave de la nube: **flexibilidad y escalabilidad** sin inversión inicia
 
 ---
 
-## 5. Evaluación y Proyecto Final
+## Evaluación y Proyecto Final
 
 ### Sistema de evaluación
 
@@ -137,7 +137,7 @@ Ventaja clave de la nube: **flexibilidad y escalabilidad** sin inversión inicia
 
 ---
 
-## 6. Implicancias Prácticas
+## Implicancias Prácticas
 
 Lo que el curso espera del alumno y del proyecto:
 
@@ -148,3 +148,9 @@ Lo que el curso espera del alumno y del proyecto:
 5. **Aprender a "vender" la solución.** El curso es técnico, pero también requiere comunicación efectiva hacia decisores no técnicos.
 
 > El criterio de éxito no es "usar IA": es demostrar que la solución resuelve el problema, con datos, con modelo y con impacto medible.
+
+---
+
+## Conceptos relacionados en otros cursos
+
+- **Arquitectura Empresarial — Clase 1:** trabaja el concepto de **alineamiento estratégico**, donde cada decisión tecnológica debe justificar su aporte al negocio. En diseño de IA, esto se traduce en definir KPIs de negocio desde el inicio. [Ver notas](../../arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
