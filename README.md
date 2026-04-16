@@ -19,6 +19,14 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 ---
 
+### Análisis Estadístico y Data Mining (`analisis-estadistico-data-mining`)
+
+| Semana | Tema | Notas |
+|---|---|---|
+| 1 | Estadística descriptiva: medidas de resumen | [Ver](2026-1/analisis-estadistico-data-mining/clase-1/estadistica-descriptiva-medidas-resumen-clase-1.md) |
+
+---
+
 ### Diseño de Soluciones con IA — 6508.202610 (`diseno-soluciones-ia`)
 
 **Docente:** Omar David Visitación Romero
@@ -35,6 +43,10 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 ```txt
 2026-1/
+├── analisis-estadistico-data-mining/
+│   ├── clase-1/
+│   │   └── estadistica-descriptiva-medidas-resumen-clase-1.md
+│   └── ...
 ├── arq-empresarial/
 │   ├── clase-1/
 │   │   └── arquitectura-empresarial-fundamentos-clase-1.md
