@@ -45,7 +45,15 @@ Se seleccionaron **2 modelos frontera por compañía**, priorizando los más rec
 
 ---
 
-## 4. Interpretación rápida
+## 4. Gráfico comparativo
+
+![Comparación SWE-bench Verified — Anthropic vs OpenAI](./swe-bench-comparacion-modelos-actividad-1.png)
+
+> El asterisco (`*`) en Claude Opus 4.5 indica que la cifra proviene de una fuente de terceros (ver sección de Fuentes).
+
+---
+
+## 5. Interpretación rápida
 
 ### ¿Qué dicen los números?
 
@@ -63,7 +71,7 @@ Se seleccionaron **2 modelos frontera por compañía**, priorizando los más rec
 
 ---
 
-## 5. Entregable del estudiante
+## 6. Entregable del estudiante
 
 ### Consigna
 
@@ -97,9 +105,57 @@ Para cada uno de los tres escenarios de desarrollo de software, elige **uno** de
 
 ---
 
-## 6. Recursos adicionales
+## 7. Recursos adicionales
 
 - [SWE-bench — Sitio oficial](https://www.swebench.com/)
 - [Anthropic — Blog de investigación](https://www.anthropic.com/research)
 - [OpenAI — Modelos y capacidades](https://platform.openai.com/docs/models)
 - [Leaderboard SWE-bench (Papers with Code)](https://paperswithcode.com/sota/software-engineering-on-swe-bench-verified)
+
+---
+
+## 8. Fuentes
+
+Las cifras y afirmaciones de este documento provienen de las siguientes fuentes. Se indica el tipo (**oficial** = publicado por la empresa creadora del modelo; **tercero** = medio de prensa o tracker especializado).
+
+### SWE-bench Verified — benchmark
+
+| # | Fuente | Tipo | URL |
+|---|---|---|---|
+| 1 | Jimenez et al. (2024). *SWE-bench: Can Language Models Resolve Real-World GitHub Issues?* arXiv:2310.06770 | Académica (paper original) | https://arxiv.org/abs/2310.06770 |
+| 2 | SWE-bench — Leaderboard oficial | Oficial (benchmark) | https://www.swebench.com/ |
+| 3 | Papers with Code — SWE-bench Verified SOTA | Tracker | https://paperswithcode.com/sota/software-engineering-on-swe-bench-verified |
+
+### Claude 3.5 Sonnet (upgraded) — 49,0 %
+
+| # | Fuente | Tipo | URL |
+|---|---|---|---|
+| 4 | Anthropic. *Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku* (oct. 2024) | Oficial (anuncio) | https://www.anthropic.com/news/3-5-models-and-computer-use |
+| 5 | Anthropic Research. *Claude achieves 49.0% on SWE-bench Verified* | Oficial (post técnico) | https://www.anthropic.com/research/swe-bench-sonnet |
+
+### Claude Opus 4.5 — 80,9 % *(cifra de tercero)*
+
+| # | Fuente | Tipo | URL |
+|---|---|---|---|
+| 6 | Anthropic. *Claude Opus 4.5 — Announcement* | Oficial (anuncio del modelo) | https://www.anthropic.com/news/claude-opus-4-5 |
+| 7 | Dilmegani, C. (2025). *Anthropic announces Claude Opus 4.5, the new AI coding frontrunner*. ITPro | Tercero (prensa especializada) | https://www.itpro.com/technology/artificial-intelligence/anthropic-announces-claude-opus-4-5-the-new-ai-coding-frontrunner |
+
+> La cifra 80,9 % en SWE-bench Verified para Opus 4.5 proviene de la fuente #7 (tercero). El anuncio oficial (#6) describe el modelo como state-of-the-art en coding agentic pero no publica la puntuación exacta en SWE-bench de forma directa.
+
+### OpenAI o3 — 71,7 %
+
+| # | Fuente | Tipo | URL |
+|---|---|---|---|
+| 8 | OpenAI. *OpenAI o3 System Card* (dic. 2024) | Oficial (system card) | https://openai.com/index/openai-o3-system-card/ |
+| 9 | OpenAI. *Introducing OpenAI o3 and o4-mini* | Oficial (anuncio) | https://openai.com/index/openai-o3-and-o4-mini/ |
+
+### GPT-4.1 — 54,6 %
+
+| # | Fuente | Tipo | URL |
+|---|---|---|---|
+| 10 | OpenAI. *GPT-4.1 — Introducing GPT-4.1 in the API* (abr. 2025) | Oficial (anuncio + benchmarks) | https://openai.com/index/gpt-4-1/ |
+| 11 | OpenAI. *GPT-4.1 System Card* | Oficial (system card) | https://openai.com/index/gpt-4-1-system-card/ |
+
+---
+
+*Última verificación de fuentes: 16/04/2026.*
