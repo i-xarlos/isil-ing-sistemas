@@ -1,8 +1,8 @@
 # Estadística Descriptiva: Medidas de Resumen (Clase 1)
 
 **Curso:** Análisis Estadístico y Data Mining (ISIL, 2026-1)  
-**Docente:** [pendiente]  
-**Fecha:** [pendiente]
+**Docente:** Omar David Visitación Romero  
+**Fecha:** 15/04/2026
 
 ---
 
