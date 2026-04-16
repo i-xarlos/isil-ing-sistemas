@@ -197,4 +197,4 @@ Antes de terminar, confirma:
 - [ ] El texto extraído fue reescrito y condensado (no pegado en crudo).
 - [ ] El documento sigue el skill de documentación humana.
 - [ ] Si la carpeta es `clase-X/`, el encabezado cumple el skill de header-clases.
-- [ ] Si la carpeta es `actividad-X/`, el documento cumple el skill de actividades académicas.
+- [ ] Si la carpeta es `actividad-X/`, el documento cumple el skill de `actividad` (`.github/instructions/actividad.instructions.md`).
