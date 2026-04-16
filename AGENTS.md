@@ -79,6 +79,20 @@ Ese archivo contiene el skill específico de documentación humana y tiene prior
 
 Si el archivo está dentro de una carpeta `clase-X/`, sigue también `.github/instructions/header-clases.instructions.md`.
 
+Si el archivo está dentro de una carpeta `actividad-X/`, sigue también `.github/instructions/actividad.instructions.md`.
+
+## Regla especial para imágenes
+
+Cuando una carpeta de clase o actividad tenga imágenes `.png`, `.jpg`, `.jpeg` o `.gif` cuyo contenido no esté documentado en el Markdown correspondiente, usa el script OCR para extraer el texto y enriquecer el documento.
+
+Sigue las instrucciones de `.github/instructions/ocr-imagenes.instructions.md`.
+
+Ese archivo describe:
+- cómo ejecutar el script `scripts/ocr_images.swift` desde la raíz del repositorio;
+- el patrón de enriquecimiento paso a paso;
+- cómo integrar el texto extraído en el Markdown sin pegar texto crudo;
+- el checklist de calidad para imágenes documentadas.
+
 ## Qué evitar
 
 - Texto inflado o redundante.
