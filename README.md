@@ -19,6 +19,16 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 ---
 
+### Dirección Estratégica de Datos (`direccion-estrategica-de-datos`)
+
+**Docente:** Brezli Paola Luna Figueroa
+
+| Semana | Tema | Notas |
+|---|---|---|
+| 1 | Introducción: datos como activo estratégico, gobierno, desafíos y aplicaciones | [Ver](2026-1/direccion-estrategica-de-datos/clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md) |
+
+---
+
 ### Análisis Estadístico y Data Mining (`analisis-estadistico-data-mining`)
 
 **Docente:** Omar David Visitación Romero
@@ -46,6 +56,10 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 ```txt
 2026-1/
+├── direccion-estrategica-de-datos/
+│   ├── clase-1/
+│   │   └── direccion-estrategica-de-datos-introduccion-clase-1.md
+│   └── ...
 ├── analisis-estadistico-data-mining/
 │   ├── clase-1/
 │   │   └── analisis-estadistico-data-mining-presentacion-y-cronograma-clase-1.md
