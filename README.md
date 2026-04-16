@@ -68,8 +68,6 @@ README.md
 
 ## Convenciones
 
-## Convenciones
-
 ### Nombres de archivos
 
 - **Markdown**: descriptivo del tema → `diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md`
