@@ -21,7 +21,7 @@ Esta plantilla asegura que todas las nuevas clases sigan la estructura, formato 
 
 **Curso:** [Nombre del Curso] (ISIL, 2026-1)  
 **Docente:** [Nombre del Docente]  
-**Fecha:** [DD/MM/YYYY]
+**Fecha:** [DD/MM/AAAA]
 
 ---
 
