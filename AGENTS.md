@@ -88,7 +88,7 @@ Cuando una carpeta de clase o actividad tenga imágenes `.png`, `.jpg` o `.gif` 
 Sigue las instrucciones de `.github/instructions/ocr-imagenes.instructions.md`.
 
 Ese archivo describe:
-- cómo ejecutar el script `.ocr_images.swift` desde la raíz;
+- cómo ejecutar el script `scripts/ocr_images.swift` desde la raíz del repositorio;
 - el patrón de enriquecimiento paso a paso;
 - cómo integrar el texto extraído en el Markdown sin pegar texto crudo;
 - el checklist de calidad para imágenes documentadas.

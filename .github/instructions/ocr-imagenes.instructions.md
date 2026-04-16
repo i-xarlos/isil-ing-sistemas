@@ -15,7 +15,7 @@ Cuando encuentres imágenes en carpetas de clase o actividad, sigue este skill c
 
 ## Qué es el script OCR
 
-`.ocr_images.swift` está en la raíz del repositorio.  
+`scripts/ocr_images.swift` está en la carpeta `scripts/` del repositorio.  
 Usa el framework **Vision** de macOS con precisión alta.  
 Soporta español (`es-ES`) e inglés (`en-US`).
 
@@ -92,14 +92,14 @@ Si la imagen ya estaba referenciada en algún `.md` con el nombre viejo, actuali
 Desde la raíz del repositorio:
 
 ```bash
-swift .ocr_images.swift ruta/imagen.png
+swift scripts/ocr_images.swift ruta/imagen.png
 ```
 
 Puedes pasar varias imágenes en un solo comando:
 
 ```bash
-swift .ocr_images.swift 2026-1/arq-empresarial/clase-2/togaf-adm-fases-clase-2.png \
-                        2026-1/arq-empresarial/clase-2/zachman-matriz-clase-2.png
+swift scripts/ocr_images.swift 2026-1/arq-empresarial/clase-2/togaf-adm-fases-clase-2.png \
+                               2026-1/arq-empresarial/clase-2/zachman-matriz-clase-2.png
 ```
 
 El script imprime el texto extraído separado con `=== nombre-del-archivo.png ===`.
