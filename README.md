@@ -12,8 +12,10 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 **Docente:** Richard Anthony Romero Mori
 
-- **Clase 1:** Fundamentos de Arquitectura Empresarial — [ver notas](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
-- **Clase 2:** Frameworks TOGAF y Zachman — [ver notas](2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md)
+| Semana | Tema | Notas |
+|---|---|---|
+| 1 | Fundamentos de Arquitectura Empresarial | [Ver](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md) |
+| 2 | Frameworks TOGAF y Zachman | [Ver](2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) |
 
 ---
 
@@ -21,9 +23,11 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 **Docente:** Omar David Visitación Romero
 
-- **Clase 1:** Introducción, metodología y estructura del curso — [ver notas](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md)
-- **Clase 2:** Inteligencia artificial, Machine Learning y Deep Learning — [ver notas](2026-1/diseno-soluciones-ia/clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md)
-- **Actividad 1:** Modelos frontera en desarrollo de software — benchmark SWE-bench Verified (Anthropic vs OpenAI) — [ver actividad](2026-1/diseno-soluciones-ia/actividad-1/actividad-1.md)
+| Semana | Tema | Notas |
+|---|---|---|
+| 1 | Introducción, metodología y estructura del curso | [Ver](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md) |
+| 2 | Inteligencia artificial, Machine Learning y Deep Learning | [Ver](2026-1/diseno-soluciones-ia/clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md) |
+| Actividad 1 | Modelos frontera en desarrollo de software — benchmark SWE-bench Verified (Anthropic vs OpenAI) | [Ver](2026-1/diseno-soluciones-ia/actividad-1/actividad-1.md) |
 
 ---
 
@@ -69,6 +73,16 @@ README.md
 - **Markdown**: descriptivo del tema → `diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md`
 - **Imágenes**: `{concepto}-{descriptor}-clase-N.png` → `inteligencia-artificial-ramas-clase-2.png`
 
+### Agregar nuevas clases
+
+Si vas a crear una nueva clase, usa la [PLANTILLA-NUEVAS-CLASES.md](PLANTILLA-NUEVAS-CLASES.md) como guía. Garantiza:
+
+- Estructura consistente
+- Formato claro y escaneable
+- Ejemplos prácticos
+- Conexiones con otros cursos
+- Checklist de calidad
+
 ### Contenido esperado por clase
 
 Cada carpeta de clase incluye:
@@ -83,6 +97,7 @@ Cada carpeta de clase incluye:
 2. **Revisar rápido**: cada clase resume lo esencial sin jerga innecesaria
 3. **Casos prácticos**: busca ejemplos de sectores en los que trabajas
 4. **Conectar conceptos**: ve las relaciones entre clases con cross-references
+5. **Índice de conceptos**: usa [INDICE-CONCEPTOS.md](INDICE-CONCEPTOS.md) para navegar rápidamente todos los términos clave entre cursos
 
 ---
 
