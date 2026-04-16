@@ -215,8 +215,8 @@ Usa rutas relativas para que funcionen en cualquier lugar del repositorio.
 
 Puedes revisar estas clases como referencia:
 
-- [Arquitectura Empresarial — Clase 1](../2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
-- [Diseño de Soluciones con IA — Clase 1](../2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md)
+- [Arquitectura Empresarial — Clase 1](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
+- [Diseño de Soluciones con IA — Clase 1](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md)
 
 Imita su estructura, tono y nivel de detalle.
 
