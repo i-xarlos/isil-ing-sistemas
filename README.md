@@ -22,7 +22,7 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 **Docente:** Omar David Visitación Romero
 
 - **Clase 1:** Introducción, metodología y estructura del curso — [ver notas](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md)
-- **Clase 2:** Inteligencia artificial y sus ramas principales — [ver notas](2026-1/diseno-soluciones-ia/clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md)
+- **Clase 2:** Inteligencia artificial, Machine Learning y Deep Learning — [ver notas](2026-1/diseno-soluciones-ia/clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md)
 
 ---
 
