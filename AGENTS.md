@@ -83,7 +83,7 @@ Si el archivo está dentro de una carpeta `actividad-X/`, sigue también `.githu
 
 ## Regla especial para imágenes
 
-Cuando una carpeta de clase o actividad tenga imágenes `.png`, `.jpg` o `.gif` cuyo contenido no esté documentado en el Markdown correspondiente, usa el script OCR para extraer el texto y enriquecer el documento.
+Cuando una carpeta de clase o actividad tenga imágenes `.png`, `.jpg`, `.jpeg` o `.gif` cuyo contenido no esté documentado en el Markdown correspondiente, usa el script OCR para extraer el texto y enriquecer el documento.
 
 Sigue las instrucciones de `.github/instructions/ocr-imagenes.instructions.md`.
 
