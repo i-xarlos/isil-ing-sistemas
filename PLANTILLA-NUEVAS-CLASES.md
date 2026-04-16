@@ -148,7 +148,7 @@ Antes de finalizar una clase nueva, verifica:
 - [ ] **Ejemplos:** ¿cada concepto abstracto tiene un ejemplo o caso práctico?
 - [ ] **Conexiones:** ¿hay cross-references a otros conceptos del curso o de otros cursos?
 - [ ] **Glosario:** ¿los términos nuevos están definidos completamente?
-- [ ] **Visuaes:** ¿hay tablas, listas o diagramas donde ayuden a escanear?
+- [ ] **Visuales:** ¿hay tablas, listas o diagramas donde ayuden a escanear?
 - [ ] **Jerga:** ¿evita tecnicismos innecesarios?
 - [ ] **Ortografía:** ¿está libre de errores de tipeo y redacción?
 
