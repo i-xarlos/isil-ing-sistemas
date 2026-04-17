@@ -54,6 +54,10 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 ## Estructura
 
 ```txt
+_meta/
+├── INDICE-CONCEPTOS.md
+├── PLANTILLA-NUEVAS-CLASES.md
+└── PR-INFO.md
 2026-1/
 ├── direccion-estrategica-de-datos/
 │   ├── clase-1/
@@ -89,6 +93,7 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
     │   └── actividad-1.md
     └── ...
 README.md
+AGENTS.md
 ```
 
 **Organización por:**
@@ -106,7 +111,7 @@ README.md
 
 ### Agregar nuevas clases
 
-Si vas a crear una nueva clase, usa la [PLANTILLA-NUEVAS-CLASES.md](PLANTILLA-NUEVAS-CLASES.md) como guía. Garantiza:
+Si vas a crear una nueva clase, usa la [PLANTILLA-NUEVAS-CLASES.md](_meta/PLANTILLA-NUEVAS-CLASES.md) como guía. Garantiza:
 
 - Estructura consistente
 - Formato claro y escaneable
@@ -128,7 +133,7 @@ Cada carpeta de clase incluye:
 2. **Revisar rápido**: cada clase resume lo esencial sin jerga innecesaria
 3. **Casos prácticos**: busca ejemplos de sectores en los que trabajas
 4. **Conectar conceptos**: ve las relaciones entre clases con cross-references
-5. **Índice de conceptos**: usa [INDICE-CONCEPTOS.md](INDICE-CONCEPTOS.md) para navegar rápidamente todos los términos clave entre cursos
+5. **Índice de conceptos**: usa [INDICE-CONCEPTOS.md](_meta/INDICE-CONCEPTOS.md) para navegar rápidamente todos los términos clave entre cursos
 
 ---
 
