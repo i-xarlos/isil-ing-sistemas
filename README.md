@@ -13,8 +13,18 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 | Semana | Tema | Docente | Notas |
 |---|---|---|---|
 | 1 | Fundamentos de Arquitectura Empresarial | Richard Anthony Romero Mori | [Ver](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md) |
-| 1 | Customer Centricity y Agilidad en TI | Henry Joseph Paredes del Alamo | [Ver](2026-1/arq-empresarial/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
 | 2 | Frameworks TOGAF y Zachman | Richard Anthony Romero Mori | [Ver](2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) |
+
+---
+
+### Customer Centricity en Tecnologías de la Información (`customer-centricity-ti`)
+
+**Docente:** Henry Joseph Paredes del Alamo
+
+| Semana | Tema | Notas |
+|---|---|---|
+| 1 | Customer Centricity y Agilidad en TI | [Ver](2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| 2 | Customer Centricity: Agilidad y Scrum en la Práctica | [Ver](2026-1/customer-centricity-ti/clase-2/customer-centricity-agilidad-scrum-clase-2.md) |
 
 ---
 
@@ -72,13 +82,18 @@ _meta/
 │   └── ...
 ├── arq-empresarial/
 │   ├── clase-1/
-│   │   ├── arquitectura-empresarial-fundamentos-clase-1.md
-│   │   └── customer-centricity-agilidad-ti-clase-1.md
+│   │   └── arquitectura-empresarial-fundamentos-clase-1.md
 │   ├── clase-2/
 │   │   ├── arquitectura-empresarial-zachman-togaf-clase-2.md
 │   │   ├── arquitectura-empresarial-fundamentos-clase-2.png
 │   │   ├── zachman-togaf-relacion-clase-2.png
 │   │   └── zachman-matriz-cobertura-6x6-clase-2.png
+│   └── ...
+├── customer-centricity-ti/
+│   ├── clase-1/
+│   │   └── customer-centricity-agilidad-ti-clase-1.md
+│   ├── clase-2/
+│   │   └── customer-centricity-agilidad-scrum-clase-2.md
 │   └── ...
 └── diseno-soluciones-ia/
     ├── clase-1/
