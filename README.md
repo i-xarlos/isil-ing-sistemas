@@ -63,7 +63,7 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 |---|---|---|
 | 1 | Introducción, metodología y estructura del curso | [Ver](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md) |
 | 2 | Inteligencia artificial, Machine Learning y Deep Learning | [Ver](2026-1/diseno-soluciones-ia/clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md) |
-| Actividad 1 | Modelos frontera en desarrollo de software — benchmark SWE-bench Verified (Anthropic vs OpenAI) | [Ver](2026-1/diseno-soluciones-ia/actividad-1/actividad-1.md) |
+| Actividad 1 | Modelos frontera en desarrollo de software — benchmark SWE-bench Verified (Anthropic vs OpenAI) | [Ver](2026-1/diseno-soluciones-ia/actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 
 ---
 
@@ -110,8 +110,7 @@ _meta/
     │   ├── inteligencia-artificial-capacidades-clave-clase-2.png
     │   └── inteligencia-artificial-datos-y-valor-clase-2.png
     ├── actividad-1/
-    │   ├── README.md
-    │   └── actividad-1.md
+    │   └── swe-bench-comparacion-modelos-actividad-1.md
     └── ...
 README.md
 AGENTS.md
