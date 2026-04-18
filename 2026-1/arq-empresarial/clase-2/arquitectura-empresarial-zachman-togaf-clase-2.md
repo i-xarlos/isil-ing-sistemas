@@ -4,6 +4,12 @@
 **Docente:** Richard Anthony Romero Mori  
 **Fecha:** 15/04/2026
 
+## Objetivos de la clase
+
+- Comprender el propósito de la Arquitectura Empresarial (AE) como puente entre negocio y tecnología.
+- Identificar las capas principales de AE y cómo se relacionan entre sí.
+- Reconocer los artefactos básicos que ayudan a documentar el estado actual y el estado objetivo.
+
 ## Idea principal de la clase
 
 La clase explicó que la **Arquitectura Empresarial (AE)** no se trata solo de tecnología. Su función es conectar la estrategia del negocio con procesos, datos, aplicaciones e infraestructura para que la empresa crezca con orden y no por parches.
@@ -142,6 +148,31 @@ Esta imagen muestra la lógica de cobertura del framework, útil para evitar “
 
 ## Gráficos rápidos de repaso
 
+### Mapa mental de los conceptos de la clase
+
+```mermaid
+mindmap
+  root((Arquitectura Empresarial))
+    Objetivo
+      Alinear negocio y tecnología
+      Reducir duplicidades
+      Mejorar decisiones
+    Capas
+      Negocio
+      Datos
+      Aplicaciones
+      Tecnología
+    Artefactos
+      Mapa de capacidades
+      Mapa de aplicaciones
+      Diagramas de relaciones
+      AS-IS / TO-BE
+    Resultado
+      Visión compartida
+      Priorización de cambios
+      Roadmap inicial
+```
+
 ### Relación entre las capas de AE
 
 ```mermaid
@@ -163,6 +194,13 @@ flowchart LR
     APP --> DATA[(Datos críticos)]
     APP --> TECH[Plataforma tecnológica]
 ```
+
+## Preguntas de repaso
+
+1. ¿Por qué la AE ayuda a alinear objetivos del negocio con decisiones tecnológicas?
+2. ¿Qué diferencia existe entre capa de negocio y capa de aplicaciones?
+3. ¿Qué artefactos mínimos usarías para explicar una propuesta de mejora?
+4. ¿Qué riesgos aparecen cuando no se documentan bien datos, procesos y sistemas?
 
 ## Conclusión
 
