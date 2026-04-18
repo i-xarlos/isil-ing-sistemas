@@ -17,7 +17,7 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 ---
 
-### Customer Centricity en Tecnologías de la Información (`customer-centricity-ti`)
+### Customer Centricity TI (`customer-centricity-ti`)
 
 **Docente:** Henry Joseph Paredes del Alamo
 
@@ -125,15 +125,14 @@ AGENTS.md
 - **Markdown**: descriptivo del tema → `diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md`
 - **Imágenes**: `{concepto}-{descriptor}-clase-N.png` → `inteligencia-artificial-ramas-clase-2.png`
 
-### Agregar nuevas clases
+### Agregar nuevas clases o cursos
 
-Si vas a crear una nueva clase, usa la [PLANTILLA-NUEVAS-CLASES.md](_meta/PLANTILLA-NUEVAS-CLASES.md) como guía. Garantiza:
+Usa la [PLANTILLA-NUEVAS-CLASES.md](_meta/PLANTILLA-NUEVAS-CLASES.md) como guía. Cubre dos flujos:
 
-- Estructura consistente
-- Formato claro y escaneable
-- Ejemplos prácticos
-- Conexiones con otros cursos
-- Checklist de calidad
+- **Nueva clase** en un curso existente: crea la carpeta `clase-X/`, crea el Markdown con el encabezado estándar y agrega la fila en la tabla del curso en este README.
+- **Nuevo curso**: crea la carpeta `2026-1/{nombre-del-curso}/`, agrega la primera clase, añade el bloque completo del curso en este README y registra los conceptos clave en [`_meta/INDICE-CONCEPTOS.md`](_meta/INDICE-CONCEPTOS.md).
+
+La plantilla incluye checklist de calidad, convenciones de nombres y ejemplos listos para copiar.
 
 ### Contenido esperado por clase
 

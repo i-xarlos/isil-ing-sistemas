@@ -77,14 +77,52 @@ Dónde aparece: [Diseño IA — Clase 2](2026-1/diseno-soluciones-ia/clase-2/dis
 
 ---
 
+## Conceptos de Customer Centricity TI
+
+### Customer Centricity y Producto
+
+| Concepto | Definición breve | Dónde aparece |
+|---|---|---|
+| **Customer Centricity** | Modelo operativo donde todas las decisiones —incluyendo las tecnológicas— parten de las necesidades reales del cliente | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| **MVP (Minimum Viable Product)** | Lo mínimo necesario para probar un concepto y entregar valor inmediato, antes de construir la solución completa | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| **MLP (Minimum Lovable Product)** | Como el MVP pero con diseño y usabilidad que genera conexión emocional desde el inicio | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| **Síndrome del columpio** | Desalineamiento entre lo que pide el cliente, lo que entiende el analista y lo que construye el desarrollador | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+
+### Experiencia de Cliente y Diseño
+
+| Concepto | Definición breve | Dónde aparece |
+|---|---|---|
+| **CX (Customer Experience)** | Totalidad de la relación del cliente con la marca: desde el primer contacto hasta la postventa | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| **UX (User Experience)** | Facilidad de uso e intuición dentro de una interfaz digital o física | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| **UI (User Interface)** | Interfaz concreta con la que el usuario interactúa: pantallas, botones, formularios | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+
+### Agilidad y Organización
+
+| Concepto | Definición breve | Dónde aparece |
+|---|---|---|
+| **Agilidad** | Capacidad de reaccionar y pivotar en base a feedback real, no sinónimo de velocidad | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| **Squad** | Equipo multidisciplinario (devs, UX, marketing, negocio) alineado a un objetivo común | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| **OKR (Objectives and Key Results)** | Marco para definir y medir objetivos alineando equipos a metas de negocio | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+
+### Métricas y Canales
+
+| Concepto | Definición breve | Dónde aparece |
+|---|---|---|
+| **Métricas de adhesión** | Indicadores que miden si un usuario realmente usa y adopta una funcionalidad | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| **Funnel de conversión** | Secuencia de pasos que un usuario sigue, usada para identificar en qué etapa abandona | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+| **Mapa de calor (heatmap)** | Visualización que muestra dónde los usuarios hacen clic o se detienen en una pantalla | [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+
+---
+
 ## Conexiones entre cursos
 
-| Tema | Arquitectura Empresarial | Diseño de IA | Conexión |
-|---|---|---|---|
-| **Alineamiento** | Alineamiento estratégico (decisiones TI con objetivos) | Alineamiento de diseño (problema antes que tecnología) | Ambos priorizan entender la meta antes de ejecutar |
-| **Dominios** | Negocio, Datos, Aplicaciones, Tecnología | Problema → Datos → Modelo → Demo | Ambos trabajan múltiples capas que deben integrarse |
-| **Valor sostenible** | Reutilización y decisiones planificadas | KPIs de negocio y impacto medible | Ambos miden éxito por impacto, no solo por tecnología |
-| **Ética y gobierno** | Gobierno de datos y control | Confidencialidad de datos y transparencia | Ambos consideran la ética como parte del diseño |
+| Tema | Arquitectura Empresarial | Diseño de IA | Customer Centricity TI | Conexión |
+|---|---|---|---|---|
+| **Alineamiento** | Alineamiento estratégico (decisiones TI con objetivos) | Alineamiento de diseño (problema antes que tecnología) | Customer Centricity como filtro de decisiones | Los tres priorizan entender la meta antes de ejecutar |
+| **Dominios** | Negocio, Datos, Aplicaciones, Tecnología | Problema → Datos → Modelo → Demo | CX → UX → UI (jerarquía de experiencia) | Todos trabajan múltiples capas que deben integrarse |
+| **Valor sostenible** | Reutilización y decisiones planificadas | KPIs de negocio y impacto medible | Métricas de adhesión y funnels de conversión | El éxito se mide por impacto real, no solo por entrega |
+| **Iteración** | Ciclo ADM de TOGAF (fases iterativas) | MVP/prototipado rápido | MVP → MLP → producto final | Los tres favorecen ciclos cortos de validación |
+| **Datos** | Gobierno de datos y arquitectura | Entrenamiento de modelos con datos de calidad | Heatmaps, funnels y métricas de uso | Los datos son insumo clave en los tres cursos |
 
 ---
 
