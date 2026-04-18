@@ -215,8 +215,9 @@ Usa rutas relativas para que funcionen en cualquier lugar del repositorio.
 
 Puedes revisar estas clases como referencia:
 
-- [Arquitectura Empresarial — Clase 1](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
-- [Diseño de Soluciones con IA — Clase 1](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md)
+- [Arquitectura Empresarial — Clase 1](../2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
+- [Customer Centricity TI — Clase 1](../2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md)
+- [Diseño de Soluciones con IA — Clase 1](../2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md)
 
 Imita su estructura, tono y nivel de detalle.
 
@@ -227,10 +228,94 @@ Imita su estructura, tono y nivel de detalle.
 
 ---
 
-Guardamos este archivo:
+## Cómo agregar un nuevo curso
+
+Si el tema no encaja en ningún curso existente y merece su propia carpeta, sigue estos pasos.
+
+### Paso 1 — Crear la estructura de carpetas
+
+```bash
+mkdir -p 2026-1/{nombre-del-curso}/clase-1
+```
+
+Convención del nombre de la carpeta del curso:
+- Solo minúsculas y guiones (`-`), sin espacios ni caracteres especiales.
+- Ejemplos: `customer-centricity-ti`, `diseno-soluciones-ia`, `analisis-estadistico-data-mining`.
+
+### Paso 2 — Crear el archivo Markdown de la primera clase
+
+Ruta obligatoria:
 
 ```
-PLANTILLA-NUEVAS-CLASES.md
+2026-1/{nombre-del-curso}/clase-1/{nombre-del-curso}-{tema-principal}-clase-1.md
 ```
 
-Ahora actualizo el README para mencionar la plantilla:
+Ejemplo real:
+
+```
+2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md
+```
+
+Usa la plantilla de clase que aparece más arriba como base del contenido.
+
+### Paso 3 — Agregar el bloque del curso en README.md
+
+En el `README.md` de la raíz, añade una nueva sección bajo `## Cursos` con este formato:
+
+```markdown
+### {Nombre del Curso} (`{nombre-del-curso}`)
+
+**Docente:** {Nombre completo del docente}
+
+| Semana | Tema | Notas |
+|---|---|---|
+| 1 | {Tema de la clase 1} | [Ver](2026-1/{nombre-del-curso}/clase-1/{archivo}-clase-1.md) |
+
+---
+```
+
+Ejemplo real (curso Customer Centricity TI):
+
+```markdown
+### Customer Centricity TI (`customer-centricity-ti`)
+
+**Docente:** Henry Joseph Paredes del Alamo
+
+| Semana | Tema | Notas |
+|---|---|---|
+| 1 | Customer Centricity y Agilidad en TI | [Ver](2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md) |
+
+---
+```
+
+### Paso 4 — Actualizar la sección `## Estructura` en README.md
+
+Agrega la carpeta del nuevo curso al árbol de estructura que aparece al final del `README.md`:
+
+```
+├── {nombre-del-curso}/
+│   ├── clase-1/
+│   │   └── {archivo}-clase-1.md
+│   └── ...
+```
+
+### Paso 5 — Agregar los conceptos clave al índice
+
+Abre `_meta/INDICE-CONCEPTOS.md` y agrega una nueva sección con los términos clave del curso:
+
+```markdown
+## Conceptos de {Nombre del Curso}
+
+| Concepto | Definición breve | Dónde aparece |
+|---|---|---|
+| **{Término}** | {Definición en una línea} | [{Curso} — Clase 1](../2026-1/{nombre-del-curso}/clase-1/{archivo}-clase-1.md) |
+```
+
+### Checklist para nuevo curso
+
+- [ ] Carpeta creada en `2026-1/{nombre-del-curso}/clase-1/`
+- [ ] Archivo Markdown creado con nombre semántico
+- [ ] Encabezado del Markdown cumple el formato estándar (título, curso, docente, fecha)
+- [ ] Bloque del curso agregado en `README.md` bajo `## Cursos`
+- [ ] Árbol `## Estructura` actualizado en `README.md`
+- [ ] Conceptos clave registrados en `_meta/INDICE-CONCEPTOS.md`
