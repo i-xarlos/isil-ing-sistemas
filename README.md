@@ -25,6 +25,7 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 | Semana | Tema | Notas |
 |---|---|---|
 | 1 | Introducción: datos como activo estratégico, gobierno, desafíos y aplicaciones | [Ver](2026-1/direccion-estrategica-de-datos/clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md) |
+| 2 | Estrategias de datos: casos prácticos y viabilidad de proyectos | [Ver](2026-1/direccion-estrategica-de-datos/clase-2/estrategias-datos-casos-practicos-clase-2.md) |
 
 ---
 
