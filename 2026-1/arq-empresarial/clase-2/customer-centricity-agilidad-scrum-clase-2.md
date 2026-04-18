@@ -1,4 +1,4 @@
-# Customer Centricity: Agilidad y Scrum en la Práctica (Clase 3)
+# Customer Centricity: Agilidad y Scrum en la Práctica (Clase 2)
 
 **Curso:** Arquitectura Empresarial (ISIL, 2026-1)  
 **Docente:** Henry Joseph Paredes del Alamo  
