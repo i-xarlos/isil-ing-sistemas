@@ -17,7 +17,7 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 
 ---
 
-### Customer Centricity en Tecnologías de la Información (`customer-centricity-ti`)
+### Customer Centricity TI (`customer-centricity-ti`)
 
 **Docente:** Henry Joseph Paredes del Alamo
 

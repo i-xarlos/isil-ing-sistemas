@@ -1,6 +1,6 @@
-# Customer Centricity y Agilidad en Tecnologías de Información (Clase 1)
+# Customer Centricity y Agilidad en TI (Clase 1)
 
-**Curso:** Customer Centricity en Tecnologías de la Información (ISIL, 2026-1)  
+**Curso:** Customer Centricity TI (ISIL, 2026-1)  
 **Docente:** Henry Joseph Paredes del Alamo  
 **Fecha:** 10/04/2026
 
