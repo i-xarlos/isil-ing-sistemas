@@ -6,6 +6,11 @@ Repositorio de **resúmenes accesibles y entendibles** de los conceptos clave cu
 
 Este repositorio se enfoca en capturar lo más importante de cada sesión de forma organizada, permitiendo revisión rápida y referencia futura.
 
+## Wiki
+
+- [Wiki (Home)](./wiki/Home.md)
+- [Cursos 2026-1 (wiki)](./wiki/Cursos-2026-1.md)
+
 ## Cursos
 
 ### Arquitectura Empresarial (`arq-empresarial`)
@@ -153,4 +158,3 @@ Cada carpeta de clase incluye:
 ---
 
 **Cohorte**: 2026-1 | ISIL Ingeniería de Sistemas
-
