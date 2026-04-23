@@ -91,7 +91,7 @@ Toda solución de IA introduce riesgos que no deben ignorarse. El marco de riesg
 - **Mitigación:** *Federated learning* (entrenamiento distribuido), *differential privacy* (ruido matemático para proteger identidades).
 
 ### Interpretabilidad (Explainability)
-- **Riesgo:** Modelos complejos (Deep Learning) como "cajas negras": no se sabe por qué el modelo predicen qué.
+- **Riesgo:** Modelos complejos (Deep Learning) funcionan como "cajas negras": no se sabe por qué el modelo toma una decisión.
 - **Ejemplo:** Un modelo de deep learning aprueba/rechaza un crédito, pero nadie sabe la lógica detrás.
 - **Solución:** **XAI (Explainable AI)** — técnicas para abrir la caja negra y justificar decisiones.
 
