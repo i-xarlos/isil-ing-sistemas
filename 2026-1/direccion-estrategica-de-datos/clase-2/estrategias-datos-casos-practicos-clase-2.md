@@ -10,6 +10,10 @@
 
 La sesión abrió con un video sobre **Guagua Laptop**, un emprendimiento peruano que fabrica laptops con materiales reciclados y software libre para reducir la brecha digital en zonas vulnerables.
 
+* **Hardware Sostenible:** Son laptops fabricadas con madera reciclada y plástico de residuos electrónicos, diseñadas bajo el modelo de economía circular.
+* **Innovación:** Incluyen paneles solares para zonas sin electricidad y una herramienta de IA generativa llamada "EducatIA" que pronto funcionará offline.
+* **Impacto:** Han beneficiado a más de 10,000 personas, promoviendo que los estudiantes pasen de ser usuarios a creadores de tecnología.
+
 ### EducatIA: IA generativa sin conexión
 
 El proyecto incluye **EducatIA**, una herramienta de inteligencia artificial generativa diseñada para funcionar *offline*. Esto es clave en comunidades rurales donde el acceso a internet es intermitente o inexistente.
@@ -21,12 +25,12 @@ El proyecto incluye **EducatIA**, una herramienta de inteligencia artificial gen
 El debate en clase reveló una tensión frecuente en proyectos de tecnología educativa:
 
 | Factor | Enfoque equivocado | Enfoque estratégico |
-|---|---|---|
+| --- | --- | --- |
 | Dispositivo | Entregar la tablet y ya | Asegurar que docentes y alumnos la usen pedagógicamente |
 | Conectividad | Asumir internet disponible | Diseñar para funcionar offline con servidores locales |
 | Datos | Ignorar el consumo | Monitorear y restringir usos no educativos |
 
-**Experiencia real compartida en clase:** un estudiante describió su trabajo actualizando tablets del Ministerio de Educación (Minedu). Los problemas más frecuentes fueron el agotamiento rápido de datos por usos recreativos y la ausencia de servidores locales en escuelas rurales, que dejaba sin soporte a los dispositivos cuando no había red.
+**Experiencia real compartida en clase:** un estudiante (Edwin Merma) describió su trabajo actualizando tablets del Ministerio de Educación (Minedu). Los problemas más frecuentes fueron el agotamiento rápido de datos por usos recreativos y la ausencia de servidores locales en escuelas rurales, que dejaba sin soporte a los dispositivos cuando no había red. El debate destacó que en el sector público, el mantenimiento es anual y burocrático; en el privado, es constante y supervisado. Se cuestiona si la entrega de hardware es suficiente sin un plan estructurado de alfabetización digital y conectividad real.
 
 **Conclusión:** El dispositivo es solo el vehículo. Sin estrategia de datos, formación docente y soporte técnico local, la inversión no genera aprendizaje.
 
@@ -38,9 +42,9 @@ El debate en clase reveló una tensión frecuente en proyectos de tecnología ed
 
 ### El problema
 
-- El banco llamaba a clientes que **ya habían pagado** su deuda, generando fricciones y pérdida de confianza.
-- Las campañas de marketing llegaban a segmentos incorrectos, con bajo retorno.
-- La raíz de ambos problemas era la misma: **datos de baja calidad**.
+* El banco llamaba a clientes que **ya habían pagado** su deuda, generando fricciones y pérdida de confianza.
+* Las campañas de marketing llegaban a segmentos incorrectos, con bajo retorno.
+* La raíz de ambos problemas era la misma: **datos de baja calidad**.
 
 ### La solución: Data Governance
 
@@ -54,12 +58,12 @@ Data Force implementó un modelo de **Gobierno de Datos** que incluyó:
 ### El resultado
 
 | Métrica | Antes | Después |
-|---|---|---|
+| --- | --- | --- |
 | Calidad de datos | 75 % | 99 % |
 | Errores en cobranzas | Frecuentes | Casi eliminados |
 | Precisión de campañas | Baja | Alta |
 
-**Lección clave:** La calidad de los datos no es un problema técnico aislado; es un problema de gobierno. Sin reglas claras de quién es responsable de los datos y cómo se mantienen, el deterioro es inevitable.
+**Lección clave:** La calidad de los datos no es un problema técnico aislado; es un problema de gobierno. Sin reglas claras de quién es responsable de los datos y cómo se mantienen, el deterioro es inevitable. La profesora enfatiza que "no se puede decidir si no se tiene información verificada". Un funcionario o gerente que decide "a ciegas" sin datos íntegros puede arruinar un negocio o desperdiciar recursos públicos.
 
 > **Conexión con Arquitectura Empresarial:** el Gobierno de Datos es parte de la capa de Arquitectura de Datos en TOGAF. Establece políticas, roles y estándares que habilitan decisiones confiables.
 
@@ -72,10 +76,14 @@ La profesora contrastó cómo usan los datos el sector privado y el sector públ
 ### Privado vs. público: objetivos distintos
 
 | Dimensión | Sector privado | Sector público |
-|---|---|---|
+| --- | --- | --- |
 | Objetivo principal | Competitividad y ROI | Transparencia y servicio al ciudadano |
 | Audiencia de los datos | Accionistas, clientes | Ciudadanos, organismos de control |
 | Riesgo de opacidad | Pérdida de mercado | Pérdida de legitimidad y confianza |
+
+**Sector Privado:** Enfocado en la eficiencia, innovación constante y competitividad para generar utilidades. Los dueños invierten su propio capital y supervisan el mantenimiento constante.
+
+**Sector Público:** Enfocado en el servicio social y transparencia. Se financia con impuestos y enfrenta barreras burocráticas; el mantenimiento de activos (como las tablets de MINEDU) suele ser anual y rígido.
 
 ### Caso: Gobierno de Aragón (España)
 
@@ -86,9 +94,10 @@ El Gobierno de Aragón implementó una estrategia de datos orientada a **interop
 **Solución:** una plataforma de datos centralizada que conecta los registros de identidad, eliminando la duplicidad de trámites y reduciendo tiempos de atención.
 
 **Impacto directo para el ciudadano:**
-- Menos papeleo.
-- Menos visitas presenciales.
-- Menos errores por datos desactualizados en distintos registros.
+
+* Menos papeleo.
+* Menos visitas presenciales.
+* Menos errores por datos desactualizados en distintos registros.
 
 > **Aplicación local:** en el Perú, iniciativas como la PIDE (Plataforma de Interoperabilidad del Estado) buscan el mismo objetivo: conectar los sistemas de salud, educación, tributación y seguridad para ofrecer servicios más eficientes.
 
@@ -100,9 +109,9 @@ La clase analizó los problemas de datos en **Fabrico**, una empresa ficticia de
 
 ### Causas de ineficiencia identificadas
 
-- **Mala elección de proveedores:** sin datos de desempeño histórico, se elige por precio, no por confiabilidad.
-- **Falta de comunicación del alcance:** los proveedores no tienen visibilidad de los volúmenes reales que se les pedirá.
-- **Visibilidad de inventario nula:** el área de producción no sabe en tiempo real cuánto hay en bodega, lo que genera sobrestock o desabastecimiento.
+* **Mala elección de proveedores:** sin datos de desempeño histórico, se elige por precio, no por confiabilidad.
+* **Falta de comunicación del alcance:** los proveedores no tienen visibilidad de los volúmenes reales que se les pedirá.
+* **Visibilidad de inventario nula:** el área de producción no sabe en tiempo real cuánto hay en bodega, lo que genera sobrestock o desabastecimiento.
 
 ### La "última milla": el punto crítico
 
@@ -114,11 +123,15 @@ En logística, la **última milla** es el tramo final de entrega al cliente. Es 
 
 Las aplicaciones de seguimiento (como las de delivery o de aerolíneas) permiten:
 
-- **Al cliente:** saber exactamente dónde está su pedido y cuándo llega.
-- **A la empresa:** detectar cuellos de botella en tiempo real y reasignar recursos.
-- **A ambos:** reducir la incertidumbre, que es la principal causa de reclamos y costos adicionales.
+* **Al cliente:** saber exactamente dónde está su pedido y cuándo llega.
+* **A la empresa:** detectar cuellos de botella en tiempo real y reasignar recursos.
+* **A ambos:** reducir la incertidumbre, que es la principal causa de reclamos y costos adicionales.
 
 **Tecnologías habilitadoras:** GPS integrado, IoT en vehículos, alertas automáticas por umbral de temperatura o tiempo de tránsito.
+
+### Tercerización y monitoreo
+
+Muchas empresas tercerizan el despacho para trasladar el riesgo a especialistas, pero requieren datos para monitorear el desempeño de ese tercero. Sin visibilidad, el tercero puede fallar y afectar la reputación de la empresa.
 
 ---
 
@@ -132,21 +145,36 @@ Los datos deben responder al objetivo principal del negocio.
 
 **Ejemplo:** si la meta de una empresa es prepararse para una venta o fusión, los datos deben mostrar la salud financiera con precisión, consistencia y trazabilidad. Un inversor que encuentre inconsistencias en los datos retirará su oferta.
 
-### Paso 2 — Diagnóstico del estado actual
+### Paso 2 — Evaluación del estado actual
 
-Antes de cualquier inversión, hay que hacer **"la foto del espejo"**: un diagnóstico honesto de la calidad de la información disponible.
+Tomar una "foto" de la calidad y seguridad de la data actual. Preguntas clave:
 
-Preguntas clave:
-- ¿Qué porcentaje de los registros está completo?
-- ¿Cuántos sistemas duplican la misma información?
-- ¿Quién es responsable de cada fuente de datos?
+* ¿Qué porcentaje de los registros está completo?
+* ¿Cuántos sistemas duplican la misma información?
+* ¿Quién es responsable de cada fuente de datos?
 
-### Paso 3 — Análisis de riesgos
+### Paso 3 — Establecer objetivos claros
+
+Definir qué se quiere lograr (accesibilidad, limpieza, cumplimiento normativo).
+
+### Paso 4 — Marco de Gobierno
+
+Definir roles, responsabilidades y políticas.
+
+### Paso 5 — Selección de Tecnología
+
+Elegir herramientas adecuadas al presupuesto y necesidad (Data Warehouse, Data Mart, etc.). No siempre lo más caro es lo mejor.
+
+### Paso 6 — Monitoreo Continuo
+
+Ajustar el plan según los resultados obtenidos.
+
+### Paso 7 — Análisis de riesgos
 
 Todo proyecto de datos enfrenta tres tipos de riesgo:
 
 | Tipo | Descripción | Ejemplo |
-|---|---|---|
+| --- | --- | --- |
 | **Técnico** | Incompatibilidad entre sistemas antiguos y nuevos | Un ERP legacy que no puede exportar datos al nuevo CRM |
 | **Operativo** | Resistencia al cambio del personal | Equipos que siguen usando Excel en paralelo al nuevo sistema |
 | **Financiero** | Presupuesto insuficiente o ROI difícil de justificar | Proyecto detenido a mitad por recortes |
@@ -156,10 +184,11 @@ Todo proyecto de datos enfrenta tres tipos de riesgo:
 La resistencia interna es el mayor obstáculo en proyectos de datos. Un sistema perfecto fracasa si el equipo no lo adopta.
 
 **Estrategias de change management:**
-- Involucrar a los usuarios clave desde el diseño, no solo en la implementación.
-- Comunicar el beneficio personal de cada cambio ("¿qué gano yo con esto?").
-- Capacitar de forma práctica y continua, no en una sola sesión de lanzamiento.
-- Designar campeones internos que promuevan el uso del nuevo sistema.
+
+* Involucrar a los usuarios clave desde el diseño, no solo en la implementación.
+* Comunicar el beneficio personal de cada cambio ("¿qué gano yo con esto?").
+* Capacitar de forma práctica y continua, no en una sola sesión de lanzamiento.
+* Designar campeones internos que promuevan el uso del nuevo sistema.
 
 ---
 
@@ -172,3 +201,5 @@ Los tres pilares de una estrategia de datos efectiva:
 1. **Calidad:** los datos deben ser correctos, completos y actualizados.
 2. **Gobierno:** debe haber reglas claras sobre quién gestiona qué datos y cómo.
 3. **Alineación:** la estrategia de datos debe servir al objetivo del negocio, no existir por sí sola.
+
+**Conclusión principal:** La dirección estratégica de datos no es solo técnica, es una decisión de negocio que requiere un cambio cultural y una planificación rigurosa para mitigar riesgos y asegurar que cada bit de información genere valor real.
