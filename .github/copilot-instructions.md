@@ -14,7 +14,7 @@ Toda la documentación está en **español**. La claridad y utilidad práctica t
 
 ---
 
-## Arquiteptura de Carpetas (OBLIGATORIA)
+## Arquitectura de Carpetas (OBLIGATORIA)
 
 ```txt
 .github/
