@@ -104,7 +104,8 @@ La clase incluyó presentación del grupo y contexto profesional.
 
 ## Glosario breve
 
-- **AE:** disciplina estratégica para alinear negocio y tecnología. Trata la organización como un sistema integrado donde procesos, datos, aplicaciones e infraestructura deben diseñarse juntos, no aislados.
+- **AE:** disciplina estratégica para alinear negocio y tecnología. Trata la organización como un sistema integrado donde procesos, datos, 
+aplicaciones e infraestructura deben diseñarse juntos, no aislados.
 - **AS-IS:** situación actual de procesos, datos, aplicaciones y tecnología. Es el punto de partida para cualquier iniciativa de cambio.
 - **TO-BE:** estado objetivo definido para la evolución organizacional. Es lo que se quiere lograr después de implementar cambios.
 - **TOGAF:** marco de trabajo (framework) que proporciona método, herramientas y buenas prácticas para diseñar, planificar e implementar arquitectura empresarial.
