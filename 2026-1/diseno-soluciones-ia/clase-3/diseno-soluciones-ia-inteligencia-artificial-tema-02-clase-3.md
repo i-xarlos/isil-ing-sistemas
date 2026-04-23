@@ -161,9 +161,23 @@ Un proyecto de IA robusto sigue un ciclo científico de 8 fases:
 - **Entregable:** Dataset limpio, guía de etiquetado y reporte de calidad de datos.
 
 ### Fase 3: Análisis Exploratorio y Procesado
-- **Qué hacer:** Limpiar datos (valores nulos, outliers), balancear clases, transformar variables.
-- **Ejemplo:** Si 99% de transacciones son legítimas y 1% fraudulentas, el modelo cae en bias. Hay que balancear.
-- **Entregable:** Dataset preprocessado listo para modelado.
+![Preparar Datos: Del Caos al Orden](./diseno-soluciones-ia-preparacion-datos-limpieza-normalizacion-clase-3.png)
+
+**Los datos raramente llegan listos. Esta fase es donde ocurre el 80% del trabajo real en un proyecto ML.**
+
+#### Seis pasos clave:
+
+1. **Limpieza:** Eliminar HTML, caracteres especiales, valores nulos, duplicados.
+2. **Normalización:** Convertir variables a escala 0-1, estandarizar formatos (fechas, monedas, unidades).
+3. **Lematización:** Agrupar variantes de palabras ("corriendo" → "correr") para reducir ruido sin perder significado (técnica NLP).
+4. **Eliminación de Stop Words:** Remover palabras sin valor semántico ("el", "la", "de") que no aportan información.
+5. **Vectorización:** Convertir texto en números usando TF-IDF, Word2Vec o FastText para que el modelo pueda procesar.
+6. **Rebalanceo de Clases:** Si los datos están desbalanceados (ej. 80% positivos, 20% negativos), usar SMOTE para generar datos sintéticos.
+
+#### Ejemplo crítico:
+Si 99% de transacciones son legítimas y 1% fraudulentas, el modelo aprende a predecir "siempre legítimo" y alcanza 99% de accuracy. Falso positivo. Hay que balancear.
+
+- **Entregable:** Dataset limpio, normalizado, vectorizado y balanceado listo para modelado.
 
 ### Fase 4: Extracción de Características (*Feature Engineering*)
 - **Qué hacer:** Vectorización de texto, selección de variables importantes, transformaciones matemáticas.
