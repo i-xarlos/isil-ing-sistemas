@@ -86,7 +86,7 @@ Toda solución de IA introduce riesgos que no deben ignorarse. El marco de riesg
 - **Mitigación:** Auditoría de datos, diversidad en conjuntos de entrenamiento, balanceo de clases.
 
 ### Privacidad de Datos
-- **Riesgo:** Exposición de datos personales o sensibles. Incumplimiento de GDPR, CCPA u normativas locales.
+- **Riesgo:** Exposición de datos personales o sensibles. Incumplimiento de GDPR, CCPA o normativas locales.
 - **Ejemplo:** Un modelo entrenado con datos de crédito que puede ser re-identificado.
 - **Mitigación:** *Federated learning* (entrenamiento distribuido), *differential privacy* (ruido matemático para proteger identidades).
 
