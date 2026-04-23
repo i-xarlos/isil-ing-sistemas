@@ -8,7 +8,8 @@
 
 ## 1. ¿Qué es la Inteligencia Artificial?
 
-**La Inteligencia Artificial (IA)** es el conjunto de tecnologías que permite a máquinas realizar tareas que típicamente requieren inteligencia humana: razonamiento, aprendizaje, reconocimiento de patrones y toma de decisiones.
+> **Definición clave:**  
+> La Inteligencia Artificial (IA) es el conjunto de tecnologías que permite a máquinas realizar tareas que típicamente requieren inteligencia humana: **razonamiento**, **aprendizaje**, **reconocimiento de patrones** y **toma de decisiones**.
 
 En organizaciones, la IA no es monolítica. Existen diferentes tipos, cada uno con capacidades, limitaciones y casos de uso específicos. Entender esta diversidad es clave para seleccionar la solución correcta según el problema empresarial.
 
@@ -20,29 +21,14 @@ En organizaciones, la IA no es monolítica. Existen diferentes tipos, cada uno c
 
 Existen cuatro categorías principales de IA, cada una con fortalezas y restricciones:
 
-### A. Narrow AI (IA Estrecha)
-- **Qué es:** Un modelo especializado que resuelve una única tarea específica (ej. chatbot, clasificador de imágenes).
-- **Fortaleza:** Muy preciso y eficiente en su dominio.
-- **Limitación:** No generaliza fuera de su área. Un chatbot de servicio técnico no puede hacer análisis financiero.
-- **Caso de uso:** Automación de procesos repetitivos, clasificación binaria.
+| **Tipo** | **Qué es** | **Fortaleza** | **Limitación** | **Caso de uso** |
+|----------|-----------|---------------|----------------|----------------|
+| **Narrow AI** | Modelo especializado en única tarea (chatbot, clasificador imágenes) | Muy preciso y eficiente en su dominio | No generaliza fuera de su área | Automación repetitiva, clasificación binaria |
+| **IA Generativa** | Crea contenido nuevo (texto, imágenes, código, vídeos) | Resultados originales y adaptativos; alto valor creativo | Alucinaciones: confabula información plausible pero falsa | Redacción de reportes, ideación, asistentes de código |
+| **Machine Learning** | Aprende patrones de datos etiquetados sin código explícito | Escalable; requiere poco ajuste manual de parámetros | Necesita muchos datos de calidad y tuning de hiperparámetros | Predicción demanda, segmentación clientes, detección fraude |
+| **Deep Learning** | Redes neuronales profundas para tareas complejas (visión, NLP) | Estado del arte; resuelve problemas de altísima complejidad | Alto costo computacional (GPUs/TPUs); caja negra; baja interpretabilidad | Visión computadora, NLP avanzado, conducción autónoma |
 
-### B. IA Generativa
-- **Qué es:** Crea contenido nuevo (texto, imágenes, código, vídeos).
-- **Fortaleza:** Produce resultados originales y adaptativos; alto valor para creatividad y síntesis.
-- **Limitación:** Puede generar contenido falso o "alucinaciones" (confabular información que parece plausible pero es incorrecta).
-- **Caso de uso:** Redacción de reportes, generación de ideas, asistentes de código.
-
-### C. Machine Learning
-- **Qué es:** Aprende patrones a partir de datos etiquetados sin programación explícita.
-- **Fortaleza:** Requiere datos, pero poco ajuste manual de parámetros. Escalable.
-- **Limitación:** Necesita muchos datos de calidad y ajuste fino de hiperparámetros (*tuning*). Sin datos, no hay aprendizaje.
-- **Caso de uso:** Predicción de demanda, segmentación de clientes, detección de fraude.
-
-### D. Deep Learning
-- **Qué es:** Redes neuronales profundas para tareas complejas (visión, procesamiento de lenguaje).
-- **Fortaleza:** Resuelve problemas de altísima complejidad; el estado del arte en muchos dominios.
-- **Limitación:** Alto costo computacional (requiere GPUs/TPUs), interpretabilidad limitada ("cajas negras"), falta de transparencia en decisiones.
-- **Caso de uso:** Visión por computadora, procesamiento de lenguaje natural avanzado, conducción autónoma.
+> **Insight:** Seleccionar el tipo de IA correcto depende de la complejidad del problema, disponibilidad de datos y presupuesto computacional. No siempre "más complejo = mejor".
 
 ---
 
@@ -52,25 +38,15 @@ Existen cuatro categorías principales de IA, cada una con fortalezas y restricc
 
 Una de las decisiones más críticas en la implementación de IA es **¿cuál proyecto implementar primero?** Existen tres ejes fundamentales:
 
-### Criterios de Decisión:
+| **Eje** | **Pregunta Clave** | **Indicadores de Alto Potencial** |
+|--------|------------------|-----------------------------------|
+| **Impacto** | ¿Cuánto valor económico o de eficiencia puede generar? | Reduce costos >30% | Aumenta ingresos | Mejora CX significativamente | Habilita nuevas líneas |
+| **Viabilidad** | ¿Tenemos datos, recursos y tiempo? | Datos históricos disponibles | Expertise técnico interno o presupuesto para contratar | Timeline realista (3-6 meses) |
+| **Riesgo** | ¿Requisitos de confianza? ¿Salidas críticas? | Decisiones no reguladas | Impacto de error es manejable | Privacidad de datos controlada |
 
-**1. Impacto:** ¿Cuánto valor económico o de eficiencia puede generar?
-- ¿El proyecto reduce costos significativamente?
-- ¿Aumenta ingresos o mejora la experiencia del cliente?
-- ¿Habilita nuevas líneas de negocio?
+> **Quick Win Ideal:** Alto impacto + Viabilidad moderada + Bajo riesgo = Prioridad máxima
 
-**2. Viabilidad:** ¿Tenemos los datos, recursos y tiempo suficientes?
-- ¿Existe un conjunto de datos representativo?
-- ¿Contamos con expertise técnico o presupuesto para contratar?
-- ¿Es realista el timeline?
-
-**3. Riesgo:** ¿Qué requisitos de confianza absoluta existen? ¿Hay salidas complejas?
-- ¿El modelo toma decisiones en áreas reguladas (salud, finanzas)?
-- ¿Hay riesgos de seguridad o privacidad de datos?
-- ¿El error tiene consecuencias graves?
-
-### Matriz de Decisión:
-**Prioridad:**  Proyectos con **alto impacto + viabilidad moderada + bajo riesgo** son los "quick wins" ideales.
+**Evitar:** Alto riesgo + viabilidad baja (incluso si el impacto es alto)
 
 ---
 
@@ -80,10 +56,13 @@ Una de las decisiones más críticas en la implementación de IA es **¿cuál pr
 
 Toda solución de IA introduce riesgos que no deben ignorarse. El marco de riesgo incluye cinco categorías críticas:
 
-### Sesgo Algorítmico
-- **Riesgo:** El modelo hereda prejuicios del conjunto de datos de entrenamiento.
-- **Ejemplo:** Un modelo de hiring que rechaza candidatas porque aprendió patrones históricos de discriminación.
-- **Mitigación:** Auditoría de datos, diversidad en conjuntos de entrenamiento, balanceo de clases.
+| **Riesgo** | **Qué Significa** | **Ejemplo Real** | **Mitigación** |
+|-----------|------------------|-----------------|----------------|
+| **Sesgo Algorítmico** | Modelo hereda prejuicios del dataset de entrenamiento | Modelo de hiring rechaza candidatas por patrones históricos discriminatorios | Auditoría datos + Diversidad en entrenamiento + Balanceo de clases |
+| **Privacidad de Datos** | Exposición de datos personales/sensibles; incumplimiento GDPR/CCPA | Modelo con datos de crédito que puede ser re-identificado | Federated learning + Differential privacy + Encriptación |
+| **Interpretabilidad** | Deep Learning como "caja negra"; no se justifican decisiones | Modelo aprueba/rechaza crédito sin explicación auditable | XAI (Explainable AI) + LIME/SHAP + Auditoría decisiones |
+| **Escalabilidad** | GPU/TPU costosas; modelo no deployable en recursos limitados | V100 ($10k+) requerida para entrenar; prohibitivo para pymes | Modelos ligeros + Quantization + Edge computing |
+| **Mantenimiento** | Datos cambian; modelo se degrada en producción (Model Drift) | Detector fraude 2024 falla 2026 por evolución patrones delictivos | MLOps: reentrenamiento automático + Alertas monitoreo |
 
 ### Privacidad de Datos
 - **Riesgo:** Exposición de datos personales o sensibles. Incumplimiento de GDPR, CCPA o normativas locales.
@@ -113,28 +92,26 @@ Toda solución de IA introduce riesgos que no deben ignorarse. El marco de riesg
 
 La IA aporta valor en tres niveles estratégicos. Cada uno tiene un ROI diferente:
 
-### IA Generativa
-**Valor que aporta:**
-- Automatiza tareas creativas (redacción, diseño, ideación).
-- Mejora la toma de decisiones al procesar información masiva.
-- Eleva la experiencia del cliente con interacciones personalizadas.
+### Matriz de Valor por Sector
 
-**Sectores clave:** Marketing, Comunicación, Finanzas, Educación, Customer Service.
+| **Sector** | **Aplicación Principal** | **Tipo de IA Ideal** | **Beneficio Esperado** | **Horizonte ROI** |
+|-----------|-------------------------|---------------------|----------------------|-------------------|
+| **Marketing** | Personalización de campañas, predicción de churn | ML + IA Generativa | +40% engagement, -25% CAC | 3-6 meses |
+| **Comunicación** | Chatbots, análisis de sentimiento en redes | IA Generativa + NLP | -60% tickets manuales, +15% satisfaction | 2-4 meses |
+| **Finanzas** | Detección fraude, scoring crediticio, trading automatizado | Deep Learning + ML | -70% fraude, +30% velocidad aprobaciones | 6-12 meses |
+| **Salud** | Diagnóstico asistido, predicción de enfermedades | Deep Learning (Visión) | +20% precisión diagnóstico, -15% tiempo | 12-24 meses |
+| **Educación** | Personalización de aprendizaje, recomendaciones de cursos | ML | +35% retención, -40% time-to-competency | 4-8 meses |
+| **Customer Service** | Automatización soporte, routing inteligente | IA Generativa + ML | -50% costo operativo, +25% CSAT | 2-6 meses |
 
-### Sectores Clave (Todos los tipos de IA)
-- **Marketing:** Personalización de campañas, predicción de churn.
-- **Comunicación:** Chatbots, análisis de sentimiento en redes sociales.
-- **Finanzas:** Detección de fraude, scoring crediticio, trading automatizado.
-- **Salud:** Diagnóstico asistido, predicción de enfermedades.
-- **Educación:** Personalización de aprendizaje, recomendaciones de cursos.
-- **Customer Service:** Automatización de soporte, routing inteligente de tickets.
+### Tres Fuentes de ROI
 
-### ROI Potencial
-- **Reducción de costos:** Automatización de procesos manuales (ej. RPA + ML).
-- **Mejora de eficiencia:** Procesos más rápidos, menos errores, ciclos acelerados.
-- **Generación de nuevas líneas de negocio:** Productos/servicios completamente nuevos habilitados por IA (ej. asistentes virtuales, análisis predictivo como servicio).
+1. **Reducción de costos:** Automatización de procesos manuales (RPA + ML) → Ahorro directo de nómina
+2. **Mejora de eficiencia:** Procesos más rápidos, menos errores, ciclos acelerados → Mayor throughput con mismo recurso
+3. **Nuevas líneas de negocio:** Productos/servicios completamente nuevos habilitados por IA → Revenue incremental
 
-**Ejemplo práctico:** ChatGPT ha reducido tiempos de redacción de reportes financieros de horas a minutos, liberando recursos para análisis de mayor valor.
+**Ejemplo práctico:** ChatGPT ha reducido tiempos de redacción de reportes financieros de **horas → minutos**, liberando recursos para análisis de mayor valor agregado.
+
+> **Pregunta Estratégica:** ¿La IA en tu organización es un *cost center* (reducir gastos) o *profit center* (generar ingresos)? La respuesta define el presupuesto y timeline.
 
 ---
 
@@ -143,6 +120,25 @@ La IA aporta valor en tres niveles estratégicos. Cada uno tiene un ROI diferent
 ![Fases 1-4: Planteamiento, Recolección, Análisis y Extracción](./diseno-soluciones-ia-plan-investigacion-fases1a4-clase-3.png)
 
 Un proyecto de IA robusto sigue un ciclo científico de 8 fases:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ CICLO DE DESARROLLO DE IA: 8 FASES                          │
+├──────┬──────────────────┬──────┬──────────────────┬─────────┤
+│ Fase │ Entrada          │ Proc │ Salida           │ Duración│
+├──────┼──────────────────┼──────┼──────────────────┼─────────┤
+│  1   │ Problema real    │  →   │ Briefing SMART   │ 1 sem   │
+│  2   │ Fuentes de datos │  →   │ Dataset limpio   │ 4 sem   │
+│  3   │ Datos brutos     │  →   │ Datos preparados │ 3 sem   │
+│  4   │ Variables raw    │  →   │ Features vector  │ 2 sem   │
+│  5   │ Matriz features  │  →   │ Modelo entrenado │ 4 sem   │
+│  6   │ Modelo          │  →   │ Reporte de perf  │ 1 sem   │
+│  7   │ Modelo validado │  →   │ Modelo en API    │ 2 sem   │
+│  8   │ Sistema live    │  →   │ Alertas MLOps    │ Continuo│
+└──────┴──────────────────┴──────┴──────────────────┴─────────┘
+
+Tiempo Total Estimado: 4-6 MESES (si todo va bien)
+```
 
 ### Fase 1: Planteamiento del Problema
 - **Qué hacer:** Definir el objetivo, métricas de éxito, línea base (baseline).
@@ -196,6 +192,22 @@ Si 99% de transacciones son legítimas y 1% fraudulentas, el modelo aprende a pr
 - **Pregunta:** ¿El modelo supera la baseline? ¿Es good enough para producción?
 - **Entregable:** Reporte de evaluación comparativo.
 
+#### Guía Rápida: Métricas de Evaluación por Caso de Uso
+
+| **Métrica** | **Qué mide** | **Cuándo usarla** | **Ejemplo Real** |
+|-----------|-------------|-----------------|-----------------|
+| **Accuracy** | % predicciones correctas | Datos BALANCEADOS | Reconocimiento de dígitos: 98% ✓ |
+| **Precision** | De los positivos predichos, cuántos son reales | Minimizar falsos positivos | Email spam: si dices "spam", acerta >95% |
+| **Recall** | De los positivos reales, cuántos encontraste | Minimizar falsos negativos | Cáncer: encontrar TODOS los casos |
+| **F1-Score** | Balance Precision-Recall | Datos desbalanceados | Fraude: 0.88 F1 = excelente |
+| **AUC-ROC** | Capacidad discriminación (0-1) | Ranking de probabilidades | Crédito: 0.95 AUC = muy buen modelo |
+| **RMSE** | Error promedio (regresión) | Predicción de números | Demanda: RMSE <5% del promedio |
+
+**Regla Práctica:**
+- **Fraude/Cáncer/Seguridad:** Maximiza **Recall** (mejor falso positivo que falso negativo)
+- **Hiring/Crédito:** Maximiza **Precision** (mejor rechazar que aceptar mal)
+- **Balanceado:** Usa **F1-Score** o **AUC-ROC**
+
 ### Fase 7: Puesta de Producción
 - **Qué hacer:** Integrar el modelo en un sistema real (API, app, dashboard).
 - **Consideraciones:** Latencia, escalabilidad, seguridad, versionado.
@@ -208,9 +220,69 @@ Si 99% de transacciones son legítimas y 1% fraudulentas, el modelo aprende a pr
 
 ---
 
-## 7. Próxima Actividad
+### Tabla Resumen: Las 8 Fases de un Proyecto de IA
+
+| **Fase** | **Nombre** | **Input** | **Actividad Clave** | **Output** | **Duración** | **Criterio de Éxito** |
+|----------|-----------|----------|---------------------|-----------|------------|----------------------|
+| 1 | Planteamiento | Problema empresarial | Definir objetivos SMART, métricas | Briefing con línea base | 1 semana | Objetivos claros y medibles |
+| 2 | Recolección & Etiquetado | Fuentes de datos | Muestreo, labeling, QA | Dataset limpio etiquetado | 4 semanas | Datos balanceados y auditables |
+| 3 | Análisis Exploratorio | Datos brutos | Limpieza, normalización, vectorización | Datos preparados | 3 semanas | 0% valores nulos, escala normalizada |
+| 4 | Feature Engineering | Datos preprocessados | Extracción variables relevantes | Matriz de características | 2 semanas | Features correlacionadas y reducidas |
+| 5 | Modelado | Features vector | Selección algoritmo, tuning | Modelo entrenado | 4 semanas | Cross-validation >0.8 score |
+| 6 | Evaluación | Modelo candidato | Testing con datos holdout | Reporte de performance | 1 semana | Supera baseline; F1 >0.85 |
+| 7 | Producción | Modelo validado | Deployment en API/app | Modelo versionado en vivo | 2 semanas | <200ms latencia, uptime >99% |
+| 8 | Monitoreo | Sistema en producción | Alertas de drift, reentrenamiento | MLOps pipeline | Continuo | Model Drift <5% / mes |
+
+**Insight:** El 60% del tiempo se invierte en fases 2-4 (datos). No apresures. Datos malos = modelo malos.
+
+---
+
+## 7. Checklist de Calidad Antes de Deployar
+
+> ✅ **Antes de poner cualquier modelo en producción, verifica estos puntos críticos:**
+
+- [ ] **Objetivo:** ¿Está claro qué resolvemos y cómo medimos éxito?
+- [ ] **Datos:** ¿Dataset es representativo, balanceado y libre de sesgos obvios?
+- [ ] **Validación:** ¿Cross-validation aprueba? ¿Performance en test set es consistente?
+- [ ] **Comparación:** ¿Modelo supera baseline por margen significativo (>10%)?
+- [ ] **Interpretabilidad:** ¿Podemos explicar por qué el modelo decide X vs Y?
+- [ ] **Riesgos:** ¿Auditamos sesgo, privacidad, escalabilidad computacional?
+- [ ] **Monitoreo:** ¿Tenemos alertas para Model Drift, errores, performance?
+- [ ] **Documentación:** ¿Está documentado el modelo, versión, parámetros, limitations?
+- [ ] **Rollback:** ¿Podemos volver a versión anterior en caso de falla?
+- [ ] **Stakeholder:** ¿Presentamos resultados y riesgos al negocio/legal/compliance?
+
+**Si NO marcas todos, aún no está listo. Espera.**
+
+---
+
+## 9. Glosario Visual: Términos Clave de IA
+
+| **Término** | **Definición** | **Sinónimo/Contexto** |
+|-----------|--------------|---------------------|
+| **Baseline** | Modelo simple (ej. regresión lineal) que sirve de referencia. Tu IA debe superar esto. | Punto de comparación |
+| **Cross-Validation** | Dividir datos múltiples veces para validación robusta sin "peek" en test set. | K-fold CV (típicamente 5 o 10) |
+| **Overfitting** | Modelo memoriza entrenamiento pero falla en datos nuevos. Síntoma: train accuracy 99%, test 60%. | Aprendizaje memorístico |
+| **Underfitting** | Modelo demasiado simple; ni siquiera entiende el patrón principal. Síntoma: train y test ambos ~50%. | Modelo ingenuo |
+| **Hiperparámetro** | Configuración que TÚ eliges antes de entrenar (learning rate, depth de árbol). NO se aprende. | Diales a ajustar |
+| **Feature** | Variable de entrada. Ej: edad, ingreso, historial de compras. | Atributo, característica |
+| **Target/Label** | Variable que predices. Ej: "compra sí/no", "precio estimado", "riesgo alto/bajo". | Objetivo, clase |
+| **Model Drift** | Performance degrada en producción porque datos reales cambiaron vs entrenamiento. | Data shift, concept drift |
+| **Embeddings** | Representación numérica densa de texto/imágenes en vectores. Ej: palabra2vec. | Vectores densos, representaciones |
+| **MLOps** | Prácticas DevOps aplicadas a ML: versionado, CI/CD, monitoreo, reentrenamiento automático. | Machine Learning Operations |
+| **SMOTE** | Técnica para generar datos sintéticos de clase minoritaria y balancear dataset. | Oversampling sintético |
+| **Federated Learning** | Entrenar modelo sin centralizar datos; datos permanecen en dispositivos. | Privacy-preserving ML |
+
+---
+
+## 10. Próxima Actividad
 
 Los alumnos aplicarán estos conceptos eligiendo un problema de su organización y mapeando las 8 fases del desarrollo de un proyecto de IA, considerando riesgos, viabilidad e impacto.
+
+### Entregable esperado:
+- **Documento:** 2-3 páginas con problema, dataset disponible, 8 fases desglosadas, riesgos identificados, timeline y ROI estimado.
+- **Formato:** Markdown o Google Doc con enfoque empresarial (no solo técnico).
+- **Consideraciones:** Puede ser proyecto ficticio o real de experiencia personal.
 
 ---
 
