@@ -64,7 +64,25 @@ Toda solución de IA introduce riesgos que no deben ignorarse. El marco de riesg
 | **Escalabilidad** | GPU/TPU costosas; modelo no deployable en recursos limitados | V100 ($10k+) requerida para entrenar; prohibitivo para pymes | Modelos ligeros + Quantization + Edge computing |
 | **Mantenimiento** | Datos cambian; modelo se degrada en producción (Model Drift) | Detector fraude 2024 falla 2026 por evolución patrones delictivos | MLOps: reentrenamiento automático + Alertas monitoreo |
 
-> **Regla de Oro:** Antes de deployar un modelo, audita todos estos riesgos. "Precisa" no es suficiente; debe ser **justo, seguro y auditable**.
+### Privacidad de Datos
+- **Riesgo:** Exposición de datos personales o sensibles. Incumplimiento de GDPR, CCPA o normativas locales.
+- **Ejemplo:** Un modelo entrenado con datos de crédito que puede ser re-identificado.
+- **Mitigación:** *Federated learning* (entrenamiento distribuido), *differential privacy* (ruido matemático para proteger identidades).
+
+### Interpretabilidad (Explainability)
+- **Riesgo:** Modelos complejos (Deep Learning) funcionan como "cajas negras": no se sabe por qué el modelo toma una decisión.
+- **Ejemplo:** Un modelo de deep learning aprueba/rechaza un crédito, pero nadie sabe la lógica detrás.
+- **Solución:** **XAI (Explainable AI)** — técnicas para abrir la caja negra y justificar decisiones.
+
+### Escalabilidad Computacional
+- **Riesgo:** Entrenar modelos grandes requiere GPU/TPU costosas. El modelo puede no ser deployable en recursos limitados.
+- **Ejemplo:** Un modelo de deep learning necesita una GPU NVIDIA Tesla V100 ($10k+) cada vez que se entrena.
+- **Implicación:** Barrera económica para pymes. Latencia en producción si el hardware es insuficiente.
+
+### Mantenimiento en Producción
+- **Riesgo:** Los datos cambian, el modelo se degrada. Requiere monitoreo y reentrenamiento continuo.
+- **Ejemplo:** Un modelo de detección de fraude de 2024 falla en 2026 porque los patrones delictivos evolucionaron.
+- **Solución:** MLOps — pipeline automatizado para reentrenamiento, versionado de modelos y alertas de degradación.
 
 ---
 
@@ -153,7 +171,7 @@ Tiempo Total Estimado: 4-6 MESES (si todo va bien)
 6. **Rebalanceo de Clases:** Si los datos están desbalanceados (ej. 80% positivos, 20% negativos), usar SMOTE para generar datos sintéticos.
 
 #### Ejemplo crítico:
-Si 99% de transacciones son legítimas y 1% fraudulentas, el modelo aprende a predecir "siempre legítimo" y alcanza 99% de accuracy. Falso positivo. Hay que balancear.
+Si 99% de transacciones son legítimas y 1% fraudulentas, el modelo aprende a predecir "siempre legítimo" y alcanza 99% de accuracy. El problema real son los **falsos negativos**: fraudes no detectados. Hay que balancear.
 
 - **Entregable:** Dataset limpio, normalizado, vectorizado y balanceado listo para modelado.
 
