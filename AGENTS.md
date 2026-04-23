@@ -59,9 +59,15 @@ Si el contenido es de arquitectura empresarial, puedes apoyarte en temas como:
 
 - Cada curso vive en su propia carpeta, por ejemplo: `2026-1/{curso}/`.
 - Cada clase vive en su propia carpeta dentro del curso: `2026-1/{curso}/clase-X/`.
+- **OBLIGATORIO:** Cada carpeta de curso debe tener un `README.md` que actúe como **índice centralizado**.
+- El README de curso debe incluir:
+  - Tabla de contenidos con enlaces directos a cada archivo `.md`
+  - Sección "Índice Completo de Recursos" agrupada por clase/actividad
+  - Menciones de gráficos asociados
+  - Enlaces a recursos transversales
 - No crees subcarpetas dentro de `clase-X/`.
 - Usa nombres semánticos para archivos Markdown e imágenes.
-- Si agregas una nueva clase, actualiza también el `README.md`.
+- Si agregas una nueva clase, actualiza también el `README.md` del curso con el nuevo índice.
 
 ## Reglas al crear documentación
 
