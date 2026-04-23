@@ -19,6 +19,7 @@ Este repositorio se enfoca en capturar lo más importante de cada sesión de for
 |---|---|---|---|
 | 1 | Fundamentos de Arquitectura Empresarial | Richard Anthony Romero Mori | [Ver](2026-1/arq-empresarial/clase-1/arquitectura-empresarial-fundamentos-clase-1.md) |
 | 2 | Frameworks TOGAF y Zachman | Richard Anthony Romero Mori | [Ver](2026-1/arq-empresarial/clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) |
+| 3 | Modelado Arquitectónico y Capas | Richard Anthony Romero Mori | [Ver](2026-1/arq-empresarial/clase-3/modelado-arquitectonico-capas-clase-3.md) |
 
 ---
 
@@ -93,6 +94,9 @@ _meta/
 │   │   ├── arquitectura-empresarial-fundamentos-clase-2.png
 │   │   ├── zachman-togaf-relacion-clase-2.png
 │   │   └── zachman-matriz-cobertura-6x6-clase-2.png
+│   ├── clase-3/
+│   │   └── modelado-arquitectonico-capas-clase-3.md
+
 │   └── ...
 ├── customer-centricity-ti/
 │   ├── clase-1/
