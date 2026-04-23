@@ -175,7 +175,7 @@ Un proyecto de IA robusto sigue un ciclo científico de 8 fases:
 6. **Rebalanceo de Clases:** Si los datos están desbalanceados (ej. 80% positivos, 20% negativos), usar SMOTE para generar datos sintéticos.
 
 #### Ejemplo crítico:
-Si 99% de transacciones son legítimas y 1% fraudulentas, el modelo aprende a predecir "siempre legítimo" y alcanza 99% de accuracy. Falso positivo. Hay que balancear.
+Si 99% de transacciones son legítimas y 1% fraudulentas, el modelo aprende a predecir "siempre legítimo" y alcanza 99% de accuracy. El problema real son los **falsos negativos**: fraudes no detectados. Hay que balancear.
 
 - **Entregable:** Dataset limpio, normalizado, vectorizado y balanceado listo para modelado.
 
