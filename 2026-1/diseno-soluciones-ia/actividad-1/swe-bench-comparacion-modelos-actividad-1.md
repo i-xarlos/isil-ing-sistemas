@@ -45,11 +45,47 @@ Se seleccionaron **2 modelos frontera por compañía**, priorizando los más rec
 
 ---
 
-## 4. Gráfico comparativo
+## 4. Gráficos Comparativos y Contexto
 
+### SWE-bench Verified — Comparación Principal
 ![Comparación SWE-bench Verified — Anthropic vs OpenAI](./swe-bench-comparacion-modelos-actividad-1.png)
 
 > El asterisco (`*`) en Claude Opus 4.5 indica que la cifra proviene de una fuente de terceros (ver sección de Fuentes).
+
+### Comparativa de Modelos Frontera en Diferentes Dominios
+![Rendimiento de Modelos (Visión General)](./modelos-claude-3-5-comparativa-actividad-1.png)
+
+Este gráfico desglosa el rendimiento general en múltiples benchmarks (Matemáticas, Programación, Visual Q/A, Agentes).
+- **Métrica Clave:** Muestra el liderazgo de Claude 3.5 Sonnet (49.0%) y herramientas como "TAU-bench" para el uso de herramientas *agentic* (69.2% en retail).
+- **Fuente de la imagen:** Tabla comparativa original de capacidades frente a otros modelos (como GPT-4o y Gemini 1.5 Pro).
+
+### Comprensión de Contexto Largo y Razonamiento Secuencial
+![MRCR v2 (8-needle) - Comprensión a Largo Contexto](./mrcrv2-benchmark-actividad-1.png)
+
+A diferencia de resolver un bug, el test **MRCR v2 (Multi-Round Co-Reference Resolution)** desafía al modelo a encontrar y distinguir múltiples instancias idénticas o confusas (hasta 8 "agujas") dentro de un documento inmenso de **1 millón de tokens**. Esto requiere leer miles de páginas sin perder el hilo y tener un razonamiento secuencial infalible.
+
+**¿Cómo funciona esta prueba extrema ("8-needles")?**
+- **La aguja en el pajar tradicional:** Esconde un dato único (ej. "La contraseña del servidor es 1234") dentro de un documento inmenso. Casi todas las IAs actuales pasan esto.
+- **El reto de MRCR v2:** Esconde múltiples datos casi idénticos. Si le das a la IA un millón de tokens y le pides *"identifica exactamente qué decía el **cuarto** poema sobre el océano"*, el modelo no puede solo buscar la palabra "océano", tiene que leer todo, aislar todos los poemas, ordenarlos en la mente y darte el cuarto sin confundirse.
+
+- **Aporte:** El gráfico revela un caso de "regresión técnica" en la familia de modelos. En esta métrica específica, **Claude Opus 4.6 domina aplastantemente (78.3%)** gracias a su bloque de "razonamiento extendido de 61k". En contraste, los modelos de ultimísima generación colapsan al procesar esa escala de dificultad: **GPT-5.4** logra ~36.6%, **Gemini-3.1-Pro** ~32.2%, y el mismísimo **Opus 4.7** cae a ~25.9%. Esto demuestra a los ingenieros de software que, dependiendo de la naturaleza extrema de la tarea (como la retención a largo plazo), la versión más reciente no siempre es la herramienta óptima.
+- **Impacto en el mundo real:** En Ingeniería de Software, los historiales no son limpios. Si le das a una IA el historial de un año de correos corporativos y le pides *"Dime qué acordamos de la arquitectura en la **segunda** reunión con el cliente X"*, los modelos más nuevos sufren "mareos" al ordenar secuencias repetitivas en contextos kilométricos, algo que Opus 4.6 resolvía excepcionalmente.
+- **Fuentes extraídas (OCR y Documento oficial del curso):** *Figure 8.7.2.B: Claude Opus 4.7 on long context comprehension and precise sequential reasoning at 1 million tokens measured through OpenAI MRCR v2 8 needles (Opus 4.7 System Card, p. 195).*
+
+### Mejoras en Tareas Documentales Corporativas y Financieras
+![Mejoras Documentales - Opus 4.6 vs Opus 4.7](./tareas-documentales-opus-actividad-1.png)
+
+Este gráfico detalla el salto evolutivo entre Opus 4.6 y Opus 4.7 en dominios corporativos altamente especializados. Mide qué tan bien la IA puede razonar sobre documentos financieros densos o manejar flujos de trabajo administrativos.
+
+**Conceptos clave y rendimiento (basado en el *System Card* oficial de Anthropic):**
+- **OfficeQA / OfficeQA Pro:** Mide la precisión al extraer datos y estructurar respuestas sobre documentos de oficina heterogéneos (informes largos, hojas de cálculo, presentaciones). Opus 4.7 demuestra un dominio corporativo: supera el **86.3 %** en OfficeQA estándar y el **80.6 %** en "Pro", superando drásticamente a Opus 4.6 (73.5% y 57.1% respectivamente).
+- **Finance Agent:** Evalúa la capacidad analítica en finanzas (extracciones en balances, cálculo de riesgos, proyecciones financieras). Aunque es el área general de mayor desafío para las IAs (Opus 4.7 logra **64.4 %** frente al **60.1 %** de Opus 4.6), la superioridad de la versión nueva se impone, demostrando capacidades robustas de *agentic workflows*.
+- **Conclusión práctica:** Mientras que Opus 4.6 era un modelo con memoria de acero, Opus 4.7 es significativamente mejor comprendiendo instrucciones documentales complejas y operando "autónomamente" (Agents) de cara al mundo laboral, a pesar de sus carencias en la retención secuencial colosal comprobada en el test de MRCR.
+
+**Fuentes detalladas del gráfico:**
+- **Datos base:** Anthropic (16 de abril de 2026). *Claude Opus 4.7 System Card* (Tabla 8.1.A, pág. 192; sección OfficeQA, pág. 209; sección Finance Agent, pág. 210). Adicionalmente, el documento interno confirma que existe un nivel superior experimental de límite acceso llamado "Claude Mythos Preview".
+- **Benchmarks utilizados:** *OfficeQA benchmark repository* (Databricks & collaborators, 2025) y *Finance Agent benchmark paper* (Vals AI, 2025).
+- **Autoría de la visualización:** Gráfico elaborado por Freddy Vega para Platzi.
 
 ---
 
@@ -79,8 +115,10 @@ Completa las siguientes tareas y documenta tus respuestas en un archivo `entrega
 
 #### Tarea 1 — Verifica y amplía la tabla
 
-1. Revisa las fuentes oficiales listadas en la tabla.
-2. Busca si existen cifras actualizadas para alguno de los cuatro modelos.
+> **Nota clave (Escenario 2026):** Si algunos enlaces listados en la tabla arrojan error por tratarse de simulaciones (como versiones Opus 4.7, GPT-5.4 o GPT-4.1), básate en las descripciones provistas en el presente documento y las imágenes extraídas.
+
+1. Revisa las fuentes oficiales listadas en la tabla y los gráficos anexos.
+2. Busca si existen cifras actualizadas para alguno de los modelos mencionados.
 3. Añade una columna **"Contexto máximo (tokens)"** con el valor de cada modelo.
 
 #### Tarea 2 — Interpreta los resultados
