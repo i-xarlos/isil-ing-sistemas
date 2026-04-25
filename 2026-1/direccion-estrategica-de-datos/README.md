@@ -12,6 +12,14 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 
 ---
 
+## Actividades Prácticas
+
+| # | Tema | Descripción | Solución |
+|---|------|-------------|----------|
+| PA001 | **Transformación Data-Driven en Empresa Global** | Diagnóstico, propuesta estratégica, modelo de negocio, gobernanza y riesgos del caso Glovo | [✅ Caso Glovo](./act-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) |
+
+---
+
 ## Contenido por Clase
 
 | # | Tema | Descripción | Recurso | PPT |
@@ -35,6 +43,9 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 ### Clase 3: Gobernanza de Datos y Políticas Digitales
 - 📄 [gobernanza-datos-politicas-digitales-clase-3.md](./clase-3/gobernanza-datos-politicas-digitales-clase-3.md)
 - 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
+
+### Actividades
+- ✅ [direccion-estrategica-de-datos-pa001-glovo-solucion.md](./act-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) — Caso Glovo: diagnóstico, estrategia, gobernanza y riesgos
 
 ---
 
