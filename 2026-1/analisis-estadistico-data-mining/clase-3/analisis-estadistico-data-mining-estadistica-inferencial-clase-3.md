@@ -158,7 +158,7 @@ Usa muestras para hacer inferencias sobre poblaciones completas mediante probabi
 
 ### Probabilidad
 
-Mide likelihood de eventos, base para estimaciones y pruebas estadísticas.
+Mide la probabilidad de eventos, base para estimaciones y pruebas estadísticas.
 
 **Ejemplo práctico:** Probabilidad de lluvia basada en datos históricos para planificar eventos al aire libre.
 

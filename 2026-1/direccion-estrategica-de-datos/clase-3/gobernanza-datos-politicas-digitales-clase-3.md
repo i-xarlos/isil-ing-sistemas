@@ -1,4 +1,12 @@
-Esta sesión de clase, liderada por la profesora **Brezli Paola Luna Figueroa**, se centra en la **Gobernanza de Datos y Políticas Digitales**. A continuación, presento un resumen detallado y estructurado por los temas clave tratados durante la hora y media de grabación:
+# Gobernanza de Datos y Políticas Digitales (Clase 3)
+
+**Curso:** Dirección Estratégica de Datos (ISIL, 2026-1)  
+**Docente:** Brezli Paola Luna Figueroa  
+**Fecha:** 23/04/2026
+
+---
+
+Esta sesión de clase, liderada por la profesora **Brezli Paola Luna Figueroa**, se centra en la **Gobernanza de Datos y Políticas Digitales**.
 
 ---
 

@@ -19,14 +19,10 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 | 1 | **Introducción a Dirección Estratégica de Datos** | Definición, rol CDO, estrategias 2026, cases | [📄](./clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md) | [📊](./clase-1/resumen-ppt-clase-1.md) |
 | 2 | **Estrategias de Datos: Casos Prácticos** | Transformación digital, governance, ROI empresarial | [📄](./clase-2/estrategias-datos-casos-practicos-clase-2.md) | [📊](./clase-2/resumen-ppt-clase-2.md) |
 | 3 | **Gobernanza de Datos y Políticas Digitales** | Riesgos, regulación, metadatos, casos SUNAT | [📄](./clase-3/gobernanza-datos-politicas-digitales-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
-| 3 | **Gobernanza de Datos y Políticas Digitales** | Riesgos, regulación, metadatos, casos SUNAT | [📄](./clase-3/gobernanza-datos-politicas-digitales-clase-3.md) |
 
 ---
 
 ## Índice Completo de Recursos
-
-### Clase 1: Introducción a Dirección Estratégica de Datos
-- 📄 [direccion-estrategica-de-datos-introduccion-clase-1.md](./clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md)
 
 ### Clase 1: Introducción a Dirección Estratégica de Datos
 - 📄 [direccion-estrategica-de-datos-introduccion-clase-1.md](./clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md)
@@ -47,15 +43,17 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 ```
 direccion-estrategica-de-datos/
 ├── clase-1/
-│   ├── README.md
-│   └── direccion-estrategica-de-datos-introduccion-clase-1.md
+│   ├── direccion-estrategica-de-datos-introduccion-clase-1.md
+│   ├── resumen-ppt-clase-1.md
+│   └── 40062-S01-PPT.pptx
 ├── clase-2/
-│   ├── README.md
-│   └── estrategias-datos-casos-practicos-clase-2.md
+│   ├── estrategias-datos-casos-practicos-clase-2.md
+│   ├── resumen-ppt-clase-2.md
+│   └── 40062-S02-PPT.pptx
 ├── clase-3/
 │   ├── gobernanza-datos-politicas-digitales-clase-3.md
 │   ├── resumen-ppt-clase-3.md
-│   └── gobernanza-datos-politicas-digitales-clase-3.pptx
+│   └── 40062-S03-PPT.pptx
 └── README.md (este archivo)
 ```
 

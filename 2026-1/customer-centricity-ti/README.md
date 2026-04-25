@@ -18,7 +18,7 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 |---|------|-------------|----------|-----|
 | 1 | **Customer Centricity y Agilidad en TI** | Definición, beneficios, casos empresariales | [📄](./clase-1/customer-centricity-agilidad-ti-clase-1.md) | [📊](./clase-1/resumen-ppt-clase-1.md) |
 | 2 | **Customer Centricity y Agilidad: Scrum** | Framework Scrum, roles, ceremonias, sprints | [📄](./clase-2/customer-centricity-agilidad-scrum-clase-2.md) | [📊](./clase-2/resumen-ppt-clase-2.md) |
-| 3 | **Scrum en Profundidad** | Eventos Scrum, métricas, aplicación práctica | [📄](./clase-3/scrum-profundidad-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
+| 3 | **Scrum en Profundidad** | Eventos Scrum, métricas, aplicación práctica | — | [📊](./clase-3/resumen-ppt-clase-3.md) |
 
 ---
 
@@ -33,7 +33,6 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 - 📊 [resumen-ppt-clase-2.md](./clase-2/resumen-ppt-clase-2.md)
 
 ### Clase 3: Scrum en Profundidad
-- 📄 [scrum-profundidad-clase-3.md](./clase-3/scrum-profundidad-clase-3.md)
 - 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
 
 ---

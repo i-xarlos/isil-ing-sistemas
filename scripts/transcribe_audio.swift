@@ -104,10 +104,11 @@ func performTranscription(from fileURL: URL) {
     // Crear una solicitud de reconocimiento
     let request = SFSpeechURLRecognitionRequest(url: fileURL)
 
-    // Iniciar la transcripción
-    recognizer.recognitionTask(with: request) { result, error in
+    // Iniciar la transcripción manteniendo referencia fuerte a la tarea
+    let task = recognizer.recognitionTask(with: request) { result, error in
         if let error = error {
             print("Error en la transcripción: \(error.localizedDescription)")
+            CFRunLoopStop(CFRunLoopGetMain())
             return
         }
 
@@ -115,9 +116,11 @@ func performTranscription(from fileURL: URL) {
             print("Transcripción: \(result.bestTranscription.formattedString)")
             if result.isFinal {
                 print("Transcripción completada.")
+                CFRunLoopStop(CFRunLoopGetMain())
             }
         }
     }
+    _ = task  // retener referencia para evitar cancelación prematura
 }
 
 // Función principal
@@ -144,7 +147,7 @@ func main() {
         print("Transcribiendo audio desde: \(audioFilePath)")
         transcribeAudio(from: fileURL)
 
-        // Mantener el programa corriendo hasta que termine la transcripción
+        // Esperar hasta que el callback detenga el RunLoop (CFRunLoopStop)
         RunLoop.main.run()
     } else {
         // Modo tiempo real
