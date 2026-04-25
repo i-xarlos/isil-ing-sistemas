@@ -198,6 +198,38 @@ La resistencia interna es el mayor obstáculo en proyectos de datos. Un sistema 
 
 Los tres pilares de una estrategia de datos efectiva:
 
+## Transcripción del PPT: Estrategias de Datos
+
+### Estrategias de Datos
+
+Estrategias de datos incluyen planes para recopilar, gestionar y analizar datos para apoyar objetivos de negocio. Incluyen gobierno, calidad y análisis predictivo.
+
+**Ejemplo práctico:** Una empresa de retail desarrolla estrategia para usar datos de clientes en lealtad, aumentando retención y ventas cruzadas.
+
+### Casos Prácticos
+
+- **Sector Financiero:** Mejora calidad de datos para reducir errores en cobranzas.
+- **Sector Público:** Interoperabilidad para servicios ciudadanos eficientes.
+- **Manufactura:** Monitoreo en tiempo real para optimizar cadena de suministro.
+
+**Ejemplo práctico:** Un hospital usa datos para predecir admisiones, optimizando recursos y reduciendo tiempos de espera.
+
+### Viabilidad de Proyectos de Datos
+
+Evaluar factibilidad técnica, económica y operativa antes de implementar. Incluir ROI, riesgos y alineación estratégica.
+
+**Ejemplo práctico:** Antes de implementar BI, calcular costo vs. beneficios como reducción de inventario excedente.
+
+### Beneficios y Desafíos
+
+**Beneficios:** Mejor toma de decisiones, eficiencia operativa, innovación.
+
+**Desafíos:** Calidad de datos, privacidad, cambio cultural.
+
+**Ejemplo práctico:** Una startup enfrenta desafíos de privacidad al manejar datos sensibles, pero beneficia con insights precisos para crecimiento.
+
+---
+
 1. **Calidad:** los datos deben ser correctos, completos y actualizados.
 2. **Gobierno:** debe haber reglas claras sobre quién gestiona qué datos y cómo.
 3. **Alineación:** la estrategia de datos debe servir al objetivo del negocio, no existir por sí sola.

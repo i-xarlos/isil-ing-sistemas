@@ -149,6 +149,37 @@ Resume el enfoque general de la sesión: la IA ya no es solo un tema técnico, s
 
 Presenta la definición general de IA y las ramas principales vistas en clase: **Machine Learning**, **NLP**, **Visión Computacional** y modelos **generativos**.
 
+## Transcripción del PPT: Inteligencia Artificial y sus Ramas
+
+### Inteligencia Artificial
+
+Campo de la informática que crea sistemas para realizar tareas que requieren inteligencia humana, como aprendizaje, razonamiento y percepción.
+
+**Ejemplo práctico:** Un sistema de IA en un coche autónomo navega carreteras, detectando obstáculos y tomando decisiones en tiempo real.
+
+### Machine Learning
+
+Subcampo de IA donde algoritmos aprenden de datos para hacer predicciones sin programación explícita.
+
+**Ejemplo práctico:** Un modelo ML predice ventas futuras basado en datos históricos, ayudando a una tienda a gestionar inventario.
+
+### Deep Learning
+
+Tipo de ML que usa redes neuronales profundas para modelar datos complejos, inspirado en el cerebro humano.
+
+**Ejemplo práctico:** Deep learning en reconocimiento facial identifica personas en fotos para seguridad en aeropuertos.
+
+### Ramas de la IA
+
+- **NLP:** Procesamiento de lenguaje natural para entender y generar texto.
+- **Visión por Computadora:** Análisis de imágenes y videos.
+- **Robótica:** Integración de IA en robots para tareas físicas.
+- **IA Ética:** Consideraciones morales en desarrollo y uso de IA.
+
+**Ejemplo práctico:** NLP en un chatbot responde preguntas de clientes, mejorando soporte en una empresa de telecomunicaciones.
+
+---
+
 ### Imagen 3: inteligencia-artificial-capacidades-clave-clase-2.png
 
 ![Capacidades clave de la inteligencia artificial](inteligencia-artificial-capacidades-clave-clase-2.png)

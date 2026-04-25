@@ -97,6 +97,56 @@ Un **MLP** cuida:
 
 > **Idea clave para el examen:** un **MVP** puede ser rudo pero funcional. Un **MLP** ya considera cómo se *siente* el usuario al usarlo. Ambos son válidos, pero en momentos distintos del desarrollo.
 
+## Transcripción del PPT: Definición y Conceptos Clave
+
+### Fundamentos y Conceptos del Customer Centricity
+
+- **Producto Mínimo Viable (MVP):** Versión básica que incluye características esenciales para validar la idea con retroalimentación rápida.
+
+**Ejemplo práctico:** Una startup de delivery lanza una app simple que solo permite pedir pizza por teléfono, sin GPS. Valida demanda antes de invertir en mapas y pagos online.
+
+- **Minimum Lovable Product (MLP):** Evolución del MVP que agrega valor emocional para deleitar usuarios desde el inicio.
+
+**Ejemplo práctico:** Una app de fitness no solo cuenta pasos, sino que envía mensajes motivadores diarios, creando conexión emocional.
+
+### Relación entre CX, UX y UI
+
+- **CX (Customer Experience):** Todas las interacciones con la marca, incluyendo servicio y reputación.
+- **UX (User Experience):** Interacción con la app, enfocada en efectividad, accesibilidad y credibilidad.
+- **UI (User Interface):** Diseño visual, como botones y layouts.
+
+**Ejemplo práctico:** En un banco online, CX incluye atención al cliente, UX la facilidad de transferencias, UI los colores amigables. Una buena UI mejora UX, que soporta CX positiva.
+
+### Pivot o “Pivotear”
+
+Cambiar estrategia basada en retroalimentación: producto, público o modelo de negocio.
+
+**Ejemplo práctico:** Una app de recetas que pivotea de comidas saludables a rápidas después de ver que usuarios prefieren velocidad sobre nutrición.
+
+### Importancia en Desarrollo de Soluciones Tecnológicas
+
+- Comprensión profunda del cliente: recopilar datos de necesidades.
+- Enfoque en experiencia: desarrollar con input de usuarios.
+- Personalización: adaptar a necesidades únicas.
+
+**Ejemplo práctico:** Una tienda online usa IA para recomendar productos basados en historial, personalizando experiencia y aumentando ventas.
+
+### Principales Beneficios y Desafíos
+
+**Beneficios:** Velocidad de aprendizaje, herramientas disponibles, predisposición a colaborar.
+
+**Desafíos:** Competencia rápida, mercado volátil, necesidad de innovación constante.
+
+**Ejemplo práctico:** En e-commerce, beneficios incluyen iteración rápida para mejorar checkout; desafíos como adaptarse a tendencias como compras por voz.
+
+### Análisis de Casos de Éxito y Fracaso
+
+**Éxito: Airbnb** Evolucionó de alquiler de habitaciones a experiencias globales mediante iteración.
+
+**Fracaso: Empresas como Favo** Fracasaron por falta de adaptación y valor claro.
+
+**Ejemplo práctico:** Una empresa de taxis tradicionales fracasa al no pivotear a apps como Uber, perdiendo mercado por no escuchar a usuarios.
+
 ---
 
 ## 3. CX, UX y UI: diferencias clave

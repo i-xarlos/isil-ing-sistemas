@@ -149,6 +149,38 @@ Lo que el curso espera del alumno y del proyecto:
 
 > El criterio de éxito no es "usar IA": es demostrar que la solución resuelve el problema, con datos, con modelo y con impacto medible.
 
+## Transcripción del PPT: Introducción al Diseño de Soluciones con IA
+
+### Introducción al Diseño de Soluciones con IA
+
+El diseño de soluciones con IA implica identificar problemas, seleccionar tecnologías apropiadas y crear prototipos funcionales. Enfocado en impacto de negocio.
+
+**Ejemplo práctico:** Una empresa de retail diseña solución IA para predecir demanda de productos, reduciendo inventario y costos.
+
+### Metodología del Curso
+
+Aprender haciendo: identificar problemas, preparar datos, modelar y prototipar. Usar Python y Colab para implementación práctica.
+
+**Ejemplo práctico:** Estudiantes desarrollan modelo de clasificación para detectar fraudes en transacciones bancarias, aprendiendo desde limpieza de datos hasta despliegue.
+
+### Conceptos Clave
+
+- **Machine Learning:** Algoritmos que aprenden de datos para predicciones.
+- **NLP:** Procesamiento de lenguaje natural para análisis de texto.
+- **Visión por Computadora:** Análisis de imágenes y videos.
+
+**Ejemplo práctico:** Usar NLP para analizar reseñas de clientes y mejorar productos en una app de e-commerce.
+
+### Casos Prácticos
+
+- **Predicción de Ventas:** Usar ML para forecasting.
+- **Chatbots:** Implementar NLP para soporte al cliente.
+- **Reconocimiento de Imágenes:** Aplicar visión por computadora en seguridad.
+
+**Ejemplo práctico:** Un hospital usa IA para diagnosticar enfermedades desde radiografías, acelerando tratamientos.
+
+---
+
 ---
 
 ## Conceptos relacionados en otros cursos

@@ -14,11 +14,11 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 
 ## Contenido por Clase
 
-| # | Tema | Descripción | Recurso |
-|---|------|-------------|----------|
-| 1 | **Fundamentos de Arquitectura Empresarial** | Definiciones, conceptos clave, marcos TOGAF y Zachman | [📄](./clase-1/arquitectura-empresarial-fundamentos-clase-1.md) |
-| 2 | **Zachman y TOGAF: Relación y Aplicación** | Comparación de frameworks, matriz Zachman 6×6, ADM | [📄](./clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) |
-| 3 | **Modelado Arquitectónico y Capas** | Vistas, capas de negocio, roadmaps de capacidad | [📄](./clase-3/modelado-arquitectonico-capas-clase-3.md) |
+| # | Tema | Descripción | Recurso | PPT |
+|---|------|-------------|----------|-----|
+| 1 | **Fundamentos de Arquitectura Empresarial** | Definiciones, conceptos clave, marcos TOGAF y Zachman | [📄](./clase-1/arquitectura-empresarial-fundamentos-clase-1.md) | [📊](./clase-1/resumen-ppt-clase-1.md) |
+| 2 | **Zachman y TOGAF: Relación y Aplicación** | Comparación de frameworks, matriz Zachman 6×6, ADM | [📄](./clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) | [📊](./clase-2/resumen-ppt-clase-2.md) |
+| 3 | **Modelado Arquitectónico: Capas y Niveles** | Vistas, mapas de capacidades, hojas de ruta, lenguajes | [📄](./clase-3/modelado-arquitectonico-capas-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
 
 ---
 
@@ -26,6 +26,15 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 
 ### Clase 1: Fundamentos
 - 📄 [arquitectura-empresarial-fundamentos-clase-1.md](./clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
+- 📊 [resumen-ppt-clase-1.md](./clase-1/resumen-ppt-clase-1.md)
+
+### Clase 2: Zachman y TOGAF
+- 📄 [arquitectura-empresarial-zachman-togaf-clase-2.md](./clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md)
+- 📊 [resumen-ppt-clase-2.md](./clase-2/resumen-ppt-clase-2.md)
+
+### Clase 3: Modelado Arquitectónico
+- 📄 [modelado-arquitectonico-capas-clase-3.md](./clase-3/modelado-arquitectonico-capas-clase-3.md)
+- 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
 
 ### Clase 2: Zachman y TOGAF
 - 📄 [arquitectura-empresarial-zachman-togaf-clase-2.md](./clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md)

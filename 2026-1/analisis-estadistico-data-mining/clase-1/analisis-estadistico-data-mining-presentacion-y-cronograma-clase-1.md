@@ -64,3 +64,33 @@ A partir de la **semana 13**, cada grupo desarrollará un **prototipo de aplicac
 
 - Se propuso crear un **grupo de WhatsApp** para coordinación oportuna (gestionado por el alumno **Ayrton**).
 - En la próxima sesión se definirá el **número de integrantes por grupo** para el proyecto final.
+
+## Transcripción del PPT: Presentación del Curso
+
+### Presentación del Curso
+
+Curso de Análisis Estadístico y Data Mining enfocado en transformar datos en información útil mediante estadística y algoritmos de minería.
+
+**Ejemplo práctico:** Analizar datos de ventas para identificar patrones de compra, ayudando a una tienda a optimizar inventario.
+
+### Metodología del Curso
+
+Uso de R y Python para análisis, con clases sincrónicas y materiales grabados. Enfoque en participación activa y aplicación práctica.
+
+**Ejemplo práctico:** Estudiantes usan Python para limpiar datos de encuestas, aplicando estadística descriptiva para resumir resultados.
+
+### Cronograma de Temas
+
+- Estadística Descriptiva: Medidas de tendencia central y dispersión.
+- Estadística Inferencial: Pruebas de hipótesis y probabilidades.
+- Data Mining: Limpieza, algoritmos como clustering y clasificación.
+
+**Ejemplo práctico:** En data mining, usar K-means para segmentar clientes en grupos similares para marketing personalizado.
+
+### Proyecto Final
+
+Desarrollo de prototipo que incluye identificación de problema, limpieza de datos, modelado y presentación.
+
+**Ejemplo práctico:** Grupo crea app que predice churn de clientes usando regresión logística, presentando resultados en demo funcional.
+
+---
