@@ -22,6 +22,14 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 
 ---
 
+## Actividades Prácticas
+
+| # | Tema | Descripción | Soluciones |
+|---|------|-------------|-----------|
+| PA01 | **Principios de Arquitectura Empresarial en Organizaciones Reales** | Identificar los 4 dominios (Negocio, Datos, Aplicaciones, Tecnología), su definición, razón fundamental e implicaciones. | [✅ Caso Banco](./act-1/arquitectura-empresarial-solucion-actividad-1.md) \| [✅ Caso Retail](./act-1/arquitectura-empresarial-pa01-retail-megastore.md) |
+
+---
+
 ## Índice Completo de Recursos
 
 ### Clase 1: Fundamentos
@@ -31,18 +39,16 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 ### Clase 2: Zachman y TOGAF
 - 📄 [arquitectura-empresarial-zachman-togaf-clase-2.md](./clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md)
 - 📊 [resumen-ppt-clase-2.md](./clase-2/resumen-ppt-clase-2.md)
-
-### Clase 3: Modelado Arquitectónico
-- 📄 [modelado-arquitectonico-capas-clase-3.md](./clase-3/modelado-arquitectonico-capas-clase-3.md)
-- 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
-
-### Clase 2: Zachman y TOGAF
-- 📄 [arquitectura-empresarial-zachman-togaf-clase-2.md](./clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md)
 - 🖼️ Gráficos: `arquitectura-empresarial-fundamentos-clase-2.png`, `zachman-matriz-cobertura-6x6-clase-2.png`
 
 ### Clase 3: Modelado Arquitectónico y Capas
 - 📄 [modelado-arquitectonico-capas-clase-3.md](./clase-3/modelado-arquitectonico-capas-clase-3.md)
+- 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
 - 🖼️ Gráficos: `modelado-arquitectonico-proposito-clase-3.png`, `modelado-arquitectonico-componentes-clase-3.png`, `modelado-arquitectonico-roadmap-clase-3.png`
+
+### Actividad 1
+- ✅ [arquitectura-empresarial-solucion-actividad-1.md](./act-1/arquitectura-empresarial-solucion-actividad-1.md) — Caso BancoXYZ (sector financiero)
+- ✅ [arquitectura-empresarial-pa01-retail-megastore.md](./act-1/arquitectura-empresarial-pa01-retail-megastore.md) — Caso MegaStore (sector retail)
 
 ---
 
