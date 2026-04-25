@@ -53,7 +53,9 @@ direccion-estrategica-de-datos/
 │   ├── README.md
 │   └── estrategias-datos-casos-practicos-clase-2.md
 ├── clase-3/
-│   └── gobernanza-datos-politicas-digitales-clase-3.md
+│   ├── gobernanza-datos-politicas-digitales-clase-3.md
+│   ├── resumen-ppt-clase-3.md
+│   └── gobernanza-datos-politicas-digitales-clase-3.pptx
 └── README.md (este archivo)
 ```
 
