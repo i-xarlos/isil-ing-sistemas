@@ -19,13 +19,17 @@ El **modelo arquitectónico** es una representación abstracta de un sistema. De
 
 Para construir modelos útiles, la arquitectura se estructura en torno a tres ejes o pilares fundamentales:
 
+---
+
 ### A. Vistas (Perspectivas)
-Representan el "qué se quiere ver" según el tipo de interesado (*stakeholder*). 
+Representan el "qué se quiere ver" según el tipo de interesado (*stakeholder*).
 Se pueden dividir también en lógicas (organización abstracta, componentes, módulos) y físicas (distribución real en infraestructura). Las vistas principales son:
 - **Ejecutiva:** Metas, objetivos y restricciones.
 - **Operativa:** Capacidades, procesos y roles.
 - **Sistemas:** Aplicaciones, datos y flujos.
 - **Tecnológica:** Infraestructura y seguridad.
+
+---
 
 ### B. Capas (Dominios)
 Organizan la arquitectura de forma vertical para asegurar trazabilidad. También se analizan desde su diseño lógico (responsabilidades específicas) hasta su implementación física (distribución en hardware):
@@ -48,8 +52,35 @@ Un punto clave de la sesión fue la diferenciación entre **procesos** y **capac
 
 - **Categorización por Columnas y Fechas (*Deadlines*):** El negocio impone los resultados (*Achievements, Deadlines*) en el tope (01), que derivan en **KPIs** (02) y fluyen al **Core Estratégico ("Do or Die" y Eficiencia)** (03). Esto rige a nivel sistemas (04 y 05) todo el desarrollo futuro operativo, los protocolos de seguridad, la experiencia de usuario (UX/UI) y las entregas tecnológicas para que estas iniciativas sean posibles.
 - **Mapa de Capacidades vs Procesos:** La capacidad es lo que una empresa hace (estable a través de los cuadros temporales), el proceso es cómo lo logra.
-- **Análisis de Brechas (*Gap Analysis*):** Identifica la distancia entre el estado actual (*As-Is*) y el objetivo final plasmado en el roadmap temporal (*To-Be*). 
+- **Análisis de Brechas (*Gap Analysis*):** Identifica la distancia entre el estado actual (*As-Is*) y el objetivo final plasmado en el roadmap temporal (*To-Be*).
 - **Priorización Estratégica:** Se dividen las entregas en trimestres (Q1 a Q4) según la urgencia y el valor cruzado con base a la matriz de **Impacto vs. Esfuerzo**.
+
+## Transcripción del PPT: Modelado Arquitectónico
+
+### Vistas, Capas y Niveles de Abstracción
+
+Las organizaciones son "sistemas socio-técnicos" complejos: múltiples capacidades, procesos, datos y aplicaciones interactúan y generan dependencias difíciles de gobernar sin modelos.
+
+Un marco de referencia permite descomponer la empresa por vistas y niveles de abstracción (qué se quiere ver, con qué detalle y para quién), evitando diagnósticos parciales o contradictorios.
+
+**Ejemplo práctico:** En un hospital, la vista ejecutiva muestra metas de reducción de tiempos de espera, la operativa detalla procesos de admisión, la de sistemas integra apps de registros médicos, y la tecnológica asegura servidores seguros. Sin capas, un cambio en software podría romper flujos de datos, causando errores en tratamientos.
+
+### Mapas de Capacidades y Hojas de Ruta Arquitectónicas
+
+Un mapa de capacidades es un inventario estructurado de lo que la organización debe ser capaz de hacer para ejecutar su estrategia.
+
+**Ejemplo práctico:** En una cadena de restaurantes como McDonald's, capacidades incluyen "preparar pedidos rápidos" y "gestionar inventarios". Un mapa prioriza mejoras: primero automatizar pedidos online (alto impacto, bajo esfuerzo), luego integrar delivery (alto impacto, alto esfuerzo). Sin mapa, se invierte en apps innecesarias, perdiendo foco en ventas.
+
+### Lenguajes y Herramientas de Modelado
+
+En arquitectura empresarial no existe un lenguaje único. Cada lenguaje responde a una decisión específica y a una audiencia concreta.
+
+- **ArchiMate:** Arquitectura end-to-end (negocio, aplicaciones, datos, tecnología).
+- **BPMN:** Flujo de procesos (actividades, roles, eventos).
+- **UML:** Diseño técnico de soluciones (componentes, clases, secuencias).
+- **Modelos de Datos (ERD):** Estructura y gobierno del dato.
+
+**Ejemplo práctico:** Para diseñar un sistema de e-learning, usa ArchiMate para vista general (estudiantes acceden a cursos), BPMN para flujo de inscripción, UML para clases de software, y ERD para base de datos de calificaciones. Herramientas como Visio permiten colaboración rápida, mientras repositorios versionados mantienen trazabilidad.
 
 ## 4. Lenguajes y Herramientas de Modelado
 

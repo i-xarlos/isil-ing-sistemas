@@ -198,6 +198,34 @@ Un **histograma** es un gráfico que muestra **cómo se distribuyen** datos num�
 | Histograma | Gráfico de barras |
 |---|---|
 | Datos numéricos continuos | Datos categóricos |
+
+## Transcripción del PPT: Estadística Descriptiva
+
+### Estadística Descriptiva
+
+Técnicas para resumir y describir datos mediante medidas como media, mediana y desviación estándar.
+
+**Ejemplo práctico:** Calcular media de edades en una encuesta para entender demografía de clientes.
+
+### Medidas de Tendencia Central
+
+Media, mediana y moda indican el centro de los datos.
+
+**Ejemplo práctico:** Usar mediana para salarios, ya que no se afecta por valores extremos como sueldos muy altos.
+
+### Medidas de Dispersión
+
+Varianza y desviación estándar miden cuánto varían los datos.
+
+**Ejemplo práctico:** Desviación estándar baja en calificaciones indica consistencia en rendimiento estudiantil.
+
+### Visualización de Datos
+
+Histogramas y gráficos muestran distribución de datos.
+
+**Ejemplo práctico:** Histograma de ventas revela picos en ciertos meses, guiando estrategias de inventario.
+
+---
 | Barras pegadas | Barras separadas |
 | Eje X son rangos | Eje X son categorías |
 

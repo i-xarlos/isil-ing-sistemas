@@ -77,6 +77,38 @@ En términos simples:
 - **TOGAF** responde: cómo avanzar.
 - **Zachman** responde: qué debe quedar cubierto.
 
+## Transcripción del PPT: Marcos de Referencia
+
+### Visión General de los Marcos de Referencia
+
+Los marcos de referencia existen para ordenar la complejidad (procesos, datos, aplicaciones y tecnología), reducir duplicidad, inconsistencias y riesgos.
+
+Un framework es un "kit" práctico: aporta lenguaje común, bloques de construcción, estándares y, según el caso, método para diseñar y evolucionar la arquitectura.
+
+**Ejemplo práctico:** En una empresa de e-commerce como MercadoLibre, sin marcos, cada equipo desarrolla su propia app para pagos, creando incompatibilidades. Con TOGAF, se diseña un ADM que guía la integración de pagos, inventarios y envíos, resultando en una plataforma unificada que escala globalmente.
+
+### Estructura General TOGAF
+
+TOGAF organiza la arquitectura por 4 dominios: negocio, datos, aplicaciones y tecnología. Enfoca la organización como un sistema: conecta estrategia, capacidades, procesos y tecnología.
+
+**Ejemplo práctico:** En una aerolínea como LATAM, TOGAF ayuda a integrar reservas, check-in y mantenimiento de aviones. Sin él, sistemas separados causan overbooking. Con ADM, se crea un roadmap que conecta procesos de negocio con apps y datos, mejorando eficiencia y reduciendo costos operativos.
+
+### Estructura Matricial Zachman Framework
+
+Zachman organiza artefactos en una matriz 6x6 para clasificar todos los artefactos de la empresa sin dejar vacíos.
+
+**Ejemplo práctico:** En una fábrica de autos como Toyota, Zachman asegura que el diseño de producción (cómo) se alinee con la estrategia (por qué). Sin él, podrían faltar especificaciones de seguridad. Con la matriz, se cubren todas las perspectivas, desde ejecutivos hasta operarios, garantizando calidad y trazabilidad.
+
+### Comparativa y Selección de Marcos Según Contexto
+
+No existe "el mejor" framework: se elige según el problema real (ejecutar transformación vs. ordenar/asegurar cobertura).
+
+Si necesitas método y gobernanza: TOGAF aporta ADM + roadmap + repositorio, ideal para mover As-Is → To-Be con control.
+
+Si necesitas cobertura total y orden documental: Zachman aporta matriz 6x6 para clasificar artefactos y evitar vacíos entre áreas.
+
+**Ejemplo práctico:** Para una transformación digital en un banco, usa TOGAF para el roadmap de migración a nube. Para asegurar que no falten regulaciones de datos, usa Zachman para verificar cobertura en todas las perspectivas.
+
 ## Casos prácticos vistos en clase
 
 La teoría se aterrizó con ejemplos reales para mostrar por qué la AE importa en organizaciones complejas.

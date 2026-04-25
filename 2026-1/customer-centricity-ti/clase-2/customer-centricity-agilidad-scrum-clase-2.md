@@ -197,6 +197,53 @@ Cuando [situación], quiero [motivación], para poder [resultado esperado].
 
 Piensa en un servicio digital que usas frecuentemente (app bancaria, delivery, streaming). Redacta su JTBD real usando la estructura y luego evalúa: ¿la app actual lo resuelve bien o tiene fricciones?
 
+## Transcripción del PPT: Agilidad y Scrum
+
+### Agilidad y Scrum
+
+Agilidad es una mentalidad que prioriza la adaptación, el aprendizaje continuo y la entrega de valor al cliente. Scrum es un marco de trabajo que estructura esta mentalidad en roles, eventos y artefactos.
+
+**Ejemplo práctico:** Un equipo de desarrollo de una app de reservas de hotel usa Scrum para iterar rápidamente. En cada sprint de 2 semanas, entregan mejoras basadas en feedback de usuarios, adaptándose a cambios como nuevas regulaciones de viajes.
+
+### Roles en Scrum
+
+- **Product Owner (PO):** Representa al cliente, prioriza el backlog y asegura que el equipo construya lo correcto.
+
+**Ejemplo práctico:** En una startup de e-commerce, el PO valida con usuarios que la función de "comprar ahora" es más importante que filtros avanzados.
+
+- **Scrum Master:** Facilita el proceso, elimina obstáculos y promueve la mejora continua.
+
+**Ejemplo práctico:** El Scrum Master resuelve un bloqueo de acceso a servidores, permitiendo al equipo completar el sprint a tiempo.
+
+- **Development Team:** Grupo autoorganizado que desarrolla el producto, incluyendo programadores, diseñadores y testers.
+
+**Ejemplo práctico:** El equipo decide dividir tareas de una nueva feature de chat en vivo, asignando UX a diseñadores y backend a desarrolladores.
+
+### Eventos en Scrum
+
+- **Sprint Planning:** Planifica el trabajo del sprint.
+- **Daily Scrum:** Reunión diaria de 15 minutos para sincronizar.
+- **Sprint Review:** Demuestra el trabajo completado al cliente.
+- **Sprint Retrospective:** Reflexiona sobre mejoras.
+
+**Ejemplo práctico:** En Daily Scrum, el equipo reporta progreso en una app móvil, ajustando prioridades cuando un bug retrasa el lanzamiento.
+
+### Artefactos en Scrum
+
+- **Product Backlog:** Lista priorizada de requisitos.
+- **Sprint Backlog:** Trabajo seleccionado para el sprint.
+- **Increment:** Producto potencialmente entregable al final del sprint.
+
+**Ejemplo práctico:** El Product Backlog de una app de fitness incluye "agregar seguimiento de agua" como alta prioridad basada en feedback de usuarios.
+
+### Beneficios y Desafíos de la Agilidad
+
+**Beneficios:** Mayor flexibilidad, mejor calidad, mayor satisfacción del cliente.
+
+**Desafíos:** Requiere cambio cultural, resistencia al cambio, necesidad de formación.
+
+**Ejemplo práctico:** Una empresa bancaria adopta agilidad, reduciendo tiempo de lanzamiento de productos de meses a semanas, pero enfrenta desafíos en equipos tradicionales resistentes a cambios.
+
 ---
 
 ## 8. Mapa de Viaje del Cliente (Customer Journey)

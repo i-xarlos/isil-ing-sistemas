@@ -149,6 +149,40 @@ El argumento más poderoso hoy: en 2026, analítica e IA **no son para ganar má
 
 > La tecnología dejó de ser una ventaja competitiva opcional; es condición mínima para sobrevivir en el mercado.
 
+## Transcripción del PPT: Introducción a la Dirección Estratégica de Datos
+
+### Introducción a la Dirección Estratégica de Datos
+
+La dirección estratégica de datos implica gestionar datos como activo estratégico para apoyar decisiones de negocio. Incluye gobierno, gestión y análisis para generar valor.
+
+**Ejemplo práctico:** Una empresa retail usa datos de ventas para predecir demanda, reduciendo inventario excedente y aumentando ganancias.
+
+### Importancia de los Datos en la Era Digital
+
+Los datos son el nuevo petróleo: crudos no valen, pero refinados sí. En la era digital, datos impulsan innovación, eficiencia y competitividad.
+
+**Ejemplo práctico:** Netflix analiza datos de visualización para recomendar series, reteniendo suscriptores y diferenciándose de competidores.
+
+### Gobierno de Datos
+
+Marco de políticas, estándares y responsabilidades para asegurar calidad, seguridad y cumplimiento de datos.
+
+**Ejemplo práctico:** Un banco implementa gobierno para proteger datos financieros, evitando multas por incumplimiento regulatorio y ganando confianza de clientes.
+
+### Gestión de Datos
+
+Procesos para recopilar, almacenar, procesar y proteger datos a lo largo de su ciclo de vida.
+
+**Ejemplo práctico:** Una cadena de supermercados gestiona datos de inventario para optimizar reabastecimiento, minimizando pérdidas por productos vencidos.
+
+### Casos de Éxito en Diferentes Sectores
+
+- **Retail:** Análisis de datos para personalizar ofertas, aumentando ventas.
+- **Salud:** Datos integrados para mejorar diagnósticos y tratamientos.
+- **Finanzas:** Modelos predictivos para detectar fraudes.
+
+**Ejemplo práctico:** Amazon usa datos para sugerir productos, convirtiendo visitas en compras y dominando el e-commerce.
+
 ---
 
 ## 6. Cierre: Gobierno de Datos y tendencias

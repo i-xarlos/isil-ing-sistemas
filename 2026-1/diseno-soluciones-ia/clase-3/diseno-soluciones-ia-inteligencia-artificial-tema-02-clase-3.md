@@ -148,6 +148,36 @@ Tiempo Total Estimado: 4-6 MESES (si todo va bien)
 ### Fase 2: Recolección y Etiquetado de Datos
 ![Flujo de Recolección y Etiquetado de Datos](./diseno-soluciones-ia-recoleccion-etiquetado-datos-clase-3.png)
 
+## Transcripción del PPT: Tipología de la IA y Priorización de Proyectos
+
+### Tipología de la IA
+
+IA se clasifica en Narrow AI (especializada), IA Generativa (creativa), Machine Learning (predictiva) y Deep Learning (compleja).
+
+**Ejemplo práctico:** Narrow AI en un asistente de voz responde consultas específicas, mientras IA Generativa crea historias originales.
+
+### Priorización de Proyectos de IA
+
+Usar criterios de impacto, viabilidad y riesgo para seleccionar proyectos. Alto impacto y bajo riesgo primero.
+
+**Ejemplo práctico:** Priorizar proyecto de detección de fraude en banca por alto impacto en seguridad y bajo riesgo técnico.
+
+### Ética en IA
+
+Considerar sesgos, privacidad y transparencia para evitar discriminación y proteger datos.
+
+**Ejemplo práctico:** Auditar modelo de hiring para eliminar sesgos de género, asegurando equidad.
+
+### Casos Prácticos de IA
+
+- **Salud:** Diagnóstico asistido con imágenes.
+- **Finanzas:** Predicción de riesgos crediticios.
+- **Retail:** Recomendaciones personalizadas.
+
+**Ejemplo práctico:** En retail, IA analiza compras pasadas para sugerir productos, aumentando ventas en 20%.
+
+---
+
 - **Qué hacer:** Reunir datos representativos y etiquetar correctamente. El flujo típico es: **Fuentes → Muestreo → Guía de etiquetas → Etiquetado → QA → Dataset final**.
 - **Desafío:** Calidad >> Cantidad. 100 datos bien etiquetados valen más que 1 millón mal etiquetados.
 - **Riesgos principales:**

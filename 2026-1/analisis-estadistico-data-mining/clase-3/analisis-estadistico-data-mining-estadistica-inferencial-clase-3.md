@@ -148,6 +148,34 @@ Para entender mejor cómo funcionan las hipótesis, veamos ejemplos concretos de
 - **H₁ (Alternativa):** Al menos una dieta produce pérdida de peso diferente
 - **Ejemplo:** ¿Las dietas baja en carbohidratos, mediterránea y vegana producen diferentes pérdidas de peso promedio?
 
+## Transcripción del PPT: Estadística Inferencial
+
+### Estadística Inferencial
+
+Usa muestras para hacer inferencias sobre poblaciones completas mediante probabilidades y pruebas de hipótesis.
+
+**Ejemplo práctico:** De una muestra de 1000 votantes, inferir preferencias electorales de toda la población con intervalo de confianza.
+
+### Probabilidad
+
+Mide la probabilidad de eventos, base para estimaciones y pruebas estadísticas.
+
+**Ejemplo práctico:** Probabilidad de lluvia basada en datos históricos para planificar eventos al aire libre.
+
+### Pruebas de Hipótesis
+
+Test para determinar si diferencias observadas son significativas o debidas al azar.
+
+**Ejemplo práctico:** Probar si nuevo medicamento reduce síntomas comparado con placebo, rechazando hipótesis nula si p-valor bajo.
+
+### Intervalos de Confianza
+
+Rango que probablemente contiene parámetro poblacional con cierto nivel de confianza.
+
+**Ejemplo práctico:** Intervalo 95% para media de ingresos indica rango donde cae ingreso promedio real.
+
+---
+
 #### 3. Chi-cuadrado (χ²) - Relación entre variables categóricas
 - **H₀ (Nula):** No hay relación entre género y preferencia de producto
 - **H₁ (Alternativa):** Hay relación entre género y preferencia de producto
