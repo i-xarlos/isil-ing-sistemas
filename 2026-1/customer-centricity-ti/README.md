@@ -35,6 +35,9 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 ### Clase 3: Scrum en Profundidad
 - 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
 
+### Actividad 1: Proyecto RAPIDGO
+- 📋 [RAPIDGO-solucion-actividad-1.md](./act-1/RAPIDGO-solucion-actividad-1.md) — Solución completa con diagnóstico, investigación, MVP/MLP y plan ágil
+
 ---
 
 ## Estructura de la Carpeta
@@ -42,11 +45,16 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 ```
 customer-centricity-ti/
 ├── clase-1/
-│   ├── README.md
-│   └── customer-centricity-agilidad-ti-clase-1.md
+│   ├── customer-centricity-agilidad-ti-clase-1.md
+│   └── resumen-ppt-clase-1.md
 ├── clase-2/
-│   ├── README.md
-│   └── customer-centricity-agilidad-scrum-clase-2.md
+│   ├── customer-centricity-agilidad-scrum-clase-2.md
+│   └── resumen-ppt-clase-2.md
+├── clase-3/
+│   └── resumen-ppt-clase-3.md
+├── act-1/
+│   ├── PA1 CUSTOMER CENTRICITY.docx
+│   └── RAPIDGO-solucion-actividad-1.md
 └── README.md (este archivo)
 ```
 
