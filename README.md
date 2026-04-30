@@ -52,6 +52,8 @@ Los resúmenes de PPTs están disponibles en las carpetas de cada clase correspo
 |---|---|---|
 | 1 | Presentación del curso y cronograma | [Ver](2026-1/analisis-estadistico-data-mining/clase-1/analisis-estadistico-data-mining-presentacion-y-cronograma-clase-1.md) |
 | 2 | Estadística descriptiva: medidas de resumen | [Ver](2026-1/analisis-estadistico-data-mining/clase-2/estadistica-descriptiva-medidas-resumen-clase-2.md) |
+| 3 | Estadística inferencial | [Ver](2026-1/analisis-estadistico-data-mining/clase-3/analisis-estadistico-data-mining-estadistica-inferencial-clase-3.md) |
+| 4 | Análisis exploratorio de datos (EDA) — tendencias, estacionalidad, outliers, correlaciones | [Ver](2026-1/analisis-estadistico-data-mining/clase-4/analisis-exploratorio-datos-eda-clase-4.md) |
 
 ---
 
@@ -63,6 +65,8 @@ Los resúmenes de PPTs están disponibles en las carpetas de cada clase correspo
 |---|---|---|
 | 1 | Introducción, metodología y estructura del curso | [Ver](2026-1/diseno-soluciones-ia/clase-1/diseno-soluciones-ia-introduccion-clase-1.md) |
 | 2 | Inteligencia artificial, Machine Learning y Deep Learning | [Ver](2026-1/diseno-soluciones-ia/clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md) |
+| 3 | IA: Tipos, riesgos éticos y 8 fases de desarrollo | [Ver](2026-1/diseno-soluciones-ia/clase-3/diseno-soluciones-ia-inteligencia-artificial-tema-02-clase-3.md) |
+| 4 | Integración estratégica y ética de IA: Design Thinking, sesgos, supervisión humana | [Ver](2026-1/diseno-soluciones-ia/clase-4/diseno-soluciones-ia-integracion-etica-clase-4.md) |
 | Actividad 1 | Modelos frontera en desarrollo de software — benchmark SWE-bench Verified (Anthropic vs OpenAI) | [Ver](2026-1/diseno-soluciones-ia/actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 
 ---

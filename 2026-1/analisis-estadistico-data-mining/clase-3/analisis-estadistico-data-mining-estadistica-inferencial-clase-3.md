@@ -91,6 +91,33 @@ El gráfico explica la base de la probabilidad aplicada a estimaciones: cómo un
 - **Estimación puntual:** un único número (ej: "el promedio es 65")
 - **Estimación por intervalo:** rango con nivel de confianza (ej: "entre 62 y 68 con 95% confianza")
 
+#### Ejemplo Práctico: Cálculo de Probabilidad
+
+**Concepto básico:** La probabilidad mide la chance de que ocurra un evento.
+
+$$P(A) = \frac{\text{Número de casos favorables}}{\text{Número de casos posibles}}$$
+
+**Ejemplo simple — Lanzar un dado:**
+- Quieres calcular la probabilidad de sacar un 3
+- Casos favorables: 1 (solo el 3)
+- Casos posibles: 6 (1, 2, 3, 4, 5, 6)
+- $P(\text{sacar 3}) = \frac{1}{6} ≈ 0.167$ o **16.7%**
+
+**Ejemplo en negocio — Control de calidad en manufactura:**
+- Una fábrica produce 1,000 artículos al día
+- Históricamente, 50 salen defectuosos
+- Probabilidad de que un artículo sea defectuoso: $P(\text{defectuoso}) = \frac{50}{1000} = 0.05$ o **5%**
+- Probabilidad de que sea bueno: $P(\text{bueno}) = 1 - 0.05 = 0.95$ o **95%**
+- Si tomas una muestra de 100 artículos: esperas ~5 defectuosos
+
+**Ejemplo en marketing — Probabilidad de conversión:**
+- Tu tienda online recibe 10,000 visitas al mes
+- 500 visitantes realizan una compra
+- Probabilidad de conversión: $P(\text{compra}) = \frac{500}{10,000} = 0.05$ o **5%**
+- Con 1,000 nuevas visitas próximo mes, esperas: $1,000 × 0.05 = 50$ compras
+
+**Concepto clave:** La probabilidad es la base para estimar qué ocurrirá en la población completa basándote en lo que observas en una muestra.
+
 **Ejemplo:**
 ```
 Muestra de 100 clientes: gasto promedio = $500
@@ -142,6 +169,20 @@ Para entender mejor cómo funcionan las hipótesis, veamos ejemplos concretos de
 - **H₁ (Alternativa bilateral):** El promedio de notas con método A ≠ promedio de notas con método B
 - **H₁ (Alternativa unilateral):** El promedio de notas con método A > promedio de notas con método B
 - **Ejemplo:** ¿El nuevo método de estudio mejora las notas promedio de los estudiantes?
+
+**Caso práctico completo — Tiempo de atención en un banco:**
+- **Situación:** Un banco afirma que atiende al cliente en promedio en **5 minutos**. Tú sospechas que es más lento.
+- **Hipótesis:**
+  - **H₀:** El tiempo promedio es 5 minutos (lo que el banco dice)
+  - **H₁:** El tiempo promedio es > 5 minutos (lo que sospechas)
+- **Recopilación de datos:** Mides 50 clientes
+  - Promedio real: 6.2 minutos
+  - Desviación estándar: 1.5 minutos
+- **Análisis:** Con un test t-student, obtienes p-valor = 0.02
+- **Conclusión:**
+  - Si p-valor < 0.05 → **Rechazas H₀** (el banco tarda más que 5 minutos, confirmando tu sospecha)
+  - Si p-valor > 0.05 → **Aceptas H₀** (no hay evidencia suficiente, el banco tiene razón)
+  - En este caso: **p = 0.02 < 0.05** → El banco efectivamente tarda más de lo que promete
 
 #### 2. ANOVA (Comparación de tres o más grupos)
 - **H₀ (Nula):** Los promedios de pérdida de peso son iguales en las 3 dietas
