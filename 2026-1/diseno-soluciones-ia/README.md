@@ -19,6 +19,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 1 | Clase | **Introducción a IA** | Definición, contexto empresarial, tendencias 2026 | [📄](./clase-1/diseno-soluciones-ia-introduccion-clase-1.md) |
 | 2 | Clase | **Tipos de IA y Ramas** | Narrow, Generativa, ML, Deep Learning | [📄](./clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md) |
 | 3 | Clase | **IA: Tipos, Riesgos y Desarrollo** | 4 tipos IA, 5 riesgos éticos, 8 fases, valor estratégico | [📄](./clase-3/diseno-soluciones-ia-inteligencia-artificial-tema-02-clase-3.md) |
+| 4 | Clase | **Integración Estratégica y Ética de IA** | Análisis contexto, modelos propio vs. mercado, Design Thinking, ética y sesgos | [📄](./clase-4/diseno-soluciones-ia-integracion-etica-clase-4.md) |
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | PA01 | Evaluación | **Formulación de Problemas y Viabilidad IA** | 2 casos: clasificación incidencias + diagnóstico médico sesgado | [📄](./actividad-1-eval/diseno-soluciones-ia-pa01-solucion.md) |
 
@@ -36,6 +37,11 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 ### Clase 3: IA — Tipos, Riesgos y Desarrollo
 - 📄 [diseno-soluciones-ia-inteligencia-artificial-tema-02-clase-3.md](./clase-3/diseno-soluciones-ia-inteligencia-artificial-tema-02-clase-3.md)
 - 🖼️ 8 Gráficos integrados: tipos IA, priorizacion, riesgos éticos, valor estratégico, fases 1-4, fases 5-8, preparación datos, recolección etiquetado
+
+### Clase 4: Integración Estratégica y Ética de IA
+- 📄 [diseno-soluciones-ia-integracion-etica-clase-4.md](./clase-4/diseno-soluciones-ia-integracion-etica-clase-4.md)
+- 📋 Temas: Análisis de contexto, ideación, modelos propios vs. de mercado, fases de desarrollo (selección, entrenamiento, tuning), técnicas (regresión, clasificación, vectorización), Design Thinking (empatía, definición, ideación, prototipado, testing), ética, transparencia y sesgos
+- 🖼️ Imagen: `image-1.png`
 
 ### Actividad 1: SWE-Bench Verified
 - 📄 [swe-bench-comparacion-modelos-actividad-1.md](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md)
@@ -63,6 +69,10 @@ diseno-soluciones-ia/
 │   ├── README.md
 │   ├── diseno-soluciones-ia-inteligencia-artificial-tema-02-clase-3.md
 │   └── [8 gráficos integrados]
+├── clase-4/
+│   ├── diseno-soluciones-ia-integracion-etica-clase-4.md
+│   ├── image-1.png
+│   └── 40098-S04-PRESENTACION.pptx
 ├── actividad-1/
 │   ├── README.md
 │   ├── swe-bench-comparacion-modelos-actividad-1.md
@@ -74,6 +84,7 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **30/04/2026:** Clase 4 documentada: Integración estratégica y ética de IA, Design Thinking, sesgos
 - **22/04/2026:** Clase 3 enriquecida con 8 gráficos, tablas, checklist y glosario
 - **22/04/2026:** Preparacion-datos gráfico integrado en Fase 3
 - **22/04/2026:** Actividad 1 completada con análisis SWE-Bench Verified
