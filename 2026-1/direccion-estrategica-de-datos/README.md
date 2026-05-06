@@ -27,6 +27,7 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 | 1 | **Introducción a Dirección Estratégica de Datos** | Definición, rol CDO, estrategias 2026, cases | [📄](./clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md) | [📊](./clase-1/resumen-ppt-clase-1.md) |
 | 2 | **Estrategias de Datos: Casos Prácticos** | Transformación digital, governance, ROI empresarial | [📄](./clase-2/estrategias-datos-casos-practicos-clase-2.md) | [📊](./clase-2/resumen-ppt-clase-2.md) |
 | 3 | **Gobernanza de Datos y Políticas Digitales** | Riesgos, regulación, metadatos, casos SUNAT | [📄](./clase-3/gobernanza-datos-politicas-digitales-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
+| 4 | **Innovación y Transformación Digital** | Tendencias CES 2026, casos de éxito/fracaso, estrategias de innovación | [📄](./clase-4/innovacion-transformacion-digital-clase-4.md) | [📊](./clase-4/40062-S04-PPT.pdf) |
 
 ---
 
@@ -43,6 +44,9 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 ### Clase 3: Gobernanza de Datos y Políticas Digitales
 - 📄 [gobernanza-datos-politicas-digitales-clase-3.md](./clase-3/gobernanza-datos-politicas-digitales-clase-3.md)
 - 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
+
+### Clase 4: Innovación y Transformación Digital
+- 📄 [innovacion-transformacion-digital-clase-4.md](./clase-4/innovacion-transformacion-digital-clase-4.md)
 
 ### Actividades
 - ✅ [direccion-estrategica-de-datos-pa001-glovo-solucion.md](./act-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) — Caso Glovo: diagnóstico, estrategia, gobernanza y riesgos
@@ -65,6 +69,10 @@ direccion-estrategica-de-datos/
 │   ├── gobernanza-datos-politicas-digitales-clase-3.md
 │   ├── resumen-ppt-clase-3.md
 │   └── 40062-S03-PPT.pptx
+├── clase-4/
+│   ├── innovacion-transformacion-digital-clase-4.md
+│   ├── 40062-S04-PPT.pdf
+│   └── 40062-S04-PPT.pptx
 └── README.md (este archivo)
 ```
 
