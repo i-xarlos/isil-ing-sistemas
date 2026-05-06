@@ -19,6 +19,8 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 | 1 | **Fundamentos de Arquitectura Empresarial** | Definiciones, conceptos clave, marcos TOGAF y Zachman | [📄](./clase-1/arquitectura-empresarial-fundamentos-clase-1.md) | [📊](./clase-1/resumen-ppt-clase-1.md) |
 | 2 | **Zachman y TOGAF: Relación y Aplicación** | Comparación de frameworks, matriz Zachman 6×6, ADM | [📄](./clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) | [📊](./clase-2/resumen-ppt-clase-2.md) |
 | 3 | **Modelado Arquitectónico: Capas y Niveles** | Vistas, mapas de capacidades, hojas de ruta, lenguajes | [📄](./clase-3/modelado-arquitectonico-capas-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
+| 4 | **Gobernanza de Arquitectura Empresarial** | COBIT, marcos de gobernanza, políticas | [📄](./clase-4/CLASE-4-GOBERNANZA-AE.md) | — |
+| 5 | **Gestión del Portafolio Arquitectónico** | As-Is, To-Be, planeamiento de transición | [📄](./clase-5/gestion-portafolio-arquitectonico-clase-5.md) | [📊](./clase-5/40096-S05-PRESENTACION.pdf) |
 
 ---
 
@@ -46,6 +48,13 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 - 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
 - 🖼️ Gráficos: `modelado-arquitectonico-proposito-clase-3.png`, `modelado-arquitectonico-componentes-clase-3.png`, `modelado-arquitectonico-roadmap-clase-3.png`
 
+### Clase 4: Gobernanza de Arquitectura Empresarial
+- 📄 [CLASE-4-GOBERNANZA-AE.md](./clase-4/CLASE-4-GOBERNANZA-AE.md)
+
+### Clase 5: Gestión del Portafolio Arquitectónico
+- 📄 [gestion-portafolio-arquitectonico-clase-5.md](./clase-5/gestion-portafolio-arquitectonico-clase-5.md)
+- 📊 [40096-S05-PRESENTACION.pdf](./clase-5/40096-S05-PRESENTACION.pdf) — Presentación original
+
 ### Actividad 1
 - ✅ [arquitectura-empresarial-solucion-actividad-1.md](./act-1/arquitectura-empresarial-solucion-actividad-1.md) — Caso BancoXYZ (sector financiero)
 - ✅ [arquitectura-empresarial-pa01-retail-megastore.md](./act-1/arquitectura-empresarial-pa01-retail-megastore.md) — Caso MegaStore (sector retail)
@@ -57,16 +66,25 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 ```
 arq-empresarial/
 ├── clase-1/
-│   ├── README.md
-│   └── arquitectura-empresarial-fundamentos-clase-1.md
+│   ├── arquitectura-empresarial-fundamentos-clase-1.md
+│   └── resumen-ppt-clase-1.md
 ├── clase-2/
-│   ├── README.md
 │   ├── arquitectura-empresarial-zachman-togaf-clase-2.md
+│   ├── resumen-ppt-clase-2.md
 │   └── [gráficos]
 ├── clase-3/
-│   ├── README.md
 │   ├── modelado-arquitectonico-capas-clase-3.md
+│   ├── resumen-ppt-clase-3.md
 │   └── [gráficos]
+├── clase-4/
+│   └── CLASE-4-GOBERNANZA-AE.md
+├── clase-5/
+│   ├── gestion-portafolio-arquitectonico-clase-5.md
+│   ├── 40096-S05-PRESENTACION.pdf
+│   └── 40096-S05-PRESENTACION.pptx
+├── act-1/
+│   ├── arquitectura-empresarial-solucion-actividad-1.md
+│   └── arquitectura-empresarial-pa01-retail-megastore.md
 └── README.md (este archivo)
 ```
 
