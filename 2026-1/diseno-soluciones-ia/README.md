@@ -19,7 +19,8 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 1 | Clase | **Introducción a IA** | Definición, contexto empresarial, tendencias 2026 | [📄](./clase-1/diseno-soluciones-ia-introduccion-clase-1.md) |
 | 2 | Clase | **Tipos de IA y Ramas** | Narrow, Generativa, ML, Deep Learning | [📄](./clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md) |
 | 3 | Clase | **IA: Tipos, Riesgos y Desarrollo** | 4 tipos IA, 5 riesgos éticos, 8 fases, valor estratégico | [📄](./clase-3/diseno-soluciones-ia-inteligencia-artificial-tema-02-clase-3.md) |
-| 4 | Clase | **Integración Estratégica y Ética de IA** | Análisis contexto, modelos propio vs. mercado, Design Thinking, ética y sesgos | [📄](./clase-4/diseno-soluciones-ia-integracion-etica-clase-4.md) |
+| 4 | Clase | **Integración Estratégica y Ética de IA** | EDA, estadística descriptiva, correlaciones, visualización, Design Thinking, ética y sesgos | [📄](./clase-4/diseno-soluciones-ia-integracion-etica-clase-4.md) |
+| 5 | Clase | **Calidad de Datos** | Datos nulos, outliers, formatos incorrectos, normalización | [📄](./clase-5/diseno-soluciones-ia-calidad-datos-clase-5.md) |
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | PA01 | Evaluación | **Formulación de Problemas y Viabilidad IA** | 2 casos: clasificación incidencias + diagnóstico médico sesgado | [📄](./actividad-1-eval/diseno-soluciones-ia-pa01-solucion.md) |
 
@@ -40,8 +41,30 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 
 ### Clase 4: Integración Estratégica y Ética de IA
 - 📄 [diseno-soluciones-ia-integracion-etica-clase-4.md](./clase-4/diseno-soluciones-ia-integracion-etica-clase-4.md)
-- 📋 Temas: Análisis de contexto, ideación, modelos propios vs. de mercado, fases de desarrollo (selección, entrenamiento, tuning), técnicas (regresión, clasificación, vectorización), Design Thinking (empatía, definición, ideación, prototipado, testing), ética, transparencia y sesgos
+- 📋 Temas:
+  - **Análisis de contexto:** Cadena de valor, gestión de datos, soluciones operacionales
+  - **Análisis Exploratorio de Datos (EDA):** Herramientas Python (Pandas, NumPy, Matplotlib, Seaborn) vs. Excel
+  - **Estadística Descriptiva:** Media, mediana, desviación estándar, cuartiles, IQR, detección de outliers
+  - **Distribuciones:** Gaussiana, sesgada, uniforme, exponencial con ejemplos visuales
+  - **Correlaciones:** Pearson r, interpretación de correlaciones lineales, casos prácticos
+  - **Visualización:** Histogramas, densidad, box plots, scatter plots, matrices de correlación (heatmaps), pairplots
+  - **Modelos propios vs. de mercado:** Criterios de selección, análisis de viabilidad
+  - **Fases de desarrollo:** Selección, entrenamiento, tuning, ajuste fino
+  - **Técnicas:** Regresión, clasificación, vectorización
+  - **Design Thinking:** Empatía, definición, ideación, prototipado, testing con MVP
+  - **Ética:** Transparencia, sesgos (bias), supervisión humana, regulación
+  - **Checklist:** Implementación responsable de IA
 - 🖼️ Imagen: `image-1.png`
+- 📊 Contenido: 17 secciones con ejemplos prácticos, código Python, casos reales
+
+### Clase 5: Calidad de Datos
+- 📄 [diseno-soluciones-ia-calidad-datos-clase-5.md](./clase-5/diseno-soluciones-ia-calidad-datos-clase-5.md)
+- 📋 Temas: 
+  - **Datos nulos:** Definición, causas, estrategias (eliminación vs. imputación), patrones (MCAR, MAR, MNAR), código con Pandas y KNN
+  - **Outliers:** Detección (3-sigma, IQR, Z-score, Isolation Forest), tipos (global, local, collective), decisiones (eliminar, transformar, investigar)
+  - **Formatos incorrectos:** Type casting, limpieza de texto, validación de rangos, estandarización
+  - **Normalización:** Min-Max scaling, Z-score standardization, ejemplos con Sklearn
+- 📊 Contenido: 4 secciones principales + código práctico en Python para cada técnica
 
 ### Actividad 1: SWE-Bench Verified
 - 📄 [swe-bench-comparacion-modelos-actividad-1.md](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md)
@@ -72,7 +95,11 @@ diseno-soluciones-ia/
 ├── clase-4/
 │   ├── diseno-soluciones-ia-integracion-etica-clase-4.md
 │   ├── image-1.png
-│   └── 40098-S04-PRESENTACION.pptx
+│   └── 40098-S04-PRESENTACION.pdf
+├── clase-5/
+│   ├── diseno-soluciones-ia-calidad-datos-clase-5.md
+│   ├── 40098-S05-PRESENTACION.pptx
+│   └── 40098-S05-PRESENTACION.pdf
 ├── actividad-1/
 │   ├── README.md
 │   ├── swe-bench-comparacion-modelos-actividad-1.md
@@ -84,6 +111,8 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **06/05/2026:** Clase 4 enriquecida: Análisis Exploratorio de Datos (EDA), estadística descriptiva, correlaciones, visualización con Python y Excel
+- **06/05/2026:** Clase 5 documentada: Calidad de Datos (nulos, outliers, formatos, normalización) con código Python completo
 - **30/04/2026:** Clase 4 documentada: Integración estratégica y ética de IA, Design Thinking, sesgos
 - **22/04/2026:** Clase 3 enriquecida con 8 gráficos, tablas, checklist y glosario
 - **22/04/2026:** Preparacion-datos gráfico integrado en Fase 3

@@ -313,6 +313,221 @@ Nuevo rango: -2 a +2 (desviaciones estándar)
 
 ---
 
+## 7. Análisis Exploratorio de Datos (EDA)
+
+**Regla de oro:** Antes de modelar, explora los datos para entender patrones, distribuciones y anomalías.
+
+> **Dato importante:** El 80% del tiempo en ciencia de datos se dedica a exploración, limpieza y preparación. Solo el 20% va a análisis y modelado.
+
+### A. Herramientas: Python vs. Excel
+
+| Herramienta | Caso de Uso | Ventaja | Limitación |
+|---|---|---|---|
+| **Excel** | Exploración rápida de datasets pequeños | Visualización inmediata, fácil de aprender | Máximo ~100,000 filas, no escalable |
+| **Python (Pandas)** | Análisis profesional y reproducible | Scalable, automatizable, documentable | Requiere programación |
+
+**Regla práctica:** Excel para prototipado, Python para producción.
+
+### B. Estadística Descriptiva: Entender los Datos
+
+**Conceptos Clave:**
+
+1. **Media (Mean):** Promedio aritmético
+   - Ventaja: Fácil de calcular
+   - Desventaja: Sensible a outliers
+   - Ejemplo: Salarios [3000, 3500, 4000, **100000**] → Media = 27,625 (inflada)
+
+2. **Mediana (Median):** Valor central de la distribución
+   - Ventaja: Robusta frente a outliers
+   - Desventaja: Menos eficiente con datos normales
+   - Mismo ejemplo: Mediana = 3,750 (más representativo)
+
+3. **Desviación Estándar (σ):** Mide dispersión alrededor de la media
+   - σ pequeña: datos cercanos a la media
+   - σ grande: datos dispersos
+   - Interpretación: 68% de datos están entre media ± σ
+
+4. **Cuartiles (Q1, Q2, Q3):** Dividen datos en 4 partes iguales
+   - Q1 (25%): El 25% de datos está por debajo
+   - Q2 (50%): La mediana
+   - Q3 (75%): El 75% de datos está por debajo
+   - IQR (Rango intercuartílico) = Q3 - Q1
+
+**Visualización Conceptual:**
+
+```
+Distribución Normal (Gaussiana)
+
+                    68%
+                  ← → ← →
+             μ-σ   μ   μ+σ
+              |     |    |
+         _____|_____|____|_____
+        /               \
+    ___/                 \___
+              ↓
+        68% de datos dentro de 1σ
+        95% de datos dentro de 2σ
+        99.7% de datos dentro de 3σ
+```
+
+### C. Análisis de Distribuciones
+
+**Tipos de distribuciones:**
+
+| Distribución | Característica | Indicador |
+|---|---|---|
+| **Gaussiana (Normal)** | Simétrica alrededor de la media | Media ≈ Mediana, forma acampanada |
+| **Sesgada Positiva** | Cola larga a la derecha | Media > Mediana (inflada por valores altos) |
+| **Sesgada Negativa** | Cola larga a la izquierda | Media < Mediana (deprimida por valores bajos) |
+| **Uniforme** | Todos los valores igual de probables | Distribución plana |
+| **Exponencial** | Decaimiento rápido | Modela tiempos entre eventos |
+
+**Ejemplo Real - Distribución de Ingresos:**
+
+```
+Sesgada Positiva (cola derecha):
+
+Frecuencia
+    |      ▁▂▃▄▆█▆▄▂
+    |   ▁▃▅▇▆▄▂     ▁▂ ← Multimillonarios
+    |▃▅▇          ▂▅  ▁
+    |_______________|___|___
+    0           Ingreso medio  Muy altos
+
+Conclusión: Mayoría gana menos que la media 
+(porque pocos superricos inflan el promedio)
+```
+
+### D. Análisis de Correlaciones
+
+**Correlación de Pearson (r):** Mide relación lineal entre dos variables.
+
+**Rango:** r ∈ [-1, 1]
+
+| Valor | Significado | Ejemplo |
+|---|---|---|
+| r = 1.0 | Correlación perfecta positiva | Más edad → más experiencia laboral |
+| r = 0.7 | Fuerte correlación positiva | Más estudio → más ingresos |
+| r = 0 | Sin correlación lineal | Número de zapato ↔ Inteligencia |
+| r = -0.7 | Fuerte correlación negativa | Más ejercicio → menos peso |
+| r = -1.0 | Correlación perfecta negativa | Velocidad ↑ → Tiempo ↓ |
+
+**Interpretación Visual:**
+
+```
+r = 0.9 (Fuerte positiva)    r = 0 (Sin relación)      r = -0.8 (Fuerte negativa)
+
+    Y ▁                           Y ▁                       Y ▁
+      │   ●                         │  ●   ●                  │              ●
+      │      ●                      │    ●    ●               │           ●
+      │        ●                    │  ●      ●               │        ●
+      │          ●                  │    ●  ●  ●             │     ●
+      │           ●                 │  ●  ●  ●               │  ●
+      └──────────X                  └─────────X              └─────────X
+        "A medida que X aumenta,      "No hay patrón        "A medida que X aumenta,
+         Y también aumenta"            evidente"             Y disminuye"
+```
+
+**Caso Práctico - E-commerce:**
+
+```
+Correlación entre:
+- Tiempo en el sitio vs. Monto de compra: r = 0.65 ✓
+  → Usuarios que pasan más tiempo compran más
+
+- Número de reseñas leídas vs. Satisfacción: r = 0.82 ✓
+  → Leer reseñas reduce compras impulsivas
+
+- Descuento ofrecido vs. Devoluciones: r = 0.45 ✓
+  → Descuentos muy altos generan más devoluciones
+```
+
+### E. Visualización de Datos: El Poder de las Gráficas
+
+> Un gráfico revela lo que 1,000 números ocultan.
+
+**Gráficos Univariables (Una variable):**
+
+| Gráfico | Uso | Detección |
+|---|---|---|
+| **Histograma** | Distribuir en intervalos (bins) | Forma de distribución, moda |
+| **Densidad** | Curva suave aproximando distribución | Identificar gaussiana vs. sesgada |
+| **Box Plot** | Mediana, cuartiles, outliers | Q1, Q2, Q3, y valores atípicos gráficamente |
+
+**Gráficos Multivariables (Múltiples variables):**
+
+| Gráfico | Uso |
+|---|---|
+| **Scatter Plot (Dispersión)** | Relación entre dos variables (X vs Y) |
+| **Heatmap (Matriz de correlación)** | Visualizar correlaciones entre todos los pares de variables |
+| **Pairplot** | Matriz de gráficos de dispersión para todas las combinaciones |
+
+**Ejemplo Visual - Box Plot (Detección de Outliers):**
+
+```
+                ●  ← Outlier (valor atípico)
+          ────┐ │
+          │   │ │   Rango: Q1 - 1.5×IQR a Q3 + 1.5×IQR
+       Q1─┤   │ │   (valores fuera son outliers)
+          │   │ │
+       Q2─┼───┼─┤   Mediana (Q2)
+          │   │ │
+       Q3─┤   │ │
+          └───┘ │
+          ────┘ 
+        
+        IQR = Q3 - Q1
+```
+
+### F. Herramientas Python para EDA
+
+**Stack de Datos Essencial:**
+
+```python
+import pandas as pd         # Manipulación de datos
+import numpy as np          # Computación numérica
+import matplotlib.pyplot    # Gráficos básicos
+import seaborn             # Gráficos avanzados
+from sklearn.preprocessing # Normalización, transformación
+```
+
+**Código Básico:**
+
+```python
+# Cargar datos
+data = pd.read_csv('datos.csv')
+
+# Exploración inicial
+print(data.shape)              # Dimensiones (filas, columnas)
+print(data.describe())         # Estadísticas: media, std, min, max
+print(data.isnull().sum())     # Valores faltantes
+
+# Correlaciones
+corr_matrix = data.corr()      # Matriz de correlaciones
+print(corr_matrix)
+
+# Visualización
+import matplotlib.pyplot as plt
+plt.hist(data['variable'], bins=20)  # Histograma
+plt.boxplot(data['variable'])        # Box plot
+plt.scatter(data['x'], data['y'])    # Scatter plot
+plt.show()
+```
+
+### G. Checklist - Análisis Exploratorio Completo
+
+- [ ] **Dimensiones:** ¿Cuántas filas y columnas?
+- [ ] **Resumen estadístico:** Media, mediana, desviación estándar
+- [ ] **Valores faltantes:** ¿Dónde y cuántos?
+- [ ] **Distribuciones:** ¿Gaussiana, sesgada, uniforme?
+- [ ] **Outliers:** ¿Hay valores atípicos? ¿Son errores o información valiosa?
+- [ ] **Correlaciones:** ¿Qué variables se relacionan entre sí?
+- [ ] **Visualización:** ¿Los gráficos revelan patrones?
+- [ ] **Calidad:** ¿Los datos son confiables para modelado?
+
+---
+
 ## 8. Selección del Modelo y Valor Empresarial
 
 ### ¿Cuándo la IA Añade Valor?
@@ -665,7 +880,7 @@ Decisión: Rollback
 
 ---
 
-## 7. Ética, Transparencia y Sesgos
+## 13. Ética, Transparencia y Sesgos
 
 ### Responsabilidad del Desarrollador
 
@@ -760,7 +975,7 @@ de control, auditar de nuevo
 
 ---
 
-## 8. Resumen: Checklist para Implementar IA Responsable
+## 14. Resumen: Checklist para Implementar IA Responsable
 
 Antes de desplegar cualquier solución de IA, verifica:
 
