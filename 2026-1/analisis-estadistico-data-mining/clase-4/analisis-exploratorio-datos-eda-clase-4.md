@@ -49,16 +49,17 @@ Es común confundir estos dos conceptos. Aquí está la distinción clara:
 **Ejemplo Práctico: E-commerce**
 
 ```
-Ventas mensuales (últimos 5 años):
-Año 1: $50K, $52K, $51K, $53K (promedio: $51.5K)
-Año 2: $65K, $64K, $66K, $67K (promedio: $65.5K)
-Año 3: $82K, $81K, $83K, $85K (promedio: $82.75K)
-Año 4: $105K, $103K, $107K, $110K (promedio: $106.25K)
-Año 5: $130K, $128K, $132K, $135K (promedio: $131.25K)
+Ventas mensuales de un negocio online:
 
-Observación: A pesar de pequeñas caídas mensuales,
-hay crecimiento constante año a año.
-Tendencia: ALCISTA (+155% en 5 años)
+Mes 1: $100
+Mes 2: $105
+Mes 3: $110
+Mes 4: $115
+Mes 5: $120
+Mes 6: $125
+
+Observación: Cada mes vende $5 más que el anterior.
+Tendencia: ALCISTA CLARA (crecimiento de 25% en 6 meses)
 ```
 
 **Utilidad para Decisiones:**
@@ -91,16 +92,17 @@ Tendencia: ALCISTA (+155% en 5 años)
 
 Los datos se agrupan por parámetros de tiempo (meses, trimestres, horas) para encontrar repeticiones y calcular un índice que mida la intensidad del efecto estacional.
 
-**Ejemplo: Índice Estacional de Energía Eléctrica**
+**Ejemplo Simple: Consumo de Energía por Mes**
 
 ```
-Consumo promedio = 1,000 kWh
+Promedio mensual de consumo = 100 kWh
 
-Enero (invierno): 900 kWh → Índice = 0.90 (10% por debajo del promedio)
-Julio (verano): 1,350 kWh → Índice = 1.35 (35% por encima del promedio)
+Enero (invierno frío): 150 kWh → 50% más (gente usa calefacción)
+Julio (verano caluroso): 150 kWh → 50% más (gente usa aire acondicionado)
+Abril (primavera): 80 kWh → 20% menos (clima templado)
 
-Uso: Si esperamos 1,000 kWh en julio sin ajuste,
-     subestimaremos 35%, causando desabastecimiento.
+Patrón: Siempre hay consumo alto en extremos de temperatura.
+Uso: Preparar más electricidad en enero y julio.
 ```
 
 ---
@@ -114,35 +116,44 @@ Uso: Si esperamos 1,000 kWh en julio sin ajuste,
 **Ecuación:**
 $$\hat{y} = \beta_1 x + \beta_0$$
 
-Donde:
-- **$\hat{y}$:** Valor predicho
-- **$\beta_1$:** Pendiente (dirección y fuerza de la tendencia)
-- **$\beta_0$:** Intercepto (valor de $y$ cuando $x = 0$)
-- **$x$:** Variable independiente (ej. tiempo)
+**Cuadro de Símbolos:**
+
+| Símbolo | Nombre | Significado |
+|---------|--------|-------------|
+| **$\hat{y}$** | Y predicha | La respuesta calculada |
+| **$\beta_1$** | Pendiente | Cuánto sube/baja por mes |
+| **$\beta_0$** | Intercepto | Valor inicial |
+| **$x$** | X independiente | El mes (1, 2, 3...) |
 
 **Interpretación de la Pendiente $\beta_1$:**
 
 ```
-Si β₁ > 0: Tendencia CRECIENTE (asociación positiva)
-Si β₁ < 0: Tendencia DECRECIENTE (asociación negativa)
-Si β₁ = 0: Sin tendencia (datos planos)
+Si β₁ > 0: Tendencia CRECIENTE (↑ sube)
+Si β₁ < 0: Tendencia DECRECIENTE (↓ baja)
+Si β₁ = 0: Datos planos (→ ni sube ni baja)
 ```
 
-**Ejemplo: Predicción de Ventas**
+**Ejemplo Paso a Paso:**
 
 ```
-Datos históricos (últimos 12 meses):
-Mes 1: $50K
-Mes 2: $55K
-Mes 3: $60K
-...
-Mes 12: $115K
+Datos de ventas:
+Mes 1: $10   Mes 2: $12   Mes 3: $14
+Mes 4: $16   Mes 5: $18
 
-Regresión lineal: Ŷ = 5.4X + 45
-(Pendiente β₁ = 5.4K por mes, intercepto β₀ = 45K)
+🔍 Análisis: Cada mes sube exactamente $2
 
-Predicción mes 13: Ŷ = 5.4(13) + 45 = $115.2K
-Predicción mes 24: Ŷ = 5.4(24) + 45 = $184.6K
+Fórmula encontrada: Ŷ = 2X + 8
+
+Desglose:
+- β₁ = 2 (cada mes suma $2)
+- β₀ = 8 (comenzamos en mes 0 con $8)
+
+📊 Predicciones:
+Mes 6: Ŷ = 2(6) + 8 = 12 + 8 = $20
+Mes 10: Ŷ = 2(10) + 8 = 20 + 8 = $28
+Mes 12: Ŷ = 2(12) + 8 = 24 + 8 = $32
+
+✓ Si continúa la tendencia: mes 12 = $32
 ```
 
 ### B. Suavizado de Datos
@@ -171,21 +182,25 @@ Suavizado polinómico: curva que se ajusta mejor
 
 **Qué es:** Calcular el promedio dentro de una "ventana" de tiempo que se desplaza continuamente.
 
-**Proceso:**
+**Proceso simple:**
 
 ```
-Ejemplo: Promedio móvil de 4 trimestres
+Datos originales de 6 días:
+Día 1: 10
+Día 2: 12
+Día 3: 8
+Día 4: 11
+Día 5: 15
+Día 6: 9
 
-Datos originales:
-Trim 1: $100K, Trim 2: $120K, Trim 3: $90K, Trim 4: $110K, Trim 5: $150K, Trim 6: $140K
+Promedio móvil de 3 días (ventana que avanza):
+- Días 1-3: (10 + 12 + 8) / 3 = 10
+- Días 2-4: (12 + 8 + 11) / 3 = 10.3
+- Días 3-5: (8 + 11 + 15) / 3 = 11.3
+- Días 4-6: (11 + 15 + 9) / 3 = 11.7
 
-Promedio móvil:
-- Trimestres 1-4: ($100 + $120 + $90 + $110) / 4 = $105K
-- Trimestres 2-5: ($120 + $90 + $110 + $150) / 4 = $117.5K
-- Trimestres 3-6: ($90 + $110 + $150 + $140) / 4 = $122.5K
-
-Resultado: La línea de promedio móvil es MÁS SUAVE,
-mostrando tendencia clara sin "ruido" de fluctuaciones cortas.
+Ventaja: Los números suavizados (10, 10.3, 11.3, 11.7)
+son más fáciles de leer que los originales (10, 12, 8, 11, 15, 9).
 ```
 
 **Utilidad:**
@@ -211,35 +226,55 @@ mostrando tendencia clara sin "ruido" de fluctuaciones cortas.
 
 #### Método 1: Rango Intercuartílico (IQR)
 
-**Conceptos previos:**
-- **Q1 (Primer Cuartil):** El 25% de los datos está por debajo
-- **Q3 (Tercer Cuartil):** El 75% de los datos está por debajo
-- **IQR (Rango Intercuartílico):** $IQR = Q3 - Q1$
-
-**Regla de Detección:**
-
-$$\text{Límite Inferior} = Q1 - 1.5 \times IQR$$
-$$\text{Límite Superior} = Q3 + 1.5 \times IQR$$
-
-**Cualquier dato fuera de estos límites es una anomalía.**
-
-**Ejemplo Práctico: Detección de Fraude en Transacciones**
+**Conceptos básicos (Cuartiles):**
 
 ```
-Transacciones diarias típicas de un cliente:
-$50, $60, $55, $65, $52, $70, $58, $62, $75, $90
+¿Qué es un cuartil?
+Si ordenas datos de menor a mayor en 4 partes iguales:
 
-Q1 = $55
-Q3 = $72
-IQR = $17
+Datos: 5, 8, 10, 12, 14, 16, 18, 20, 22, 25, 28, 30
+         ↓                    ↓                    ↓
+        Q1                   Q2                  Q3
+       (25%)               (50%)               (75%)
 
-Límite Inferior = $55 - (1.5 × $17) = $29.50
-Límite Superior = $72 + (1.5 × $17) = $97.50
+IQR = Q3 - Q1 (rango entre cuartiles)
+```
 
-Nueva transacción: $500 → ANOMALÍA DETECTADA
-(está fuera del rango $29.50 - $97.50)
+**Regla de Detección (Visual):**
 
-Investigación: Posible fraude o error en el sistema
+```
+Límite Inferior = Q1 - 1.5 × IQR
+         ↓
+    [DATOS NORMALES]
+    Q1 | Q2 (mediana) | Q3
+         ↑
+Límite Superior = Q3 + 1.5 × IQR
+
+Si algo cae FUERA → ⚠️ ANOMALÍA
+```
+
+**Ejemplo Paso a Paso: Detección de Fraude**
+
+```
+Transacciones del cliente (10 días):
+$10, $12, $11, $13, $9, $14, $10, $12, $15, $11
+
+Paso 1: Ordenar de menor a mayor
+$9, $10, $10, $11, $11, $12, $12, $13, $14, $15
+
+Paso 2: Encontrar cuartiles
+Q1 (25%) = $10.5
+Q3 (75%) = $13
+IQR = $13 - $10.5 = $2.5
+
+Paso 3: Calcular límites
+Límite Inferior = $10.5 - (1.5 × $2.5) = $6.75
+Límite Superior = $13 + (1.5 × $2.5) = $16.75
+
+Paso 4: Verificar nueva transacción
+Nueva: $500
+¿Entre $6.75 y $16.75? NO
+→ ⚠️ ANOMALÍA = Posible fraude
 ```
 
 ---
@@ -251,40 +286,48 @@ Investigación: Posible fraude o error en el sistema
 **Fórmula:**
 $$Z = \frac{x - \mu}{\sigma}$$
 
-Donde:
-- **$x$:** Valor observado
-- **$\mu$:** Media de los datos
-- **$\sigma$:** Desviación estándar
+**Cuadro de Símbolos:**
 
-**Regla de Detección:**
+| Símbolo | Nombre | Significado |
+|---------|--------|-------------|
+| **Z** | Puntuación Z | Cuántas desviaciones alejadas |
+| **x** | Valor observado | El dato a evaluar |
+| **μ** | Media | Promedio de todos los datos |
+| **σ** | Sigma | Dispersión (desviación estándar) |
 
-$$|Z| > 3 \rightarrow \text{ANOMALÍA}$$
-
-**Interpretación:**
-- $|Z| = 1$: Muy normal (68% de datos caen aquí)
-- $|Z| = 2$: Inusual pero no raro (95% de datos caen aquí)
-- $|Z| = 3$: Altamente sospechoso → Investigar
-- $|Z| > 3$: Casi seguramente una anomalía
-
-**Ejemplo: Análisis de Velocidad de Internet**
+**Escala de Interpretación:**
 
 ```
-Datos de clientes (Mbps):
-100, 95, 98, 102, 99, 101, 97, 103, 98, 500
+← Muy bajo      Normal      Muy alto →
+    |___________|___________|
+   Z=-3         Z=0        Z=+3
+   ↑ Anomalía           Esperado
+   
+Regla: |Z| > 3 → ⚠️ ALERTA
+```
 
-Media (μ) = 109.3 Mbps
-Desviación estándar (σ) = 148.7 Mbps
+**Ejemplo Paso a Paso: Calificaciones**
 
-Cliente con 500 Mbps:
-Z = (500 - 109.3) / 148.7 = 2.62
+```
+Notas de examen en clase:
+Estudiantes: 60, 65, 70, 75, 80
 
-|Z| = 2.62 < 3 → Inusual pero tolerable (posible cliente premium)
+Paso 1: Calcular media
+μ = (60+65+70+75+80)/5 = 70
 
-Ahora, si un cliente tiene 1,500 Mbps:
-Z = (1500 - 109.3) / 148.7 = 9.35
-|Z| = 9.35 > 3 → ANOMALÍA CLARA
-(Investigar si el cliente está usando métodos ilegales
-o si hay un error en la medición)
+Paso 2: Calcular desviación estándar
+σ ≈ 8 (mide qué tan dispersas son)
+
+Paso 3: Evaluar estudiante con nota 88
+Z = (88 - 70) / 8 = 18 / 8 = 2.25
+Interpretación: 2.25 desviaciones ARRIBA
+→ ✓ Excelente, pero posible
+
+Paso 4: Evaluar estudiante con nota 150
+Z = (150 - 70) / 8 = 80 / 8 = 10
+Interpretación: 10 desviaciones ARRIBA
+→ ⚠️ IMPOSIBLE (máx es 100)
+→ ERROR EN LOS DATOS
 ```
 
 ### Comparación de Métodos
@@ -323,20 +366,47 @@ o si hay un error en la medición)
 **Fórmula:**
 $$r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}$$
 
-**Ejemplo Práctico: Análisis de E-commerce**
+**Cuadro Visual de Correlación:**
 
 ```
-Variable X: Inversión en publicidad ($ miles)
-Variable Y: Ventas mensuales ($ miles)
+r = +1.0        r = +0.5        r = 0          r = -0.7
+Perfecta        Media          Ninguna         Fuerte
+positiva        positiva       relación        negativa
 
-Datos: 
-Inversión: 10, 15, 20, 25, 30
-Ventas:    50, 65, 80, 95, 110
+  ↗              ↗              /-/             ↘
+ /              /               /-/              
+/              /                /-/               
+•              •                /-/                •
 
-Cálculo: r = +0.998 (casi perfecta correlación positiva)
+Si X sube   Si X sube     X y Y        Si X sube
+Y sube      Y sube poco  no tienen     Y baja
+SIEMPRE     a veces       relación    SIEMPRE
+```
 
-Conclusión: Cada $1K en publicidad genera ~$2K en ventas
-Decisión: Aumentar presupuesto de publicidad
+**Ejemplo Paso a Paso: Publicidad vs Ventas**
+
+```
+Datos de 5 meses:
+┌──────┬────────────┬──────────┐
+│ Mes  │Publicidad($)│ Ventas($)│
+├──────┼────────────┼──────────┤
+│  1   │    $10     │   $50    │
+│  2   │    $20     │  $100    │
+│  3   │    $30     │  $150    │
+│  4   │    $40     │  $200    │
+│  5   │    $50     │  $250    │
+└──────┴────────────┴──────────┘
+
+Patrón observado:
+Publicidad × 2 = Ventas × 2
+Publicidad × 3 = Ventas × 3
+
+Conclusión: RELACIÓN PERFECTA
+
+Correlación: r = +1.0
+
+✓ Decisión: Publicidad efectiva.
+Invertir más = más ventas GARANTIZADO.
 ```
 
 ---
@@ -445,7 +515,217 @@ Antes de modelar datos, verifica que hayas explorado:
 
 ---
 
-## 9. Referencia Visual
+## 9. Recordatorio Rápido: Fórmulas y Cuándo Usarlas
+
+### Cheat Sheet de Fórmulas (Hoja de Trucos)
+
+#### 1️⃣ Regresión Lineal
+
+**Fórmula:**
+$$\hat{y} = \beta_1 x + \beta_0$$
+
+**Cuándo usarla:**
+- Cuando quieres **predecir** un valor basado en un patrón
+- Cuando necesitas saber si hay **tendencia clara**
+
+**Pasos simples:**
+```
+1. Identifica: ¿Qué quiero predecir? (Y)
+2. Identifica: ¿Con qué lo predigo? (X)
+3. Busca el patrón: ¿Cuánto sube Y por cada X?
+4. Aplica: Ŷ = (cambio por X) × X + (valor inicial)
+5. Predice: Reemplaza X con el valor futuro
+```
+
+**Ejemplo Real:**
+```
+Ventas suben $2 cada mes, comenzando en $8.
+¿Cuánto en mes 10?
+
+Ŷ = 2(10) + 8 = $28
+
+Uso: Presupuestar $28 para mes 10.
+```
+
+---
+
+#### 2️⃣ Rango Intercuartílico (IQR)
+
+**Fórmula:**
+```
+Límite Inferior = Q1 - 1.5 × IQR
+Límite Superior = Q3 + 1.5 × IQR
+```
+
+**Cuándo usarla:**
+- Cuando quieres **detectar fraudes**
+- Cuando quieres **identificar datos anómalos**
+- Datos con **valores extremos**
+
+**Pasos simples:**
+```
+1. Ordena los datos de menor a mayor
+2. Encuentra Q1 (25%) y Q3 (75%)
+3. Calcula IQR = Q3 - Q1
+4. Calcula los límites
+5. Cualquier dato FUERA = ANOMALÍA
+```
+
+**Ejemplo Real:**
+```
+Transacciones normales: $10-$15
+IQR detecta: $500 es imposible
+→ Bloquear y investigar
+
+Uso: Sistema automático de seguridad bancaria.
+```
+
+---
+
+#### 3️⃣ Z-Score
+
+**Fórmula:**
+$$Z = \frac{x - \mu}{\sigma}$$
+
+**Cuándo usarla:**
+- Cuando quieres **comparar datos en diferentes escalas**
+- Cuando quieres **saber cuán diferente es un valor**
+- Datos **aproximadamente normales**
+
+**Pasos simples:**
+```
+1. Calcula el promedio (μ)
+2. Calcula cuán dispersos están (σ)
+3. Resta el promedio al valor (x - μ)
+4. Divide por la dispersión: Z = resultado / σ
+5. Si |Z| > 3 = ANOMALÍA
+```
+
+**Ejemplo Real:**
+```
+Examen: promedio 70, dispersión 8
+Estudiante sacó 88:
+Z = (88-70)/8 = 2.25 → Excelente ✓
+
+Estudiante sacó 150:
+Z = (150-70)/8 = 10 → ¡IMPOSIBLE! ⚠️
+→ Error en el sistema
+```
+
+---
+
+#### 4️⃣ Promedio Móvil
+
+**Fórmula:**
+$$\text{Promedio Móvil} = \frac{x_1 + x_2 + ... + x_n}{n}$$
+
+**Cuándo usarla:**
+- Cuando quieres **suavizar datos ruidosos**
+- Cuando quieres **ver tendencias sin ruido**
+- Series de tiempo **con fluctuaciones**
+
+**Pasos simples:**
+```
+1. Define una ventana (ej. últimos 3 días)
+2. Suma los valores en la ventana
+3. Divide por la cantidad de valores
+4. Desplaza la ventana un periodo
+5. Repite
+```
+
+**Ejemplo Real:**
+```
+Ventas: 10, 12, 8, 11, 15, 9
+
+Promedio móvil 3 días:
+(10+12+8)/3 = 10
+(12+8+11)/3 = 10.3
+(8+11+15)/3 = 11.3
+
+Uso: Ver si ventas suben sin distracciones.
+```
+
+---
+
+#### 5️⃣ Correlación de Pearson
+
+**Fórmula:**
+$$r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}$$
+
+**Cuándo usarla:**
+- Cuando quieres **saber si dos cosas están relacionadas**
+- Cuando necesitas **identificar variables que se mueven juntas**
+
+**Pasos simples (versión rápida):**
+```
+1. Calcula: ¿Cuándo X sube, Y también sube?
+2. Resultado entre -1 y +1
+3. Cerca de +1 = relación positiva fuerte
+4. Cerca de -1 = relación negativa fuerte
+5. Cerca de 0 = sin relación
+```
+
+**Ejemplo Real:**
+```
+Publicidad: $10, $20, $30, $40, $50
+Ventas:    $50, $100, $150, $200, $250
+
+Patrón: Siempre Publicidad × 5 = Ventas
+r = +1.0 (PERFECTA)
+
+Uso: "Invertir más en publicidad garantiza más ventas"
+```
+
+---
+
+### Tabla Comparativa: Cuál Usar Cuándo
+
+| Problema | Fórmula | Por qué |
+|----------|---------|--------|
+| **¿Cuánto venderé el próximo mes?** | Regresión Lineal | Predice basado en patrón |
+| **¿Esta transacción es fraude?** | IQR o Z-Score | Detecta valores anómalos |
+| **¿Los datos suben o bajan?** | Regresión o Promedio Móvil | Identifica tendencia |
+| **¿X causa Y?** | Correlación | Mide relación entre variables |
+| **¿Está este estudiante fuera de lo normal?** | Z-Score | Compara con promedio |
+| **¿Suavizo datos ruidosos?** | Promedio Móvil | Elimina fluctuaciones |
+
+---
+
+## 10. Glosario Rápido de Símbolos Matemáticos
+
+**Para no perderse en las fórmulas, aquí están todos los símbolos que usamos:**
+
+| Símbolo | Nombre | Qué significa | Dónde lo vimos |
+|---------|--------|---------------|----------------|
+| **$\hat{y}$** | Y predicha | Valor calculado por la fórmula | Regresión lineal |
+| **$\beta_1$** | Beta uno (pendiente) | Cuánto sube/baja cada vez | Regresión lineal |
+| **$\beta_0$** | Beta cero (intercepto) | Punto de inicio de la línea | Regresión lineal |
+| **$x$** | X | Variable independiente (el mes) | Regresión lineal |
+| **$\mu$** | Mu (media) | Promedio de todos los datos | Z-Score |
+| **$\sigma$** | Sigma (desv. est.) | Mide qué tan dispersos están los datos | Z-Score |
+| **$Z$** | Puntuación Z | Cuántas desviaciones alejadas de la media | Z-Score |
+| **Q1** | Primer cuartil | El 25% de los datos está debajo | IQR |
+| **Q3** | Tercer cuartil | El 75% de los datos está debajo | IQR |
+| **IQR** | Rango intercuartílico | La diferencia entre Q3 y Q1 | IQR |
+| **$r$** | Coeficiente de correlación | Mide relación entre dos variables | Correlación |
+| **$\bar{x}$** | X barra | Promedio de X | Fórmula de correlación |
+| **$\bar{y}$** | Y barra | Promedio de Y | Fórmula de correlación |
+
+**Regla de Oro:**
+
+```
+Cuando veas una fórmula complicada:
+1. Identifica cada símbolo en la tabla
+2. Lee qué significa cada uno
+3. Observa un ejemplo paso a paso
+4. La fórmula es solo "código" para hacer cálculos
+
+¡No es magia, es proceso!
+```
+
+---
+
+## 10. Referencia Visual
 
 ![Análisis Exploratorio de Datos — EDA: Conceptos, Métodos y Aplicaciones](./analisis-exploratorio-datos-eda-clase-4.png)
 
@@ -453,7 +733,7 @@ Antes de modelar datos, verifica que hayas explorado:
 
 ---
 
-## 10. Recursos Complementarios
+## 11. Recursos Complementarios
 
 - 📊 **Presentación (PDF):** [40097-S04-PRESENTACION.pdf](./40097-S04-PRESENTACION.pdf)
 - 📑 **Presentación original (PPTX):** 40097-S04-PRESENTACION.pptx
