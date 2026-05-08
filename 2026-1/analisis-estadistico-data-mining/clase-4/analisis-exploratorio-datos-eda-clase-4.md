@@ -691,6 +691,66 @@ Uso: "Invertir más en publicidad garantiza más ventas"
 
 ---
 
+### Fórmulas Complementarias (Cálculos intermedios)
+
+Estas fórmulas no son independientes pero son **pasos clave** en los métodos principales:
+
+#### IQR (Rango Intercuartílico)
+
+**Fórmula:**
+```
+IQR = Q3 - Q1
+```
+
+**Cuadro de Símbolos:**
+
+| Símbolo | Significado |
+|---------|-------------|
+| **IQR** | Rango intercuartílico (distancia entre cuartiles) |
+| **Q3** | Tercer cuartil (75% de los datos) |
+| **Q1** | Primer cuartil (25% de los datos) |
+
+**Uso en límites de detección:**
+```
+Límite Inferior = Q1 - 1.5 × IQR
+Límite Superior = Q3 + 1.5 × IQR
+
+Cualquier dato FUERA = ANOMALÍA
+```
+
+**Cuándo usarla:**
+- Calcular rango normal de datos
+- Establecer límites para detectar fraude
+- Identificar valores extremos
+
+---
+
+#### Porcentaje de Cambio
+
+**Fórmula:**
+```
+% Cambio = ((Valor Final - Valor Inicial) / Valor Inicial) × 100
+```
+
+**Cuadro de Símbolos:**
+
+| Símbolo | Significado |
+|---------|-------------|
+| **Valor Final** | El número al final del período |
+| **Valor Inicial** | El número al inicio del período |
+| **× 100** | Convierte a porcentaje |
+
+**Ejemplo:**
+```
+Ventas enero: $100
+Ventas junio: $125
+
+% Cambio = ((125 - 100) / 100) × 100 = 25%
+Interpretación: Ventas crecieron 25% en 6 meses
+```
+
+---
+
 ## 10. Glosario Rápido de Símbolos Matemáticos
 
 **Para no perderse en las fórmulas, aquí están todos los símbolos que usamos:**
