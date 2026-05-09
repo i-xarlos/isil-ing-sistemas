@@ -131,6 +131,20 @@ Muestra de 100 clientes: gasto promedio = $500
 - **H₀ (Hipótesis Nula):** No hay diferencia / el efecto no existe
 - **H₁ (Hipótesis Alternativa):** Hay diferencia / el efecto existe
 
+**Árbol de decisión: Cómo fluye una prueba de hipótesis**
+
+```mermaid
+graph TD
+    A["📋 Plantear Hipótesis<br/>H₀ vs H₁"] --> B["📊 Recolectar Datos"]
+    B --> C["🔢 Calcular Estadístico<br/>t, χ², F, etc."]
+    C --> D["📈 Calcular p-valor"]
+    D --> E{"❓ ¿p-valor < α<br/>0.05?"}
+    E -->|SÍ| F["✅ RECHAZAR H₀<br/>Hay efecto/diferencia"]
+    E -->|NO| G["❌ NO rechazar H₀<br/>No hay evidencia"]
+    F --> H["🎯 Conclusión:<br/>H₁ es probablemente correcta"]
+    G --> I["🎯 Conclusión:<br/>No hay cambio significativo"]
+```
+
 ![¿Qué son las Pruebas de Hipótesis? Concepto, Flujo de Decisión y Metodología](./analisis-estadistico-pruebas-hipotesis-flujo-decision-clase-3.png)
 
 El diagrama ilustra el flujo de una prueba: desde definir H₀ y H₁, pasando por el cálculo del estadístico, hasta la comparación con el nivel de significancia y la decisión final.

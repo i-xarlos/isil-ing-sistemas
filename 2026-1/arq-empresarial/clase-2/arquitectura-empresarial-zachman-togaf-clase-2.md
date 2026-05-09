@@ -53,10 +53,34 @@ Su valor práctico es que ofrece un proceso ordenado para pasar de la situación
 
 **Zachman** es una taxonomía. No dice exactamente cómo ejecutar el cambio, sino cómo organizar todo lo que la empresa debe describir para entenderse bien.
 
-Se basa en una matriz de **6 columnas** y **6 filas**:
+Se basa en una matriz de **6 columnas** y **6 filas**. Cada celda es una descripción única de un aspecto de la empresa.
 
-- **Columnas:** Qué, Cómo, Dónde, Quién, Cuándo y Por qué.
-- **Filas:** Planner, Owner, Designer, Builder, Subcontractor y Enterprise Operations.
+```mermaid
+graph TD
+    subgraph INTERROGANTES
+        C1["📊 QUÉ<br/>Datos"]
+        C2["⚙️ CÓMO<br/>Funciones"]
+        C3["🌐 DÓNDE<br/>Red"]
+        C4["👥 QUIÉN<br/>Gente"]
+        C5["⏰ CUÁNDO<br/>Tiempo"]
+        C6["🎯 POR QUÉ<br/>Motivos"]
+    end
+    
+    subgraph PERSPECTIVAS
+        R1["🏢 Planificador<br/>Contextual"]
+        R2["💼 Propietario<br/>Conceptual"]
+        R3["🔧 Diseñador<br/>Lógico"]
+        R4["👨‍💻 Constructor<br/>Físico"]
+        R5["⚡ Subcontratista<br/>Detallado"]
+        R6["🎬 Operaciones<br/>Real"]
+    end
+
+    R1 -.-> |intersección| C1
+    R6 -.-> |intersección| C6
+    
+    style INTERROGANTES fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+    style PERSPECTIVAS fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+```
 
 ### Para qué sirve **Zachman**
 

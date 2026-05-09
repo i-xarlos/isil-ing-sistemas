@@ -1,6 +1,8 @@
-# Desarrollo de Productos y Servicios Basados en Datos
+# Desarrollo de Productos y Servicios Basados en Datos (Clase 5)
 
-**Clase 5** — Dirección Estratégica de Datos | ISIL 2026-1
+**Curso:** Dirección Estratégica de Datos (ISIL, 2026-1)  
+**Docente:** Brezli Paola Luna Figueroa  
+**Fecha:** 09/05/2026
 
 ## 📌 Introducción
 
@@ -8,22 +10,49 @@ En esta clase exploramos cómo las empresas modernas desarrollan productos y ser
 
 Las empresas líderes (Google, Amazon, Netflix) no innovan por intuición: **innovan por datos**.
 
+### Dos Caminos para Crear Productos
+
+Existen dos estrategias principales para desarrollar productos:
+
+1. **Satisfacer necesidades existentes:** Observar qué le falta al consumidor y proveerlo (demanda manifesta).
+2. **Crear nuevas necesidades:** Desarrollar un producto innovador que el usuario no sabía que necesitaba hasta que lo vio (demanda latente).
+
+Ambas requieren análisis de datos para identificar dónde está la oportunidad real.
+
 ---
 
 ## 1. Proceso de Desarrollo de Productos Basados en Datos
 
-El ciclo de vida de un producto centrado en datos consta de **5 fases principales**.
+El ciclo de vida de un producto centrado en datos consta de **5 fases principales**. Este proceso no es lineal, sino iterativo, buscando aprender rápido del mercado.
+
+```mermaid
+graph LR
+    A["👁️ EMPATÍA<br/>Investigación"] --> B["📋 DEFINICIÓN<br/>Síntesis"]
+    B --> C["💡 IDEACIÓN<br/>Creatividad"]
+    C --> D["🎨 PROTOTIPADO<br/>Construcción"]
+    D --> E["✅ VALIDACIÓN<br/>Testeo"]
+    E --> |"🔄 Feedback"| A
+    
+    style A fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+    style B fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+    style C fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+    style D fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style E fill:#C8E6C9,stroke:#2E7D32,stroke-width:3px
+```
 
 ### Fase 1️⃣: Identificación de Necesidades y Oportunidades
 
-**¿Qué es?** Descubrir patrones, tendencias y relaciones ocultas en datos para identificar problemas que los clientes tienen.
+**¿Qué es?** Descubrir patrones, tendencias y relaciones ocultas en datos para identificar **insights** (hallazgos profundos) que revelen problemas que los clientes tienen.
 
 **Pasos:**
-1. **Recopilación de datos** → Reunir datos de múltiples fuentes (comportamiento, transacciones, feedback)
+1. **Recopilación de datos** → Reunir datos de múltiples fuentes (comportamiento, transacciones, feedback, operaciones)
 2. **Análisis de datos** → Buscar patrones y anomalías
-3. **Identificación de oportunidades** → Definir qué problema resolver
+3. **Identificación de oportunidades** → Definir qué problema resolver con base en insights reales
 
-#### 📊 Ejemplo Práctico: E-commerce de Retail
+**Concepto clave: Insight**  
+Un **insight** es una verdad oculta o descubrimiento obtenido tras analizar grandes volúmenes de datos. No es simplemente un dato; es un conocimiento accionable que guía la decisión de negocio.
+
+#### 📊 Ejemplo Práctico 1: E-commerce de Retail
 
 | Datos Recopilados | Patrón Identificado | Oportunidad |
 |---|---|---|
@@ -35,14 +64,39 @@ El ciclo de vida de un producto centrado en datos consta de **5 fases principale
 
 ---
 
+#### 📊 Ejemplo Práctico 2: El "Datero" de Microbuses en Perú
+
+Un ejemplo **real y palpable** de operación basada en datos es el rol del **"datero"** en los microbuses peruanos.
+
+**¿Qué datos recopila el datero?**
+- Frecuencia de buses en la ruta
+- Cantidad de pasajeros por hora
+- Intensidad del tráfico
+- Horarios pico
+
+**¿Cómo usa estos datos?**
+El datero **comunica estos insights al conductor**, quien ajusta su estrategia operativa:
+- Si hay mucho tráfico → El conductor esperará en terminal o irá más lento
+- Si hay pocos pasajeros en horario pico → El conductor aceleraría para buscar más pasajeros
+- Si hay saturación de buses → El conductor buscará rutas alternativas
+
+**Impacto:** Sin datos, el conductor opera por intuición y comete errores. Con datos, **cada decisión se basa en hechos reales**, mejorando rentabilidad y puntualidad.
+
+**Lección:** Este ejemplo demuestra que la cultura data-driven **no es exclusiva de empresas tech grandes**. Cualquier operación, por pequeña que sea, puede beneficiarse de recopilar y analizar datos.
+
+---
+
 ### Fase 2️⃣: Definición de Objetivos y Alcance
 
-**¿Qué es?** Convertir los insights en objetivos medibles y definir qué haremos (y qué NO haremos).
+**¿Qué es?** Convertir los insights en objetivos medibles y definir qué haremos (y qué NO haremos). Esto es crítico para evitar **costos hundidos** (inversión que no genera retorno porque el producto no es viable).
 
 **Componentes clave:**
 - **Objetivos SMART** (Específicos, Medibles, Alcanzables, Relevantes, Temporales)
-- **Alcance del producto** → Qué features incluir en v1
-- **Validación con stakeholders** → ¿Todos están alineados?
+- **Alcance del producto** → Qué features incluir en v1, qué posponer
+- **Validación con Stakeholders** → ¿Todos (negocio, ingeniería, marketing, finanzas) están alineados?
+
+**Concepto clave: Stakeholders**  
+Son las personas o grupos impactados por la actividad de la empresa: clientes, empleados, vecinos, proveedores, reguladores. Cada stakeholder tiene intereses diferentes, y **todos deben validar los objetivos** antes de empezar a construir.
 
 #### 📊 Ejemplo: Sistema de Notificación
 
@@ -57,12 +111,12 @@ El ciclo de vida de un producto centrado en datos consta de **5 fases principale
 
 ### Fase 3️⃣: Diseño y Prototipado
 
-**¿Qué es?** Usar datos sobre preferencias y comportamientos para diseñar un producto que realmente encaje con el mercado.
+**¿Qué es?** Usar datos sobre preferencias y comportamientos para diseñar un producto que realmente encaje con el mercado. **El prototipado es crítico para evitar costos hundidos**: es mejor invertir 2 semanas en un prototipo tangible (dummy) que 6 meses en un producto que nadie quiere.
 
 **Pasos:**
 1. **Diseño del producto** → Wireframes, flujos de usuario basados en datos
-2. **Prototipado** → MVP (Minimum Viable Product)
-3. **Pruebas de usuario** → ¿Funciona? ¿Es intuitivo?
+2. **Prototipado** → Construir un **MVP (Minimum Viable Product)**, la versión más básica que permite validar la idea
+3. **Pruebas de usuario** → ¿Funciona? ¿Es intuitivo? ¿Lo querría usar?
 
 #### 📊 Ejemplo: Diseño de Email de Notificación
 
@@ -100,12 +154,16 @@ PRUEBAS DE USUARIO:
 
 ### Fase 4️⃣: Desarrollo y Pruebas Ágiles
 
-**¿Qué es?** Desarrollar en ciclos cortos (sprints de 1-4 semanas), validando con datos continuamente.
+**¿Qué es?** Desarrollar en ciclos cortos (sprints de 1-4 semanas), validando con datos continuamente. La idea es **iterar rápido**, no esperar meses para ver un resultado.
 
 **Metodología Agile:**
 - Sprints cortos (2 semanas típicamente)
 - Pruebas continuas (no solo al final)
 - Retroalimentación → Ajustes rápidos
+- Mentalidad: "Probar y rectificar" en lugar de "Planificar perfectamente"
+
+**Analogía práctica: El seco de pollo**  
+Al cocinar un seco de pollo, no esperas hasta el final para probar. **Pruebas a mitad del proceso** para rectificar la sal, el sazón, la consistencia. Si esperas hasta el final y quedó muy salado, no hay remedio. Lo mismo aplica al desarrollo de software: **itera a mitad del camino**, rectifica según datos, y evita costos hundidos.
 
 #### 📊 Ejemplo: Ciclo Ágil de Desarrollo (6 semanas)
 
@@ -161,7 +219,7 @@ ACCIÓN: Open rate es bueno pero CTR bajo.
 
 ## 2. Enfoque Centrado en Datos (Data-Driven Culture)
 
-Desarrollar un producto es importante, pero **crear una cultura donde todos los datos** es transformacional.
+Desarrollar un producto es importante, pero **crear una cultura organizacional donde todos toman decisiones basadas en datos** es transformacional.
 
 ### Componente 1: Gobierno de Datos
 
@@ -206,12 +264,12 @@ IMPACTO EN PRODUCTO:
 
 | Pilar | Cómo se ve | Resultado |
 |---|---|---|
-| **Liderazgo** | Ejecutivos piden "¿Qué dicen los datos?" antes de decidir | Decisiones más consistentes |
-| **Educación** | Todos en la empresa saben leer dashboards básicos | Democratización de datos |
+| **Liderazgo** | Ejecutivos piden "¿Qué dicen los datos?" antes de decidir | Decisiones más consistentes y menos por intuición |
+| **Educación** | Todos en la empresa saben leer dashboards básicos | Democratización de datos (no solo Analytics) |
 | **Herramientas** | Acceso fácil a datos (BI tools, dashboards) | Sin esperas de 3 meses para reportes |
-| **Transparencia** | Datos compartidos abiertamente entre equipos | Menos silos, más colaboración |
-| **Procesos datos-first** | Las métricas guían sprints, roadmaps, bonificaciones | Alineación a objetivos |
-| **Evaluación y ajuste** | "¿Qué aprendimos?" es pregunta estándar post-proyecto | Mejora continua |
+| **Transparencia** | Datos compartidos abiertamente entre equipos | Menos silos, más colaboración entre Stakeholders |
+| **Procesos datos-first** | Las métricas guían sprints, roadmaps, bonificaciones | Alineación a objetivos estratégicos |
+| **Evaluación y ajuste** | "¿Qué aprendimos?" es pregunta estándar post-proyecto | Mejora continua (ciclo de iteración) |
 
 #### 📊 Caso Real: SaaS (Software as a Service)
 
@@ -338,6 +396,23 @@ $$\text{Score}(usuario_i, película_j) = \alpha \cdot \text{Historial} + \beta \
 
 ---
 
+## 3.5 Glosario: Conceptos Clave en Data-Driven Development
+
+Antes de continuar con buenas prácticas, asegúrate de entender estos términos:
+
+| Término | Definición | Ejemplo |
+|---|---|---|
+| **Insight** | Verdad oculta descubierta tras analizar datos; conocimiento accionable | "El 60% de abandonos en checkout ocurren en paso 3" |
+| **Stakeholder** | Persona o grupo impactado por la operación (cliente, empleado, regulador, proveedor) | Marketing quiere conversión ↑, Ingeniería quiere mantenibilidad, CFO quiere ROI |
+| **MVP (Minimum Viable Product)** | Versión más básica de un producto que permite validar la idea sin gastar 6 meses | Prototipo clickeable, no código en prod |
+| **Costo Hundido** | Dinero invertido que no se puede recuperar; común si no se prototipa correctamente | Gastar $100K en feature que nadie usa |
+| **Iteración** | Ciclo de construcción → prueba → aprendizaje → mejora | Sprint de 2 semanas donde se prueba, rectifica y evoluciona |
+| **KPI (Key Performance Indicator)** | Métrica que mide si alcanzamos objetivos | Conversion Rate, Open Rate, Retention Rate |
+| **A/B Testing** | Prueba controlada donde comparo dos versiones para ver cuál funciona mejor | Email con botón grande vs botón pequeño |
+| **Rollout Gradual** | Lanzar a 10% → 50% → 100% de usuarios, no todo de golpe | Detectar bugs antes de afectar a todos |
+
+---
+
 ## 4. Buenas Prácticas en el Desarrollo
 
 ### Práctica 1: Metodología Agile
@@ -348,11 +423,12 @@ Olvidar planes rígidos de 12 meses. **Pensar en sprints de 2 semanas** donde ca
 
 | Principio | Significado | En práctica |
 |---|---|---|
-| **Iteraciones cortas** | Ciclos de 1-4 semanas máximo | Release cada 2 semanas, no cada año |
-| **MVP primero** | Lanzar lo mínimo viejo posible | No gastar 6 meses en perfección; valida primero |
-| **Feedback continuo** | Usuarios = mejores críticos | Daily standup: "¿Qué dijeron los usuarios?" |
+| **Iteraciones cortas** | Ciclos de 1-4 semanas máximo | Release cada 2 semanas, no cada año (evita costos hundidos) |
+| **MVP primero** | Lanzar lo mínimo viable posible | No gastar 6 meses en perfección; valida primero con prototipo |
+| **Feedback continuo** | Usuarios y Stakeholders = mejores críticos | Daily standup: "¿Qué dijeron los usuarios/datos?" |
 | **Respuesta al cambio** | El plan cambia según datos | Si métrica X cae, pivota inmediatamente |
-| **Colaboración** | Producto + Datos + Ingeniería juntos | No silos; todos miran el dashboard |
+| **Colaboración** | Producto + Datos + Ingeniería + Stakeholders juntos | No silos; todos miran el dashboard |
+| **Prueba y rectifica** | Como cocinar: probar a mitad de camino | "Seco de pollo": prueba en sprint 1, rectifica en sprint 2 |
 
 #### 📊 Ejemplo: Sprint de 2 Semanas
 
@@ -534,6 +610,31 @@ CONCLUSIÓN:
 ⚠️ Label "%match" es confuso → cambiar a "Sé que te gustará"
 → Próximo sprint: Refinar copy e implementar en prod
 ```
+
+---
+
+## 4.5 Design Thinking Reforzado: Validación de Stakeholders
+
+Una etapa crítica en Design Thinking (frecuentemente omitida) es **validar con Stakeholders en cada fase**:
+
+#### Validación Post-Definición
+
+Al terminar la fase "Definir" (problema), reúnete con Stakeholders:
+- **Marketing:** "¿Esto alineado con estrategia de marca?"
+- **Finanzas:** "¿El ROI estimado justifica inversión?"
+- **Legal/Compliance:** "¿Cumplimos regulaciones?"
+- **Ingeniería:** "¿Es técnicamente viable?"
+
+**Si algún Stakeholder dice 'no', vuelve a iterar.** No avances sin alineación.
+
+#### Validación Post-Prototipo
+
+Al terminar "Prototipado":
+- Muestra el MVP a usuarios reales
+- Recopila feedback de Stakeholders (gerentes, inversores)
+- Rectifica antes de construir código en producción
+
+**Esto previene costos hundidos:** Mejor descubrir a los 2 sprints que a los 6 meses que no funciona.
 
 ---
 

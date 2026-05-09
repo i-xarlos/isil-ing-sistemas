@@ -247,6 +247,18 @@ To-Be alcanzado
 
 ### Las Tres Olas de Transformación
 
+**Visualización del ciclo transformacional:**
+
+```mermaid
+graph LR
+    A["🏗️ OLA 1: ESTABILIZAR<br/>(6-12 meses)"] -->|Habilita| B["🔗 OLA 2: INTEGRAR<br/>(12-18 meses)"]
+    B -->|Habilita| C["🚀 OLA 3: OPTIMIZAR<br/>(18+ meses)"]
+    
+    A -.->|Reducir riesgo| A1["✓ Base controlada"]
+    B -.->|Eficiencia| B1["✓ Arquitectura conectada"]
+    C -.->|Valor máximo| C1["✓ Arquitectura resiliente"]
+```
+
 #### Ola 1: ESTABILIZAR
 **Objetivo:** Ordenar y reducir riesgo estructural
 

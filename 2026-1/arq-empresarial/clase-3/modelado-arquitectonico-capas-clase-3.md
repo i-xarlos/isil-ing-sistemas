@@ -55,6 +55,37 @@ Un punto clave de la sesión fue la diferenciación entre **procesos** y **capac
 - **Análisis de Brechas (*Gap Analysis*):** Identifica la distancia entre el estado actual (*As-Is*) y el objetivo final plasmado en el roadmap temporal (*To-Be*).
 - **Priorización Estratégica:** Se dividen las entregas en trimestres (Q1 a Q4) según la urgencia y el valor cruzado con base a la matriz de **Impacto vs. Esfuerzo**.
 
+### 📊 Matriz de Priorización: Impacto vs. Esfuerzo
+
+**¿Cómo priorizar iniciativas arquitectónicas?**
+
+Los 4 cuadrantes corresponden a combinaciones de bajo/alto esfuerzo e impacto.
+
+```mermaid
+graph LR
+    A["🚀 URGENT<br/>Bajo Esfuerzo + Alto Impacto<br/>➜ HAZLO YA"] 
+    B["💎 ESTRATÉGICO<br/>Alto Esfuerzo + Alto Impacto<br/>➜ PLANIFICA"]
+    C["⏸️ INNECESARIO<br/>Bajo Esfuerzo + Bajo Impacto<br/>➜ POSTERGA"]
+    D["🔍 REVISAR<br/>Alto Esfuerzo + Bajo Impacto<br/>➜ RECHAZA"]
+    
+    A --- B
+    C --- D
+    
+    style A fill:#C8E6C9,stroke:#2E7D32,stroke-width:3px,color:#000
+    style B fill:#FFE082,stroke:#F57F17,stroke-width:3px,color:#000
+    style C fill:#FFCCBC,stroke:#D84315,stroke-width:2px,color:#000
+    style D fill:#F8BBD0,stroke:#C2185B,stroke-width:2px,color:#000
+```
+
+**Interpretación de los 4 cuadrantes:**
+
+| Cuadrante | Característica | Acción | Ejemplo |
+|---|---|---|---|
+| **Q1 - Urgente** | Bajo Esfuerzo + Alto Impacto | ✅ **Ejecutar ahora** | Automatizar pedidos (2 sem, +30% ventas) |
+| **Q2 - Estratégico** | Alto Esfuerzo + Alto Impacto | 📅 **Planificar y escalonar** | Replatforming (6 meses, arquitectura futura) |
+| **Q3 - Innecesario** | Bajo Esfuerzo + Bajo Impacto | ⏸️ **Postergar o eliminar** | UI makeover (bajo valor) |
+| **Q4 - Revisar** | Alto Esfuerzo + Bajo Impacto | 🔍 **Rechazar o rediseñar** | Proyecto complejo sin beneficio |
+
 ## Transcripción del PPT: Modelado Arquitectónico
 
 ### Vistas, Capas y Niveles de Abstracción

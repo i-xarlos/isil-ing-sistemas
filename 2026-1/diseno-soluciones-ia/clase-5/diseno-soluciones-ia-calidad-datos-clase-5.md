@@ -1,8 +1,8 @@
-# Calidad de Datos (Clase 5)
+# Calidad de Datos y Pre-procesamiento para IA (Clase 5)
 
 **Curso:** Diseño de Soluciones con Inteligencia Artificial (ISIL, 2026-1)  
-**Docente:** [Pendiente]  
-**Fecha:** [Pendiente]
+**Docente:** Omar David Visitación Romero  
+**Fecha:** 06/05/2026
 
 ---
 
@@ -12,15 +12,163 @@ La calidad de datos es un factor crítico para el éxito de soluciones IA. Datos
 
 **Regla clave:** Hasta el 80% del tiempo en un proyecto de análisis se dedica a la limpieza de datos, no al modelado.
 
-Los cuatro problemas principales que abordaremos son:
-- Datos nulos
-- Outliers
-- Formatos incorrectos
-- Normalización
+> "La data debe estar limpia para ser procesada."  
+> — Omar David Visitación Romero
+
+Esta clase cubre los desafíos prácticos de implementar IA en organizaciones, el marco ético y legal que lo rige, y las técnicas esenciales de pre-procesamiento de datos.
 
 ---
 
-## 1. Datos Nulos
+### Fase 1: Transformación (Homogeneización)
+
+**Objetivo:** Garantizar consistencia en los datos para evitar errores de comparación.
+
+**Ejemplo:** Convertir todos los nombres a mayúsculas
+```
+Antes:  "ana", "Ana", "ANA" (3 personas diferentes = ERROR)
+Después: "ANA", "ANA", "ANA" (misma persona = CORRECTO)
+```
+
+---
+
+## 5. Implementación de IA en Organizaciones: Desafíos Prácticos
+
+### Modelos Externos vs. Modelos Locales
+
+Las empresas enfrentan una decisión estratégica: ¿usar APIs de modelos externos o mantener modelos locales?
+
+| Opción | Ventajas | Desventajas | Ideal para |
+|---|---|---|---|
+| **APIs Externas** (OpenAI, Google Gemini, Anthropic) | Siempre actualizados, no requieren mantenimiento técnico | Datos salen de la organización, costos variables, dependencia de terceros | Empresas con datos no sensibles |
+| **Modelos Locales** (Ollama, LLaMA en servidor propio) | Control total, datos nunca salen de la red, predictibilidad de costos | Mantenimiento costoso, requiere expertise técnica, pueden quedarse obsoletos | Sector público, datos sensibles, info confidencial |
+
+#### 📊 Caso Real: Gestión Documental en Sector Público
+
+Una institución pública peruana implementó **Ollama** en un servidor local para procesar documentos confidenciales:
+
+- **Desafío:** Los datos sensibles no podían salir de la red institucional
+- **Solución:** Instalar modelo local en servidor propio
+- **Beneficio:** Control total sobre privacidad y cumplimiento regulatorio
+
+### Automatización con IA: Caso de Uso Simple
+
+Ejemplo de automatización end-to-end sin intervención humana:
+
+```
+Email de pedido llega
+    ↓
+Bot de IA revisa pedido
+    ↓
+Consulta stock en software de logística
+    ↓
+Genera cotización automáticamente
+    ↓
+Envía presupuesto al cliente
+```
+
+**Beneficio:** Reducción de tiempo de respuesta de horas a minutos.
+
+### Decisión: Actualizar vs. Entrenar Localmente
+
+Mantener un modelo local es costoso. Las empresas deben elegir:
+
+1. **Actualizar a nuevas versiones:** Requiere re-entrenamiento, pero garantiza mejoras
+2. **Entrenar modelos pequeños para tareas específicas:** Menos costoso, pero menos versátil
+
+---
+
+## 2. Ética, Normativa y Privacidad de Datos
+
+### Principios Fundamentales de Datos
+
+Todo sistema de IA debe respetar estos principios:
+
+| Principio | Definición | Ejemplo |
+|---|---|---|
+| **Minimización** | Recopilar solo datos necesarios | App de transporte: solo geolocalización, no historial de búsqueda |
+| **Consentimiento explícito** | El usuario autoriza cada uso | Pregunta: "¿Autoriza usar su ubicación para predecir llegada?" |
+| **Propósito limitado** | Datos usados solo para lo autorizado | Datos recopilados para transporte = no pueden usarse para publicidad |
+| **Transparencia** | El usuario sabe cómo se usan sus datos | Política de privacidad clara y accesible |
+
+#### 📊 Ejemplo: App de Transporte en Lima
+
+Una aplicación que predice la llegada de un autobús debe:
+
+✅ Pedir permiso explícito para acceder a geolocalización  
+✅ Solo usar ubicación para calcular tiempo de llegada  
+✅ No compartir datos con terceros sin consentimiento  
+✅ Permitir eliminar datos cuando el usuario lo solicite  
+
+### Regulación en Perú: Ley 31814
+
+El **Reglamento de la Ley de Inteligencia Artificial (Ley 31814)**, aprobado en septiembre de 2023, establece:
+
+- Seguridad y confidencialidad de datos
+- Transparencia en algoritmos
+- Responsabilidad ante sesgos y discriminación
+- Marco para clasificación de riesgo en sistemas de IA
+
+#### Clasificación de Riesgos en IA
+
+| Nivel de Riesgo | Definición | Ejemplo | Acción |
+|---|---|---|---|
+| **Inaceptable** | Prohibido; viola derechos fundamentales | Vigilancia biométrica masiva, manipulación psicológica | Prohibición legal |
+| **Alto riesgo** | Requiere auditoría y cumplimiento estricto | IA en administración de justicia, contrataciones | Evaluación de sesgo obligatoria |
+| **Riesgo moderado** | Requiere transparencia | Sistemas de recomendación, análisis de crédito | Documentación clara |
+| **Bajo riesgo** | Monitoreo estándar | Chatbots de atención al cliente | Prácticas normales |
+
+### Neurodatos: La Frontera de la Privacidad Mental
+
+**¿Qué son?** Datos capturados directamente del cerebro humano mediante sensores (electroencefalografía, interfaces cerebro-computadora).
+
+**Riesgos:**
+- Pérdida de privacidad mental ("¿Qué estoy pensando?")
+- Discriminación neurológica ("Eres inadecuado para este puesto según tu actividad cerebral")
+- Manipulación psicológica sin consentimiento
+- Violación de autonomía mental
+
+**Estado actual:** Regulaciones en desarrollo; requiere consentimiento informado y protecciones máximas.
+
+---
+
+## 3. Tipos de Datos: Estructurados vs. No Estructurados
+
+Hoy en día, el **80% de la información** es no estructurada debido al auge de Internet. Comprender sus diferencias es crítico para el pre-procesamiento.
+
+| Tipo | Características | Ejemplos | Complejidad |
+|---|---|---|---|
+| **Estructurados** | Filas, columnas y relaciones claras. Fácil de procesar. | Tablas SQL (Persona, Provincia), Hojas de Excel | Baja |
+| **Semi-estructurados** | No tienen filas/columnas pero sí un patrón definido. | Formatos **JSON**, **XML** | Media |
+| **No Estructurados** | Sin estructura interna identificable. Requiere extracción de features. | Audios, videos, PDFs, imágenes, likes en redes sociales, logs de usuarios | Alta |
+
+#### 📊 Ejemplo: Análisis de Redes Sociales
+
+Un dataset de redes sociales es **no estructurado**:
+
+```json
+{
+  "usuario_id": 12345,
+  "nombre": "Juan",
+  "posts": [
+    {"fecha": "2024-01-01", "texto": "Hola mundo", "likes": 5},
+    {"fecha": "2024-01-02", "texto": "Mi gato es adorable", "likes": 120}
+  ],
+  "comentarios": [...],
+  "media": ["imagen1.jpg", "video1.mp4"]
+}
+```
+
+**Pre-procesamiento requerido:**
+- Extraer texto de posts
+- Contar cantidad de likes (feature: popularidad)
+- Clasificar sentimiento del texto (positivo/negativo)
+- Procesar imágenes/videos con visión computacional
+
+---
+
+## 4. Pre-procesamiento y Limpieza de Datos (Data Cleaning)
+
+Es la fase más crítica antes de aplicar cualquier modelo de IA.
 
 ### Qué son
 
@@ -141,7 +289,7 @@ except Exception as e:
 
 ---
 
-## 2. Outliers
+## 6. Outliers
 
 ### Qué son
 
@@ -275,7 +423,25 @@ Enfoque más riguroso: analiza la causa.
 
 ---
 
-## 3. Formatos Incorrectos
+### Impacto en el Mundo Real
+
+**Ejemplo:** Un grupo de 10 niños de 12 años + 1 persona de 101 años
+
+```
+Sin tratamiento de outlier:
+  Promedio de edad = (12×10 + 101) / 11 = 21.8 años ❌
+  Conclusión: "La educación infantil no es prioridad"
+
+Con tratamiento (eliminar outlier):
+  Promedio de edad = (12×10) / 10 = 12 años ✅
+  Conclusión: "Necesitamos educación infantil"
+```
+
+**Resultado:** Una política pública de educación parecería innecesaria cuando es crítica.
+
+---
+
+## 7. Formatos Incorrectos
 
 ### Qué son
 
@@ -418,7 +584,7 @@ print(df)
 
 ---
 
-## 4. Normalización
+## 8. Normalización
 
 ### ¿Por qué normalizar?
 
@@ -530,6 +696,37 @@ print(df_std.describe())
 | **Detectar outliers** | Antes de modelar | Evita sesgo |
 | **Limpiar formatos** | Siempre | Garantiza consistencia |
 | **Normalizar** | Algoritmos sensibles a escala | Acelera y mejora modelo |
+
+---
+
+---
+
+## 9. Herramientas Esenciales: Python para Análisis de Datos
+
+Python es el estándar de la industria para análisis de datos y Machine Learning. Las librerías esenciales son:
+
+| Librería | Función | Caso de uso |
+|---|---|---|
+| **Pandas** | Manejar tablas de datos (DataFrames) | Cargar, filtrar, transformar datos estructurados |
+| **NumPy** | Cálculos matemáticos y álgebra lineal | Operaciones con matrices/vectores, estadísticas |
+| **Matplotlib / Seaborn** | Visualización de datos | Gráficos, histogramas, mapas de calor, exploración |
+| **Scikit-Learn** | Machine Learning | Modelos (árboles de decisión, regresiones, clustering) |
+| **Ollama** | Modelos locales de IA | Ejecutar LLMs en servidor propio |
+
+### Herramientas de Desarrollo Recomendadas
+
+- **Visual Studio Code + Python Extension:** Editor local profesional
+- **Google Colab:** Jupyter Notebook en la nube, sin instalación necesaria
+- **Kaggle:** Plataforma para descargar datasets gratuitos y practicar
+
+#### Datasets Recomendados para Practicar
+
+En [Kaggle.com](https://www.kaggle.com/) puedes descargar:
+- Datos de ventas
+- Estadísticas de salud mental
+- Análisis de fútbol
+- Tendencias de mercado
+- Y miles de datasets públicos más
 
 ---
 
