@@ -25,11 +25,390 @@ La estadística descriptiva tradicional solo muestra números agregados (promedi
 | **Optimización de procesos** | Encontrar cuellos de botella y patrones de ineficiencia | Mejorar productividad |
 | **Exfiltración de datos** | Identificar cuándo datos están siendo robados indebidamente | Seguridad de información |
 
+---
+
+## 1d. Aplicaciones de EDA en Sectores Clave
+
+La estadística exploradora tiene aplicaciones específicas y de alto valor en industrias clave:
+
+### A. Sector Financiero
+
+**Conceptos clave:**
+- **Rentabilidad Esperada:** Relación entre el riesgo asumido y el retorno esperado de una inversión
+- **Volatilidad:** Qué tanto varían los precios en corto tiempo (ej. el cambio diario del dólar fluctúa 0.5%-2%)
+- **Riesgo Crediticio:** Probabilidad de que un cliente NO pague un préstamo (crucial para bancos)
+- **Simulación de Montecarlo:** Técnica para simular miles de escenarios posibles (impagos, retrasos, crisis) para predecir el éxito de un producto financiero
+
+**Aplicación práctica EDA:**
+```
+Banco quiere otorgar créditos de $100K a 1,000 clientes.
+
+1. EDA inicial: Analizar historial de clientes similares
+   → ¿Qué edad tienen? ¿Qué ingresos? ¿Incumplieron antes?
+
+2. Identificar patrones: Clientes con X características tienen 2% de default
+
+3. Detectar anomalías: Cliente con ingresos reportados de $1M pero pide crédito
+   → Investigar si es fraude
+
+4. Predicción: Con los patrones, estimar pérdidas esperadas
+   → Ajustar tasa de interés según riesgo
+
+Impacto: Diferencia entre ganancia y quiebra del banco.
+```
+
+### B. Marketing y Publicidad
+
+**Conceptos clave:**
+- **Segmentación de Clientes:** Agrupar personas por comportamientos similares para ofrecerles promociones específicas
+- **Pruebas A/B:** Comparar dos versiones de un anuncio o página web para ver cuál convierte mejor
+- **Análisis de Cohortes:** Seguir grupos de clientes en el tiempo para entender churn (abandono)
+
+**Aplicación práctica EDA:**
+```
+E-commerce quiere aumentar conversión de compra.
+
+1. EDA: Analizar comportamiento de visitantes
+   → ¿En qué página abandonan? ¿Cuánto tiempo gastan?
+
+2. Segmentación: Dividir en grupos
+   - Grupo A: Jóvenes (18-25), móvil, compra rápida
+   - Grupo B: Profesionales (35-50), desktop, compra lenta pero segura
+   - Grupo C: Curiosos, ven pero no compran
+
+3. Anomalías: Detectar clientes que ven pero NUNCA compran
+   → Ofrecerles descuento especial
+
+4. Prueba A/B: 
+   - Versión A: Checkout en 3 pasos
+   - Versión B: Checkout en 1 paso
+   → Medir cuál convierte más
+
+Impacto: 1% de aumento en conversion = +$100K anuales.
+```
+
+### C. Salud e Epidemiología
+
+**Conceptos clave:**
+- **Incidencia:** Número de casos nuevos en un período
+- **Prevalencia:** Número total de casos en un momento
+- **Mortalidad:** Tasa de muertes por enfermedad
+- **Pruebas de Hipótesis:** Determinar si un cambio es real o solo fluctuación
+
+**Aplicación práctica EDA:**
+```
+Departamento de Salud pública detecta aumento de casos de dengue.
+
+1. EDA inicial: Revisar datos históricos
+   → ¿Es enero (estación alta)? ¿O es diferente?
+
+2. Análisis de tendencia:
+   - Años anteriores: enero = 100 casos (normal)
+   - Este año: enero = 200 casos
+   → 100% de aumento vs promedio
+
+3. Prueba de hipótesis:
+   - H0: "Es fluctuación normal"
+   - H1: "Hay un brote real"
+   → Con EDA, rechazar H0 si crece exponencialmente
+
+4. Anomalías: ¿Hay zonas con incidencia 10x más alta?
+   → Investigar por contaminación, falta de drenaje, etc.
+
+5. Predicción: Si continúa así, ¿cuántos casos en febrero?
+   → Preparar recursos médicos, campañas de vacunación
+
+Impacto: Diferencia entre 500 casos vs 5,000 casos (y muertes).
+```
+
+---
+
+## 1e. Desafíos en la Calidad de los Datos
+
+Un análisis estadístico es **solo tan bueno como los datos que recibe**. EDA identifica estos problemas:
+
+### Problema 1: Sesgos (Biases) en los Datos
+
+**Definición:** La muestra NO es representativa de la población real.
+
+**Ejemplos de sesgo:**
+```
+❌ ENCUESTA SESGADA:
+"¿Quién es el mejor jugador de fútbol?"
+Encuesta en: Estadio de Barcelona → 80% dice Messi
+Error: Solo entrevistaron hinchas de Barcelona
+
+✅ ENCUESTA CORRECTA:
+Encuesta en: Toda España, en malls, escuelas, mercados
+Resultado: Más distribuido (Messi 40%, Cristiano 40%, Otros 20%)
+```
+
+**Cómo detectarlo con EDA:**
+- Revisar el rango geográfico de datos
+- Verificar si los datos vienen de una sola fuente (sesgo)
+- Comparar distribución esperada vs observada
+
+### Problema 2: Datos Incompletos (Missing Values)
+
+**Causas comunes:**
+- Clientes que no completan formularios
+- Fallas en sistemas de recopilación
+- Datos borrados accidentalmente
+
+**Estrategias para manejar:**
+
+#### Estrategia 1: Eliminación
+```
+Si datos incompletos = 1% de dataset
+→ Eliminar esas filas (perder poco valor)
+
+Si datos incompletos = 50% de dataset
+→ Problema serio, recopilar más datos
+```
+
+#### Estrategia 2: Imputación Simple
+```
+Rellenar el dato faltante con:
+- MEDIA: Si la edad falta, usar edad promedio (35 años)
+- MODA: Si el género falta, usar el más frecuente (M)
+- ÚLTIMO VALOR: Si serie temporal, usar valor anterior
+
+Ventaja: Rápido y simple
+Desventaja: Pierde variabilidad natural
+```
+
+#### Estrategia 3: Imputación Avanzada
+```
+Usar un modelo predictivo para "adivinar" el dato faltante:
+
+Ejemplo: Cliente X tiene edad faltante
+- Ingreso: $100K
+- Ciudad: NY
+- Profesión: Ingeniero
+
+Modelo predice: Basado en otros ingenieros en NY con $100K,
+edad típica = 42 años → Imputar 42
+
+Ventaja: Más realista
+Desventaja: Requiere modelado adicional
+```
+
+### Problema 3: Sobreajuste (Overfitting)
+
+**Definición:** El modelo aprende tan bien los datos de entrenamiento que "se los memoriza", pero falla con datos nuevos.
+
+**Analogía:**
+```
+Estudiante memoriza respuestas del libro exactamente
+→ Examen del libro: 100%
+→ Examen diferente: 40%
+→ No entendió, solo memorizó
+```
+
+**En datos:**
+```
+Modelo entrenado en datos 2020-2023
+→ Predice datos 2020-2023: 99% preciso
+→ Predice datos 2024: 30% preciso
+→ Sobreajuste: memoriza patrones específicos del 2020-2023
+```
+
+**Cómo detectarlo con EDA:**
+- Dividir datos: 80% entrenamiento, 20% prueba
+- Si accuracy en entrenamiento >> accuracy en prueba → sobreajuste
+- Visualizar: ¿El modelo sigue cada punto o la tendencia general?
+
+**Cómo evitarlo:**
+- Usar regularización (penalizar complejidad)
+- Simplificar modelos
+- Aumentar datos de entrenamiento
+- Usar validación cruzada
+
 ### Conexión con Clases Anteriores
 
 - **Clase 2 (Estadística Descriptiva):** Proporcionó las herramientas básicas (media, mediana, desviación estándar)
 - **Clase 3 (Estadística Inferencial):** Mostró cómo generalizar desde muestras a poblaciones
 - **Clase 4 (EDA):** Integra ambas para **explorar y comprender** los datos antes de modelar
+
+---
+
+## 1b. Configuración Práctica del Entorno de Desarrollo
+
+Antes de aplicar EDA con datos reales, es necesario preparar el ecosistema técnico. Dirigido por el profesor **Omar David Visitación Romero**, se establece la siguiente arquitectura:
+
+### El Intérprete: Python
+
+**Concepto:** Python es un **lenguaje interpretado**. Esto significa que no compila todo el código a un archivo ejecutable (`.exe`) de golpe. En su lugar, un **intérprete** traduce y ejecuta el código línea por línea.
+
+**Instalación Recomendada:**
+- **Versión:** 3.14.4 o superior
+- **Paso crítico:** Marcar la casilla **"Add Python to PATH"** durante la instalación
+  - Esto permite que el sistema operativo reconozca el comando `python` desde cualquier terminal
+  - Sin esto, tendrías que escribir la ruta completa cada vez
+
+**Verificación de Instalación:**
+```bash
+python --version
+→ Debería retornar: Python 3.14.4 (o versión instalada)
+```
+
+---
+
+### El Entorno de Desarrollo: Visual Studio Code (VS Code)
+
+**Concepto:** VS Code es el **Entorno de Desarrollo Integrado (IDE)**. Es la "hoja" o interfaz gráfica donde escribes el código Python.
+
+**Pasos de Configuración:**
+1. Instala VS Code desde [code.visualstudio.com](https://code.visualstudio.com)
+2. Abre VS Code
+3. Ve a Extensions (icono de cuadrados en la izquierda)
+4. Busca "Python" y instala la extensión oficial de Microsoft
+5. VS Code detectará automáticamente el intérprete Python instalado
+
+**Verificación:**
+- Abre un archivo `.py` en VS Code
+- Debería aparecer el intérprete detectado en la esquina inferior derecha
+- Puedes presionar Ctrl+Shift+` para abrir terminal integrada
+
+---
+
+### Las Librerías Esenciales (Instalación vía PIP)
+
+**¿Qué es PIP?** Es el **Package Manager** de Python. Te permite instalar librerías adicionales con un comando simple.
+
+**Instalación de las 3 Librerías Fundamentales:**
+
+```bash
+pip install pandas numpy matplotlib
+```
+
+#### Librería 1: **Pandas** — Manejo de Datasets
+
+**Propósito:** Trabajar con **tablas de datos** (filas y columnas).
+
+**Concepto:** Un DataFrame de Pandas es como una hoja de Excel, pero programable.
+
+**Ejemplo básico:**
+```python
+import pandas as pd
+
+# Crear un DataFrame
+df = pd.DataFrame({
+    'Mes': [1, 2, 3, 4, 5],
+    'Ventas': [100, 105, 110, 115, 120]
+})
+
+# Ver primeras filas
+print(df.head())
+
+# Estadísticas rápidas
+print(df.describe())
+```
+
+**Funciones clave:**
+- `pd.read_csv('archivo.csv')` — Cargar datos desde archivo
+- `df.head()` — Ver primeras filas
+- `df.describe()` — Estadísticas descriptivas automáticas
+- `df.mean()`, `df.std()` — Media, desviación estándar
+
+#### Librería 2: **NumPy** — Cálculos Matemáticos Complejos
+
+**Propósito:** Realizar operaciones matemáticas en **vectores y matrices** (arreglos multidimensionales).
+
+**Concepto:** NumPy es la base matemática sobre la que funcionan Pandas y Scikit-learn.
+
+**Ejemplo básico:**
+```python
+import numpy as np
+
+# Crear vectores
+ventas = np.array([100, 105, 110, 115, 120])
+
+# Operaciones vectorizadas
+ventas_crecimiento = ventas * 1.1  # Aumentar 10%
+
+# Funciones matemáticas
+print(np.mean(ventas))  # Promedio
+print(np.std(ventas))   # Desviación estándar
+print(np.percentile(ventas, 75))  # Percentil 75
+```
+
+**Funciones clave:**
+- `np.array()` — Crear matriz
+- `np.mean()`, `np.std()`, `np.median()` — Estadísticas
+- `np.percentile()` — Cuartiles y percentiles
+- Operaciones elemento a elemento: `array * 2`, `array + 10`
+
+#### Librería 3: **Matplotlib** — Visualización de Datos
+
+**Propósito:** Crear **gráficos** para visualizar patrones en los datos.
+
+**Concepto:** Matplotlib es la librería estándar para gráficos en Python.
+
+**Ejemplo básico:**
+```python
+import matplotlib.pyplot as plt
+
+# Datos
+meses = [1, 2, 3, 4, 5]
+ventas = [100, 105, 110, 115, 120]
+
+# Crear gráfico
+plt.figure(figsize=(10, 5))
+plt.plot(meses, ventas, marker='o', linewidth=2)
+plt.xlabel('Mes')
+plt.ylabel('Ventas ($)')
+plt.title('Tendencia de Ventas')
+plt.grid(True)
+plt.show()
+```
+
+**Gráficos disponibles:**
+- `plt.plot()` — Gráfico de línea (tendencias)
+- `plt.bar()` — Gráfico de barras (comparaciones)
+- `plt.scatter()` — Gráfico de dispersión (correlaciones)
+- `plt.hist()` — Histograma (distribuciones)
+- `plt.boxplot()` — Box plot (cuartiles y outliers)
+
+---
+
+## 1c. Fundamentos de Programación en Python
+
+Para aplicar EDA, necesitas entender conceptos básicos de Python:
+
+### Variables y Tipado Dinámico
+
+**Concepto:** Una variable es un "contenedor de datos".
+
+**Tipado dinámico:** Python detecta automáticamente si un dato es:
+- `int` (entero): 30, -5, 0
+- `float` (decimal): 3.14, -0.5
+- `str` (texto): "Hola", "Datos"
+- `bool` (booleano): True, False
+
+**Ejemplos:**
+```python
+hola = 30              # Python sabe que es int
+prucio = 19.99         # Python sabe que es float
+nombre = "Carlos"      # Python sabe que es str
+es_valido = True       # Python sabe que es bool
+
+print(hola)             # Imprime: 30
+print("Mi edad es:", hola)  # Imprime: Mi edad es: 30
+print(tipo(hola))      # Imprime: <class 'int'>
+```
+
+### Contraste: Python vs Lenguajes Compilados
+
+| Aspecto | Python | C++ / Java |
+|---|---|---|
+| **Ejecución** | Intérprete (línea a línea) | Compilador (todo de golpe) |
+| **Tipado** | Dinámico (Python decide) | Estático (tú declaras) |
+| **Velocidad de desarrollo** | Rápida (escribir y ejecutar) | Lenta (compilar, después ejecutar) |
+| **Velocidad de ejecución** | Más lenta | Más rápida |
+| **Uso ideal** | Ciencia de datos, prototipado | Sistemas, videojuegos |
+
+**Para EDA:** Python es ideal porque permite iterar rápidamente entre análisis y visualización.
 
 ---
 
@@ -477,11 +856,68 @@ Spearman captura esto mejor que Pearson.
 
 ---
 
+## 6b. Tendencias Futuras: IA, Deep Learning y Evolución de la Estadística
+
+Mientras la estadística clásica (como EDA) sigue siendo fundamental, el mercado evoluciona hacia:
+
+### El Rol Actual de la Estadística
+
+**Automatización en Banca:**
+- **Scoring crediticio:** Sistemas automáticos que deciden si aprobas un crédito
+- **Detección de fraude:** Máquinas que detectan transacciones anómalas
+- **Pero:** Estos sistemas usan **estadística** como base
+
+### La Tendencia: Deep Learning y IA
+
+**¿Por qué las empresas no usan solo ChatGPT?**
+```
+Razón 1: CONFIDENCIALIDAD
+- Datos bancarios NO se suben a ChatGPT (riesgo legal)
+- Las empresas prefieren desarrollar modelos propios (in-house)
+
+Razón 2: PRECISIÓN
+- Para problemas complejos, Deep Learning > Estadística clásica
+- Pero Deep Learning requiere mucha data y potencia computacional
+
+Razón 3: COSTO
+- APIs de OpenAI: $0.02 por 1K tokens
+- Modelos propios: Mayor inversión inicial, luego sin costo
+```
+
+**La Cadena de Evolución:**
+```
+Estadística Descriptiva (Clase 2)
+        ↓
+Estadística Inferencial (Clase 3)
+        ↓
+EDA - Análisis Exploratorio (Clase 4) ← AQUÍ
+        ↓
+Regresión y Clasificación (próximas clases)
+        ↓
+Machine Learning (Ciencia de Datos II)
+        ↓
+Deep Learning (Redes Neuronales)
+        ↓
+IA Generativa (ChatGPT, modelos grandes)
+```
+
+**Realidad del Mercado 2026:**
+- 80% de empresas aún usan **estadística + ML tradicional**
+- 20% experimenta con **Deep Learning**
+- Pocas hacen producción pura con IA generativa (por riesgos)
+
+**Para profesionales:**
+- Dominar estadística sigue siendo **CRÍTICO**
+- Deep Learning es el futuro pero requiere base sólida
+- **El dato es el activo más valioso de cualquier empresa hoy en día**
+
+---
+
 ## 7. Próximas Pasos: Aplicación Práctica con Python
 
 > **Nota importante para la próxima clase:**
 
-Se comenzará a utilizar **Python** para aplicar todos estos conceptos en ejercicios prácticos:
+Usando la configuración establecida en esta clase, se comenzará a aplicar **Python** para aplicar todos estos conceptos en ejercicios prácticos:
 
 - Cargar datos desde archivos CSV
 - Calcular estadísticos (media, desviación, cuartiles)
@@ -510,7 +946,9 @@ Antes de modelar datos, verifica que hayas explorado:
 - [ ] **Distribución:** ¿Cómo se distribuyen los datos? ¿Sesgados?
 - [ ] **Correlaciones:** ¿Qué variables están relacionadas?
 - [ ] **Valores faltantes:** ¿Hay datos incompletos? ¿Cuántos?
-- [ ] **Calidad de datos:** ¿Son precisos? ¿De fuentes confiables?
+- [ ] **Calidad de datos:** ¿Son precisos? ¿De fuentes confiables? ¿Hay sesgos?
+- [ ] **Datos incompletos:** ¿Faltan valores? ¿Cuántos? ¿Estrategia de imputación?
+- [ ] **Sobreajuste:** Si creo modelos, ¿funcionan en datos nuevos o solo en entrenamien?
 - [ ] **Visualización:** ¿He creado gráficos que muestren patrones claramente?
 
 ---
@@ -800,4 +1238,14 @@ Cuando veas una fórmula complicada:
 
 ---
 
-*Última actualización: 30/04/2026 | Clase 4: Análisis Exploratorio de Datos (EDA)*
+---
+
+## Sesión Práctica — Configuración Ambiental
+
+**Dirigida por:** Omar David Visitación Romero  
+**Tópicos:** Instalación de Python, VS Code, librerías (Pandas, NumPy, Matplotlib)  
+**Resultado:** Entorno listo para ejercicios prácticos de EDA con datos reales
+
+---
+
+*Última actualización: 09/05/2026 | Clase 4: Análisis Exploratorio de Datos (EDA) — Versión integrada con sesión práctica*
