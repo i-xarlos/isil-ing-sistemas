@@ -48,21 +48,28 @@ La minería de datos es crítica en industrias con grandes volúmenes de datos:
 
 ### Fases de la minería de datos
 
-```
-1. Definir el problema
-   ↓
-2. Identificar datos necesarios
-   ↓
-3. Preparar y preprocesar
-   ↓
-4. Modelar datos
-   ↓
-5. Entrenar y probar
-   ↓
-6. Conocimiento
+**El Proceso KDD (Knowledge Discovery in Databases): 6 fases hacia el conocimiento**
+
+```mermaid
+graph TD
+    A["🎯 1. DEFINIR<br/>Problema de negocio"] --> B["🔍 2. IDENTIFICAR<br/>Datos necesarios"]
+    B --> C["🧹 3. PREPARAR<br/>Limpieza y preproceso"]
+    C --> D["🧬 4. MODELAR<br/>Seleccionar algoritmo"]
+    D --> E["🏋️ 5. ENTRENAR<br/>Ajustar parámetros"]
+    E --> F["🎓 6. CONOCIMIENTO<br/>Insights accionables"]
+    F -.->|Retroalimentación| A
 ```
 
-### Objetivos principales
+**Explicación de cada fase:**
+
+| Fase | Qué ocurre | Entradas | Salidas |
+|---|---|---|---|
+| **1. Definir** | Clarificar el problema y objetivo | Pregunta del negocio | Alcance definido |
+| **2. Identificar** | Localizar fuentes de datos | Repositorios disponibles | Datos seleccionados |
+| **3. Preparar** | Limpiar y transformar datos | Datos brutos | Datos listos |
+| **4. Modelar** | Elegir técnica (árbol, regresión, cluster) | Datos limpios | Modelo entrenado |
+| **5. Entrenar** | Ajustar y validar | Parámetros | Modelo optimizado |
+| **6. Conocimiento** | Extraer y comunicar insights | Resultados | Decisiones |
 
 | Objetivo | Descripción | Ejemplo |
 |---|---|---|

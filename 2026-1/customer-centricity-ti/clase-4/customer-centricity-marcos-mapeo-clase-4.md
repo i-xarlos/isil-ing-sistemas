@@ -171,6 +171,33 @@ Decisión:
 
 **¿Qué es?** Una visualización de TODAS las interacciones del cliente con tu marca/producto, mostrando emociones y pensamientos en cada etapa.
 
+```mermaid
+graph LR
+    A["👀 AWARENESS<br/>Conciencia"] --> B["🤔 CONSIDERACIÓN<br/>Dudas"]
+    B --> C["✔️ DECISIÓN<br/>Seguridad"]
+    C --> D["💳 COMPRA<br/>Confianza"]
+    D --> E["😊 POST-VENTA<br/>Satisfacción"]
+    
+    subgraph EMOCIONES
+    E1["⭐ Curiosidad"] -.-> A
+    E2["❓ Dudas/Interés"] -.-> B
+    E3["🛡️ Seguridad"] -.-> C
+    E4["✨ Confianza"] -.-> D
+    E5["💚 Satisfacción"] -.-> E
+    end
+    
+    style A fill:#FFECB3,stroke:#F57F17,stroke-width:2px
+    style B fill:#FFE0B2,stroke:#E65100,stroke-width:2px
+    style C fill:#FFCCBC,stroke:#D84315,stroke-width:2px
+    style D fill:#FFAB91,stroke:#BF360C,stroke-width:2px
+    style E fill:#C8E6C9,stroke:#2E7D32,stroke-width:3px
+    style E1 fill:#FFF9C4,stroke:#F57F17,stroke-width:1px
+    style E2 fill:#FFF3E0,stroke:#E65100,stroke-width:1px
+    style E3 fill:#F1F8E9,stroke:#558B2F,stroke-width:1px
+    style E4 fill:#E0F2F1,stroke:#00695C,stroke-width:1px
+    style E5 fill:#C8E6C9,stroke:#2E7D32,stroke-width:1px
+```
+
 #### Estructura de 5 Etapas
 
 ```

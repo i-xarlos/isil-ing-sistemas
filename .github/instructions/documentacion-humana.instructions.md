@@ -49,7 +49,6 @@ Usa esta secuencia siempre que aplique:
    - Comparar Narrow AI vs Generativa vs ML vs Deep Learning
    - Listar sectores + aplicaciones + ROI
    - Métricas de evaluación con cuándo usarlas
-   
 2. **Cuadros destacados (bloques de código/cita):** Para ideas críticas:
    - Definiciones clave
    - Reglas de oro o lecciones aprendidas
@@ -60,10 +59,16 @@ Usa esta secuencia siempre que aplique:
    - Viñetas: conceptos sin orden, características, ejemplos variados
    - Numeradas: pasos, fases, procesos secuenciales (ej. 8 fases de IA)
 
-4. **Diagramas de flujo o ASCII:** Para procesos complejos:
-   - Ciclos de desarrollo (ej. fase 1 → fase 2 → ... → fase 8)
-   - Arquitecturas o relaciones entre componentes
-   - Flujos de datos
+4. **Diagramas (ASCII, Mermaid o dibujos):** Para procesos complejos:
+   - **ASCII:** Diagramas rápidos y simples en texto puro
+   - **Mermaid** (RECOMENDADO): Diagramas interactivos profesionales en Markdown:
+     - Flujos de decisión (flowchart)
+     - Diagramas de secuencia (sequence diagrams)
+     - Gráficos de relaciones (entity relationship)
+     - Cronogramas (gantt charts)
+     - Grafos y dependencias
+   - Úsalos para: ciclos de desarrollo (ej. fase 1 → fase 2 → ... → fase 8), arquitecturas, relaciones entre componentes, flujos de datos
+   - **Sintaxis:** Envuelve en bloques de código Mermaid: ` ```mermaid ... ``` `
 
 5. **Bloques resumen:** Para información densa:
    - Tabla resumen con 8-10 filas máximo
@@ -103,7 +108,6 @@ Usa esta secuencia siempre que aplique:
    - Tema
    - Descripción breve (1 línea)
    - Enlace directo 📄 al archivo `.md` correspondiente
-   
 4. **Sección "Índice Completo de Recursos"** que agrupa por clase/actividad:
    - Subsección para cada clase/actividad
    - Lista de archivos `.md` con enlace
@@ -112,14 +116,16 @@ Usa esta secuencia siempre que aplique:
 5. **Enlaces finales** a recursos transversales (INDICE-CONCEPTOS, README principal)
 
 ### Ejemplo de tabla:
+
 ```markdown
-| # | Tema | Descripción | Recurso |
-|---|------|-------------|---------|
-| 1 | **Tema 1** | Breve descripción | 📄 [archivo-clase-1.md](./clase-1/archivo-clase-1.md) |
-| 2 | **Tema 2** | Breve descripción | 📄 [archivo-clase-2.md](./clase-2/archivo-clase-2.md) |
+| #   | Tema       | Descripción       | Recurso                                               |
+| --- | ---------- | ----------------- | ----------------------------------------------------- |
+| 1   | **Tema 1** | Breve descripción | 📄 [archivo-clase-1.md](./clase-1/archivo-clase-1.md) |
+| 2   | **Tema 2** | Breve descripción | 📄 [archivo-clase-2.md](./clase-2/archivo-clase-2.md) |
 ```
 
 ### Validación automática:
+
 - Siempre verifica que los archivos `.md` existan antes de agregar enlaces
 - Si se agrega una nueva clase, actualiza inmediatamente el README del curso
 - Mantén sincronizados: estructura de carpetas ↔ índices en README
@@ -133,24 +139,27 @@ Usa esta secuencia siempre que aplique:
 ### Flujo obligatorio:
 
 1. **Verifica si existe un PDF**
+
    ```markdown
    ✓ Si existe PDF → úsalo como base
    ✗ Si no existe PDF → convierte el PPT a PDF
    ```
 
 2. **Convierte PPT a PDF (si es necesario)**
+
    ```bash
    # Usa el script disponible en la carpeta scripts/
    swift scripts/convert_ppt_to_pdf.swift archivo.pptx
-   
+
    # Resultado: archivo.pdf se crea en la misma carpeta
    ```
 
 3. **Extrae contenido del PDF como base para el resumen**
+
    ```bash
    # Usa el script OCR para documentar imágenes/contenido
    swift scripts/ocr_images.swift
-   
+
    # Esto extrae texto y diagramas del PDF
    ```
 
@@ -179,33 +188,38 @@ Usa esta secuencia siempre que aplique:
 ### Estructura paso a paso:
 
 1. **Introduce el concepto en lenguaje simple (1-2 líneas)**
+
    ```markdown
    **Qué es:** Mide cuántas desviaciones estándar se aleja un punto de la media.
    ```
 
 2. **Muestra la fórmula/ecuación**
+
    ```markdown
    $$Z = \frac{x - \mu}{\sigma}$$
    ```
 
 3. **Agrega un cuadro de símbolos (OBLIGATORIO si hay fórmula)**
+
    ```markdown
-   | Símbolo | Nombre | Significado |
-   |---------|--------|-------------|
-   | **Z** | Puntuación Z | Resultado final |
-   | **x** | Valor observado | El dato a evaluar |
-   | **μ** | Media | Promedio de todos |
-   | **σ** | Sigma | Dispersión (desv. est.) |
+   | Símbolo | Nombre          | Significado             |
+   | ------- | --------------- | ----------------------- |
+   | **Z**   | Puntuación Z    | Resultado final         |
+   | **x**   | Valor observado | El dato a evaluar       |
+   | **μ**   | Media           | Promedio de todos       |
+   | **σ**   | Sigma           | Dispersión (desv. est.) |
    ```
 
 4. **Explica visualmente (escala, rango, o diagrama)**
+
    ```markdown
-   ← Muy bajo      Normal      Muy alto →
-       |___________|___________|
-      Z=-3         Z=0        Z=+3
+   ← Muy bajo Normal Muy alto →
+   |\***\*\_\_\_\*\***|\***\*\_\_\_\*\***|
+   Z=-3 Z=0 Z=+3
    ```
 
 5. **Proporciona ejemplo paso a paso (OBLIGATORIO)**
+
    ```markdown
    Paso 1: [Acción 1]
    Paso 2: [Acción 2]
@@ -225,11 +239,12 @@ Usa esta secuencia siempre que aplique:
 **Para secciones con múltiples métodos, fórmulas o opciones**, agrega un resumen rápido:
 
 1. **Tabla comparativa: Cuál usar cuándo**
+
    ```markdown
-   | Problema | Fórmula/Método | Por qué |
-   |----------|---|---|
+   | Problema          | Fórmula/Método   | Por qué               |
+   | ----------------- | ---------------- | --------------------- |
    | ¿Predecir futuro? | Regresión Lineal | Identifica tendencias |
-   | ¿Es esto fraude? | IQR o Z-Score | Detecta anomalías |
+   | ¿Es esto fraude?  | IQR o Z-Score    | Detecta anomalías     |
    ```
 
 2. **Glosario visual de términos técnicos**
@@ -240,11 +255,139 @@ Usa esta secuencia siempre que aplique:
 3. **"Regla de Oro" o consejo práctico**
    ```markdown
    > **Regla de Oro:** Cuando veas una fórmula complicada:
+   >
    > 1. Identifica cada símbolo
    > 2. Lee qué significa
    > 3. Observa un ejemplo paso a paso
    > 4. ¡La fórmula es solo código, no magia!
    ```
+
+---
+
+## Patrón Mermaid: Diagramas Profesionales en Markdown
+
+**Cuándo usar:** Para visualizar procesos, arquitecturas, relaciones o flujos de manera clara e interactiva.
+
+### Tipos de Diagramas Mermaid Disponibles
+
+| Tipo                         | Uso                                      | Ejemplo                                       |
+| ---------------------------- | ---------------------------------------- | --------------------------------------------- |
+| **Flowchart**                | Procesos con decisiones                  | Ciclo de vida de IA: fase 1 → fase 2 → fase 3 |
+| **Sequence Diagram**         | Interacciones entre componentes en orden | API → Base de datos → Frontend                |
+| **Entity Relationship (ER)** | Relaciones entre entidades/tablas        | Tablas de una BD                              |
+| **Gantt Chart**              | Cronograma de actividades                | Proyecto IA: semana 1-12                      |
+| **Graph**                    | Redes y dependencias                     | Relaciones entre conceptos                    |
+| **Class Diagram**            | Estructura de clases/objetos             | Arquitectura de software                      |
+| **State Diagram**            | Estados y transiciones                   | Ciclo de estado de un modelo IA               |
+
+### Sintaxis Básica
+
+**Formato en Markdown:**
+
+\`\`\`mermaid
+graph TD
+A[Inicio] --> B{Decisión}
+B -->|Sí| C[Acción 1]
+B -->|No| D[Acción 2]
+C --> E[Fin]
+D --> E
+\`\`\`
+
+### Ejemplos Prácticos por Tipo
+
+#### 1. Flowchart (Diagrama de Flujo)
+
+**Caso:** Ciclo de limpieza de datos
+
+\`\`\`mermaid
+graph TD
+A["🔍 Analizar datos"] --> B{"¿Hay nulos?"}
+B -->|Sí| C["🔧 Imputar o eliminar"]
+B -->|No| D{"¿Hay outliers?"}
+D -->|Sí| E["✂️ Detectar y tratar"]
+D -->|No| F["✅ Datos listos"]
+C --> F
+E --> F
+\`\`\`
+
+#### 2. Sequence Diagram (Diagrama de Secuencia)
+
+**Caso:** Flujo de una solicitud en IA
+
+\`\`\`mermaid
+sequenceDiagram
+User->>API: Envía pregunta
+API->>Model: Procesa entrada
+Model->>Database: Consulta datos
+Database-->>Model: Retorna resultado
+Model-->>API: Genera respuesta
+API-->>User: Devuelve resultado
+\`\`\`
+
+#### 3. Gantt Chart (Cronograma)
+
+**Caso:** Fases de un proyecto de IA
+
+\`\`\`mermaid
+gantt
+title Proyecto IA: Desarrollo de Modelo
+section Etapas
+Recopilación de datos :a1, 2024-01-01, 30d
+Limpieza :a2, after a1, 20d
+Entrenamiento :a3, after a2, 45d
+Evaluación :a4, after a3, 15d
+Despliegue :a5, after a4, 10d
+\`\`\`
+
+#### 4. Entity Relationship (Modelo de Entidades)
+
+**Caso:** Estructura de BD para tienda online
+
+\`\`\`mermaid
+erDiagram
+CLIENTE ||--o{ PEDIDO : realiza
+PEDIDO ||--|{ PRODUCTO : contiene
+CLIENTE ||--o{ FACTURA : genera
+PRODUCTO ||--o{ CATEGORÍA : pertenece
+\`\`\`
+
+### Cuándo Usar Mermaid vs ASCII
+
+| Situación                               | Úsalo          |
+| --------------------------------------- | -------------- |
+| Diagrama simple, 3-4 nodos              | ASCII (rápido) |
+| Diagrama profesional con interactividad | **Mermaid** ✓  |
+| Procesos con múltiples decisiones       | **Mermaid** ✓  |
+| Cronogramas o líneas de tiempo          | **Mermaid** ✓  |
+| Relaciones entre tablas/entidades       | **Mermaid** ✓  |
+| Interacciones secuenciales              | **Mermaid** ✓  |
+
+### Buenas Prácticas
+
+1. **Mantén diagramas simples:** 5-10 nodos máximo (si crece, divídelo)
+2. **Usa etiquetas claras:** En español, descriptivas, cortas
+3. **Agrega emojis:** Ayudan a entender visualmente (🔍, ✅, ⚠️, etc.)
+4. **Inserta en el flujo:** Después de explicar el concepto, no como apéndice
+5. **Combina con texto:** El diagrama visualiza; el texto explica
+
+### Ejemplo Integrado en Documento
+
+\`\`\`markdown
+
+## Ciclo de Vida de un Modelo de IA
+
+El desarrollo sigue 5 fases principales:
+
+\`\`\`mermaid
+graph TD
+A["1. Identificar necesidades"] --> B["2. Recopilar datos"]
+B --> C["3. Limpiar y preparar"]
+C --> D["4. Entrenar modelo"]
+D --> E["5. Evaluar y desplegar"]
+\`\`\`
+
+**Fase 1:** Comienza cuando identificas un problema...
+\`\`\`
 
 ---
 
@@ -255,11 +398,11 @@ Cuando termines un documento/sección compleja, agrega un mini-índice:
 ```markdown
 ### 📌 Lo esencial de esta sección
 
-| Concepto | Para qué | Cuándo |
-|----------|----------|--------|
-| Regresión Lineal | Predecir valores futuros | Datos con tendencia clara |
-| IQR | Detectar anomalías | Fraude, datos extremos |
-| Z-Score | Comparar en diferentes escalas | Normalización de datos |
+| Concepto         | Para qué                       | Cuándo                    |
+| ---------------- | ------------------------------ | ------------------------- |
+| Regresión Lineal | Predecir valores futuros       | Datos con tendencia clara |
+| IQR              | Detectar anomalías             | Fraude, datos extremos    |
+| Z-Score          | Comparar en diferentes escalas | Normalización de datos    |
 ```
 
 ---
@@ -275,6 +418,7 @@ Verifica que el documento:
 - **SI HAY FÓRMULA:** incluye cuadro de símbolos;
 - **SI HAY FÓRMULA:** proporciona ejemplo paso a paso;
 - **SI HAY MÚLTIPLES OPCIONES:** incluye tabla comparativa "Cuándo usar";
+- **SI HAY DIAGRAMA COMPLEJO:** usa Mermaid en lugar de ASCII;
 - **SI VIENE DE PPT:** verificaste que existe PDF (o convertiste PPT → PDF);
 - **SI VIENE DE PPT:** extrajiste contenido del PDF como base;
 - **SI VIENE DE PPT:** guardaste tanto el `.md` como el `.pdf` en la carpeta de clase;

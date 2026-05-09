@@ -81,17 +81,31 @@ La arquitectura se rige por **tres niveles de directrices** que forman un sistem
 - Plataformas autorizadas para desarrollo
 - Formatos de intercambio de datos
 
-### Relación Jerárquica
+### Relación Jerárquica: Ciclo Virtuoso de Gobernanza
+
+**La gobernanza es un ciclo continuo que crea valor:**
+
+```mermaid
+graph TD
+    A["📋 ESTRATEGIA<br/>Objetivos del negocio"] -->|Traduce en| B["⚖️ PRINCIPIOS<br/>Valores arquitectónicos"]
+    B -->|Operativizan| C["📜 POLÍTICAS<br/>Reglas de cumplimiento"]
+    C -->|Implementan| D["🔧 ESTÁNDARES<br/>Especificaciones técnicas"]
+    D -->|Habilitan| E["🎯 EJECUCIÓN<br/>Proyectos alineados"]
+    E -->|Generan| F["💰 VALOR<br/>Beneficios tangibles"]
+    F -->|Retroalimentan| A
+```
+
+**Visualización de la jerarquía (estabilidad vs. cambio):**
 
 ```
-PRINCIPIOS (Estables, estratégicos)
+⭐ PRINCIPIOS (Estables, estratégicos, pocos)
     ↓
-POLÍTICAS (Dinámicas, normativas)
+📊 POLÍTICAS (Dinámicas, normativas, medios)
     ↓
-ESTÁNDARES (Muy dinámicos, técnicos)
+🔩 ESTÁNDARES (Muy dinámicos, técnicos, muchos)
 ```
 
-**Nota:** Los principios son los más estables y pocos; los estándares son los más dinámicos y numerosos.
+**Nota:** Los principios son los más estables y pocos; los estándares son los más dinámicos y numerosos. Los principios rara vez cambian; los estándares evolucionan con tecnología.
 
 ---
 

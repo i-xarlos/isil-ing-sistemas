@@ -612,14 +612,25 @@ Identifica procesos con estas características:
 
 ## 10. Fases del Desarrollo de un Modelo de IA
 
-### Flujo de Tres Etapas
+### Flujo de Desarrollo (IA Lifecycle)
 
-```
-1. Selección del Modelo
-          ↓
-2. Entrenamiento (con datos)
-          ↓
-3. Afinamiento (Tuning) & Optimización
+El desarrollo de un modelo no es un evento único, sino un ciclo de refinamiento continuo.
+
+```mermaid
+graph LR
+    A["🎯 SELECCIÓN<br/>Tipo de Modelo"] --> B["🏋️ ENTRENAMIENTO<br/>Con Datos"]
+    B --> C["⚙️ TUNING<br/>Afinamiento"]
+    C --> D["📈 OPTIMIZACIÓN<br/>Hiperparámetros"]
+    D --> |"✅ Validación"| E{"¿Rendimiento<br/>Aceptable?"}
+    E --> |"No"| A
+    E --> |"Sí"| F["🚀 DEPLOYAR<br/>Modelo Listo"]
+    
+    style A fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    style B fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+    style C fill:#FCE4EC,stroke:#C2185B,stroke-width:2px
+    style D fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+    style E fill:#F8BBD0,stroke:#C2185B,stroke-width:3px
+    style F fill:#C8E6C9,stroke:#2E7D32,stroke-width:3px
 ```
 
 ### Fase 1: Selección del Modelo

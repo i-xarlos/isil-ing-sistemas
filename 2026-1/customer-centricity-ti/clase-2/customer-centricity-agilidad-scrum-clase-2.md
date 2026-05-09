@@ -219,6 +219,31 @@ Agilidad es una mentalidad que prioriza la adaptación, el aprendizaje continuo 
 
 **Ejemplo práctico:** El equipo decide dividir tareas de una nueva feature de chat en vivo, asignando UX a diseñadores y backend a desarrolladores.
 
+### El Ciclo de Vida de Scrum (Sprint)
+
+El trabajo en Scrum se organiza en ciclos cortos llamados Sprints, que permiten inspeccionar y adaptar el producto constantemente.
+
+```mermaid
+graph TD
+    PB[("📝 PRODUCT<br/>BACKLOG")] --> SP["📋 SPRINT<br/>PLANNING"]
+    SP --> SB["🎯 SPRINT<br/>BACKLOG"]
+    SB --> DS{"🔄 DAILY<br/>SCRUM"}
+    DS --> |"15 min"| DEV["👥 DESARROLLO<br/>Sprint 1-4 sem"]
+    DEV --> SR["🔍 SPRINT<br/>REVIEW"]
+    SR --> RET["💬 SPRINT<br/>RETRO"]
+    RET --> |"Mejora continua"| PB
+    SR --> INC["✅ INCREMENTO<br/>de Valor"]
+    
+    style PB fill:#FFE0B2,stroke:#E65100,stroke-width:3px
+    style SP fill:#C8E6C9,stroke:#2E7D32,stroke-width:2px
+    style SB fill:#B3E5FC,stroke:#0288D1,stroke-width:2px
+    style DS fill:#F8BBD0,stroke:#C2185B,stroke-width:3px
+    style DEV fill:#D1C4E9,stroke:#512DA8,stroke-width:2px
+    style SR fill:#C8E6C9,stroke:#388E3C,stroke-width:2px
+    style RET fill:#FFE082,stroke:#F57F17,stroke-width:2px
+    style INC fill:#81C784,stroke:#1B5E20,stroke-width:3px
+```
+
 ### Eventos en Scrum
 
 - **Sprint Planning:** Planifica el trabajo del sprint.
