@@ -21,6 +21,7 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 | 3 | **Modelado Arquitectónico: Capas y Niveles** | Vistas, mapas de capacidades, hojas de ruta, lenguajes | [📄](./clase-3/modelado-arquitectonico-capas-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
 | 4 | **Gobernanza de Arquitectura Empresarial** | COBIT, marcos de gobernanza, políticas | [📄](./clase-4/CLASE-4-GOBERNANZA-AE.md) | — |
 | 5 | **Gestión del Portafolio Arquitectónico** | As-Is, To-Be, planeamiento de transición | [📄](./clase-5/gestion-portafolio-arquitectonico-clase-5.md) | [📊](./clase-5/40096-S05-PRESENTACION.pdf) |
+| 6 | **Modelos de Madurez y Gobierno Estratégico** | CMMI, TOGAF CMM, evaluación de capacidad organizacional | [📄](./clase-6/arquitectura-empresarial-madurez-gobierno-clase-6.md) | — |
 
 ---
 
@@ -55,6 +56,10 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 - 📄 [gestion-portafolio-arquitectonico-clase-5.md](./clase-5/gestion-portafolio-arquitectonico-clase-5.md)
 - 📊 [40096-S05-PRESENTACION.pdf](./clase-5/40096-S05-PRESENTACION.pdf) — Presentación original
 
+### Clase 6: Modelos de Madurez y Gobierno Estratégico
+- 📄 [arquitectura-empresarial-madurez-gobierno-clase-6.md](./clase-6/arquitectura-empresarial-madurez-gobierno-clase-6.md)
+- 🔍 Conceptos: CMMI, TOGAF CMM, evaluación de capacidad, AS-IS vs TO-BE
+
 ### Actividad 1
 - ✅ [arquitectura-empresarial-solucion-actividad-1.md](./act-1/arquitectura-empresarial-solucion-actividad-1.md) — Caso BancoXYZ (sector financiero)
 - ✅ [arquitectura-empresarial-pa01-retail-megastore.md](./act-1/arquitectura-empresarial-pa01-retail-megastore.md) — Caso MegaStore (sector retail)
@@ -82,6 +87,9 @@ arq-empresarial/
 │   ├── gestion-portafolio-arquitectonico-clase-5.md
 │   ├── 40096-S05-PRESENTACION.pdf
 │   └── 40096-S05-PRESENTACION.pptx
+├── clase-6/
+│   ├── arquitectura-empresarial-madurez-gobierno-clase-6.md
+│   └── 40096-S06-PRESENTACION.pptx
 ├── act-1/
 │   ├── arquitectura-empresarial-solucion-actividad-1.md
 │   └── arquitectura-empresarial-pa01-retail-megastore.md
@@ -92,6 +100,7 @@ arq-empresarial/
 
 ## Últimas Actualizaciones
 
+- **12/05/2026:** Clase 6 completada - Modelos de Madurez (CMMI, TOGAF CMM)
 - **22/04/2026:** Clase 3 completada con modelado arquitectónico y capas
 - **22/04/2026:** Incorporación de ejemplos reales (Big Data, China social credit, HFT)
 - Pendiente: Actividad Práctica 1 (PA1) — Propuesta de 4 capas para empresa
