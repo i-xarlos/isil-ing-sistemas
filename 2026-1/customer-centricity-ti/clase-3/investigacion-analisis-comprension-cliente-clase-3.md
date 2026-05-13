@@ -19,7 +19,7 @@ La clase comenzó analizando experiencias reales de frustración en productos di
 ### Ejemplos de Frustraciones Comunes
 
 | Producto | Frustración | Impacto |
-|---|---|---|
+| --- | --- | --- |
 | **Netflix** | Contenido no disponible o errores de conexión | Usuario abandona la plataforma |
 | **Yape** | Sistema caído sin alternativas de pago | Transacción bloqueada, pérdida de confianza |
 | **Falabella/Retail** | Restricciones de compra no claras (límites de unidades) | Flujo interrumpido, abandono del carrito |
@@ -38,11 +38,13 @@ El núcleo de la comprensión del cliente radica en la complementariedad de esto
 Se basa en números y estadísticas para medir comportamientos a gran escala.
 
 **Características:**
+
 - **Herramientas:** Encuestas cerradas, Google Analytics, mapas de calor, A/B Testing
 - **Propósito:** Medir patrones y tendencias
 - **Ventaja:** Escalable, objetiva
 
 **Ejemplo en Spotify:**
+
 - Medir *Skip Rate* (tasa de saltos de canciones)
 - Tiempo de retención en playlists
 - Indica **qué** está fallando, pero no **por qué**
@@ -52,11 +54,13 @@ Se basa en números y estadísticas para medir comportamientos a gran escala.
 Busca entender motivaciones, emociones y razones detrás de las acciones.
 
 **Características:**
+
 - **Herramientas:** Entrevistas en profundidad, focus groups, observación directa
 - **Propósito:** Explorar sentimientos y contextos
 - **Ventaja:** Profunda, reveladora
 
 **Ejemplo en Spotify:**
+
 - Preguntar: "¿Por qué saltas las canciones?"
 - Revela que el algoritmo sugiere géneros no deseados en contextos específicos
 
@@ -69,16 +73,19 @@ Busca entender motivaciones, emociones y razones detrás de las acciones.
 Para investigar, es crucial distinguir entre fuentes propias y externas.
 
 ### Fuentes Primarias
+
 - **Definición:** Investigaciones propias realizadas por la empresa para sus clientes específicos
 - **Ejemplos:** Encuestas directas, datos internos de uso, feedback de soporte
 - **Ventaja:** Específica para tu negocio y usuarios reales
 
 ### Fuentes Secundarias
+
 - **Definición:** Información pública generada por terceros
 - **Ejemplos:** Consultoras como McKinsey, Gartner, Ipsos o Arellano
 - **Ventaja:** Tendencias globales y benchmarks
 
-**Advertencia importante:** 
+**Advertencia importante:**
+
 - La fuente secundaria da tendencias globales (ej. "A la Gen Z le gustan los juegos inmersivos")
 - La primaria revela tu realidad específica (ej. "Mis usuarios Gen Z juegan en el trabajo y prefieren partidas rápidas")
 
@@ -93,7 +100,7 @@ Analizar datos no es solo mirar números, sino seguir un proceso estructurado de
 ### Los 7 Pasos del Análisis
 
 | Paso | Descripción | Importancia |
-|---|---|---|
+| --- | --- | --- |
 | **1. Recopilación** | Obtener datos de diversas fuentes | Base sólida de información |
 | **2. Exploración** | Verificar completitud de la data | Identificar gaps iniciales |
 | **3. Limpieza** | Eliminar "data basura" | Crítico: "Garbage in, Garbage out" |
@@ -118,7 +125,7 @@ Un **insight** no es un dato aislado, sino una conclusión valiosa que surge de 
 
 ### Ejemplo Práctico: Insight en Telecomunicaciones
 
-```
+```text
 DATOS INDIVIDUALES:
 ├─ Dato 1: Clientes jóvenes abandonan la empresa
 ├─ Dato 2: Baja interacción con la App
@@ -146,7 +153,7 @@ Para obtener información valiosa en entrevistas cualitativas, el profesor recom
 ### Recomendaciones Clave
 
 | ❌ Evitar | ✅ Recomendar |
-|---|---|
+| --- | --- |
 | Preguntas de Sí/No | Preguntas abiertas |
 | Sugestionar respuestas | Dejar hablar libremente |
 | Hablar más que escuchar | Escuchar 80%, hablar 20% |
@@ -154,6 +161,7 @@ Para obtener información valiosa en entrevistas cualitativas, el profesor recom
 ### Ejemplos de Preguntas Efectivas
 
 **Preguntas Abiertas:**
+
 - "Cuéntame la última vez que tuviste problemas con..."
 - "¿Cómo lidias con este problema actualmente?"
 - "¿Qué cambiarías en este producto?"
@@ -199,4 +207,4 @@ Para obtener información valiosa en entrevistas cualitativas, el profesor recom
 
 ---
 
-**Clase 3 — Customer Centricity en Tecnologías de Información | ISIL 2026-1**
+Clase 3 — Customer Centricity en Tecnologías de Información | ISIL 2026-1
