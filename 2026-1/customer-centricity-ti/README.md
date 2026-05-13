@@ -18,7 +18,7 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 |---|------|-------------|----------|-----|
 | 1 | **Customer Centricity y Agilidad en TI** | Definición, beneficios, casos empresariales | [📄](./clase-1/customer-centricity-agilidad-ti-clase-1.md) | [📊](./clase-1/resumen-ppt-clase-1.md) |
 | 2 | **Customer Centricity y Agilidad: Scrum** | Framework Scrum, roles, ceremonias, sprints | [📄](./clase-2/customer-centricity-agilidad-scrum-clase-2.md) | [📊](./clase-2/resumen-ppt-clase-2.md) |
-| 3 | **Scrum en Profundidad** | Eventos Scrum, métricas, aplicación práctica | — | [📊](./clase-3/resumen-ppt-clase-3.md) |
+| 3 | **Investigación y Análisis para Comprensión del Cliente** | Investigación cualitativa/cuantitativa, fuentes de data, proceso de análisis, insights | [📄](./clase-3/investigacion-analisis-comprension-cliente-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
 | 4 | **Marcos Iniciales para Mapeo del Proceso** | User Persona, Customer Journey Map, Experience Map, Empathy Map | [📄](./clase-4/customer-centricity-marcos-mapeo-clase-4.md) | [📊](./clase-4/40064_S04_PPT.pdf) |
 | 5 | **Jobs to be Done (JTBD)** | Identificación de trabajos a realizar, aplicación en diseño, benchmarking | [📄](./clase-5/customer-centricity-jobs-to-be-done-clase-5.md) | [📊](./clase-5/40064_S05_PPT.pdf) |
 
@@ -34,7 +34,8 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 - 📄 [customer-centricity-agilidad-scrum-clase-2.md](./clase-2/customer-centricity-agilidad-scrum-clase-2.md)
 - 📊 [resumen-ppt-clase-2.md](./clase-2/resumen-ppt-clase-2.md)
 
-### Clase 3: Scrum en Profundidad
+### Clase 3: Investigación y Análisis para Comprensión del Cliente
+- 📄 [investigacion-analisis-comprension-cliente-clase-3.md](./clase-3/investigacion-analisis-comprension-cliente-clase-3.md)
 - 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
 
 ### Clase 4: Marcos Iniciales para Mapeo del Proceso
@@ -79,6 +80,12 @@ customer-centricity-ti/
 │   └── RAPIDGO-solucion-actividad-1.md
 └── README.md (este archivo)
 ```
+
+---
+
+## Últimas Actualizaciones
+
+- **Clase 3**: Agregado resumen completo de "Investigación y Análisis para Comprensión del Cliente" basado en el PPT de la sesión.
 
 ---
 
