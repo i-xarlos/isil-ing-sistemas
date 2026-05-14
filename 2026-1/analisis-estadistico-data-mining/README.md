@@ -21,6 +21,7 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 | 3 | **Estadística Inferencial** | Probabilidad, pruebas de hipótesis, p-valores, intervalos de confianza | 📄 [analisis-estadistico-data-mining-estadistica-inferencial-clase-3.md](./clase-3/analisis-estadistico-data-mining-estadistica-inferencial-clase-3.md) |
 | 4 | **Análisis Exploratorio de Datos (EDA)** | Tendencias, estacionalidad, detección de anomalías, correlaciones, visualización | [📄](./clase-4/analisis-exploratorio-datos-eda-clase-4.md) |
 | 5 | **Minería de Datos** | Definición, aplicaciones (comercio, medicina, redes sociales), tipos (clasificación, clustering, asociación, predicción), ética, desafíos, herramientas | [📄](./clase-5/analisis-estadistico-data-mining-mineria-datos-clase-5.md) |
+| 6 | **Preparación de Datos** | Limpieza, transformación, manejo de faltantes, normalización (z-score, min-max), estandarización, casos prácticos en R y Python | [📄](./clase-6/analisis-estadistico-data-mining-preparacion-datos-clase-6.md) |
 
 ---
 
@@ -54,6 +55,17 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 - 📑 PDF: [40097-S05-PRESENTACION.pdf](./clase-5/40097-S05-PRESENTACION.pdf)
 - 🔧 **Herramientas asociadas:** Python (pandas, scikit-learn), R, Apache Spark
 
+### Clase 6: Preparación de Datos
+- 📄 [analisis-estadistico-data-mining-preparacion-datos-clase-6.md](./clase-6/analisis-estadistico-data-mining-preparacion-datos-clase-6.md)
+- 📊 **Temas principales:**
+  - **Limpieza de datos:** Eliminación de ruido, detección y corrección de errores, identificación de outliers con IQR, boxplots
+  - **Transformación:** Codificación y escalado de variables
+  - **Manejo de datos faltantes:** Imputación (media, moda, KNN), eliminación selectiva
+  - **Normalización:** Z-score (estandarización estadística), Min-Max scaling, casos de uso
+  - **Estandarización:** Formatos consistentes, unidades, nomenclaturas, integración de datos
+- 📑 PDF: [40097-S06-PRESENTACION.pdf](./clase-6/40097-S06-PRESENTACION.pdf)
+- 🔧 **Implementación:** Ejemplos completos en R y Python para cada técnica
+
 ### Actividades
 
 #### Actividad 1: Proceso de Aprendizaje 01
@@ -85,6 +97,10 @@ analisis-estadistico-data-mining/
 │   ├── analisis-estadistico-data-mining-mineria-datos-clase-5.md
 │   ├── 40097-S05-PRESENTACION.pdf
 │   └── [PPTX eliminado tras conversión]
+├── clase-6/
+│   ├── analisis-estadistico-data-mining-preparacion-datos-clase-6.md
+│   ├── 40097-S06-PRESENTACION.pdf
+│   └── [PPTX convertido a PDF]
 ├── actividad-1/
 │   └── analisis-estadistico-data-mining-pa01-respuestas.md
 └── README.md (este archivo)

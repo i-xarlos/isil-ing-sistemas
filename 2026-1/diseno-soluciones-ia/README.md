@@ -21,6 +21,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 3 | Clase | **IA: Tipos, Riesgos y Desarrollo** | 4 tipos IA, 5 riesgos éticos, 8 fases, valor estratégico | [📄](./clase-3/diseno-soluciones-ia-inteligencia-artificial-tema-02-clase-3.md) |
 | 4 | Clase | **Integración Estratégica y Ética de IA** | EDA, estadística descriptiva, correlaciones, visualización, Design Thinking, ética y sesgos | [📄](./clase-4/diseno-soluciones-ia-integracion-etica-clase-4.md) |
 | 5 | Clase | **Calidad de Datos** | Datos nulos, outliers, formatos incorrectos, normalización | [📄](./clase-5/diseno-soluciones-ia-calidad-datos-clase-5.md) |
+| 6 | Clase | **Insights: Análisis Univariado, Bivariado y Multivariado** | Correlaciones, técnicas de dimensionalidad (PCA, LDA), generación de insights | [📄](./clase-6/diseno-soluciones-ia-insights-analisis-datos-clase-6.md) |
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | PA01 | Evaluación | **Formulación de Problemas y Viabilidad IA** | 2 casos: clasificación incidencias + diagnóstico médico sesgado | [📄](./actividad-1-eval/diseno-soluciones-ia-pa01-solucion.md) |
 
@@ -66,6 +67,21 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
   - **Normalización:** Min-Max scaling, Z-score standardization, ejemplos con Sklearn
 - 📊 Contenido: 4 secciones principales + código práctico en Python para cada técnica
 
+### Clase 6: Insights — Análisis Univariado, Bivariado y Multivariado
+- 📄 [diseno-soluciones-ia-insights-analisis-datos-clase-6.md](./clase-6/diseno-soluciones-ia-insights-analisis-datos-clase-6.md)
+- 📊 PDF: `40098-S06-PRESENTACION.pdf`
+- 📋 Temas:
+  - **Análisis Univariado:** Distribuciones, medidas de tendencia central, outliers, histogramas y boxplots
+  - **Análisis Bivariado:** Scatter plots, tablas cruzadas, correlación (Pearson, Spearman)
+  - **Análisis Multivariado:** Patrones complejos, reducción de dimensionalidad
+  - **Relación vs. Causalidad:** Errores comunes, variables ocultas
+  - **Reducción de Dimensionalidad:** PCA vs. LDA, casos prácticos, cuándo usar cada técnica
+  - **Matriz de Correlación:** Multicolinealidad, redundancia, selección de variables
+  - **Generación de Insights:** De análisis a conclusiones accionables, storytelling con datos
+  - **Errores Comunes:** Falacia de causalidad, ceguera del entorno, sobreingeniería
+  - **Principios de Calidad:** Análisis integral, síntesis eficiente, accionabilidad
+- 📊 Contenido: 10 secciones con ejemplos reales, diagramas ASCII, tablas comparativas, casos de negocio
+
 ### Actividad 1: SWE-Bench Verified
 - 📄 [swe-bench-comparacion-modelos-actividad-1.md](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md)
 - 🖼️ Gráficos: `mrcrv2-benchmark-actividad-1.png`, `modelos-claude-3-5-comparativa-actividad-1.png`
@@ -100,6 +116,10 @@ diseno-soluciones-ia/
 │   ├── diseno-soluciones-ia-calidad-datos-clase-5.md
 │   ├── 40098-S05-PRESENTACION.pptx
 │   └── 40098-S05-PRESENTACION.pdf
+├── clase-6/
+│   ├── diseno-soluciones-ia-insights-analisis-datos-clase-6.md
+│   ├── 40098-S06-PRESENTACION.pptx
+│   └── 40098-S06-PRESENTACION.pdf
 ├── actividad-1/
 │   ├── README.md
 │   ├── swe-bench-comparacion-modelos-actividad-1.md
@@ -111,6 +131,7 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **13/05/2026:** Clase 6 documentada: Insights, análisis univariado, bivariado y multivariado, reducción de dimensionalidad (PCA/LDA), storytelling con datos
 - **06/05/2026:** Clase 4 enriquecida: Análisis Exploratorio de Datos (EDA), estadística descriptiva, correlaciones, visualización con Python y Excel
 - **06/05/2026:** Clase 5 documentada: Calidad de Datos (nulos, outliers, formatos, normalización) con código Python completo
 - **30/04/2026:** Clase 4 documentada: Integración estratégica y ética de IA, Design Thinking, sesgos

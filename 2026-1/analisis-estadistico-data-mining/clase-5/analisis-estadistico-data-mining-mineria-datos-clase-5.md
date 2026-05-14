@@ -1,8 +1,8 @@
 # Minería de Datos: Conceptos, Aplicaciones y Ética (Clase 5)
 
 **Curso:** Análisis Estadístico y Data Mining (ISIL, 2026-1)  
-**Docente:** [Pendiente]  
-**Fecha:** [Pendiente]
+**Docente:** Omar David Visitación Romero  
+**Fecha:** 07/05/2026
 
 ---
 
@@ -122,47 +122,120 @@ Una cadena de supermercados registra millones de transacciones mensuales. Usando
 - Optimiza logística
 
 #### 2.4 Segmentación de clientes (Clustering)
-**Qué:** Agrupa clientes por gasto, frecuencia, intereses, ubicación
+**Qué:** Agrupa clientes por similitudes (gasto, frecuencia, intereses, ubicación)
+
+**Aplicación práctica:** Ofrecer promociones personalizadas según cada grupo
 
 **Ejemplo de clusters:**
 - **Cluster 1:** "Alta frecuencia" — compran múltiples veces/mes
 - **Cluster 2:** "Por campaña" — solo en promociones
 - **Cluster 3:** "Premium" — alto gasto, bajo volumen
 
-**Estrategia:** Ofertas personalizadas por cluster
+**Estrategia:** Ofertas y comunicación personalizadas por cluster
+
+#### 2.5 Pruebas A/B (Análisis Comparativo)
+**Qué:** Comparar dos versiones de un anuncio, página web o estrategia para determinar cuál es más efectiva
+
+**Cómo funciona:** 
+- Versión A (control) vs. Versión B (experimental)
+- Se mide: tasa de conversión, click-through rate, tiempo promedio
+- Análisis estadístico para determinar significancia
+
+**Aplicación:** Optimizar campañas de marketing, diseño de sitios web, mensajería comercial
+
+**Importancia:** Decisiones basadas en datos, no en intuición
 
 ---
 
-### Medicina y Salud Pública
+### Finanzas y Riesgo
 
-#### 2.5 Predicción de enfermedades
-**Qué:** Modelos predictivos analizan síntomas, exámenes, antecedentes
+#### 2.6 Rentabilidad Esperada
+**Qué:** Estimación del retorno de inversión basada en datos históricos
 
-**Beneficio:** Identificar riesgos antes de complicaciones
+**Aplicación:** Si invierto $100,000, ¿cuál será mi ganancia anual?
 
-**Aplicación:** Prevención, diagnósticos tempranos
+**Cálculo:** Análisis de series históricas, volatilidad, tendencias
 
-#### 2.6 Análisis de historias clínicas
-**Qué:** Extrae patrones en registros clínicos electrónicos (EHR)
+**Riesgo asociado:** No todos los activos con mismo retorno tienen igual riesgo
 
-**Objetivo:** Detectar factores de riesgo comunes entre pacientes
+#### 2.7 Volatilidad
+**Qué:** Medición de la variabilidad o dispersión de rendimientos en el tiempo
 
-**Ejemplo:** Relación entre hábitos, enfermedades crónicas y edad
+**Interpretación:**
+- **Volatilidad alta** = Rentabilidad impredecible, riesgo mayor
+- **Volatilidad baja** = Rentabilidad más estable
 
-#### 2.7 Detección de anomalías médicas
-**Qué:** Encuentra valores fuera de lo común en exámenes o imágenes
+**Uso en decisiones:** Inversores usan volatilidad para elegir portafolios acordes a su tolerancia de riesgo
 
-**Utilidad:** Detección temprana de enfermedades raras o condiciones críticas
+#### 2.8 Análisis de Riesgo Crediticio
+**Qué:** Evaluación de probabilidad de que un cliente pague un crédito o préstamo
 
-#### 2.8 Gestión hospitalaria
-**Qué:** Analiza tiempos de espera, ocupación de camas, emergencias
+**Factores analizados:**
+- Ingresos y fuentes de empleo
+- Historial crediticio previo
+- Deudas actuales
+- Patrimonio disponible
+- Edad y estabilidad laboral
 
-**Beneficio:** Hospitales más eficientes, mejor atención
+**Técnica:** Modelado predictivo (clasificación)
+
+**Impacto:** Determinar si aprobar crédito, montos, tasas de interés
+
+#### 2.9 Método de Montecarlo (Simulación de Escenarios)
+**Qué:** Técnica que simula miles o millones de escenarios posibles para estimar el riesgo de una inversión
+
+**Aplicación en finanzas:**
+- Simulación de posibles retrasos en flujo de caja
+- Escenarios de impagos parciales o totales
+- Refinanciamientos forzados
+- Cambios en tasas de interés
+
+**Utilidad:** Proporciona rango de resultados (mejor caso, peor caso, caso medio) con probabilidades
 
 **Caso práctico:**
-- Un hospital analiza 200,000 historias clínicas
-- Descubre: pacientes mayores con ciertos exámenes = alta probabilidad de insuficiencia respiratoria
-- Acción: Sistema de alertas automático para personal especializado
+```
+Un banco quiere otorgar crédito de $500,000 por 5 años.
+Montecarlo simula 10,000 escenarios:
+  → 8,500 escenarios: cliente paga completo
+  → 1,200 escenarios: retrasos de 3-6 meses
+  → 300 escenarios: impago total
+
+Conclusión: 97% de probabilidad de recuperación → Se aprueba crédito
+```
+
+---
+
+### Salud Pública y Epidemiología
+
+#### 2.10 Estadística Epidemiológica
+**Qué:** Análisis de distribución y patrones de enfermedades en poblaciones
+
+**Métricas clave:**
+- **Incidencia:** Número de casos nuevos en un período
+- **Prevalencia:** Número total de casos en un momento
+- **Tasa de mortalidad:** Muertes por enfermedad respecto a población total
+
+**Aplicación:** Detectar brotes, alertar a autoridades de salud, asignar recursos
+
+**Ejemplo:** Si incidencia de COVID-19 aumenta 300% en una región en 2 semanas → Alerta de rebrote
+
+#### 2.11 Pruebas de Hipótesis en Salud Pública
+**Qué:** Determinar si cambios en datos son significativos o casuales
+
+**Aplicación crítica:** ¿Es lineal o exponencial el crecimiento de contagios?
+- **Crecimiento lineal** = + N casos por día (controlable)
+- **Crecimiento exponencial** = + N% de casos por día (alarmante)
+
+**Implicación:** Declara o no una emergencia sanitaria según el patrón
+
+**Herramienta:** Pruebas estadísticas (t-test, regresión, análisis de varianza) para validar tendencias
+
+#### 2.12 Predicción y Anomalías Médicas
+**Qué:** Identificar pacientes en riesgo o enfermedades en etapas tempranas
+
+**Aplicación:** Análisis de historias clínicas electrónicas, resultados de exámenes, síntomas
+
+**Impacto:** Intervención preventiva, diagnósticos tempranos, mejora de resultados de salud
 
 ---
 
@@ -415,141 +488,617 @@ Una empresa de transporte utiliza predicción para estimar demanda semanal de en
 
 ## 5. Desafíos de la Minería de Datos
 
-### 5.1 Escalabilidad: Volumen y Velocidad
+### 5.1 Sesgos (Bias) en los Datos
 
-**Definición:** Capacidad de un sistema/algoritmo para procesar cantidades crecientes sin perder velocidad ni precisión
+**Definición:** Distorsión sistemática en los datos que produce resultados incorrectos o injustos
 
-**Contexto:**
-Empresas almacenan información de múltiples fuentes:
-- Transacciones
-- Sensores IoT
-- Redes sociales
-- Sistemas de ventas
-- E-commerce
-- Dispositivos móviles
+**Tipos de sesgo:**
 
-**Desafío:** Cuando datos superan capacidad de sistemas tradicionales
+| Tipo | Descripción | Ejemplo |
+|---|---|---|
+| **Sesgo de muestra** | Muestra no representativa de la población | Encuestar solo a estudiantes universitarios para hablar de "todos los jóvenes" |
+| **Sesgo de selección** | Se eligen datos de manera no aleatoria | Recopilar datos solo de clientes satisfechos, excluyendo insatisfechos |
+| **Sesgo de falta de respuesta** | Algunos grupos no responden encuestas | Trabajadores de tiempo completo menos probables de responder encuestas largas |
+| **Sesgo temporal** | Datos de un período no representan otros | Encuesta de gasto navideño no aplica a otras épocas del año |
 
-**Solución:** Infraestructura especializada
-- **Hadoop:** Almacenamiento y procesamiento distribuido
-- **Apache Spark:** Framework de procesamiento en paralelo (100x más rápido que Hadoop)
-- **Bases de datos distribuidas:** NoSQL, data lakes
+**Impacto:**
+- Conclusiones erróneas
+- Decisiones injustas o discriminatorias
+- Pérdida de confianza en análisis
 
-**Impacto crítico:**
-- Banca, telecomunicaciones, marketing digital procesan **miles de operaciones/minuto**
-- Un algoritmo no escalable puede tardar horas en procesar lo que llega en segundos
-- La escalabilidad es factor estratégico, no solo técnico
+**Solución:** 
+✅ Muestreo aleatorio estratificado
+✅ Recopilar datos de múltiples grupos
+✅ Documentar limitaciones de datos
+✅ Validación con expertos del dominio
 
 ---
 
-### 5.2 Calidad de datos: Veracidad y Consistencia
+### 5.2 Datos Incompletos: Estrategias de Manejo
 
-**Definición:** Nivel en que información es completa, correcta, consistente, actualizada y relevante
+**Definición:** Registros con valores faltantes (NA, NULL, vacíos)
 
-**Regla de oro (Pyle, 2020):** 
+**Causas comunes:**
+- Fallos en sistemas de captura
+- Respondentes omiten campos en encuestas
+- Datos no disponibles en ciertos períodos
+- Errores de integración de bases de datos
+
+#### Estrategia 1: Eliminación
+**Cuándo usar:** Cuando el porcentaje de datos faltantes es muy bajo (< 5%)
+
+```python
+# Python: Eliminar filas con NA
+datos_completos = datos.dropna()
+
+# O eliminar solo si falta en columna específica
+datos_limpios = datos.dropna(subset=['ingreso'])
+```
+
+**Ventaja:** No introduce sesgos
+**Desventaja:** Reduce tamaño de muestra
+
+---
+
+#### Estrategia 2: Imputación Simple
+**Cuándo usar:** Para datos numéricos sin valores extremos significativos
+
+**Opción A - Media:**
+```python
+datos['ingreso'].fillna(datos['ingreso'].mean(), inplace=True)
+```
+
+**Opción B - Mediana:**
+```python
+datos['ingreso'].fillna(datos['ingreso'].median(), inplace=True)
+```
+
+**Opción C - Moda (categorías):**
+```python
+moda = datos['categoria'].mode()[0]
+datos['categoria'].fillna(moda, inplace=True)
+```
+
+**Ventaja:** Mantiene tamaño de muestra
+**Desventaja:** Puede subestimar variabilidad
+
+---
+
+#### Estrategia 3: Imputación Avanzada (Machine Learning)
+**Cuándo usar:** Cuando existe relación entre variables
+
+**Método KNN (k-Nearest Neighbors):**
+```python
+from sklearn.impute import KNNImputer
+imputer = KNNImputer(n_neighbors=5)
+datos_imputados = imputer.fit_transform(datos)
+```
+
+**Método Regresión:**
+```python
+from sklearn.linear_model import LinearRegression
+# Predecir valores faltantes usando otras variables
+modelo = LinearRegression()
+modelo.fit(X_train, y_train)
+predicciones = modelo.predict(X_faltantes)
+```
+
+**Ventaja:** Utiliza información de otras variables
+**Desventaja:** Más complejo, requiere conocimiento de relaciones
+
+**Recomendación:** Documentar qué estrategia se usó para reproducibilidad
+
+---
+
+### 5.3 Sobreajuste (Overfitting)
+
+**Definición:** Un modelo aprende de memoria los datos de entrenamiento pero falla al recibir datos nuevos y reales
+
+**Analogía:** 
+Un estudiante que memoriza respuestas exactas de exámenes pasados pero fracasa cuando se le hace una pregunta ligeramente diferente
+
+**Cómo ocurre:**
+```
+Datos de entrenamiento: 100 ejemplos
+Modelo tiene 50 parámetros
+
+→ Modelo se ajusta DEMASIADO a las peculiaridades de esos 100 ejemplos
+→ Cuando llegan 50 ejemplos nuevos (datos reales), funciona mal
+
+Analogía: Ajustar una ecuación polinómica de grado 100 a solo 10 puntos
+```
+
+#### Detección de sobreajuste
+
+| Métrica | Sobreajuste | Bien ajustado |
+|---|---|---|
+| **Error en entrenamiento** | Muy bajo (0.01) | Bajo (0.05) |
+| **Error en prueba** | Muy alto (0.40) | Similar a entrenamiento (0.06) |
+| **Brecha error** | Grande (0.39) | Pequeña (0.01) |
+
+#### Soluciones para evitar sobreajuste
+
+**1. Usar más datos de entrenamiento**
+```
+10 ejemplos + modelo complejo = Alto riesgo
+1,000,000 ejemplos + modelo complejo = Bajo riesgo
+```
+
+**2. Usar validación cruzada (k-fold validation)**
+```python
+from sklearn.model_selection import cross_val_score
+scores = cross_val_score(modelo, X, y, cv=5)
+# Evalúa en 5 subconjuntos diferentes
+```
+
+**3. Regularización**
+```python
+from sklearn.linear_model import Ridge
+modelo = Ridge(alpha=1.0)  # Penaliza parámetros grandes
+```
+
+**4. Simplificar el modelo**
+```
+Cambiar: Polinomio grado 10
+Por: Polinomio grado 2
+```
+
+**5. Early stopping (para redes neuronales)**
+```
+Detener entrenamiento cuando error de prueba empiece a aumentar
+```
+
+---
+
+### 5.4 Escalabilidad: Volumen y Velocidad (Ampliado)
+
+**Definición:** Capacidad de un sistema para procesar cantidades crecientes de datos sin perder velocidad ni precisión
+
+**Contexto empresarial real:**
+- Banco procesa 10 millones de transacciones/día
+- Red social maneja 500 millones de posts/día
+- Plataforma de streaming registra miles de eventos/segundo
+
+**Problema:** Algoritmos tradicionales no escalan
+
+```
+Algoritmo X en laptop:
+  100 registros → 1 segundo
+  1,000,000 registros → 10 horas (INVIABLE)
+
+Algoritmo escalable:
+  1,000,000 registros → 1 minuto (distribuido)
+```
+
+#### Soluciones tecnológicas
+
+**Apache Hadoop:** 
+- Almacenamiento distribuido (HDFS)
+- Procesamiento MapReduce
+- Ideal para datos históricos masivos
+
+**Apache Spark:**
+- 100x más rápido que Hadoop (procesa en memoria)
+- Ideal para ML iterativo, análisis en tiempo real
+- Usado en: Netflix, Uber, Yahoo
+
+---
+
+### 5.5 Calidad de Datos: Veracidad y Consistencia (Ampliado)
+
+**Regla de oro (Pyle, 2020):**
 > "80% del tiempo de un analista se dedica a limpiar y preparar datos porque ningún algoritmo puede corregir un mal conjunto de datos"
 
 **Problemas principales:**
 
-| Problema | Descripción | Ejemplo |
+| Problema | Descripción | Impacto | Solución |
+|---|---|---|---|
+| **Valores faltantes** | Información incompleta | Sesgo si se elimina, imprecisión si se imputa | Imputación inteligente |
+| **Errores de registro** | Datos mal ingresados | Conclusiones falsas | Validación en entrada |
+| **Duplicados** | Mismo elemento múltiples veces | Sobreponderación artificial | Deduplicación |
+| **Inconsistencia** | Formatos diferentes | Integración fallida | Estandarización |
+| **Sesgo en datos** | Información que induce conclusiones erróneas | Discriminación sistemática | Análisis de sesgo |
+
+**Impacto ético directo:**
+- Modelos defectuosos = Decisiones injustas o discriminatorias
+- Predicciones incorrectas = Pérdida financiera o de confianza
+- Reproducción de sesgos = Discriminación contra grupos
+
+**Checklist de calidad:**
+```
+☑ ¿Los datos representan la población?
+☑ ¿Hay valores fuera de rango lógico?
+☑ ¿Las fechas son consistentes (formatos)?
+☑ ¿Se han detectado y manejado valores faltantes?
+☑ ¿Se documentó el proceso de limpieza?
+☑ ¿Se validaron con expertos del dominio?
+```
+
+---
+
+## 6. Configuración del Entorno de Programación en Python
+
+### 6.1 Conceptos Fundamentales
+
+#### Intérprete vs. Compilador
+
+**Compilador:**
+- Traduce **todo el código** a un archivo ejecutable (.exe) ANTES de ejecutar
+- Detecta errores antes de la ejecución
+- Ejemplos: C, C++, Java
+
+**Intérprete (Python):**
+- Traduce y ejecuta el código **línea por línea**
+- Los errores se detectan durante la ejecución
+- Más flexible, más lento
+- Mejor para prototipado y análisis
+
+```python
+# Python es interpretado
+print("Hola")           # Se ejecuta inmediatamente
+print(undefined_var)    # Error aquí, durante ejecución
+```
+
+#### IDE (Entorno de Desarrollo Integrado)
+
+**Qué es:** Software donde escribes código y que se conecta a un intérprete
+
+**IDE recomendado:** Visual Studio Code (VS Code)
+- Ligero, multiplataforma
+- Excelente integración con Python
+- Requiere instalar extensión Python de Microsoft
+
+**Otros IDEs:**
+- PyCharm (profesional, más pesado)
+- Jupyter Notebooks (para análisis interactivo)
+- Anaconda (distribución que incluye todo)
+
+---
+
+### 6.2 Variables y Tipado Dinámico
+
+**Características de Python:**
+
+Python detecta automáticamente el tipo de dato sin necesidad de declaración explícita:
+
+```python
+hola = 30                    # Python entiende que es int
+print(type(hola))            # <class 'int'>
+
+hola = "texto"               # Python cambia el tipo
+print(type(hola))            # <class 'str'>
+
+numero = 3.14                # float
+print(type(numero))          # <class 'float'>
+
+es_verdad = True             # bool
+print(type(es_verdad))       # <class 'bool'>
+```
+
+**Comparación con otros lenguajes:**
+```java
+// Java requiere declaración explícita
+int edad = 25;
+String nombre = "Juan";
+double salario = 2500.50;
+```
+
+```python
+# Python es flexible
+edad = 25
+nombre = "Juan"
+salario = 2500.50
+```
+
+---
+
+### 6.3 Instalación de Librerías Esenciales
+
+**Herramienta:** `pip` (Package Installer for Python)
+
+#### Comando base
+```bash
+pip install [nombre-libreria]
+```
+
+#### Librerías fundamentales para análisis de datos
+
+**1. Pandas**
+```bash
+pip install pandas
+```
+
+**Qué hace:** Maneja *datasets* (tablas de filas y columnas, similares a Excel)
+
+```python
+import pandas as pd
+
+# Cargar datos desde CSV
+datos = pd.read_csv('ventas.csv')
+
+# Ver primeras filas
+print(datos.head())
+
+# Estadísticas básicas
+print(datos.describe())
+
+# Seleccionar columna
+print(datos['producto'])
+```
+
+**Usocases:**
+- Limpieza de datos
+- Transformaciones
+- Análisis exploratorio
+- Integración de múltiples fuentes
+
+---
+
+**2. NumPy**
+```bash
+pip install numpy
+```
+
+**Qué hace:** Cálculos con arreglos y matrices multidimensionales, muy rápido (optimizado en C)
+
+```python
+import numpy as np
+
+# Crear arreglo
+vector = np.array([1, 2, 3, 4, 5])
+print(vector)                    # [1 2 3 4 5]
+
+# Operaciones
+print(vector * 2)                # [2  4  6  8 10]
+print(np.mean(vector))           # 3.0
+print(np.std(vector))            # 1.58...
+
+# Matrices
+matriz = np.array([[1, 2], [3, 4]])
+print(matriz.shape)              # (2, 2)
+```
+
+**Usocases:**
+- Cálculos algebraicos y estadísticos
+- Transformaciones lineales
+- Operaciones de propósito general
+
+**Ventaja sobre Python puro:** 10-100x más rápido
+
+---
+
+**3. Matplotlib**
+```bash
+pip install matplotlib
+```
+
+**Qué hace:** Crea gráficos y visualizaciones de datos
+
+```python
+import matplotlib.pyplot as plt
+
+# Datos
+meses = ['Ene', 'Feb', 'Mar', 'Abr', 'May']
+ventas = [1000, 1500, 1200, 1800, 2000]
+
+# Crear gráfico
+plt.plot(meses, ventas, marker='o')
+plt.title('Ventas Mensuales')
+plt.xlabel('Mes')
+plt.ylabel('Ventas (S/)')
+plt.grid(True)
+plt.show()
+
+# Gráfico de barras
+plt.bar(meses, ventas)
+plt.title('Ventas por Mes')
+plt.show()
+```
+
+**Tipos de gráficos:**
+- Líneas (tendencias temporales)
+- Barras (comparativas)
+- Histogramas (distribuciones)
+- Scatter (correlaciones)
+- Boxplots (detección de outliers)
+
+---
+
+### 6.4 Instalación Completa (Recomendada)
+
+**Opción A: Individual**
+```bash
+pip install pandas numpy matplotlib scikit-learn
+```
+
+**Opción B: Usando Anaconda** (incluye todo)
+```bash
+# Descargar de anaconda.com
+# Anaconda incluye: Python, Pandas, NumPy, Matplotlib, Jupyter, etc.
+# Recomendado para principiantes
+```
+
+**Verificar instalación:**
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+print("Todo instalado correctamente!")
+```
+
+---
+
+### 6.5 Herramientas Complementarias
+
+#### Librerías para Machine Learning
+
+**scikit-learn:**
+```bash
+pip install scikit-learn
+```
+
+Implementa: clasificación, clustering, regresión, detección de anomalías
+
+```python
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+
+# Ejemplo de clustering
+kmeans = KMeans(n_clusters=3)
+clusters = kmeans.fit_predict(datos)
+```
+
+**TensorFlow / Keras:**
+```bash
+pip install tensorflow
+```
+
+Para redes neuronales y deep learning
+
+---
+
+### 6.6 Frameworks Distribuidos
+
+| Framework | Características | Cuándo usar |
 |---|---|---|
-| **Valores faltantes** | Información incompleta | Ingresos no declarados |
-| **Errores de registro** | Datos mal ingresados | Fechas incorrectas, números fuera de rango |
-| **Duplicados** | Mismo elemento registrado múltiples veces | Cliente duplicado en base de datos |
-| **Inconsistencia** | Mismo campo con formatos diferentes | Teléfono: "555-1234" vs "5551234" |
-| **Sesgo en datos** | Información que induce conclusiones erróneas | Datos faltantes sistemáticos |
+| **Apache Hadoop** | MapReduce, almacenamiento HDFS | Procesamiento batch de datos históricos masivos |
+| **Apache Spark** | 100x más rápido, procesa en memoria | ML iterativo, análisis en tiempo real, streaming |
 
-**Impacto en ética:**
-La calidad afecta directamente:
-- **Confiabilidad ética:** Modelos defectuosos pueden producir decisiones injustas
-- **Confiabilidad estadística:** Predicciones incorrectas
-- **Sesgos discriminatorios:** Modelos que discriminan sistemáticamente
-- **Decisiones erróneas:** Impacto en negocio y personas
+**Spark con Python:**
+```bash
+pip install pyspark
+```
+
+```python
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("MiApp").getOrCreate()
+datos = spark.read.csv("datos.csv", header=True)
+datos.show()
+```
 
 ---
 
-## 6. Herramientas y Frameworks
+### 6.7 Plataformas Gráficas (sin programación)
 
-### 6.1 Lenguajes de programación
-
-| Herramienta | Fortaleza | Caso de uso |
+| Plataforma | Características | Cuándo usar |
 |---|---|---|
-| **R** | Análisis estadístico, visualización | Investigación, educación, marketing, finanzas, salud |
-| **Python** | Versatilidad, simplicidad, librerías especializadas | Ciencia de datos, ML, análisis general |
-
-**Librerías Python principales:**
-- `pandas` — manipulación de datos
-- `scikit-learn` — machine learning
-- `seaborn` / `matplotlib` — visualización
-- `TensorFlow` — deep learning
+| **RapidMiner** | Interfaz "arrastrar y soltar", algoritmos pre-construidos | Usuarios sin experiencia en código |
+| **KNIME** | Flujos visuales, integra limpieza + ML + reportes | Procesos complejos, automatización |
 
 ---
 
-### 6.2 Frameworks distribuidos
-
-| Framework | Características | Caso de uso |
-|---|---|---|
-| **Hadoop** | Almacenamiento y procesamiento distribuido | Datos históricos masivos |
-| **Apache Spark** | 100x más rápido que Hadoop en memoria | Processing en paralelo, ML, streaming |
-
----
-
-### 6.3 Plataformas gráficas (sin programación)
-
-| Plataforma | Características |
-|---|---|
-| **RapidMiner** | Interfaz "arrastrar y soltar", modelos pre-construidos (clasificación, clustering, asociación) |
-| **KNIME** | Integra limpieza, estadística, ML; flujos automatizados, exportables |
-
----
-
-### 6.4 Herramientas de visualización
+### 6.8 Herramientas de Visualización Interactiva
 
 | Herramienta | Características | Caso de uso |
 |---|---|---|
-| **Tableau** | Gráficos interactivos, exploración intuitiva, maneja grandes volúmenes | BI avanzada |
-| **Power BI** | Desarrollado por Microsoft, se integra con Excel/Azure/Teams, reportes automatizados | Inteligencia empresarial |
+| **Tableau** | Gráficos interactivos muy avanzados, maneja millones de filas | Business Intelligence, dashboards ejecutivos |
+| **Power BI** | Integración con ecosistema Microsoft (Excel, Azure), reportes automatizados | Inteligencia empresarial en organizaciones Microsoft |
 
 ---
 
-### 6.5 Importancia profesional
+## 7. Tendencias Futuras: IA y Deep Learning
 
-Estas herramientas son críticas en:
+### 7.1 Deep Learning
 
-**Administración:** Monitorear procesos, costos, desempeño
-**Marketing:** Segmentación, análisis de campañas, predicción de ventas
-**Finanzas:** Detección de fraudes, valoración de riesgos, optimización de inversiones
-**Negocios internacionales:** Análisis de mercados globales, tendencias
-**Ciencia de datos:** Base operativa para modelar y experimentar
+**Qué es:** Rama del machine learning usando redes neuronales profundas (múltiples capas)
+
+**Aplicación actual:** Obtener máxima precisión en predicciones complejas
+
+**Ejemplos de éxito:**
+- **Predicción de bolsa de valores:** Redes LSTM capturan patrones temporales complejos
+- **Reconocimiento de imágenes médicas:** CNN (Convolutional Neural Networks) detectan tumores
+- **Procesamiento de lenguaje natural:** Transformers (GPT, BERT) generan texto coherente
+
+**Ventaja sobre ML tradicional:**
+- Aprende representaciones internas de datos
+- Excelente para datos de alta dimensionalidad
+- Escalable a volúmenes masivos
+
+**Desventaja:**
+- Requiere muchos datos de entrenamiento (millones)
+- Alto costo computacional
+- Menos interpretable ("caja negra")
 
 ---
 
-## Conclusiones
+### 7.2 Seguridad y Confidencialidad de Datos
 
-1. **La minería de datos transforma datos en decisiones estratégicas**
-   - Más allá de describir qué pasó, explica por qué e identifica oportunidades futuras
+**Realidad empresarial:** Las organizaciones grandes evitan subir datos sensibles a IAs abiertas
 
-2. **Aplicaciones reales impactan en múltiples sectores**
-   - Comercio, medicina, redes sociales demuestran ROI tangible
-   - Incrementa competitividad y eficiencia institucional
+**Razones:**
+- **Riesgo de filtraciones:** ChatGPT, Claude guardan datos en servidores públicos
+- **Regulación:** GDPR, CCPA, Ley Peruana de Protección de Datos
+- **Competencia:** Información estratégica no puede exponerse
 
-3. **Los cuatro tipos principales abordan problemas distintos**
-   - Clasificación: categorizar
-   - Clustering: agrupar
-   - Asociación: relacionar
-   - Predicción: estimar futuro
+**Solución:** Desarrollar modelos propios bajo control interno
 
-4. **La ética no es opcional, es fundacional**
-   - Cambridge Analytica ejemplifica riesgos de negligencia
-   - Privacidad, transparencia y responsabilidad determinan sostenibilidad
+```
+❌ Subir datos a ChatGPT
+    → Riesgo: Datos filtrados, acceso competidores
 
-5. **Escalabilidad y calidad son desafíos persistentes**
-   - El 80% del esfuerzo va en preparación de datos
-   - Infraestructura especializada es necesaria para volúmenes reales
+✅ Entrenar modelo privado en servidor propio
+    → Seguro: Datos bajo control total
+    → Cumple regulaciones
+```
 
-6. **El dominio de herramientas es habilidad crítica en el mercado laboral**
-   - Python, R, Spark, Tableau son demandados
-   - Combinación de habilidades: análisis + programación + ética
+**Herramientas para privacidad:**
+- **Encriptación end-to-end**
+- **Federated Learning:** Entrenar modelos sin centralizar datos
+- **Differential Privacy:** Agregar ruido matemático para proteger privacidad individual
+- **Auditoría de modelos:** Verificar que no reproduzcan sesgos discriminatorios
+
+---
+
+### 7.3 Concepto Clave: La Información es el Activo Más Valioso
+
+> **"La información es el activo más valioso de cualquier corporación hoy en día"**
+
+**Por qué:**
+
+| Perspectiva | Razón |
+|---|---|
+| **Financiera** | Datos sobre clientes = predicción de ingresos futuros |
+| **Competitiva** | Información = ventaja estratégica, primero en detectar tendencias |
+| **Innovación** | Datos mejor que competidores = mejores productos |
+| **Riesgo** | Datos mal gestionados = pérdida de confianza, multas, quiebra |
+
+**Ejemplos:**
+- Netflix: Sus datos de visualización valen más que sus películas
+- Amazon: Datos de compra permiten predicciones de demanda exactas
+- Tesla: Datos de conducción de millones de autos = mejores modelos de autonomía
+- Facebook/Meta: Datos de usuarios = modelos publicitarios ultra-precisos (y problema ético)
+
+**Implicación estratégica:**
+Compañías no compiten solo en productos, sino en **calidad de datos y capacidad analítica**
+
+---
+
+## Conclusiones Integradas
+
+1. **Minería de datos transforma datos en decisiones estratégicas**
+   - Aplicaciones reales en finanzas, salud, marketing, redes sociales
+   - ROI tangible: incrementa ingresos, reduce riesgos, mejora eficiencia
+
+2. **Configuración correcta del entorno es fundamental**
+   - Python + Pandas + NumPy + Matplotlib son la base
+   - Escalabilidad requiere Spark, Hadoop u otra infraestructura distribuida
+   - Documentar proceso es tan importante como ejecutarlo
+
+3. **Los desafíos son tan técnicos como éticos**
+   - Sesgos, datos incompletos, sobreajuste requieren mitigación deliberada
+   - Calidad de datos determina calidad de decisiones
+   - Privacy by design es no-negociable en era moderna
+
+4. **Deep Learning y IA generativa son tendencias, pero requieren cuidado**
+   - Máxima precisión tiene costo: datos masivos, recursos computacionales, riesgo de privacidad
+   - Seguridad de datos no es opcional
+   - Información es activo estratégico
+
+5. **El futuro requiere profesionales multilingües**
+   - Combinación: programación (Python) + estadística + ética + negocio
+   - Capacidad de explicar a stakeholders no técnicos
+   - Conciencia de impacto social de decisiones basadas en datos
 
 ---
 
