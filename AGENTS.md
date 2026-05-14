@@ -118,3 +118,83 @@ Antes de dar por terminado un cambio, verifica que:
 - el contenido respeta el curso real de la carpeta y no arrastra datos de otra clase;
 - el contenido conecta negocio, datos, aplicaciones y tecnología cuando aplique;
 - el resultado parece escrito para personas, no para una máquina.
+
+## Workflow Git: Branches y Pull Requests
+
+Cuando hayas realizado cambios importantes de documentación:
+
+### 1. Crear un Branch
+
+Usa **GitHub CLI (`gh`)** para crear branches y PRs:
+
+```bash
+# Crea un nuevo branch con nombre descriptivo
+gh repo clone && cd isil
+git checkout -b feat/descripcion-cambios
+
+# O directamente con gh:
+gh pr create --base main --head feat/descripcion-cambios --title "Descripción del cambio"
+```
+
+### 2. Hacer Commit
+
+```bash
+git add .
+git commit -m "feat: descripcion clara del cambio
+
+- Detalle 1 del cambio
+- Detalle 2 del cambio"
+```
+
+### 3. Crear Pull Request
+
+```bash
+# Opción 1: Con GitHub CLI (recomendado)
+gh pr create --title "Breve descripción" --body "Descripción detallada del cambio"
+
+# Opción 2: Desde Git
+git push origin feat/descripcion-cambios
+# Luego abre el PR manualmente en GitHub
+```
+
+### Convenciones de Nombres
+
+- **feat/**: Para nuevas clases o contenido → `feat/clase-6-insights`
+- **docs/**: Para mejoras de documentación → `docs/actualizar-readme`
+- **fix/**: Para correcciones → `fix/corregir-enlaces-rotos`
+
+### Template de PR
+
+Cuando crees un PR, sigue este template:
+
+```markdown
+## Descripción
+Breve descripción del cambio (1-2 líneas).
+
+## Tipo de Cambio
+- [x] Nueva clase/contenido
+- [ ] Actualización de documentación
+- [ ] Corrección de errores
+
+## Cambios Principales
+- Agregada clase X con tema Y
+- Actualizado README del curso Z
+- Incluidos N ejemplos prácticos
+
+## Archivos Modificados
+- 2026-1/{curso}/clase-X/...
+- 2026-1/{curso}/README.md
+
+## Verificación
+- [x] Contenido sigue la guía de AGENTS.md
+- [x] Nombres de archivo son semánticos
+- [x] README actualizado con nuevos enlaces
+- [x] Ejemplo práctico incluido cuando aplica
+```
+
+### Importante
+
+- **NO commits directos a `main`**: Siempre crea un branch primero
+- **PR antes de merge**: Los cambios deben revisarse antes de fusionarse
+- **Un tema por PR**: Agrupa cambios relacionados, no mezcles temas
+- **Mensajes claros**: Usa la estructura `type: descripcion` en commits

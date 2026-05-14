@@ -1,10 +1,12 @@
-# Marcos Iniciales para Mapeo del Proceso del Cliente
+# Marcos Iniciales para Mapeo del Proceso del Cliente (Clase 4)
 
-**Clase 4** — Customer Centricity en Tecnologías de Información | ISIL 2026-1
+**Curso:** Customer Centricity en Tecnologías de Información (ISIL, 2026-1)  
+**Docente:** Henry Joseph Paredes del Alamo  
+**Fecha:** 12/05/2026
 
 ## 📌 Introducción
 
-Construir soluciones digitales exige **ver a través de los ojos del cliente**. En esta clase aprenderemos tres herramientas poderosas que nos permiten plasmar visualmente quiénes son nuestros usuarios, cómo interactúan con nuestro producto, y qué piensan y sienten en cada momento.
+Esta clase, dirigida por **Henry Joseph Paredes del Alamo**, se centró en herramientas clave para el diseño de experiencias de usuario y la comprensión del comportamiento del cliente. Construir soluciones digitales exige **ver a través de los ojos del cliente**. En esta clase aprenderemos herramientas poderosas que nos permiten plasmar visualmente quiénes son nuestros usuarios, cómo interactúan con nuestro producto, y qué piensan y sienten en cada momento.
 
 **Principio clave:** No queremos construir lo que nosotros creemos que el cliente necesita. Queremos construir lo que el cliente **realmente necesita**.
 
@@ -17,11 +19,20 @@ Construir soluciones digitales exige **ver a través de los ojos del cliente**. 
 Antes de empezar, es crítico distinguir dos roles:
 
 | Rol | Definición | Ejemplo |
-|---|---|---|
+| --- | --- | --- |
 | **Usuario** | La persona que **usa/consume** el producto. Es quien nos da feedback. | Empleado que usa Slack |
 | **Cliente/Buyer** | La persona que **compra/paga** por el producto. Busca ROI. | Gerente que compra licencias de Slack |
 
 En B2B especialmente, el Buyer y el Usuario son diferentes. Pero el producto se diseña pensando en el **Usuario**, aunque el Buyer es quien decide si comprar.
+
+* **Ejemplo:** En el caso de los pañales, el cliente es la madre/padre, pero el usuario es el bebé. Si el pañal irrita al bebé (usuario), el cliente dejará de comprarlo.
+
+---
+
+### ¿Qué es un User Persona?
+
+* **Definición:** Es una representación semi-ficticia del usuario ideal basada en datos reales (demográficos, psicográficos, objetivos y comportamientos). No es una persona real, pero sus atributos personifican a un grupo de usuarios.
+* **Construcción:** Se basa en investigaciones cualitativas y cuantitativas. Es vital no intentar que todos los perfiles calcen en uno solo; si los atributos son muy distantes (ej. diferencia generacional de 10 años), se deben crear varios perfiles.
 
 ---
 
@@ -30,12 +41,14 @@ En B2B especialmente, el Buyer y el Usuario son diferentes. Pero el producto se 
 Para crear un **User Persona** (representación semificticia del usuario ideal), necesitas información en 5 dimensiones:
 
 #### 1️⃣ Datos Demográficos
+
 ```
 Edad, Género, Dónde vive, Ocupación, Nivel educativo
 Ejemplo: Carlos, 35 años, Ingeniero, Lima, Jefe de Producto
 ```
 
 #### 2️⃣ Psicográfico (El más importante)
+
 ```
 Intereses, Motivaciones, Frustraciones, Hobbies, Creencias, Estilo de vida
 Ejemplo: Motivado por innovación, frustrado por lentitud, 
@@ -43,6 +56,7 @@ Ejemplo: Motivado por innovación, frustrado por lentitud,
 ```
 
 #### 3️⃣ Comportamientos
+
 ```
 ¿Qué usa actualmente? ¿Cómo se comunica? ¿Dónde está mayormente?
 Ejemplo: Usa Google Drive, Slack, Excel; prefiere Zoom sobre llamadas;
@@ -50,6 +64,7 @@ Ejemplo: Usa Google Drive, Slack, Excel; prefiere Zoom sobre llamadas;
 ```
 
 #### 4️⃣ Historia Personal
+
 ```
 Background que ayude a entender por qué es así
 Ejemplo: Trabajó en startup durante 5 años donde implementaron 
@@ -57,6 +72,7 @@ Ejemplo: Trabajó en startup durante 5 años donde implementaron
 ```
 
 #### 5️⃣ Objetivos
+
 ```
 Metas y necesidades que quiere satisfacer
 Ejemplo: Quiere lanzar producto en 4 meses con equipo de 8 personas
@@ -66,26 +82,29 @@ Ejemplo: Quiere lanzar producto en 4 meses con equipo de 8 personas
 
 ### Cómo Construir un User Persona
 
-**Paso 1: Investigación (Datos)**
-- Encuestas cuantitativas (100+ usuarios)
-- Entrevistas cualitativas (10-15 usuarios profundos)
-- Análisis de data histórica (comportamiento en app)
+#### Paso 1: Investigación (Datos)
 
-**Paso 2: Síntesis (Colaboración)**
-- Sesiones con stakeholders (Producto, Ingeniería, Marketing, Ventas)
-- Identificar atributos relevantes (no todo es importante)
-- Discriminar "ruido" vs. "señal importante"
+* Encuestas cuantitativas (100+ usuarios)
+* Entrevistas cualitativas (10-15 usuarios profundos)
+* Análisis de data histórica (comportamiento en app)
 
-**Paso 3: Documentación (Visual)**
-- Crear representación clara (foto, nombre, cita célebre)
-- Máximo 1-2 páginas (si no cabe, no es Persona, es una novela)
-- Hacerlo visible en la oficina/Slack
+#### Paso 2: Síntesis (Colaboración)
+
+* Sesiones con stakeholders (Producto, Ingeniería, Marketing, Ventas)
+* Identificar atributos relevantes (no todo es importante)
+* Discriminar "ruido" vs. "señal importante"
+
+#### Paso 3: Documentación (Visual)
+
+* Crear representación clara (foto, nombre, cita célebre)
+* Máximo 1-2 páginas (si no cabe, no es Persona, es una novela)
+* Hacerlo visible en la oficina/Slack
 
 ---
 
 ### 📊 Ejemplo Real: E-commerce de Ropa
 
-```
+```text
 PERSONA: María - La Compradora Joven Urbana
 
 [Foto] 
@@ -131,6 +150,7 @@ QUOTE
 ### 3 Recomendaciones Clave
 
 #### ✅ Recomendación 1: No tienes que encasillar todo en UN solo Persona
+
 ```
 MEJOR: 3-4 personas diferentes
 ├─ María (Joven, impulsiva, precio sensible)
@@ -141,6 +161,7 @@ Cada uno tiene necesidades distintas → Diseño adaptado
 ```
 
 #### ✅ Recomendación 2: Calidad > Cantidad (en atributos)
+
 ```
 ❌ MALO: 20 atributos extensos, muy detalle
 "María tiene 28 años, 1.68m, pelo castaño, ojos cafés, 
@@ -154,6 +175,7 @@ frustrada por envíos lentos, activa en redes"
 ```
 
 #### ✅ Recomendación 3: Identifica "Outliers" pero NO los fuerces
+
 ```
 Outlier: Usuario que NO encaja en ningún Persona
 Ejemplo: Abuela de 75 años que compra ropa online
@@ -200,7 +222,7 @@ graph LR
 
 #### Estructura de 5 Etapas
 
-```
+```text
 ETAPA 1: AWARENESS (Conciencia)
    ↓
 El usuario descubre tu marca
@@ -232,9 +254,11 @@ Emoción: Satisfacción o Frustración
 Acción: Usa el producto, deja reseña
 ```
 
+> **Punto clave:** El CJM mapea emociones y pensamientos en cada punto de contacto para identificar "puntos de dolor" y oportunidades de mejora.
+
 #### 📊 Ejemplo Real: Compra de Café en Starbucks
 
-```
+```text
 JOURNEY MAP - Compra de Frappuccino
 
 ┌─────────────────────────────────────────────┐
@@ -299,7 +323,7 @@ JOURNEY MAP - Compra de Frappuccino
 #### Diferencia Clave
 
 | Customer Journey Map | Experience Map |
-|---|---|
+| --- | --- |
 | Foco: Interacción con **tu** marca | Foco: Contexto **completo** de la vida del usuario |
 | Considera: Lo que tu empresa controla | Considera: Factores externos (otros productos, amigos, contexto) |
 | Usuarios: Un solo usuario/marca | Usuarios: Múltiples marcas o productos |
@@ -497,7 +521,26 @@ INSIGHTS GENERADOS:
 
 ---
 
-## 4. Mitos y Prácticas Comunes (Errores)
+## 4. Jobs to be Done (JTBD)
+
+Es un marco de trabajo que sostiene que los usuarios "contratan" productos para realizar un trabajo o resolver un problema, no por el producto en sí.
+
+* **Concepto clave:** No compramos aplicaciones, las contratamos para lograr algo.
+* **Ejemplos:**
+  * **Taladro:** Nadie quiere un taladro; quieren un agujero en la pared para colgar un cuadro. Si existiera una pegatina que soporte el peso, el usuario preferiría eso para evitar ensuciar.
+  * **Taxis (Uber/Didi):** El "trabajo" varía según la situación.
+    * *Situación:* Salgo tarde del trabajo -> *Job:* Llegar a casa **seguro y rápido**.
+    * *Situación:* No tengo efectivo -> *Job:* Poder **pagar con tarjeta/billetera digital**.
+
+### Tipos de "Jobs":
+
+1. **Funcionales:** Tareas prácticas (ej. que el audífono tenga buena calidad de llamada).
+2. **Emocionales:** Cómo se siente el usuario (ej. sentirse concentrado al aislarse del ruido).
+3. **Sociales:** Cómo quiere ser percibido (ej. proyectar una imagen tecnológica usando una marca reconocida).
+
+---
+
+## 5. Mitos y Prácticas Comunes (Errores)
 
 ### ❌ Mito 1: "El Persona debe tener MÁXIMO detalle"
 
@@ -592,7 +635,7 @@ Analogía:
 
 ---
 
-## 5. Guía Rápida: Cuándo Usar Cada Herramienta
+## 6. Guía Rápida: Cuándo Usar Cada Herramienta
 
 ```
 PREGUNTA                          HERRAMIENTA CORRECTA
@@ -612,7 +655,7 @@ PREGUNTA                          HERRAMIENTA CORRECTA
 
 ---
 
-## 6. Proceso Recomendado: Paso a Paso
+## 7. Proceso Recomendado: Paso a Paso
 
 ### Semana 1: Investigación
 ```
@@ -643,16 +686,16 @@ Día 1+: Itera producto basado en insights
 
 ---
 
-## 7. Conexión con Otras Clases
+## 8. Conexión con Otras Clases
 
 - **Clase 1-3:** Introducción a Customer Centricity y Agile
-- **Clase 5:** Jobs to be Done (nivel más profundo)
+- **Clase 5:** Marcos adicionales de mapeo y experiencia
 - **Análisis Estadístico:** Datos cuantitativos para Personas
 - **Dirección de Datos:** Fuentes de data para investigación
 
 ---
 
-## 8. Conclusiones Clave
+## 9. Conclusiones Clave
 
 1. **User Persona:** Ponle un rostro específico a tu cliente (no "todos")
 2. **Customer Journey:** Mapa el camino exacto de interacción con tu marca
@@ -660,8 +703,24 @@ Día 1+: Itera producto basado en insights
 4. **Empathy Map:** Accede a emociones, pensamientos, frustraciones
 5. **Calidad > Cantidad:** 5 atributos relevantes > 20 detallados
 6. **Múltiples Personas:** No existe "usuario promedio" en productos complejos
-7. **Basadas en Data:** Investigación cuantitativa + cualitativa = Personas reales
+7. **Basadas en Data:** Investigación cuantitativa + cualitativa = Personas reales9. **JTBD:** Los usuarios contratan productos para "trabajos", no por el producto en sí
+10. **Benchmarking:** Comparar cobertura de "jobs" con competencia para identificar gaps
 
+---
+
+## 10. Benchmarking y Ciclo de Diseño Digital
+
+El profesor explicó cómo se integran estas herramientas en la creación de productos tecnológicos:
+
+* **Benchmarking de JTBD:** Comparar si nuestra empresa cubre los "trabajos" que el usuario busca en comparación con la competencia.
+* **Prototipado (Dummies):** Antes de programar, se crean maquetas (en herramientas como Figma) para probar la usabilidad con usuarios reales.
+* **Medición Constante:** Una vez lanzado el producto, se deben usar métricas como el **CSAT (Customer Satisfaction Score)** o **NPS** para medir cada flujo específico (agendar cita, pagar, anular) y realizar mejoras continuas.
+
+---
+
+## 11. Próximos Pasos
+
+**Próximos pasos mencionados:** La próxima semana se habilitará la **PEA 2** (Evaluación Permanente), la cual se entregará en la semana 7. No hay examen parcial, solo 4 PEAs y un trabajo final.
 ---
 
 **Clase 4 — Customer Centricity en Tecnologías de Información | ISIL 2026-1**

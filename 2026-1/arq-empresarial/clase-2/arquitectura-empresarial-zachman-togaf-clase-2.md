@@ -1,7 +1,9 @@
+**i**
+
 # Arquitectura Empresarial: TOGAF y Zachman (Clase 2)
 
-**Curso:** Arquitectura Empresarial (ISIL, 2026-1)  
-**Docente:** Richard Anthony Romero Mori  
+**Curso:** Arquitectura Empresarial (ISIL, 2026-1)
+**Docente:** Richard Anthony Romero Mori
 **Fecha:** 15/04/2026
 
 ## Objetivos de la clase
@@ -65,7 +67,7 @@ graph TD
         C5["⏰ CUÁNDO<br/>Tiempo"]
         C6["🎯 POR QUÉ<br/>Motivos"]
     end
-    
+  
     subgraph PERSPECTIVAS
         R1["🏢 Planificador<br/>Contextual"]
         R2["💼 Propietario<br/>Conceptual"]
@@ -77,7 +79,7 @@ graph TD
 
     R1 -.-> |intersección| C1
     R6 -.-> |intersección| C6
-    
+  
     style INTERROGANTES fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
     style PERSPECTIVAS fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
 ```
@@ -261,5 +263,3 @@ flowchart LR
 ## Conclusión
 
 La sesión dejó una idea central: la arquitectura empresarial permite tomar mejores decisiones porque conecta estrategia y tecnología con método, estructura y contexto real. **TOGAF** y **Zachman** son útiles juntos porque uno ordena el camino y el otro evita vacíos en el análisis.
-
-

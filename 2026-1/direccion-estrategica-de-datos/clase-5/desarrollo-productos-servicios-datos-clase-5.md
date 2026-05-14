@@ -10,6 +10,18 @@ En esta clase exploramos cómo las empresas modernas desarrollan productos y ser
 
 Las empresas líderes (Google, Amazon, Netflix) no innovan por intuición: **innovan por datos**.
 
+### Principio Fundamental: Contrastar Datos con la Realidad de Calle
+
+**La profesora Brezli Luna enfatiza:** El análisis de datos sin conexión con la realidad operativa es teoría pura. Es vital:
+- Salir al mercado
+- Observar qué está pasando realmente
+- Contrastar números con comportamiento en calle
+- Identificar **carencias ocultas** que los números aún no revelan
+
+**Ejemplo peruano:** El mercado de productos de limpieza profesionales (ej. O-Cedar/Vileda) muestra enormes oportunidades en Perú porque, aunque el mercado sea burocrático, está **lleno de carencias** que quienes saben analizar datos + entender calle pueden explotar.
+
+---
+
 ### Dos Caminos para Crear Productos
 
 Existen dos estrategias principales para desarrollar productos:
@@ -17,13 +29,13 @@ Existen dos estrategias principales para desarrollar productos:
 1. **Satisfacer necesidades existentes:** Observar qué le falta al consumidor y proveerlo (demanda manifesta).
 2. **Crear nuevas necesidades:** Desarrollar un producto innovador que el usuario no sabía que necesitaba hasta que lo vio (demanda latente).
 
-Ambas requieren análisis de datos para identificar dónde está la oportunidad real.
+Ambas requieren análisis de datos CONTRASTADO CON OBSERVACIÓN REAL para identificar dónde está la oportunidad verdadera.
 
 ---
 
 ## 1. Proceso de Desarrollo de Productos Basados en Datos
 
-El ciclo de vida de un producto centrado en datos consta de **5 fases principales**. Este proceso no es lineal, sino iterativo, buscando aprender rápido del mercado.
+El ciclo de vida de un producto centrado en datos consta de **5 fases principales**. Este proceso **combina Agile (iteraciones rápidas) con Design Thinking (centrado en usuario)**, buscando aprender rápido del mercado sin costos hundidos.
 
 ```mermaid
 graph LR
@@ -93,10 +105,47 @@ El datero **comunica estos insights al conductor**, quien ajusta su estrategia o
 **Componentes clave:**
 - **Objetivos SMART** (Específicos, Medibles, Alcanzables, Relevantes, Temporales)
 - **Alcance del producto** → Qué features incluir en v1, qué posponer
-- **Validación con Stakeholders** → ¿Todos (negocio, ingeniería, marketing, finanzas) están alineados?
+- **Validación con Stakeholders** → ¿Todos (negocio, ingeniería, marketing, finanzas, operaciones) están alineados?
+- **Gestión de Stakeholders** → Identificar aliados, neutrales y detractores
 
 **Concepto clave: Stakeholders**  
-Son las personas o grupos impactados por la actividad de la empresa: clientes, empleados, vecinos, proveedores, reguladores. Cada stakeholder tiene intereses diferentes, y **todos deben validar los objetivos** antes de empezar a construir.
+Son las personas o grupos impactados por la actividad de la empresa: clientes, empleados, vecinos, proveedores, reguladores, competidores. Cada stakeholder tiene intereses diferentes, y **todos deben validar los objetivos** antes de empezar a construir.
+
+#### 📊 Ejemplo: Identificación de Stakeholders (Caso Real Peruano)
+
+**Escenario:** Camión de cerveza que abastece bodega a las 3 a.m.
+
+| Stakeholder | Interés | Estrategia |
+|---|---|---|
+| **Bodeguero** | Recibir producto a tiempo, ganancia | Aliado — ofrecer garantía de entrega |
+| **Vecinos** | Dormir tranquilo, sin ruido | Detractor — mitigar ruido, horarios |
+| **Municipalidad** | Cumplimiento regulatorio, impuestos | Neutro/Aliado — cumplir permisos |
+| **Competencia** | Proteger su territorio | Detractor — diferenciación clara |
+| **Clientes del bar** | Disponibilidad de producto | Aliado — resurtido garantizado |
+
+**Acción:** Sin validar con vecinos, el proyecto fracasa por oposición. Con datos de ruido + timing óptimo, conviertes detractores en neutrales.
+
+#### Gestión de Stakeholders en Desarrollo de Producto
+
+Antes de iniciar desarrollo, **mapea stakeholders y sus intereses:**
+
+```
+STAKEHOLDER MAPPING:
+
+        ALIADOS              NEUTRALES            DETRACTORES
+   ┌─────────────┐      ┌─────────────┐      ┌─────────────┐
+   │ Clientes    │      │ Reguladores │      │ Competencia │
+   │ (alto poder)│      │ (bajo poder)│      │ (alto poder)│
+   │ Equipo      │      │             │      │             │
+   │ Inversores  │      │             │      │ Stakeholders│
+   └─────────────┘      └─────────────┘      │ afectados   │
+                                              └─────────────┘
+
+ACCIÓN POR TIPO:
+- ALIADOS: Mantener involucrados, comunicación constante
+- NEUTRALES: Informar regularmente, buscar apoyo
+- DETRACTORES: Entender intereses, ofrecer valor o mitigación
+```
 
 #### 📊 Ejemplo: Sistema de Notificación
 
@@ -115,8 +164,26 @@ Son las personas o grupos impactados por la actividad de la empresa: clientes, e
 
 **Pasos:**
 1. **Diseño del producto** → Wireframes, flujos de usuario basados en datos
-2. **Prototipado** → Construir un **MVP (Minimum Viable Product)**, la versión más básica que permite validar la idea
-3. **Pruebas de usuario** → ¿Funciona? ¿Es intuitivo? ¿Lo querría usar?
+2. **Prototipado (Dummy)** → Construir un **MVP (Minimum Viable Product)**, la versión más básica que permite validar la idea. Puede ser papel, figma, o código mínimo.
+3. **Pruebas de usuario** → ¿Funciona? ¿Es intuitivo? ¿Lo querría usar? ¿Validamos nuestras hipótesis?
+
+#### 🔍 El Valor del Prototipado Temprano
+
+**Analogía de la Cocina ("Seco de Pollo"):**
+
+```
+COCINAR SIN PROBAR:        COCINAR CON PRUEBAS:
+├─ Preparas todo (6h)      ├─ Preparas básico (1h)
+├─ Pruebas al final        ├─ Pruebas a mitad camino
+└─ ¡Está muy salado!       ├─ Rectificas (añade agua)
+   → No hay remedio        ├─ Pruebas de nuevo
+   → Desperdiciar          ├─ Listo en 3h
+   → Costo hundido         └─ Resultado óptimo
+```
+
+**En software (Sprints de 2 semanas):**
+
+No esperes 6 meses para saber si la idea funciona. **Prueba a mitad del camino** para rectificar antes de que sea costoso arreglar.
 
 #### 📊 Ejemplo: Diseño de Email de Notificación
 
@@ -221,6 +288,18 @@ ACCIÓN: Open rate es bueno pero CTR bajo.
 
 Desarrollar un producto es importante, pero **crear una cultura organizacional donde todos toman decisiones basadas en datos** es transformacional.
 
+### ¿Qué es Cultura Data-Driven vs. Solo Tener Datos?
+
+| Aspecto | Sin Cultura Data-Driven | Con Cultura Data-Driven |
+|---|---|---|
+| **Presupuesto** | "Los datos no son prioridad" | Inversión en infraestructura, licencias, capacitación |
+| **Decisiones** | "A mí me parece que..." | "¿Qué dicen los datos?" |
+| **Responsabilidad** | Difusa, sin dueño claro | Explícita, roles definidos (Data Owner, Steward) |
+| **Alineación** | Cada equipo por su lado | Misión y Visión guían todas las iniciativas |
+| **Impacto** | Bajo, improvisación constante | Alto, resultados predecibles y escalables |
+
+**Conclusión:** Cultura Data-Driven = **Presupuesto + Compromiso + Alineación**. Sin presupuesto, no hay infraestructura. Sin compromiso, no hay uso real.
+
 ### Componente 1: Gobierno de Datos
 
 **¿Qué es?** Un conjunto de políticas, procesos y roles para asegurar que los datos sean precisos, seguros y éticos.
@@ -260,16 +339,39 @@ IMPACTO EN PRODUCTO:
 
 **¿Qué es?** Una filosofía donde TODOS (no solo analytics) toman decisiones basadas en datos.
 
+#### Misión y Visión Alineadas con Datos
+
+La profesora enfatiza que **el perfil profesional debe alinearse con la cultura empresarial:**
+
+```
+EJEMPLO 1: Empresa de Innovación
+Misión: "Innovar continuamente"
+Visión: "Ser líderes en soluciones disruptivas"
+→ Perfil buscado: Ingeniero CREATIVO, que experimente, tome riesgos
+→ Herramientas: Agile, prototipado rápido, tolerancia al fallo
+→ Cultura: "Fracasar rápido es aprender"
+
+EJEMPLO 2: Empresa de Operaciones Críticas (Banca)
+Misión: "Mantener seguridad operativa"
+Visión: "Ser el más confiable"
+→ Perfil buscado: Ingeniero DISCIPLINADO, que siga procesos
+→ Herramientas: Six Sigma, control de calidad, auditorías
+→ Cultura: "Cero errores es la meta"
+```
+
+**Acción:** Asegúrate de que tu perfil y valores alineados con la **cultura real** de la empresa, no la que dicen que tienen.
+
 #### 6 Pilares de una Cultura Data-Driven:
 
 | Pilar | Cómo se ve | Resultado |
 |---|---|---|
-| **Liderazgo** | Ejecutivos piden "¿Qué dicen los datos?" antes de decidir | Decisiones más consistentes y menos por intuición |
+| **Liderazgo** | Ejecutivos piden "¿Qué dicen los datos?" antes de decidir | Decisiones consistentes, no por intuición |
+| **Presupuesto** | Inversión explícita en infraestructura + herramientas | Cultura sustentada, no solo teoría |
 | **Educación** | Todos en la empresa saben leer dashboards básicos | Democratización de datos (no solo Analytics) |
-| **Herramientas** | Acceso fácil a datos (BI tools, dashboards) | Sin esperas de 3 meses para reportes |
+| **Herramientas** | Acceso fácil a datos (BI tools, dashboards en tiempo real) | Sin esperas de 3 meses para reportes; decisiones ágiles |
 | **Transparencia** | Datos compartidos abiertamente entre equipos | Menos silos, más colaboración entre Stakeholders |
 | **Procesos datos-first** | Las métricas guían sprints, roadmaps, bonificaciones | Alineación a objetivos estratégicos |
-| **Evaluación y ajuste** | "¿Qué aprendimos?" es pregunta estándar post-proyecto | Mejora continua (ciclo de iteración) |
+| **Evaluación y ajuste** | "¿Qué aprendimos?" es pregunta estándar post-proyecto | Mejora continua real, no discurso |
 
 #### 📊 Caso Real: SaaS (Software as a Service)
 
@@ -415,9 +517,33 @@ Antes de continuar con buenas prácticas, asegúrate de entender estos términos
 
 ## 4. Buenas Prácticas en el Desarrollo
 
-### Práctica 1: Metodología Agile
+### Práctica 1: Agile + Design Thinking (El Combo Ganador)
 
-Olvidar planes rígidos de 12 meses. **Pensar en sprints de 2 semanas** donde cada ciclo incluye datos.
+Olvidar planes rígidos de 12 meses. **Combinar Agile (iteraciones rápidas) con Design Thinking (usuario primero)** es la fórmula ganadora.
+
+**Agile aportA:**
+- Sprints de 2 semanas
+- Feedback continuo
+- Rectificación rápida
+- Evita costos hundidos
+
+**Design Thinking aporta:**
+- Empatía real con usuarios
+- Prototipado temprano
+- Validación con usuarios reales
+- Enfoque en problema, no en solución
+
+**Juntos:**
+```
+DESIGN THINKING (Qué problema)  →  AGILE (Cómo resolverlo rápido)
+┌──────────────────────────┐      ┌──────────────────────────┐
+│ Empatía                  │      │ Sprint 1: Prototipo      │
+│ Definir                  │  →   │ Sprint 2: Feedback       │
+│ Idear                    │      │ Sprint 3: Mejora         │
+│ Prototipo                │      │ Sprint N: Iteración      │
+│ Probar                   │      │ Release                  │
+└──────────────────────────┘      └──────────────────────────┘
+```
 
 #### Principios Agile (adaptados a datos):
 
@@ -813,11 +939,19 @@ Este tema se conecta con:
 
 ## 8. Conclusiones Clave
 
-1. **Datos guían cada decisión:** Desde identificar problema hasta monitorear post-lanzamiento
-2. **Agile + Design Thinking = Éxito:** Iteraciones cortas basadas en feedback de usuarios
-3. **Cultura > Tecnología:** Un equipo que cree en datos es más importante que el mejor BI tool
-4. **Monitoreo continuo es obligatorio:** No lanzar y olvidar; medir siempre
-5. **Casos reales funcionan:** Google, Amazon, Netflix no innovan por suerte; es por datos
+1. **Datos + Calle = Realidad:** Contrastar números con observación real es vital. El "datero" en microbuses peruanos es un ejemplo de análisis de datos en operación.
+
+2. **Agile + Design Thinking = Éxito:** Iteraciones cortas basadas en feedback de usuarios. Prototipado temprano = Evita costos hundidos (analogía del seco de pollo).
+
+3. **Stakeholders importan:** Aliados, neutrales, detractores. Cada uno requiere estrategia diferente. Sin validar, el proyecto fracasa.
+
+4. **Cultura = Presupuesto + Compromiso:** No es suficiente decir "usamos datos". Debe haber inversión real en infraestructura, herramientas y capacitación. Sin presupuesto, no hay cultura.
+
+5. **Misión y Visión guían el perfil:** La cultura empresarial define si buscas innovación o estabilidad. Alinéate con los valores REALES de la empresa, no los teóricos.
+
+6. **Monitoreo continuo es obligatorio:** No lanzar y olvidar; medir siempre. Dashboards en tiempo real, alertas configuradas, feedback recopilado.
+
+7. **Casos reales funcionan:** Google, Amazon, Netflix no innovan por suerte; es por datos. Y tú también puedes en el contexto peruano si análizas + observas mercado.
 
 ---
 
