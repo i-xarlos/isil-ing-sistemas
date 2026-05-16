@@ -29,8 +29,8 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 
 | # | Tema | Descripción | Recursos |
 |---|------|-------------|-----------|
-| PA01 | **Principios de Arquitectura Empresarial en Organizaciones Reales** | Identificar los 4 dominios (Negocio, Datos, Aplicaciones, Tecnología), su definición, razón fundamental e implicaciones. | [✅ Caso Banco](./act-1/arquitectura-empresarial-solucion-actividad-1.md) \| [✅ Caso Retail](./act-1/arquitectura-empresarial-pa01-retail-megastore.md) |
-| PA02 | **Ejemplo Completo: Transformación Digital de MegaStore** | Caso práctico de arquitectura empresarial aplicada: matriz AS-IS vs TO-BE, 4 dominios, iniciativas omnicanal, roadmap de transformación 18 meses, KPIs. | [📘 Ejemplo MegaStore Retail](./act-2/arquitectura-empresarial-ejemplo-banco-digital-act-2.md) |
+| PA01 | **Principios de Arquitectura Empresarial en Organizaciones Reales** | Identificar los 4 dominios (Negocio, Datos, Aplicaciones, Tecnología), su definición, razón fundamental e implicaciones. | [✅ Caso Banco](./act-1/arquitectura-empresarial-solucion-actividad-1.md) \| [✅ Caso Retail](./act-1/arquitectura-empresarial-pa01-retail-Metro.md) |
+| PA02 | **Ejemplo Completo: Transformación Digital de Metro** | Caso práctico de arquitectura empresarial aplicada: matriz AS-IS vs TO-BE, 4 dominios, iniciativas omnicanal, roadmap de transformación 18 meses, KPIs. | [📘 Ejemplo Metro Retail](./act-2/arquitectura-empresarial-ejemplo-banco-digital-act-2.md) |
 
 ---
 
@@ -64,10 +64,10 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 
 ### Actividad 1
 - ✅ [arquitectura-empresarial-solucion-actividad-1.md](./act-1/arquitectura-empresarial-solucion-actividad-1.md) — Caso BancoXYZ (sector financiero)
-- ✅ [arquitectura-empresarial-pa01-retail-megastore.md](./act-1/arquitectura-empresarial-pa01-retail-megastore.md) — Caso MegaStore (sector retail)
+- ✅ [arquitectura-empresarial-pa01-retail-Metro.md](./act-1/arquitectura-empresarial-pa01-retail-Metro.md) — Caso Metro (sector retail)
 
 ### Actividad 2
-- 📘 [arquitectura-empresarial-ejemplo-banco-digital-act-2.md](./act-2/arquitectura-empresarial-ejemplo-banco-digital-act-2.md) — Caso completo MegaStore: Transformación retail omnicanal, 4 dominios, 6 iniciativas, roadmap 18 meses, KPIs de negocio
+- 📘 [arquitectura-empresarial-ejemplo-banco-digital-act-2.md](./act-2/arquitectura-empresarial-ejemplo-banco-digital-act-2.md) — Caso completo Metro: Transformación retail omnicanal, 4 dominios, 6 iniciativas, roadmap 18 meses, KPIs de negocio
 
 ---
 
@@ -97,7 +97,7 @@ arq-empresarial/
 │   └── 40096-S06-PRESENTACION.pptx
 ├── act-1/
 │   ├── arquitectura-empresarial-solucion-actividad-1.md
-│   ├── arquitectura-empresarial-pa01-retail-megastore.md
+│   ├── arquitectura-empresarial-pa01-retail-Metro.md
 │   ├── Ejemplo - Escenario de Negocios.xlsx
 │   └── Formato a llenar - Escenario de Negocios.xlsx
 ├── act-2/
