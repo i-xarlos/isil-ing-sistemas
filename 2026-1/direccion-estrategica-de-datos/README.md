@@ -55,15 +55,9 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 - 📊 [40062-S05-PPT.pdf](./clase-5/40062-S05-PPT.pdf)
 
 ### Clase 6: Gestión del Cambio en Entornos Data-Driven
-- 📄 [direccion-estrategica-de-datos-gestion-cambio-clase-6.md](./clase-6/direccion-estrategica-de-datos-gestion-cambio-clase-6.md)
-- 📊 [40062-S06-PPT.pdf](./clase-6/40062-S06-PPT.pdf)
-- 📋 Temas:
-  - **Métodos y Herramientas:** Planificación, análisis de impacto, gestión de riesgos, seguimiento de KPIs
-  - **Comunicación Efectiva:** Bidireccional, datos para comunicar, personalización de mensajes, múltiples canales
-  - **Capacitación:** Objetivos, tipos de habilidades, programa de capacitación, feedback continuo
-  - **Resistencia al Cambio:** Comunicación clara, participación, capacitación, reconocimiento
-  - **Simuladores en Google Colab:** Adopción según comunicación, mapa de resistencia, análisis de riesgo
-- 📊 Contenido: 10 secciones con ejemplos reales, 2 códigos Python ejecutables, checklist de implementación
+- 📄 [direccion-estrategica-de-datos-gestion-cambio-clase-6.md](./clase-6/direccion-estrategica-de-datos-gestion-cambio-clase-6.md) — Documento completo con resumen ejecutivo, 11 secciones, casos prácticos, código Python ejecutable, checklist
+- 📊 [40062-S06-PPT.pdf](./clase-6/40062-S06-PPT.pdf) — Presentación original
+- **Contenido:** Resumen ejecutivo + Métodos y Herramientas + Comunicación Efectiva + Caso Real (Automatización de Facturas) + Rol del Nuevo Líder (caso Carlos Javier) + 8 Pasos Kotter + Capacitación + Resistencia + Checklist + Código Python ejecutable
 
 ### Actividades
 - ✅ [direccion-estrategica-de-datos-pa001-glovo-solucion.md](./act-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) — Caso Glovo: diagnóstico, estrategia, gobernanza y riesgos

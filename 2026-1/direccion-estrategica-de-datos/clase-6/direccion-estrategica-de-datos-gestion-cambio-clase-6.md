@@ -2,7 +2,50 @@
 
 **Curso:** Dirección Estratégica de Datos (ISIL, 2026-1)  
 **Docente:** Brezli Paola Luna Figueroa  
-**Fecha:** [Pendiente de confirmación]
+**Fecha:** Clase 6
+
+---
+
+## 📋 Resumen Ejecutivo Rápido
+
+Esta sesión explora las **estrategias y recursos esenciales** para facilitar la transición organizacional en entornos data-driven. Se abordan cuatro áreas críticas:
+
+1. **Métodos y herramientas** — Planificación, análisis de impacto, gestión de riesgos, seguimiento de KPIs
+2. **Comunicación efectiva** — Bidireccional, datos para comunicar, personalización, múltiples canales
+3. **Capacitación y desarrollo** — Objetivos, tipos de habilidades, programa personalizado, feedback continuo
+4. **Estrategias para resistencia** — Comunicación, participación, formación, apoyo, reconocimiento
+
+### Concepto Fundamental: Riesgo = Dinero
+En gestión del cambio, cada riesgo debe ser **valorizado económicamente**. Ejemplo: Perder un gerente clave = $130,000 en impactos directos.
+
+### Caso Real de Clase: Automatización de Facturas
+**Fracaso:** Implementar software sin comunicar → Rumores → "Nos van a despedir" → Sabotaje  
+**Éxito:** Comunicación transparente → "Se convertirán en analistas de valor" → Adopción activa
+
+### El Nuevo Líder: Estrategia de 4 Pasos
+1. **Observar** antes de actuar (2 semanas)
+2. **Identificar fortalezas**, no etiquetas
+3. **Establecer "contrato de expectativas"** claro
+4. **Buscar Quick Wins** para ganar confianza
+
+### 8 Pasos de John Kotter (Estándar Industria)
+1. Urgencia | 2. Coalición | 3. Visión | 4. Comunicación | 5. Empoderar | 6. Triunfos Corto Plazo | 7. Inercia | 8. Institucionalizar
+
+---
+
+## 📑 Tabla de Contenidos
+
+- [🚀 Ejecuta en Google Colab](#ejecuta-los-ejemplos-en-google-colab)
+- [1. Conceptos Fundamentales](#1-conceptos-fundamentales-del-cambio)
+- [2. Planificación e Impacto](#2-planificación-e-impacto-del-cambio)
+- [3. Comunicación Efectiva](#3-estrategias-de-comunicación-efectiva)
+- [4. Rol del Nuevo Líder](#4-el-rol-del-nuevo-líder-ante-equipos-antiguos)
+- [5. 8 Pasos de Kotter](#5-el-modelo-de-los-8-pasos-de-john-kotter)
+- [6. Gestión de Riesgos](#6-gestión-de-riesgos-del-cambio)
+- [7. Capacitación](#7-capacitación-y-desarrollo-de-habilidades)
+- [8. Resistencia](#8-estrategias-para-abordar-la-resistencia-al-cambio)
+- [Checklist](#11-checklist-gestión-del-cambio-data-driven)
+- [Conclusiones](#conclusiones-clave)
 
 ---
 
@@ -157,28 +200,40 @@ IT                → Nuevas responsabilidades
 
 La comunicación debe ser **transparente y anticipada**. Los rumores llenan el vacío de información.
 
-**Ejemplo de fracaso:**
+**Caso de Clase: Automatización de Facturas (De la profesora Brezli)**
+
+En una empresa con 10,000 proveedores que recibe facturas manualmente, se decide implementar un software que **automatiza escaneo, matching con orden de compra y pago**.
+
+**Escenario 1 — Fracaso (comunicación cerrada):**
 ```
-Empresa implementa software de automatización de facturas.
-Los digitadores NO son informados del cambio.
-Se enteran por rumores: "Nos van a despedir"
-Resultado: Bloqueo total a la capacitación, sabotaje silencioso
+❌ Los digitadores y contables NO son informados del cambio
+❌ Se enteran por rumores: "Nos van a despedir"
+❌ Resultado: Bloqueo total a la capacitación, sabotaje silencioso
+❌ Proyecto se estanca por resistencia pasiva
 ```
 
-**Ejemplo de éxito:**
+**Escenario 2 — Éxito (comunicación abierta):**
 ```
-COMUNICACIÓN CLARA (Día 1):
+✅ COMUNICACIÓN CLARA (Día 1):
 "Implementaremos software que automatiza escaneo y matching de facturas.
-Esto liberará a digitadores de tareas mecánicas.
-Ustedes se convertirán en ANALISTAS DE VALOR.
-Sus nuevos roles:
-- Resolver excepciones complejas
-- Analizar patrones de gasto
-- Negociar con proveedores estratégicos
-Capacitación comienza la próxima semana."
+Esto liberará a ustedes de tareas mecánicas y repetitivas.
+NO habrá despidos. En su lugar:
 
-Resultado: Aceptación, participación activa
+→ Se convertirán en ANALISTAS DE VALOR
+→ Nuevos roles:
+  • Resolver excepciones complejas
+  • Analizar patrones de gasto
+  • Negociar estratégicamente con proveedores
+  • Validar facturas de alto valor
+
+Capacitación comienza la próxima semana.
+Tendrán todo nuestro apoyo."
+
+✅ Resultado: Aceptación, participación activa, adopción rápida
+✅ Los analistas de valor generan más valor que digitadores
 ```
+
+**Lección crítica:** No es ocultar el cambio, es **comunicar con transparencia qué oportunidades abre**.
 
 ### Estrategias Clave de Comunicación
 
@@ -289,27 +344,53 @@ print(f"Diferencia a 12 semanas: ${ahorros_efectiva[-1] - ahorros_pobre[-1]:,.0f
 
 ## 4. El Rol del Nuevo Líder ante Equipos Antiguos
 
-Un escenario común: **Eres un jefe nuevo, contratado para innovar, pero encuentras un equipo antiguo que teme perder sus empleos.**
+### Dilema Real de Clase: Carlos Javier y el Equipo Antiguo
+
+Durante la clase, el alumno **Carlos Javier** planteó un reto muy común:
+
+> *"¿Cómo lidero el cambio si soy un jefe nuevo, contratado específicamente para innovar, pero me encuentro con un equipo antiguo (15+ años en la empresa) que teme que los despida para traer mi propia gente?"*
+
+La profesora reconoció que este es uno de los dilemas más delicados en gestión del cambio. La respuesta no es simplificar, sino actuar con **empatía y estrategia paralela**.
 
 ### Estrategia de Abordaje para Nuevos Líderes
 
 #### **Paso 1: Observar Antes de Actuar** (Las 2 Primeras Semanas)
 
 Analiza dos frentes:
-- **Frente Estratégico:** Directivos que te contrataron
-- **Frente Operativo:** Tu equipo actual
+- **Frente Estratégico:** Directivos que te contrataron (¿qué esperan de ti exactamente?)
+- **Frente Operativo:** Tu equipo actual (¿qué sienten, qué necesitan, dónde está el talento?)
 
 #### **Paso 2: Identificar Fortalezas, No Etiquetas**
 
-Cada miembro es un ser humano con su propio contexto.
+**Conocer profesional Y personalmente a cada miembro.** Entender que cada uno es un ser humano con su propio contexto:
+- Algunos están cerca de jubilarse (miedo a reentrenamiento)
+- Otros están estudiando (buscan oportunidad de crecimiento)
+- Algunos tienen problemas de salud o familiares complejos
+- Todos tienen experiencia valiosa que no debe desperdiciarse
+
+La clave es descubrir **qué fortaleza tiene cada persona** y cómo amplificarla, no reemplazarla.
 
 #### **Paso 3: Establecer un "Contrato de Expectativas"**
 
-Comunica claramente qué esperas y qué pueden esperar de ti.
+Comunica claramente y por escrito (o en reunión formal):
+- **Qué esperas de ellos:** Rol, responsabilidades, comportamientos esperados
+- **Qué pueden esperar de ti:** Apoyo, capacitación, transparencia, crecimiento profesional
+- **Qué está en juego:** No es despido, es transformación conjunta
+
+**Ejemplo de contrato mental:**
+> *"Espero que sean mis aliados en esta transformación. A cambio, ustedes tendrán las mejores herramientas, capacitación continua, y oportunidades de crecimiento que antes no tenían."*
 
 #### **Paso 4: Buscar "Pequeños Triunfos" (Quick Wins)**
 
-Gana confianza con victorias rápidas y visibles.
+**Atacar primero 2-3 problemas pequeños que se pueden resolver rápido:**
+- Problemas que llevan meses sin solución
+- Que frustan al equipo
+- Que tienen solución conocida pero barata
+- Que generan resultados visibles en 2-4 semanas
+
+**Objetivo:** Demostrar resultados, ganar confianza, silenciar críticos con hechos palpables.
+
+**Ejemplo:** Si el sistema de reportes tarda 4 horas, diseña un dashboard simple que lo baje a 30 minutos. Muéstralo en 3 semanas. El equipo se da cuenta que el nuevo líder **entrega**.
 
 ---
 
