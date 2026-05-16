@@ -29,6 +29,7 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 | 3 | **Gobernanza de Datos y Políticas Digitales** | Riesgos, regulación, metadatos, casos SUNAT | [📄](./clase-3/gobernanza-datos-politicas-digitales-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
 | 4 | **Innovación y Transformación Digital** | Tendencias CES 2026, casos de éxito/fracaso, estrategias de innovación | [📄](./clase-4/innovacion-transformacion-digital-clase-4.md) | [📊](./clase-4/40062-S04-PPT.pdf) |
 | 5 | **Desarrollo de Productos y Servicios Basados en Datos** | Proceso de desarrollo (5 fases), Agile, Design Thinking, casos Google/Amazon/Netflix | [📄](./clase-5/desarrollo-productos-servicios-datos-clase-5.md) | [📊](./clase-5/40062-S05-PPT.pdf) |
+| 6 | **Gestión del Cambio en Entornos Data-Driven** | Métodos y herramientas, comunicación efectiva, capacitación, resistencia al cambio | [📄](./clase-6/direccion-estrategica-de-datos-gestion-cambio-clase-6.md) | [📊](./clase-6/40062-S06-PPT.pdf) |
 
 ---
 
@@ -52,6 +53,17 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 ### Clase 5: Desarrollo de Productos y Servicios Basados en Datos
 - 📄 [desarrollo-productos-servicios-datos-clase-5.md](./clase-5/desarrollo-productos-servicios-datos-clase-5.md)
 - 📊 [40062-S05-PPT.pdf](./clase-5/40062-S05-PPT.pdf)
+
+### Clase 6: Gestión del Cambio en Entornos Data-Driven
+- 📄 [direccion-estrategica-de-datos-gestion-cambio-clase-6.md](./clase-6/direccion-estrategica-de-datos-gestion-cambio-clase-6.md)
+- 📊 [40062-S06-PPT.pdf](./clase-6/40062-S06-PPT.pdf)
+- 📋 Temas:
+  - **Métodos y Herramientas:** Planificación, análisis de impacto, gestión de riesgos, seguimiento de KPIs
+  - **Comunicación Efectiva:** Bidireccional, datos para comunicar, personalización de mensajes, múltiples canales
+  - **Capacitación:** Objetivos, tipos de habilidades, programa de capacitación, feedback continuo
+  - **Resistencia al Cambio:** Comunicación clara, participación, capacitación, reconocimiento
+  - **Simuladores en Google Colab:** Adopción según comunicación, mapa de resistencia, análisis de riesgo
+- 📊 Contenido: 10 secciones con ejemplos reales, 2 códigos Python ejecutables, checklist de implementación
 
 ### Actividades
 - ✅ [direccion-estrategica-de-datos-pa001-glovo-solucion.md](./act-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) — Caso Glovo: diagnóstico, estrategia, gobernanza y riesgos
@@ -78,6 +90,18 @@ direccion-estrategica-de-datos/
 │   ├── innovacion-transformacion-digital-clase-4.md
 │   ├── 40062-S04-PPT.pdf
 │   └── 40062-S04-PPT.pptx
+├── clase-5/
+│   ├── desarrollo-productos-servicios-datos-clase-5.md
+│   ├── 40062-S05-PPT.pdf
+│   └── 40062-S05-PPT.pptx
+├── clase-6/
+│   ├── direccion-estrategica-de-datos-gestion-cambio-clase-6.md
+│   ├── 40062-S06-PPT.pdf
+│   └── 40062-S06-PPT.pptx
+├── act-1/
+│   └── direccion-estrategica-de-datos-pa001-glovo-solucion.md
+└── README.md (este archivo)
+```
 ├── clase-5/
 │   ├── desarrollo-productos-servicios-datos-clase-5.md
 │   ├── 40062-S05-PPT.pdf

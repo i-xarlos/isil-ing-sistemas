@@ -21,6 +21,7 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 | 3 | **Investigación y Análisis para Comprensión del Cliente** | Investigación cualitativa/cuantitativa, fuentes de data, proceso de análisis, insights | [📄](./clase-3/investigacion-analisis-comprension-cliente-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
 | 4 | **Marcos Iniciales para Mapeo del Proceso** | User Persona, Customer Journey Map, Experience Map, Empathy Map | [📄](./clase-4/customer-centricity-marcos-mapeo-clase-4.md) | [📊](./clase-4/40064_S04_PPT.pdf) |
 | 5 | **Jobs to be Done (JTBD)** | Identificación de trabajos a realizar, aplicación en diseño, benchmarking | [📄](./clase-5/customer-centricity-jobs-to-be-done-clase-5.md) | [📊](./clase-5/40064_S05_PPT.pdf) |
+| 6 | **Design Thinking** | Empatización, entrevistas, definición (HMW), ideación, brainstorming, crazy eights | [📄](./clase-6/customer-centricity-design-thinking-clase-6.md) | [📊](./clase-6/40064_S06_PPT.pdf) |
 
 ---
 
@@ -45,6 +46,10 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 ### Clase 5: Jobs to be Done (JTBD)
 - 📄 [customer-centricity-jobs-to-be-done-clase-5.md](./clase-5/customer-centricity-jobs-to-be-done-clase-5.md)
 - 📊 [40064_S05_PPT.pdf](./clase-5/40064_S05_PPT.pdf)
+
+### Clase 6: Design Thinking y su Aplicación en Desarrollo de Soluciones Tecnológicas
+- 📄 [customer-centricity-design-thinking-clase-6.md](./clase-6/customer-centricity-design-thinking-clase-6.md)
+- 📊 [40064_S06_PPT.pdf](./clase-6/40064_S06_PPT.pdf)
 
 ### Actividad 1: Proyecto RAPIDGO
 - 📋 [RAPIDGO-solucion-actividad-1.md](./act-1/RAPIDGO-solucion-actividad-1.md) — Solución completa con diagnóstico, investigación, MVP/MLP y plan ágil
@@ -74,6 +79,10 @@ customer-centricity-ti/
 │   ├── customer-centricity-jobs-to-be-done-clase-5.md
 │   ├── 40064_S05_PPT.pptx
 │   └── 40064_S05_PPT.pdf
+├── clase-6/
+│   ├── customer-centricity-design-thinking-clase-6.md
+│   ├── 40064_S06_PPT.pptx
+│   └── 40064_S06_PPT.pdf
 ├── act-1/
 │   ├── PA1 CUSTOMER CENTRICITY.docx
 │   ├── MEJORAS-SUGERIDAS-GRUPO-C.md
@@ -85,6 +94,7 @@ customer-centricity-ti/
 
 ## Últimas Actualizaciones
 
+- **Clase 6**: Agregado resumen completo de "Design Thinking y su Aplicación en Desarrollo de Soluciones Tecnológicas" con cobertura de empatización, definición y ideación
 - **Clase 3**: Agregado resumen completo de "Investigación y Análisis para Comprensión del Cliente" basado en el PPT de la sesión.
 
 ---
