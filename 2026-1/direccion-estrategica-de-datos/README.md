@@ -55,8 +55,9 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 - 📊 [40062-S05-PPT.pdf](./clase-5/40062-S05-PPT.pdf)
 
 ### Clase 6: Gestión del Cambio en Entornos Data-Driven
-- 📄 [direccion-estrategica-de-datos-gestion-cambio-clase-6.md](./clase-6/direccion-estrategica-de-datos-gestion-cambio-clase-6.md)
-- 📊 [40062-S06-PPT.pdf](./clase-6/40062-S06-PPT.pdf)
+- 📄 [direccion-estrategica-de-datos-gestion-cambio-clase-6.md](./clase-6/direccion-estrategica-de-datos-gestion-cambio-clase-6.md) — Documento completo con 11 secciones, ejemplos prácticos, código Python ejecutable
+- 📊 [resumen-ppt-clase-6.md](./clase-6/resumen-ppt-clase-6.md) — Resumen ejecutivo de diapositivas
+- 📊 [40062-S06-PPT.pdf](./clase-6/40062-S06-PPT.pdf) — Presentación original
 - 📋 Temas:
   - **Métodos y Herramientas:** Planificación, análisis de impacto, gestión de riesgos, seguimiento de KPIs
   - **Comunicación Efectiva:** Bidireccional, datos para comunicar, personalización de mensajes, múltiples canales
