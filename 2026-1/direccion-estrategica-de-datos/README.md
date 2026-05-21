@@ -17,6 +17,7 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 | # | Tema | Descripción | Solución |
 |---|------|-------------|----------|
 | PA001 | **Transformación Data-Driven en Empresa Global** | Diagnóstico, propuesta estratégica, modelo de negocio, gobernanza y riesgos del caso Glovo | [✅ Caso Glovo](./act-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) |
+| EP002 | **Transformación Digital de Mercado Andino** | Diagnóstico, innovación basada en datos, Agile, Design Thinking, cambio y gobierno de datos | [✅ Caso Mercado Andino](./act-2/direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md) |
 
 ---
 

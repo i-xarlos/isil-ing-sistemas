@@ -73,6 +73,11 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 - **Contenido:** Estadística Descriptiva y Pruebas de Hipótesis aplicadas a casos reales
 - **Temas:** Medidas de resumen, mediana vs media, valores atípicos, hipótesis nula, nivel de confianza, p-valores
 
+#### Actividad 2: Proceso de Aprendizaje 02
+- 📄 [analisis-estadistico-data-mining-actividad-2-solucion.md](./actividad-2/analisis-estadistico-data-mining-actividad-2-solucion.md)
+- **Contenido:** Minería de datos, calidad de datos, imputación y normalización
+- **Temas:** Reglas de asociación, clasificación, clustering, registros duplicados, nombres inconsistentes, Z-score
+
 ---
 
 ## Estructura de la Carpeta
