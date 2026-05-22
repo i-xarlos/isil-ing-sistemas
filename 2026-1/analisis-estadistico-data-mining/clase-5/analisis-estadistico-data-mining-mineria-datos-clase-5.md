@@ -47,12 +47,102 @@ La **minería de datos (data mining)** es el proceso analítico de explorar gran
 ### 5. Escalado y Normalización de Variables Numéricas
 
 - Es clave cuando las variables tienen magnitudes muy distintas que pueden sesgar los modelos.
-- **Min-Max Scaler:** Traslada valores para que queden en rango `0-1`.
-  - Fórmula: $X_{norm} = \frac{X - X_{min}}{X_{max} - X_{min}}$.
-  - Ejemplo: ventas mínimas de 5,000 y máximas de 20,000. Un mes con ventas de 12,500 obtiene un valor cercano a 0.5.
-- **Z-Score:** Indica cuántas desviaciones estándar se aleja un dato de la media.
-  - Interpretación: $Z = 0$ igual al promedio, $Z > 0$ por encima, $Z < 0$ por debajo.
-  - Caso: promedio 10,000, desviación 2,000, valor 14,000 → Z = 2 indica comportamiento atípico superior.
+
+#### Min-Max Scaler
+
+**Qué es:** Reescala una variable para que todos sus valores queden dentro de un rango, normalmente entre `0` y `1`.
+
+**Para qué sirve:** Ayuda cuando una variable tiene valores mucho más grandes que otra y podría dominar el modelo solo por su escala.
+
+**Fórmula:**
+
+$X_{norm} = \frac{X - X_{min}}{X_{max} - X_{min}}$
+
+**Cuadro de símbolos**
+
+| Símbolo | Nombre | Significado |
+| ------- | ------ | ----------- |
+| **X<sub>norm</sub>** | Valor normalizado | Resultado final, llevado al rango `0-1` |
+| **X** | Valor original | Dato que se quiere transformar |
+| **X<sub>min</sub>** | Valor mínimo | Menor valor observado en la variable |
+| **X<sub>max</sub>** | Valor máximo | Mayor valor observado en la variable |
+
+**Ejemplo paso a paso**
+
+Supongamos que las ventas mensuales de una tienda van desde **5,000** hasta **20,000**. Queremos normalizar un mes con ventas de **12,500**.
+
+1. Identificamos los valores:
+   - $X = 12{,}500$
+   - $X_{min} = 5{,}000$
+   - $X_{max} = 20{,}000$
+2. Reemplazamos en la fórmula:
+
+   $X_{norm} = \frac{12{,}500 - 5{,}000}{20{,}000 - 5{,}000}$
+
+3. Resolvemos numerador y denominador:
+
+   $X_{norm} = \frac{7{,}500}{15{,}000}$
+
+4. Calculamos el resultado:
+
+   $X_{norm} = 0.5$
+
+**Resultado:** Ese mes queda justo en la mitad de la escala. En otras palabras, su nivel de ventas está al **50%** entre el mínimo y el máximo observados.
+
+**Idea clave:** Min-Max Scaler es útil cuando quieres comparar variables en una misma escala visual o matemática.
+
+#### Z-Score
+
+**Qué es:** Mide cuántas desviaciones estándar se aleja un valor respecto de la media.
+
+**Para qué sirve:** Sirve para detectar valores inusuales y comparar datos aunque estén en escalas distintas.
+
+**Fórmula:**
+
+$Z = \frac{X - \mu}{\sigma}$
+
+**Cuadro de símbolos**
+
+| Símbolo | Nombre | Significado |
+| ------- | ------ | ----------- |
+| **Z** | Z-Score | Resultado final de la estandarización |
+| **X** | Valor observado | Dato que se quiere evaluar |
+| **μ** | Media | Promedio de la variable |
+| **σ** | Desviación estándar | Medida de dispersión de los datos |
+
+**Interpretación rápida**
+
+- **$Z = 0$**: el valor está exactamente en el promedio.
+- **$Z > 0$**: el valor está por encima del promedio.
+- **$Z < 0$**: el valor está por debajo del promedio.
+
+**Ejemplo paso a paso**
+
+Supongamos que una empresa tiene:
+
+- media de ventas: **10,000**
+- desviación estándar: **2,000**
+- ventas del mes evaluado: **14,000**
+
+1. Identificamos los valores:
+   - $X = 14{,}000$
+   - $\mu = 10{,}000$
+   - $\sigma = 2{,}000$
+2. Reemplazamos en la fórmula:
+
+   $Z = \frac{14{,}000 - 10{,}000}{2{,}000}$
+
+3. Resolvemos la resta:
+
+   $Z = \frac{4{,}000}{2{,}000}$
+
+4. Calculamos el resultado:
+
+   $Z = 2$
+
+**Resultado:** Ese mes está **2 desviaciones estándar por encima de la media**. Es un valor alto y puede indicar un comportamiento atípico superior.
+
+> **Regla práctica:** Si el valor de Z es muy alto o muy bajo, conviene revisarlo porque podría ser un outlier o un caso especial del negocio.
 
 ### 6. Tratamiento de Datos Faltantes (Imputación)
 
