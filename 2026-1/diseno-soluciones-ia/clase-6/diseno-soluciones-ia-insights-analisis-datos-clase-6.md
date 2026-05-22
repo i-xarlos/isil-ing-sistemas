@@ -1,8 +1,8 @@
-# Insights: Análisis Univariado, Bivariado y Multivariado
+# Insights: Análisis Univariado, Bivariado y Multivariado (Clase 6)
 
-**Curso:** Diseño de Soluciones con IA
-**Tema:** 06 — Insights y Análisis Avanzado de Datos
-**Docente:** ISIL 2026-1
+**Curso:** Diseño de Soluciones con IA (ISIL, 2026-1)  
+**Docente:** Omar David Visitación Romero  
+**Fecha:** [pendiente]
 
 ---
 
@@ -25,11 +25,41 @@ El análisis de datos **no busca "respuestas"**, busca **comprensión**.
 
 Es el proceso de transformar datos crudos en **información estratégica** para tomar decisiones acertadas.
 
+## 1. Fundamentos del Análisis de Datos e Insights
+
+El objetivo principal del análisis no es encontrar ecuaciones matemáticas complejas, sino **entender el comportamiento de un proceso o actividad** (financiera, educativa, comercial, etc.) y convertirlo en acciones útiles.
+
+- **Datos crudos:** datos aislados que por sí solos no tienen significado.
+- **Información / Tendencia:** surge al cruzar y agrupar múltiples datos.
+- **Insight:** es la conclusión, interpretación o beneficio estratégico que impulsa una acción concreta.
+
+> Ejemplo de lo que NO es un insight: "La variable X tiene una correlación del 80%".
+>
+> Ejemplo de lo que SÍ es un insight: "Los clientes con ingresos altos y baja variabilidad compran planes premium".
+
 **Punto clave:** No todo problema empresarial es un problema para IA. Pero cuando lo es, puede generar **valor exponencial**.
 
 ---
 
-## Análisis Univariado: Una Variable a la Vez
+## 2. Tipos de Análisis según el Número de Variables
+
+Dependiendo de cuántas características se analicen a la vez, el análisis se clasifica en:
+
+### A. Análisis Univariado (1 Variable)
+
+El análisis univariado estudia **una sola variable** de forma aislada.
+
+### B. Análisis Bivariado (2 Variables)
+
+Busca encontrar la relación o el patrón entre dos variables.
+
+### C. Análisis Multivariado (Más de 2 Variables)
+
+Analiza tres o más variables simultáneamente para perfiles de comportamiento más potentes.
+
+---
+
+### A. Análisis Univariado (1 Variable)
 
 El análisis univariado estudia **una sola variable** de forma aislada.
 
@@ -144,7 +174,7 @@ Frecuencia
 
 ---
 
-## Análisis Bivariado: Relación Entre Dos Variables
+### B. Análisis Bivariado (2 Variables)
 
 El análisis bivariado explora si existe **asociación, dependencia o correlación** entre dos variables.
 
@@ -277,6 +307,29 @@ print(f"Tendencia: {'+' if corr_pearson > 0 else '-'} Relación {'positiva' if c
 print(f"Fuerza: {'Débil' if abs(corr_pearson) < 0.3 else 'Moderada' if abs(corr_pearson) < 0.7 else 'Fuerte'}")
 print(f"Significancia: {'Estadísticamente significante' if p_pearson < 0.05 else 'No significante'}")
 ```
+## Laboratorio Práctico en Python (Google Colab)
+
+En esta clase se ejecutaron ejemplos en Google Colab con un dataset sintético de usuarios de e-commerce que contiene las variables `edad`, `ingresos`, `compras` y `horas web`.
+
+### Funciones y comandos clave
+
+- `import pandas as pd`: manipulación de tablas tipo DataFrame.
+- `df['ingresos'].mean()`: calcula el promedio.
+- `df['ingresos'].median()`: calcula la mediana.
+- `df['ingresos'].std()`: calcula la desviación estándar.
+- `plt.hist(df['ingresos'])`: genera un histograma de ingresos.
+- `plt.boxplot(df['ingresos'])`: genera un diagrama de caja para detectar outliers.
+- `plt.scatter(df['ingresos'], df['compras'])`: gráfico de dispersión para analizar la relación entre ingresos y compras.
+
+### Dataset utilizado
+
+El dataset simulado incorpora variables típicas de un e-commerce:
+- `edad`
+- `ingresos`
+- `compras`
+- `horas web`
+
+Este laboratorio práctico permitió usar estadísticas descriptivas y visualizaciones para convertir datos crudos en información útil.
 
 **Caso real:** En una compañía de seguros:
 
@@ -285,25 +338,7 @@ print(f"Significancia: {'Estadísticamente significante' if p_pearson < 0.05 els
 
 ---
 
-## ¿Relación vs. Causalidad? Un Error Clásico
-
-### Ejemplo: Helado y Accidentes
-
-Datos históricos muestran:
-
-- **Correlación:** Cuando aumenta el consumo de helado, aumentan los accidentes de tráfico.
-- **¿Conclusión errónea?** "El helado causa accidentes"
-- **Realidad:** Variable oculta = **temperatura**. En verano hace calor, las personas compran más helado Y hay más conducción (más oportunidades de accidentes).
-
-### Buenas Prácticas
-
-1. **Analizar relaciones antes de modelar** — evita incluir variables irrelevantes
-2. **Combinar gráficos con estadística** — visualizar siempre
-3. **Pensar en el contexto** — ¿qué variables externas influyen?
-
----
-
-## Análisis Multivariado: Muchas Variables Simultáneamente
+### C. Análisis Multivariado (Más de 2 Variables)
 
 Cuando un dataset tiene **demasiadas variables**, el análisis se complica.
 

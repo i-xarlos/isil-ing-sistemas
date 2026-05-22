@@ -14,6 +14,90 @@ La **minería de datos (data mining)** es el proceso analítico de explorar gran
 
 ---
 
+## Resumen de la clase
+
+### 1. Introducción a la Minería de Datos (Data Mining)
+
+- **Concepto:** Explotar y analizar grandes volúmenes de datos en bruto para descubrir patrones, comportamientos o tendencias ocultas que permitan tomar decisiones estratégicas informadas.
+- **Aplicación:** Se utiliza en medicina, finanzas, comercio electrónico, marketing industrial y otros sectores.
+- **Técnicas mencionadas:** regresiones, clusterización, machine learning y deep learning.
+- **Volumen de datos:** Data Mining se justifica principalmente en contextos de **Big Data**. Para conjuntos pequeños (100 a 2,000 registros), muchas veces basta con aplicar estadística tradicional básica.
+
+### 2. Aspectos Éticos y Seguridad de la Data
+
+- **Datos sensibles:** Datos personales como DNI, fechas de nacimiento o vencimientos exigen medidas de seguridad corporativa estrictas.
+- **Caso Cambridge Analytica (2018):** Se usaron datos de millones de usuarios de Facebook sin consentimiento explícito. Con técnicas de Data Mining sobre likes y clics se construyeron perfiles psicológicos para campañas comerciales y políticas ultradirigidas.
+- **Seguridad en IA:** El profesor advirtió sobre el grave riesgo de subir datos corporativos o sensibles a herramientas de IA externas mediante prompts públicos, ya que no se garantiza el destino ni la protección adecuada de la información.
+- **Mitigación:** En grandes empresas, especialmente en el sector financiero, se recomienda usar infraestructura en la nube privada (Azure, AWS) y descargar modelos destilados o personalizados para ejecutarlos localmente bajo control interno.
+
+### 3. Preparación y Limpieza de los Datos (Data Cleansing)
+
+- Es la fase inicial indispensable antes de entrenar modelos de IA o aplicar Data Mining.
+- Trabajar con datos sucios genera ruido, sesgos y malas decisiones empresariales.
+- **Componentes de la limpieza:** identificación de errores, detección de outliers y eliminación de duplicados.
+- **Ejemplo práctico:** Si una consulta SQL `SELECT COUNT(*) FROM alumno` arroja 7 registros pero hay alumnos repetidos, el analista debe limpiar para quedarse con el valor real (ej. 5 registros únicos).
+
+### 4. Transformación y Codificación de Variables
+
+- **Variables cualitativas:** No son numéricas, como género o nivel de satisfacción.
+- **Variables nominales:** Sin orden natural, por ejemplo minorista, mayorista, corporativo. Se recomienda codificación dummy con `1` o `0`.
+- **Variables ordinales:** Con orden natural, por ejemplo bajo, medio, alto. Se codifican numéricamente respetando la jerarquía (1, 2, 3).
+- **Ejemplo de limpieza de texto:** Si la columna "género" contiene "masculino", "Masculino" o "MASCULINO", se unifica el formato antes de codificar, por ejemplo a `01`.
+
+### 5. Escalado y Normalización de Variables Numéricas
+
+- Es clave cuando las variables tienen magnitudes muy distintas que pueden sesgar los modelos.
+- **Min-Max Scaler:** Traslada valores para que queden en rango `0-1`.
+  - Fórmula: $X_{norm} = \frac{X - X_{min}}{X_{max} - X_{min}}$.
+  - Ejemplo: ventas mínimas de 5,000 y máximas de 20,000. Un mes con ventas de 12,500 obtiene un valor cercano a 0.5.
+- **Z-Score:** Indica cuántas desviaciones estándar se aleja un dato de la media.
+  - Interpretación: $Z = 0$ igual al promedio, $Z > 0$ por encima, $Z < 0$ por debajo.
+  - Caso: promedio 10,000, desviación 2,000, valor 14,000 → Z = 2 indica comportamiento atípico superior.
+
+### 6. Tratamiento de Datos Faltantes (Imputación)
+
+- Los valores nulos o vacíos no deben asumirse automáticamente como `0`.
+- Se deben excluir o corregir mediante imputación lógica.
+- **Eliminación:** Borrar filas o columnas cuando la pérdida de datos sea mínima. Si una columna tiene más del 30-70% de datos faltantes, puede ser recomendable eliminarla.
+- **Imputación por media/mediana:** Para variables numéricas.
+  - Ejemplo: ingresos de 3,004, 1,500 y 5,000. Si falta un cuarto registro, la media aproximada es 4,165.
+- **Imputación por moda:** Para variables categóricas.
+  - Ejemplo: si en la columna canal de compras `Online` aparece 2 veces y `Tienda` 1 vez, se imputa `Online`.
+- **Imputación por grupo:** Aplicar promedio por segmentos, por ejemplo un promedio para alumnos, otro para docentes y otro para administrativos.
+
+### 7. Estandarización de Formatos de Fuentes Diversas
+
+- Cuando los datos vienen de múltiples sistemas, es obligatorio definir un diccionario y un estándar único.
+- **Fechas:** Unificar formatos como `DD/MM/AAAA` y `MM/AAAA`.
+- **Monedas:** Convertir todo a una moneda estándar, por ejemplo soles, usando el tipo de cambio vigente.
+- **Separadores de miles:** Corregir sistemas que usan comas, puntos o espacios vacíos.
+
+### 8. Laboratorio Práctico (Python en Google Colab)
+
+- Al final de la sesión se inició un ejercicio en Google Colab con hardware remoto (aprox. 12 GB de RAM).
+- Se revisaron primeros pasos de programación en Python para analítica.
+- Se utilizó `print()` para mostrar texto y resultados en pantalla.
+- Se importaron librerías clave como `numpy` (`np`) y `matplotlib.pyplot` (`plt`).
+- Se explicó que `numpy` permite manipular vectores y matrices numéricas de forma eficiente.
+- Se mostró cómo calcular el promedio con `np.mean(ventas)` sobre un array `ventas`.
+
+### Diagrama de conceptos clave
+
+```mermaid
+graph LR
+    A[Data Mining] --> B[Big Data / Volúmenes grandes]
+    A --> C[Preparación de datos]
+    A --> D[Ética y seguridad]
+    C --> E[Limpieza]
+    C --> F[Transformación]
+    C --> G[Imputación]
+    C --> H[Normalización / Estandarización]
+    D --> I[Cambridge Analytica]
+    D --> J[Cloud privada / IA local]
+```
+
+---
+
 ## 1. Definición y Objetivos
 
 ### Qué es la minería de datos
