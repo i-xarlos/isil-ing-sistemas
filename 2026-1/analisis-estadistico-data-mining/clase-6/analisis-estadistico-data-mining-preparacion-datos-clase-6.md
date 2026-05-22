@@ -1,4 +1,8 @@
-# Preparación de Datos — Análisis Estadístico y Data Mining (Clase 6)
+# Preparación de Datos (Clase 6)
+
+**Curso:** Análisis Estadístico y Data Mining (ISIL, 2026-1)  
+**Docente:** Omar David Visitación Romero  
+**Fecha:** 20/05/2026
 
 ## Introducción
 
@@ -19,6 +23,44 @@ Antes de aplicar cualquier técnica estadística o modelo analítico, es indispe
 - **Manejo de datos faltantes**: imputación o eliminación
 - **Normalización**: z-score, min-max scaling
 - **Estandarización**: formatos consistentes de datos
+
+### Diagrama del pipeline de preparación de datos
+
+```mermaid
+graph LR
+    A[Datos brutos] --> B[Limpieza]
+    B --> C[Transformación]
+    C --> D[Manejo de faltantes]
+    D --> E[Normalización]
+    E --> F[Estandarización]
+    F --> G[Datos listos para modelado]
+```
+
+---
+
+## Resumen de la clase grabada
+
+Esta sesión en Zoom retomó los principios clave de la preparación de datos y comenzó una práctica en Google Colab con el dataset Iris. El profesor Omar David Visitación Romero enfatizó que la **limpieza de datos** es la primera fase crítica en cualquier proyecto de analítica, minería de datos o machine learning.
+
+### Puntos principales de la clase grabada
+
+- La **limpieza de datos** evita sesgos, información inexacta y decisiones empresariales erróneas.
+- La **normalización y homologación** corrige inconsistencias de formato, mayúsculas/minúsculas y nomenclaturas.
+- Un **mal join** puede duplicar registros y falsear resultados de análisis.
+- El uso de un **ID único y secuencial** permite auditoría forense y detecta saltos cuando un registro es borrado.
+
+### Ejemplo de duplicidad y auditoría
+
+Imagina una tabla de producción por país:
+
+| País | Producción (millones S/) |
+|------|--------------------------|
+| Perú | 1 |
+| perú | 2 |
+| PERÚ | 1 |
+| Perú | 2 |
+
+Sin limpieza, la suma sería **6 millones**. Si en realidad hay duplicados por un mal join, la cifra correcta es **3 millones**. Un ID único secuencial ayuda a detectar estos errores y facilita la auditoría.
 
 ---
 
@@ -49,6 +91,18 @@ La **corrección de errores** implica ajustar:
 ### Importancia crítica
 
 Los modelos analíticos no distinguen entre datos correctos e incorrectos: **procesan todo lo disponible**. Un solo valor anómalo puede distorsionar significativamente los resultados.
+
+### Duplicidad y auditoría de datos
+
+Cuando una tabla proviene de múltiples fuentes o de un join incorrecto, los registros pueden duplicarse sin que el analista lo note. El uso de un **ID único y secuencial** en la base de datos es clave porque:
+
+- Evita duplicados invisibles.
+- Permite auditar cambios en la ingesta.
+- Revela saltos secuenciales cuando un registro es eliminado.
+- Da trazabilidad para saber quién modificó o borró datos.
+
+Un registro con IDs 1, 2, 3, 4, 5 que luego aparece como 1, 3, 4, 5 indica una posible eliminación no autorizada.
+
 
 ### Ejemplo práctico: Análisis de ventas mensuales
 
@@ -570,6 +624,61 @@ df = pd.DataFrame({
 print(df)
 ```
 
+## 5. Práctica en Google Colab: Iris
+
+Durante la clase se abrió Google Colab para comenzar una práctica real con Python y scikit-learn. El objetivo fue preparar los datos y entender cómo se aplica un modelo de clasificación con un dataset clásico.
+
+### Librerías base usadas
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+### Librerías de machine learning
+
+El profesor explicó que los algoritmos ya están implementados en librerías como `scikit-learn`, por lo que los estudiantes usan esas herramientas para entrenar modelos sin programar la lógica matemática desde cero.
+
+```python
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.cluster import KMeans
+from sklearn.metrics import confusion_matrix, accuracy_score
+```
+
+### Dataset Iris
+
+El dataset Iris es un ejemplo pedagógico de clasificación con tres especies de flores:
+
+- Variables: longitud del sépalo, ancho del sépalo, longitud del pétalo y ancho del pétalo.
+- Objetivo: clasificar la flor como **Setosa (0)**, **Versicolor (1)** o **Virginica (2)**.
+
+```python
+iris = load_iris()
+df = pd.DataFrame(iris.data, columns=iris.feature_names)
+df['target'] = iris.target
+df.head()
+```
+
+Esta práctica mostró cómo visualizar los primeros registros con `df.head()` y revisar que el dataframe tiene las columnas esperadas antes de entrenar modelos.
+
+### Consultas de cierre
+
+Al final de la sesión, se resolvieron preguntas sobre hardware y capacidad de cómputo:
+
+- En Google Colab se trabaja en la nube con aproximadamente 12.7 GB de RAM libres en la versión gratuita.
+- En local, el tamaño del dataset debe caber en memoria RAM; un archivo de 5 GB requiere al menos 5 GB disponibles en RAM.
+- Para algoritmos clásicos como árboles de decisión y K-Means, una CPU común es suficiente.
+- Las GPUs se reservan para modelos más pesados como redes neuronales profundas, visión por computador o grandes transformadores.
+
+### Aplicación entre preparación y modelado
+
+Esta práctica conecta la preparación de datos con el siguiente paso del proceso: una base limpia y estandarizada permite entrenar modelos de clasificación más confiables.
+
 ### Comparación: Z-Score vs Min-Max Scaling
 
 | Aspecto | Z-Score | Min-Max Scaling |
@@ -584,7 +693,7 @@ print(df)
 
 ---
 
-## 5. Estandarización: Formatos Consistentes de Datos
+## 6. Estandarización: Formatos Consistentes de Datos
 
 ### ¿Qué es la estandarización de datos?
 
@@ -900,7 +1009,7 @@ La **estandarización no trata solo de "dar formato"**, sino de crear **reglas c
 
 ---
 
-## Resumen de la Clase 6
+## 7. Resumen de la Clase 6
 
 ### Conceptos clave
 
