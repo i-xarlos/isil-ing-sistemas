@@ -338,7 +338,7 @@ Este laboratorio práctico permitió usar estadísticas descriptivas y visualiza
 
 ---
 
-### C. Análisis Multivariado (Más de 2 Variables)
+## 3. Análisis Multivariado (Más de 2 Variables)
 
 Cuando un dataset tiene **demasiadas variables**, el análisis se complica.
 
