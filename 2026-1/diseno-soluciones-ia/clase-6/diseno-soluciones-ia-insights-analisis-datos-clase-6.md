@@ -333,7 +333,7 @@ Este laboratorio práctico permitió usar estadísticas descriptivas y visualiza
 
 **Caso real:** En una compañía de seguros:
 
-- Edad y monto de pólima: correlación +0.65 (relación moderada positiva)
+- Edad y monto de póliza: correlación +0.65 (relación moderada positiva)
 - Edad y número de accidentes: correlación -0.45 (relación moderada negativa)
 
 ---
