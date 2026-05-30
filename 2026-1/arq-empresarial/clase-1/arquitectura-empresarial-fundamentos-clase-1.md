@@ -12,7 +12,7 @@ La idea central fue clara: la tecnología debe responder a objetivos del negocio
 
 ## Síntesis integrada del material fuente
 
-**Archivo PPT base:** 40096-S01-PRESENTACION.pptx
+**Archivo base consolidado:** 40096-S01-PRESENTACION.pdf
 
 La presentación de la sesión reforzó que la arquitectura empresarial funciona como un marco para asegurar coherencia entre estrategia, operación y tecnología. También resumió su evolución desde un enfoque centrado en TI hacia una visión empresarial completa, con foco en alineamiento estratégico, reutilización y trazabilidad.
 
