@@ -25,9 +25,9 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 
 | # | Tema | Descripción | Recurso | PPT |
 |---|------|-------------|----------|-----|
-| 1 | **Introducción a Dirección Estratégica de Datos** | Definición, rol CDO, estrategias 2026, cases | [📄](./clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md) | [📊](./clase-1/resumen-ppt-clase-1.md) |
-| 2 | **Estrategias de Datos: Casos Prácticos** | Transformación digital, governance, ROI empresarial | [📄](./clase-2/estrategias-datos-casos-practicos-clase-2.md) | [📊](./clase-2/resumen-ppt-clase-2.md) |
-| 3 | **Gobernanza de Datos y Políticas Digitales** | Riesgos, regulación, metadatos, casos SUNAT | [📄](./clase-3/gobernanza-datos-politicas-digitales-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
+| 1 | **Introducción a Dirección Estratégica de Datos** | Definición, rol CDO, estrategias 2026, cases | [📄](./clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md) | [📊](./clase-1/40062-S01-PPT.pdf) |
+| 2 | **Estrategias de Datos: Casos Prácticos** | Transformación digital, governance, ROI empresarial | [📄](./clase-2/estrategias-datos-casos-practicos-clase-2.md) | [📊](./clase-2/40062-S02-PPT.pdf) |
+| 3 | **Gobernanza de Datos y Políticas Digitales** | Riesgos, regulación, metadatos, casos SUNAT | [📄](./clase-3/gobernanza-datos-politicas-digitales-clase-3.md) | [📊](./clase-3/40062-S03-PPT.pdf) |
 | 4 | **Innovación y Transformación Digital** | Tendencias CES 2026, casos de éxito/fracaso, estrategias de innovación | [📄](./clase-4/innovacion-transformacion-digital-clase-4.md) | [📊](./clase-4/40062-S04-PPT.pdf) |
 | 5 | **Desarrollo de Productos y Servicios Basados en Datos** | Proceso de desarrollo (5 fases), Agile, Design Thinking, casos Google/Amazon/Netflix | [📄](./clase-5/desarrollo-productos-servicios-datos-clase-5.md) | [📊](./clase-5/40062-S05-PPT.pdf) |
 | 6 | **Gestión del Cambio en Entornos Data-Driven** | Métodos y herramientas, comunicación efectiva, capacitación, resistencia al cambio | [📄](./clase-6/direccion-estrategica-de-datos-gestion-cambio-clase-6.md) | [📊](./clase-6/40062-S06-PPT.pdf) |
@@ -39,15 +39,15 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 
 ### Clase 1: Introducción a Dirección Estratégica de Datos
 - 📄 [direccion-estrategica-de-datos-introduccion-clase-1.md](./clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md)
-- 📊 [resumen-ppt-clase-1.md](./clase-1/resumen-ppt-clase-1.md)
+- 📊 [40062-S01-PPT.pdf](./clase-1/40062-S01-PPT.pdf)
 
 ### Clase 2: Estrategias de Datos — Casos Prácticos
 - 📄 [estrategias-datos-casos-practicos-clase-2.md](./clase-2/estrategias-datos-casos-practicos-clase-2.md)
-- 📊 [resumen-ppt-clase-2.md](./clase-2/resumen-ppt-clase-2.md)
+- 📊 [40062-S02-PPT.pdf](./clase-2/40062-S02-PPT.pdf)
 
 ### Clase 3: Gobernanza de Datos y Políticas Digitales
 - 📄 [gobernanza-datos-politicas-digitales-clase-3.md](./clase-3/gobernanza-datos-politicas-digitales-clase-3.md)
-- 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
+- 📊 [40062-S03-PPT.pdf](./clase-3/40062-S03-PPT.pdf)
 
 ### Clase 4: Innovación y Transformación Digital
 - 📄 [innovacion-transformacion-digital-clase-4.md](./clase-4/innovacion-transformacion-digital-clase-4.md)
@@ -72,16 +72,13 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 direccion-estrategica-de-datos/
 ├── clase-1/
 │   ├── direccion-estrategica-de-datos-introduccion-clase-1.md
-│   ├── resumen-ppt-clase-1.md
-│   └── 40062-S01-PPT.pptx
+│   └── 40062-S01-PPT.pdf
 ├── clase-2/
 │   ├── estrategias-datos-casos-practicos-clase-2.md
-│   ├── resumen-ppt-clase-2.md
-│   └── 40062-S02-PPT.pptx
+│   └── 40062-S02-PPT.pdf
 ├── clase-3/
 │   ├── gobernanza-datos-politicas-digitales-clase-3.md
-│   ├── resumen-ppt-clase-3.md
-│   └── 40062-S03-PPT.pptx
+│   └── 40062-S03-PPT.pdf
 ├── clase-4/
 │   ├── innovacion-transformacion-digital-clase-4.md
 │   ├── 40062-S04-PPT.pdf
@@ -94,14 +91,6 @@ direccion-estrategica-de-datos/
 │   ├── direccion-estrategica-de-datos-gestion-cambio-clase-6.md
 │   ├── 40062-S06-PPT.pdf
 │   └── 40062-S06-PPT.pptx
-├── act-1/
-│   └── direccion-estrategica-de-datos-pa001-glovo-solucion.md
-└── README.md (este archivo)
-```
-├── clase-5/
-│   ├── desarrollo-productos-servicios-datos-clase-5.md
-│   ├── 40062-S05-PPT.pdf
-│   └── 40062-S05-PPT.pptx
 ├── act-1/
 │   └── direccion-estrategica-de-datos-pa001-glovo-solucion.md
 └── README.md (este archivo)

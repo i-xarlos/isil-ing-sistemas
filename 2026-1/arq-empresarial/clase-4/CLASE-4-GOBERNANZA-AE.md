@@ -1,8 +1,8 @@
-# Clase 4: Gobernanza de la Arquitectura Empresarial (AE)
+# Gobernanza de la Arquitectura Empresarial (Clase 4)
 
-**Profesor:** Richard Anthony Romero Mori  
-**Fecha:** Clase 4 - 2026  
-**Tema Central:** Gobernanza de la Arquitectura Empresarial
+**Curso:** Arquitectura Empresarial (ISIL, 2026-1)  
+**Docente:** Richard Anthony Romero Mori  
+**Fecha:** [pendiente]
 
 ---
 

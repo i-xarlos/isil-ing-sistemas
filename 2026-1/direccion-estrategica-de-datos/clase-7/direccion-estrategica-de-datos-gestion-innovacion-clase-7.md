@@ -1,4 +1,10 @@
-# Gestión de la Innovación de Datos
+# Gestión de la Innovación de Datos (Clase 7)
+
+**Curso:** Dirección Estratégica de Datos (ISIL, 2026-1)  
+**Docente:** Brezli Paola Luna Figueroa  
+**Fecha:** [pendiente]
+
+---
 
 ## Introducción
 

@@ -17,6 +17,30 @@ La calidad de datos es un factor crítico para el éxito de soluciones IA. Datos
 
 Esta clase cubre los desafíos prácticos de implementar IA en organizaciones, el marco ético y legal que lo rige, y las técnicas esenciales de pre-procesamiento de datos.
 
+## Mapa visual de calidad y preprocesamiento
+
+```mermaid
+flowchart LR
+    A["Datos crudos"] --> B["Homogeneización"]
+    B --> C["Limpieza de errores y vacíos"]
+    C --> D["Validación ética y legal"]
+    D --> E["Dataset confiable"]
+    E --> F["Modelo de IA"]
+
+    G["Datos sucios o sesgados"] -.-> H["Predicciones erróneas"]
+
+    style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+    style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+    style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+    style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+    style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+    style F fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+    style G fill:#FFEBEE,stroke:#C62828,stroke-width:2px
+    style H fill:#FFCDD2,stroke:#B71C1C,stroke-width:2px
+```
+
+La utilidad del diagrama es dejar claro que el valor del modelo depende de la calidad y del tratamiento previo de los datos.
+
 ---
 
 ### Fase 1: Transformación (Homogeneización)

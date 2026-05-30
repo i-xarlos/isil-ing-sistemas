@@ -10,6 +10,14 @@
 
 El **modelo arquitectónico** es una representación abstracta de un sistema. Describe su estructura, comportamiento y organización, y se utiliza para comunicar y documentar las decisiones de diseño. El modelado no es simplemente "dibujar por dibujar", sino una herramienta fundamental para **traducir la estrategia organizacional** en representaciones claras y verificables.
 
+## Síntesis integrada del material fuente
+
+**Archivo base consolidado:** 40096-S03-PRESENTACION (1).pdf
+
+La síntesis del material fuente enfatiza que el modelado arquitectónico sirve para descomponer complejidad usando **vistas**, **capas** y **niveles de abstracción**, además de mapas de capacidades y hojas de ruta para pasar de **As-Is** a **To-Be**. También consolida el criterio para elegir lenguajes como ArchiMate, BPMN y UML según el tipo de artefacto y stakeholder.
+
+**Conceptos clave consolidados:** vistas, capas, niveles, mapas de capacidades, hojas de ruta y lenguajes de modelado.
+
 - **Componentes y relaciones:** Modelar un sistema implica identificar sus partes, sus relaciones y cómo interactúan entre sí (a través de diagramas de clases, secuencia, componentes, etc.).
 - **Toma de decisiones y control:** Permite evaluar trade-offs (*costo, riesgo, time-to-value*), decidir sobre responsabilidades, la elección de tecnologías y el manejo de aspectos no funcionales (rendimiento, seguridad, escalabilidad), ayudando a controlar la complejidad tecnológica masiva.
 - **Reducir ambigüedad:** Sirve como lenguaje formal entre negocio, TI y gobierno para utilizar artefactos comparables, **no opiniones**.

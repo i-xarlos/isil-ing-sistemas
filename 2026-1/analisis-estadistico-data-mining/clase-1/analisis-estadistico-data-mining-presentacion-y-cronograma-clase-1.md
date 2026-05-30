@@ -10,6 +10,26 @@
 
 El profesor Romero (ingeniero electrónico con especialización en software y analytics) introdujo el curso destacando la relación directa entre **estadística** y **minería de datos**. El objetivo central es **transformar datos** (elementos aislados sin valor propio) en **información** útil para tomar decisiones.
 
+## Mapa visual del curso
+
+```mermaid
+flowchart LR
+  A["Estadística descriptiva"] --> B["Estadística inferencial"]
+  B --> C["Preparación y limpieza de datos"]
+  C --> D["Minería de datos"]
+  D --> E["Aplicación y ética"]
+  E --> F["Proyecto final"]
+
+  style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+  style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+  style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+  style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+  style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+  style F fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+```
+
+Este esquema permite ver el hilo del curso completo antes de entrar al detalle técnico de cada bloque.
+
 ---
 
 ## Estructura y metodología

@@ -19,6 +19,34 @@ Las medidas de resumen más usadas son:
 - **Desviación estándar**
 - **Histograma** (herramienta visual)
 
+## Mapa visual de medidas de resumen
+
+```mermaid
+flowchart TD
+  A["Estadística descriptiva"] --> B["Tendencia central"]
+  A --> C["Dispersión"]
+  A --> D["Visualización"]
+  B --> E["Media"]
+  B --> F["Mediana"]
+  B --> G["Moda"]
+  C --> H["Varianza"]
+  C --> I["Desviación estándar"]
+  D --> J["Histograma"]
+
+  style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+  style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+  style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+  style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+  style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+  style F fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+  style G fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+  style H fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+  style I fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+  style J fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+```
+
+El objetivo del diagrama es separar qué mide cada herramienta: centro, variabilidad o forma de distribución.
+
 ---
 
 ## Media Aritmética

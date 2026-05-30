@@ -16,6 +16,14 @@
 
 La clase explicó que la **Arquitectura Empresarial (AE)** no se trata solo de tecnología. Su función es conectar la estrategia del negocio con procesos, datos, aplicaciones e infraestructura para que la empresa crezca con orden y no por parches.
 
+## Síntesis integrada del material fuente
+
+**Archivo base consolidado:** 40096-S02-PRESENTACION.pdf
+
+El material de la sesión reforzó a **TOGAF** como un método iterativo para conducir transformación mediante ADM, Enterprise Continuum y repositorio arquitectónico, y a **Zachman** como una taxonomía 6x6 útil para clasificar artefactos sin vacíos. La conclusión integrada es que ambos marcos no compiten: se complementan según el nivel de control y cobertura que exige el contexto.
+
+**Conceptos clave consolidados:** visión general de marcos, estructura de TOGAF, matriz Zachman y criterios prácticos de comparación.
+
 ## Qué es la Arquitectura Empresarial
 
 La **AE** es una disciplina que ayuda a entender la organización como un sistema completo.

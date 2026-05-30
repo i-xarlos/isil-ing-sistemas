@@ -1,6 +1,6 @@
 # Customer Centricity y Agilidad en TI (Clase 1)
 
-**Curso:** Customer Centricity TI (ISIL, 2026-1)  
+**Curso:** Customer Centricity en Tecnologías de la Información (ISIL, 2026-1)  
 **Docente:** Henry Joseph Paredes del Alamo  
 **Fecha:** 10/04/2026
 
@@ -13,6 +13,42 @@ La clase integró el concepto de **Customer Centricity** con las **Tecnologías 
 El docente compartió experiencia directa en banca (Interbank, Falabella) y salud (Clínica Internacional) para mostrar cómo estas ideas se aplican en entornos reales.
 
 > **Para entender la clase en una frase:** no importa qué tan avanzada sea tu tecnología, si no resuelve un problema real del cliente, no sirve.
+
+## Mapa visual de la sesión
+
+```mermaid
+flowchart LR
+  A["Problema real del cliente"] --> B["Investigación y cocreación"]
+  B --> C["MVP funcional"]
+  C --> D["Feedback temprano"]
+  D --> E["MLP con experiencia cuidada"]
+  E --> F["CX, UX y UI alineados"]
+  F --> G["Adopción y valor de negocio"]
+
+  H["Tecnología sin validar"] -.-> I["Features que nadie usa"]
+  I -.-> J["Costo y retrabajo"]
+
+  style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+  style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+  style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+  style D fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+  style E fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+  style F fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+  style G fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+  style H fill:#FFEBEE,stroke:#C62828,stroke-width:2px
+  style I fill:#FFCDD2,stroke:#B71C1C,stroke-width:2px
+  style J fill:#FFCDD2,stroke:#B71C1C,stroke-width:2px
+```
+
+Este diagrama resume la lógica central de la clase: primero se valida la necesidad, luego se construye una solución mínima, se aprende rápido y recién después se refina la experiencia.
+
+## Síntesis integrada del material fuente
+
+**Archivo base consolidado:** 40064_S01_PPT.pdf
+
+El material de apoyo de la sesión condensó la clase en cinco piezas: **MVP**, **MLP**, desarrollo ágil, relación **CX/UX/UI** y **pivot** como ajuste estratégico. Integrado al documento principal, este resumen reafirma que el valor de la tecnología depende de validar necesidades, ajustar con evidencia y cuidar la experiencia completa del cliente.
+
+**Conceptos clave consolidados:** MVP, MLP, CX, UX, UI, pivot y desafíos de productos digitales.
 
 ---
 

@@ -8,6 +8,34 @@
 
 Esta sesión de clase, liderada por la profesora **Brezli Paola Luna Figueroa**, se centra en la **Gobernanza de Datos y Políticas Digitales**.
 
+## Mapa visual de gobernanza
+
+```mermaid
+flowchart TD
+	A["Marco regulatorio y políticas"] --> B["Roles y responsabilidades"]
+	B --> C["Controles y trazabilidad"]
+	C --> D["Gestión de riesgos"]
+	D --> E["Confianza y cumplimiento"]
+	F["Metadatos y datos maestros"] --> C
+
+	style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+	style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+	style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+	style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+	style E fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+	style F fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+```
+
+El aporte del gráfico es separar con claridad la cadena de gobierno: política, roles, control y cumplimiento.
+
+## Síntesis integrada del material fuente
+
+**Archivo base consolidado:** 40062-S03-PPT.pdf
+
+El resumen ejecutivo del material base reforzó la relación entre **privacidad**, **regulación**, **gobierno de datos** y **gestión de riesgos**, aterrizando la discusión con ejemplos de IA, metadatos, datos maestros y política digital peruana. Esa vista resumida complementa la clase porque conecta el marco conceptual con cumplimiento y confianza institucional.
+
+**Conceptos clave consolidados:** riesgos de IA, regulación, principios de gobernanza, valorización del riesgo y políticas digitales.
+
 ---
 
 ## 1. Introducción: La IA y la Privacidad de los Datos

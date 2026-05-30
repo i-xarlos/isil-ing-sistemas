@@ -1,6 +1,10 @@
-# Jobs to be Done (JTBD) y su Aplicación
+# Jobs to be Done (JTBD) y su Aplicación (Clase 5)
 
-**Clase 5** — Customer Centricity en Tecnologías de Información | ISIL 2026-1
+**Curso:** Customer Centricity en Tecnologías de la Información (ISIL, 2026-1)  
+**Docente:** Henry Joseph Paredes del Alamo  
+**Fecha:** [pendiente]
+
+---
 
 ## 📌 Introducción
 
@@ -11,6 +15,31 @@
 **Jobs to be Done (JTBD)** es una teoría que va más allá de características del producto. Entiende que los clientes no compran **qué es** el producto, sino **qué problema resuelve** y **qué quieren lograr** con él.
 
 En esta clase aprenderemos a identificar esos "trabajos" que nuestros clientes quieren realizar, para diseñar soluciones que realmente importan.
+
+## Mapa visual de JTBD
+
+```mermaid
+flowchart LR
+        A["Entrevistas y observación"] --> B["Trabajo que el usuario quiere resolver"]
+        B --> C["JTBD priorizado"]
+        C --> D["Benchmark competitivo"]
+        D --> E["Prototipos y soluciones"]
+        E --> F["Historias de usuario"]
+        F --> G["Producto con valor real"]
+        H["Pensar primero en features"] -.-> I["Riesgo: solución irrelevante"]
+
+        style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+        style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+        style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+        style D fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+        style E fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+        style F fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+        style G fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+        style H fill:#FFEBEE,stroke:#C62828,stroke-width:2px
+        style I fill:#FFCDD2,stroke:#B71C1C,stroke-width:2px
+```
+
+El gráfico resume la lógica de JTBD: primero entiendes el trabajo real, luego comparas, diseñas y recién después conviertes eso en requerimientos de producto.
 
 ---
 

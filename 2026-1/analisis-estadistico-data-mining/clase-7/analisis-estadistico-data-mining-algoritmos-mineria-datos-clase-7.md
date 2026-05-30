@@ -1,4 +1,10 @@
-# Algoritmos de Minería de Datos
+# Algoritmos de Minería de Datos (Clase 7)
+
+**Curso:** Análisis Estadístico y Data Mining (ISIL, 2026-1)  
+**Docente:** Omar David Visitación Romero  
+**Fecha:** [pendiente]
+
+---
 
 ## Introducción
 
@@ -9,6 +15,34 @@ La minería de datos permite extraer patrones, tendencias y relaciones ocultas e
 - **Detección de fraudes**
 - **Análisis de riesgo**
 - **Mejora de procesos operativos**
+
+## Mapa visual de algoritmos de minería
+
+```mermaid
+flowchart TD
+A["Algoritmos de minería de datos"] --> B["Clasificación"]
+A --> C["Clustering"]
+A --> D["Asociación y patrones"]
+B --> E["Árboles de decisión"]
+B --> F["SVM"]
+B --> G["K-NN"]
+C --> H["K-means"]
+C --> I["Jerárquico"]
+D --> J["Reglas de asociación"]
+
+style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+style F fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+style G fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+style H fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+style I fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+style J fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+```
+
+La utilidad del gráfico es clasificar rápido qué algoritmos resuelven problemas supervisados, no supervisados y de descubrimiento de patrones.
 
 ---
 

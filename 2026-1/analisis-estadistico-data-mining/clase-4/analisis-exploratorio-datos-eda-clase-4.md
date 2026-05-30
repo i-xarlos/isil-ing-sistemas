@@ -12,6 +12,53 @@
 
 La estadística descriptiva tradicional solo muestra números agregados (promedios, desviaciones). El EDA va más profundo: busca identificar **patrones, tendencias, frecuencias y anomalías** que expliquen cómo se comportan realmente los datos.
 
+## Mapa visual del proceso EDA
+
+```mermaid
+flowchart LR
+   A["Datos crudos"] --> B["Exploración inicial"]
+   B --> C["Patrones y tendencias"]
+   B --> D["Anomalías y outliers"]
+   C --> E["Hipótesis de negocio"]
+   D --> E
+   E --> F["Decisiones o modelado"]
+
+   style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+   style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+   style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+   style D fill:#FFECB3,stroke:#FB8C00,stroke-width:2px
+   style E fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+   style F fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+```
+
+Este gráfico muestra por qué el EDA no es solo mirar gráficos: sirve para convertir observaciones en hipótesis útiles para el negocio o el modelo.
+
+## Resumen ejecutivo consolidado
+
+El resumen ejecutivo complementario de esta clase simplifica el EDA en tres preguntas: **qué tendencia existe**, **qué patrones se repiten** y **qué anomalías deben investigarse**. También resume un toolkit mínimo para lectura rápida: regresión lineal y promedio móvil para tendencia, **Z-score** e **IQR** para outliers, y correlación para explorar relaciones entre variables.
+
+### Preguntas guía del EDA
+
+1. ¿Los datos muestran crecimiento, caída o estabilidad?
+2. ¿Se repiten ciclos, estacionalidades o comportamientos consistentes?
+3. ¿Existen valores extremos o imposibles que ameritan revisión?
+
+### Caja rápida de herramientas
+
+| Objetivo | Herramienta | Uso típico |
+| --- | --- | --- |
+| Ver tendencia | Regresión lineal / promedio móvil | Ventas, demanda, series temporales |
+| Detectar anomalías | Z-score / IQR | Fraude, errores, valores atípicos |
+| Explorar relación | Correlación | Publicidad vs. ventas, riesgo vs. retorno |
+
+### Secuencia práctica resumida
+
+1. Revisar tendencia general.
+2. Buscar patrones y estacionalidad.
+3. Detectar anomalías.
+4. Medir relaciones entre variables.
+5. Documentar hallazgos y decisiones.
+
 ### ¿Por qué Importa?
 
 **Premisa fundamental:** Los datos no son azarosos. Son producto de actividades humanas con conductas específicas que pueden ser modeladas, predecidas e identificadas.

@@ -25,6 +25,30 @@ El análisis de datos **no busca "respuestas"**, busca **comprensión**.
 
 Es el proceso de transformar datos crudos en **información estratégica** para tomar decisiones acertadas.
 
+## Mapa visual del análisis hacia insight
+
+```mermaid
+flowchart LR
+   A["Datos crudos"] --> B["Análisis univariado"]
+   A --> C["Análisis bivariado"]
+   A --> D["Análisis multivariado"]
+   B --> E["Patrones y relaciones"]
+   C --> E
+   D --> E
+   E --> F["Insight accionable"]
+   F --> G["Decisión o solución IA"]
+
+   style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+   style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+   style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+   style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+   style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+   style F fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+   style G fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+```
+
+La utilidad del diagrama es mostrar que el insight no sale de una sola métrica, sino de combinar distintos niveles de análisis.
+
 ## 1. Fundamentos del Análisis de Datos e Insights
 
 El objetivo principal del análisis no es encontrar ecuaciones matemáticas complejas, sino **entender el comportamiento de un proceso o actividad** (financiera, educativa, comercial, etc.) y convertirlo en acciones útiles.
