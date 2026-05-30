@@ -279,3 +279,42 @@ Startup que quiere enseñar educación financiera a jóvenes (18-25 años) sin a
 - Semana 5-8: MVP en producción
 - Semana 9+: Datos reales → Product Roadmap
 
+
+---
+
+## Conceptos Avanzados de Prototipado y Validación
+
+### Tipos de Pruebas Rápidas (Testing Methods)
+
+1. **A/B Testing**
+   - **Concepto:** Consiste en mostrar dos versiones distintas de una misma pantalla o flujo a usuarios en vivo de forma aleatoria, para medir cuál rinde mejor estadísticamente.
+   - **Limitación en Design Thinking:** Solo sirve cuando ya hay tráfico real (después del MVP), no en fase de baja fidelidad.
+
+2. **Fake Door Testing (Puertas Falsas)**
+   - **Concepto:** Poner un botón invitando a usar una "nueva funcionalidad que aún no existe". Si el usuario da clic, se le muestra un mensaje ("Estamos trabajando en ello").
+   - **Para qué sirve:** Validar el "deseo" o demanda real antes de construir siquiera el prototipo completo.
+
+3. **Prueba Guerrilla (Guerrilla Testing)**
+   - **Concepto:** Acercarse a personas en un café o área pública para probar un prototipo rápido de 5 minutos, a menudo a cambio de un incentivo simbólico.
+   - **Cuándo usarlo:** Para recoger impresiones instantáneas y descubrir errores obvios de usabilidad a costo cero.
+
+---
+
+## Más Ejemplos Analizados
+
+### Caso 2: Onboarding en SaaS B2B
+**Prototipo:** Flujo en alta fidelidad (Marvel) para configurar el perfil de una empresa en un ERP en la nube.
+**Misión del Testeo:** "Completa el registro de tu compañía y vincula tu cuenta bancaria".
+**El error descubierto:** Los dueños de negocio no tienen a la mano el número SWIFT al registrarse, sentían frustración y abandonaban el flujo.
+**Iteración (Refinamiento):** Romper el onboarding en 2 pasos. Permitir ingreso e inicio de uso diario, y solicitar la cuenta bancaria recién al querer emitir la primera factura. El prototipo salvó el funnel de conversión.
+
+---
+
+## Glosario de Términos
+
+- **Wireframe:** Esquema estructural y visual básico (esqueleto) de una interfaz sin diseño estético detallado (colores, fuentes o fotografías).
+- **Mockup:** Diseño estático de cómo se verá visualmente el producto final (incluye UI, colores corporativos, tipografía real).
+- **MVP (Minimum Viable Product):** Versión del producto con las características suficientes para satisfacer a los primeros clientes y validar las hipótesis clave de negocio. A diferencia del prototipo, el MVP es código real y funcional.
+- **Test de Usabilidad:** Método donde se pide a un usuario realizar tareas específicas para observar en qué se equivoca o confunde, revelando problemas de interfaz ("qué hacen realmente").
+- **Heatmap (Mapa de calor):** Validación visual pos-lanzamiento que permite ver gráficamente (usando escala de colores) en qué zonas de la pantalla los usuarios hacen más clics o mantienen más tiempo el cursor.
+- **Card Sorting:** Técnica para testear de manera temprana cómo estructurar la "Arquitectura de la Información", pidiendo a los usuarios que agrupen tarjetas con temas para ver cómo ellos naturalmente organizarían un menú de navegación.

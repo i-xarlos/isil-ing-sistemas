@@ -145,3 +145,42 @@ Mide cohesión intra-cluster y separación entre clusters. Rango: -1 a 1.
 
 **Decisión:** Validar manuales los casos grises.
 
+
+---
+
+## Conceptos Avanzados de Clasificación y Clustering
+
+### SVM (Máquinas de Vectores de Soporte)
+- **Concepto:** Encuentra el hiperplano óptimo (línea o frontera) que maximiza el margen de separación entre distintas clases.
+- **Kernel Trick:** Permite clasificar datos que no son linealmente separables proyectándolos a dimensiones superiores.
+- **Ejemplo Práctico:** Diagnóstico médico por imágenes (identificar tumores benignos vs. malignos basándose en bordes y texturas).
+
+### K-NN (K-Nearest Neighbors)
+- **Concepto:** Clasifica una nueva muestra según el voto de la mayoría de sus "K" vecinos más cercanos en el espacio de características.
+- **Métrica de Distancia:** Frecuentemente usa distancia Euclidiana o Manhattan.
+- **Ejemplo Práctico:** Sistemas de recomendación básicos (si a 5 usuarios similares a ti les gustó un curso, te lo recomienda).
+
+### Árboles de Decisión (Detalles)
+- **Criterios de División:** Utiliza entropía (Information Gain) o el índice Gini para decidir cómo dividir los nodos.
+- **Riesgo:** Alta propensión al sobreajuste (overfitting) si no se realiza "poda" (pruning).
+
+---
+
+## Más Ejemplos Prácticos de Minería de Datos
+
+### Caso: Predicción de Fuga de Clientes (Churn) en Telecom
+**Problema:** Identificar clientes con alta probabilidad de cancelar el servicio de internet.
+**Modelo:** Árbol de decisión combinado con KNN.
+**Variables predictoras:** Meses de antigüedad, cantidad de reclamos técnicos en el último trimestre, variaciones en facturación.
+**Resultado esperado:** Campaña de retención proactiva ofreciendo descuentos solo al 15% de clientes con riesgo alto (ahorro masivo frente a dar descuentos a todos).
+
+---
+
+## Glosario de Términos
+
+- **Clustering Jerárquico:** Método de agrupación que no requiere saber "K" de antemano; construye una estructura de árbol (dendrograma). Puede ser aglomerativo (bottom-up) o divisivo (top-down).
+- **Entrenamiento (Training):** Proceso por el cual un algoritmo de machine learning ajusta sus parámetros internos a partir de datos históricos.
+- **Overfitting (Sobreajuste):** Ocurre cuando el modelo memoriza el ruido de los datos de entrenamiento y pierde la capacidad de generalizar con datos nuevos.
+- **Hiperplano:** Límite de decisión en un espacio N-dimensional (utilizado fundamentalmente en SVM).
+- **Kernel:** Función matemática usada en algoritmos como SVM para transformar datos de manera que sean linealmente separables.
+- **Pruning (Poda):** Técnica para reducir el tamaño de los árboles de decisión eliminando secciones que proveen poco poder predictivo.
