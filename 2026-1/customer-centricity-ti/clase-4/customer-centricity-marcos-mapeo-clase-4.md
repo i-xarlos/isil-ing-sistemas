@@ -1,6 +1,6 @@
 # Marcos Iniciales para Mapeo del Proceso del Cliente (Clase 4)
 
-**Curso:** Customer Centricity en Tecnologías de Información (ISIL, 2026-1)  
+**Curso:** Customer Centricity en Tecnologías de la Información (ISIL, 2026-1)  
 **Docente:** Henry Joseph Paredes del Alamo  
 **Fecha:** 12/05/2026
 
@@ -9,6 +9,29 @@
 Esta clase, dirigida por **Henry Joseph Paredes del Alamo**, se centró en herramientas clave para el diseño de experiencias de usuario y la comprensión del comportamiento del cliente. Construir soluciones digitales exige **ver a través de los ojos del cliente**. En esta clase aprenderemos herramientas poderosas que nos permiten plasmar visualmente quiénes son nuestros usuarios, cómo interactúan con nuestro producto, y qué piensan y sienten en cada momento.
 
 **Principio clave:** No queremos construir lo que nosotros creemos que el cliente necesita. Queremos construir lo que el cliente **realmente necesita**.
+
+## Mapa visual de herramientas de mapeo
+
+```mermaid
+flowchart TD
+   A["Investigación del cliente"] --> B["User Persona<br/>quién es"]
+   A --> C["Empathy Map<br/>qué piensa y siente"]
+   A --> D["Customer Journey Map<br/>qué hace en cada etapa"]
+   A --> E["Experience Map<br/>qué vive en su contexto"]
+   B --> F["Decisiones de diseño y priorización"]
+   C --> F
+   D --> F
+   E --> F
+
+   style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+   style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+   style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+   style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+   style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+   style F fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+```
+
+Este esquema ayuda a no mezclar herramientas: cada marco responde una pregunta distinta y juntos construyen una visión más completa del cliente.
 
 ---
 

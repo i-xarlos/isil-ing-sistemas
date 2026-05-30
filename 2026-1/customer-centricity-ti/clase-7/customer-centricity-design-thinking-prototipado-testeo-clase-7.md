@@ -1,4 +1,10 @@
-# Design Thinking – Parte 2: Prototipado y Testeo
+# Design Thinking – Parte 2: Prototipado y Testeo (Clase 7)
+
+**Curso:** Customer Centricity en Tecnologías de la Información (ISIL, 2026-1)  
+**Docente:** Henry Joseph Paredes del Alamo  
+**Fecha:** [pendiente]
+
+---
 
 ## Introducción
 
@@ -7,6 +13,33 @@ Después de empatizar, definir e idear, llegamos a las fases donde **los usuario
 **Las dos preguntas clave:**
 - ¿Cómo prototipamos sin ser diseñadores?
 - ¿Cómo hacemos un testeo que realmente nos dé insights?
+
+## Mapa visual de madurez del prototipado
+
+```mermaid
+flowchart LR
+    A["Idea priorizada"] --> B["Sketch o wireframe"]
+    B --> C["Prototipo clickeable"]
+    C --> D["Testeo con 5 usuarios"]
+    D --> E{"¿Se entiende y aporta valor?"}
+    E -->|No| F["Refinar flujo y contenido"]
+    F --> C
+    E -->|Sí| G["MVP"]
+    G --> H["Beta con usuarios reales"]
+    H --> I["Roadmap de mejoras"]
+
+    style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+    style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+    style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+    style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+    style E fill:#FFFDE7,stroke:#F9A825,stroke-width:3px
+    style F fill:#FFECB3,stroke:#FB8C00,stroke-width:2px
+    style G fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+    style H fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+    style I fill:#DCEDC8,stroke:#33691E,stroke-width:2px
+```
+
+Este gráfico aterriza la secuencia de la clase: la calidad no sale de un prototipo perfecto, sino de iteraciones cortas con evidencia real antes de construir el MVP.
 
 ---
 

@@ -1,8 +1,8 @@
 # Design Thinking y su Aplicación en Desarrollo de Soluciones Tecnológicas (Clase 6)
 
-**Curso:** Customer Centricity en Tecnologías de Información (ISIL, 2026-1)  
-**Docente:** [Pendiente de confirmación]  
-**Fecha:** [Pendiente de confirmación]
+**Curso:** Customer Centricity en Tecnologías de la Información (ISIL, 2026-1)  
+**Docente:** Henry Joseph Paredes del Alamo  
+**Fecha:** [pendiente]
 
 ---
 
@@ -16,6 +16,30 @@ En esta clase cubriremos **las 3 primeras fases** del Design Thinking:
 1. **Empatización** — Comprender necesidades y emociones del usuario
 2. **Definición** — Articular el problema central de manera efectiva
 3. **Ideación** — Generar soluciones innovadoras
+
+## Mapa visual del doble diamante
+
+```mermaid
+flowchart LR
+   A["Empatizar<br/>divergir"] --> B["Definir<br/>converger"]
+   B --> C["Idear<br/>explorar y priorizar"]
+   C --> D["Prototipar<br/>tangibilizar"]
+   D --> E["Testear<br/>aprender"]
+   F["Deseable"] --> C
+   G["Factible"] --> C
+   H["Viable"] --> C
+
+   style A fill:#E3F2FD,stroke:#1565C0,stroke-width:3px
+   style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:3px
+   style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:3px
+   style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+   style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+   style F fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+   style G fill:#E1F5FE,stroke:#0277BD,stroke-width:2px
+   style H fill:#F1F8E9,stroke:#558B2F,stroke-width:2px
+```
+
+La lectura correcta del diagrama es esta: primero abres el problema, luego lo enfocas y solo después generas ideas que pasen por el filtro de deseabilidad, factibilidad y viabilidad.
 
 ---
 

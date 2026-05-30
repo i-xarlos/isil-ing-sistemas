@@ -11,6 +11,40 @@ La idea central fue clara: los datos son el activo más valioso de una organizac
 
 La sesión abrió con un video sobre **agricultura basada en datos e IoT**, que sirvió de ejemplo para mostrar el impacto real de los datos en sectores no convencionales.
 
+## Mapa visual de la clase
+
+```mermaid
+flowchart LR
+  A["Fuentes de datos"] --> B["Gestión del ciclo de vida"]
+  B --> C["Gobierno y políticas"]
+  C --> D["Calidad y protección"]
+  D --> E["Análisis confiable"]
+  E --> F["Decisiones de negocio"]
+  F --> G["Valor estratégico"]
+
+  H["Datos incompletos o erróneos"] -.-> I["Riesgo y malas decisiones"]
+
+  style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+  style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+  style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+  style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+  style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+  style F fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+  style G fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+  style H fill:#FFEBEE,stroke:#C62828,stroke-width:2px
+  style I fill:#FFCDD2,stroke:#B71C1C,stroke-width:2px
+```
+
+Este gráfico resume la lógica de la sesión: los datos solo se convierten en ventaja competitiva cuando pasan por gestión, gobierno y control de calidad.
+
+## Síntesis integrada del material fuente
+
+**Archivo base consolidado:** 40062-S01-PPT.pdf
+
+La presentación de soporte resumió la clase alrededor de cinco ideas: los datos como activo estratégico, el rol del **CDO**, la formulación de estrategias de datos, la gobernanza como condición de confianza y el **ROI** como prueba de valor. Esa síntesis complementa la explicación principal al mostrar cómo la dirección de datos se conecta directamente con transformación digital y resultados empresariales.
+
+**Conceptos clave consolidados:** rol del CDO, estrategia de datos, casos prácticos, gobierno de datos y retorno de valor.
+
 ---
 
 ## 1. ¿Qué es la Dirección Estratégica de Datos?

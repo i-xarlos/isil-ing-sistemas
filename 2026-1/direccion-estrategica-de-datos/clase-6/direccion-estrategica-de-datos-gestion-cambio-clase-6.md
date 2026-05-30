@@ -1,8 +1,8 @@
-# Gestión del Cambio en Entornos Data-Driven
+# Gestión del Cambio en Entornos Data-Driven (Clase 6)
 
 **Curso:** Dirección Estratégica de Datos (ISIL, 2026-1)  
 **Docente:** Brezli Paola Luna Figueroa  
-**Fecha:** Clase 6
+**Fecha:** [pendiente]
 
 ---
 
@@ -17,6 +17,30 @@ Esta sesión explora las **estrategias y recursos esenciales** para facilitar la
 
 ### Concepto Fundamental: Riesgo = Dinero
 En gestión del cambio, cada riesgo debe ser **valorizado económicamente**. Ejemplo: Perder un gerente clave = $130,000 en impactos directos.
+
+## Mapa visual de adopción del cambio
+
+```mermaid
+flowchart LR
+    A["Urgencia y visión"] --> B["Comunicación clara"]
+    B --> C["Capacitación y participación"]
+    C --> D["Quick wins"]
+    D --> E["Adopción sostenida"]
+    E --> F["Cultura data-driven"]
+
+    G["Rumores y miedo"] -.-> H["Resistencia y sabotaje"]
+
+    style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+    style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+    style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+    style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+    style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+    style F fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+    style G fill:#FFEBEE,stroke:#C62828,stroke-width:2px
+    style H fill:#FFCDD2,stroke:#B71C1C,stroke-width:2px
+```
+
+Este resumen visual condensa la tesis de la clase: el cambio falla menos por la herramienta y más por una mala gestión de comunicación, formación y confianza.
 
 ### Caso Real de Clase: Automatización de Facturas
 **Fracaso:** Implementar software sin comunicar → Rumores → "Nos van a despedir" → Sabotaje  

@@ -16,9 +16,9 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 
 | # | Tema | Descripción | Recurso | PPT |
 |---|------|-------------|----------|-----|
-| 1 | **Fundamentos de Arquitectura Empresarial** | Definiciones, conceptos clave, marcos TOGAF y Zachman | [📄](./clase-1/arquitectura-empresarial-fundamentos-clase-1.md) | [📊](./clase-1/resumen-ppt-clase-1.md) |
-| 2 | **Zachman y TOGAF: Relación y Aplicación** | Comparación de frameworks, matriz Zachman 6×6, ADM | [📄](./clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) | [📊](./clase-2/resumen-ppt-clase-2.md) |
-| 3 | **Modelado Arquitectónico: Capas y Niveles** | Vistas, mapas de capacidades, hojas de ruta, lenguajes | [📄](./clase-3/modelado-arquitectonico-capas-clase-3.md) | [📊](./clase-3/resumen-ppt-clase-3.md) |
+| 1 | **Fundamentos de Arquitectura Empresarial** | Definiciones, conceptos clave, marcos TOGAF y Zachman | [📄](./clase-1/arquitectura-empresarial-fundamentos-clase-1.md) | [📊](./clase-1/40096-S01-PRESENTACION.pdf) |
+| 2 | **Zachman y TOGAF: Relación y Aplicación** | Comparación de frameworks, matriz Zachman 6×6, ADM | [📄](./clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md) | [📊](./clase-2/40096-S02-PRESENTACION.pdf) |
+| 3 | **Modelado Arquitectónico: Capas y Niveles** | Vistas, mapas de capacidades, hojas de ruta, lenguajes | [📄](./clase-3/modelado-arquitectonico-capas-clase-3.md) | [📊](./clase-3/40096-S03-PRESENTACION%20%281%29.pdf) |
 | 4 | **Gobernanza de Arquitectura Empresarial** | COBIT, marcos de gobernanza, políticas | [📄](./clase-4/CLASE-4-GOBERNANZA-AE.md) | — |
 | 5 | **Gestión del Portafolio Arquitectónico** | As-Is, To-Be, planeamiento de transición | [📄](./clase-5/gestion-portafolio-arquitectonico-clase-5.md) | [📊](./clase-5/40096-S05-PRESENTACION.pdf) |
 | 6 | **Modelos de Madurez y Gobierno Estratégico** | CMMI, TOGAF CMM, evaluación de capacidad organizacional | [📄](./clase-6/arquitectura-empresarial-madurez-gobierno-clase-6.md) | [📊](./clase-6/40096-S06-PRESENTACION.pdf) |
@@ -39,16 +39,16 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 
 ### Clase 1: Fundamentos
 - 📄 [arquitectura-empresarial-fundamentos-clase-1.md](./clase-1/arquitectura-empresarial-fundamentos-clase-1.md)
-- 📊 [resumen-ppt-clase-1.md](./clase-1/resumen-ppt-clase-1.md)
+- 📊 [40096-S01-PRESENTACION.pdf](./clase-1/40096-S01-PRESENTACION.pdf)
 
 ### Clase 2: Zachman y TOGAF
 - 📄 [arquitectura-empresarial-zachman-togaf-clase-2.md](./clase-2/arquitectura-empresarial-zachman-togaf-clase-2.md)
-- 📊 [resumen-ppt-clase-2.md](./clase-2/resumen-ppt-clase-2.md)
+- 📊 [40096-S02-PRESENTACION.pdf](./clase-2/40096-S02-PRESENTACION.pdf)
 - 🖼️ Gráficos: `arquitectura-empresarial-fundamentos-clase-2.png`, `zachman-matriz-cobertura-6x6-clase-2.png`
 
 ### Clase 3: Modelado Arquitectónico y Capas
 - 📄 [modelado-arquitectonico-capas-clase-3.md](./clase-3/modelado-arquitectonico-capas-clase-3.md)
-- 📊 [resumen-ppt-clase-3.md](./clase-3/resumen-ppt-clase-3.md)
+- 📊 [40096-S03-PRESENTACION (1).pdf](./clase-3/40096-S03-PRESENTACION%20%281%29.pdf)
 - 🖼️ Gráficos: `modelado-arquitectonico-proposito-clase-3.png`, `modelado-arquitectonico-componentes-clase-3.png`, `modelado-arquitectonico-roadmap-clase-3.png`
 
 ### Clase 4: Gobernanza de Arquitectura Empresarial
@@ -78,14 +78,14 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 arq-empresarial/
 ├── clase-1/
 │   ├── arquitectura-empresarial-fundamentos-clase-1.md
-│   └── resumen-ppt-clase-1.md
+│   └── 40096-S01-PRESENTACION.pdf
 ├── clase-2/
 │   ├── arquitectura-empresarial-zachman-togaf-clase-2.md
-│   ├── resumen-ppt-clase-2.md
+│   ├── 40096-S02-PRESENTACION.pdf
 │   └── [gráficos]
 ├── clase-3/
 │   ├── modelado-arquitectonico-capas-clase-3.md
-│   ├── resumen-ppt-clase-3.md
+│   ├── 40096-S03-PRESENTACION (1).pdf
 │   └── [gráficos]
 ├── clase-4/
 │   └── CLASE-4-GOBERNANZA-AE.md

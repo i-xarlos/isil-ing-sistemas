@@ -6,6 +6,40 @@
 
 ---
 
+## Mapa visual de la sesión
+
+```mermaid
+flowchart LR
+	A["Problema u oportunidad"] --> B["Estrategia de datos"]
+	B --> C["Gobierno y calidad"]
+	C --> D["Implementación viable"]
+	D --> E["Adopción en operación"]
+	E --> F["ROI e impacto"]
+
+	G["Tecnología sin estrategia"] -.-> H["Uso bajo o inversión desperdiciada"]
+
+	style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+	style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+	style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+	style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+	style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+	style F fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+	style G fill:#FFEBEE,stroke:#C62828,stroke-width:2px
+	style H fill:#FFCDD2,stroke:#B71C1C,stroke-width:2px
+```
+
+Este diagrama resume el criterio transversal de la clase: la viabilidad de un proyecto de datos depende de conectar estrategia, gobierno, operación y resultados.
+
+## Síntesis integrada del material fuente
+
+**Archivo base consolidado:** 40062-S02-PPT.pdf
+
+La síntesis del material de apoyo concentró la clase en tres ejes: **caso de negocio**, **gobernanza** y **ROI**. El mensaje integrado es que una estrategia de datos no se evalúa por sofisticación técnica, sino por su capacidad de alinear transformación digital con resultados medibles en sectores como banca y salud.
+
+**Conceptos clave consolidados:** casos prácticos, gobierno de datos, transformación digital y retorno de inversión.
+
+---
+
 ## 1. Innovación social y el proyecto Guagua Laptop
 
 La sesión abrió con un video sobre **Guagua Laptop**, un emprendimiento peruano que fabrica laptops con materiales reciclados y software libre para reducir la brecha digital en zonas vulnerables.

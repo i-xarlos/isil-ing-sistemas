@@ -13,6 +13,34 @@
 
 En organizaciones, la IA no es monolítica. Existen diferentes tipos, cada uno con capacidades, limitaciones y casos de uso específicos. Entender esta diversidad es clave para seleccionar la solución correcta según el problema empresarial.
 
+## Mapa visual para seleccionar tipo de IA
+
+```mermaid
+flowchart LR
+  A["Problema de negocio"] --> B{"¿Qué se necesita?"}
+  B -->|Automatizar tarea específica| C["Narrow AI"]
+  B -->|Generar contenido| D["IA generativa"]
+  B -->|Predecir patrones| E["Machine Learning"]
+  B -->|Resolver tareas complejas de visión o lenguaje| F["Deep Learning"]
+  C --> G["Menor complejidad"]
+  D --> H["Mayor riesgo de alucinación"]
+  E --> I["Depende de calidad de datos"]
+  F --> J["Mayor costo computacional"]
+
+  style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+  style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+  style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+  style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+  style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+  style F fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+  style G fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+  style H fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+  style I fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+  style J fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+```
+
+Este gráfico sintetiza la decisión que atraviesa toda la clase: no toda necesidad empresarial requiere el mismo nivel de IA.
+
 ---
 
 ## 2. Tipología de la IA: Capacidades y Limitaciones

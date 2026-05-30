@@ -12,6 +12,40 @@ La sesión profundizó en la **Agilidad** como mentalidad (no como proceso) y en
 
 > *"Si el Product Owner no entiende al cliente, el equipo construirá basura... pero la construirá rápido."*
 
+## Mapa visual de Scrum orientado al cliente
+
+```mermaid
+flowchart LR
+  A["Necesidad del cliente"] --> B["Product Owner prioriza valor"]
+  B --> C["Product Backlog"]
+  C --> D["Sprint Planning"]
+  D --> E["Equipo construye incremento"]
+  E --> F["Sprint Review con stakeholders"]
+  F --> G["Feedback y métricas"]
+  G --> B
+  H["Scrum Master<br/>facilita y desbloquea"] -.-> D
+  H -.-> E
+
+  style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+  style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+  style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+  style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+  style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+  style F fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+  style G fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+  style H fill:#FCE4EC,stroke:#AD1457,stroke-width:2px
+```
+
+Este flujo aterriza la idea central de la clase: Scrum no empieza en el tablero, empieza en una necesidad real del cliente y vuelve al backlog con evidencia.
+
+## Síntesis integrada del material fuente
+
+**Archivo base consolidado:** 40064_S02_PPT.pdf
+
+La síntesis del PPT reforzó el puente entre **Agile Manifesto**, **Scrum**, iteración rápida y feedback continuo. El aporte de esa vista resumida es recordar que la agilidad no es solo una ceremonia de sprint: es un mecanismo de validación constante para entregar valor centrado en cliente.
+
+**Conceptos clave consolidados:** principios ágiles, Scrum, iteración, feedback y métricas de seguimiento.
+
 ---
 
 ## 1. Repaso: Customer Centricity y Validación Temprana

@@ -1,13 +1,33 @@
 # Modelos de Madurez y Gobierno Estratégico (Clase 6)
 
 **Curso:** Arquitectura Empresarial (ISIL, 2026-1)  
-**Docente:** Por confirmar  
+**Docente:** Richard Anthony Romero Mori  
 **Fecha:** 12/05/2026  
 **Archivo PPT:** 40096-S06-PRESENTACION.pptx
 
 ## 📌 Introducción
 
 En esta clase exploramos cómo las organizaciones evolucionan desde prácticas arquitectónicas reactivas hacia modelos estructurados, medibles y optimizados. El énfasis está en entender que **la madurez arquitectónica no mide documentación**, sino la **capacidad organizacional de tomar decisiones consistentes y repetibles** alineadas a la estrategia.
+
+## Mapa visual de niveles de madurez
+
+```mermaid
+flowchart LR
+    A["Nivel 1<br/>Reactivo"] --> B["Nivel 2<br/>Básico"]
+    B --> C["Nivel 3<br/>Definido"]
+    C --> D["Nivel 4<br/>Medido"]
+    D --> E["Nivel 5<br/>Optimizado"]
+    E --> F["Gobierno estratégico consistente"]
+
+    style A fill:#FFEBEE,stroke:#C62828,stroke-width:2px
+    style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+    style C fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+    style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+    style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+    style F fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+```
+
+El gráfico simplifica la progresión central de la clase: pasar de decisiones aisladas a un modelo gobernado, medible y optimizable.
 
 ---
 

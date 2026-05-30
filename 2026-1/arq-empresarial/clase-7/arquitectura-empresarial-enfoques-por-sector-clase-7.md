@@ -1,4 +1,10 @@
-# Enfoques de Arquitectura Empresarial según Sector
+# Enfoques de Arquitectura Empresarial según Sector (Clase 7)
+
+**Curso:** Arquitectura Empresarial (ISIL, 2026-1)  
+**Docente:** Richard Anthony Romero Mori  
+**Fecha:** [pendiente]
+
+---
 
 ## Introducción
 

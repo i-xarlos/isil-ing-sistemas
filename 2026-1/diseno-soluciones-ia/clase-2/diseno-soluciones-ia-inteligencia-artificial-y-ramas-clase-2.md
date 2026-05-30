@@ -12,6 +12,32 @@ La segunda clase construyó la base conceptual del curso: qué es la inteligenci
 
 La idea central: la IA genera valor cuando combina **datos**, **algoritmos** y **capacidad de cómputo** para apoyar decisiones, automatizar tareas o predecir resultados. Sin esos tres elementos, no hay solución útil.
 
+## Mapa visual de ramas de IA
+
+```mermaid
+flowchart TD
+  A["Inteligencia Artificial"] --> B["Machine Learning"]
+  A --> C["NLP"]
+  A --> D["Visión computacional"]
+  A --> E["IA generativa"]
+  B --> F["Supervisado"]
+  B --> G["No supervisado"]
+  B --> H["Por refuerzo"]
+  B --> I["Deep Learning"]
+
+  style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+  style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+  style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+  style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+  style E fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+  style F fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+  style G fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+  style H fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+  style I fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+```
+
+El diagrama ayuda a ubicar rápidamente cómo se relacionan las ramas vistas en clase y dónde encaja Deep Learning.
+
 ---
 
 ## Qué es la inteligencia artificial

@@ -10,6 +10,28 @@
 
 Esta clase se centró en la **innovación como motor de transformación digital**, utilizando el análisis de tendencias del **CES 2026** (Consumer Electronics Show) como punto de partida. Se cubrieron desde avances tecnológicos específicos hasta estrategias organizacionales para fomentar verdadera innovación en empresas.
 
+## Mapa visual de transformación digital
+
+```mermaid
+flowchart LR
+	A["Tendencias tecnológicas"] --> B["Lectura estratégica del mercado"]
+	B --> C["Rediseño de procesos"]
+	C --> D["Nuevas experiencias y modelos"]
+	D --> E["Transformación digital sostenible"]
+
+	F["Innovación solo por moda"] -.-> G["Pilotos sin impacto"]
+
+	style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px
+	style B fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px
+	style C fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+	style D fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px
+	style E fill:#C8E6C9,stroke:#1B5E20,stroke-width:3px
+	style F fill:#FFEBEE,stroke:#C62828,stroke-width:2px
+	style G fill:#FFCDD2,stroke:#B71C1C,stroke-width:2px
+```
+
+El diagrama ayuda a distinguir innovación con dirección estratégica frente a simple adopción de novedades tecnológicas.
+
 ---
 
 ## 1. Crónica del CES 2026: Tecnologías que definen el presente

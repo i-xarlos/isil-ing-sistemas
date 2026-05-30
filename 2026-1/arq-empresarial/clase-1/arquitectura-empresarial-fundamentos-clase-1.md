@@ -10,6 +10,14 @@
 La primera clase presentó la **Arquitectura Empresarial (AE)** como una disciplina de nivel estratégico.  
 La idea central fue clara: la tecnología debe responder a objetivos del negocio, no avanzar de forma aislada.
 
+## Síntesis integrada del material fuente
+
+**Archivo base consolidado:** 40096-S01-PRESENTACION.pdf
+
+La presentación de la sesión reforzó que la arquitectura empresarial funciona como un marco para asegurar coherencia entre estrategia, operación y tecnología. También resumió su evolución desde un enfoque centrado en TI hacia una visión empresarial completa, con foco en alineamiento estratégico, reutilización y trazabilidad.
+
+**Conceptos clave consolidados:** definición y propósito de la AE, principios de alineamiento, evolución histórica, beneficios estratégicos y componentes de negocio, datos, aplicaciones e infraestructura.
+
 ## ¿Qué es la AE y por qué importa?
 
 La **AE** es una forma de diseñar y gobernar la organización como un sistema integrado.
