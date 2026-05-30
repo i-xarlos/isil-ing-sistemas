@@ -25,7 +25,7 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 
 | # | Tema | Descripción | Recurso | PPT |
 |---|------|-------------|----------|-----|
-| 1 | **Introducción a Dirección Estratégica de Datos** | Definición, rol CDO, estrategias 2026, cases | [📄](./clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md) | [📊](./clase-1/40062-S01-PPT.pdf) |
+| 1 | **Introducción a Dirección Estratégica de Datos** | Definición, rol CDO, estrategias 2026, casos | [📄](./clase-1/direccion-estrategica-de-datos-introduccion-clase-1.md) | [📊](./clase-1/40062-S01-PPT.pdf) |
 | 2 | **Estrategias de Datos: Casos Prácticos** | Transformación digital, governance, ROI empresarial | [📄](./clase-2/estrategias-datos-casos-practicos-clase-2.md) | [📊](./clase-2/40062-S02-PPT.pdf) |
 | 3 | **Gobernanza de Datos y Políticas Digitales** | Riesgos, regulación, metadatos, casos SUNAT | [📄](./clase-3/gobernanza-datos-politicas-digitales-clase-3.md) | [📊](./clase-3/40062-S03-PPT.pdf) |
 | 4 | **Innovación y Transformación Digital** | Tendencias CES 2026, casos de éxito/fracaso, estrategias de innovación | [📄](./clase-4/innovacion-transformacion-digital-clase-4.md) | [📊](./clase-4/40062-S04-PPT.pdf) |
