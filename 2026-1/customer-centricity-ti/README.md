@@ -22,6 +22,7 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 | 4 | **Marcos Iniciales para Mapeo del Proceso** | User Persona, Customer Journey Map, Experience Map, Empathy Map | [📄](./clase-4/customer-centricity-marcos-mapeo-clase-4.md) | [📊](./clase-4/40064_S04_PPT.pdf) |
 | 5 | **Jobs to be Done (JTBD)** | Identificación de trabajos a realizar, aplicación en diseño, benchmarking | [📄](./clase-5/customer-centricity-jobs-to-be-done-clase-5.md) | [📊](./clase-5/40064_S05_PPT.pdf) |
 | 6 | **Design Thinking** | Empatización, entrevistas, definición (HMW), ideación, brainstorming, crazy eights | [📄](./clase-6/customer-centricity-design-thinking-clase-6.md) | [📊](./clase-6/40064_S06_PPT.pdf) |
+| 7 | **Design Thinking – Parte 2: Prototipado y Testeo** | Fase de prototipado (tipos, herramientas), fase de testeo (guía práctica), ciclo iterativo | [📄](./clase-7/customer-centricity-design-thinking-prototipado-testeo-clase-7.md) | [📊](./clase-7/40064_S07_PPT.pdf) |
 
 ---
 

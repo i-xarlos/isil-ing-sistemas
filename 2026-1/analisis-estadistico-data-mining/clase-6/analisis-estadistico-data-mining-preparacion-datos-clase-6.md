@@ -414,14 +414,16 @@ En análisis estadístico y data mining, la normalización es especialmente crí
 
 La normalización mediante **z-score** transforma los valores de una variable numérica considerando su **media** y su **desviación estándar**.
 
-**Fórmula**:
-$$z = \frac{x - \mu}{\sigma}$$
+**Fórmula**:  
+`z = (x - μ) / σ`  
 
 Donde:
-- $x$ = valor original
-- $\mu$ = media
-- $\sigma$ = desviación estándar
-- $z$ = valor normalizado (z-score)
+- `x` = valor original
+- `μ` = media
+- `σ` = desviación estándar
+- `z` = valor normalizado (z-score)
+
+> Esto significa que `z` mide cuántas desviaciones estándar está `x` por encima o por debajo de la media.
 
 #### Interpretación de valores z-score
 

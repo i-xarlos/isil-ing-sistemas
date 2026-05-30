@@ -137,6 +137,30 @@ Implementar un chatbot + soporte humano integrado:
 
 ---
 
+## Ejemplos de Historias de Usuario
+
+### Historia de usuario 1
+- **Como** estudiante universitario de UNIHELP
+- **Quiero** recibir una confirmación inmediata con número de referencia después de enviar mi trámite
+- **Para** saber que mi solicitud fue registrada correctamente y no tener que escribir por WhatsApp para verificarla
+
+**Criterios de aceptación**:
+- Aparece un mensaje de confirmación en pantalla con referencia única
+- Llega un correo o notificación con la misma referencia
+- El estado inicial del trámite se muestra como "En proceso"
+
+### Historia de usuario 2
+- **Como** estudiante que gestiona trámites entre clases
+- **Quiero** ver un panel con el estado de mis solicitudes y un tiempo estimado de entrega
+- **Para** planificar mi día sin perder tiempo en buscar información o ir a atención presencial
+
+**Criterios de aceptación**:
+- El panel muestra los trámites activos con estados claros
+- Cada trámite incluye tiempo estimado de avance o entrega
+- La información se actualiza automáticamente sin recargar la página
+
+---
+
 ## Resumen de Impacto en los Pains de Diego
 
 | Pain de Diego               | Idea que lo resuelve | Cómo                                                  |
