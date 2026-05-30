@@ -22,6 +22,7 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 | 4 | **Análisis Exploratorio de Datos (EDA)** | Tendencias, estacionalidad, detección de anomalías, correlaciones, visualización | [📄](./clase-4/analisis-exploratorio-datos-eda-clase-4.md) |
 | 5 | **Minería de Datos** | Definición, aplicaciones (comercio, medicina, redes sociales), tipos (clasificación, clustering, asociación, predicción), ética, desafíos, herramientas | [📄](./clase-5/analisis-estadistico-data-mining-mineria-datos-clase-5.md) |
 | 6 | **Preparación de Datos** | Limpieza, transformación, manejo de faltantes, normalización (z-score, min-max), estandarización, casos prácticos en R y Python | [📄](./clase-6/analisis-estadistico-data-mining-preparacion-datos-clase-6.md) |
+| 7 | **Algoritmos de Minería de Datos** | Clasificación (árboles, SVM, K-NN), clustering (k-means, jerárquico), reglas de asociación (Apriori), evaluación (precisión, recall, silhouette) | [📄](./clase-7/analisis-estadistico-data-mining-algoritmos-mineria-datos-clase-7.md) |
 
 ---
 
@@ -65,6 +66,17 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
   - **Estandarización:** Formatos consistentes, unidades, nomenclaturas, integración de datos
 - 📑 PDF: [40097-S06-PRESENTACION.pdf](./clase-6/40097-S06-PRESENTACION.pdf)
 - 🔧 **Implementación:** Ejemplos completos en R y Python para cada técnica
+
+### Clase 7: Algoritmos de Minería de Datos
+- 📄 [analisis-estadistico-data-mining-algoritmos-mineria-datos-clase-7.md](./clase-7/analisis-estadistico-data-mining-algoritmos-mineria-datos-clase-7.md)
+- 📊 **Temas principales:**
+  - **Clasificación:** Árboles de decisión, SVM, K-NN, proceso completo de modelo de clasificación
+  - **Clustering:** K-means, clustering jerárquico, análisis de segmentación
+  - **Reglas de Asociación:** Apriori, FP-Growth, análisis de canasta de compra
+  - **Evaluación:** Precisión, recall, silhouette score, matriz de confusión
+  - **Aplicaciones prácticas:** Segmentación de clientes, detección de fraudes, predicción de morosidad
+- 📑 PDF: [40097-S07-PRESENTACION.pdf](./clase-7/40097-S07-PRESENTACION.pdf)
+- 🔧 **Implementación:** Ejemplos integrados con casos de banca retail
 
 ### Actividades
 

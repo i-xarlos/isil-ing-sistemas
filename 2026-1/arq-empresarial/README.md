@@ -22,6 +22,7 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 | 4 | **Gobernanza de Arquitectura Empresarial** | COBIT, marcos de gobernanza, políticas | [📄](./clase-4/CLASE-4-GOBERNANZA-AE.md) | — |
 | 5 | **Gestión del Portafolio Arquitectónico** | As-Is, To-Be, planeamiento de transición | [📄](./clase-5/gestion-portafolio-arquitectonico-clase-5.md) | [📊](./clase-5/40096-S05-PRESENTACION.pdf) |
 | 6 | **Modelos de Madurez y Gobierno Estratégico** | CMMI, TOGAF CMM, evaluación de capacidad organizacional | [📄](./clase-6/arquitectura-empresarial-madurez-gobierno-clase-6.md) | [📊](./clase-6/40096-S06-PRESENTACION.pdf) |
+| 7 | **Enfoques de Arquitectura Empresarial según Sector** | Arquitectura adaptada a sectores (financiero, retail, salud, industrial, público), lógica competitiva, traducción estratégica | [📄](./clase-7/arquitectura-empresarial-enfoques-por-sector-clase-7.md) | [📊](./clase-7/40096-S07-PRESENTACION.pdf) |
 
 ---
 

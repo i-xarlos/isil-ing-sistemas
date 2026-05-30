@@ -31,6 +31,7 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 | 4 | **Innovación y Transformación Digital** | Tendencias CES 2026, casos de éxito/fracaso, estrategias de innovación | [📄](./clase-4/innovacion-transformacion-digital-clase-4.md) | [📊](./clase-4/40062-S04-PPT.pdf) |
 | 5 | **Desarrollo de Productos y Servicios Basados en Datos** | Proceso de desarrollo (5 fases), Agile, Design Thinking, casos Google/Amazon/Netflix | [📄](./clase-5/desarrollo-productos-servicios-datos-clase-5.md) | [📊](./clase-5/40062-S05-PPT.pdf) |
 | 6 | **Gestión del Cambio en Entornos Data-Driven** | Métodos y herramientas, comunicación efectiva, capacitación, resistencia al cambio | [📄](./clase-6/direccion-estrategica-de-datos-gestion-cambio-clase-6.md) | [📊](./clase-6/40062-S06-PPT.pdf) |
+| 7 | **Gestión de la Innovación de Datos** | Innovación en datos, estrategia de datos, gobernanza, cultura, CDO, productos de datos, proyectos piloto | [📄](./clase-7/direccion-estrategica-de-datos-gestion-innovacion-clase-7.md) | [📊](./clase-7/40062-S07-PPT.pdf) |
 
 ---
 
