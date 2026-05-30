@@ -61,9 +61,43 @@ Recopilar máxima información: ¿Cómo piensan? ¿Qué necesitan? ¿Qué valora
 ### Definir
 Priorizar y seleccionar el problema principal. Formulación mediante **"How Might We" (HMW)**.
 
+### ¿Cómo aplicar HMW?
+
+HMW sirve para convertir un problema de usuario en una pregunta útil para idear soluciones.
+
+1. **Parte de un insight real**
+    - Qué dijo, sintió o hizo el usuario
+2. **Identifica la barrera principal**
+    - Qué le impide avanzar o confiar
+3. **Redacta la pregunta sin cerrar la solución**
+    - Usa "¿Cómo podríamos...?" en lugar de proponer una funcionalidad específica
+4. **Mantén la pregunta enfocada, pero abierta**
+    - Debe tener un problema claro y permitir varias ideas posibles
+5. **Usa la pregunta como disparador de ideación**
+    - Desde ahí salen alternativas para prototipo, testeo y validación
+
+> **Fórmula práctica:** insight del usuario + barrera principal + resultado deseado = pregunta HMW.
+> **Resumen rápido:** HMW toma un problema real del usuario y lo convierte en una pregunta abierta para explorar soluciones. No define todavía la funcionalidad exacta; aclara qué necesidad queremos resolver y qué resultado queremos mejorar.
+
+| Paso | Aplicado al caso del supermercado |
+| --- | --- |
+| **Insight** | "No confío en comprar frutas y verduras online porque no sé qué van a escoger por mí" |
+| **Barrera** | El usuario no puede ver, tocar ni elegir personalmente el producto |
+| **Resultado deseado** | Comprar con más confianza y control sin ir a la tienda |
+| **HMW final** | "¿Cómo podríamos ayudar a nuestros usuarios a comprar frutas y verduras online con mayor confianza y control, sin necesidad de ir a la tienda?" |
+
 **Ejemplo HMW:**
+
 - "¿Cómo podríamos reducir el tiempo de espera en una farmacia?"
 - "¿Cómo podríamos hacer accesible la educación financiera para personas sin bancarizar?"
+
+### Cómo saber si un HMW está bien planteado
+
+- **Sí** describe un problema humano real
+- **Sí** abre varias soluciones posibles
+- **Sí** conecta con un resultado deseado
+- **No** define la solución antes de tiempo
+- **No** es tan amplio que sirva para cualquier cosa
 
 ### Ideación
 - **Divergencia:** Pensar en gran cantidad de soluciones
@@ -109,6 +143,37 @@ Priorizar y seleccionar el problema principal. Formulación mediante **"How Migh
 - Lanzan a 50 usuarios beta
 
 **Feedback realista:** "No entiendo dónde ver mis gastos por categoría" → Rediseñan sprint 5.
+
+### Ejemplo Aplicado: Storyboard para Supermercado Online
+
+**Pregunta guía (HMW):** ¿Cómo podemos ayudar a nuestros usuarios a comprar frutas y verduras online con mayor confianza y control, sin necesidad de ir a la tienda?
+
+**La app responde a esta necesidad permitiendo indicar preferencias por producto:**
+
+- Nivel de madurez de la fruta o verdura
+- Uso esperado: para hoy, mañana o próximos días
+- Preferencia adicional: tamaño
+- Sustitución aceptada en caso de no encontrar el producto exacto
+
+| Escena | Qué ocurre | Qué siente el usuario | Qué muestra la solución | Cómo se vería el mockup |
+| --- | --- | --- | --- | --- |
+| **1. Inicio de compra** | El usuario entra al app y busca "plátano". | Quiere comprar rápido, pero no sabe si la calidad del producto será la adecuada o la que necesita. | El app muestra productos frescos con una etiqueta visible: "Personaliza tu selección del producto (plátanos)". | **Pantalla 1:** header con buscador activo en "plátano"; card del producto con foto grande, nombre "Plátano de seda", precio "S/ 5.30 por kg", sello verde de frescura y botón visible [Personaliza tu selección]. |
+| **2. Evaluación del detalle** | Entra a la ficha del producto y quiere definir si el plátano, tomate o palta debe llegar verde, maduro o listo para consumir. | Incertidumbre y necesidad de más control sobre la elección. | Selector de madurez, uso esperado del producto y fotos cercanas para decidir con criterio. | **Pantalla 2:** foto principal arriba, miniaturas de apoyo, bloque "Elige madurez" con opciones verde, intermedio o listo para hoy, y bloque "¿Cuándo lo usarás?" con chips para hoy, mañana o próximos días. |
+| **3. Configuración de preferencias** | Antes de agregar al carrito, configura tamaño preferido y decide si acepta sustitución en caso de quiebre de stock. | Sensación de control y menor ansiedad por una mala elección. | Campos simples para tamaño, reglas de sustitución y resumen visible de preferencias antes de confirmar. | **Pantalla 3:** formulario simple con selector de tamaño, interruptor para aceptar o no sustitución, lista de reemplazos sugeridos y caja resumen al pie con la selección elegida antes de guardar. |
+| **4. Confirmación y entrega** | Tras pagar, quiere asegurarse de que el picker siguió exactamente lo que pidió. | Más tranquilidad si ve evidencia; frustración si no la hay. | Resumen de preferencias elegidas, foto del pedido armado, nombre de quien seleccionó los productos, checklist de calidad y opción de reposición o reembolso si no coincide. | **Pantalla 4:** resumen del pedido con foto real del armado, nombre del picker, checklist con preferencias cumplidas, estado de selección y botón de soporte para reposición o reembolso si algo no coincide. |
+
+> **Idea clave:** La confianza no se gana solo con precio o rapidez. En frutas y verduras, el usuario necesita evidencia visual, control de preferencias y trazabilidad de selección.
+> **Qué sí se puede garantizar:** No que cada pieza sea idéntica a una foto genérica, sino que la app muestre evidencia real del lote y del pedido preparado, respete las preferencias elegidas y responda con reposición o reembolso si el producto recibido no coincide con lo prometido.
+
+### Señales de confianza que sí son creíbles
+
+| Señal | Qué demuestra |
+| --- | --- |
+| **Foto real del lote** | La imagen no es referencial; corresponde al producto disponible ese día. |
+| **Hora, fecha y tienda** | La evidencia es reciente y trazable. |
+| **Resumen de preferencias** | El picker sabe exactamente qué elegir: madurez, tamaño, uso y sustitución. |
+| **Foto del pedido armado** | El usuario puede verificar qué se seleccionó antes de la entrega. |
+| **Reposición o reembolso inmediato** | Si la promesa no se cumple, la app se hace responsable. |
 
 ---
 
