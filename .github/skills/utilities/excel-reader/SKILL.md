@@ -48,7 +48,7 @@ swift scripts/read_excel.swift "/Users/carlosgil/isil/2026-1/datos/escenarios.xl
 #### Leer y capturar en variable
 
 ```bash
-OUTPUT=$(swift scripts/read_excel.swift "/Users/carlosgil/Downloads/datos.xlsx")
+OUTPUT=$(swift scripts/read_excel.swift "$HOME/Downloads/datos.xlsx")
 echo "$OUTPUT"
 ```
 
