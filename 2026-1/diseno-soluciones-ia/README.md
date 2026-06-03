@@ -103,7 +103,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 
 ### Evaluación PA01: Formación de Problemas y Viabilidad de IA
 
-- 📋 [diseno-soluciones-ia-pa01-solucion.md](./actividad-1-eval/diseno-soluciones-ia-pa01-solucion.md) — Solución completa:
+- 📋 diseno-soluciones-ia-pa01-solucion.md — [pendiente] (archivo no incluido en el repositorio) — Solución completa:
   - **P1 (8pts):** Formulación SMART de problema + Evaluación de viabilidad para IA
   - **P2 (12pts):** Riesgos en datos deficientes + Expectativas irreales + Plan de acción pre-implementación
 
