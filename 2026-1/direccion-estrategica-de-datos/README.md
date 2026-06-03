@@ -16,8 +16,8 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 
 | # | Tema | Descripción | Solución |
 |---|------|-------------|----------|
-| PA001 | **Transformación Data-Driven en Empresa Global** | Diagnóstico, propuesta estratégica, modelo de negocio, gobernanza y riesgos del caso Glovo | [✅ Caso Glovo](./act-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) |
-| EP002 | **Transformación Digital de Mercado Andino** | Diagnóstico, innovación basada en datos, Agile, Design Thinking, cambio y gobierno de datos | [✅ Caso Mercado Andino](./act-2/direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md) |
+| PA001 | **Transformación Data-Driven en Empresa Global** | Diagnóstico, propuesta estratégica, modelo de negocio, gobernanza y riesgos del caso Glovo | [✅ Caso Glovo](./actividad-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) |
+| EP002 | **Transformación Digital de Mercado Andino** | Diagnóstico, innovación basada en datos, Agile, Design Thinking, cambio y gobierno de datos | [✅ Caso Mercado Andino](./actividad-2/direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md) |
 
 ---
 
@@ -62,7 +62,7 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 - **Contenido:** Resumen ejecutivo + Métodos y Herramientas + Comunicación Efectiva + Caso Real (Automatización de Facturas) + Rol del Nuevo Líder (caso Carlos Javier) + 8 Pasos Kotter + Capacitación + Resistencia + Checklist + Código Python ejecutable
 
 ### Actividades
-- ✅ [direccion-estrategica-de-datos-pa001-glovo-solucion.md](./act-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) — Caso Glovo: diagnóstico, estrategia, gobernanza y riesgos
+- ✅ [direccion-estrategica-de-datos-pa001-glovo-solucion.md](./actividad-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) — Caso Glovo: diagnóstico, estrategia, gobernanza y riesgos
 
 ---
 
@@ -91,7 +91,7 @@ direccion-estrategica-de-datos/
 │   ├── direccion-estrategica-de-datos-gestion-cambio-clase-6.md
 │   ├── 40062-S06-PPT.pdf
 │   └── 40062-S06-PPT.pptx
-├── act-1/
+├── actividad-1/
 │   └── direccion-estrategica-de-datos-pa001-glovo-solucion.md
 └── README.md (este archivo)
 ```

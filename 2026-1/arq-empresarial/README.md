@@ -23,6 +23,7 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 | 5 | **Gestión del Portafolio Arquitectónico** | As-Is, To-Be, planeamiento de transición | [📄](./clase-5/gestion-portafolio-arquitectonico-clase-5.md) | [📊](./clase-5/40096-S05-PRESENTACION.pdf) |
 | 6 | **Modelos de Madurez y Gobierno Estratégico** | CMMI, TOGAF CMM, evaluación de capacidad organizacional | [📄](./clase-6/arquitectura-empresarial-madurez-gobierno-clase-6.md) | [📊](./clase-6/40096-S06-PRESENTACION.pdf) |
 | 7 | **Enfoques de Arquitectura Empresarial según Sector** | Arquitectura adaptada a sectores (financiero, retail, salud, industrial, público), lógica competitiva, traducción estratégica | [📄](./clase-7/arquitectura-empresarial-enfoques-por-sector-clase-7.md) | [📊](./clase-7/40096-S07-PRESENTACION.pdf) |
+| 9 | **Arquitectura del negocio y capacidades empresariales** | Estructura organizacional, mapa de capacidades, flujos de valor y Business Model Canvas | [📄](./clase-9/arquitectura-del-negocio-y-capacidades-clase-9.md) | [📊](./clase-9/40096-S09-PRESENTACION.pdf) |
 
 ---
 
@@ -30,8 +31,8 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 
 | # | Tema | Descripción | Recursos |
 |---|------|-------------|-----------|
-| PA01 | **Principios de Arquitectura Empresarial en Organizaciones Reales** | Identificar los 4 dominios (Negocio, Datos, Aplicaciones, Tecnología), su definición, razón fundamental e implicaciones. | [✅ Caso Banco](./act-1/arquitectura-empresarial-solucion-actividad-1.md) \| [✅ Caso Retail](./act-1/arquitectura-empresarial-pa01-retail-Metro.md) |
-| PA02 | **Ejemplo Completo: Transformación Digital de Metro** | Caso práctico de arquitectura empresarial aplicada: matriz AS-IS vs TO-BE, 4 dominios, iniciativas omnicanal, roadmap de transformación 18 meses, KPIs. | [📘 Ejemplo Metro Retail](./act-2/arquitectura-empresarial-ejemplo-banco-digital-act-2.md) |
+| PA01 | **Principios de Arquitectura Empresarial en Organizaciones Reales** | Identificar los 4 dominios (Negocio, Datos, Aplicaciones, Tecnología), su definición, razón fundamental e implicaciones. | [✅ Caso Banco](./actividad-1/arquitectura-empresarial-solucion-actividad-1.md) \| [✅ Caso Retail](./actividad-1/arquitectura-empresarial-pa01-retail-Metro.md) |
+| PA02 | **Ejemplo Completo: Transformación Digital de Metro** | Caso práctico de arquitectura empresarial aplicada: matriz AS-IS vs TO-BE, 4 dominios, iniciativas omnicanal, roadmap de transformación 18 meses, KPIs. | [📘 Ejemplo Metro Retail](./actividad-2/arquitectura-empresarial-ejemplo-banco-digital-act-2.md) |
 
 ---
 
@@ -60,15 +61,23 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 
 ### Clase 6: Modelos de Madurez y Gobierno Estratégico
 - 📄 [arquitectura-empresarial-madurez-gobierno-clase-6.md](./clase-6/arquitectura-empresarial-madurez-gobierno-clase-6.md)
-- � [40096-S06-PRESENTACION.pdf](./clase-6/40096-S06-PRESENTACION.pdf) — Presentación original
-- �🔍 Conceptos: CMMI, TOGAF CMM, evaluación de capacidad, AS-IS vs TO-BE
+- 📊 [40096-S06-PRESENTACION.pdf](./clase-6/40096-S06-PRESENTACION.pdf) — Presentación original
+- 🔍 Conceptos: CMMI, TOGAF CMM, evaluación de capacidad, AS-IS vs TO-BE
+
+### Clase 7: Enfoques de Arquitectura Empresarial según Sector
+- 📄 [arquitectura-empresarial-enfoques-por-sector-clase-7.md](./clase-7/arquitectura-empresarial-enfoques-por-sector-clase-7.md)
+- 📊 [40096-S07-PRESENTACION.pdf](./clase-7/40096-S07-PRESENTACION.pdf)
+
+### Clase 9: Arquitectura del negocio y capacidades empresariales
+- 📄 [arquitectura-del-negocio-y-capacidades-clase-9.md](./clase-9/arquitectura-del-negocio-y-capacidades-clase-9.md)
+- 📊 [40096-S09-PRESENTACION.pdf](./clase-9/40096-S09-PRESENTACION.pdf)
 
 ### Actividad 1
-- ✅ [arquitectura-empresarial-solucion-actividad-1.md](./act-1/arquitectura-empresarial-solucion-actividad-1.md) — Caso BancoXYZ (sector financiero)
-- ✅ [arquitectura-empresarial-pa01-retail-Metro.md](./act-1/arquitectura-empresarial-pa01-retail-Metro.md) — Caso Metro (sector retail)
+- ✅ [arquitectura-empresarial-solucion-actividad-1.md](./actividad-1/arquitectura-empresarial-solucion-actividad-1.md) — Caso BancoXYZ (sector financiero)
+- ✅ [arquitectura-empresarial-pa01-retail-Metro.md](./actividad-1/arquitectura-empresarial-pa01-retail-Metro.md) — Caso Metro (sector retail)
 
 ### Actividad 2
-- 📘 [arquitectura-empresarial-ejemplo-banco-digital-act-2.md](./act-2/arquitectura-empresarial-ejemplo-banco-digital-act-2.md) — Caso completo Metro: Transformación retail omnicanal, 4 dominios, 6 iniciativas, roadmap 18 meses, KPIs de negocio
+- 📘 [arquitectura-empresarial-ejemplo-banco-digital-act-2.md](./actividad-2/arquitectura-empresarial-ejemplo-banco-digital-act-2.md) — Caso completo Metro: Transformación retail omnicanal, 4 dominios, 6 iniciativas, roadmap 18 meses, KPIs de negocio
 
 ---
 
@@ -96,12 +105,12 @@ arq-empresarial/
 ├── clase-6/
 │   ├── arquitectura-empresarial-madurez-gobierno-clase-6.md
 │   └── 40096-S06-PRESENTACION.pptx
-├── act-1/
+├── actividad-1/
 │   ├── arquitectura-empresarial-solucion-actividad-1.md
 │   ├── arquitectura-empresarial-pa01-retail-Metro.md
 │   ├── Ejemplo - Escenario de Negocios.xlsx
 │   └── Formato a llenar - Escenario de Negocios.xlsx
-├── act-2/
+├── actividad-2/
 │   ├── arquitectura-empresarial-ejemplo-banco-digital-act-2.md
 │   ├── Ejemplo - Escenario de Negocios.xlsx
 │   └── Formato a llenar - Escenario de Negocios.xlsx

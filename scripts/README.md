@@ -8,12 +8,12 @@ Utilidades en Swift para procesar archivos y datos en el contexto de cursos de I
 
 | Script | Propósito | Skill | Estado |
 |--------|----------|-------|--------|
-| `read_excel.swift` | Leer archivos Excel (.xlsx) | [READ_EXCEL.skill.md](./READ_EXCEL.skill.md) | ✅ Activo |
-| `read_pdf.swift` | Extraer texto de PDFs | [READ_PDF.skill.md](./READ_PDF.skill.md) | ✅ Activo |
-| `read_ppt.swift` | Leer contenido de PowerPoints | [READ_PPT.skill.md](./READ_PPT.skill.md) | ✅ Activo |
-| `read_word.swift` | Procesar documentos Word (.docx) | [READ_WORD.skill.md](./READ_WORD.skill.md) | ✅ Activo |
+| `read_excel.swift` | Leer archivos Excel (.xlsx) | [excel-reader](../.github/skills/utilities/excel-reader/SKILL.md) | ✅ Activo |
+| `read_pdf.swift` | Extraer texto de PDFs | [utilities](../.github/skills/utilities/) | ✅ Activo |
+| `read_ppt.swift` | Leer contenido de PowerPoints | [utilities](../.github/skills/utilities/) | ✅ Activo |
+| `read_word.swift` | Procesar documentos Word (.docx) | [utilities](../.github/skills/utilities/) | ✅ Activo |
 | `convert_ppt_to_pdf.swift` | Convertir PowerPoint a PDF | — | ✅ Activo |
-| `ocr_images.swift` | Extraer texto de imágenes con OCR | [OCR_IMAGENES.skill.md](./OCR_IMAGENES.skill.md) | ✅ Activo |
+| `ocr_images.swift` | Extraer texto de imágenes con OCR | [images](../.github/skills/documentation/images/SKILL.md) | ✅ Activo |
 | `transcribe_audio.swift` | Transcribir archivos de audio | — | ✅ Activo |
 | `remove_converted_pptx.swift` | Limpiar archivos PowerPoint temporales | — | ✅ Activo |
 
@@ -114,9 +114,11 @@ Para agregar un nuevo script:
 
 ## 🔗 Relacionados
 
-- [Guía de Documentación](../.github/instructions/documentacion-humana.instructions.md)
-- [OCR para Imágenes](./OCR_IMAGENES.skill.md)
+- [Skills de Documentación](../.github/skills/documentation/)
+- [Skills de Utilidades](../.github/skills/utilities/)
+- [OCR para Imágenes](../.github/skills/documentation/images/SKILL.md)
 - [AGENTS.md](../AGENTS.md) — Control de agentes
+- [MIGRATION.md](../.github/skills/MIGRATION.md) — Reorganización de skills
 
 ---
 
