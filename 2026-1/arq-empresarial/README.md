@@ -31,8 +31,8 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 
 | # | Tema | Descripción | Recursos |
 |---|------|-------------|-----------|
-| PA01 | **Principios de Arquitectura Empresarial en Organizaciones Reales** | Identificar los 4 dominios (Negocio, Datos, Aplicaciones, Tecnología), su definición, razón fundamental e implicaciones. | [✅ Caso Banco](./actividad-1/arquitectura-empresarial-solucion-actividad-1.md) \| [✅ Caso Retail](./actividad-1/arquitectura-empresarial-pa01-retail-Metro.md) |
-| PA02 | **Ejemplo Completo: Transformación Digital de Metro** | Caso práctico de arquitectura empresarial aplicada: matriz AS-IS vs TO-BE, 4 dominios, iniciativas omnicanal, roadmap de transformación 18 meses, KPIs. | [📘 Ejemplo Metro Retail](./actividad-2/arquitectura-empresarial-ejemplo-banco-digital-act-2.md) |
+| PA01 | **Principios de Arquitectura Empresarial en Organizaciones Reales** | Identificar los 4 dominios (Negocio, Datos, Aplicaciones, Tecnología), su definición, razón fundamental e implicaciones. | [✅ Caso Banco](./actividad-1/arquitectura-empresarial-solucion-actividad-1.md) \| [✅ Caso Retail](./actividad-1/arquitectura-empresarial-pa01-retail-megastore.md) |
+| PA02 | **Ejemplo Completo: Transformación Digital de Metro** | Caso práctico de arquitectura empresarial aplicada: matriz AS-IS vs TO-BE, 4 dominios, iniciativas omnicanal, roadmap de transformación 18 meses, KPIs. | [📘 Ejemplo Metro Retail](./actividad-2/arquitectura-empresarial-ejemplo-metro-act-2.md) |
 
 ---
 
