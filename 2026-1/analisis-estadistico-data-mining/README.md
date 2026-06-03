@@ -90,6 +90,11 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 - **Contenido:** Minería de datos, calidad de datos, imputación y normalización
 - **Temas:** Reglas de asociación, clasificación, clustering, registros duplicados, nombres inconsistentes, Z-score
 
+#### Actividad Sesión 8: Minería de Datos Aplicada a Clientes Retail
+- 📄 [analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md](./actividad-sesion-8/analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md)
+- **Contenido:** Laboratorio resuelto de limpieza, clasificación y clustering sobre clientes retail
+- **Temas:** imputación, outliers, codificación, StandardScaler, árbol de decisión, accuracy, precision, recall, matriz de confusión, K-Means, silhouette
+
 ---
 
 ## Estructura de la Carpeta
@@ -118,6 +123,9 @@ analisis-estadistico-data-mining/
 │   ├── analisis-estadistico-data-mining-preparacion-datos-clase-6.md
 │   ├── 40097-S06-PRESENTACION.pdf
 │   └── [PPTX convertido a PDF]
+├── actividad-sesion-8/
+│   ├── ACTIVIDAD SESIÓN 8.docx
+│   └── analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md
 ├── actividad-1/
 │   └── analisis-estadistico-data-mining-pa01-respuestas.md
 └── README.md (este archivo)

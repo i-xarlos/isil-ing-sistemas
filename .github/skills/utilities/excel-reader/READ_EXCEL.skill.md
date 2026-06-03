@@ -109,7 +109,7 @@ swift scripts/read_excel.swift "/Users/carlosgil/Downloads/Formato a llenar - Es
 
 ```bash
 # Verificar si archivo tiene contenido
-swift scripts/read_excel.swift "/Users/carlosgil/isil/2026-1/arq-empresarial/act-2/datos.xlsx" | wc -l
+swift scripts/read_excel.swift "/Users/carlosgil/isil/2026-1/arq-empresarial/actividad-2/datos.xlsx" | wc -l
 ```
 
 ### Caso 3: Extraer Datos para Markdown

@@ -15,7 +15,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 ## Contenido por Clase/Actividad
 
 | # | Tipo | Tema | Descripción | Recurso |
-|---|------|------|-------------|----------|
+| --- | ------ | ------ | ------------- | ---------- |
 | 1 | Clase | **Introducción a IA** | Definición, contexto empresarial, tendencias 2026 | [📄](./clase-1/diseno-soluciones-ia-introduccion-clase-1.md) |
 | 2 | Clase | **Tipos de IA y Ramas** | Narrow, Generativa, ML, Deep Learning | [📄](./clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md) |
 | 3 | Clase | **IA: Tipos, Riesgos y Desarrollo** | 4 tipos IA, 5 riesgos éticos, 8 fases, valor estratégico | [📄](./clase-3/diseno-soluciones-ia-inteligencia-artificial-tema-02-clase-3.md) |
@@ -24,24 +24,29 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 6 | Clase | **Insights: Análisis Univariado, Bivariado y Multivariado** | Correlaciones, técnicas de dimensionalidad (PCA, LDA), generación de insights | [📄](./clase-6/diseno-soluciones-ia-insights-analisis-datos-clase-6.md) |
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | 2 | Actividad | **Calidad de Datos y Reducción de Dimensionalidad** | Evaluación de problemas de calidad, PCA y relación vs causalidad | [📄](./actividad-2/diseno-soluciones-ia-actividad-2-solucion.md) |
-| PA01 | Evaluación | **Formulación de Problemas y Viabilidad IA** | 2 casos: clasificación incidencias + diagnóstico médico sesgado | [📄](./actividad-1-eval/diseno-soluciones-ia-pa01-solucion.md) |
+| 8 | Actividad | **EDA, limpieza e insights con Python** | Dataset sintético, imputación, outliers, correlaciones y storytelling de negocio | [📄](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md) |
+| PA01 | Evaluación | **Formulación de Problemas y Viabilidad IA** | 2 casos: clasificación incidencias + diagnóstico médico sesgado | [pendiente] |
 
 ---
 
 ## Índice Completo de Recursos
 
 ### Clase 1: Introducción a IA
+
 - 📄 [diseno-soluciones-ia-introduccion-clase-1.md](./clase-1/diseno-soluciones-ia-introduccion-clase-1.md)
 
 ### Clase 2: Tipos de IA y Ramas
+
 - 📄 [diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md](./clase-2/diseno-soluciones-ia-inteligencia-artificial-y-ramas-clase-2.md)
 - 🖼️ Gráficos: `inteligencia-artificial-capacidades-clave-clase-2.png`, `inteligencia-artificial-datos-y-valor-clase-2.png`
 
 ### Clase 3: IA — Tipos, Riesgos y Desarrollo
+
 - 📄 [diseno-soluciones-ia-inteligencia-artificial-tema-02-clase-3.md](./clase-3/diseno-soluciones-ia-inteligencia-artificial-tema-02-clase-3.md)
 - 🖼️ 8 Gráficos integrados: tipos IA, priorizacion, riesgos éticos, valor estratégico, fases 1-4, fases 5-8, preparación datos, recolección etiquetado
 
 ### Clase 4: Integración Estratégica y Ética de IA
+
 - 📄 [diseno-soluciones-ia-integracion-etica-clase-4.md](./clase-4/diseno-soluciones-ia-integracion-etica-clase-4.md)
 - 📋 Temas:
   - **Análisis de contexto:** Cadena de valor, gestión de datos, soluciones operacionales
@@ -60,8 +65,9 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 - 📊 Contenido: 17 secciones con ejemplos prácticos, código Python, casos reales
 
 ### Clase 5: Calidad de Datos
+
 - 📄 [diseno-soluciones-ia-calidad-datos-clase-5.md](./clase-5/diseno-soluciones-ia-calidad-datos-clase-5.md)
-- 📋 Temas: 
+- 📋 Temas:
   - **Datos nulos:** Definición, causas, estrategias (eliminación vs. imputación), patrones (MCAR, MAR, MNAR), código con Pandas y KNN
   - **Outliers:** Detección (3-sigma, IQR, Z-score, Isolation Forest), tipos (global, local, collective), decisiones (eliminar, transformar, investigar)
   - **Formatos incorrectos:** Type casting, limpieza de texto, validación de rangos, estandarización
@@ -69,6 +75,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 - 📊 Contenido: 4 secciones principales + código práctico en Python para cada técnica
 
 ### Clase 6: Insights — Análisis Univariado, Bivariado y Multivariado
+
 - 📄 [diseno-soluciones-ia-insights-analisis-datos-clase-6.md](./clase-6/diseno-soluciones-ia-insights-analisis-datos-clase-6.md)
 - 📊 PDF: `40098-S06-PRESENTACION.pdf`
 - 📋 Temas:
@@ -84,11 +91,19 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 - 📊 Contenido: 10 secciones con ejemplos reales, diagramas ASCII, tablas comparativas, casos de negocio
 
 ### Actividad 1: SWE-Bench Verified
+
 - 📄 [swe-bench-comparacion-modelos-actividad-1.md](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md)
 - 🖼️ Gráficos: `mrcrv2-benchmark-actividad-1.png`, `modelos-claude-3-5-comparativa-actividad-1.png`
 
+### Actividad 8: EDA, limpieza e insights con Python
+
+- 📄 [diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md)
+- 📝 Material base: `ACTIVIDAD SESIÓN 8.docx`
+- 📋 Temas: dataset sintético, valores faltantes, imputación, IQR, correlación de Pearson, normalización Min-Max, insights y storytelling
+
 ### Evaluación PA01: Formación de Problemas y Viabilidad de IA
-- 📋 [diseno-soluciones-ia-pa01-solucion.md](./actividad-1-eval/diseno-soluciones-ia-pa01-solucion.md) — Solución completa:
+
+- 📋 diseno-soluciones-ia-pa01-solucion.md — [pendiente] (archivo no incluido en el repositorio) — Solución completa:
   - **P1 (8pts):** Formulación SMART de problema + Evaluación de viabilidad para IA
   - **P2 (12pts):** Riesgos en datos deficientes + Expectativas irreales + Plan de acción pre-implementación
 
@@ -96,7 +111,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 
 ## Estructura de la Carpeta
 
-```
+```txt
 diseno-soluciones-ia/
 ├── clase-1/
 │   ├── README.md
@@ -125,6 +140,9 @@ diseno-soluciones-ia/
 │   ├── README.md
 │   ├── swe-bench-comparacion-modelos-actividad-1.md
 │   └── [gráficos]
+├── actividad-8/
+│   ├── ACTIVIDAD SESIÓN 8.docx
+│   └── diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md
 └── README.md (este archivo)
 ```
 
@@ -132,6 +150,7 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **30/05/2026:** Actividad 8 documentada: EDA con Python, imputación, outliers, correlaciones, normalización e insights de negocio
 - **13/05/2026:** Clase 6 documentada: Insights, análisis univariado, bivariado y multivariado, reducción de dimensionalidad (PCA/LDA), storytelling con datos
 - **06/05/2026:** Clase 4 enriquecida: Análisis Exploratorio de Datos (EDA), estadística descriptiva, correlaciones, visualización con Python y Excel
 - **06/05/2026:** Clase 5 documentada: Calidad de Datos (nulos, outliers, formatos, normalización) con código Python completo
@@ -145,5 +164,6 @@ diseno-soluciones-ia/
 ## Recursos Transversales
 
 Consulta también:
+
 - [INDICE-CONCEPTOS](../../_meta/INDICE-CONCEPTOS.md) — Términos clave de la cohorte
 - [README Principal](../../README.md) — Índice general del repositorio

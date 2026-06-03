@@ -53,7 +53,7 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 - 📊 [40064_S06_PPT.pdf](./clase-6/40064_S06_PPT.pdf)
 
 ### Actividad 1: Proyecto RAPIDGO
-- 📋 [RAPIDGO-solucion-actividad-1.md](./act-1/RAPIDGO-solucion-actividad-1.md) — Solución completa con diagnóstico, investigación, MVP/MLP y plan ágil
+- 📋 [RAPIDGO-solucion-actividad-1.md](./actividad-1/RAPIDGO-solucion-actividad-1.md) — Solución completa con diagnóstico, investigación, MVP/MLP y plan ágil
 
 ---
 
@@ -82,7 +82,7 @@ customer-centricity-ti/
 │   ├── customer-centricity-design-thinking-clase-6.md
 │   ├── 40064_S06_PPT.pptx
 │   └── 40064_S06_PPT.pdf
-├── act-1/
+├── actividad-1/
 │   ├── PA1 CUSTOMER CENTRICITY.docx
 │   ├── MEJORAS-SUGERIDAS-GRUPO-C.md
 │   └── RAPIDGO-solucion-actividad-1.md
