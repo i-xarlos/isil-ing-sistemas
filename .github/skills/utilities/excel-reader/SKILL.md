@@ -170,7 +170,7 @@ EOF
 **Solución:**
 ```bash
 # Verificar ruta exacta
-ls -la "/Users/carlosgil/Downloads/archivo.xlsx"
+ls -la "$HOME/Downloads/archivo.xlsx"
 
 # Usar ruta completa
 swift scripts/read_excel.swift "/Users/carlosgil/Downloads/archivo.xlsx"
