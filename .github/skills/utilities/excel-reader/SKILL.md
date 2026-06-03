@@ -42,7 +42,7 @@ swift scripts/read_excel.swift "$HOME/Downloads/Ejemplo - Escenario de Negocios.
 #### Leer archivo en el workspace
 
 ```bash
-swift scripts/read_excel.swift "/Users/carlosgil/isil/2026-1/datos/escenarios.xlsx"
+swift scripts/read_excel.swift "2026-1/datos/escenarios.xlsx"
 ```
 
 #### Leer y capturar en variable
