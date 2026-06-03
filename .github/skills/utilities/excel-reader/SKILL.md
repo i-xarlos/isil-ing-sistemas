@@ -173,7 +173,7 @@ EOF
 ls -la "$HOME/Downloads/archivo.xlsx"
 
 # Usar ruta completa
-swift scripts/read_excel.swift "/Users/carlosgil/Downloads/archivo.xlsx"
+swift scripts/read_excel.swift "$HOME/Downloads/archivo.xlsx"
 ```
 
 ### Error: "El archivo debe ser Excel (.xlsx o .xls)"
