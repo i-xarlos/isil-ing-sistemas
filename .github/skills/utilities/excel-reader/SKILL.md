@@ -36,7 +36,7 @@ swift scripts/read_excel.swift "<ruta_archivo_excel>"
 #### Leer archivo en Downloads
 
 ```bash
-swift scripts/read_excel.swift "/Users/carlosgil/Downloads/Ejemplo - Escenario de Negocios.xlsx"
+swift scripts/read_excel.swift "$HOME/Downloads/Ejemplo - Escenario de Negocios.xlsx"
 ```
 
 #### Leer archivo en el workspace
