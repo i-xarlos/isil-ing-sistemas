@@ -1,4 +1,4 @@
-# Exploración, limpieza, visualización e insights de datos con Python (Actividad Sesión 8)
+# Exploración, limpieza, visualización e insights de datos con Python (Actividad 8)
 
 **Curso:** Diseño de Soluciones con IA (ISIL, 2026-1)  
 **Docente:** Omar David Visitación Romero  

@@ -24,7 +24,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 6 | Clase | **Insights: Análisis Univariado, Bivariado y Multivariado** | Correlaciones, técnicas de dimensionalidad (PCA, LDA), generación de insights | [📄](./clase-6/diseno-soluciones-ia-insights-analisis-datos-clase-6.md) |
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | 2 | Actividad | **Calidad de Datos y Reducción de Dimensionalidad** | Evaluación de problemas de calidad, PCA y relación vs causalidad | [📄](./actividad-2/diseno-soluciones-ia-actividad-2-solucion.md) |
-| S8 | Actividad | **EDA, limpieza e insights con Python** | Dataset sintético, imputación, outliers, correlaciones y storytelling de negocio | [📄](./actividad-sesion-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md) |
+| 8 | Actividad | **EDA, limpieza e insights con Python** | Dataset sintético, imputación, outliers, correlaciones y storytelling de negocio | [📄](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md) |
 | PA01 | Evaluación | **Formulación de Problemas y Viabilidad IA** | 2 casos: clasificación incidencias + diagnóstico médico sesgado | [pendiente] |
 
 ---
@@ -95,9 +95,9 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 - 📄 [swe-bench-comparacion-modelos-actividad-1.md](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md)
 - 🖼️ Gráficos: `mrcrv2-benchmark-actividad-1.png`, `modelos-claude-3-5-comparativa-actividad-1.png`
 
-### Actividad Sesión 8: EDA, limpieza e insights con Python
+### Actividad 8: EDA, limpieza e insights con Python
 
-- 📄 [diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md](./actividad-sesion-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md)
+- 📄 [diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md)
 - 📝 Material base: `ACTIVIDAD SESIÓN 8.docx`
 - 📋 Temas: dataset sintético, valores faltantes, imputación, IQR, correlación de Pearson, normalización Min-Max, insights y storytelling
 
@@ -140,7 +140,7 @@ diseno-soluciones-ia/
 │   ├── README.md
 │   ├── swe-bench-comparacion-modelos-actividad-1.md
 │   └── [gráficos]
-├── actividad-sesion-8/
+├── actividad-8/
 │   ├── ACTIVIDAD SESIÓN 8.docx
 │   └── diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md
 └── README.md (este archivo)
@@ -150,7 +150,7 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
-- **30/05/2026:** Actividad sesión 8 documentada: EDA con Python, imputación, outliers, correlaciones, normalización e insights de negocio
+- **30/05/2026:** Actividad 8 documentada: EDA con Python, imputación, outliers, correlaciones, normalización e insights de negocio
 - **13/05/2026:** Clase 6 documentada: Insights, análisis univariado, bivariado y multivariado, reducción de dimensionalidad (PCA/LDA), storytelling con datos
 - **06/05/2026:** Clase 4 enriquecida: Análisis Exploratorio de Datos (EDA), estadística descriptiva, correlaciones, visualización con Python y Excel
 - **06/05/2026:** Clase 5 documentada: Calidad de Datos (nulos, outliers, formatos, normalización) con código Python completo
