@@ -71,12 +71,46 @@ Esta clase cubre de forma completa los conceptos que intervienen en el diseño d
 - Las técnicas pueden incluir filtros estadísticos y reducción de dimensionalidad.
 
 ## Elección de modelos y algoritmos
-- Árbol de decisión: interpretable, bueno con datos categóricos.
-- Random Forest: combina muchos árboles y mejora precisión.
-- SVM: útil para fronteras complejas entre clases.
-- Redes Neuronales (incluido deep learning): capturan patrones complejos, requieren muchos datos.
-- K-Nearest Neighbors (KNN): basa predicciones en la cercanía de ejemplos.
-- Naive Bayes: algoritmo probabilístico simple y eficiente.
+### Árbol de decisión
+- Es interpretable y fácil de explicar: cada nodo representa una decisión basada en una característica.
+- Ideal para datos categóricos o mixtos y para casos donde el equipo necesita justificar decisiones.
+- No requiere mucha preparación de datos, pero puede sobreajustar si el árbol es muy profundo.
+
+### Random Forest
+- Agrupa muchos árboles de decisión y combina sus predicciones mediante votación o promedio.
+- Reduce el sobreajuste de árboles individuales y mejora la precisión general.
+- Es una buena primera opción cuando se necesita un modelo robusto y estable.
+- Hiperparámetros clave: número de árboles (`n_estimators`), profundidad máxima (`max_depth`) y número de variables por división (`max_features`).
+
+### SVM (Support Vector Machine)
+- Busca la frontera que mejor separa clases en el espacio de características.
+- Es útil cuando las clases no se separan linealmente, usando kernels como RBF o polinómico.
+- Funciona bien con datasets de tamaño medio y en problemas con muchas dimensiones.
+- Requiere normalizar los datos y seleccionar correctamente el parámetro de regularización (`C`).
+
+### Redes Neuronales
+- Capturan relaciones altamente no lineales y patrones complejos en datos grandes.
+- Pueden incluir capas ocultas, activaciones, regularización y optimización por descenso de gradiente.
+- Son la mejor opción cuando existe suficiente volumen de datos y se busca un modelo flexible.
+- Su desventaja es que suelen ser menos interpretable y requieren más tiempo de entrenamiento.
+
+### K-Nearest Neighbors (KNN)
+- Basa la predicción en los `k` ejemplos más cercanos en el espacio de características.
+- Es fácil de entender y no requiere un entrenamiento costoso, pero la predicción puede ser lenta en datasets grandes.
+- Funciona bien cuando la distancia entre ejemplos refleja similitud real.
+- Es sensible al escalado de variables, por lo que es importante normalizar los datos.
+
+### Naive Bayes
+- Es un modelo probabilístico que asume independencia entre características.
+- Es rápido, sencillo y útil para textos o clasificación con muchas variables.
+- Aunque su suposición es simplificada, suele funcionar bien en la práctica para problemas de clasificación básica.
+- Buena opción cuando se necesita una solución simple y rápida como baseline.
+
+### Cómo elegir entre ellos
+- Si necesitas interpretabilidad y explicaciones claras, elige árboles de decisión o Random Forest.
+- Para problemas de clasificación con fronteras complejas, SVM es una buena alternativa.
+- Si tienes muchos datos y quieres capturar patrones complejos, considera redes neuronales.
+- Para un enfoque simple y rápido de prueba, Naive Bayes o KNN pueden ser útiles.
 
 ## Entrenamiento del modelo
 - Predicción: el modelo recibe datos de entrada y genera una salida.
