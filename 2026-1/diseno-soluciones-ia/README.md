@@ -22,6 +22,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 4 | Clase | **Integración Estratégica y Ética de IA** | EDA, estadística descriptiva, correlaciones, visualización, Design Thinking, ética y sesgos | [📄](./clase-4/diseno-soluciones-ia-integracion-etica-clase-4.md) |
 | 5 | Clase | **Calidad de Datos** | Datos nulos, outliers, formatos incorrectos, normalización | [📄](./clase-5/diseno-soluciones-ia-calidad-datos-clase-5.md) |
 | 6 | Clase | **Insights: Análisis Univariado, Bivariado y Multivariado** | Correlaciones, técnicas de dimensionalidad (PCA, LDA), generación de insights | [📄](./clase-6/diseno-soluciones-ia-insights-analisis-datos-clase-6.md) |
+| 8 | Clase | **Análisis y calidad de datos** | Limpieza, normalización, outliers, insights, KPIs y storytelling | [📄](./clase-8/diseno-soluciones-ia-analisis-calidad-datos-clase-8.md) |
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | 2 | Actividad | **Calidad de Datos y Reducción de Dimensionalidad** | Evaluación de problemas de calidad, PCA y relación vs causalidad | [📄](./actividad-2/diseno-soluciones-ia-actividad-2-solucion.md) |
 | 8 | Actividad | **EDA, limpieza e insights con Python** | Dataset sintético, imputación, outliers, correlaciones y storytelling de negocio | [📄](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md) |
@@ -89,6 +90,16 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
   - **Errores Comunes:** Falacia de causalidad, ceguera del entorno, sobreingeniería
   - **Principios de Calidad:** Análisis integral, síntesis eficiente, accionabilidad
 - 📊 Contenido: 10 secciones con ejemplos reales, diagramas ASCII, tablas comparativas, casos de negocio
+
+### Clase 8: Análisis y calidad de datos
+
+- 📄 [diseno-soluciones-ia-analisis-calidad-datos-clase-8.md](./clase-8/diseno-soluciones-ia-analisis-calidad-datos-clase-8.md)
+- 📋 Temas:
+  - **Importancia del análisis y la calidad de los datos** como fase previa a la IA
+  - **Limpieza y transformación:** nulos, outliers, normalización, librerías Python
+  - **Generación de insights:** análisis univariado, bivariado y multivariado
+  - **Diseño de datasets y KPIs:** medición de objetivos y storytelling
+  - **Laboratorio:** actividad sesión 8 en Google Colab
 
 ### Actividad 1: SWE-Bench Verified
 

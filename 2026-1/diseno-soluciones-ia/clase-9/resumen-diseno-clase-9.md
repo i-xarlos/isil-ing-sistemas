@@ -17,6 +17,43 @@ Esta clase cubre de forma completa los conceptos que intervienen en el diseño d
 - Comprender cómo funcionan los modelos es clave antes de implementarlos en el negocio.
 - Esta sesión mezcla teoría con aplicación práctica, usando herramientas como Google Colab, Python y librerías de IA.
 
+## Transición del desarrollo de software tradicional hacia IA
+### El modelo tradicional de programación
+- En el desarrollo clásico, el programador define reglas de negocio y diseña algoritmos exactos.
+- Si conoce la ecuación y la entrada, la salida es 100% predecible.
+- Ejemplo: la fórmula $Y = 4X + 1$ produce `Y = 1` cuando `X = 0` y `Y = 41` cuando `X = 10`.
+- Este enfoque funciona bien para procesos de complejidad baja o media.
+- Limitación: no sirve en problemas complejos con variables humanas o comportamientos impredecibles.
+
+### El enfoque basado en probabilidades y Big Data
+- En problemas complejos ya no se busca certeza absoluta, sino un margen de probabilidad.
+- Con un solo dato aislado, la predicción de comportamiento es muy débil.
+- Con un historial amplio (compras pasadas, fechas, horas, productos recurrentes, edad, incluso emociones), el modelo acierta con mayor frecuencia.
+- La calidad y volumen de datos son la base de cualquier modelo robusto.
+
+### Aplicación comercial (Business Analytics)
+- El objetivo final es maximizar utilidades y vender más.
+- Un modelo robusto permite anticipar publicidad y promociones personalizadas.
+- Ayuda a asegurar stock antes de la demanda real y evita perder ventas.
+- Favorece la fidelización al ofrecer experiencias más relevantes al cliente.
+
+### Capas de IA: del Machine Learning a la IA Generativa
+- **Machine Learning** es la base: usa técnicas matemáticas para hacer predicciones o clasificaciones.
+- **Deep Learning** usa redes neuronales para capturar patrones complejos y aproximar razonamientos más profundos.
+- **IA Generativa / NLP** es la capa visible: permite crear y razonar en lenguaje natural.
+- Ejemplo práctico: al mostrar la imagen de la mitad de una manzana, la IA puede reconstruir la otra mitad sin programación explícita.
+
+### Debate y experiencias reales en el mundo laboral
+- Modelos avanzados como Claude 3 Opus alcanzan alrededor de 55-60% de capacidad de razonamiento humano según algunos benchmarks.
+- **Claude Opus**: poderoso y estructurado, pero más costoso en tokens y a veces más lento.
+- **ChatGPT / Codex**: eficiente y rápido para tareas específicas de código.
+- **Kimi (2.3)**: útil para Frontend, con consumo de tokens más bajo y resultados visuales atractivos.
+
+### La “línea roja” del programador
+- Aunque muchas empresas promueven un enfoque AI First, el desarrollador debe mantener la supervisión.
+- No se debe aceptar ni producir código que no se entienda completamente.
+- Los errores y el mantenimiento futuro siempre recaen en el humano, no en la IA.
+
 ## Tipos de aprendizaje de modelos IA
 ### Aprendizaje supervisado
 - Se entrena con datos etiquetados.
