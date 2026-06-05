@@ -23,6 +23,8 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 | 5 | **Minería de Datos** | Definición, aplicaciones (comercio, medicina, redes sociales), tipos (clasificación, clustering, asociación, predicción), ética, desafíos, herramientas | [📄](./clase-5/analisis-estadistico-data-mining-mineria-datos-clase-5.md) |
 | 6 | **Preparación de Datos** | Limpieza, transformación, manejo de faltantes, normalización (z-score, min-max), estandarización, casos prácticos en R y Python | [📄](./clase-6/analisis-estadistico-data-mining-preparacion-datos-clase-6.md) |
 | 7 | **Algoritmos de Minería de Datos** | Clasificación (árboles, SVM, K-NN), clustering (k-means, jerárquico), reglas de asociación (Apriori), evaluación (precisión, recall, silhouette) | [📄](./clase-7/analisis-estadistico-data-mining-algoritmos-mineria-datos-clase-7.md) |
+| 8 | **Repaso sesión 8** | Estadística descriptiva vs inferencial, outliers, Big Data, limpieza de datos y evaluación de modelos | [📄](./clase-8/analisis-estadistico-data-mining-repaso-sesion-8-clase-8.md) |
+| 9 | **Instalación y entornos (R y Python)** | Entorno local, hardware recomendado, R vs Python, librerías e instalación, entornos virtuales | [📄](./clase-9/instalacion-r-python-entornos-clase-9.md) |
 
 ---
 
@@ -77,6 +79,26 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
   - **Aplicaciones prácticas:** Segmentación de clientes, detección de fraudes, predicción de morosidad
 - 📑 PDF: [40097-S07-PRESENTACION.pdf](./clase-7/40097-S07-PRESENTACION.pdf)
 - 🔧 **Implementación:** Ejemplos integrados con casos de banca retail
+
+### Clase 8: Repaso sesión 8
+- 📄 [analisis-estadistico-data-mining-repaso-sesion-8-clase-8.md](./clase-8/analisis-estadistico-data-mining-repaso-sesion-8-clase-8.md)
+- 📊 **Temas principales:**
+  - Estadística descriptiva vs inferencial
+  - Outliers y segmentación de clientes
+  - Big Data con Hadoop y Spark
+  - Calidad y limpieza de datos, imputación de valores faltantes
+  - Evaluación de modelos: precisión y falsos positivos
+- 📑 Laboratorio 8: entrega en Google Colab con enlace compartido
+
+### Clase 9: Instalación y entornos (R y Python)
+- 📄 [instalacion-r-python-entornos-clase-9.md](./clase-9/instalacion-r-python-entornos-clase-9.md)
+- 📊 **Temas principales:**
+  - Entorno local vs nube
+  - Requisitos de hardware para análisis de datos
+  - RStudio y Jupyter/VS Code
+  - Librerías clave en R y Python
+  - Entornos virtuales y reproducibilidad
+- 📑 PDF: [40097-S09-PRESENTACION.pdf](./clase-9/40097-S09-PRESENTACION.pdf)
 
 ### Actividades
 
