@@ -1,64 +1,112 @@
 # Instalación y entornos (R y Python) — Clase 9
 
-**Resumen ejecutivo**
+## 1. Introducción: Entorno local vs nube
 
-Esta sesión explica cómo preparar un entorno local para análisis de datos con R y Python: instalación, IDEs, librerías clave, gestión de dependencias, requisitos de hardware/software y buenas prácticas para entornos reproducibles.
+El profesor explicó que Google Colab es útil para practicar en la nube, pero es clave aprender a configurar un entorno local en la propia computadora.
 
-**Puntos clave**
+- **Entorno de nube** (Colab): fácil de iniciar, compartible y sin instalación local.
+- **Entorno local**: ejecuta código en la máquina propia, con independencia de internet y mejor control de los datos.
 
-- Instalación recomendada: R desde CRAN + RStudio; Python preferiblemente vía Anaconda/Miniconda (Python 3.9+).
-- Entornos reproducibles: `renv` o `packrat` (R); `conda` o `venv` (Python).
-- IDEs y herramientas: RStudio, Jupyter Notebook / JupyterLab, VS Code, PyCharm.
-- Librerías esenciales: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `plotly`, `scipy`, `statsmodels` (Python); `tidyverse`, `dplyr`, `ggplot2`, `readxl`, `shiny`, `caret` (R).
-- Configuración común: compatibilidad Excel/CSV, conectores de bases de datos (`RMySQL`, `pyodbc`).
-- Buenas prácticas: aislar dependencias por proyecto, documentar versiones, usar control de versiones y automatizar reportes (RMarkdown / Jupyter).
+### Ventajas del entorno local
 
-**Preparación del entorno local**
+- Independencia de internet una vez instaladas las librerías.
+- Confidencialidad: los datos permanecen en la PC y no se suben a servidores externos.
+- Acceso directo a hardware local, como cámaras o audio, que Colab no puede usar fácilmente.
 
-- El entorno local incluye el software necesario para ejecutar R y Python sin depender de internet.
-- Ventajas: practicar sin conexión, mayor control del entorno y mejor rendimiento/privacidad.
-- También es importante considerar hardware y software según la escala de datos.
+## 2. Requisitos de hardware recomendados
 
-**Requisitos hardware/software (orientativo)**
+Para trabajos de análisis, predicción y ML, el hardware recomendado es:
 
-- CPU: mínimo Intel i5 / Ryzen 5; recomendado i7 / Ryzen 7 para cálculos estadísticos grandes y training de modelos.
-- RAM: mínimo 8 GB para análisis básicos; recomendado 16 GB o más para datasets grandes.
-- Disco: SSD NVMe recomendado; 512 GB o más.
-- GPU: no esencial para estadística básica; recomendable para deep learning con TensorFlow o PyTorch.
+- **CPU:** mínimo Intel i5 / Ryzen 5; recomendado Intel i7 / Ryzen 7.
+- **Memoria RAM:** mínimo 8 GB; recomendado 16 GB o más para datasets grandes.
+- **GPU:** no esencial para estadística básica; recomendable para deep learning con TensorFlow/PyTorch.
+- **Disco:** SSD de 512 GB o más para mejor velocidad y gestión de archivos.
 
-**Instalación de R y RStudio**
+## 3. Entornos de desarrollo: R vs Python
+
+El profesor aclaró que no debe confundirse el lenguaje o intérprete con el IDE.
+
+### Ecosistema de R
+
+- Orientado a estadística aplicada e investigación académica.
+- IDE principal: **RStudio**.
+- Ventajas: paneles especializados para consola, editor y variables.
+- Limitaciones: puede ser menos eficiente en grandes volúmenes de datos.
+
+#### Flujo típico en RStudio
+
+- Editor de scripts para escribir código.
+- Consola para ejecutar y ver resultados.
+- Panel de entorno para revisar variables y datos cargados.
+
+### Ecosistema de Python
+
+- Líder en ciencia de datos, machine learning y deep learning.
+- IDEs recomendados: **Jupyter Notebook**, **VS Code**, **PyCharm**.
+- Ventajas: sintaxis amigable, comunidad amplia y buena escalabilidad.
+
+> Buenas prácticas: usar **entornos virtuales** para evitar que dependencias de un proyecto interfieran con otro.
+
+## 4. Librerías principales e instalación
+
+Las librerías son conjuntos de funciones listas para usar en análisis y modelado.
+
+### En R
+
+- `dplyr` / `tidyr`: manipulación y limpieza de datos.
+- `ggplot2`: gráficos avanzados.
+- `readxl` / `readr`: lectura de Excel, CSV y texto.
+- `stringr`: procesamiento de texto.
+- `lubridate`: manejo de fechas y tiempo.
+
+Ejemplo básico en R:
+
+```r
+# 1. Instalar el paquete (una sola vez)
+install.packages("dplyr")
+
+# 2. Cargar el paquete en el script actual
+library(dplyr)
+```
+
+### En Python
+
+- `pandas`: manipulación de datos en DataFrames.
+- `numpy`: operaciones con vectores y matrices.
+- `matplotlib` / `seaborn`: gráficos estadísticos.
+- `scikit-learn`: modelos clásicos de ML.
+
+Ejemplo de verificación:
+
+```bash
+python --version
+```
+
+Si devuelve una versión, la instalación local de Python está correcta.
+
+## 5. Instalación recomendada
+
+### R y RStudio
 
 1. Descargar R desde CRAN: https://cran.r-project.org/
-2. Instalar RStudio desde https://posit.co/download/rstudio-desktop/
-3. Verificar que RStudio abra con una consola activa.
+2. Instalar RStudio: https://posit.co/download/rstudio-desktop/
+3. Abrir RStudio y confirmar que la consola está activa.
 
-**Instalación de Python**
+### Python
 
-- Recomendado: Anaconda/Miniconda para facilitar la gestión de paquetes y entornos.
-- Alternativas: Python puro desde https://www.python.org/ o IDEs como VS Code, Thonny.
-- Tutoriales útiles: videos de instalación de R/RStudio y Python + VS Code.
+- Recomendado: instalar con **Anaconda** o **Miniconda**.
+- Alternativa: instalar Python directamente desde https://www.python.org/.
 
-**Comparación práctica: R vs Python**
+## 6. Entornos virtuales y reproducibilidad
 
-- Instalación: R se instala desde CRAN y puede usar RStudio; Python se instala desde Python.org o Anaconda.
-- Facilidad de inicio: RStudio es intuitivo para análisis estadístico; Jupyter permite trabajo interactivo en Python.
-- Paquetes principales: R usa `tidyverse`, `dplyr`, `ggplot2`; Python usa `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`.
-- Visualización: R es muy potente con `ggplot2`, Python es versátil con `matplotlib`, `seaborn`, `plotly`.
-- Estadística aplicada: R tiene funciones nativas abundantes; Python se apoya en `statsmodels` y `scipy`.
-- Curva de aprendizaje: R es más directo para análisis estadístico; Python es más flexible y se integra mejor con IA y producción.
-- Reproducibilidad: RMarkdown permite reportes automáticos; Python combina notebooks y scripts con entornos virtuales.
-- Escalabilidad: R puede requerir extensiones como `data.table`; Python se integra bien con big data y machine learning.
-- Uso recomendado: R para análisis estadístico y académica, Python para IA, producción y aplicaciones mixtas.
+- Un entorno virtual aísla las librerías y versiones por proyecto.
+- Evita conflictos entre dependencias.
+- Python: usar `conda` o `venv`.
+- R: usar `renv` o `packrat`.
 
-**Entornos virtuales**
+## 7. Ejemplos de instalación y flujo
 
-- Un entorno virtual es una instancia aislada del lenguaje que contiene sus propias librerías y versiones.
-- Permite evitar conflictos entre proyectos y mantener la reproducibilidad.
-- En Python, usar `conda` o `venv`; en R, usar `renv` o `packrat`.
-
-**Guía rápida de inicio (práctica)**
-
-1) Crear un entorno Python con `conda`:
+### Python
 
 ```bash
 conda create -n clase9 python=3.10 -y
@@ -66,7 +114,7 @@ conda activate clase9
 pip install pandas matplotlib seaborn scikit-learn
 ```
 
-2) Script de ejemplo (`exploracion.py`):
+Ejemplo de script (`exploracion.py`):
 
 ```python
 import pandas as pd
@@ -79,7 +127,7 @@ sns.histplot(df['monto'], kde=True)
 plt.savefig('hist_monto.png')
 ```
 
-3) Instalación y flujo básico en R:
+### R
 
 ```r
 install.packages('tidyverse')
@@ -89,41 +137,23 @@ df %>% summarize(mean_monto = mean(monto, na.rm = TRUE))
 ggplot(df, aes(x = monto)) + geom_histogram()
 ```
 
-**Visualizaciones generadas automáticamente**
+## 8. Comparación R vs Python
 
-- Frecuencia de librerías: [resumen-clase9-libraries.png](resumen-clase9-libraries.png#L1)
-- Herramientas mencionadas: [resumen-clase9-tools.png](resumen-clase9-tools.png#L1)
+- R es fuerte en estadística académica y análisis exploratorio.
+- Python es más versátil para IA, producción y escalabilidad.
+- RStudio es ideal para usuarios centrados en estadística.
+- Python con Jupyter o VS Code es ideal para proyectos mixtos de datos y desarrollo.
 
-**Gráficos (embebidos)**
-
-![Frecuencia de librerías](resumen-clase9-libraries.png)
-
-**Figura 1 — Frecuencia de librerías**
-- Qué muestra: barras con el número de apariciones de cada librería (`pandas`, `numpy`, `scikit-learn`, `ggplot2`, etc.) extraídas del texto de la presentación.
-- Interpretación: las barras más altas indican las librerías que el docente enfatiza; son las que conviene priorizar al practicar.
-- Uso práctico: enfoca primeros ejercicios en las librerías con mayor frecuencia; por ejemplo, practicar manipulación con `pandas` y visualización con `matplotlib`/`seaborn`.
-
-![Herramientas mencionadas](resumen-clase9-tools.png)
-
-**Figura 2 — Herramientas / IDEs mencionadas**
-- Qué muestra: gráfico circular con la proporción de menciones por herramienta (RStudio, Jupyter, Anaconda, VS Code, etc.).
-- Interpretación: las porciones más grandes reflejan los entornos sugeridos o usados con más frecuencia en el curso.
-- Uso práctico: selecciona el IDE predominante para replicar el material (p. ej. R → RStudio; Python interactivo → Jupyter). Cambia según la tarea cuando convenga.
-
-**Pasos recomendados para el estudiante**
+## 9. Buenas prácticas para el estudiante
 
 1. Instalar Anaconda/Miniconda y crear un entorno por proyecto.
-2. Instalar R + RStudio; usar `renv` para proyectos en R.
+2. Instalar R + RStudio y usar `renv` en proyectos R.
 3. Empezar con datasets pequeños y documentar el flujo en notebooks o RMarkdown.
-4. Versionar código con Git y mantener un `requirements.txt` o `environment.yml` por proyecto.
+4. Versionar código con Git y mantener un `requirements.txt` o `environment.yml`.
 
-**Recursos**
+## 10. Recursos
 
 - R / CRAN: https://cran.r-project.org/
 - RStudio / Posit: https://posit.co/download/
 - Anaconda: https://www.anaconda.com/download
 - Jupyter: https://jupyter.org/
-
----
-
-Documento integrado: contenido generado a partir de `40097-S09-PRESENTACION.pdf` y texto extraído.
