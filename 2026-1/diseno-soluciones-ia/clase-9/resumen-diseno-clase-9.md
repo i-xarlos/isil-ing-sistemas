@@ -143,11 +143,59 @@ Esta clase cubre de forma completa los conceptos que intervienen en el diseño d
 - Aunque su suposición es simplificada, suele funcionar bien en la práctica para problemas de clasificación básica.
 - Buena opción cuando se necesita una solución simple y rápida como baseline.
 
-### Cómo elegir entre ellos
-- Si necesitas interpretabilidad y explicaciones claras, elige árboles de decisión o Random Forest.
-- Para problemas de clasificación con fronteras complejas, SVM es una buena alternativa.
-- Si tienes muchos datos y quieres capturar patrones complejos, considera redes neuronales.
-- Para un enfoque simple y rápido de prueba, Naive Bayes o KNN pueden ser útiles.
+### Entrenamiento y validación del modelo
+
+### El proceso de ajuste
+1. **Predicción (ŷ)**: el modelo recibe datos de entrada ($X$) y genera una estimación.
+2. **Medición del error**: una función de pérdida calcula la diferencia entre la predicción y el valor real ($y$).
+3. **Ajuste**: se actualizan los parámetros internos para reducir el error en la siguiente iteración (ej. mediante descenso de gradiente).
+
+### Evaluación y métricas de desempeño
+- **Conjunto de validación/test**: reservamos un 20-30% de datos que el modelo nunca ha visto para simular la realidad.
+- **Métricas de Clasificación**:
+  - **Accuracy**: aciertos totales (ojo con datos desbalanceados).
+  - **Precisión vs. Recall**: la precisión mide la calidad de los aciertos; el **recall** asegura que no olvidamos casos positivos (vital en salud).
+  - **ROC/AUC**: mide la capacidad del modelo para separar clases.
+- **Métricas de Regresión**:
+  - **Error Cuadrático Medio (MSE)** y **$R^2$**: miden la cercanía de los números predichos a los reales.
+
+### Validación Cruzada (k-fold)
+En lugar de una sola división, dividimos los datos en $k$ partes y probamos $k$ veces rotando el set de test. El promedio es un resultado mucho más robusto que evita la "suerte" de una sola partición.
+
+### Ajuste de Hiperparámetros (Tuning)
+Los algoritmos tienen "perillas" externas que no aprenden solos (como la profundidad del árbol).
+- **Grid Search**: prueba todas las combinaciones posibles (lento pero exhaustivo).
+- **Random Search**: prueba combinaciones al azar (más rápido y suele ser igual de efectivo).
+
+### Evitar el Sobreajuste (Overfitting)
+- **Subajuste (Underfitting)**: el modelo es demasiado simple y no aprende ni en entrenamiento ni en test.
+- **Sobreajuste (Overfitting)**: el modelo memoriza el ruido. Saca 20 en entrenamiento pero 05 en el mundo real.
+- **Objetivo**: buscar el punto de equilibrio donde el modelo generaliza bien ante datos nuevos.
+
+## Predicción e interpretación de resultados
+
+### El paso a producción
+1. **Ingreso de nuevos datos**: el sistema recibe información fresca (ej. un nuevo cliente).
+2. **Preprocesamiento Crítico**: los datos nuevos deben sufrir **exactamente las mismas transformaciones** (escalados, filtros) que los de entrenamiento.
+3. **Inferencia**: el modelo genera una salida bruta (probabilidades).
+4. **Interpretación**: traducir esa probabilidad a una acción de negocio (ej. "Riesgo alto, denegar crédito").
+
+### Inteligencia Artificial Explicable (XAI)
+Modelos como Redes Neuronales son "cajas negras". La **XAI** busca técnicas para hacer visible el razonamiento:
+- **¿Por qué tomó esta decisión?** (Transparencia).
+- **¿Qué variables pesaron más?** (Importancia de atributos).
+- **¿Es ético?** (Detección de sesgos ocultos por género, raza, etc.).
+
+---
+
+## Ejercicio interactivo en Google Colab
+Usamos Colab por su facilidad: no requiere instalación local, tiene librerías preinstaladas y ofrece acceso gratuito a GPU.
+
+### Flujo de trabajo aplicado (Dataset Iris):
+1. **Importación**: Cargamos `pandas`, `numpy` y `scikit-learn`.
+2. **Preprocesamiento**: División 80/20 y escalado de variables.
+3. **Entrenamiento**: Creamos un árbol de decisión con `max_depth=3` para mantenerlo interpretable.
+4. **Evaluación**: Generamos una **Matriz de Confusión** para ver dónde falló el modelo y calculamos el score de precisión.
 
 ## Entrenamiento del modelo
 - Predicción: el modelo recibe datos de entrada y genera una salida.

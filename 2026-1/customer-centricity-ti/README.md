@@ -23,6 +23,8 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 | 5 | **Jobs to be Done (JTBD)** | Identificación de trabajos a realizar, aplicación en diseño, benchmarking | [📄](./clase-5/customer-centricity-jobs-to-be-done-clase-5.md) | [📊](./clase-5/40064_S05_PPT.pdf) |
 | 6 | **Design Thinking** | Empatización, entrevistas, definición (HMW), ideación, brainstorming, crazy eights | [📄](./clase-6/customer-centricity-design-thinking-clase-6.md) | [📊](./clase-6/40064_S06_PPT.pdf) |
 | 7 | **Design Thinking – Parte 2: Prototipado y Testeo** | Fase de prototipado (tipos, herramientas), fase de testeo (guía práctica), ciclo iterativo | [📄](./clase-7/customer-centricity-design-thinking-prototipado-testeo-clase-7.md) | [📊](./clase-7/40064_S07_PPT.pdf) |
+| 8 | **Agilidad y Desarrollo Continuo** | (Pendiente) | | |
+| 9 | **Customer Metrics en el Entorno Digital** | Métricas de negocio, indicadores NPS/CSAT/CES, integración con diseño, buenas prácticas | [📄](./clase-9/customer-metrics-indicadores-nps-csat-ces-clase-9.md) | [📊](./clase-9/40064_S09_PPT.pdf) |
 
 ---
 
@@ -51,6 +53,15 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 ### Clase 6: Design Thinking y su Aplicación en Desarrollo de Soluciones Tecnológicas
 - 📄 [customer-centricity-design-thinking-clase-6.md](./clase-6/customer-centricity-design-thinking-clase-6.md)
 - 📊 [40064_S06_PPT.pdf](./clase-6/40064_S06_PPT.pdf)
+
+### Clase 7: Design Thinking – Parte 2: Prototipado y Testeo
+- 📄 [customer-centricity-design-thinking-prototipado-testeo-clase-7.md](./clase-7/customer-centricity-design-thinking-prototipado-testeo-clase-7.md)
+- 📊 [40064_S07_PPT.pdf](./clase-7/40064_S07_PPT.pdf)
+
+### Clase 9: Customer Metrics en el Entorno Digital
+- 📄 [customer-metrics-indicadores-nps-csat-ces-clase-9.md](./clase-9/customer-metrics-indicadores-nps-csat-ces-clase-9.md) — Guía integrada: conceptos, diagramas Mermaid, y aplicaciones
+- ✅ [customer-metrics-checklist-implementacion-clase-9.md](./clase-9/customer-metrics-checklist-implementacion-clase-9.md) — Checklist paso a paso para implementación
+- 📊 [40064_S09_PPT.pdf](./clase-9/40064_S09_PPT.pdf)
 
 ### Actividad 1: Proyecto RAPIDGO
 - 📋 [RAPIDGO-solucion-actividad-1.md](./actividad-1/RAPIDGO-solucion-actividad-1.md) — Solución completa con diagnóstico, investigación, MVP/MLP y plan ágil
@@ -93,6 +104,7 @@ customer-centricity-ti/
 
 ## Últimas Actualizaciones
 
+- **Clase 9**: Agregado resumen completo de "Customer Metrics en el Entorno Digital" con cobertura de NPS, CSAT, CES, integración con procesos de diseño, mitos y buenas prácticas
 - **Clase 6**: Agregado resumen completo de "Design Thinking y su Aplicación en Desarrollo de Soluciones Tecnológicas" con cobertura de empatización, definición y ideación
 - **Clase 3**: Agregado resumen completo de "Investigación y Análisis para Comprensión del Cliente" basado en el PPT de la sesión.
 

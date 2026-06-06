@@ -31,19 +31,21 @@ El profesor aclaró que no debe confundirse el lenguaje o intérprete con el IDE
 - Orientado a estadística aplicada e investigación académica.
 - IDE principal: **RStudio**.
 - Ventajas: paneles especializados para consola, editor y variables.
-- Limitaciones: puede ser menos eficiente en grandes volúmenes de datos.
+- Limitaciones: puede ser menos eficiente en grandes volúmenes de datos (aunque se apoya en extensiones como `data.table` para mejorar la escala).
+- **CRAN**: es la red principal para la distribución y gestión de paquetes de R.
 
 #### Flujo típico en RStudio
-
-- Editor de scripts para escribir código.
-- Consola para ejecutar y ver resultados.
-- Panel de entorno para revisar variables y datos cargados.
+- **Editor de scripts**: donde se escribe y guarda el código.
+- **Consola**: donde se ejecutan las instrucciones y se ven las respuestas inmediatas.
+- **Environment / History**: lista de variables, objetos y el historial de comandos.
+- **Plots / Files / Packages / Help**: panel multifunción para visualizar gráficos, gestionar archivos locales, ver paquetes instalados y consultar la documentación oficial.
 
 ### Ecosistema de Python
 
 - Líder en ciencia de datos, machine learning y deep learning.
-- IDEs recomendados: **Jupyter Notebook**, **VS Code**, **PyCharm**.
-- Ventajas: sintaxis amigable, comunidad amplia y buena escalabilidad.
+- IDEs recomendados: **Jupyter Notebook**, **VS Code**, **PyCharm**, **Spyder**.
+- Ventajas: sintaxis amigable, comunidad amplia y una integración excelente con frameworks de producción y big data.
+- **Gestión de paquetes**: usa **PIP** (el estándar de Python) o **Conda** (si se usa Anaconda/Miniconda, ideal para gestionar dependencias complejas de ciencia de datos).
 
 > Buenas prácticas: usar **entornos virtuales** para evitar que dependencias de un proyecto interfieran con otro.
 

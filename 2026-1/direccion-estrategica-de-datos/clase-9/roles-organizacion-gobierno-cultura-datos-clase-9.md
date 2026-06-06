@@ -98,6 +98,46 @@ Durante esta clase vimos:
 ## 3. Métodos de gobernanza de datos
 
 ### Establecimiento de políticas de acceso y uso
+Determinan quién puede acceder a los datos, bajo qué condiciones y cómo se pueden utilizar. Son fundamentales para el cumplimiento regulatorio.
+
+### Implementación de procedimientos de control de calidad
+Aseguran que los datos sean **precisos, completos, consistentes y actualizados**. Esto mantiene la integridad de los datos y la confianza de los usuarios finales.
+
+### Desarrollo de mecanismos de seguridad y privacidad
+Cruciales para proteger información sensible y cumplir leyes (como la Ley de Protección de Datos Personales). Deben prevenir accesos no autorizados y proteger contra amenazas.
+
+### Creación de estándares para la gestión de metadatos
+Los **metadatos** (datos sobre los datos) facilitan la localización, comprensión y uso efectivo. Documentar el origen, formato y propietario asegura que la información sea accesible y entendible para toda la organización.
+
+---
+
+## 4. Importancia de la cultura de datos
+
+La cultura de datos es la forma en que una organización valora, gestiona y utiliza los datos en todas sus operaciones. Fomentar una sólida cultura es clave para maximizar el valor de los activos de datos.
+
+### Estrategias para fomentar la cultura de datos
+- **Liderazgo y compromiso**: el apoyo de la alta gerencia es indispensable para la transformación.
+- **Educación y capacitación**: capacitar a los empleados para que comprendan y usen los datos en sus roles diarios.
+- **Comunicación y transparencia**: compartir los éxitos y aprendizajes basados en datos para generar confianza.
+
+### Integración de la analítica en la toma de decisiones
+Consiste en usar datos y análisis para respaldar decisiones estratégicas y operativas.
+- **Sistemas de apoyo a la decisión**: herramientas que facilitan el análisis.
+- **Procesos basados en datos**: rediseñar tareas para que el dato sea el punto de partida.
+
+### Colaboración interdepartamental
+Esencial para insights completos. Requiere:
+- **Equipos multidisciplinarios**: personas de diferentes áreas trabajando sobre un mismo problema de datos.
+- **Infraestructura de datos compartida**: eliminar los "silos" de información para que los datos fluyan entre áreas.
+
+---
+
+## Conclusiones de la sesión
+- Los roles del equipo de datos están **interconectados**; la falla de uno afecta la cadena de valor del dato.
+- No hay una estructura única "mejor"; se debe adaptar el modelo (centralizado, descentralizado o híbrido) a la realidad de la empresa.
+- La gobernanza efectiva permite un uso óptimo del dato para la toma de decisiones, garantizando seguridad y cumplimiento.
+- La cultura de datos garantiza que la inversión tecnológica se traduzca en **valor real** para el negocio.
+
 - Define quién puede acceder a los datos y cómo se pueden usar.
 - Evita usos indebidos y protege la información.
 
