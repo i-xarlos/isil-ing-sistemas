@@ -71,14 +71,40 @@ Los resúmenes de PPTs están disponibles en las carpetas de cada clase correspo
 
 ---
 
-## Estructura
+## Estructura del Repositorio
 
+### Raíz
 ```txt
-_meta/
+README.md                           ← Archivo actual
+_meta/                              ← Documentación transversal de la cohorte
 ├── INDICE-CONCEPTOS.md
 ├── PLANTILLA-NUEVAS-CLASES.md
 └── PR-INFO.md
-2026-1/
+.github/                            ← Configuración, reglas y automatización
+├── copilot-instructions.md         ← Instrucciones globales de Copilot
+├── agents/
+│   └── AGENTS.md                   ← Definición de agentes personalizados
+├── instructions/                   ← Instrucciones (reglas de estructura y formato)
+│   ├── writing.instructions.md     ← Estándares de documentación clara
+│   ├── clase.instructions.md       ← Reglas para documentar clases
+│   ├── actividad.instructions.md   ← Reglas para documentar actividades
+│   ├── images.instructions.md      ← Reglas para procesar imágenes con OCR
+│   └── mermaid-analysis.instructions.md ← Formato para análisis de diagramas Mermaid
+└── skills/                         ← Skills (metodologías y herramientas)
+    ├── mermaid-analysis/           ← Skill: análisis de oportunidades de Mermaid
+    │   ├── SKILL.md
+    │   ├── README.md
+    │   └── EJEMPLO-ANALISIS-REPOSITORIO-COMPLETO.md
+    └── utilities/                  ← Skills de utilidad
+        ├── write-a-skill/
+        ├── handoff/
+        ├── excel-reader/
+        └── caveman/
+```
+
+### Contenido de Cursos
+```txt
+2026-1/                             ← Carpeta de la cohorte 2026-1
 ├── direccion-estrategica-de-datos/
 │   ├── clase-1/
 │   │   └── direccion-estrategica-de-datos-introduccion-clase-1.md
@@ -119,8 +145,6 @@ _meta/
     ├── actividad-1/
     │   └── swe-bench-comparacion-modelos-actividad-1.md
     └── ...
-README.md
-AGENTS.md
 ```
 
 **Organización por:**

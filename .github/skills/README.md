@@ -7,52 +7,76 @@ Este directorio contiene todos los **skills personalizados** para el repositorio
 ## 📁 Estructura Jerárquica
 
 ```
-.github/skills/
-├── README.md                 ← Archivo actual
-├── documentation/            ← Skills para documentación
-│   ├── README.md
-│   ├── clase/
-│   │   └── SKILL.md          # Documentación completa de clases
-│   ├── actividad/
-│   │   └── SKILL.md          # Estructura de actividades académicas
-│   ├── writing/
-│   │   └── SKILL.md          # Estándares de escritura clara
-│   └── images/
-│       └── SKILL.md          # OCR y procesamiento de imágenes
-├── utilities/                ← Skills de herramientas
-│   ├── README.md
-│   ├── write-a-skill/
-│   │   └── SKILL.md          # Crear nuevos skills
-│   ├── handoff/
-│   │   └── SKILL.md          # Transferencia de contexto entre agentes
-│   └── excel-reader/
-│       └── SKILL.md          # Lectura de archivos Excel
+.github/
+├── instructions/            ← Instrucciones (reglas de estructura)
+│   ├── writing.instructions.md         # Estándares de documentación clara
+│   ├── clase.instructions.md           # Reglas para documentar clases
+│   ├── actividad.instructions.md       # Reglas para documentar actividades
+│   ├── images.instructions.md          # Reglas para procesar imágenes
+│   └── mermaid-analysis.instructions.md # Formato para análisis de Mermaid
+├── agents/
+│   └── AGENTS.md            # Definición de agentes personalizados
+└── skills/                  ← Skills (metodologías y herramientas)
+    ├── README.md            ← Archivo actual
+    ├── mermaid-analysis/    # Skill: análisis de Mermaid + ejemplos
+    │   ├── SKILL.md         # Metodología de análisis
+    │   ├── README.md        # Índice de la carpeta
+    │   └── EJEMPLO-ANALISIS-REPOSITORIO-COMPLETO.md
+    └── utilities/           ← Skills de herramientas
+        ├── README.md
+        ├── write-a-skill/
+        │   └── SKILL.md     # Crear nuevos skills
+        ├── handoff/
+        │   └── SKILL.md     # Transferencia de contexto
+        ├── excel-reader/
+        │   ├── SKILL.md     # Lectura de Excel
+        │   └── READ_EXCEL.skill.md
+        └── caveman/
+            └── SKILL.md     # Simplicidad radical
 ```
+
+### Notas sobre la Estructura
+
+- **Instructions** (`.github/instructions/`) contiene **reglas y estándares** para estructurar y documentar archivos específicos
+- **Skills** (`.github/skills/`) contiene **metodologías y herramientas** para análisis, procesamiento y decisiones
+- **Agents** (`.github/agents/`) contiene definiciones de agentes personalizados y sus configuraciones
 
 ---
 
 ## 🎯 Cómo Usar Esta Estructura
 
-### Para Crear o Editar Documentación
+### 📚 Para Documentación (Instructions)
 
-Consulta la carpeta `documentation/`:
+Consulta [`.github/instructions/`](../instructions/) para reglas de estructura:
+
+| Instruction | Cuándo Usarlo | Patrón |
+|---|---|---|
+| **writing** | Escribir documentación clara y scannable | `**/*.md` |
+| **clase** | Documentar sesiones de clase completas | Clases |
+| **actividad** | Crear documentación de actividades | `2026-1/**/actividad-*/**/*.md` |
+| **images** | Procesar imágenes con OCR | `2026-1/**/*.{png,jpg,gif}` |
+| **mermaid-analysis** | Analizar oportunidades de diagramas Mermaid | `**/ANALISIS-OPORTUNIDADES-*-MERMAID.md` |
+
+### 🛠️ Para Metodologías (Skills)
+
+Consulta [`.github/skills/`](./) para herramientas y análisis:
 
 | Skill | Cuándo Usarlo | Archivo |
 |---|---|---|
-| **Clase** | Generar resúmenes detallados de sesiones de clase | [documentation/clase/SKILL.md](documentation/clase/SKILL.md) |
-| **Actividad** | Crear documentación académica de actividades | [documentation/actividad/SKILL.md](documentation/actividad/SKILL.md) |
-| **Escritura** | Aplicar estándares de claridad y legibilidad | [documentation/writing/SKILL.md](documentation/writing/SKILL.md) |
-| **Imágenes** | Procesar imágenes con OCR y enriquecerlas | [documentation/images/SKILL.md](documentation/images/SKILL.md) |
+| **mermaid-analysis** | Analizar dónde agregar diagramas Mermaid | [mermaid-analysis/SKILL.md](mermaid-analysis/SKILL.md) |
+| **write-a-skill** | Crear nuevos skills personalizados | [utilities/write-a-skill/SKILL.md](utilities/write-a-skill/SKILL.md) |
+| **handoff** | Transferir conversación a otro agente | [utilities/handoff/SKILL.md](utilities/handoff/SKILL.md) |
+| **excel-reader** | Extraer contenido de archivos Excel | [utilities/excel-reader/SKILL.md](utilities/excel-reader/SKILL.md) |
+| **caveman** | Simplicidad radical en explicaciones | [utilities/caveman/SKILL.md](utilities/caveman/SKILL.md) |
 
-### Para Usar Herramientas y Utilidades
+### 📋 Diferencia entre Instructions y Skills
 
-Consulta la carpeta `utilities/`:
-
-| Skill | Cuándo Usarlo | Archivo |
-|---|---|---|
-| **Write-a-Skill** | Crear nuevos skills personalizados | [utilities/write-a-skill/SKILL.md](utilities/write-a-skill/SKILL.md) |
-| **Handoff** | Transferir conversación a otro agente | [utilities/handoff/SKILL.md](utilities/handoff/SKILL.md) |
-| **Excel Reader** | Extraer contenido de archivos Excel | [utilities/excel-reader/SKILL.md](utilities/excel-reader/SKILL.md) |
+| Instructions | Skills |
+|---|---|
+| **Qué:** Reglas de estructura y formato | **Qué:** Metodologías y herramientas de análisis |
+| **Ubicación:** `.github/instructions/` | **Ubicación:** `.github/skills/` |
+| **Aplican a:** Archivos específicos por patrón | **Aplican a:** Tareas específicas del usuario |
+| **Ejemplo:** "Todo actividad debe tener encabezado Y" | **Ejemplo:** "Usar matriz 3×3 para priorizar" |
 
 ---
 
@@ -152,14 +176,16 @@ Antes de agregar un nuevo skill, verifica:
 
 ## 🔗 Referencias
 
-- [AGENTS.md](../../../AGENTS.md) — Instrucciones globales del agente para este repositorio
-- [copilot-instructions.md](../copilot-instructions.md) — Instrucciones globales de Copilot
-- [SKILL.md de ejemplo](utilities/write-a-skill/SKILL.md) — Plantilla de skill completa
+- [`.github/agents/AGENTS.md`](../agents/AGENTS.md) — Instrucciones globales del agente para este repositorio
+- [`.github/instructions/`](../instructions/) — Instrucciones y reglas de estructura
+- [`.github/copilot-instructions.md`](../copilot-instructions.md) — Instrucciones globales de Copilot
+- [Root `README.md`](../../README.md) — Visión general del repositorio
 
 ---
 
 ## 📝 Última Actualización
 
-**Estructura reorganizada:** 2026-06-02  
-**Skills activos:** 7 (4 de documentación, 3 de utilidades)  
+**Restructuración:** 10/06/2026 — Separación clara entre Instructions (reglas) y Skills (metodologías)  
+**Skills activos:** 5 (mermaid-analysis, write-a-skill, handoff, excel-reader, caveman)  
+**Instructions activas:** 5 (writing, clase, actividad, images, mermaid-analysis)  
 **Compatibilidad:** VS Code + GitHub Copilot
