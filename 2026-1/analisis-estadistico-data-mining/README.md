@@ -112,6 +112,11 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 - **Contenido:** Minería de datos, calidad de datos, imputación y normalización
 - **Temas:** Reglas de asociación, clasificación, clustering, registros duplicados, nombres inconsistentes, Z-score
 
+#### Actividad 3: Proceso de Aprendizaje 03
+- 📄 [analisis-estadistico-data-mining-actividad-3-solucion.md](./actividad-3/analisis-estadistico-data-mining-actividad-3-solucion.md)
+- **Contenido:** Configuración de Python, herramientas y librerías para análisis de datos en empresa logística
+- **Temas:** Requisitos de hardware/software, pandas, NumPy, librerías de visualización, Jupyter Notebook, VS Code, Anaconda, instalación de entornos
+
 #### Actividad Sesión 8: Minería de Datos Aplicada a Clientes Retail
 - 📄 [analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md](./actividad-sesion-8/analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md)
 - **Contenido:** Laboratorio resuelto de limpieza, clasificación y clustering sobre clientes retail

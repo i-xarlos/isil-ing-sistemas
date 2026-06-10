@@ -18,6 +18,7 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 |---|------|-------------|----------|
 | PA001 | **Transformación Data-Driven en Empresa Global** | Diagnóstico, propuesta estratégica, modelo de negocio, gobernanza y riesgos del caso Glovo | [✅ Caso Glovo](./actividad-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) |
 | EP002 | **Transformación Digital de Mercado Andino** | Diagnóstico, innovación basada en datos, Agile, Design Thinking, cambio y gobierno de datos | [✅ Caso Mercado Andino](./actividad-2/direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md) |
+| EP003 | **Gestión Estratégica de Datos: Mercado Express Perú** | Diagnóstico de problemas, roles y organización, gobernanza, proyecto piloto, cultura data-driven | [✅ Caso Mercado Express](./actividad-3/direccion-estrategica-de-datos-mercado-express-peru-actividad-3-solucion.md) |
 
 ---
 
@@ -72,6 +73,8 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 
 ### Actividades
 - ✅ [direccion-estrategica-de-datos-pa001-glovo-solucion.md](./actividad-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) — Caso Glovo: diagnóstico, estrategia, gobernanza y riesgos
+- ✅ [direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md](./actividad-2/direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md) — Caso Mercado Andino: diagnóstico, innovación, Agile y gestión del cambio
+- ✅ [direccion-estrategica-de-datos-mercado-express-peru-actividad-3-solucion.md](./actividad-3/direccion-estrategica-de-datos-mercado-express-peru-actividad-3-solucion.md) — Caso Mercado Express: diagnóstico de fragmentación, roles de datos, gobernanza, piloto de predicción de demanda, cultura data-driven
 
 ---
 
@@ -105,6 +108,11 @@ direccion-estrategica-de-datos/
 │   └── 40062-S09-PPT.pdf
 ├── actividad-1/
 │   └── direccion-estrategica-de-datos-pa001-glovo-solucion.md
+├── actividad-2/
+│   └── direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md
+├── actividad-3/
+│   ├── EP3 Direccion Estrategica de Datos.pdf
+│   └── direccion-estrategica-de-datos-mercado-express-peru-actividad-3-solucion.md
 └── README.md (este archivo)
 ```
 
