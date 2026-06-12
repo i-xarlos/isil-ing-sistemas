@@ -23,6 +23,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 5 | Clase | **Calidad de Datos** | Datos nulos, outliers, formatos incorrectos, normalización | [📄](./clase-5/diseno-soluciones-ia-calidad-datos-clase-5.md) |
 | 6 | Clase | **Insights: Análisis Univariado, Bivariado y Multivariado** | Correlaciones, técnicas de dimensionalidad (PCA, LDA), generación de insights | [📄](./clase-6/diseno-soluciones-ia-insights-analisis-datos-clase-6.md) |
 | 8 | Clase | **Análisis y calidad de datos** | Limpieza, normalización, outliers, insights, KPIs y storytelling | [📄](./clase-8/diseno-soluciones-ia-analisis-calidad-datos-clase-8.md) |
+| 10 | Clase | **Elección del Modelo Correcto** | Clasificación de modelos, regresión, árboles, redes neuronales, criterios de selección, evaluación | [📄](./clase-10/eleccion-modelo-correcto-clase-10.md) |
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | 2 | Actividad | **Calidad de Datos y Reducción de Dimensionalidad** | Evaluación de problemas de calidad, PCA y relación vs causalidad | [📄](./actividad-2/diseno-soluciones-ia-actividad-2-solucion.md) |
 | 8 | Actividad | **EDA, limpieza e insights con Python** | Dataset sintético, imputación, outliers, correlaciones y storytelling de negocio | [📄](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md) |
@@ -101,6 +102,25 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
   - **Diseño de datasets y KPIs:** medición de objetivos y storytelling
   - **Laboratorio:** actividad sesión 8 en Google Colab
 
+### Clase 10: Elección del Modelo Correcto
+
+- 📄 [eleccion-modelo-correcto-clase-10.md](./clase-10/eleccion-modelo-correcto-clase-10.md)
+- 📊 PDF: `40098-S10-PRESENTACION.pdf`
+- 📋 Temas:
+  - **Clasificación de Modelos:** Supervisado, no supervisado, por refuerzo
+  - **Tipos de Tareas:** Clasificación, regresión, clustering
+  - **Modelos Caja Blanca vs. Caja Negra:** Interpretabilidad vs. Precisión
+  - **Modelos Básicos:** Regresión lineal, regresión logística, árboles de decisión, redes neuronales
+  - **Otros Modelos:** K-NN, Naive Bayes, SVM, ensambles
+  - **Criterios de Selección:** Volumen de datos, tipo de variable, linealidad, sobreajuste, interpretabilidad, recursos computacionales
+  - **Sobreajuste y Regularización:** Detección, técnicas de corrección, validación cruzada
+  - **Compensación Sesgo-Varianza:** Equilibrio entre rigidez y adaptación
+  - **Datos Desbalanceados:** Técnicas de corrección, métricas apropiadas
+  - **Evaluación y Métricas:** MSE, Precisión, Recall, F1-Score, AUC, Silhouette
+  - **Caso Práctico:** Detección de fraude en transacciones
+  - **Diagrama de Decisión:** Árbol de decisión para seleccionar modelo
+- 📊 Contenido: 6 secciones con 9 diagramas Mermaid, tablas comparativas, ejemplos reales, checklist de decisión
+
 ### Actividad 1: SWE-Bench Verified
 
 - 📄 [swe-bench-comparacion-modelos-actividad-1.md](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md)
@@ -147,6 +167,14 @@ diseno-soluciones-ia/
 │   ├── diseno-soluciones-ia-insights-analisis-datos-clase-6.md
 │   ├── 40098-S06-PRESENTACION.pptx
 │   └── 40098-S06-PRESENTACION.pdf
+├── clase-8/
+│   ├── diseno-soluciones-ia-analisis-calidad-datos-clase-8.md
+│   ├── 40098-S08-PRESENTACION.pptx
+│   └── 40098-S08-PRESENTACION.pdf
+├── clase-10/
+│   ├── eleccion-modelo-correcto-clase-10.md
+│   ├── 40098-S10-PRESENTACION.pptx
+│   └── 40098-S10-PRESENTACION.pdf
 ├── actividad-1/
 │   ├── README.md
 │   ├── swe-bench-comparacion-modelos-actividad-1.md
@@ -161,6 +189,7 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **10/06/2026:** Clase 10 documentada: Elección del Modelo Correcto con clasificación de modelos, criterios de selección, 9 diagramas Mermaid, ejemplos reales y diagrama de decisión
 - **30/05/2026:** Actividad 8 documentada: EDA con Python, imputación, outliers, correlaciones, normalización e insights de negocio
 - **13/05/2026:** Clase 6 documentada: Insights, análisis univariado, bivariado y multivariado, reducción de dimensionalidad (PCA/LDA), storytelling con datos
 - **06/05/2026:** Clase 4 enriquecida: Análisis Exploratorio de Datos (EDA), estadística descriptiva, correlaciones, visualización con Python y Excel
