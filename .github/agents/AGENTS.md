@@ -122,19 +122,21 @@ Antes de dar por terminado un cambio, verifica que:
 
 ## Workflow Git: Branches y Pull Requests
 
-Cuando hayas realizado cambios importantes de documentación:
+Cuando hajas realizado cambios importantes de documentación, **DEBES usar GitHub CLI (`gh`)** para crear PRs.
+
+### Requisito Previo
+Instala GitHub CLI si no lo tienes: https://cli.github.com/
+
+Verifica que está instalado:
+```bash
+gh --version
+```
 
 ### 1. Crear un Branch
 
-Usa **GitHub CLI (`gh`)** para crear branches y PRs:
-
 ```bash
 # Crea un nuevo branch con nombre descriptivo
-gh repo clone && cd isil
 git checkout -b feat/descripcion-cambios
-
-# O directamente con gh:
-gh pr create --base main --head feat/descripcion-cambios --title "Descripción del cambio"
 ```
 
 ### 2. Hacer Commit
@@ -147,30 +149,82 @@ git commit -m "feat: descripcion clara del cambio
 - Detalle 2 del cambio"
 ```
 
-### 3. Crear Pull Request
+### 3. Crear Pull Request con `gh` (OBLIGATORIO)
+
+**DEBES usar GitHub CLI (`gh`) para crear PRs.** No hagas commits directos a `main`.
 
 ```bash
-# Opción 1: Con GitHub CLI (recomendado)
-gh pr create --title "Breve descripción" --body "Descripción detallada del cambio"
+# Crea el PR directamente con gh
+gh pr create \
+  --title "Tipo: Descripción breve del cambio" \
+  --body "Descripción detallada del cambio, cambios principales, archivos modificados, etc."
 
-# Opción 2: Desde Git
-git push origin feat/descripcion-cambios
-# Luego abre el PR manualmente en GitHub
+# O especificando rama target:
+gh pr create \
+  --base main \
+  --title "feat: Tu descripción aquí" \
+  --body "Descripción del PR"
 ```
 
-### Convenciones de Nombres
+**Ejemplo real:**
+```bash
+gh pr create \
+  --title "feat: Agregar Clase Processor skill para automatizar procesamiento de clases" \
+  --body "## Descripción
+Implementa automation para convertir PPTX → PDF con renombrado semántico.
+
+## Cambios Principales
+- Creado Agent 'Clase Processor'
+- Creado Skill '/clase-processor'
+- Documentado en AGENTS.md
+- Procesada Clase 10 con PDF + Markdown
+
+## Archivos Modificados
+- .github/agents/clase-processor.agent.md (NUEVO)
+- .github/skills/clase-processor/SKILL.md (NUEVO)
+- .github/agents/AGENTS.md (actualizado)
+- 2026-1/direccion-estrategica-de-datos/clase-10/ (2 nuevos)
+
+## Verificación
+- [x] Skill aparece en chat con /clase-processor
+- [x] Convenciones respetadas
+- [x] Clase 10 procesada exitosamente"
+```
+
+**Ver estado del PR:**
+```bash
+gh pr status
+```
+
+**Mergear PR (cuando esté aprobado):**
+```bash
+gh pr merge <number> --squash
+```
+
+### Convenciones de Nombres (Branch y Commits)
 
 - **feat/**: Para nuevas clases o contenido → `feat/clase-6-insights`
 - **docs/**: Para mejoras de documentación → `docs/actualizar-readme`
 - **fix/**: Para correcciones → `fix/corregir-enlaces-rotos`
 
+**Commit messages:**
+```
+feat: descripción clara del cambio
+
+- Detalle 1
+- Detalle 2
+- Detalle 3
+```
+
 ### Template de PR
 
-Cuando crees un PR, sigue este template:
+Cuando crees un PR, **usa `gh pr create` con esta estructura:**
 
-```markdown
-## Descripción
-Breve descripción del cambio (1-2 líneas).
+```bash
+gh pr create \
+  --title "type: Descripción breve (máx 50 caracteres)" \
+  --body "## Descripción
+Una línea clara de qué cambio haces.
 
 ## Tipo de Cambio
 - [x] Nueva clase/contenido
@@ -190,12 +244,57 @@ Breve descripción del cambio (1-2 líneas).
 - [x] Contenido sigue la guía de AGENTS.md
 - [x] Nombres de archivo son semánticos
 - [x] README actualizado con nuevos enlaces
-- [x] Ejemplo práctico incluido cuando aplica
+- [x] Ejemplo práctico incluido cuando aplica"
 ```
+
+**No uses plataforma web de GitHub** para crear PRs manualmente. **Usa siempre `gh`.**
 
 ### Importante
 
+- **DEBES usar `gh`** para crear PRs. No es opcional.
 - **NO commits directos a `main`**: Siempre crea un branch primero
 - **PR antes de merge**: Los cambios deben revisarse antes de fusionarse
 - **Un tema por PR**: Agrupa cambios relacionados, no mezcles temas
 - **Mensajes claros**: Usa la estructura `type: descripcion` en commits
+- **Verificar instalación**: `gh --version` antes de crear PR
+
+---
+
+## Agentes Especializados Disponibles
+
+### 1. **Clase Processor** — `/clase-processor` Skill
+
+**Descripción:** Automatiza conversión de archivos de clase (PPTX → PDF), generación de resúmenes estructurados, y validación de convenciones.
+
+**Ubicación del skill:** `.github/skills/clase-processor/SKILL.md`
+
+**Acciones disponibles:**
+
+| Acción | Descripción | Input | Output |
+|--------|------------|-------|--------|
+| 🎬 **Convertir PPTX a PDF** | Convierte presentación a PDF renombrado semánticamente | Ruta a `archivo.pptx` | `tema-descriptor-clase-N.pdf` |
+| 📝 **Generar Resumen** | Crea Markdown con conceptos, Mermaid, ejemplos y glosario | "con resumen" | `tema-descriptor-clase-N.md` |
+| 🔗 **Validar Estructura** | Verifica convenciones, nombres y ubicaciones | Archivos generados | Reporte de validación |
+| 📄 **Eliminar PPTX** | Borra archivo original tras conversión exitosa | Confirmación | ✅ Archivo eliminado |
+
+**Cómo invocarlo:**
+1. En el chat, escribe `/clase-processor`
+2. Proporciona la ruta al PPTX o una descripción clara
+3. Especifica si quieres solo PDF o PDF + Markdown con resumen
+
+**Ejemplos:**
+- "Procesa clase 10 de Dirección Estratégica de Datos"
+- "Convierte el PPTX con resumen completo y diagramas"
+- "Ruta: /Users/carlosgil/isil/2026-1/diseno-soluciones-ia/clase-9/archivo.pptx"
+
+**Resultado esperado:**
+```
+✅ Archivos generados en: 2026-1/{curso}/clase-N/
+   - tema-descriptor-clase-N.pdf (siempre)
+   - tema-descriptor-clase-N.md (opcional, si pidió resumen)
+   - PPTX original eliminado automáticamente
+```
+
+---
+
+**Última actualización**: 11 de junio de 2026 | **Alcance**: ISIL 2026-1 Multi-Curso
