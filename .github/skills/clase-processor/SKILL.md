@@ -38,10 +38,19 @@ Crea documento estructurado con:
 
 - Encabezado con metadatos (Código, Curso, Clase, Tema)
 - Conceptos fundamentales
-- Ejemplos gráficos con diagramas Mermaid
+- Ejemplos gráficos (elegir formato según complejidad):
+  - **Tablas Markdown**: matrices, comparativas, datos estructurados
+  - **Diagramas ASCII art**: arquitecturas, flujos complejos
+  - **Mermaid simple**: solo flujos lineales (sin subgraphs)
 - Tablas comparativas
 - Casos de uso por industria
 - Glosario de términos
+
+**⚠️ Estrategia de visualización:**
+
+- ❌ Evitar: Mermaid con subgraphs complejos, emojis en nodos, etiquetas largas
+- ✅ Usar: Tablas para comparativas, ASCII art para arquitectura, Mermaid solo para flujos simples
+- ✅ Validar: Que todos los gráficos se rendericen correctamente antes de finalizar
 
 **Entrada:**
 
@@ -62,7 +71,55 @@ Crea documento estructurado con:
 
 ---
 
-### 🔗 Validar Estructura
+## 📊 Estrategia de Visualización (NEW - 2026-06-16)
+
+**Problema:** Mermaid falla con gráficos complejos (renderización lenta, sobreposición, emojis problemáticos).
+
+**Solución:** Evaluar complejidad y elegir formato de visualización adecuado.
+
+### Matriz de decisión
+
+| Caso de uso              | Formato        | Ventajas                                 | Limitaciones                   |
+| ------------------------ | -------------- | ---------------------------------------- | ------------------------------ |
+| Matriz 4 cuadrantes      | Tabla Markdown | Siempre legible, Universal               | No es "gráfico" visual         |
+| Comparativa 3+ elementos | Tabla Markdown | Datos estructurados, Excel-compatible    | Requiere headers claros        |
+| Flujo simple (3-4 pasos) | Mermaid TD/TB  | Visual, mantenible                       | Emojis + subgraphs = problemas |
+| Arquitectura compleja    | ASCII art      | Legible en texto plano, sin dependencias | Requiere Unicode               |
+| Casos especiales         | Combinación    | Máxima flexibilidad                      | Requiere criterio              |
+
+### Guía de implementación
+
+**Para Mermaid (si lo usas):**
+
+1. ✅ Solo flujos simples lineales (TD o TB)
+2. ✅ Sin emojis en nodos (causa errores de renderización)
+3. ✅ Sin `<br/>` múltiples (simplificar a 1-2 líneas máximo)
+4. ✅ Sin subgraphs complejos (convertir a tabla)
+5. ✅ Nombres cortos de nodos (15-20 caracteres máximo)
+6. ✅ Validar que se renderice en GitHub antes de finalizar
+
+**Para Tablas Markdown:**
+
+- Usar para: datos, comparativas, matrices de decisión
+- Headers claros: `| Concepto | Descripción | Ejemplo |`
+- Separador: `|---|---|---|`
+
+**Para ASCII art:**
+
+- Usar para: flujos verticales, arquitecturas, roadmaps
+- Usar caracteres Unicode: `┌┐└┘─│┼├┤`
+- Respetar alineación columnar
+
+### Problemas comunes y soluciones
+
+| Problema                  | Causa                        | Solución                                         |
+| ------------------------- | ---------------------------- | ------------------------------------------------ |
+| Gráfico no se ve          | Mermaid sintaxis inválida    | Convertir a tabla o ASCII art                    |
+| Se ve montado/superpuesto | Subgraphs complejos          | Dividir en múltiples gráficos simples            |
+| Emojis no se renderizan   | Caracteres no-ASCII en nodos | Remover emojis, usar texto plano                 |
+| Tabla no formatea         | Falta separador `\|---`      | Verificar estructura: headers + separator + rows |
+
+---
 
 Verifica que los archivos generados cumplan convenciones del repositorio.
 
@@ -74,6 +131,7 @@ Verifica que los archivos generados cumplan convenciones del repositorio.
 - ✅ Metadatos completados
 - ✅ Enlaces relativos funcionan
 - ✅ Sin archivos PPTX residuales
+- ✅ **Gráficos se renderizan correctamente** (tablas bien formateadas, ASCII legible, Mermaid simple)
 
 ---
 
@@ -129,5 +187,5 @@ Verifica que los archivos generados cumplan convenciones del repositorio.
 
 ---
 
-**Última actualización:** 11 de junio de 2026  
+**Última actualización:** 16 de junio de 2026 (Estrategia de visualización actualizada: Mermaid simple + Tablas + ASCII art)  
 **Alcance:** ISIL 2026-1 - Procesamiento de clases
