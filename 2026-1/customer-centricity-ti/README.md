@@ -25,6 +25,7 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 | 7 | **Design Thinking – Parte 2: Prototipado y Testeo** | Fase de prototipado (tipos, herramientas), fase de testeo (guía práctica), ciclo iterativo | [📄](./clase-7/customer-centricity-design-thinking-prototipado-testeo-clase-7.md) | [📊](./clase-7/40064_S07_PPT.pdf) |
 | 8 | **Agilidad y Desarrollo Continuo** | (Pendiente) | | |
 | 9 | **Customer Metrics en el Entorno Digital** | Métricas de negocio, indicadores NPS/CSAT/CES, integración con diseño, buenas prácticas | [📄](./clase-9/customer-metrics-indicadores-nps-csat-ces-clase-9.md) | [📊](./clase-9/40064_S09_PPT.pdf) |
+| 10 | **CES vs NPS: Métricas en Profundidad** | Diferenciación entre CES, NPS y CSAT; cuándo usar cada una; casos reales; decisiones estratégicas | [📄](./clase-10/customer-centricity-ces-vs-nps-clase-10.md) | |
 
 ---
 
@@ -63,6 +64,9 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 - ✅ [customer-metrics-checklist-implementacion-clase-9.md](./clase-9/customer-metrics-checklist-implementacion-clase-9.md) — Checklist paso a paso para implementación
 - 📊 [40064_S09_PPT.pdf](./clase-9/40064_S09_PPT.pdf)
 
+### Clase 10: CES vs NPS — Métricas en Profundidad
+- 📄 [customer-centricity-ces-vs-nps-clase-10.md](./clase-10/customer-centricity-ces-vs-nps-clase-10.md) — Comparación detallada, cuadro de referencia, casos reales, decisiones estratégicas
+
 ### Actividad 1: Proyecto RAPIDGO
 - 📋 [RAPIDGO-solucion-actividad-1.md](./actividad-1/RAPIDGO-solucion-actividad-1.md) — Solución completa con diagnóstico, investigación, MVP/MLP y plan ágil
 
@@ -93,6 +97,13 @@ customer-centricity-ti/
 │   ├── customer-centricity-design-thinking-clase-6.md
 │   ├── 40064_S06_PPT.pptx
 │   └── 40064_S06_PPT.pdf
+├── clase-9/
+│   ├── customer-metrics-indicadores-nps-csat-ces-clase-9.md
+│   ├── customer-metrics-checklist-implementacion-clase-9.md
+│   ├── 40064_S09_PPT.pdf
+│   └── README.md
+├── clase-10/
+│   └── customer-centricity-ces-vs-nps-clase-10.md
 ├── actividad-1/
 │   ├── PA1 CUSTOMER CENTRICITY.docx
 │   ├── MEJORAS-SUGERIDAS-GRUPO-C.md

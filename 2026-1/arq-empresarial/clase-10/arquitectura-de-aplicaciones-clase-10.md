@@ -14,32 +14,19 @@ La arquitectura de aplicaciones es la capa intermedia entre el negocio y la tecn
 
 **Mapa conceptual del tema:**
 
-```mermaid
-graph TB
-    AE["🏗️ ARQUITECTURA DE APLICACIONES"]
-    
-    AE --> REL["1️⃣ RELACIÓN<br/>Procesos ↔ Aplicaciones"]
-    AE --> PORT["2️⃣ PORTAFOLIO<br/>Categorización & Priorización"]
-    AE --> INT["3️⃣ INTEGRACIÓN<br/>Modelos & Patterns"]
-    AE --> GAP["4️⃣ BRECHAS<br/>As-Is → To-Be"]
-    
-    REL --> REL1["Trazabilidad:<br/>Capacidad → Proceso →<br/>Servicio → Componente"]
-    REL --> REL2["Patrones:<br/>Soporte directo<br/>Fragmentado, etc."]
-    
-    PORT --> PORT1["Matriz estratégica:<br/>Valor vs Riesgo"]
-    PORT --> PORT2["Análisis redundancia<br/>& obsolescencia"]
-    
-    INT --> INT1["P2P | Hub/ESB<br/>SOA/APIs | Eventos"]
-    INT --> INT2["Desacoplamiento<br/>& Interoperabilidad"]
-    
-    GAP --> GAP1["Roadmap<br/>de transformación"]
-    GAP --> GAP2["Priorización<br/>de inversiones"]
-    
-    style AE fill:#e3f2fd
-    style REL fill:#c8e6c9
-    style PORT fill:#fff9c4
-    style INT fill:#ffccbc
-    style GAP fill:#f8bbd0
+```
+┌─────────────────────────────────────────┐
+│   ARQUITECTURA DE APLICACIONES          │
+└──────────────┬──────────────────────────┘
+               │
+        ┌──────┼──────┬─────────┬────────┐
+        │      │      │         │        │
+        ▼      ▼      ▼         ▼        ▼
+    [RELACIÓN][PORTF][INTEGR][BRECHAS]
+        │      │      │         │
+    ┌───┴──┐┌──┴──┐┌──┴──┐┌────┴────┐
+    ▼      ▼▼     ▼▼     ▼▼         ▼
+   Traz. Patrones Matriz Análisis Roadmap Priorización
 ```
 
 ---
@@ -59,16 +46,17 @@ La trazabilidad arquitectónica sigue este flujo:
 
 **Visualización del flujo:**
 
-```mermaid
-graph TD
-    A["🎯 CAPACIDAD<br/>(Saber hacer)"] --> B["⚙️ PROCESO<br/>(Operacionalizar)"]
-    B --> C["🔧 SERVICIO<br/>(Automatizar)"]
-    C --> D["💻 COMPONENTE<br/>(Implementar)"]
-    
-    E["EJEMPLO: Banca"] -.-> A
-    F["Evaluar crédito"] -.-> B
-    G["Motor de scoring"] -.-> C
-    H["Core Crediticio"] -.-> D
+```
+CAPACIDAD              PROCESO              SERVICIO             COMPONENTE
+(Saber hacer)      (Operacionalizar)    (Automatizar)        (Implementar)
+     │                  │                    │                      │
+     │                  │                    │                      │
+┌────▼───────────┬─────▼──────────────┬────▼──────────┬──────────▼──────┐
+│ Evaluar        │ Recibir solicitud  │ Motor scoring │ Core Crediticio │
+│ capacidad      │ Validar datos      │ (scoring)     │ (sistema legacy)│
+│ de pago        │ Calcular riesgo    │               │                 │
+│ (Banca)        │ Emitir decisión    │               │                 │
+└────────────────┴────────────────────┴───────────────┴─────────────────┘
 ```
 
 **Ejemplo real - Banco minorista:**
@@ -108,21 +96,29 @@ El análisis proceso–aplicación debe representarse mediante:
 
 **Ejemplo visual - Vista por capas (Comercio electrónico):**
 
-```mermaid
-graph LR
-    N["🏢 NEGOCIO<br/>Proceso: Procesar venta"] 
-    A["💻 APLICACIÓN<br/>Servicio: Carrito compra"]
-    D["📊 DATOS<br/>Tabla: ordenes"]
-    T["🔌 TECNOLOGÍA<br/>PostgreSQL"]
-    
-    N --> A
-    A --> D
-    D --> T
-    
-    style N fill:#e1f5ff
-    style A fill:#fff3e0
-    style D fill:#f3e5f5
-    style T fill:#e8f5e9
+```
+┌─────────────────────────────┐
+│  NEGOCIO: Procesar venta    │
+│  (Capacidad de negocio)     │
+└────────────┬────────────────┘
+             │
+             ▼
+┌─────────────────────────────┐
+│  APLICACIÓN: Carrito        │
+│  (Servicio expuesto)        │
+└────────────┬────────────────┘
+             │
+             ▼
+┌─────────────────────────────┐
+│  DATOS: órdenes             │
+│  (Gestión de información)   │
+└────────────┬────────────────┘
+             │
+             ▼
+┌─────────────────────────────┐
+│  TECNOLOGÍA: PostgreSQL     │
+│  (Infraestructura)          │
+└─────────────────────────────┘
 ```
 
 **Ejemplo en matriz de trazabilidad:**
@@ -144,43 +140,23 @@ Existen cuatro patrones principales:
 
 Cada patrón implica diferente nivel de riesgo y complejidad operativa.
 
-**Visualización de patrones:**
+**Comparativa de patrones:**
 
-```mermaid
-graph TB
-    subgraph SD["1️⃣ SOPORTE DIRECTO"]
-        P1["Proceso:<br/>Atención cliente"]
-        S1["Sistema CRM"]
-        P1 --> S1
-    end
-    
-    subgraph SF["2️⃣ SOPORTE FRAGMENTADO"]
-        P2["Proceso:<br/>Cumplimiento"]
-        S2a["Sistema Compliance"]
-        S2b["Base de datos<br/>regulaciones"]
-        P2 --> S2a
-        P2 --> S2b
-    end
-    
-    subgraph RF["3️⃣ REDUNDANCIA"]
-        P3["Proceso:<br/>Facturación"]
-        S3a["SAP"]
-        S3b["Sistema Legacy"]
-        P3 --> S3a
-        P3 --> S3b
-    end
-    
-    subgraph SM["4️⃣ SOPORTE MANUAL"]
-        P4["Proceso:<br/>Aprobación ejecutiva"]
-        Manual["📧 Email + Planilla"]
-        P4 --> Manual
-    end
-    
-    style SD fill:#c8e6c9
-    style SF fill:#fff9c4
-    style RF fill:#ffccbc
-    style SM fill:#f8bbd0
-```
+| Patrón | Proceso | Aplicaciones | Riesgo | Ejemplo Real |
+|--------|---------|--------------|--------|--------------|
+| **1. Soporte Directo** | Atención cliente | Sistema CRM | Bajo | Retail: POS único maneja toda venta |
+| **2. Soporte Fragmentado** | Cumplimiento | Compliance + Base datos regulaciones | Medio | Banca: Core + Mobile + Portal desacoplados |
+| **3. Redundancia** | Facturación | SAP + Sistema Legacy | Alto | Salud: Dos historias clínicas activas |
+| **4. Soporte Manual** | Aprobación ejecutiva | Email + Planilla Excel | Muy alto | Seguros: Gerente aprueba por email |
+
+**Matriz de complejidad operativa:**
+
+| Patrón | Mantenibilidad | Escalabilidad | Tiempo integración | Recomendación |
+|--------|---|---|---|---|
+| Directo | Alta | Buena | Inmediata | Mantener |
+| Fragmentado | Media | Media | 1-2 sprints | Mejorar gradualmente |
+| Redundancia | Baja | Baja | 2-3 sprints | Eliminar |
+| Manual | Crítica | No escala | Manual | Automatizar YA |
 
 **Ejemplos reales por sector:**
 
@@ -250,22 +226,14 @@ Debe estar vinculado a capacidades y procesos críticos.
 | Bajo | Alto | **Retirar o reemplazar** |
 | Bajo | Bajo | Mantener mínimo soporte |
 
-**Visualización de matriz (Ejemplo de Banco):**
+**Matriz de Portafolio (Ejemplo: Banco):**
 
-```mermaid
-graph TB
-    subgraph MB["MATRIZ ESTRATÉGICA"]
-        Q1["🟢 Alto Valor<br/>Bajo Riesgo<br/>---<br/>Core Banking<br/>Mobile Banking<br/>---<br/>✅ MANTENER"]
-        Q2["🔴 Alto Valor<br/>Alto Riesgo<br/>---<br/>Legacy Mainframe<br/>---<br/>⚠️ MODERNIZAR"]
-        Q3["🟡 Bajo Valor<br/>Bajo Riesgo<br/>---<br/>Portal interno<br/>---<br/>✓ MANTENER MIN"]
-        Q4["🔴 Bajo Valor<br/>Alto Riesgo<br/>---<br/>Sistema EOL<br/>---<br/>❌ RETIRAR"]
-    end
-    
-    style Q1 fill:#c8e6c9
-    style Q2 fill:#ffccbc
-    style Q3 fill:#fff9c4
-    style Q4 fill:#f8bbd0
-```
+| **Cuadrante** | **Riesgo** | **Valor** | **Aplicaciones** | **Acción Estratégica** |
+|---|---|---|---|---|
+| Q1 | Bajo | Alto | Core Banking, Mobile Banking | ✅ **MANTENER + Potenciar** — Inversión en nuevas funciones |
+| Q2 | Alto | Alto | Legacy Mainframe | ⚠️ **MODERNIZAR** — Migración a plataforma cloud |
+| Q3 | Bajo | Bajo | Portal Empleados, Intranet | ✓ **MANTENER MIN** — Soporte básico solamente |
+| Q4 | Alto | Bajo | Sistema EOL, Aplicaciones obsoletas | ❌ **RETIRAR** — Retiro planificado en roadmap |
 
 **Ejemplo de portafolio real - Institución Financiera:**
 
@@ -277,6 +245,34 @@ graph TB
 | Portal Empleados | Bajo | Bajo | Q3 | Mantener sin inversión mayor |
 | Sistema obsoleto | Bajo | Alto | Q4 | **Retiro en 6 meses** |
 
+**Análisis por cuadrante:**
+
+- **Q1 (Alto Valor / Bajo Riesgo) — Mantener y Potenciar:**
+  - Aplicaciones críticas para la estrategia
+  - Modernización gradual y continua
+  - Inversión en nuevas funcionalidades
+  - Ejemplo: Aplicaciones de atención al cliente, gestión de pedidos
+
+- **Q2 (Alto Valor / Alto Riesgo) — Modernizar Prioritariamente:**
+  - Sistemas críticos con arquitectura obsoleta
+  - Alto riesgo de fallos operativos
+  - Vulnerabilidades de seguridad potenciales
+  - **Acción urgente:** Roadmap de modernización definido
+  - Ejemplo: Core Banking construido en tecnología legacy
+
+- **Q3 (Bajo Valor / Bajo Riesgo) — Mantener Mínimo:**
+  - Aplicaciones de soporte que funcionan
+  - Bajo impacto si fallan
+  - Mantenimiento defensivo
+  - Ejemplo: Portales internos, herramientas administrativas
+
+- **Q4 (Bajo Valor / Alto Riesgo) — Retirar/Reemplazar:**
+  - No aportan valor estratégico
+  - Alto costo de mantenimiento
+  - Riesgo de fallos frecuentes
+  - **Acción inmediata:** Plan de retiro definido
+  - Ejemplo: Sistemas end-of-life sin usuarios activos
+
 ### 2.5 Identificación de redundancia funcional
 
 La redundancia ocurre cuando:
@@ -285,12 +281,138 @@ La redundancia ocurre cuando:
 - Se ejecutan procesos similares en herramientas distintas
 
 **Impacto:**
-- Incremento de costo
-- Inconsistencia de datos
+- Incremento de costo (mantenimiento duplicado)
+- Inconsistencia de datos (versiones diferentes del "source of truth")
 - Mayor complejidad de integración
 - Dificultad para modernizar
+- Riesgo operativo elevado
 
-Eliminar redundancia mejora gobernanza tecnológica.
+**Ejemplo de redundancia en Banca:**
+
+Un banco tiene registros de clientes en:
+1. Sistema Core Banking (base de datos primaria)
+2. CRM de ventas (datos desactualizados)
+3. Portal de autoservicio (réplica inconsistente)
+4. Sistema de compliance (datos parciales)
+
+Resultado: Inconsistencias de datos, proceso de actualización manual complicado, imposible tener visión única del cliente.
+
+Eliminar redundancia mejora gobernanza tecnológica y reduce riesgo de datos.
+
+### 2.6 Casos de Estudio: Estrategia de Portafolio en Empresas Reales
+
+#### Caso 1: Microsoft Bing — Estrategia de Diferenciación mediante Portafolio Integrado
+
+**Contexto:**
+- Bing parecía un "fracaso" con baja cuota de mercado frente a Google (< 10%)
+- Sin embargo, Microsoft convirtió un "fracaso de usuario" en un **éxito comercial sostenible**
+
+**Estrategia Arquitectónica:**
+
+1. **Identificar el activo central diferenciador:**
+   - Windows: controlaba el 90% de computadoras de escritorio
+   - Buscador de escritorio integrado = mayor adopción
+
+2. **Portafolio integrado:**
+   - Bing establecido como motor de búsqueda por defecto en Windows
+   - Integración en Office, Edge, Cortana
+   - Servicios de publicidad reutilizables
+
+3. **Monetización mediante múltiples canales:**
+   - Publicidad de búsqueda
+   - Contratos corporativos (Yahoo, DuckDuckGo)
+   - Búsqueda vertical (videos, imágenes, empleo)
+
+**Leción Arquitectónica:**
+
+```
+                    ┌──────────┐
+                    │   BING   │
+                    │(búsqueda)│
+                    └─────┬────┘
+                          │
+        ┌─────────┬──────┬┴────┬────────┐
+        │         │      │     │        │
+        ▼         ▼      ▼     ▼        ▼
+    [Windows] [Office] [Edge] [Copilot]
+        │         │      │     │
+        └─────────┴──────┴┬────┴────────┐
+                          │             │
+                    ┌─────▼──────┐      │
+                    │ Publicidad  │◄────┘
+                    │ (ingresos)  │
+                    └─────┬───────┘
+                          │
+                    ┌─────▼──────┐
+                    │   ÉXITO    │
+                    │ (~50B USD)  │
+                    └────────────┘
+```
+
+**Conclusión:** Un producto tecnológico "fallido" se convierte en éxito mediante arquitectura estratégica que lo integra en activos existentes de mayor valor.
+
+---
+
+#### Caso 2: Dropbox — Evolución de Portafolio y Adaptación Arquitectónica
+
+**Contexto:**
+- Dropbox comenzó como almacenamiento en la nube para usuarios individuales (2008)
+- Compitió contra gigantes: Google Drive, iCloud, OneDrive
+- Se convirtió en empresa de $30B de valuación
+
+**Estrategia de Portafolio:**
+
+1. **Identificar problema real:**
+   - Usuarios necesitaban sincronización de archivos simple entre dispositivos
+   - Solución mejor que alternativas existentes
+
+2. **Crecimiento mediante viralización:**
+   - Sistema de referidos (viral loops)
+   - Integración en sistemas operativos
+   - Portafolio simplista: UN producto enfocado
+
+3. **Pivot: Expansión hacia empresas (Dropbox Business):**
+   - Cuando Google/Apple invadieron mercado de usuarios
+   - Necesidad corporativa diferente: seguridad, gobernanza, integración
+   - Crear nuevo portafolio para vertical empresarial
+
+4. **Diversificación moderna:**
+   - Dropbox Paper (colaboración)
+   - Dropbox Sign (firma electrónica)
+   - Dropbox Replay (comentarios en video)
+   - API para integraciones externas
+
+**Evolución del Portafolio:**
+
+```
+FASE 1: Storage Personal
+└─ Usuarios individuales
+   └─ Sincronización simple
+      └─ Viral loops
+         │
+         ├─ PIVOT ──→ FASE 2: Dropbox Business
+         │            └─ Usuarios empresariales
+         │               └─ Admin console
+         │                  └─ Integración, seguridad
+         │                     │
+         │                     └─ EXPANSIÓN ──→ FASE 3: Plataforma
+         │                        └─ Suite integrada
+         │                           ├─ Dropbox Paper
+         │                           ├─ Dropbox Sign
+         │                           ├─ Dropbox Replay
+         │                           └─ APIs públicas
+         │
+         └─ Modelo de negocio: Freemium → Empresarial → Plataforma
+```
+
+**Lección Arquitectónica:**
+
+- **Arquitectura debe ser adaptable:** Lo que es éxito hoy puede ser obsoleto mañana
+- **Pivot requiere nuevo portafolio:** Dropbox Business es arquitectura diferente a Dropbox Personal
+- **Diversificación mediante APIs:** Permiten a terceros construir sobre plataforma
+- **Gobernanza de evolución:** Mantener compatibilidad mientras se agregan nuevas capas
+
+**Conclusión:** Empresas que evolucionan arquitectónicamente según cambios del mercado logran crecimiento sostenible.
 
 ---
 
@@ -331,52 +453,18 @@ Existen cuatro patrones principales:
 
 **Recomendación arquitectónica:** Arquitecturas maduras privilegian servicios desacoplados y APIs.
 
-**Comparativa visual de modelos:**
+**Comparativa visual de modelos (en vertical para mejor legibilidad):**
 
-```mermaid
-graph TB
-    subgraph P2P["1️⃣ PUNTO A PUNTO<br/>(❌ No recomendado)"]
-        A1["App A"]
-        A2["App B"]
-        A3["App C"]
-        A1 -.->|API1| A2
-        A1 -.->|API2| A3
-        A2 -.->|API3| A3
-    end
-    
-    subgraph HUB["2️⃣ HUB/ESB<br/>(⚠️ Transición)"]
-        H["🔧 ESB/Hub"]
-        B1["App A"]
-        B2["App B"]
-        B3["App C"]
-        B1 -->|API| H
-        B2 -->|API| H
-        B3 -->|API| H
-    end
-    
-    subgraph SOA["3️⃣ SERVICIOS/APIs<br/>(✅ Recomendado)"]
-        C1["Servicio 1"]
-        C2["Servicio 2"]
-        C3["Servicio 3"]
-        C1 -->|REST| C2
-        C2 -->|REST| C3
-    end
-    
-    subgraph EVENT["4️⃣ ORIENTADO A EVENTOS<br/>(✅ Moderno)"]
-        E["📨 Message Broker<br/>Kafka/RabbitMQ"]
-        D1["Publicador"]
-        D2["Suscriptor"]
-        D3["Suscriptor"]
-        D1 -->|evento| E
-        E -->|evento| D2
-        E -->|evento| D3
-    end
-    
-    style P2P fill:#f8bbd0
-    style HUB fill:#fff9c4
-    style SOA fill:#c8e6c9
-    style EVENT fill:#c8e6c9
-```
+**Comparativa de modelos de integración:**
+
+| Modelo | Descripción | Arquitectura | Limitación | Recomendación |
+|--------|-------------|--|---|---|
+| **P2P** | Conexiones directas | A1↔A2, A1↔A3, A2↔A3... | 6+ conexiones = caos | Evitar |
+| **Hub/ESB** | Middleware central | A1→ESB, A2→ESB, A3→ESB | 1 fallo = todo cae | Transición |
+| **SOA/APIs** | Servicios desacoplados | Auth→Pagos→Notificaciones | Requiere madurez | Recomendado |
+| **Eventos** | Message broker asincrónico | Pub→Broker→Sub1, Sub2 | Monitoreo complejo | Moderno |
+
+**Evolución recomendada:** P2P → Hub → SOA/APIs → Event-driven
 
 **Ejemplo real - Sistema de pagos:**
 
@@ -404,25 +492,35 @@ Describe el estado real del ecosistema tecnológico:
 
 **Ejemplo As-Is - Empresa retail con problemas:**
 
-```mermaid
-graph LR
-    POS["POS<br/>Tienda"]
-    ERP["ERP SAP<br/>2005"]
-    WEB["E-commerce<br/>Magento"]
-    EXCEL["📊 Excel<br/>Inventario"]
-    EMAIL["📧 Email<br/>Integraciones"]
-    
-    POS -.->|FTP| EXCEL
-    ERP -.->|Manual| EXCEL
-    WEB -.->|CSV| EXCEL
-    EXCEL -.->|Email| EMAIL
-    EMAIL -->|Manual| ERP
-    
-    style POS fill:#ffccbc
-    style ERP fill:#ffccbc
-    style WEB fill:#ffccbc
-    style EXCEL fill:#f8bbd0
-    style EMAIL fill:#f8bbd0
+**Arquitectura As-Is (Estado actual) - Retail:**
+
+```
+┌─────────────────────────────────────────────────┐
+│              PROBLEMAS ESTRUCTURALES             │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│  POS(Tienda)    ERP(SAP)    E-commerce(Magento)│
+│       │              │              │           │
+│       └──────(FTP)───┼──────(CSV)───┤           │
+│                      │              │           │
+│              ┌──────▼──────────────▼─┐          │
+│              │  Excel Central        │ CUELLO   │
+│              │  (Inventario manual)  │ BOTELLA  │
+│              └────────────┬──────────┘          │
+│                           │                     │
+│                      (Email)                    │
+│                           │                     │
+│                    ┌──────▼──────┐              │
+│                    │ ERP Manual   │ RIESGO      │
+│                    └──────────────┘              │
+│                                                 │
+└─────────────────────────────────────────────────┘
+
+Problemas:
+❌ Integraciones manuales (riesgo de error)
+❌ Excel central (cuello de botella)
+❌ Sin visibilidad en tiempo real
+❌ Alto costo operativo
 ```
 
 **Problemas identificados:**
@@ -447,21 +545,37 @@ Define el estado tecnológico deseado:
 
 **Ejemplo To-Be - Mismo retail modernizado:**
 
-```mermaid
-graph LR
-    POS2["POS<br/>Tienda"]
-    OMS["Order Mgmt<br/>API"]
-    INVENTORY["Inventory<br/>Service"]
-    WEB2["E-commerce<br/>Cloud"]
-    
-    POS2 -->|REST API| OMS
-    WEB2 -->|REST API| OMS
-    OMS -->|REST API| INVENTORY
-    
-    style POS2 fill:#c8e6c9
-    style OMS fill:#c8e6c9
-    style INVENTORY fill:#c8e6c9
-    style WEB2 fill:#c8e6c9
+**Arquitectura To-Be (Objetivo) - Retail Moderno:**
+
+```
+┌─────────────────────────────────────────────────┐
+│           ARQUITECTURA MODERNIZADA               │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│    POS(Tienda)        E-commerce(Cloud)        │
+│         │                      │                │
+│         │      (REST API)       │                │
+│         └──────────────┬────────┘                │
+│                        │                         │
+│              ┌─────────▼──────────┐              │
+│              │ Order Management   │ APIs         │
+│              │ (Orquestrador)     │ REST         │
+│              └─────────┬──────────┘              │
+│                        │                         │
+│                 (REST API)                       │
+│                        │                         │
+│              ┌─────────▼──────────┐              │
+│              │ Inventory Service  │ Desacoplado │
+│              │ (en tiempo real)   │ y escalable │
+│              └────────────────────┘              │
+│                                                 │
+└─────────────────────────────────────────────────┘
+
+Mejoras:
+✅ APIs desacopladas
+✅ Real-time visibility
+✅ Automatización completa
+✅ Reducción de costo operativo (~75%)
 ```
 
 **Mejoras:**
@@ -483,29 +597,14 @@ La brecha surge cuando:
 - El tiempo de cambio tecnológico es elevado
 - La arquitectura no soporta nuevas capacidades estratégicas
 
-**Ejemplo visual - Brecha en banca:**
+**Ejemplo de brecha en banca:**
 
-```mermaid
-graph TB
-    subgraph AS["🔴 ARQUITECTURA ACTUAL"]
-        ASAPP["Core Banking<br/>COBOL 1998"]
-        ASPERF["Rendimiento:<br/>2,000 tx/seg"]
-        ASCOST["Costo anual:<br/>$2M"]
-    end
-    
-    subgraph TO["🟢 ARQUITECTURA OBJETIVO"]
-        TOAPP["Core Banking<br/>Microservicios"]
-        TOPERF["Rendimiento:<br/>50,000 tx/seg"]
-        TOCOST["Costo anual:<br/>$500K"]
-    end
-    
-    ASAPP -->|BRECHA| TOAPP
-    ASPERF -->|BRECHA| TOPERF
-    ASCOST -->|BRECHA| TOCOST
-    
-    style AS fill:#f8bbd0
-    style TO fill:#c8e6c9
-```
+| Dimensión | Arquitectura Actual | Arquitectura Objetivo | Brecha | Impacto |
+|-----------|-------|-------|--------|---------|
+| **Plataforma** | Core Banking COBOL 1998 | Core Banking Microservicios | Modernizar | Crítico |
+| **Rendimiento** | 2,000 transacciones/seg | 50,000 transacciones/seg | Escalabilidad | Alto |
+| **Costo anual** | $2,000,000 | $500,000 | Eficiencia operativa | Alto |
+| **Time-to-market** | 6 meses | 2 semanas | Agilidad | Crítico |
 
 ### 4.2 Documentación de brechas
 
@@ -528,29 +627,197 @@ Se documenta mediante una matriz:
 
 **Roadmap de transformación:**
 
-```mermaid
-graph LR
-    Q1["Q1: Evaluar<br/>Historia clínica"]
-    Q2["Q2: Pilotar<br/>Historia clínica"]
-    Q3["Q3: Migrar<br/>50% datos"]
-    Q4["Q4: Migrar<br/>100% + Portal"]
-    Q5["2025-Q1: Telemedicina<br/>+ Facturación"]
-    
-    Q1 --> Q2
-    Q2 --> Q3
-    Q3 --> Q4
-    Q4 --> Q5
-    
-    style Q1 fill:#fff9c4
-    style Q2 fill:#fff9c4
-    style Q3 fill:#ffccbc
-    style Q4 fill:#c8e6c9
-    style Q5 fill:#c8e6c9
+**Ejemplo de brechas en banca (Hospital):**
+
+```
+ROADMAP DE TRANSFORMACIÓN
+
+Q1 2024: Evaluar Historia Clínica
+  └─ Audit del sistema actual
+     └─ Identificar datos críticos
+        │
+Q2 2024: Pilotar Historia Clínica
+  └─ Pilot en 2-3 departamentos
+     └─ Validar datos y flujos
+        │
+Q3 2024: Migrar 50% de datos
+  └─ Migración en paralelo (As-Is + To-Be)
+     └─ Validación continua
+        │
+Q4 2024: Migrar 100% + Portal
+  └─ Cutover total
+     └─ Lanzar portal de pacientes
+        │
+Q1 2025: Telemedicina + Facturación
+  └─ Nuevas capacidades (expansión)
+     └─ Integración con sistemas backend
 ```
 
 ---
 
-## 5. Conclusiones principales
+## 5. Riesgos de Seguridad en Arquitectura de Aplicaciones
+
+### 5.1 Puntos de acceso maliciosos
+
+Uno de los riesgos críticos identificados en arquitectura es la **vulnerabilidad mediante puntos de acceso comprometidos**.
+
+**Ejemplos de amenazas:**
+
+1. **Dispositivos comprometidos (Ej: WiFi Pineapple)**
+   - Simula red WiFi legítima
+   - Intercepta credenciales de usuarios
+   - Redirige tráfico de datos sensibles
+
+2. **Dispositivos USB maliciosos**
+   - Se simulan como teclados (HID — Human Interface Device)
+   - Inyectan comandos en máquinas destino
+   - Acceso a recursos corporativos
+
+3. **Impacto arquitectónico:**
+   - Falta de segmentación de red
+   - Autenticación débil
+   - Ausencia de detección de anomalías
+
+**Mitigación arquitectónica:**
+
+| Amenaza | Control Requerido | Descripción | Objetivo |
+|---------|------|---|---|
+| Punto de acceso comprometido | **VPN Obligatoria** | Encriptación end-to-end | Defensa |
+| Punto de acceso comprometido | **Autenticación Multi-factor** | No solo contraseña | Defensa |
+| Punto de acceso comprometido | **Zero Trust** | Verificar cada conexión | Defensa |
+| Punto de acceso comprometido | **Segmentación de Red** | Limitar movimiento lateral | Defensa |
+| Punto de acceso comprometido | **Detección de Anomalías** | Comportamiento inusual | Defensa |
+
+**Regla fundamental:** La arquitectura de aplicaciones debe integrar seguridad desde el diseño, no como agregado posterior.
+
+---
+
+## 6. Inteligencia Artificial y Riesgos Emergentes en Arquitectura
+
+### 6.1 Modelos de IA capaces de explotar vulnerabilidades
+
+**Contexto:**
+Anthropics presentó **Claude 3.5 Sonnet** (modelo "Mitos"), un modelo de IA avanzado con capacidades de:
+- Análisis de código
+- Detección de vulnerabilidades
+- Generación de exploits
+- Automatización de ataques
+
+**Implicaciones para Arquitectura Empresarial:**
+
+1. **Riesgo nuevo: IA como herramienta de ataque**
+   - Sistemas financieros pueden ser atacados por IA automatizada
+   - Vulnerabilidades descubiertas antes que defendidas
+   - Velocidad de ataque acelera exponencialmente
+
+2. **Impacto en diseño arquitectónico:**
+   - Necesidad de arquitecturas resistentes a ataques de IA
+   - Múltiples capas de validación
+   - Monitoreo behavioral en tiempo real
+   - Segregación de datos críticos
+
+3. **Decisiones arquitectónicas derivadas:**
+   - **API Hardening:** Límites de rate, validación exhaustiva
+   - **Detección basada en IA:** Usar IA para defender contra IA
+   - **Aislamiento de activos críticos:** Core banking separado de sistemas públicos
+   - **Auditoría exhaustiva:** Toda operación registrada y analizable
+
+**Arquitectura segura contra IA:**
+
+```
+Ataque de IA (Claude 3.5 Sonnet)
+              |
+              +------> API Gateway <----> Solicitud Bloqueada
+              |
+              v
+    Detección de Anomalías
+    (Behavioral Analytics)
+              |
+          +---+---+
+          |       |
+          v       v
+       Vault    Core Banking
+    (Encriptado) (Protegido)
+```
+
+| Capa | Control | Descripción |
+|------|---------|-------------|
+| Entrada | API Gateway | Validación inicial + Rate limiting |
+| Detección | Anomalías | Machine Learning + comportamiento |
+| Datos | Vault | Encriptación AES-256 + Keys remotas |
+| Lógica | Core Banking | Segmentación de red + Zero Trust |
+
+**Conclusión:** La arquitectura debe anticipar que los atacantes usarán IA, diseñando defensas multicapa y automatizadas.
+
+---
+
+## 7. Impacto Ambiental de la Arquitectura Tecnológica
+
+### 7.1 El costo energético oculto de la IA y centros de datos
+
+**Realidad sorprendente:**
+
+La IA y los centros de datos tienen un **costo ambiental extremadamente alto:**
+
+- **Consumo de energía:** Un modelo de IA entrenado consume ~1,300 MWh de energía
+- **Consumo de agua:** Refrigerar servidores requiere millones de litros de agua potable diariamente
+- **Impacto global:** Los centros de datos representan ~3-4% del consumo eléctrico mundial
+
+**Ejemplos reales:**
+
+- **Meta (Facebook):** Construyendo centro de datos en Suecia para aprovechar agua fría
+- **Google:** Usando IA para optimizar refrigeración, reduciendo consumo 40%
+- **Proyectos frenados:**
+  - Chile: Proyecto de minería de litio para IA detenido por sequía
+  - Uruguay: Centro de datos cancelado por escasez de agua
+
+**Impacto arquitectónico:**
+
+**Soluciones arquitectónicas:**
+
+| Solución | Estrategia | Beneficio | Implementación |
+|----------|-----------|----------|-----------------|
+| **Eficiencia computacional** | Modelos pequeños (DistilBERT) | 60-80% reducción energía | Quantization, caching |
+| **Energías renovables** | Data centers 100% renovables | 40% reducción carbono | Ubicación estratégica |
+| **Reutilización de modelos** | Transfer learning vs training | 80% reducción energía | Fine-tuning compartido |
+| **Gobernanza** | Audit + límites de uso | Variable según política | Compensación carbono |
+
+| Impacto | Evidencia | Región | Estado |
+|---------|-----------|--------|--------|
+| **Sequía regional** | Consumo de agua masivo | Chile | Proyecto frenado 2022-2024 |
+| **Sequía regional** | Consumo de agua masivo | Uruguay | Data center cancelado |
+| **Demanda eléctrica** | Training: 45,000 MWh por modelo | Global | Creciente |
+| **Huella carbono** | 1 query IA = 50g CO2 vs Google 0.2g | Global | 250x más intensiva |
+
+### 7.2 Arquitectura sostenible
+
+**Principios de diseño:**
+
+1. **Eficiencia computacional:**
+   - Algoritmos optimizados, no fuerza bruta
+   - Modelos más pequeños y especializados
+   - Caché inteligente para evitar recálculos
+
+2. **Ubicación inteligente:**
+   - Centros de datos en zonas de energía renovable
+   - Considerar impacto hídrico regional
+   - Proximidad a usuarios (reducir latencia y tránsito)
+
+3. **Reutilización de modelos:**
+   - APIs compartidas vs. modelos duplicados
+   - Fine-tuning sobre pre-trained models
+   - Modelo federado vs. centralizado
+
+4. **Gobernanza:**
+   - Medir consumo energético por aplicación
+   - Reportar huella de carbono
+   - Objetivos de reducción vinculados a estrategia
+
+**Regla fundamental:** **La arquitectura moderna debe diseñarse bajo criterios de eficiencia de recursos y sostenibilidad ambiental.**
+
+---
+
+## Conclusiones principales
 
 1. **Trazabilidad estructural:** La arquitectura de aplicaciones establece la trazabilidad formal entre capacidades estratégicas, procesos de negocio y servicios tecnológicos, garantizando que la tecnología esté diseñada para habilitar la ejecución organizacional.
 
@@ -562,6 +829,28 @@ graph LR
 
 5. **Roadmap de transformación:** El análisis de brechas convierte el diagnóstico tecnológico en un roadmap estructurado de transformación, alineado a capacidades estratégicas y reducción de riesgo operativo.
 
+6. **Estrategia arquitectónica como diferenciador:** Los casos de Microsoft Bing y Dropbox demuestran que la **excelencia no está en el producto único, sino en cómo se integra en un portafolio estratégico** que crea valor sostenible y escalable.
+
+7. **Seguridad integrada desde el diseño:** La arquitectura moderna debe anticipar amenazas (incluidas las basadas en IA) e integrar mecanismos de defensa multicapa desde la fase de diseño, no como parche posterior.
+
+8. **Sostenibilidad como imperativo arquitectónico:** La eficiencia energética y el impacto ambiental son factores de diseño críticos. La arquitectura debe optimizar consumo de energía y agua, alineándose con responsabilidad corporativa y regulaciones emergentes.
+
+---
+
+## 🌟 Lecciones Transversales de la Sesión 10
+
+### Tema Central: Arquitectura como Instrumento Estratégico
+
+La arquitectura de aplicaciones **no es un ejercicio técnico aislado**, sino un **instrumento estratégico integrado** que debe considerar:
+
+1. **Portafolio:** ¿Qué sistemas construyen valor? ¿Cuál es el roadmap de modernización?
+2. **Integración:** ¿Cómo se comunican los sistemas para evitar silos? ¿Cuál es el nivel de acoplamiento?
+3. **Estrategia:** ¿Cómo el portafolio habilita nuevas capacidades del negocio? (Ej: Bing en Windows)
+4. **Seguridad:** ¿Cómo se protege la arquitectura contra ataques humanos y automatizados?
+5. **Impacto:** ¿Cuál es la huella ambiental de la arquitectura? ¿Es sostenible a largo plazo?
+
+**La arquitectura madura integra todas estas dimensiones.**
+
 ---
 
 ## Referencias y fuentes
@@ -572,3 +861,7 @@ graph LR
 - **UML Version 2.5** — Object Management Group
 - **ISO/IEC 42010** — Systems and Software Engineering – Architecture Description
 - **Gartner Enterprise Architecture Practice** — Capability-based planning y roadmaps arquitectónicos
+- **Microsoft Bing Case Study:** Estrategia de integración en portafolio empresarial
+- **Dropbox Evolution:** Adaptabilidad arquitectónica en ciclos de vida de producto
+- **Anthropic Claude 3.5 Sonnet:** Riesgos de seguridad en era de IA
+- **Data Center Sustainability:** Google, Meta, AWS environmental impact studies
