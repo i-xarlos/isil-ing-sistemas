@@ -26,18 +26,18 @@ Un **modelo de Inteligencia Artificial** es esencialmente un **algoritmo basado 
 
 ### Principio de Funcionamiento
 
-```mermaid
-graph LR
-    INPUT["Entrada<br/>(Variables)"] --> PARAMS["Parámetros<br/>Ajustables"]
-    PARAMS --> ECUACIONES["Ecuaciones<br/>Matemáticas"]
-    ECUACIONES --> OUTPUT["Salida<br/>(Predicción)"]
-    
-    TRAINING["Entrenamiento:<br/>Ajusta parámetros<br/>para minimizar error"]
-    TRAINING -.-> PARAMS
-    
-    style INPUT fill:#e3f2fd
-    style OUTPUT fill:#c8e6c9
-    style PARAMS fill:#fff9c4
+```
+Entrada (Variables)
+  |
+Parámetros ajustables
+  |
+Ecuaciones matemáticas
+  |
+Salida (Predicción)
+
+Entrenamiento:
+- Ajusta parámetros para minimizar error
+- Optimiza el modelo con datos históricos
 ```
 
 En Machine Learning no existe un modelo "mejor" para todos los casos. La elección correcta depende de:
@@ -48,6 +48,62 @@ En Machine Learning no existe un modelo "mejor" para todos los casos. La elecci�
 - La naturaleza de las variables de entrada
 
 En esta clase aprenderemos **los fundamentos del aprendizaje automático** y a seleccionar el modelo más adecuado para cada situación.
+
+---
+
+## Actualización de Sesión (6508.202610)
+
+### Introducción y consideraciones previas
+
+Al inicio, el profesor tuvo problemas técnicos y se conectó desde otro equipo para indicar a los estudiantes que subieran su Evaluación 3, cuyo plazo vencía ese mismo día. Luego retomó la sesión formalmente con pantalla compartida.
+
+El foco de la clase fue revisar criterios para elegir el mejor modelo de IA según la complejidad del problema, los datos disponibles y el contexto de negocio.
+
+### Clasificación de modelos según el aprendizaje
+
+| Tipo | Cómo aprende | Cuándo usarlo | Ejemplo |
+|---|---|---|---|
+| Aprendizaje supervisado | Usa datos etiquetados | Cuando ya se conoce la variable objetivo | Aprobar/rechazar crédito, spam/no spam |
+| Aprendizaje no supervisado | Descubre patrones sin etiquetas | Cuando no se conocen grupos previos | Segmentación de clientes por consumo |
+| Aprendizaje por refuerzo | Aprende con recompensas y castigos | Cuando hay interacción con entorno y objetivo secuencial | Agente que optimiza decisiones paso a paso |
+
+### Conceptos técnicos reforzados en clase
+
+1. Caja blanca vs caja negra:
+  - Caja blanca: más interpretable y fácil de explicar.
+  - Caja negra: mayor complejidad y, en muchos casos, mayor precisión.
+
+2. Regresión lineal:
+  - Se explicó con la ecuación $y = mx + b$.
+  - Objetivo: estimar una salida $y$ a partir de una entrada $x$.
+
+3. Árboles de decisión:
+  - Deciden por reglas secuenciales, por ejemplo: salario, edad, historial.
+
+4. Redes neuronales y KNN:
+  - Redes neuronales: modelan relaciones complejas con múltiples capas.
+  - KNN: clasifica por cercanía matemática entre puntos.
+
+5. Sobreajuste, sesgo y varianza:
+  - Recomendación base: 80% entrenamiento y 20% validación.
+  - Si se entrena con casi todos los datos (95%-99%), puede ocurrir overfitting (alta varianza).
+  - Si se entrena con muy pocos datos, aumenta el sesgo.
+
+6. Regularización L1 y L2:
+  - Se usan para reducir complejidad y controlar variables de bajo impacto.
+
+### Requerimientos computacionales
+
+| Escenario | Recurso recomendado |
+|---|---|
+| Modelos grandes de lenguaje (LLM) | 128 GB de RAM o más, idealmente con GPU |
+| Modelos básicos (regresión, árboles, clasificación estándar) | 8 GB de RAM en equipo convencional |
+
+### Actividad asíncrona
+
+Se dejó una tarea en plataforma para la hora asíncrona: resolver casos cortos e identificar qué tipo de aprendizaje o modelo corresponde en cada situación. Fecha de entrega: hasta la siguiente semana.
+
+> Idea clave: la selección del modelo no depende solo de la precisión; también depende de interpretabilidad, costo computacional y capacidad de generalización.
 
 ---
 
@@ -136,21 +192,13 @@ Una fase avanzada de entrenamiento orientada a **dotar de máxima precisión al 
 - Sistemas de recomendación adaptativos
 - Conducción autónoma de vehículos
 
-```mermaid
-graph LR
-    AGENTE["🤖 Agente"] --> ACCION["Acción"]
-    ACCION --> ENTORNO["🌍 Entorno"]
-    ENTORNO --> OBSERVACION["Observación"]
-    OBSERVACION --> RECOMPENSA{"¿Correcto?"}
-    RECOMPENSA -->|Sí| PREMIO["+ Recompensa"]
-    RECOMPENSA -->|No| CASTIGO["- Castigo"]
-    PREMIO --> APRENDIZAJE["Ajusta Parámetros"]
-    CASTIGO --> APRENDIZAJE
-    APRENDIZAJE --> AGENTE
-    
-    style AGENTE fill:#e3f2fd
-    style PREMIO fill:#c8e6c9
-    style CASTIGO fill:#ffcdd2
+```
+Agente -> Acción -> Entorno -> Observación -> ¿Correcto?
+   |                  |
+   +-- Sí --> Recompensa --> Ajusta parámetros
+   +-- No --> Castigo ----> Ajusta parámetros
+
+El agente ajusta su comportamiento según las recompensas o castigos recibidos.
 ```
 
 ---
@@ -324,10 +372,12 @@ El modelo predice con **certeza matemática** una salida de $y = 21$
 
 **Función Sigmoide:** Limita predicciones entre 0 y 1 (probabilidad)
 
-```mermaid
-graph LR
-    INPUT["Entrada"] --> SIGMOIDE["Función Sigmoide"]
-    SIGMOIDE --> OUTPUT["Salida: 0 a 1<br/>(Probabilidad)"]
+```
+Entrada
+  |
+Función Sigmoide
+  |
+Salida: valor entre 0 y 1 (probabilidad)
 ```
 
 **Ejemplo Real:**
@@ -597,11 +647,8 @@ Antes de entrenar **cualquier algoritmo**, la data debe estar:
 #### Distribución de la Data (Regla 80/20)
 
 Lo recomendable es usar:
-
-```
-80% de los datos para ENTRENAR el modelo
-20% de los datos para VALIDAR en producción
-```
+- **80% de los datos** para entrenar el modelo
+- **20% de los datos** para validar en producción
 
 **Razón:**
 - El modelo aprende patrones del 80%
@@ -614,32 +661,35 @@ Lo recomendable es usar:
 
 #### Sobreajuste — El Modelo Memoriza
 
-```
 Si usas demasiada data para entrenar (ej: 95% o 99%):
-  → El modelo memoriza esos datos específicos PERFECTAMENTE
-  → PERO cuando recibe datos nuevos en producción:
-     ✗ Es incapaz de generalizar
-     ✗ Comete errores graves
-```
+- El modelo memoriza esos datos específicos PERFECTAMENTE
+- PERO cuando recibe datos nuevos en producción:
+  - Es incapaz de generalizar
+  - Comete errores graves
 
 **Analogía:** Un estudiante que memoriza todas las preguntas del examen pasado pero no entiende los conceptos.
 
 #### Subajuste — El Modelo es Demasiado Simple
 
-```
 Si el modelo es muy simple (ej: una línea recta para datos complejos):
-  → Subestima la complejidad del problema
-  → No captura los patrones reales
-  → Tiene baja precisión incluso en datos de entrenamiento
-```
+- Subestima la complejidad del problema
+- No captura los patrones reales
+- Tiene baja precisión incluso en datos de entrenamiento
 
 #### La Zona Ideal
 
-```mermaid
-graph LR
-    SUB["Subajuste<br/>(Modelo muy simple)<br/>Error Alto"] --> IDEAL["✅ EQUILIBRIO<br/>Generaliza bien<br/>Error Moderado"]
-    IDEAL --> SOBRE["Sobreajuste<br/>(Modelo muy complejo)<br/>Error Alto en datos nuevos"]
-```
+**Comparación de los tres estados:**
+
+| Estado | Error | Generalización |
+|---|---|---|
+| Subajuste | Alto | Malo |
+| Equilibrio | Moderado | Excelente |
+| Sobreajuste | Alto (nuevos datos) | Malo |
+
+**Detalles:**
+- **Subajuste:** Modelo muy simple, no captura la complejidad
+- **Equilibrio:** Punto óptimo, generaliza bien
+- **Sobreajuste:** Modelo muy complejo, memoriza datos
 
 ---
 
@@ -650,16 +700,13 @@ graph LR
 | **Sesgo (Bias)** | Error sistemático del modelo | Entrenamiento con **pocos datos** | Usar más datos, modelo más complejo |
 | **Varianza** | Sensibilidad a cambios en datos | **Sobreajuste**, modelo muy complejo | Regularización, menos complejidad |
 
-**Visualización:**
+**Comparación de Sesgo y Varianza:**
 
-```mermaid
-graph TD
-    SESGO["Alto Sesgo<br/>(Subajuste)<br/>↓<br/>Predicciones alejadas<br/>pero consistentes"]
-    
-    VARIANZA["Alta Varianza<br/>(Sobreajuste)<br/>↓<br/>Predicciones dispersas<br/>inconsistentes"]
-    
-    IDEAL["✅ Bajo Sesgo<br/>✅ Baja Varianza<br/>↓<br/>Predicciones precisas<br/>y consistentes"]
-```
+| Escenario | Predicciones | Consistencia | Resultado |
+|---|---|---|---|
+| **Alto Sesgo (Subajuste)** | Alejadas del objetivo | Consistentes entre sí | Modelo demasiado simple |
+| **Alta Varianza (Sobreajuste)** | Dispersas sin patrón | Inconsistentes | Modelo memoriza datos |
+| **Ideal** | Cerca del objetivo | Consistentes | Generaliza bien |
 
 ---
 
@@ -669,19 +716,12 @@ graph TD
 
 **Escenario del Profesor:**
 
-```
-Si tienes 40 atributos de entrada:
+**Ejemplo: Regularización con 40 atributos de entrada**
 
-❌ Sin regularización:
-   → El modelo intenta usar TODOS los 40 atributos
-   → Muchos tienen impacto bajo o innecesario
-   → Resultado: Sobreajuste
-
-✅ Con Regularización L1/L2:
-   → El modelo identifica que solo 30 atributos son importantes
-   → Reduce la atención a los 10 menos útiles
-   → Resultado: Modelo más simple, mejor generalización
-```
+| Enfoque | Atributos usados | Impacto | Resultado final |
+|---|---|---|---|
+| **Sin regularización** | Intenta 40 | Muchos irrelevantes | Sobreajuste alto |
+| **Con L1/L2** | 30 importantes | Solo los relevantes | Mejor generalización |
 
 **Diferencia L1 vs L2:**
 
@@ -733,22 +773,10 @@ Alternativa:
 
 ### 1. Volumen de Datos vs. Complejidad
 
-```mermaid
-graph LR
-    subgraph POCOS["POCOS DATOS"]
-        P1["📊 Modelos SIMPLES"]
-        P2["Regresión Lineal"]
-        P3["Árboles pequeños"]
-        P4["Evita sobreajuste"]
-    end
-    
-    subgraph MUCHOS["MUCHOS DATOS"]
-        M1["📈 Modelos COMPLEJOS"]
-        M2["Redes Neuronales"]
-        M3["Ensambles"]
-        M4["Captura patrones avanzados"]
-    end
-```
+| Volumen de datos | Tipo de modelo | Ejemplos |
+|---|---|---|
+| Pocos datos | Modelos simples | Regresión Lineal, Árboles pequeños |
+| Muchos datos | Modelos complejos | Redes Neuronales, Ensambles |
 
 **Principio:** A menos datos → modelo más simple
 
@@ -756,19 +784,10 @@ graph LR
 
 ### 2. Tipo de Variable
 
-```mermaid
-graph TD
-    VARIABLE["Tipo de Variable"] 
-    
-    VARIABLE --> NUMERICA["Numérica/Continua<br/>(Peso, Precio)"]
-    VARIABLE --> CATEGORICA["Categórica/Cualitativa<br/>(Color, Sí/No)"]
-    
-    NUMERICA --> REG["Regresión"]
-    CATEGORICA --> CATENC["Codificar o Árboles"]
-    
-    REG --> LINEAL["Lineal/Polinómica"]
-    CATENC --> CLASS["Clasificación"]
-```
+| Tipo de variable | Modelo recomendado |
+|---|---|
+| Numérica / Continua (peso, precio) | Regresión lineal o polinómica |
+| Categórica / Cualitativa (color, sí/no) | Clasificación con regresión logística o árboles |
 
 ---
 
@@ -791,26 +810,11 @@ graph TD
 
 ### 4. Sobreajuste vs. Subajuste
 
-```mermaid
-graph LR
-    subgraph SUBAJUSTE["Modelo MUY SIMPLE"]
-        S1["Alto Sesgo"]
-        S2["Baja Varianza"]
-        S3["Subestima"]
-    end
-    
-    subgraph EQUILIBRIO["✅ EQUILIBRIO"]
-        E1["Sesgo Moderado"]
-        E2["Varianza Moderada"]
-        E3["Buen rendimiento"]
-    end
-    
-    subgraph SOBREAJUSTE["Modelo MUY COMPLEJO"]
-        O1["Bajo Sesgo"]
-        O2["Alta Varianza"]
-        O3["Sobreajusta"]
-    end
-```
+| Estado | Sesgo | Varianza | Resultado |
+|---|---|---|---|
+| Modelo muy simple | Alto | Bajo | Subajuste: no captura patrones reales |
+| Equilibrio | Moderado | Moderado | Buen rendimiento general |
+| Modelo muy complejo | Bajo | Alto | Sobreajuste: falla con datos nuevos |
 
 **Regularización:** Penaliza la complejidad
 - L1/L2 en regresión
@@ -821,16 +825,10 @@ graph LR
 
 ### 5. Estructura de los Datos
 
-```mermaid
-graph TD
-    DATOS["Estructura de Datos"]
-    
-    DATOS --> ESTRUCTURADOS["📊 Estructurados<br/>(Tablas)"]
-    DATOS --> NO_ESTRUCTURADOS["📄 No Estructurados<br/>(Texto, Imágenes, Audio)"]
-    
-    ESTRUCTURADOS --> MODELOS1["Modelos Tradicionales<br/>Regresión, Árboles, SVM"]
-    NO_ESTRUCTURADOS --> MODELOS2["Modelos Especializados<br/>NLP, CNN, RNN"]
-```
+| Estructura de datos | Modelos recomendados |
+|---|---|
+| Estructurados (tablas) | Regresión, Árboles, SVM |
+| No estructurados (texto, imágenes, audio) | NLP, CNN, RNN |
 
 **Ejemplos:**
 - **Estructurado:** Predecir ventas con variables de económicas
@@ -852,23 +850,14 @@ graph TD
 
 ### 7. Interpretabilidad vs. Precisión
 
-```mermaid
-graph LR
-    SIMPLE["Modelo Simple<br/>(Árbol pequeño)"]
-    PRECISION["Precisión: 85%"]
-    INTERPRETABLE["✓ Muy interpretable"]
-    
-    COMPLEJO["Modelo Complejo<br/>(Red neuronal)"]
-    PRECISION2["Precisión: 92%"]
-    NO_INTERPRETABLE["✗ Difícil de explicar"]
-    
-    DECISION["Decisión:<br/>¿Vale el +7%<br/>de precisión<br/>perder<br/>explicabilidad?"]
-    
-    SIMPLE --> INTERPRETABLE
-    COMPLEJO --> NO_INTERPRETABLE
-    INTERPRETABLE --> DECISION
-    NO_INTERPRETABLE --> DECISION
-```
+| Aspecto | Árbol Simple | Red Neuronal |
+|--------|---|---|
+| **Precisión** | 85% | 92% |
+| **Interpretabilidad** | Excelente | Muy baja |
+| **Facilidad de explicar** | Sí, clara | No, compleja |
+| **Mejora de precisión** | — | +7% |
+
+**Decisión clave:** ¿Vale la mejora de 7% en precisión sacrificar la explicabilidad?
 
 **Regla de Oro:** En áreas de alto riesgo (medicina, finanzas) → preferir interpretabilidad
 
@@ -878,19 +867,13 @@ graph LR
 
 **Problema:** Clases con representación desigual (ej: 1% fraude, 99% legítimo)
 
-```mermaid
-graph LR
-    PROBLEMA["Datos Desbalanceados"] --> PROBLEMAS1["Precisión engañosa"]
-    PROBLEMA --> PROBLEMAS2["Modelo sesgado"]
-    
-    SOLUCION1["Ponderación de clases"]
-    SOLUCION2["SMOTE (Sobremuestreo)"]
-    SOLUCION3["F1-Score, Recall"]
-    
-    PROBLEMAS1 --> SOLUCION1
-    PROBLEMAS2 --> SOLUCION2
-    PROBLEMAS2 --> SOLUCION3
-```
+- Precisión puede ser engañosa
+- El modelo tiende a sesgarse hacia la clase mayoritaria
+
+**Soluciones:**
+- Ponderación de clases
+- Sobremuestreo (SMOTE)
+- Usar métricas como F1-Score o Recall
 
 **Métrica correcta:** Usar F1-Score o Recall, no Precisión global
 
@@ -898,20 +881,12 @@ graph LR
 
 ### 9. Recursos Computacionales
 
-```mermaid
-graph LR
-    subgraph RAPIDO["⚡ RÁPIDO"]
-        R1["Regresión Lineal"]
-        R2["Árboles de Decisión"]
-        R3["Bajo consumo CPU"]
-    end
-    
-    subgraph LENTO["🐢 LENTO"]
-        L1["Redes Neuronales"]
-        L2["SVM con kernel"]
-        L3["Requiere GPU"]
-    end
-```
+| Modelo | Consumo | Requsito principal |
+|---|---|---|
+| Regresión Lineal | Bajo | CPU estándar |
+| Árboles de Decisión | Bajo | CPU estándar |
+| Redes Neuronales | Alto | GPU dedicada |
+| SVM con kernel | Alto | GPU o CPU potente |
 
 ---
 
@@ -919,15 +894,15 @@ graph LR
 
 **Contexto:** Banco necesita detectar transacciones fraudulentas en tiempo real
 
-### Proceso
+### Proceso paso a paso
 
-```mermaid
-graph LR
-    STEP1["1. Recopilación<br/>de datos"] --> STEP2["2. Limpieza<br/>y preparación"]
-    STEP2 --> STEP3["3. Entrenamiento<br/>Modelo Supervisado"]
-    STEP3 --> STEP4["4. Predicción"]
-    STEP4 --> STEP5["5. Decisión<br/>Revisar si probabilidad<br/>fraude > umbral"]
-```
+| Paso | Actividad |
+|---|---|
+| 1 | Recopilación de datos históricos |
+| 2 | Limpieza y preparación |
+| 3 | Entrenamiento del modelo supervisado |
+| 4 | Predicción de la transacción |
+| 5 | Decisión: revisar si probabilidad de fraude > umbral establecido |
 
 ### Elección del Modelo
 
@@ -949,25 +924,11 @@ graph LR
 
 ## 5️⃣ Evaluación y Métricas
 
-```mermaid
-graph TD
-    EVAL["Evaluación del Modelo"]
-    
-    EVAL --> REGRESION["Regresión"]
-    EVAL --> CLASIFICACION["Clasificación"]
-    EVAL --> CLUSTERING["Clustering"]
-    
-    REGRESION --> MSE["MSE (Error Cuadrático)"]
-    REGRESION --> RMSE["RMSE"]
-    REGRESION --> MAE["MAE"]
-    
-    CLASIFICACION --> PRECISION["Precisión"]
-    CLASIFICACION --> RECALL["Recall"]
-    CLASIFICACION --> F1["F1-Score"]
-    CLASIFICACION --> AUC["AUC-ROC"]
-    
-    CLUSTERING --> SILHOUETTE["Coeficiente Silhouette"]
-```
+| Tarea | Métricas principales |
+|---|---|
+| Regresión | MAE, MSE, RMSE |
+| Clasificación | Precisión, Recall, F1-Score, AUC-ROC |
+| Clustering | Coeficiente Silhouette |
 
 ### Matriz de Confusión (Clasificación)
 
@@ -994,16 +955,10 @@ VN = Verdaderos Negativos
 
 **Principio:** Si dos modelos tienen rendimiento similar, **elige el más simple**
 
-```mermaid
-graph LR
-    MODEL1["Árbol simple<br/>Precisión: 87%<br/>Fácil de explicar"]
-    MODEL2["Red neuronal<br/>Precisión: 88%<br/>Difícil de explicar"]
-    
-    CHOICE["✅ ELIGE<br/>ÁRBOL SIMPLE"]
-    
-    MODEL1 --> CHOICE
-    MODEL2 --> CHOICE
-```
+| Modelo | Precisión | Interpretabilidad | Recomendación |
+|---|---|---|---|
+| Árbol simple | 87% | Excelente | ✅ Elección optima |
+| Red neuronal | 88% | Baja | ✗ Más complejo, menos beneficio |
 
 **Beneficios del modelo simple:**
 - Más rápido de entrenar
@@ -1013,28 +968,22 @@ graph LR
 
 ---
 
-## 📊 Diagrama de Decisión: Seleccionar Modelo
+## 📊 Flujo de Decisión: Seleccionar Modelo
 
-```mermaid
-graph TD
-    START["¿Cuál es tu problema?"] 
-    
-    START --> Q1{"¿Tienes<br/>muchos datos?"}
-    
-    Q1 -->|No| SIMPLE["Modelos SIMPLES<br/>• Regresión Lineal<br/>• Árbol pequeño"]
-    Q1 -->|Sí| Q2{"¿Datos<br/>lineales?"}
-    
-    Q2 -->|Sí| Q3{"¿Clasificación<br/>o Regresión?"}
-    Q2 -->|No| COMPLEJO["Modelos COMPLEJOS<br/>• Árboles grandes<br/>• Redes Neuronales<br/>• SVM"]
-    
-    Q3 -->|Regresión| LINREG["Regresión Lineal"]
-    Q3 -->|Clasificación| LOGREG["Regresión Logística"]
-    
-    SIMPLE --> EVAL["Evaluar con<br/>Validación Cruzada"]
-    COMPLEJO --> EVAL
-    LINREG --> EVAL
-    LOGREG --> EVAL
-```
+**Paso 1:** ¿Cuál es tu problema?
+- ✅ Clasificación, regresión o clustering
+
+**Paso 2:** ¿Tienes muchos datos?
+- **NO** → Usa modelos simples (Regresión Lineal, Árbol pequeño)
+- **SÍ** → Evalúa linealidad de datos
+
+**Paso 3:** ¿Los datos son lineales?
+- **SÍ (Lineal)** → Elige regresión o regresión logística
+- **NO (No lineal)** → Usa modelos complejos (Árboles, Redes Neuronales, SVM)
+
+**Paso 4:** Validación
+- ✅ Siempre evaluar con validación cruzada
+- ✅ Usar métricas apropiadas según el tipo de tarea
 
 ---
 
