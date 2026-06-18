@@ -1,6 +1,6 @@
 # Skills — Índice y Estructura
 
-Este directorio contiene todos los **skills personalizados** para el repositorio ISIL 2026-1. Los skills se organizan por dominio para facilitar descubrimiento y mantenimiento.
+Este directorio contiene todos los **skills personalizados** para el repositorio ISIL {year-semestre}. Los skills se organizan por dominio para facilitar descubrimiento y mantenimiento.
 
 ---
 
@@ -53,8 +53,8 @@ Consulta [`.github/instructions/`](../instructions/) para reglas de estructura:
 |---|---|---|
 | **writing** | Escribir documentación clara y scannable | `**/*.md` |
 | **clase** | Documentar sesiones de clase completas | Clases |
-| **actividad** | Crear documentación de actividades | `2026-1/**/actividad-*/**/*.md` |
-| **images** | Procesar imágenes con OCR | `2026-1/**/*.{png,jpg,gif}` |
+| **actividad** | Crear documentación de actividades | `*/actividad-*/**/*.md` |
+| **images** | Procesar imágenes con OCR | `*/clase-*/**/*.{png,jpg,gif}` |
 | **mermaid-analysis** | Analizar oportunidades de diagramas Mermaid | `**/ANALISIS-OPORTUNIDADES-*-MERMAID.md` |
 
 ### 🛠️ Para Metodologías (Skills)
@@ -119,7 +119,7 @@ applyTo: "pattern/**/*.md"         # Opcional: cuándo activarse automáticament
 Si un skill tiene patrón `applyTo`, se activa automáticamente:
 
 ```yaml
-applyTo: "2026-1/**/*.md"  # Activar para archivos Markdown en 2026-1
+applyTo: "*/**/*.md"  # Activar para archivos Markdown del periodo activo
 ```
 
 ### Manual

@@ -1,8 +1,10 @@
-# Instrucciones para Copilot — ISIL Ingeniería de Sistemas (2026-1)
+# Instrucciones para Copilot — ISIL Ingeniería de Sistemas ({year-semestre})
+
+> **Nota:** `{year-semestre}` es un placeholder que representa el ciclo académico actual (ej: `2026-1`, `2026-2`, `2027-1`). Reemplázalo con la carpeta real del cohorte con el que estés trabajando. El cohorte actual es `2026-1`.
 
 ## Propósito del repositorio
 
-Este repositorio contiene apuntes y materiales de estudio de **múltiples cursos** de la carrera en ISIL, cohorte 2026-1.
+Este repositorio contiene apuntes y materiales de estudio de **múltiples cursos** de la carrera en ISIL, cohorte {year-semestre}.
 
 Cursos activos:
 - **Arquitectura Empresarial** (`arq-empresarial`)
@@ -23,7 +25,7 @@ _meta/                              ← archivos transversales de la cohorte
 ├── INDICE-CONCEPTOS.md
 ├── PLANTILLA-NUEVAS-CLASES.md
 └── PR-INFO.md
-2026-1/
+{year-semestre}/
 ├── arq-empresarial/
 │   ├── clase-1/
 │   ├── clase-2/
@@ -105,7 +107,7 @@ Los archivos que no pertenecen a un curso específico van en `_meta/`:
 ### Al agregar una nueva clase
 
 1. ✅ Identificar el curso correcto (`arq-empresarial`, `diseno-soluciones-ia`, etc.)
-2. ✅ Crear carpeta: `2026-1/{curso}/clase-X/`
+2. ✅ Crear carpeta: `{year-semestre}/{curso}/clase-X/`
 3. ✅ Crear markdown: `{tema}-{descriptor}-clase-X.md` dentro de `clase-X/`
 4. ✅ Guardar imágenes: `{concepto}-{descriptor}-clase-X.png` dentro de `clase-X/`
 5. ✅ Actualizar `README.md` con enlace a la nueva clase
@@ -179,4 +181,4 @@ Para futuras clases y actividades, usar esta estructura de forma consistente:
 
 ---
 
-**Última actualización**: 16/04/2026 | **Alcance**: Repositorio multi-curso 2026-1
+**Última actualización**: 16/04/2026 | **Alcance**: Repositorio multi-curso {year-semestre}

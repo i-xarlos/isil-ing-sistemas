@@ -1,6 +1,6 @@
 # Agents — Configuración de Agentes Personalizados
 
-Este directorio contiene la configuración de agentes personalizados para GitHub Copilot en el repositorio ISIL 2026-1.
+Este directorio contiene la configuración de agentes personalizados para GitHub Copilot en el repositorio ISIL {year-semestre}.
 
 ---
 

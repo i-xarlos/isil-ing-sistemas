@@ -163,7 +163,7 @@ Paso 3
 
 ## 📚 Checklist para el Análisis
 
-- [ ] Todos los archivos `.md` en `2026-1/*/clase-*/` fueron escaneados
+- [ ] Todos los archivos `.md` en `{year-semestre}/*/clase-*/` fueron escaneados
 - [ ] Cada oportunidad tiene: archivo, línea, tipo, descripción, justificación
 - [ ] Priorización usa matriz 3×3 consistently
 - [ ] Patrones reutilizables identificados y documentados
@@ -195,4 +195,4 @@ Aplica este skill cuando:
 
 **Versión:** 1.0  
 **Última actualización:** 10/06/2026  
-**Mantenedor:** Equipo de Documentación ISIL 2026-1
+**Mantenedor:** Equipo de Documentación ISIL {year-semestre}

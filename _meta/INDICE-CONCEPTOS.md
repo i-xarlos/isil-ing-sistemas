@@ -1,6 +1,8 @@
 # Índice de Conceptos Clave
 
-Este archivo permite navegar rápidamente por los conceptos principales cubiertos en los cursos 2026-1.
+> `{year-semestre}` representa el periodo académico (ej: `2026-1`, `2026-2`). Los enlaces apuntan al periodo actual `2026-1`. Al crear un nuevo periodo, duplica y ajusta las rutas.
+
+Este archivo permite navegar rápidamente por los conceptos principales cubiertos en los cursos del periodo.
 
 ---
 
@@ -135,4 +137,4 @@ Dónde aparece: [Diseño IA — Clase 2](2026-1/diseno-soluciones-ia/clase-2/dis
 
 ---
 
-**Cohorte:** 2026-1 | ISIL Ingeniería de Sistemas
+**Periodo:** 2026-1 | ISIL Ingeniería de Sistemas

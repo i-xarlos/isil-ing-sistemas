@@ -1,6 +1,6 @@
 ---
 name: clase-processor
-description: "Use when: processing a new class (PPTX to PDF conversion + optional Markdown summary with concepts, examples, Mermaid diagrams, and glossary). Specializes in ISIL 2026-1 course documentation. Handles file conversion, renaming, and cleanup automatically."
+description: "Use when: processing a new class (PPTX to PDF conversion + optional Markdown summary with concepts, examples, Mermaid diagrams, and glossary). Specializes in ISIL course documentation. Handles file conversion, renaming, and cleanup automatically."
 ---
 
 # Clase Processor Skill
@@ -16,13 +16,13 @@ Convierte presentación PowerPoint a PDF con nombre semántico automático.
 **Entrada:**
 
 - Ruta al archivo PPTX
-- Ejemplo: `/Users/carlosgil/isil/2026-1/direccion-estrategica-de-datos/clase-10/40062-S10-PPT.pptx`
+- Ejemplo: `/Users/carlosgil/isil/{year-semestre}/direccion-estrategica-de-datos/clase-10/40062-S10-PPT.pptx`
 
 **Salida:**
 
 - PDF renombrado: `tema-descriptor-clase-N.pdf`
 - PPTX original eliminado automáticamente
-- Archivo ubicado en carpeta correcta: `2026-1/{curso}/clase-N/`
+- Archivo ubicado en carpeta correcta: `{year-semestre}/{curso}/clase-N/`
 
 **Ejemplo de uso:**
 
@@ -126,7 +126,7 @@ Verifica que los archivos generados cumplan convenciones del repositorio.
 **Validaciones:**
 
 - ✅ Nombres semánticos (sin genéricos como `clase-3.md`)
-- ✅ Ubicación correcta en `2026-1/{curso}/clase-X/`
+- ✅ Ubicación correcta en `{year-semestre}/{curso}/clase-X/`
 - ✅ Sin carpetas adicionales bajo `clase-X/`
 - ✅ Metadatos completados
 - ✅ Enlaces relativos funcionan
@@ -140,7 +140,7 @@ Verifica que los archivos generados cumplan convenciones del repositorio.
 ✅ Tienes un nuevo PPTX de clase y necesitas convertirlo a PDF  
 ✅ Quieres un resumen estructurado con conceptos y diagramas  
 ✅ Necesitas limpiar archivos PPTX después de procesarlos  
-✅ Trabajas con cursos ISIL 2026-1
+✅ Trabajas con cursos ISIL {year-semestre}
 
 ❌ NO usar para: editar archivos existentes, crear estructuras de proyecto, debugging
 
@@ -172,7 +172,7 @@ Verifica que los archivos generados cumplan convenciones del repositorio.
 
 - **Script Swift:** `/Users/carlosgil/isil/scripts/convert_ppt_to_pdf.swift`
 - **Convenciones:** `/Users/carlosgil/isil/.github/copilot-instructions.md`
-- **Estructura:** `2026-1/{curso}/clase-X/`
+- **Estructura:** `{year-semestre}/{curso}/clase-X/`
 
 ---
 
@@ -182,10 +182,10 @@ Verifica que los archivos generados cumplan convenciones del repositorio.
 1. "Procesa clase 10 de Dirección Estratégica de Datos"
 2. "Convierte el PPTX de arquitectura empresarial con resumen"
 3. "Genera PDF y resumen de clase 7 de IA"
-4. "Ruta: /Users/carlosgil/isil/2026-1/diseno-soluciones-ia/clase-9/archivo.pptx"
+4. "Ruta: /Users/carlosgil/isil/{year-semestre}/diseno-soluciones-ia/clase-9/archivo.pptx"
 ```
 
 ---
 
 **Última actualización:** 16 de junio de 2026 (Estrategia de visualización actualizada: Mermaid simple + Tablas + ASCII art)  
-**Alcance:** ISIL 2026-1 - Procesamiento de clases
+**Alcance:** ISIL {year-semestre} - Procesamiento de clases

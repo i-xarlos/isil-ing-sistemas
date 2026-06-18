@@ -18,7 +18,7 @@ Todo análisis de oportunidades Mermaid debe comenzar con:
 # Análisis de Oportunidades de Mermaid — {Tema o Curso}
 
 **Fecha:** DD/MM/AAAA  
-**Alcance:** {Descripción breve del alcance, p.ej. "Archivos .md en carpetas 2026-1/*/clase-*/"}  
+**Alcance:** {Descripción breve del alcance, p.ej. "Archivos .md en carpetas {year-semestre}/*/clase-*/"}  
 **Objetivo:** {Qué se busca lograr con los diagramas}
 ```
 

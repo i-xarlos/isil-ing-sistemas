@@ -1,7 +1,7 @@
 ---
 name: image-documentation
 description: Process class and activity images with OCR, rename semantically, and embed with descriptive text. Use when documenting images or enriching Markdown with visual content.
-applyTo: "2026-1/**/*.{png,jpg,gif}"
+applyTo: "*/clase-*/**/*.{png,jpg,gif}"
 ---
 
 # Imágenes — Lectura y Documentación
@@ -75,8 +75,8 @@ mv ruta/original/nombre-viejo.png ruta/original/nombre-nuevo.png
 
 **Ejemplo real:**
 ```bash
-mv 2026-1/arq-empresarial/clase-2/Slide3.png \
-   2026-1/arq-empresarial/clase-2/togaf-adm-fases-clase-2.png
+mv {year-semestre}/arq-empresarial/clase-2/Slide3.png \
+   {year-semestre}/arq-empresarial/clase-2/togaf-adm-fases-clase-2.png
 ```
 
 Si estaba referenciada en `.md`, actualiza todas las referencias primero.
@@ -93,8 +93,8 @@ swift scripts/ocr_images.swift ruta/imagen.png
 
 **Procesar varias imágenes:**
 ```bash
-swift scripts/ocr_images.swift 2026-1/arq-empresarial/clase-2/togaf-adm-fases-clase-2.png \
-                               2026-1/arq-empresarial/clase-2/zachman-matriz-clase-2.png
+swift scripts/ocr_images.swift {year-semestre}/arq-empresarial/clase-2/togaf-adm-fases-clase-2.png \
+                               {year-semestre}/arq-empresarial/clase-2/zachman-matriz-clase-2.png
 ```
 
 El script imprime texto extraído separado con `=== nombre-del-archivo.png ===`.

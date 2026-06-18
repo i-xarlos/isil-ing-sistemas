@@ -16,7 +16,7 @@ Todo documento de clase debe comenzar con este formato:
 ```md
 # {Tema de la sesión} (Clase X)
 
-**Curso:** {Nombre del curso} (ISIL, 2026-1)  
+**Curso:** {Nombre del curso} (ISIL, {year-semestre})  
 **Docente:** {Nombre del docente}  
 **Fecha:** DD/MM/AAAA
 ```

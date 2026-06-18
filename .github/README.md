@@ -1,6 +1,6 @@
 # .github — Configuración, Reglas y Automatización
 
-Directorio central que contiene toda la configuración de automatización, reglas de estructura y definiciones de agentes para el repositorio ISIL 2026-1.
+Directorio central que contiene toda la configuración de automatización, reglas de estructura y definiciones de agentes para el repositorio ISIL {year-semestre}.
 
 ---
 
@@ -123,7 +123,7 @@ Repositorio ISIL
 │   ├── instructions/                (Por tipo de doc)
 │   ├── agents/                      (Agentes personalizados)
 │   └── skills/                      (Metodologías)
-├── 2026-1/                          ← Contenido de cursos
+├── {year-semestre}/                         ← Contenido de cursos (ej: 2026-1, 2026-2, 2027-1)
 │   ├── arq-empresarial/
 │   ├── direccion-estrategica-de-datos/
 │   ├── analisis-estadistico-data-mining/

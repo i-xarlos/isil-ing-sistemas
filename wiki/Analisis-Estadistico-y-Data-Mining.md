@@ -1,4 +1,4 @@
-# Análisis Estadístico y Data Mining (2026-1)
+# Análisis Estadístico y Data Mining ({year-semestre})
 
 **Ruta del curso:** ../2026-1/analisis-estadistico-data-mining/
 
@@ -10,4 +10,4 @@
 
 ## Recursos del curso
 - Carpeta del curso: ../2026-1/analisis-estadistico-data-mining/
-- Índice general de cursos: ./Cursos-2026-1.md
+- Índice general de cursos: ./CURSOS.md

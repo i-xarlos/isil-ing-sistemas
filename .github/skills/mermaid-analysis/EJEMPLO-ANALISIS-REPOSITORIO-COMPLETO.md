@@ -1,7 +1,7 @@
-# Análisis de Oportunidades de Mermaid — Repositorio ISIL 2026-1
+# Análisis de Oportunidades de Mermaid — Repositorio ISIL {year-semestre}
 
 **Fecha:** 09/05/2026  
-**Alcance:** Archivos `.md` en carpetas `2026-1/*/clase-*/`  
+**Alcance:** Archivos `.md` en carpetas `{year-semestre}/*/clase-*/`  
 **Objetivo:** Identificar dónde Mermaid agregaría valor visual significativo
 
 ---

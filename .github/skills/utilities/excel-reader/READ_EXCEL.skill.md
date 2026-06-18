@@ -37,7 +37,7 @@ swift scripts/read_excel.swift "/Users/carlosgil/Downloads/Ejemplo - Escenario d
 #### Leer archivo en el workspace
 
 ```bash
-swift scripts/read_excel.swift "/Users/carlosgil/isil/2026-1/datos/escenarios.xlsx"
+swift scripts/read_excel.swift "/Users/carlosgil/isil/{year-semestre}/datos/escenarios.xlsx"
 ```
 
 #### Leer y capturar en variable
@@ -109,7 +109,7 @@ swift scripts/read_excel.swift "/Users/carlosgil/Downloads/Formato a llenar - Es
 
 ```bash
 # Verificar si archivo tiene contenido
-swift scripts/read_excel.swift "/Users/carlosgil/isil/2026-1/arq-empresarial/actividad-2/datos.xlsx" | wc -l
+swift scripts/read_excel.swift "/Users/carlosgil/isil/{year-semestre}/arq-empresarial/actividad-2/datos.xlsx" | wc -l
 ```
 
 ### Caso 3: Extraer Datos para Markdown
@@ -231,4 +231,4 @@ timeout 30 swift scripts/read_excel.swift "archivo.xlsx"
 ---
 
 **Última actualización**: Mayo 2026  
-**Usado en**: Arquitectura Empresarial (ISIL 2026-1)
+**Usado en**: Arquitectura Empresarial (ISIL {year-semestre})
