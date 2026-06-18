@@ -1,3 +1,4 @@
 # Git ignore
 .DS_Store
 .vscode/settings.json
+memories/

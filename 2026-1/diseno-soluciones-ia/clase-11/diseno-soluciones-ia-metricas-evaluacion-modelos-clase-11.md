@@ -167,6 +167,24 @@ $$
 
 **Interpretación:** En promedio te equivocas ±$9,250, pero a veces llega a ±$20,000 (por eso RMSE es mayor).
 
+### Ejemplo numérico clásico
+
+Supongamos los valores reales: **[3, -0.5, 2, 7]** y los predichos: **[2.5, 0.0, 2, 8]**.
+
+Los errores son:
+- $2.5 - 3 = -0.5$
+- $0.0 - (-0.5) = +0.5$
+- $2 - 2 = 0$
+- $8 - 7 = +1$
+
+Por lo tanto, los errores son: **[-0.5, +0.5, 0, +1]**.
+
+- **MAE** = $(0.5 + 0.5 + 0 + 1)/4 = 0.5$
+- **MSE** = $(0.5^2 + 0.5^2 + 0^2 + 1^2)/4 = 0.375$
+- **RMSE** = $\sqrt{0.375} \approx 0.612$
+
+**Idea clave:** MAE mide el error promedio simple; MSE lo castiga más cuando hay errores grandes; RMSE lo devuelve en la misma unidad de los datos, lo que suele ser más intuitivo.
+
 ---
 
 ## 4. Recall (¿De lo que realmente era "sí", cuánto encontramos?)
