@@ -8,11 +8,11 @@ Esta página agrupa referencias útiles para mantener el repositorio ordenado.
 - Info para PRs: ../_meta/PR-INFO.md
 
 ## Convenciones resumidas (según README)
-- Curso: `2026-1/{nombre-curso}/`
+- Curso: `{year-semestre}/{nombre-curso}/` (ej: `2026-1/arq-empresarial/`)
 - Clase: `clase-1/`, `clase-2/`, etc.
 - Archivos: nombres descriptivos, incluyendo `clase-N`
 - Imágenes: `{concepto}-{descriptor}-clase-N.png`
 
 ## Volver
 - Home: ./Home.md
-- Cursos: ./Cursos-2026-1.md
+- Cursos: ./CURSOS.md

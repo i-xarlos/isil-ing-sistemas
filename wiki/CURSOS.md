@@ -1,8 +1,9 @@
-# Cursos — 2026-1
+# Cursos
 
-Lista de cursos del ciclo **2026-1**.
+Lista de cursos organizados por periodo académico.
 
-## Cursos
+## 2026-1
+
 - [Arquitectura Empresarial](./Arquitectura-Empresarial.md) (`2026-1/arq-empresarial/`)
 - [Customer Centricity TI](./Customer-Centricity-TI.md) (`2026-1/customer-centricity-ti/`)
 - [Dirección Estratégica de Datos](./Direccion-Estrategica-de-Datos.md) (`2026-1/direccion-estrategica-de-datos/`)
@@ -11,4 +12,4 @@ Lista de cursos del ciclo **2026-1**.
 
 ## Referencias
 - Índice principal del repo: ../README.md
-- Carpeta del ciclo: ../2026-1/
+- Carpeta del periodo: ../2026-1/

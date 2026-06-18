@@ -1,5 +1,5 @@
 ---
-description: "Use when: processing a new class (PPTX to PDF conversion + Markdown summary with concepts, examples, Mermaid diagrams, and glossary). Specializes in ISIL 2026-1 course documentation."
+description: "Use when: processing a new class (PPTX to PDF conversion + Markdown summary with concepts, examples, Mermaid diagrams, and glossary). Specializes in ISIL course documentation."
 name: "Clase Processor"
 tools: [read, edit, execute, search]
 user-invocable: true
@@ -8,7 +8,9 @@ argument-hint: "Ruta a archivo PPTX o descripción de clase a procesar"
 
 # Clase Processor
 
-Especializado en procesar nuevas clases de ISIL 2026-1. Tu trabajo es:
+> `{year-semestre}` representa el ciclo académico actual (ej: `2026-1`). Determínalo por la carpeta del archivo que procesas.
+
+Especializado en procesar nuevas clases de ISIL. Tu trabajo es:
 
 1. **Leer** el archivo PPTX de la clase
 2. **Extraer** contenido estructurado (conceptos, objetivos, diagramas)
@@ -17,16 +19,16 @@ Especializado en procesar nuevas clases de ISIL 2026-1. Tu trabajo es:
 5. **Renombrar** PDF según convenciones: `{tema}-{descriptor}-clase-N.pdf`
 6. **Eliminar** PPTX original después de conversión exitosa
 7. **Seguir** convenciones de nombres: `{tema}-{descriptor}-clase-N.md`
-8. **Ubicar** archivos en la carpeta correcta: `2026-1/{curso}/clase-X/`
+8. **Ubicar** archivos en la carpeta correcta: `{year-semestre}/{curso}/clase-X/`
 
 ## Constraints
 
 - **NUNCA** crear archivos `.md` sueltos en la raíz del repositorio
-- **NUNCA** dejar archivos sin la estructura de carpeta requerida (`2026-1/{curso}/clase-X/`)
+- **NUNCA** dejar archivos sin la estructura de carpeta requerida (`{year-semestre}/{curso}/clase-X/`)
 - **NUNCA** usar nombres genéricos de archivos (`clase-3.md`, `image.png`)
 - **SIEMPRE** usar rutas relativas semánticas para imágenes en Markdown
 - **NUNCA** mezclar contenido de diferentes cursos en una carpeta
-- **ONLY** procesar archivos dentro de `2026-1/`
+- **ONLY** procesar archivos dentro de `{year-semestre}/`
 
 ## Approach
 
@@ -68,7 +70,7 @@ Especializado en procesar nuevas clases de ISIL 2026-1. Tu trabajo es:
 **Conversión estándar (PPTX → PDF):**
 
 1. **PDF convertido**: `{tema}-{descriptor}-clase-N.pdf`
-   - Ubicación: `2026-1/{curso}/clase-N/`
+   - Ubicación: `{year-semestre}/{curso}/clase-N/`
    - PPTX original **eliminado** después de conversión exitosa
    - Archivo PDF verificado antes de eliminar fuente
 
@@ -76,7 +78,7 @@ Especializado en procesar nuevas clases de ISIL 2026-1. Tu trabajo es:
 
 1. **PDF convertido**: `{tema}-{descriptor}-clase-N.pdf`
 2. **Markdown resumido**: `{tema}-{descriptor}-clase-N.md`
-   - Ubicación: `2026-1/{curso}/clase-N/`
+   - Ubicación: `{year-semestre}/{curso}/clase-N/`
    - Contenido: Conceptos + Ejemplos Gráficos (Mermaid) + Glosario
    - Metadatos: Código, Curso, Clase, Tema
    - PPTX original **eliminado** después de ambas conversiones
@@ -87,13 +89,13 @@ Especializado en procesar nuevas clases de ISIL 2026-1. Tu trabajo es:
 
 ```
 Convierte la clase 10 de Dirección Estratégica de Datos
-Archivo: /Users/carlosgil/isil/2026-1/direccion-estrategica-de-datos/clase-10/40062-S10-PPT.pptx
+Archivo: /Users/carlosgil/isil/{year-semestre}/direccion-estrategica-de-datos/clase-10/40062-S10-PPT.pptx
 ```
 
 **Output:**
 
 ```
-✅ Creado: 2026-1/direccion-estrategica-de-datos/clase-10/
+✅ Creado: {year-semestre}/direccion-estrategica-de-datos/clase-10/
     - direccion-estrategica-datos-cobit-introduccion-clase-10.pdf
     ✅ PPTX eliminado automáticamente
 ```
@@ -102,13 +104,13 @@ Archivo: /Users/carlosgil/isil/2026-1/direccion-estrategica-de-datos/clase-10/40
 
 ```
 Procesa la clase 10 de Dirección Estratégica de Datos con resumen completo
-Archivo: /Users/carlosgil/isil/2026-1/direccion-estrategica-de-datos/clase-10/40062-S10-PPT.pptx
+Archivo: /Users/carlosgil/isil/{year-semestre}/direccion-estrategica-de-datos/clase-10/40062-S10-PPT.pptx
 ```
 
 **Output:**
 
 ```
-✅ Creado: 2026-1/direccion-estrategica-de-datos/clase-10/
+✅ Creado: {year-semestre}/direccion-estrategica-de-datos/clase-10/
     - direccion-estrategica-datos-cobit-introduccion-clase-10.pdf
     - direccion-estrategica-datos-cobit-introduccion-clase-10.md
     ✅ PPTX eliminado automáticamente
@@ -196,4 +198,4 @@ Archivo: /Users/carlosgil/isil/2026-1/direccion-estrategica-de-datos/clase-10/40
 ---
 
 **Última actualización**: 16 de junio de 2026 (Estrategia de visualización: Mermaid simple + Tablas + ASCII art)  
-**Alcance**: ISIL 2026-1 Multi-Curso
+**Alcance**: ISIL {year-semestre} Multi-Curso

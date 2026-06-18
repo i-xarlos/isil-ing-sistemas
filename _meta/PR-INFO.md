@@ -43,7 +43,7 @@ Mejorar estructura, claridad y navegabilidad de la documentación
 ```markdown
 ## Resumen
 
-Este PR implementa mejoras estructurales y de experiencia para la documentación del repositorio ISIL 2026-1. Incluye cambios que hacen el contenido más navegable, visual y fácil de mantener.
+Este PR implementa mejoras estructurales y de experiencia para la documentación del repositorio ISIL {year-semestre}. Incluye cambios que hacen el contenido más navegable, visual y fácil de mantener.
 
 ## Cambios principales
 

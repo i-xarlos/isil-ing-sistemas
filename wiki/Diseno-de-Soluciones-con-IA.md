@@ -1,4 +1,4 @@
-# Diseño de Soluciones con IA (2026-1)
+# Diseño de Soluciones con IA ({year-semestre})
 
 **Ruta del curso:** ../2026-1/diseno-soluciones-ia/
 
@@ -15,4 +15,4 @@
 
 ## Recursos del curso
 - Carpeta del curso: ../2026-1/diseno-soluciones-ia/
-- Índice general de cursos: ./Cursos-2026-1.md
+- Índice general de cursos: ./CURSOS.md

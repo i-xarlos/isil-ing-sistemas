@@ -57,8 +57,8 @@ Si el contenido es de arquitectura empresarial, puedes apoyarte en temas como:
 
 ## Estructura esperada del repositorio
 
-- Cada curso vive en su propia carpeta, por ejemplo: `2026-1/{curso}/`.
-- Cada clase vive en su propia carpeta dentro del curso: `2026-1/{curso}/clase-X/`.
+- Cada curso vive en su propia carpeta, por ejemplo: `{year-semestre}/{curso}/`.
+- Cada clase vive en su propia carpeta dentro del curso: `{year-semestre}/{curso}/clase-X/`.
 - **OBLIGATORIO:** Cada carpeta de curso debe tener un `README.md` que actúe como **índice centralizado**.
 - El README de curso debe incluir:
   - Tabla de contenidos con enlaces directos a cada archivo `.md`
@@ -183,7 +183,7 @@ Implementa automation para convertir PPTX → PDF con renombrado semántico.
 - .github/agents/clase-processor.agent.md (NUEVO)
 - .github/skills/clase-processor/SKILL.md (NUEVO)
 - .github/agents/AGENTS.md (actualizado)
-- 2026-1/direccion-estrategica-de-datos/clase-10/ (2 nuevos)
+- {year-semestre}/direccion-estrategica-de-datos/clase-10/ (2 nuevos)
 
 ## Verificación
 - [x] Skill aparece en chat con /clase-processor
@@ -237,8 +237,8 @@ Una línea clara de qué cambio haces.
 - Incluidos N ejemplos prácticos
 
 ## Archivos Modificados
-- 2026-1/{curso}/clase-X/...
-- 2026-1/{curso}/README.md
+- {year-semestre}/{curso}/clase-X/...
+- {year-semestre}/{curso}/README.md
 
 ## Verificación
 - [x] Contenido sigue la guía de AGENTS.md
@@ -285,11 +285,11 @@ Una línea clara de qué cambio haces.
 **Ejemplos:**
 - "Procesa clase 10 de Dirección Estratégica de Datos"
 - "Convierte el PPTX con resumen completo y diagramas"
-- "Ruta: /Users/carlosgil/isil/2026-1/diseno-soluciones-ia/clase-9/archivo.pptx"
+- "Ruta: /Users/carlosgil/isil/{year-semestre}/diseno-soluciones-ia/clase-9/archivo.pptx"
 
 **Resultado esperado:**
 ```
-✅ Archivos generados en: 2026-1/{curso}/clase-N/
+✅ Archivos generados en: {year-semestre}/{curso}/clase-N/
    - tema-descriptor-clase-N.pdf (siempre)
    - tema-descriptor-clase-N.md (opcional, si pidió resumen)
    - PPTX original eliminado automáticamente
@@ -297,4 +297,4 @@ Una línea clara de qué cambio haces.
 
 ---
 
-**Última actualización**: 11 de junio de 2026 | **Alcance**: ISIL 2026-1 Multi-Curso
+**Última actualización**: 11 de junio de 2026 | **Alcance**: ISIL {year-semestre} Multi-Curso

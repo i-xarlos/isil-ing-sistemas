@@ -1,4 +1,4 @@
-# Dirección Estratégica de Datos (2026-1)
+# Dirección Estratégica de Datos ({year-semestre})
 
 **Ruta del curso:** ../2026-1/direccion-estrategica-de-datos/
 
@@ -10,4 +10,4 @@
 
 ## Recursos del curso
 - Carpeta del curso: ../2026-1/direccion-estrategica-de-datos/
-- Índice general de cursos: ./Cursos-2026-1.md
+- Índice general de cursos: ./CURSOS.md

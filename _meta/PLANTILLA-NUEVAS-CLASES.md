@@ -19,7 +19,7 @@ Esta plantilla asegura que todas las nuevas clases sigan la estructura, formato 
 ```markdown
 # [Nombre del Tema] (Clase X)
 
-**Curso:** [Nombre del Curso] (ISIL, 2026-1)  
+**Curso:** [Nombre del Curso] (ISIL, {year-semestre})  
 **Docente:** [Nombre del Docente]  
 **Fecha:** [DD/MM/AAAA]
 
@@ -201,7 +201,7 @@ Usa rutas relativas para que funcionen en cualquier lugar del repositorio.
 ## Estructura de carpetas para nueva clase
 
 ```
-2026-1/
+{year-semestre}/
 └── {curso-name}/
     └── clase-X/
         ├── {curso}-{tema}-clase-X.md      (archivo principal)
@@ -235,7 +235,7 @@ Si el tema no encaja en ningún curso existente y merece su propia carpeta, sigu
 ### Paso 1 — Crear la estructura de carpetas
 
 ```bash
-mkdir -p 2026-1/{nombre-del-curso}/clase-1
+mkdir -p {year-semestre}/{nombre-del-curso}/clase-1
 ```
 
 Convención del nombre de la carpeta del curso:
@@ -247,13 +247,13 @@ Convención del nombre de la carpeta del curso:
 Ruta obligatoria:
 
 ```
-2026-1/{nombre-del-curso}/clase-1/{nombre-del-curso}-{tema-principal}-clase-1.md
+{year-semestre}/{nombre-del-curso}/clase-1/{nombre-del-curso}-{tema-principal}-clase-1.md
 ```
 
-Ejemplo real:
+Ejemplo real (reemplazar `{year-semestre}` por el periodo):
 
 ```
-2026-1/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md
+{year-semestre}/customer-centricity-ti/clase-1/customer-centricity-agilidad-ti-clase-1.md
 ```
 
 Usa la plantilla de clase que aparece más arriba como base del contenido.
@@ -269,7 +269,7 @@ En el `README.md` de la raíz, añade una nueva sección bajo `## Cursos` con es
 
 | Semana | Tema | Notas |
 |---|---|---|
-| 1 | {Tema de la clase 1} | [Ver](2026-1/{nombre-del-curso}/clase-1/{archivo}-clase-1.md) |
+| 1 | {Tema de la clase 1} | [Ver]({year-semestre}/{nombre-del-curso}/clase-1/{archivo}-clase-1.md) |
 
 ---
 ```
@@ -308,12 +308,12 @@ Abre `_meta/INDICE-CONCEPTOS.md` y agrega una nueva sección con los términos c
 
 | Concepto | Definición breve | Dónde aparece |
 |---|---|---|
-| **{Término}** | {Definición en una línea} | [{Curso} — Clase 1](../2026-1/{nombre-del-curso}/clase-1/{archivo}-clase-1.md) |
+| **{Término}** | {Definición en una línea} | [{Curso} — Clase 1](../{year-semestre}/{nombre-del-curso}/clase-1/{archivo}-clase-1.md) |
 ```
 
 ### Checklist para nuevo curso
 
-- [ ] Carpeta creada en `2026-1/{nombre-del-curso}/clase-1/`
+- [ ] Carpeta creada en `{year-semestre}/{nombre-del-curso}/clase-1/`
 - [ ] Archivo Markdown creado con nombre semántico
 - [ ] Encabezado del Markdown cumple el formato estándar (título, curso, docente, fecha)
 - [ ] Bloque del curso agregado en `README.md` bajo `## Cursos`

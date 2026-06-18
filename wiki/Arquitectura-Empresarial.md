@@ -1,4 +1,4 @@
-# Arquitectura Empresarial (2026-1)
+# Arquitectura Empresarial ({year-semestre})
 
 **Ruta del curso:** ../2026-1/arq-empresarial/
 
@@ -10,4 +10,4 @@
 
 ## Recursos del curso
 - Carpeta del curso: ../2026-1/arq-empresarial/
-- Índice general de cursos: ./Cursos-2026-1.md
+- Índice general de cursos: ./CURSOS.md

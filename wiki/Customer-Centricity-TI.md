@@ -1,4 +1,4 @@
-# Customer Centricity TI (2026-1)
+# Customer Centricity TI ({year-semestre})
 
 **Ruta del curso:** ../2026-1/customer-centricity-ti/
 
@@ -10,4 +10,4 @@
 
 ## Recursos del curso
 - Carpeta del curso: ../2026-1/customer-centricity-ti/
-- Índice general de cursos: ./Cursos-2026-1.md
+- Índice general de cursos: ./CURSOS.md

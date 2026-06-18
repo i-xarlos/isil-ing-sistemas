@@ -1,4 +1,4 @@
-# Estándar de Iconos para Diagramas Mermaid — ISIL 2026-1
+# Estándar de Iconos para Diagramas Mermaid — ISIL {year-semestre}
 
 **Objetivo:** Mantener consistencia visual y significado semántico en todos los diagramas Mermaid del repositorio.
 
@@ -201,4 +201,4 @@ Antes de crear un nuevo diagrama Mermaid, verifica:
 
 ---
 
-**Última actualización:** 09/05/2026 | **Responsable:** GitHub Copilot | **Aplica a:** ISIL 2026-1
+**Última actualización:** 09/05/2026 | **Responsable:** GitHub Copilot | **Aplica a:** ISIL {year-semestre}

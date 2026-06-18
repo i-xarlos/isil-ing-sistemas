@@ -1,4 +1,6 @@
-# ISIL - Notas de Cursos (2026-1)
+# ISIL - Notas de Cursos
+
+> **`{year-semestre}`** es el placeholder para el periodo académico (ej: `2026-1`, `2026-2`, `2027-1`). Este repositorio puede contener múltiples periodos. Los enlaces apuntan al periodo actual `2026-1`.
 
 ## Propósito
 
@@ -103,8 +105,11 @@ _meta/                              ← Documentación transversal de la cohorte
 ```
 
 ### Contenido de Cursos
+
+Cada periodo académico tiene su propia carpeta base:
+
 ```txt
-2026-1/                             ← Carpeta de la cohorte 2026-1
+2026-1/                             ← Carpeta del periodo actual
 ├── direccion-estrategica-de-datos/
 │   ├── clase-1/
 │   │   └── direccion-estrategica-de-datos-introduccion-clase-1.md
@@ -149,7 +154,8 @@ _meta/                              ← Documentación transversal de la cohorte
 
 **Organización por:**
 
-- **Curso**: `2026-1/{nombre-curso}/` (programa y cohorte)
+- **Periodo**: `{year-semestre}/` (ej: `2026-1`, `2026-2`, `2027-1`)
+- **Curso**: `{year-semestre}/{nombre-curso}/`
 - **Semana de clase**: `clase-1/`, `clase-2/`, etc.
 - **Contenido dentro**: notas markdown + diagramas/imágenes clave
 
@@ -165,7 +171,7 @@ _meta/                              ← Documentación transversal de la cohorte
 Usa la [PLANTILLA-NUEVAS-CLASES.md](_meta/PLANTILLA-NUEVAS-CLASES.md) como guía. Cubre dos flujos:
 
 - **Nueva clase** en un curso existente: crea la carpeta `clase-X/`, crea el Markdown con el encabezado estándar y agrega la fila en la tabla del curso en este README.
-- **Nuevo curso**: crea la carpeta `2026-1/{nombre-del-curso}/`, agrega la primera clase, añade el bloque completo del curso en este README y registra los conceptos clave en [`_meta/INDICE-CONCEPTOS.md`](_meta/INDICE-CONCEPTOS.md).
+- **Nuevo curso**: crea la carpeta `{year-semestre}/{nombre-del-curso}/` (reemplazando `{year-semestre}` por el periodo actual), agrega la primera clase, añade el bloque completo del curso en este README y registra los conceptos clave en [`_meta/INDICE-CONCEPTOS.md`](_meta/INDICE-CONCEPTOS.md).
 
 La plantilla incluye checklist de calidad, convenciones de nombres y ejemplos listos para copiar.
 
@@ -187,4 +193,4 @@ Cada carpeta de clase incluye:
 
 ---
 
-**Cohorte**: 2026-1 | ISIL Ingeniería de Sistemas
+**Periodo**: 2026-1 | ISIL Ingeniería de Sistemas

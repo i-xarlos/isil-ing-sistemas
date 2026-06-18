@@ -1,4 +1,4 @@
-# Scripts y Skills — ISIL 2026-1
+# Scripts y Skills — ISIL {year-semestre}
 
 Utilidades en Swift para procesar archivos y datos en el contexto de cursos de Ingeniería de Sistemas.
 

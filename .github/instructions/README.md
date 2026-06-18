@@ -49,7 +49,7 @@ Al documentar una sesión de clase completa (resumen, imágenes, diagrama de con
 ---
 
 ### 3. **actividad.instructions.md**
-**Aplica a:** Archivos en `2026-1/**/actividad-*/**/*.md`
+**Aplica a:** Archivos en `**/actividad-*/**/*.md`
 
 Estructura de documentación académica para actividades:
 - Encabezado con metadata
@@ -63,7 +63,7 @@ Al documentar una actividad, proyecto o solución de tarea.
 ---
 
 ### 4. **images.instructions.md**
-**Aplica a:** Imágenes en `2026-1/**/*.{png,jpg,gif}`
+**Aplica a:** Imágenes en `*/clase-*/**/*.{png,jpg,gif}`
 
 Procesamiento de imágenes con OCR y enriquecimiento de documentación:
 - Renombrado semántico de imágenes
@@ -133,7 +133,7 @@ Cuando crees o edites un archivo, consulta este directorio según el tipo de con
    ---
    ```
 3. **Estructura clara:** Encabezado, secciones, ejemplos, checklist
-4. **Patrón `applyTo` específico:** No genérico (ej: `2026-1/**/actividad-*/` mejor que `**/*`)
+4. **Patrón `applyTo` específico:** No genérico (ej: `**/actividad-*/` mejor que `**/*`)
 5. **Actualizar este README** con descripción en tabla
 
 ---

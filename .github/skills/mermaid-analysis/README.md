@@ -5,7 +5,7 @@ Skill e instructions para analizar documentación e identificar oportunidades de
 ## Contenido
 
 - **`SKILL.md`** — Metodología completa para realizar análisis de oportunidades (3 pasos: escanear, evaluar, priorizar)
-- **`EJEMPLO-ANALISIS-REPOSITORIO-COMPLETO.md`** — Ejemplo real del skill aplicado al repositorio ISIL 2026-1 completo (42 oportunidades identificadas y priorizadas)
+- **`EJEMPLO-ANALISIS-REPOSITORIO-COMPLETO.md`** — Ejemplo real del skill aplicado al repositorio ISIL {year-semestre} completo (42 oportunidades identificadas y priorizadas)
 
 ## Instrucciones Relacionadas
 

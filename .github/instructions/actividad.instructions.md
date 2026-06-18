@@ -1,7 +1,7 @@
 ---
 name: actividad-documentation
 description: Document academic activities with structured templates, metadata, and source tracking. Use when creating assignment solutions or activity deliverables.
-applyTo: "2026-1/**/actividad-*/**/*.md"
+applyTo: "**/actividad-*/**/*.md"
 ---
 
 # Actividad — Documentación Académica
@@ -17,7 +17,7 @@ Todo documento de actividad debe comenzar así:
 ```md
 # {Título de la actividad} (Actividad N)
 
-**Curso:** {Nombre del curso} (ISIL, 2026-1)  
+**Curso:** {Nombre del curso} (ISIL, {year-semestre})  
 **Docente:** {Nombre del docente}  
 **Fecha:** DD/MM/AAAA
 ```
