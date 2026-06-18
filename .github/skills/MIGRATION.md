@@ -85,58 +85,35 @@ Los archivos que hacían referencia a los skills antiguos fueron actualizados:
 
 ---
 
-## ⚠️ Archivos Antiguos — Qué Hacer
+## 📌 Decisión: Migración No Completada
 
-Los archivos en `.github/instructions/` quedan **deprecated pero funcionales**. Opciones:
+Tras revisión, se decidió **no migrar** los archivos de `.github/instructions/` a `.github/skills/documentation/`.
 
-### Opción A: Mantener Como Deprecated (Recomendado Ahora)
-- Agregar encabezado: `⚠️ DEPRECATED — Ver versión nueva en .github/skills/`
-- Dejar que funcionen en caso de referencias externas
+**Motivo:** Las instructions (`writing`, `clase`, `actividad`, `images`) son conceptualmente **reglas de estructura y formato**, no metodologías o herramientas. Su lugar natural es `.github/instructions/`.
 
-### Opción B: Eliminar Inmediatamente
-```bash
-# Si estás seguro que no hay referencias:
-rm -rf .github/instructions/documentacion-humana.instructions.md
-rm -rf .github/instructions/header-clases.instructions.md
-rm -rf .github/instructions/clase.instructions.md
-rm -rf .github/instructions/actividad.instructions.md
-rm -rf .github/instructions/ocr-imagenes.instructions.md
-```
-
-**Recomendación:** Mantener como deprecated por ahora, eliminar en próxima limpieza.
+**Estado actual:**
+- `.github/instructions/` — **Canonical**: contiene las reglas de estructura activas
+- `.github/skills/` — Solo skills metodológicos (`mermaid-analysis`, `clase-processor`, utilidades)
+- No existe ni se creará la carpeta `.github/skills/documentation/`
 
 ---
 
-## 🚀 Próximos Pasos (Opcional)
+## 🔄 Referencias Actualizadas (17/06/2026)
 
-- [ ] Agregar badges deprecated en archivos antiguos (si se mantienen)
-- [ ] Crear skill para indexación de cursos
-- [ ] Agregar validador de estructura de repositorio
-- [ ] Documentar patrones `applyTo` en guía de skills
+Todos los archivos que referenciaban rutas inexistentes fueron corregidos:
 
----
-
-## 📊 Estadísticas
-
-| Métrica | Valor |
-|---|---|
-| Skills de documentación | 4 |
-| Skills de utilidades | 3 |
-| Nuevas carpetas temáticas | 2 |
-| READMEs nuevos | 3 |
-| Archivos migrados/reorganizados | 8 |
-
----
-
-## ✅ Checklist de Verificación
-
-- [x] Todos los skills migrados y en estructura nueva
-- [x] Frontmatter YAML estandarizado
-- [x] READMEs temáticos creados
-- [x] AGENTS.md actualizado con nuevas referencias
-- [x] Consolidación de clase completada
-- [ ] Archivos antiguos marcados como deprecated (opcional)
-- [ ] Prueba de que agent detecta skills correctamente
+| Archivo | Referencia antigua | Referencia nueva |
+|---|---|---|
+| `copilot-instructions.md` | `header-clases.instructions.md` | `clase.instructions.md` |
+| `copilot-instructions.md` | `documentacion-humana.instructions.md` | `writing.instructions.md` |
+| `copilot-instructions.md` | `ocr-imagenes.instructions.md` | `images.instructions.md` |
+| `copilot-instructions.md` | `AGENTS.md` (raíz) | `.github/agents/AGENTS.md` |
+| `AGENTS.md` (agents) | `.github/skills/documentation/writing/SKILL.md` | `.github/instructions/writing.instructions.md` |
+| `AGENTS.md` (agents) | `.github/skills/documentation/clase/SKILL.md` | `.github/instructions/clase.instructions.md` |
+| `AGENTS.md` (agents) | `.github/skills/documentation/actividad/SKILL.md` | `.github/instructions/actividad.instructions.md` |
+| `AGENTS.md` (agents) | `.github/skills/documentation/images/SKILL.md` | `.github/instructions/images.instructions.md` |
+| `scripts/README.md` | `../.github/skills/documentation/` | `../.github/instructions/` |
+| `scripts/README.md` | `../AGENTS.md` (raíz) | `../.github/agents/AGENTS.md` |
 
 ---
 

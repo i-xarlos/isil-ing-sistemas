@@ -44,7 +44,7 @@ _meta/                              ← archivos transversales de la cohorte
     ├── clase-2/
     ├── actividad-1/
     └── clase-N/
-AGENTS.md
+.github/agents/AGENTS.md
 README.md
 ```
 
@@ -57,7 +57,7 @@ README.md
 Solo estos archivos pueden vivir en la raíz del repositorio:
 
 - `README.md` — entrada principal del repositorio
-- `AGENTS.md` — instrucciones de control para agentes
+- `.github/agents/AGENTS.md` — instrucciones de control para agentes
 - `_meta/` — carpeta de documentación transversal de la cohorte
 
 **NO crear ningún otro `.md` suelto en la raíz.** Cualquier documento transversal va en `_meta/`.
@@ -134,7 +134,7 @@ Cada carpeta de clase debe incluir:
 
 1. **Markdown principal**: resumen de conceptos con ejemplos prácticos
 2. **Diagramas** (si aplica): imágenes que ilustran relaciones y frameworks
-3. **Encabezado estándar** (ver `.github/instructions/header-clases.instructions.md`)
+3. **Encabezado estándar** (ver `.github/instructions/clase.instructions.md`)
 
 ---
 
@@ -145,6 +145,26 @@ Cada carpeta de clase debe incluir:
 - **Conectado con la práctica**: cada concepto abstracto necesita un ejemplo real
 - **Multi-curso**: no mezcles vocabulario de un curso en la carpeta de otro
 
+## Metodología recomendada para resúmenes de clase
+
+Para futuras clases y actividades, usar esta estructura de forma consistente:
+
+1. **Gancho humano**: abrir con un motivo práctico o una pregunta que conecte con el estudiante.
+2. **Explicación simple**: presentar el concepto en lenguaje claro antes de entrar en formalismo técnico.
+3. **Ejemplo práctico**: usar casos reales de negocio, salud, banca, retail o IA aplicada.
+4. **Comparación o tabla**: cuando haya conceptos relacionados, organizarlos en tablas fáciles de leer.
+5. **Fórmulas**: si aparecen, explicar acrónimos y variables de forma breve.
+6. **Glosario**: incluir términos clave al final para reforzar comprensión.
+7. **Cierre con takeaway**: terminar con una recomendación o idea principal que el estudiante pueda recordar.
+
+### Estilo esperado
+
+- Tono claro, humano y directo.
+- Frases cortas y lenguaje accesible.
+- Priorizar utilidad práctica sobre formalidad excesiva.
+- Ejemplos concretos antes que definiciones abstractas.
+- Mantener estructura consistente entre clases.
+
 ---
 
 ## Archivos de referencia
@@ -153,9 +173,9 @@ Cada carpeta de clase debe incluir:
 |---|---|
 | `_meta/INDICE-CONCEPTOS.md` | Índice centralizado de todos los conceptos clave entre cursos |
 | `_meta/PLANTILLA-NUEVAS-CLASES.md` | Plantilla para crear nuevas clases con estructura y checklist |
-| `.github/instructions/header-clases.instructions.md` | Formato obligatorio de encabezado para documentos de clase |
-| `.github/instructions/documentacion-humana.instructions.md` | Reglas de escritura clara y escaneable |
-| `.github/instructions/ocr-imagenes.instructions.md` | Instrucciones para documentar imágenes con OCR |
+| `.github/instructions/clase.instructions.md` | Formato obligatorio de encabezado y workflow para documentos de clase |
+| `.github/instructions/writing.instructions.md` | Reglas de escritura clara y escaneable |
+| `.github/instructions/images.instructions.md` | Instrucciones para documentar imágenes con OCR |
 
 ---
 

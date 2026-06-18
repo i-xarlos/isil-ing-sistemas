@@ -79,19 +79,19 @@ Si el contenido es de arquitectura empresarial, puedes apoyarte en temas como:
 
 ## Regla especial para Markdown
 
-Cuando trabajes sobre archivos `.md`, sigue también el **skill de escritura**: `.github/skills/documentation/writing/SKILL.md`.
+Cuando trabajes sobre archivos `.md`, sigue también las **instrucciones de escritura**: `.github/instructions/writing.instructions.md`.
 
 Ese archivo contiene estándares específicos de documentación humana y tiene prioridad práctica para mantener la redacción clara, escaneable y útil.
 
-Si el archivo está dentro de una carpeta `clase-X/`, sigue también el **skill de clase**: `.github/skills/documentation/clase/SKILL.md`.
+Si el archivo está dentro de una carpeta `clase-X/`, sigue también las **instrucciones de clase**: `.github/instructions/clase.instructions.md`.
 
-Si el archivo está dentro de una carpeta `actividad-X/`, sigue también el **skill de actividad**: `.github/skills/documentation/actividad/SKILL.md`.
+Si el archivo está dentro de una carpeta `actividad-X/`, sigue también las **instrucciones de actividad**: `.github/instructions/actividad.instructions.md`.
 
 ## Regla especial para imágenes
 
 Cuando una carpeta de clase o actividad tenga imágenes `.png`, `.jpg`, `.jpeg` o `.gif` cuyo contenido no esté documentado en el Markdown correspondiente, usa el script OCR para extraer el texto y enriquecer el documento.
 
-Sigue el **skill de imágenes**: `.github/skills/documentation/images/SKILL.md`.
+Sigue las **instrucciones de imágenes**: `.github/instructions/images.instructions.md`.
 
 Ese archivo describe:
 - cómo ejecutar el script `scripts/ocr_images.swift` desde la raíz del repositorio;
