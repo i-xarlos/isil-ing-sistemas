@@ -1,7 +1,11 @@
 ---
 description: "Use when: processing a new class (PPTX to PDF conversion + Markdown summary with concepts, examples, Mermaid diagrams, and glossary). Specializes in ISIL course documentation."
 name: "Clase Processor"
-tools: [read, edit, execute, search]
+tools:
+  read: true
+  edit: true
+  execute: true
+  search: true
 user-invocable: true
 argument-hint: "Ruta a archivo PPTX o descripción de clase a procesar"
 ---
