@@ -1,0 +1,44 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    ".github/copilot-instructions.md",
+    ".github/agents/AGENTS.md",
+    ".github/instructions/clase.instructions.md",
+    ".github/instructions/writing.instructions.md",
+    ".github/instructions/actividad.instructions.md",
+    ".github/instructions/images.instructions.md"
+  ],
+  "skills": {
+    "paths": [
+      ".github/skills"
+    ]
+  },
+  "references": {
+    "skills": {
+      "path": ".github/skills",
+      "description": "Use for ISIL course documentation skills (clase-processor, mermaid-analysis, utilities)"
+    },
+    "instructions": {
+      "path": ".github/instructions",
+      "description": "Use for ISIL documentation rules and formatting standards"
+    },
+    "agents": {
+      "path": ".github/agents",
+      "description": "Use for ISIL specialized agent definitions"
+    }
+  },
+  "agent": {
+    "clase-processor": {
+      "description": "Use when: processing a new class (PPTX to PDF conversion + optional Markdown summary with concepts, examples, Mermaid diagrams, and glossary). Specializes in ISIL course documentation.",
+      "mode": "subagent",
+      "model": "ollama/llama3.1:8b",
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow"
+      }
+    }
+  }
+}
