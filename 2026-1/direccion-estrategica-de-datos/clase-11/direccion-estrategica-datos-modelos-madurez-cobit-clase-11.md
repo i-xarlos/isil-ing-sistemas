@@ -259,7 +259,181 @@ Startup de pagos digitales que procesa 2 millones de transacciones/mes. Crecen r
 
 ---
 
-## 7. Resumen Ejecutivo
+## 7. Caso Integral: Implementación COBIT en SegurosPerú
+
+Este caso recorre todas las etapas del ciclo COBIT —desde el diagnóstico hasta la mejora continua— en una sola organización, conectando cada concepto de esta clase.
+
+### Contexto
+
+**SegurosPerú** es una aseguradora con 25 años en el mercado, 500 empleados y 1.2 millones de pólizas activas. Opera con 7 sistemas legados (emisión, siniestros, cobranzas, CRM, contabilidad, compliance, reportes) que no se comunican entre sí. Cada área tiene su propia base de datos.
+
+**Problema:** El mismo cliente está registrado hasta 4 veces con nombres distintos ("Carlos Gil", "C. Gil", "Carlos Gil P."). Los reportes regulatorios tardan 15 días en armarse. La SBS (superintendencia) ya emitió una observación formal.
+
+**Decisión:** Implementar COBIT 2019 como marco de gobierno de datos.
+
+---
+
+### Fase 1: Evaluación CMM Inicial
+
+| Dimensión | Hallazgo | Nivel CMM |
+|-----------|----------|-----------|
+| Calidad de datos | Clientes duplicados, formatos inconsistentes, fechas en 3 formatos distintos | 1 |
+| Seguridad | No hay auditoría de accesos, cualquier analista ve datos de cualquier cliente | 1 |
+| Cumplimiento normativo | Reportes regulatorios manuales en Excel, sin trazabilidad | 1 |
+| Gestión de datos | Cada área dueña de sus datos, sin políticas corporativas | 0 |
+| Integración | 7 sistemas sin integrar, extracción manual con archivos planos | 0 |
+
+**Diagnóstico:** CMM general en nivel 0-1. Urgencia alta por observación de SBS.
+
+---
+
+### Fase 2: Definición del Alcance
+
+Se priorizan 3 procesos COBIT:
+
+| Proceso COBIT | Enfoque | Prioridad |
+|---------------|---------|-----------|
+| **APO14** — Gestión de Datos | Políticas, calidad, ciclo de vida del dato | Crítica (SBS) |
+| **DSS06** — Gestión de Operaciones | Controles de procesos de negocio | Alta |
+| **MEA01** — Monitoreo y Evaluación | KPIs, auditorías, reportes | Alta |
+
+**Se excluyen** de esta fase: seguridad avanzada (DSS05) y gestión de riesgos (APO12), que se abordan en una segunda etapa.
+
+---
+
+### Fase 3: Planificación de Recursos
+
+| Rol | Asignado | Responsabilidad |
+|-----|----------|-----------------|
+| Data Governance Officer | Jefe de TI (Marcos) | Liderar el programa, reportar a gerencia |
+| Data Steward | 1 por área (emisión, siniestros, cobranzas) | Ejecutar políticas de calidad en su dominio |
+| Arquitecto de datos | Consultor externo | Diseñar el modelo de datos corporativo |
+| Sponsor | Gerente General | Aprobar presupuesto y resolver conflictos |
+
+**Herramientas seleccionadas:**
+
+| Herramienta | Uso | Costo |
+|-------------|-----|-------|
+| **Jira** | Tracking de incidencias de calidad de datos y sprints de limpieza | $500/mes |
+| **Microsoft Purview** | Catálogo de datos y lineage automático | $2,000/mes |
+| **Power BI** | Dashboards de KPIs para gerencia | $300/mes |
+
+**Presupuesto asignado:** $180,000 para 12 meses (herramientas 40%, consultoría 35%, capacitación 25%).
+
+---
+
+### Fase 4: Ejecución — Plan en 4 Sprints
+
+```mermaid
+gantt
+    title Roadmap de Implementación COBIT — SegurosPerú
+    dateFormat  YYYY-MM-DD
+    section Sprint 1
+    Diagnóstico y mapeo      :a1, 2026-01-15, 21d
+    section Sprint 2
+    Estandarización de datos :a2, after a1, 21d
+    section Sprint 3
+    Controles y KPIs         :a3, after a2, 21d
+    section Sprint 4
+    Dashboard y mejora       :a4, after a3, 21d
+```
+
+**Sprint 1 — Diagnóstico y Mapeo (3 semanas)**
+- Inventariar 7 sistemas, mapear 340 campos de datos
+- Identificar 12,450 clientes duplicados (8.5% del total)
+- Documentar 15 procesos críticos con sus fuentes de datos
+
+**Sprint 2 — Estandarización de Datos (3 semanas)**
+- Definir estándares: nombres, tipos de dato, formato de fechas, reglas de validación
+- Implementar catálogo en Microsoft Purview con 25 dominios de datos
+- Limpiar y deduplicar clientes usando algoritmo de matching (85% automatizado, 15% revisión manual)
+
+**Sprint 3 — Controles y KPIs (3 semanas)**
+- Implementar controles automáticos de calidad en punto de captura (frontend)
+- Configurar alertas de anomalías en Power BI
+- Definir 8 KPIs base (ver tabla abajo)
+
+**Sprint 4 — Dashboard y Reportes (3 semanas)**
+- Construir dashboard ejecutivo con Power BI
+- Automatizar reporte regulatorio SBS (de 15 días a 1 hora)
+- Establecer comité de gobierno de datos quincenal
+
+---
+
+### KPIs Definidos y Resultados
+
+| KPI | Línea base | Meta | A los 6 meses | A los 12 meses |
+|-----|-----------|------|---------------|----------------|
+| % clientes sin duplicados | 91.5% | 99.5% | 96.2% | 99.7% |
+| % registros con formato estándar | 45% | 95% | 78% | 98% |
+| Tiempo de armado de reporte SBS | 15 días | 1 día | 3 días | 4 horas |
+| Cumplimiento de políticas por área | 0% | 90% | 55% | 92% |
+| Incidentes de calidad de datos | — | ≤ 5/semana | 12/semana | 3/semana |
+
+**Ejemplo de dashboard ejecutivo (simulado):**
+
+```
+┌─────────────────────────────────────────────────────┐
+│  DASHBOARD DE GOBIERNO DE DATOS — SEGUROSPERÚ       │
+│  Período: Junio 2026               │  CMM: 2→3 ↗    │
+├─────────────────────────────────────────────────────┤
+│  Calidad de datos        Seguridad      Cumplimiento │
+│  ┌─────────────────┐   ┌──────────┐   ┌──────────┐  │
+│  │   ██████████░    │   │ ██████░░  │   │ ████████░ │  │
+│  │   98% estándar   │   │ 82% acceso│   │ 92% SBS   │  │
+│  └─────────────────┘   └──────────┘   └──────────┘  │
+│                                                      │
+│  Alertas activas: 2 de 8 KPIs fuera de meta          │
+│  Próxima auditoría: 15/07/2026                       │
+└─────────────────────────────────────────────────────┘
+```
+
+---
+
+### Fase 5: Seguimiento y Mejora Continua
+
+**Rutina de gobierno:**
+
+| Frecuencia | Actividad | Participantes |
+|------------|-----------|---------------|
+| Diaria | Alertas automáticas en Slack si KPI baja de meta | Equipo técnico |
+| Semanal | Revisión de incidencias abiertas en Jira | Data Stewards |
+| Quincenal | Comité de gobierno de datos con reporte Power BI | DGO + Stewards + Áreas |
+| Mensual | Informe ejecutivo de 1 página para Gerencia General | DGO |
+| Trimestral | Auditoría interna de cumplimiento COBIT | Auditoría + DGO |
+
+**Mejora continua en acción:**
+
+A los 9 meses, el KPI "tiempo de reporte SBS" se estanca en 3 días (meta: 1 día). El comité analiza y descubre que el cuello de botella es la validación manual del área de compliance. Deciden:
+
+1. Automatizar el 80% de las reglas de validación regulatoria
+2. Capacitar al equipo de compliance en el nuevo flujo
+3. Agregar un paso de revisión automática previa a la aprobación manual
+4. Resultado: el KPI baja a 4 horas en el mes 12
+
+---
+
+### Resultados Finales
+
+| Indicador | Antes | Después (12 meses) |
+|-----------|-------|-------------------|
+| CMM general | 0-1 | 3 |
+| Clientes duplicados | 8.5% | 0.3% |
+| Tiempo reporte SBS | 15 días | 4 horas |
+| Sistemas integrados | 0 de 7 | 6 de 7 |
+| Incidentes de calidad | Sin medir | 3/semana |
+| Cultura de datos | Sin gobierno | Comité activo, 15 políticas implementadas |
+| ROI estimado | — | $420,000 ahorrados por eficiencia operativa y reducción de multas |
+
+**Lecciones aprendidas:**
+- El cambio cultural toma más tiempo que la implementación técnica. Los data stewards necesitan dedicación real, no "adicional a sus funciones".
+- Empezar con 3 procesos COBIT fue clave. Intentar abarcar más habría fracasado por falta de recursos.
+- Invertir en capacitación (25% del presupuesto) evitó resistencia y aceleró la adopción.
+- La observación de la SBS fue el impulsor ejecutivo que consiguió presupuesto y atención de gerencia.
+
+---
+
+## 8. Resumen Ejecutivo
 
 - El **COBIT Maturity Model** permite diagnosticar el nivel de madurez en gobernanza de datos y planificar mejoras progresivas
 - Un **plan de acción estructurado** (evaluación, alcance, recursos, cronograma) es clave para implementar COBIT exitosamente
@@ -269,7 +443,7 @@ Startup de pagos digitales que procesa 2 millones de transacciones/mes. Crecen r
 
 ---
 
-## 8. Preguntas de Reflexión
+## 9. Preguntas de Reflexión
 
 1. ¿En qué nivel de madurez CMM estimas que está tu organización actualmente? ¿Qué evidencia tienes?
 2. ¿Qué KPI consideras más crítico para medir el éxito de la implementación de COBIT?
