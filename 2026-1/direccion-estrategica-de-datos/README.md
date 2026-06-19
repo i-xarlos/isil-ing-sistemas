@@ -34,6 +34,8 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 | 6 | **Gestión del Cambio en Entornos Data-Driven** | Métodos y herramientas, comunicación efectiva, capacitación, resistencia al cambio | [📄](./clase-6/direccion-estrategica-de-datos-gestion-cambio-clase-6.md) | [📊](./clase-6/40062-S06-PPT.pdf) |
 | 7 | **Gestión de la Innovación de Datos** | Innovación en datos, estrategia de datos, gobernanza, cultura, CDO, productos de datos, proyectos piloto | [📄](./clase-7/direccion-estrategica-de-datos-gestion-innovacion-clase-7.md) | [📊](./clase-7/40062-S07-PPT.pdf) |
 | 9 | **Roles y organización del equipo de datos** | Roles clave, estructuras organizativas, gobernanza y cultura de datos | [📄](./clase-9/roles-organizacion-gobierno-cultura-datos-clase-9.md) | [📊](./clase-9/40062-S09-PPT.pdf) |
+| 10 | **Introducción a COBIT** | Marco de gobierno corporativo de TI, dominios, principios y estructura | [📄](./clase-10/direccion-estrategica-datos-cobit-introduccion-clase-10.md) | [📄](./clase-10/direccion-estrategica-datos-cobit-introduccion-clase-10.pdf) |
+| 11 | **Modelos de Madurez y Métodos de Implementación COBIT** | CMM, madurez de procesos, implementación COBIT, métricas y casos prácticos | [📄](./clase-11/direccion-estrategica-datos-modelos-madurez-cobit-clase-11.md) | [📄](./clase-11/modelos-madurez-metodos-implementacion-cobit-clase-11.pdf) |
 
 ---
 
@@ -71,6 +73,14 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 - 📄 [roles-organizacion-gobierno-cultura-datos-clase-9.md](./clase-9/roles-organizacion-gobierno-cultura-datos-clase-9.md)
 - 📊 [40062-S09-PPT.pdf](./clase-9/40062-S09-PPT.pdf)
 
+### Clase 10: Introducción a COBIT
+- 📄 [direccion-estrategica-datos-cobit-introduccion-clase-10.md](./clase-10/direccion-estrategica-datos-cobit-introduccion-clase-10.md)
+- 📄 [direccion-estrategica-datos-cobit-introduccion-clase-10.pdf](./clase-10/direccion-estrategica-datos-cobit-introduccion-clase-10.pdf)
+
+### Clase 11: Modelos de Madurez y Métodos de Implementación COBIT
+- 📄 [direccion-estrategica-datos-modelos-madurez-cobit-clase-11.md](./clase-11/direccion-estrategica-datos-modelos-madurez-cobit-clase-11.md)
+- 📄 [modelos-madurez-metodos-implementacion-cobit-clase-11.pdf](./clase-11/modelos-madurez-metodos-implementacion-cobit-clase-11.pdf)
+
 ### Actividades
 - ✅ [direccion-estrategica-de-datos-pa001-glovo-solucion.md](./actividad-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) — Caso Glovo: diagnóstico, estrategia, gobernanza y riesgos
 - ✅ [direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md](./actividad-2/direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md) — Caso Mercado Andino: diagnóstico, innovación, Agile y gestión del cambio
@@ -106,6 +116,12 @@ direccion-estrategica-de-datos/
 ├── clase-9/
 │   ├── roles-organizacion-gobierno-cultura-datos-clase-9.md
 │   └── 40062-S09-PPT.pdf
+├── clase-10/
+│   ├── direccion-estrategica-datos-cobit-introduccion-clase-10.md
+│   └── direccion-estrategica-datos-cobit-introduccion-clase-10.pdf
+├── clase-11/
+│   ├── direccion-estrategica-datos-modelos-madurez-cobit-clase-11.md
+│   └── modelos-madurez-metodos-implementacion-cobit-clase-11.pdf
 ├── actividad-1/
 │   └── direccion-estrategica-de-datos-pa001-glovo-solucion.md
 ├── actividad-2/
