@@ -102,7 +102,15 @@ _meta/                              ← Documentación transversal de la cohorte
         ├── handoff/
         ├── excel-reader/
         └── caveman/
+.opencode/                          ← Symlinks para opencode (NO editar directamente)
+├── agents → ../.github/agents
+├── instructions → ../.github/instructions
+└── skills/
+    ├── clase-processor → ../.github/skills/clase-processor
+    └── mermaid-analysis → ../.github/skills/mermaid-analysis
 ```
+
+> **Regla:** Edita siempre en `.github/`. Los symlinks en `.opencode/` se actualizan automáticamente.
 
 ### Contenido de Cursos
 

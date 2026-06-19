@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    ".github/copilot-instructions.md",
+    ".github/agents/AGENTS.md",
+    ".github/instructions/clase.instructions.md",
+    ".github/instructions/writing.instructions.md",
+    ".github/instructions/actividad.instructions.md",
+    ".github/instructions/images.instructions.md"
+  ],
+  "skills": {
+    "paths": [
+      ".github/skills",
+      ".opencode/skills"
+    ]
+  }
+}
