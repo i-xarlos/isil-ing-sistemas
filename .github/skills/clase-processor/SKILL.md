@@ -1,6 +1,6 @@
 ---
 name: clase-processor
-description: "Use when: processing a new class (PPTX to PDF conversion + optional Markdown summary with concepts, examples, Mermaid diagrams, and glossary). Specializes in ISIL course documentation. Handles file conversion, renaming, and cleanup automatically."
+description: "Use when: processing a new class (PPTX to PDF conversion + optional enriched Markdown summary with analogies, real-world examples, industry cases, step-by-step flows, common mistakes, and reflection questions). Specializes in ISIL course documentation. Handles file conversion, renaming, and cleanup automatically."
 ---
 
 # Clase Processor Skill
@@ -34,17 +34,45 @@ Convierte presentación PowerPoint a PDF con nombre semántico automático.
 
 ### 📝 Generar Resumen Markdown (Opcional)
 
-Crea documento estructurado con:
+Crea documento estructurado y **enriquecido** con:
 
 - Encabezado con metadatos (Código, Curso, Clase, Tema)
-- Conceptos fundamentales
-- Ejemplos gráficos (elegir formato según complejidad):
-  - **Tablas Markdown**: matrices, comparativas, datos estructurados
-  - **Diagramas ASCII art**: arquitecturas, flujos complejos
-  - **Mermaid simple**: solo flujos lineales (sin subgraphs)
-- Tablas comparativas
-- Casos de uso por industria
-- Glosario de términos
+- **Gancho humano** (pregunta o situación cotidiana que conecte con el estudiante)
+- **Analogías simples** para explicar conceptos complejos
+- **Ejemplos reales** de empresas reconocidas (Netflix, Amazon, Google, Uber, etc.)
+- **Casos de uso por industria** con tablas detalladas
+- **Diagramas paso a paso** que muestren flujos de procesos
+- **Errores comunes** y sus consecuencias reales
+- **Preguntas de reflexión** al cierre
+- **Glosario** con definiciones + ejemplos
+
+**⚠️ Estrategia de enriquecimiento:**
+
+1. **Gancho humano:** Abrir con una pregunta o situación cotidiana
+   - Ejemplo: "¿Alguna vez te has preguntado por qué Netflix te recomienda exactamente la serie que querías ver?"
+   
+2. **Analogías simples:** Comparar conceptos abstractos con situaciones diarias
+   - Ejemplo: "Los datos sin análisis son como un libro cerrado"
+   - Ejemplo: "La gobernanza de datos es como las reglas de una casa: ¿quién tiene llaves?"
+
+3. **Ejemplos reales:** Usar empresas conocidas para cada concepto
+   - Siempre incluir: empresa, problema, solución, resultado
+   - Ejemplo: "Spotify usa datos para crear playlists personalizadas que aumentan el tiempo de escucha"
+
+4. **Casos por industria:** Tablas que muestren datos específicos por sector
+   - Columnas: Dato recopilado | Uso | Beneficio
+   - Incluir: Banca, Retail, Salud, Educación, Tech
+
+5. **Flujos paso a paso:** Diagramas ASCII que muestren procesos
+   - Usar caracteres Unicode: `↓`, `├──`, `└──`
+   - Máximo 5-7 pasos por flujo
+
+6. **Errores comunes:** Tabla con errores reales y consecuencias
+   - Columnas: Error | Ejemplo real | Consecuencia
+   - Incluir multas, escándalos, pérdidas reales
+
+7. **Preguntas de reflexión:** 2-3 preguntas al cierre
+   - Tipo: "Si tuvieras una tienda online, ¿qué datos recopilarías?"
 
 **⚠️ Estrategia de visualización:**
 
@@ -68,6 +96,127 @@ Crea documento estructurado con:
 ```
 "Procesa clase 8 de Diseño de Soluciones con IA con resumen completo"
 ```
+
+---
+
+## 📋 Plantilla de Resumen Enriquecido
+
+Usa esta estructura para crear resúmenes que sean fáciles de entender y retener:
+
+### Estructura obligatoria
+
+```md
+# {Tema de la sesión} (Clase X)
+
+**Curso:** {Nombre del curso} (ISIL, {year-semestre})  
+**Docente:** {Nombre del docente}  
+**Fecha:** DD/MM/AAAA
+
+---
+
+## Introducción
+
+**Gancho humano:** Pregunta o situación cotidiana que conecte con el estudiante.
+
+**Pregunta guía:** ¿Qué problema resuelve este tema?
+
+**Objetivos de aprendizaje:**
+- Objetivo 1
+- Objetivo 2
+- Objetivo 3
+
+---
+
+## 1. {Concepto Principal 1}
+
+### ¿Qué es {concepto}?
+
+**Analogía simple:** Comparar con algo cotidiano.
+
+| Aspecto | Descripción | Ejemplo Real |
+|---------|-------------|--------------|
+| Aspecto 1 | Descripción | Empresa + resultado |
+| Aspecto 2 | Descripción | Empresa + resultado |
+
+### Ejemplo detallado: {Empresa}
+
+```
+┌─────────────────────────────────────┐
+│   FLUJO PASO A PASO                 │
+├─────────────────────────────────────┤
+│  1. Acción inicial                  │
+│     ↓                               │
+│  2. Proceso                        │
+│     ↓                               │
+│  3. Resultado                      │
+└─────────────────────────────────────┘
+```
+
+---
+
+## 2. {Concepto Principal 2}
+
+### Casos por industria
+
+| Industria | Dato recopilado | Uso | Beneficio |
+|-----------|-----------------|-----|-----------|
+| Banca | Datos de transacciones | Scoring crediticio | Préstamos precisos |
+| Retail | Historial de compras | Recomendaciones | Mayor ticket promedio |
+| Salud | Historial médico | Diagnóstico asistido | Precisión médica |
+
+---
+
+## N. Errores Comunes a Evitar
+
+| Error | Ejemplo real | Consecuencia |
+|-------|--------------|--------------|
+| Error 1 | Empresa que lo hizo | Multa/pérdida |
+| Error 2 | Empresa que lo hizo | Multa/pérdida |
+
+---
+
+## Conclusiones
+
+1. Conclusión clave 1
+2. Conclusión clave 2
+3. Conclusión clave 3
+
+**Frase clave:**
+> "Frase memorable que resuma la idea principal"
+
+---
+
+## Glosario
+
+| Término | Definición | Ejemplo |
+|---------|------------|---------|
+| Término 1 | Definición simple | Ejemplo cotidiano |
+
+---
+
+## Preguntas de Reflexión
+
+1. **Pregunta aplicada** — "Si tuvieras X, ¿cómo harías Y?"
+2. **Pregunta comparativa** — "¿Cuál de las estrategias ves más en tu vida diaria?"
+3. **Pregunta crítica** — "¿Algún dato tuyo se está usando sin que lo sepas?"
+
+---
+
+## Fuentes
+
+| # | Fuente | Tipo | URL |
+|---|--------|------|-----|
+| 1 | Autor. *Título* | Libro/Artículo | [URL](url) |
+```
+
+### Reglas de enriquecimiento
+
+| Regla | Ejemplo correcto | Ejemplo incorrecto |
+|-------|------------------|-------------------|
+| **Gancho** | "¿Sabías que Netflix gana dinero con tus datos de visualización?" | "Este tema trata sobre monetización de datos" |
+| **Analogía** | "La gobernanza es como las reglas de una casa" | "La gobernanza implica políticas y procedimientos" |
+| **Ejemplo real** | "Spotify usa datos para crear playlists que aumentan el tiempo de escucha" | "Las empresas usan datos para personalizar" |
+| **Consecuencia** | "Facebook multado $5B por uso indebido de datos" | "El incumplimiento tiene consecuencias legales" |
 
 ---
 
@@ -138,9 +287,10 @@ Verifica que los archivos generados cumplan convenciones del repositorio.
 ## Cuándo Usar Este Skill
 
 ✅ Tienes un nuevo PPTX de clase y necesitas convertirlo a PDF  
-✅ Quieres un resumen estructurado con conceptos y diagramas  
+✅ Quieres un resumen **enriquecido** con analogías, ejemplos reales y casos por industria  
 ✅ Necesitas limpiar archivos PPTX después de procesarlos  
-✅ Trabajas con cursos ISIL {year-semestre}
+✅ Trabajas con cursos ISIL {year-semestre}  
+✅ Necesitas preguntas de reflexión y glosario para facilitar el aprendizaje
 
 ❌ NO usar para: editar archivos existentes, crear estructuras de proyecto, debugging
 
@@ -187,5 +337,5 @@ Verifica que los archivos generados cumplan convenciones del repositorio.
 
 ---
 
-**Última actualización:** 16 de junio de 2026 (Estrategia de visualización actualizada: Mermaid simple + Tablas + ASCII art)  
+**Última actualización:** 23 de junio 2026 (Estructura de resumen enriquecido agregada: analogías, ejemplos reales, casos por industria, preguntas de reflexión)  
 **Alcance:** ISIL {year-semestre} - Procesamiento de clases
