@@ -24,6 +24,9 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 | 6 | **Modelos de Madurez y Gobierno Estratégico** | CMMI, TOGAF CMM, evaluación de capacidad organizacional | [📄](./clase-6/arquitectura-empresarial-madurez-gobierno-clase-6.md) | [📊](./clase-6/40096-S06-PRESENTACION.pdf) |
 | 7 | **Enfoques de Arquitectura Empresarial según Sector** | Arquitectura adaptada a sectores (financiero, retail, salud, industrial, público), lógica competitiva, traducción estratégica | [📄](./clase-7/arquitectura-empresarial-enfoques-por-sector-clase-7.md) | [📊](./clase-7/40096-S07-PRESENTACION.pdf) |
 | 9 | **Arquitectura del negocio y capacidades empresariales** | Estructura organizacional, mapa de capacidades, flujos de valor y Business Model Canvas | [📄](./clase-9/arquitectura-del-negocio-y-capacidades-clase-9.md) | [📊](./clase-9/40096-S09-PRESENTACION.pdf) |
+| 10 | **Arquitectura de Aplicaciones** | Componentes, servicios, integración y gestión de aplicaciones empresariales | [📄](./clase-10/arquitectura-de-aplicaciones-clase-10.md) | [📊](./clase-10/40096-S10-PRESENTACION.pdf) |
+| 11 | **Alineamiento Estratégico y Trazabilidad** | Cómo alinear iniciativas de AE con objetivos de negocio y medir impacto | [📄](./clase-11/arquitectura-empresarial-alineamiento-estrategico-trazabilidad-clase-11.md) | [📊](./clase-11/arquitectura-empresarial-alineamiento-estrategico-trazabilidad-clase-11.pdf) |
+| 12 | **Estrategias de Monetización de Datos** | Modelos de negocio basados en datos, estrategias de monetización, factores de éxito | [📄](./clase-12/estrategias-monetizacion-datos-clase-12.md) | [📊](./clase-12/arquitectura-empresarial-clase-12.pdf) |
 
 ---
 
@@ -72,6 +75,18 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 - 📄 [arquitectura-del-negocio-y-capacidades-clase-9.md](./clase-9/arquitectura-del-negocio-y-capacidades-clase-9.md)
 - 📊 [40096-S09-PRESENTACION.pdf](./clase-9/40096-S09-PRESENTACION.pdf)
 
+### Clase 10: Arquitectura de Aplicaciones
+- 📄 [arquitectura-de-aplicaciones-clase-10.md](./clase-10/arquitectura-de-aplicaciones-clase-10.md)
+- 📊 [40096-S10-PRESENTACION.pdf](./clase-10/40096-S10-PRESENTACION.pdf)
+
+### Clase 11: Alineamiento Estratégico y Trazabilidad
+- 📄 [arquitectura-empresarial-alineamiento-estrategico-trazabilidad-clase-11.md](./clase-11/arquitectura-empresarial-alineamiento-estrategico-trazabilidad-clase-11.md)
+- 📊 [arquitectura-empresarial-alineamiento-estrategico-trazabilidad-clase-11.pdf](./clase-11/arquitectura-empresarial-alineamiento-estrategico-trazabilidad-clase-11.pdf)
+
+### Clase 12: Estrategias de Monetización de Datos
+- 📄 [estrategias-monetizacion-datos-clase-12.md](./clase-12/estrategias-monetizacion-datos-clase-12.md)
+- 📊 [arquitectura-empresarial-clase-12.pdf](./clase-12/arquitectura-empresarial-clase-12.pdf)
+
 ### Actividad 1
 - ✅ [arquitectura-empresarial-solucion-actividad-1.md](./actividad-1/arquitectura-empresarial-solucion-actividad-1.md) — Caso BancoXYZ (sector financiero)
 - ✅ [arquitectura-empresarial-pa01-retail-Metro.md](./actividad-1/arquitectura-empresarial-pa01-retail-Metro.md) — Caso Metro (sector retail)
@@ -105,6 +120,18 @@ arq-empresarial/
 ├── clase-6/
 │   ├── arquitectura-empresarial-madurez-gobierno-clase-6.md
 │   └── 40096-S06-PRESENTACION.pptx
+├── clase-9/
+│   ├── arquitectura-del-negocio-y-capacidades-clase-9.md
+│   └── 40096-S09-PRESENTACION.pdf
+├── clase-10/
+│   ├── arquitectura-de-aplicaciones-clase-10.md
+│   └── 40096-S10-PRESENTACION.pdf
+├── clase-11/
+│   ├── arquitectura-empresarial-alineamiento-estrategico-trazabilidad-clase-11.md
+│   └── arquitectura-empresarial-alineamiento-estrategico-trazabilidad-clase-11.pdf
+├── clase-12/
+│   ├── estrategias-monetizacion-datos-clase-12.md
+│   └── arquitectura-empresarial-clase-12.pdf
 ├── actividad-1/
 │   ├── arquitectura-empresarial-solucion-actividad-1.md
 │   ├── arquitectura-empresarial-pa01-retail-Metro.md
@@ -121,6 +148,8 @@ arq-empresarial/
 
 ## Últimas Actualizaciones
 
+- **23/06/2026:** Clase 12 completada - Estrategias de Monetización de Datos
+- **23/06/2026:** Clases 10 y 11 agregadas al índice
 - **12/05/2026:** Clase 6 completada - Modelos de Madurez (CMMI, TOGAF CMM)
 - **22/04/2026:** Clase 3 completada con modelado arquitectónico y capas
 - **22/04/2026:** Incorporación de ejemplos reales (Big Data, China social credit, HFT)
