@@ -25,6 +25,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 8 | Clase | **Análisis y calidad de datos** | Limpieza, normalización, outliers, insights, KPIs y storytelling | [📄](./clase-8/diseno-soluciones-ia-analisis-calidad-datos-clase-8.md) |
 | 10 | Clase | **Elección del Modelo Correcto** | Clasificación de modelos, regresión, árboles, redes neuronales, criterios de selección, evaluación | [📄](./clase-10/eleccion-modelo-correcto-clase-10.md) |
 | 11 | Clase | **Métricas de Evaluación de Modelos** | Precisión, exactitud, error promedio e interpretación práctica para validar desempeño | [📄](./clase-11/diseno-soluciones-ia-metricas-evaluacion-modelos-clase-11.md) · [📊](./clase-11/diseno-soluciones-ia-metricas-evaluacion-modelos-clase-11.pdf) |
+| 12 | Clase | **Modelo IA: Integración, Interfaces y Técnicas ML** | Integración en apps, diseño UI, técnicas de ML (supervisado, no supervisado, refuerzo, deep learning) | [📄](./clase-12/diseno-soluciones-ia-tecnicas-machine-learning-clase-12.md) · [📊](./clase-12/40098-S12-PRESENTACION.pdf) |
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | 2 | Actividad | **Calidad de Datos y Reducción de Dimensionalidad** | Evaluación de problemas de calidad, PCA y relación vs causalidad | [📄](./actividad-2/diseno-soluciones-ia-actividad-2-solucion.md) |
 | 8 | Actividad | **EDA, limpieza e insights con Python** | Dataset sintético, imputación, outliers, correlaciones y storytelling de negocio | [📄](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md) |
@@ -133,6 +134,26 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
   - **Discusión práctica:** elección de métricas según contexto
   - **Casos aplicados:** spam, marketing y validación de generalización
 
+### Clase 12: Modelo IA — Integración, Diseño de Interfaces y Técnicas de ML
+
+- 📄 [diseno-soluciones-ia-tecnicas-machine-learning-clase-12.md](./clase-12/diseno-soluciones-ia-tecnicas-machine-learning-clase-12.md)
+- 📊 PDF: `40098-S12-PRESENTACION.pdf`
+- 📋 Temas:
+  - **Integración de modelos IA:** Backend vs Frontend, estrategias de despliegue, TensorFlow.js
+  - **Integración vía API:** Patrón estándar, stack tecnológico, caso iADAN
+  - **Seguridad y privacidad:** Políticas de gobernanza, control de accesos, auditoría
+  - **Diseño de interfaces con IA:** Generar vs evaluar UI, atributos de usabilidad (LUIM)
+  - **Evaluación asistida:** Score de calidad y nivel de confianza para prototipos
+  - **Ejemplos reales:** iADAN, Polidata, Front-end DL, TripSense
+  - **Prototipo:** MVP funcional, flujos, arquitectura, plantilla de prompts
+  - **Técnicas de ML supervisado:** Regresión lineal, logística, árboles, random forest, SVM, KNN, Naive Bayes, redes neuronales
+  - **Técnicas de ML no supervisado:** K-Means, DBSCAN, PCA
+  - **Aprendizaje por refuerzo:** Q-Learning
+  - **Deep Learning:** CNN, RNN/LSTM, Transformers
+  - **Cómo elegir técnica:** Árbol de decisión, comparativas, ejemplos por industria
+  - **Pruebas y métricas:** UX/UI, técnicas, seguridad
+- 📊 Contenido: 12 secciones con diagramas ASCII, tablas comparativas, casos reales, fórmulas explicadas, glosario y preguntas de reflexión
+
 ### Actividad 1: SWE-Bench Verified
 
 - 📄 [swe-bench-comparacion-modelos-actividad-1.md](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md)
@@ -190,6 +211,9 @@ diseno-soluciones-ia/
 ├── clase-11/
 │   ├── diseno-soluciones-ia-metricas-evaluacion-modelos-clase-11.md
 │   └── diseno-soluciones-ia-metricas-evaluacion-modelos-clase-11.pdf
+├── clase-12/
+│   ├── diseno-soluciones-ia-tecnicas-machine-learning-clase-12.md
+│   └── 40098-S12-PRESENTACION.pdf
 ├── actividad-1/
 │   ├── README.md
 │   ├── swe-bench-comparacion-modelos-actividad-1.md
@@ -204,6 +228,7 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **24/06/2026:** Clase 12 documentada: Integración de modelos IA, diseño de interfaces, técnicas de ML (supervisado, no supervisado, refuerzo, deep learning), cómo elegir técnica, ejemplos por industria, prototipo MVP
 - **17/06/2026:** Clase 11 agregada: Métricas de Evaluación de Modelos (precisión, exactitud, error promedio y discusión)
 - **10/06/2026:** Clase 10 documentada: Elección del Modelo Correcto con clasificación de modelos, criterios de selección, 9 diagramas Mermaid, ejemplos reales y diagrama de decisión
 - **30/05/2026:** Actividad 8 documentada: EDA con Python, imputación, outliers, correlaciones, normalización e insights de negocio
