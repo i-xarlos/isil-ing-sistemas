@@ -1,9 +1,9 @@
 # Modelos de Madurez y Métodos de Implementación de COBIT (Clase 11)
 
+**Curso:** Dirección Estratégica de Datos (ISIL, 2026-1)  
 **Código:** 40062  
-**Curso:** Dirección Estratégica de Datos  
-**Clase:** 11  
-**Tema:** Modelos de Madurez y Métodos de Implementación de COBIT
+**Docente:** [pendiente]  
+**Fecha:** 18/06/2026
 
 ---
 
