@@ -36,6 +36,7 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 |---|------|-------------|-----------|
 | PA01 | **Principios de Arquitectura Empresarial en Organizaciones Reales** | Identificar los 4 dominios (Negocio, Datos, Aplicaciones, Tecnología), su definición, razón fundamental e implicaciones. | [✅ Caso Banco](./actividad-1/arquitectura-empresarial-solucion-actividad-1.md) \| [✅ Caso Retail](./actividad-1/arquitectura-empresarial-pa01-retail-megastore.md) |
 | PA02 | **Ejemplo Completo: Transformación Digital de Metro** | Caso práctico de arquitectura empresarial aplicada: matriz AS-IS vs TO-BE, 4 dominios, iniciativas omnicanal, roadmap de transformación 18 meses, KPIs. | [📘 Ejemplo Metro Retail](./actividad-2/arquitectura-empresarial-ejemplo-metro-act-2.md) |
+| PA04 | **Cadena Formal de Trazabilidad en 3 Empresas Reales** | Cadena completa: objetivo → capacidad → proceso → actividades → servicios de app → sistemas tecnológicos. Casos: Mercado Libre (E-commerce), Banco Inter (Banca digital) y HPE (Tecnología empresarial). | [✅ Solución PA04](./actividad-4/solucion-actividad-4-trazabilidad-ae.md) |
 
 ---
 
@@ -94,6 +95,9 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 ### Actividad 2
 - 📘 [arquitectura-empresarial-ejemplo-banco-digital-act-2.md](./actividad-2/arquitectura-empresarial-ejemplo-banco-digital-act-2.md) — Caso completo Metro: Transformación retail omnicanal, 4 dominios, 6 iniciativas, roadmap 18 meses, KPIs de negocio
 
+### Actividad 4
+- ✅ [solucion-actividad-4-trazabilidad-ae.md](./actividad-4/solucion-actividad-4-trazabilidad-ae.md) — Cadena formal de trazabilidad: Mercado Libre (E-commerce), Banco Inter (Banca digital) y HPE (Tecnología empresarial)
+
 ---
 
 ## Estructura de la Carpeta
@@ -141,6 +145,9 @@ arq-empresarial/
 │   ├── arquitectura-empresarial-ejemplo-banco-digital-act-2.md
 │   ├── Ejemplo - Escenario de Negocios.xlsx
 │   └── Formato a llenar - Escenario de Negocios.xlsx
+├── actividad-4/
+│   ├── PA04 - Arquitectura Empresarial - Individual.docx
+│   └── solucion-actividad-4-trazabilidad-ae.md
 └── README.md (este archivo)
 ```
 
@@ -148,6 +155,7 @@ arq-empresarial/
 
 ## Últimas Actualizaciones
 
+- **27/06/2026:** Actividad 4 completada — Cadena de trazabilidad: Mercado Libre y Banco Inter
 - **23/06/2026:** Clase 12 completada - Estrategias de Monetización de Datos
 - **23/06/2026:** Clases 10 y 11 agregadas al índice
 - **12/05/2026:** Clase 6 completada - Modelos de Madurez (CMMI, TOGAF CMM)
