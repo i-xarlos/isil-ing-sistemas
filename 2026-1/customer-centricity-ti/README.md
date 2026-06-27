@@ -25,7 +25,9 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 | 7 | **Design Thinking – Parte 2: Prototipado y Testeo** | Fase de prototipado (tipos, herramientas), fase de testeo (guía práctica), ciclo iterativo | [📄](./clase-7/customer-centricity-design-thinking-prototipado-testeo-clase-7.md) | [📊](./clase-7/40064_S07_PPT.pdf) |
 | 8 | **Agilidad y Desarrollo Continuo** | (Pendiente) | | |
 | 9 | **Customer Metrics en el Entorno Digital** | Métricas de negocio, indicadores NPS/CSAT/CES, integración con diseño, buenas prácticas | [📄](./clase-9/customer-metrics-indicadores-nps-csat-ces-clase-9.md) | [📊](./clase-9/40064_S09_PPT.pdf) |
-| 10 | **CES vs NPS: Métricas en Profundidad** | Diferenciación entre CES, NPS y CSAT; cuándo usar cada una; casos reales; decisiones estratégicas | [📄](./clase-10/customer-centricity-ces-vs-nps-clase-10.md) | |
+| 10 | **Métricas de Experiencia y Analítica Digital** | CES vs NPS vs CSAT, analítica digital, eventos/propiedades, framework HEART, herramientas | [📄](./clase-10/customer-centricity-metricas-analitica-digital-clase-10.md) | [📊](./clase-10/customer-centricity-metricas-analitica-digital-clase-10.pdf) |
+| 11 | **Analítica Digital II: Amplitude e Implementación** | Roadmap y métricas, Amplitude (funnels, retention, journeys, cohorts), buenas prácticas, proceso de implementación | [📄](./clase-11/customer-centricity-analitica-digital-amplitude-clase-11.md) | [📊](./clase-11/customer-centricity-analitica-digital-amplitude-clase-11.pdf) |
+| 12 | **Experimentación como Herramienta Customer Centric** | A/B testing, fake door testing, herramientas (VWO, Amplitude Experiment), proceso de implementación, mitos y buenas prácticas | [📄](./clase-12/customer-centricity-experimentacion-producto-clase-12.md) | [📊](./clase-12/customer-centricity-experimentacion-producto-clase-12.pdf) |
 
 ---
 
@@ -64,8 +66,17 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 - ✅ [customer-metrics-checklist-implementacion-clase-9.md](./clase-9/customer-metrics-checklist-implementacion-clase-9.md) — Checklist paso a paso para implementación
 - 📊 [40064_S09_PPT.pdf](./clase-9/40064_S09_PPT.pdf)
 
-### Clase 10: CES vs NPS — Métricas en Profundidad
-- 📄 [customer-centricity-ces-vs-nps-clase-10.md](./clase-10/customer-centricity-ces-vs-nps-clase-10.md) — Comparación detallada, cuadro de referencia, casos reales, decisiones estratégicas
+### Clase 10: Métricas de Experiencia y Analítica Digital
+- 📄 [customer-centricity-metricas-analitica-digital-clase-10.md](./clase-10/customer-centricity-metricas-analitica-digital-clase-10.md) — CES vs NPS vs CSAT, analítica digital, eventos, propiedades, framework HEART
+- 📊 [customer-centricity-metricas-analitica-digital-clase-10.pdf](./clase-10/customer-centricity-metricas-analitica-digital-clase-10.pdf)
+
+### Clase 11: Analítica Digital II — Amplitude e Implementación
+- 📄 [customer-centricity-analitica-digital-amplitude-clase-11.md](./clase-11/customer-centricity-analitica-digital-amplitude-clase-11.md) — Roadmap y métricas, Amplitude, buenas prácticas, proceso de implementación
+- 📊 [customer-centricity-analitica-digital-amplitude-clase-11.pdf](./clase-11/customer-centricity-analitica-digital-amplitude-clase-11.pdf)
+
+### Clase 12: Experimentación como Herramienta Customer Centric
+- 📄 [customer-centricity-experimentacion-producto-clase-12.md](./clase-12/customer-centricity-experimentacion-producto-clase-12.md) — A/B testing, fake door testing, herramientas, proceso de implementación, mitos
+- 📊 [customer-centricity-experimentacion-producto-clase-12.pdf](./clase-12/customer-centricity-experimentacion-producto-clase-12.pdf)
 
 ### Actividad 1: Proyecto RAPIDGO
 - 📋 [RAPIDGO-solucion-actividad-1.md](./actividad-1/RAPIDGO-solucion-actividad-1.md) — Solución completa con diagnóstico, investigación, MVP/MLP y plan ágil
@@ -103,7 +114,14 @@ customer-centricity-ti/
 │   ├── 40064_S09_PPT.pdf
 │   └── README.md
 ├── clase-10/
-│   └── customer-centricity-ces-vs-nps-clase-10.md
+│   ├── customer-centricity-metricas-analitica-digital-clase-10.md
+│   └── customer-centricity-metricas-analitica-digital-clase-10.pdf
+├── clase-11/
+│   ├── customer-centricity-analitica-digital-amplitude-clase-11.md
+│   └── customer-centricity-analitica-digital-amplitude-clase-11.pdf
+├── clase-12/
+│   ├── customer-centricity-experimentacion-producto-clase-12.md
+│   └── customer-centricity-experimentacion-producto-clase-12.pdf
 ├── actividad-1/
 │   ├── PA1 CUSTOMER CENTRICITY.docx
 │   ├── MEJORAS-SUGERIDAS-GRUPO-C.md
@@ -115,6 +133,8 @@ customer-centricity-ti/
 
 ## Últimas Actualizaciones
 
+- **Clase 12**: Resumen completo de Experimentación como Herramienta Customer Centric (A/B testing, fake door testing, herramientas, proceso de implementación, mitos y buenas prácticas). Incluye PDF
+- **Clase 11**: Resumen completo de Analítica Digital II: roadmap y métricas, Amplitude (funnels, retention, journeys, cohorts), buenas prácticas, proceso de implementación. Incluye PDF
 - **Clase 9**: Agregado resumen completo de "Customer Metrics en el Entorno Digital" con cobertura de NPS, CSAT, CES, integración con procesos de diseño, mitos y buenas prácticas
 - **Clase 6**: Agregado resumen completo de "Design Thinking y su Aplicación en Desarrollo de Soluciones Tecnológicas" con cobertura de empatización, definición y ideación
 - **Clase 3**: Agregado resumen completo de "Investigación y Análisis para Comprensión del Cliente" basado en el PPT de la sesión.
