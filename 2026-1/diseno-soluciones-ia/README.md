@@ -29,6 +29,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | 2 | Actividad | **Calidad de Datos y Reducción de Dimensionalidad** | Evaluación de problemas de calidad, PCA y relación vs causalidad | [📄](./actividad-2/diseno-soluciones-ia-actividad-2-solucion.md) |
 | 8 | Actividad | **EDA, limpieza e insights con Python** | Dataset sintético, imputación, outliers, correlaciones y storytelling de negocio | [📄](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md) |
+| 12 | Actividad | **Alerta Académica ML** | Prototipo app web con ML para clasificar nivel de riesgo académico de estudiantes | [📄](./actividad-12/solucion-actividad-12-alerta-academica-ml.md) |
 | PA01 | Evaluación | **Formulación de Problemas y Viabilidad IA** | 2 casos: clasificación incidencias + diagnóstico médico sesgado | [pendiente] |
 
 ---
@@ -165,6 +166,12 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 - 📝 Material base: `ACTIVIDAD SESIÓN 8.docx`
 - 📋 Temas: dataset sintético, valores faltantes, imputación, IQR, correlación de Pearson, normalización Min-Max, insights y storytelling
 
+### Actividad 12: Alerta Académica ML
+
+- 📄 [solucion-actividad-12-alerta-academica-ml.md](./actividad-12/solucion-actividad-12-alerta-academica-ml.md)
+- 📝 Material base: `ACTIVIDAD SESIÓN 12.docx`
+- 📋 Temas: comprensión del problema, variables de entrada, clasificación supervisada, técnica ML, arquitectura frontend-backend, flujo de datos, pantallas, seguridad, métricas de validación
+
 ### Evaluación PA01: Formación de Problemas y Viabilidad de IA
 
 - 📋 diseno-soluciones-ia-pa01-solucion.md — [pendiente] (archivo no incluido en el repositorio) — Solución completa:
@@ -221,6 +228,9 @@ diseno-soluciones-ia/
 ├── actividad-8/
 │   ├── ACTIVIDAD SESIÓN 8.docx
 │   └── diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md
+├── actividad-12/
+│   ├── ACTIVIDAD SESIÓN 12.docx
+│   └── solucion-actividad-12-alerta-academica-ml.md
 └── README.md (este archivo)
 ```
 
@@ -228,6 +238,7 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **24/06/2026:** Actividad 12 documentada: Alerta Académica ML — prototipo app web con clasificación supervisada para detectar riesgo académico de estudiantes
 - **24/06/2026:** Clase 12 documentada: Integración de modelos IA, diseño de interfaces, técnicas de ML (supervisado, no supervisado, refuerzo, deep learning), cómo elegir técnica, ejemplos por industria, prototipo MVP
 - **17/06/2026:** Clase 11 agregada: Métricas de Evaluación de Modelos (precisión, exactitud, error promedio y discusión)
 - **10/06/2026:** Clase 10 documentada: Elección del Modelo Correcto con clasificación de modelos, criterios de selección, 9 diagramas Mermaid, ejemplos reales y diagrama de decisión

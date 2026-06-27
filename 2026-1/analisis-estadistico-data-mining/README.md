@@ -25,6 +25,7 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 | 7 | **Algoritmos de Minería de Datos** | Clasificación (árboles, SVM, K-NN), clustering (k-means, jerárquico), reglas de asociación (Apriori), evaluación (precisión, recall, silhouette) | [📄](./clase-7/analisis-estadistico-data-mining-algoritmos-mineria-datos-clase-7.md) |
 | 8 | **Repaso sesión 8** | Estadística descriptiva vs inferencial, outliers, Big Data, limpieza de datos y evaluación de modelos | [📄](./clase-8/analisis-estadistico-data-mining-repaso-sesion-8-clase-8.md) |
 | 9 | **Instalación y entornos (R y Python)** | Entorno local, hardware recomendado, R vs Python, librerías e instalación, entornos virtuales | [📄](./clase-9/instalacion-r-python-entornos-clase-9.md) |
+| 12 | **Análisis Integrado en R y Python** | Comparación R vs Python, integración de flujos, análisis estadístico, minería de datos, pipelines | [📄](./clase-12/analisis-integrado-r-python-clase-12.md) |
 
 ---
 
@@ -100,6 +101,17 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
   - Entornos virtuales y reproducibilidad
 - 📑 PDF: [40097-S09-PRESENTACION.pdf](./clase-9/40097-S09-PRESENTACION.pdf)
 
+### Clase 12: Análisis Integrado en R y Python
+- 📄 [analisis-integrado-r-python-clase-12.md](./clase-12/analisis-integrado-r-python-clase-12.md)
+- 📊 **Temas principales:**
+  - **Comparación R vs Python:** Fortalezas de cada herramienta, cuándo usar cada una
+  - **Integración de flujos:** Combinar Python (gestión) + R (validación estadística)
+  - **Análisis estadístico:** Pruebas t, ANOVA, correlación en ambas herramientas
+  - **Minería de datos:** Clasificación, clustering, regresión en R y Python
+  - **Pipelines de datos:** Ingesta, limpieza, transformación, análisis, automatización, reporte
+- 📑 PDF: [analisis-integrado-r-python-clase-12.pdf](./clase-12/analisis-integrado-r-python-clase-12.pdf)
+- 🔧 **Implementación:** Ejemplos completos de código en R y Python para cada técnica
+
 ### Actividades
 
 #### Actividad 1: Proceso de Aprendizaje 01
@@ -150,6 +162,17 @@ analisis-estadistico-data-mining/
 │   ├── analisis-estadistico-data-mining-preparacion-datos-clase-6.md
 │   ├── 40097-S06-PRESENTACION.pdf
 │   └── [PPTX convertido a PDF]
+├── clase-7/
+│   ├── analisis-estadistico-data-mining-algoritmos-mineria-datos-clase-7.md
+│   └── 40097-S07-PRESENTACION.pdf
+├── clase-8/
+│   └── analisis-estadistico-data-mining-repaso-sesion-8-clase-8.md
+├── clase-9/
+│   ├── instalacion-r-python-entornos-clase-9.md
+│   └── 40097-S09-PRESENTACION.pdf
+├── clase-12/
+│   ├── analisis-integrado-r-python-clase-12.md
+│   └── analisis-integrado-r-python-clase-12.pdf
 ├── actividad-sesion-8/
 │   ├── ACTIVIDAD SESIÓN 8.docx
 │   └── analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md
