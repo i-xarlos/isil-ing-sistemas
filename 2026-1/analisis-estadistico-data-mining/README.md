@@ -26,6 +26,7 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 | 8 | **Repaso sesión 8** | Estadística descriptiva vs inferencial, outliers, Big Data, limpieza de datos y evaluación de modelos | [📄](./clase-8/analisis-estadistico-data-mining-repaso-sesion-8-clase-8.md) |
 | 9 | **Instalación y entornos (R y Python)** | Entorno local, hardware recomendado, R vs Python, librerías e instalación, entornos virtuales | [📄](./clase-9/instalacion-r-python-entornos-clase-9.md) |
 | 12 | **Análisis Integrado en R y Python** | Comparación R vs Python, integración de flujos, análisis estadístico, minería de datos, pipelines | [📄](./clase-12/analisis-integrado-r-python-clase-12.md) |
+| 13 | **Diseño del Proyecto Integrador** | Selección de datos, objetivos SMART, alcance, planificación de etapas, selección de R o Python | [📄](./clase-13/diseno-proyecto-integrador-clase-13.md) |
 
 ---
 
@@ -112,6 +113,17 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 - 📑 PDF: [analisis-integrado-r-python-clase-12.pdf](./clase-12/analisis-integrado-r-python-clase-12.pdf)
 - 🔧 **Implementación:** Ejemplos completos de código en R y Python para cada técnica
 
+### Clase 13: Diseño del Proyecto Integrador
+- 📄 [diseno-proyecto-integrador-clase-13.md](./clase-13/diseno-proyecto-integrador-clase-13.md)
+- 📊 [diseno-proyecto-integrador-clase-13.pdf](./clase-13/diseno-proyecto-integrador-clase-13.pdf)
+- 📊 **Temas principales:**
+  - **Selección de datos:** 5 criterios (relevancia, calidad, accesibilidad, potencial analítico, autenticidad)
+  - **Objetivos SMART:** Framework para formular metas específicas, medibles, alcanzables, relevantes y temporales
+  - **Alcance del proyecto:** 5 dimensiones (temático, metodológico, poblacional, temporal, exclusiones)
+  - **Planificación de etapas:** Cronograma en 3 semanas con entregables definidos
+  - **Selección de herramientas:** Cuándo elegir R vs Python según tipo de análisis
+- 📑 Material complementario: `40097-S13-MATERIAL COMPLEMENTARIO01.docx`
+
 ### Actividades
 
 #### Actividad 1: Proceso de Aprendizaje 01
@@ -138,6 +150,11 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 - 📄 [analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md](./actividad-sesion-8/analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md)
 - **Contenido:** Laboratorio resuelto de limpieza, clasificación y clustering sobre clientes retail
 - **Temas:** imputación, outliers, codificación, StandardScaler, árbol de decisión, accuracy, precision, recall, matriz de confusión, K-Means, silhouette
+
+#### Actividad 13: Proyecto Integrador — Diseño del Proyecto
+- 📄 [analisis-estadistico-data-mining-proyecto-integrador-actividad-13-solucion.md](./actividad-13/analisis-estadistico-data-mining-proyecto-integrador-actividad-13-solucion.md)
+- **Contenido:** Avance 1 del Proyecto Integrador — definición del problema, dataset, objetivos SMART, alcance, plan de trabajo
+- **Temas:** Segmentación de clientes en e-commerce,K-Means clustering, estadística descriptiva e inferencial, Python con pandas/scikit-learn
 
 ---
 
@@ -178,9 +195,16 @@ analisis-estadistico-data-mining/
 ├── clase-12/
 │   ├── analisis-integrado-r-python-clase-12.md
 │   └── analisis-integrado-r-python-clase-12.pdf
+├── clase-13/
+│   ├── diseno-proyecto-integrador-clase-13.md
+│   ├── diseno-proyecto-integrador-clase-13.pdf
+│   └── 40097-S13-MATERIAL COMPLEMENTARIO01.docx
 ├── actividad-sesion-8/
 │   ├── ACTIVIDAD SESIÓN 8.docx
 │   └── analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md
+├── actividad-13/
+│   ├── 40097-S13-MATERIAL COMPLEMENTARIO01.docx
+│   └── analisis-estadistico-data-mining-proyecto-integrador-actividad-13-solucion.md
 ├── actividad-1/
 │   └── analisis-estadistico-data-mining-pa01-respuestas.md
 ├── actividad-4/

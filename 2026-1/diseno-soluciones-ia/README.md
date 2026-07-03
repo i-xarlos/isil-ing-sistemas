@@ -26,6 +26,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 10 | Clase | **Elección del Modelo Correcto** | Clasificación de modelos, regresión, árboles, redes neuronales, criterios de selección, evaluación | [📄](./clase-10/eleccion-modelo-correcto-clase-10.md) |
 | 11 | Clase | **Métricas de Evaluación de Modelos** | Precisión, exactitud, error promedio e interpretación práctica para validar desempeño | [📄](./clase-11/diseno-soluciones-ia-metricas-evaluacion-modelos-clase-11.md) · [📊](./clase-11/diseno-soluciones-ia-metricas-evaluacion-modelos-clase-11.pdf) |
 | 12 | Clase | **Modelo IA: Integración, Interfaces y Técnicas ML** | Integración en apps, diseño UI, técnicas de ML (supervisado, no supervisado, refuerzo, deep learning) | [📄](./clase-12/diseno-soluciones-ia-tecnicas-machine-learning-clase-12.md) · [📊](./clase-12/40098-S12-PRESENTACION.pdf) |
+| 13 | Clase | **Despliegue de Modelos y Demo Interactiva** | Conceptos de despliegue, MLOps, herramientas low-code, diseño de demo interactiva | [📄](./clase-13/despliegue-modelos-demo-ia-clase-13.md) · [📊](./clase-13/despliegue-modelos-demo-ia-clase-13.pdf) |
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | 2 | Actividad | **Calidad de Datos y Reducción de Dimensionalidad** | Evaluación de problemas de calidad, PCA y relación vs causalidad | [📄](./actividad-2/diseno-soluciones-ia-actividad-2-solucion.md) |
 | 4 | Actividad | **Modelado y Evaluación de Soluciones de IA** | Tipos de ML, selección de modelos, evaluación antes de implementar, overfitting, métricas por stakeholder | [📄](./actividad-4/SOLUCION-ACTIVIDAD-4-DISENO-IA.md) |
@@ -156,6 +157,20 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
   - **Pruebas y métricas:** UX/UI, técnicas, seguridad
 - 📊 Contenido: 12 secciones con diagramas ASCII, tablas comparativas, casos reales, fórmulas explicadas, glosario y preguntas de reflexión
 
+### Clase 13: Despliegue de Modelos y Demo Interactiva
+
+- 📄 [despliegue-modelos-demo-ia-clase-13.md](./clase-13/despliegue-modelos-demo-ia-clase-13.md)
+- 📊 PDF: [despliegue-modelos-demo-ia-clase-13.pdf](./clase-13/despliegue-modelos-demo-ia-clase-13.pdf)
+- 📋 Temas:
+  - **Conceptos de despliegue:** Pasar de PoC a producción, entornos de ejecución (local, serverless, cloud, on-premise, edge)
+  - **Patrones de despliegue:** API de inferencia, microservicios, batch scoring, streaming inference
+  - **Estrategias de release:** Canary Release vs. Blue-Green Deployment
+  - **MLOps:** Versionado triple (datos + código + modelo), CI/CD/CT, monitoreo de drift
+  - **Herramientas low-code:** Google Colab, Streamlit, Gradio, Lobe/AutoML
+  - **Diseño de demo interactiva:** Estructura, guion "antes/después", checklist de calidad
+  - **Errores comunes:** Falta de monitoreo, sin versionado, demo sin transparencia, ignorar drift
+- 📊 Contenido: 6 secciones con diagramas ASCII, tablas comparativas, casos reales, checklist y glosario
+
 ### Actividad 1: SWE-Bench Verified
 
 - 📄 [swe-bench-comparacion-modelos-actividad-1.md](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md)
@@ -232,6 +247,9 @@ diseno-soluciones-ia/
 ├── clase-12/
 │   ├── diseno-soluciones-ia-tecnicas-machine-learning-clase-12.md
 │   └── 40098-S12-PRESENTACION.pdf
+├── clase-13/
+│   ├── despliegue-modelos-demo-ia-clase-13.md
+│   └── despliegue-modelos-demo-ia-clase-13.pdf
 ├── actividad-1/
 │   ├── README.md
 │   ├── swe-bench-comparacion-modelos-actividad-1.md
@@ -252,6 +270,7 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **02/07/2026:** Clase 13 documentada: Despliegue de Modelos y Demo Interactiva — conceptos de despliegue, MLOps, herramientas low-code (Streamlit, Colab, Gradio), diseño de demo interactiva
 - **29/06/2026:** Actividad 4 documentada: Modelado y Evaluación de Soluciones de IA — caso SaludPlus Digital con tipos de ML, selección de modelos y evaluación antes de implementar
 - **24/06/2026:** Actividad 12 documentada: Alerta Académica ML — prototipo app web con clasificación supervisada para detectar riesgo académico de estudiantes
 - **24/06/2026:** Clase 12 documentada: Integración de modelos IA, diseño de interfaces, técnicas de ML (supervisado, no supervisado, refuerzo, deep learning), cómo elegir técnica, ejemplos por industria, prototipo MVP
