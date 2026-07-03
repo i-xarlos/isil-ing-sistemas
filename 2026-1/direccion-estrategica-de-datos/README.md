@@ -37,6 +37,8 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 | 9 | **Roles y organización del equipo de datos** | Roles clave, estructuras organizativas, gobernanza y cultura de datos | [📄](./clase-9/roles-organizacion-gobierno-cultura-datos-clase-9.md) | [📊](./clase-9/40062-S09-PPT.pdf) |
 | 10 | **Introducción a COBIT** | Marco de gobierno corporativo de TI, dominios, principios y estructura | [📄](./clase-10/direccion-estrategica-datos-cobit-introduccion-clase-10.md) | [📄](./clase-10/direccion-estrategica-datos-cobit-introduccion-clase-10.pdf) |
 | 11 | **Modelos de Madurez y Métodos de Implementación COBIT** | CMM, madurez de procesos, implementación COBIT, métricas y casos prácticos | [📄](./clase-11/direccion-estrategica-datos-modelos-madurez-cobit-clase-11.md) | [📄](./clase-11/modelos-madurez-metodos-implementacion-cobit-clase-11.pdf) |
+| 12 | **Estrategias de Monetización de Datos** | Modelos de negocio basados en datos, estrategias por industria, factores clave, tendencias emergentes | [📄](./clase-12/estrategias-monetizacion-datos-clase-12.md) | [📊](./clase-12/estrategias-monetizacion-datos-clase-12.pdf) |
+| 13 | **Métricas y KPIs para la Rentabilidad de Datos** | ROI, conversión, LTV, CAC, retención, selección de KPIs, interpretación | [📄](./clase-13/metricas-kpis-rentabilidad-datos-clase-13.md) | [📊](./clase-13/metricas-kpis-rentabilidad-datos-clase-13.pdf) |
 
 ---
 
@@ -82,6 +84,24 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 - 📄 [direccion-estrategica-datos-modelos-madurez-cobit-clase-11.md](./clase-11/direccion-estrategica-datos-modelos-madurez-cobit-clase-11.md)
 - 📄 [modelos-madurez-metodos-implementacion-cobit-clase-11.pdf](./clase-11/modelos-madurez-metodos-implementacion-cobit-clase-11.pdf)
 
+### Clase 12: Estrategias de Monetización de Datos
+- 📄 [estrategias-monetizacion-datos-clase-12.md](./clase-12/estrategias-monetizacion-datos-clase-12.md)
+- 📊 [estrategias-monetizacion-datos-clase-12.pdf](./clase-12/estrategias-monetizacion-datos-clase-12.pdf)
+- 📊 **Temas principales:**
+  - Modelos de negocio basados en datos (optimización, nuevos productos, personalización, freemium)
+  - Estrategias por industria (publicidad dirigida, venta de datos, suscripciones, licenciamiento)
+  - Factores clave: calidad, gobernanza, infraestructura, talento, enfoque cliente, alianzas
+  - Tendencias emergentes: IA/ML, plataformas de datos, DaaS, privacidad, tiempo real
+
+### Clase 13: Métricas y KPIs para la Rentabilidad de Datos
+- 📄 [metricas-kpis-rentabilidad-datos-clase-13.md](./clase-13/metricas-kpis-rentabilidad-datos-clase-13.md)
+- 📊 [metricas-kpis-rentabilidad-datos-clase-13.pdf](./clase-13/metricas-kpis-rentabilidad-datos-clase-13.pdf)
+- 📊 **Temas principales:**
+  - Métricas clave: ROI, tasa de conversión, LTV, CAC, retención de clientes
+  - Selección de KPIs: proceso, categorías (financieros, marketing, operativos)
+  - Importancia en toma de decisiones: objetividad, evaluación, oportunidades
+  - Interpretación de KPIs: contexto, tendencia, relación, desviaciones, impacto
+
 ### Actividades
 - ✅ [direccion-estrategica-de-datos-pa001-glovo-solucion.md](./actividad-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) — Caso Glovo: diagnóstico, estrategia, gobernanza y riesgos
 - ✅ [direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md](./actividad-2/direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md) — Caso Mercado Andino: diagnóstico, innovación, Agile y gestión del cambio
@@ -124,6 +144,12 @@ direccion-estrategica-de-datos/
 ├── clase-11/
 │   ├── direccion-estrategica-datos-modelos-madurez-cobit-clase-11.md
 │   └── modelos-madurez-metodos-implementacion-cobit-clase-11.pdf
+├── clase-12/
+│   ├── estrategias-monetizacion-datos-clase-12.md
+│   └── estrategias-monetizacion-datos-clase-12.pdf
+├── clase-13/
+│   ├── metricas-kpis-rentabilidad-datos-clase-13.md
+│   └── metricas-kpis-rentabilidad-datos-clase-13.pdf
 ├── actividad-1/
 │   └── direccion-estrategica-de-datos-pa001-glovo-solucion.md
 ├── actividad-2/
