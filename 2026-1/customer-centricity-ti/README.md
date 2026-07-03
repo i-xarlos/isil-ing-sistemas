@@ -81,6 +81,9 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 ### Actividad 1: Proyecto RAPIDGO
 - 📋 [RAPIDGO-solucion-actividad-1.md](./actividad-1/RAPIDGO-solucion-actividad-1.md) — Solución completa con diagnóstico, investigación, MVP/MLP y plan ágil
 
+### Actividad 4: Yape — Mejora de Experiencia en "Beneficios para ti"
+- 📋 [yape-beneficios-mejora-experiencia-actividad-4.md](./actividad-4/yape-beneficios-mejora-experiencia-actividad-4.md) — Solución completa: diagnóstico, discovery, métricas HEART, eventos, dashboard, A/B testing y roadmap
+
 ---
 
 ## Estructura de la Carpeta
@@ -126,6 +129,9 @@ customer-centricity-ti/
 │   ├── PA1 CUSTOMER CENTRICITY.docx
 │   ├── MEJORAS-SUGERIDAS-GRUPO-C.md
 │   └── RAPIDGO-solucion-actividad-1.md
+├── actividad-4/
+│   ├── PA4 customer centric.docx
+│   └── yape-beneficios-mejora-experiencia-actividad-4.md
 └── README.md (este archivo)
 ```
 
@@ -133,6 +139,7 @@ customer-centricity-ti/
 
 ## Últimas Actualizaciones
 
+- **Actividad 4**: Solución completa de Yape "Beneficios para ti" con diagnóstico, discovery, métricas HEART, eventos digitales, dashboard Amplitude, A/B testing y roadmap 4 semanas
 - **Clase 12**: Resumen completo de Experimentación como Herramienta Customer Centric (A/B testing, fake door testing, herramientas, proceso de implementación, mitos y buenas prácticas). Incluye PDF
 - **Clase 11**: Resumen completo de Analítica Digital II: roadmap y métricas, Amplitude (funnels, retention, journeys, cohorts), buenas prácticas, proceso de implementación. Incluye PDF
 - **Clase 9**: Agregado resumen completo de "Customer Metrics en el Entorno Digital" con cobertura de NPS, CSAT, CES, integración con procesos de diseño, mitos y buenas prácticas
