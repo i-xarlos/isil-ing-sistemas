@@ -129,6 +129,11 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 - **Contenido:** Configuración de Python, herramientas y librerías para análisis de datos en empresa logística
 - **Temas:** Requisitos de hardware/software, pandas, NumPy, librerías de visualización, Jupyter Notebook, VS Code, Anaconda, instalación de entornos
 
+#### Actividad 4: Proceso de Aprendizaje 04
+- 📄 [analisis-estadistico-data-mining-actividad-4-solucion.md](./actividad-4/analisis-estadistico-data-mining-actividad-4-solucion.md)
+- **Contenido:** Minería de datos aplicada a empresa de tecnología (MarketData Perú) con Python
+- **Temas:** Preparación de datos, limpieza, imputación, normalización, clasificación (árboles, regresión logística), clustering (K-means), visualización, validación cruzada, Grid Search, comparación de modelos
+
 #### Actividad Sesión 8: Minería de Datos Aplicada a Clientes Retail
 - 📄 [analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md](./actividad-sesion-8/analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md)
 - **Contenido:** Laboratorio resuelto de limpieza, clasificación y clustering sobre clientes retail
@@ -178,6 +183,8 @@ analisis-estadistico-data-mining/
 │   └── analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md
 ├── actividad-1/
 │   └── analisis-estadistico-data-mining-pa01-respuestas.md
+├── actividad-4/
+│   └── analisis-estadistico-data-mining-actividad-4-solucion.md
 └── README.md (este archivo)
 ```
 

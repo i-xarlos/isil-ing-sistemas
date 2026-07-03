@@ -1,8 +1,18 @@
-# Yape y la Mejora de la Experiencia en "Beneficios para ti" (Actividad 4)
+# PA4 — Customer Centricity en TI: Yape y la Mejora de la Experiencia en "Beneficios para ti"
 
 **Curso:** Customer Centricity & Agilidad en TI (ISIL, 2026-1)  
 **Docente:** Henry Joseph Paredes del Alamo  
 **Fecha:** 27/06/2026
+
+---
+
+## Integrantes
+
+| Apellidos y Nombres | Participación | Correo |
+|---|---|---|
+| Nieto Puccio, Renato | 100% | 72223893@mail.isil.pe |
+| Jara Flores, Marco | 100% | 72424320@mail.isil.pe |
+| Gil Carrillo, Carlos Enrique | 100% | 42834069@mail.isil.pe |
 
 ---
 
@@ -27,7 +37,9 @@ El problema principal es **mixto**, con tres frentes claros:
 | **Relevancia** | Las promociones no conectan con las preferencias o comportamiento del usuario | Bajo engagement una vez que ingresan |
 | **Fricción** | El proceso para canjear un beneficio tiene demasiados pasos | Abandono durante el flujo de canje |
 
-> **Conclusión:** El problema no es solo que la sección sea difícil de usar (fricción), sino que los usuarios **no ven valor inmediato** al explorarla. Hay una brecha entre lo que Yape ofrece y lo que el usuario percibe como útil.
+El objetivo principal por el que muchos usuarios acceden a la aplicación es para hacer transferencias, por lo que solo la utilizan para eso. No investigan otras características como "Beneficios para ti". Cuando entran a la sección, se topan con promociones que tienen escasa relación respecto a sus intereses o tienen que completar muchos pasos para conseguir el descuento. Esto reduce su incentivo para volver a usarla.
+
+> **Conclusión:** El problema no es solo que la sección sea difícil de usar (fricción), sino que los usuarios **no ven valor inmediato** al explorarla. Hay una brecha entre lo que Yape ofrece y lo que el usuario percibe como útil. Esta distancia es crucial porque posibilita que la solución se centre en brindar beneficios más adaptados a cada individuo y disminuir el esfuerzo requerido para conseguirlos.
 
 ---
 
@@ -37,25 +49,25 @@ Antes de rediseñar la experiencia, es fundamental validar con usuarios reales:
 
 | # | Pregunta | Objetivo | Tipo |
 |---|---|---|---|
-| 1 | **"Cuando abres Yape, ¿qué buscas hacer? ¿Has notado la sección de Beneficios?"** | Entender si el problema es de visibilidad o de hábito | Cualitativa |
-| 2 | **"Cuéntame la última vez que usaste un beneficio de Yape. ¿Cómo lo encontraste y qué pasos diste?"** | Mapear el journey real del usuario con beneficios | Cualitativa |
-| 3 | **"¿Qué tipo de promociones te harían abrir esa sección regularmente?"** | Identificar qué beneficios serían relevantes para el usuario | Cualitativa |
-| 4 | **"Si los beneficios fueran automáticos (sin necesidad de buscar), ¿los usarías?"** | Validar si el problema principal es la fricción o la relevancia | Cualitativa |
+| 1 | **"¿Qué clase de promociones te interesaría hallar en Yape?"** | Determinar los tipos de ventajas que verdaderamente atraen a los usuarios para poder brindarles promociones personalizadas | Cualitativa |
+| 2 | **"¿Has accedido previamente a 'Beneficios para ti'? ¿Por qué sí o por qué no?"** | Determinar si el conflicto está asociado con una percepción baja de valor o con la carencia de conocimiento en la sección | Cualitativa |
+| 3 | **"¿Cuán simple fue el uso de un cupón cuando lo intentaste?"** | Detectar los puntos de fricción a lo largo del flujo de intercambio de beneficios | Cualitativa |
+| 4 | **"¿Qué te motivaría a recurrir con más asiduidad a esta sección?"** | Facilitar la identificación de posibilidades de mejora desde el punto de vista del usuario | Cualitativa |
 
 ### Justificación de las preguntas
 
-- **Pregunta 1:** Valida si el problema es de conciencia (el usuario no sabe que existe) o de hábito (sabe que existe pero no le importa)
+- **Pregunta 1:** Valida si el problema es de relevancia (el usuario no ve ofertas atractivas)
 - **Pregunta 2:** Permite construir un Customer Journey Map real del flujo de canje
-- **Pregunta 3:** Genera ideas para personalización y relevancia
-- **Pregunta 4:** Prueba una hipótesis sobre automatización vs búsqueda activa
+- **Pregunta 3:** Genera datos sobre fricción percibida en el proceso de canje
+- **Pregunta 4:** Prueba una hipótesis sobre qué factores motivan la reutilización
 
 ---
 
 ## 3. Métrica de Negocio Principal
 
-### Métrica propuesta: **Tasa de Activación de Beneficios**
+### Métrica propuesta: **Tasa de Adopción Mensual de "Beneficios para ti"**
 
-**Definición:** Porcentaje de usuarios activos mensuales que al menos una vez interactúan con un beneficio (lo ven, lo seleccionan o lo canjean).
+**Definición:** Porcentaje de usuarios activos de Yape que acceden a la sección durante el mes y canjean, por lo menos, un beneficio.
 
 **Fórmula:**
 
@@ -64,6 +76,8 @@ Tasa de Activación = (Usuarios que interactúan con Beneficios / Usuarios Activ
 ```
 
 ### ¿Por qué esta métrica?
+
+Se optó por esta métrica porque muestra la conducta que el negocio busca en realidad: que los usuarios encuentren, empleen y adquieran valor de las ventajas disponibles. Solo contabilizar las consultas al área podría señalar curiosidad, pero no garantiza que el cliente haya hallado una oferta beneficiosa ni que haya terminado el procedimiento de canje.
 
 | Criterio | Justificación |
 |---|---|
@@ -82,26 +96,30 @@ Tasa de Activación = (Usuarios que interactúan con Beneficios / Usuarios Activ
 
 ## 4. Propuesta de Mejora
 
-### Nombre de la solución: **"Beneficios para ti — Smart Benefits"**
+### Nombre de la solución: **"Beneficio recomendado para ti" — Banner contextual post-transferencia**
 
 ### Descripción
 
-Transformar la sección de beneficios de un **catálogo estático** que el usuario debe buscar, a una **experiencia personalizada y contextual** que aparece en el momento correcto del journey del usuario.
+La propuesta consiste en mostrar un **banner contextual** llamado "Beneficio recomendado para ti" inmediatamente después de que el usuario complete una transferencia, ya que ese es el momento de mayor uso de la app y donde el usuario presta más atención a la pantalla.
+
+Este banner mostraría un **solo beneficio personalizado** según el historial de transacciones y los comercios frecuentes del usuario, y permitiría canjearlo con un solo toque, sin necesidad de salir de la pantalla ni pasar por múltiples pasos como ocurre actualmente.
 
 ### Componentes de la solución
 
 | Componente | Qué hace | Dónde aparece en el journey |
 |---|---|---|
-| **1. Beneficios Contextuales** | Mostrar descuentos relevantes según comportamiento reciente (ej: si pagaste en restaurantes, mostrar descuentos de comida) | Al abrir la app, antes de transferir |
-| **2. Resumen Personalizado** | Card que muestra "Tus beneficios de esta semana" con los 3 más relevantes | Home de la app, sección superior |
-| **3. Flujo de Canje Simplificado** | Reducir de 5+ pasos a 2 taps: Ver beneficio → Canjear con QR | Dentro de la sección de beneficios |
-| **4. Notificación Inteligente** | Push notification contextual (ej: "Tienes 20% en la cafetería que visitas frecuentemente") | Momento oportuno, no invasivo |
+| **1. Banner post-transferencia** | Mostrar un beneficio personalizado justo después de una transferencia exitosa | Pantalla de confirmación de transferencia |
+| **2. Personalización por comportamiento** | Seleccionar beneficios según historial de transacciones y comercios frecuentes | Backend, en tiempo real |
+| **3. Canje con un solo toque** | Permitir canjear directamente desde el banner sin pasar por múltiples pantallas | Dentro del banner |
+| **4. Notificación contextual** | Push notification en momentos oportunos (no invasivos) con beneficios relevantes | Momento oportuno del día |
 
 ### Justificación customer centric
 
-- **Visibilidad resuelta:** Beneficios aparecen en el home, no escondidos
-- **Relevancia resuelta:** Personalización basada en comportamiento real
-- **Fricción resuelta:** Flujo de canje simplificado de 5 a 2 pasos
+- **Visibilidad resuelta:** El banner aparece en el momento de mayor atención (post-transferencia)
+- **Relevancia resuelta:** Personalización basada en comportamiento real de pago
+- **Fricción resuelta:** Canje con un solo toque, sin múltiples pasos
+
+Esta solución ayudará al usuario porque reduce la fricción del proceso actual, aumenta la relevancia percibida al personalizar según su comportamiento real, y aprovecha un momento de alta atención dentro del journey en lugar de depender de que el usuario descubra la sección por su propia cuenta.
 
 ---
 
@@ -111,11 +129,11 @@ Aplicación del framework de Google para medir la experiencia de la nueva funcio
 
 | Categoría | Objetivo | Señal | Métrica |
 |---|---|---|---|
-| **Happiness** | Los usuarios se sienten satisfechos con los beneficios recibidos | Encuesta post-canje, valoraciones | CSAT post-canje ≥ 4.2/5 |
-| **Engagement** | Los usuarios exploran y usan beneficios recurrentemente | Frecuencia de visita a la sección, interacciones por sesión | Sesiones por usuario/semana en Beneficios ≥ 2.5 |
-| **Adoption** | Los nuevos usuarios descubren y activan beneficios | % de usuarios nuevos que interactúan con Beneficios en primeros 30 días | Tasa de adopción ≥ 40% en nuevos usuarios |
-| **Retention** | Los usuarios vuelven a usar beneficios mes a mes | % de usuarios que canjearon beneficios y vuelven a canjear en 30 días | Retención de canje ≥ 60% |
-| **Task Success** | Los usuarios completan el canje sin fricción | % de usuarios que inician canje y lo completan | Tasa de conversión de canje ≥ 75% |
+| **Happiness** | Los usuarios se sienten satisfechos con el proceso de canje | CES tras canjear un beneficio | CSAT post-canje ≥ 4.2/5 |
+| **Engagement** | Los usuarios exploran y usan beneficios recurrentemente | Frecuencia de acceso a "Beneficios para ti" por usuario | Sesiones por usuario/semana ≥ 2.5 |
+| **Adoption** | Los nuevos usuarios descubren y activan beneficios | % de usuarios activos que acceden por primera vez y canjean | 40% nuevos usuarios en 30 días |
+| **Retention** | Los usuarios vuelven a usar beneficios mes a mes | % de usuarios que canjearon y vuelven en 30 días | 60% vuelven a canjear en 30 días |
+| **Task Success** | Los usuarios completan el canje sin fricción | % de usuarios que inician y completan el canje | 75% completan canje |
 
 ### Diagrama HEART
 
@@ -125,7 +143,7 @@ graph TD
     E --> A["Adoption<br/>40% nuevos usuarios en 30 días"]
     A --> R["Retention<br/>60% vuelven a canjear en 30 días"]
     R --> T["Task Success<br/>75% completan canje"]
-    
+
     style H fill:#FFCDD2,stroke:#C62828,stroke-width:2px
     style E fill:#FFF9C4,stroke:#F57F17,stroke-width:2px
     style A fill:#C8E6C9,stroke:#2E7D32,stroke-width:2px
@@ -141,97 +159,89 @@ graph TD
 
 | # | Evento | Descripción | Propiedades |
 |---|---|---|---|
-| 1 | **`beneficios_viewed`** | El usuario abre o visualiza la sección de Beneficios | `fuente` (home/notificación/búsqueda), `tipo_beneficio`, `dispositivo` |
-| 2 | **`beneficio_selected`** | El usuario selecciona un beneficio específico para ver detalles | `id_beneficio`, `categoria_comercio`, `descuento_pct`, `distancia_km` |
-| 3 | **`beneficio_canje_initiated`** | El usuario inicia el proceso de canje (toca "Canjear") | `id_beneficio`, `metodo_pago`, `monto_estimado` |
-| 4 | **`beneficio_canje_completed`** | El usuario completa exitosamente el canje | `id_beneficio`, `tiempo_canje_seg`, `monto_ahorro`, `tipo_comercio` |
-| 5 | **`beneficio_shared`** | El usuario comparte un beneficio con otro usuario | `id_beneficio`, `canal_share` (WhatsApp/link/copy), `destino` |
-| 6 | **`beneficio_favorited`** | El usuario guarda un beneficio como favorito | `id_beneficio`, `categoria`, `ubicacion_usuario` |
+| 1 | **`beneficio_banner_shown`** | Se le muestra al usuario un banner de beneficio recomendado post-transferencia | `tipo_beneficio`, `hora_del_dia`, `usuario_reciente_o_recurrente` |
+| 2 | **`beneficio_banner_selected`** | El usuario selecciona el banner para ver detalles del beneficio | `categoria_beneficio`, `tiempo_desde_transferencia`, `dispositivo` |
+| 3 | **`beneficio_details_viewed`** | El usuario visualiza la descripción completa del beneficio | `comercio_asociado`, `tipo_comercio`, `tiempo_estancia` |
+| 4 | **`beneficio_canje_initiated`** | El usuario inicia el proceso de canje | `tipo_beneficio`, `metodo_pago`, `ubicacion_usuario` |
+| 5 | **`beneficio_canje_completed`** | El usuario completa exitosamente el canje | `monto_descuento`, `comercio_asociado`, `duracion_procedimiento` |
+| 6 | **`beneficio_canje_abandoned`** | El usuario abandona el proceso de canje antes de completarlo | `paso_de_abandono`, `motivo_registro`, `periodo_previo_desercion` |
 
 ### Propiedades detalladas por evento
 
-#### Evento 1: `beneficios_viewed`
+#### Evento 1: `beneficio_banner_shown`
 
 ```json
 {
-  "evento": "beneficios_viewed",
+  "evento": "beneficio_banner_shown",
   "propiedades": {
-    "fuente": "home | notificacion_push | busqueda | deeplink",
     "tipo_beneficio": "descuento | cashback | cupon | 2x1",
-    "dispositivo": "iOS | Android",
     "hora_del_dia": "manana | tarde | noche",
-    "dia_semana": "lunes | martes | ..."
+    "usuario_reciente_o_recurrente": "nuevo | recurrente"
   }
 }
 ```
 
-#### Evento 2: `beneficio_selected`
+#### Evento 2: `beneficio_banner_selected`
 
 ```json
 {
-  "evento": "beneficio_selected",
+  "evento": "beneficio_banner_selected",
   "propiedades": {
-    "id_beneficio": "BEN-001",
-    "categoria_comercio": "restaurante | supermercada | farmacia | entretenimiento",
-    "descuento_pct": 15,
-    "distancia_km": 2.3,
-    "tiempo_carga_ms": 850
+    "categoria_beneficio": "restaurante | supermercada | farmacia | entretenimiento",
+    "tiempo_desde_transferencia_seg": 5,
+    "dispositivo": "iOS | Android"
   }
 }
 ```
 
-#### Evento 3: `beneficio_canje_initiated`
+#### Evento 3: `beneficio_details_viewed`
+
+```json
+{
+  "evento": "beneficio_details_viewed",
+  "propiedades": {
+    "comercio_asociado": "El Rincón del Sabor",
+    "tipo_comercio": "restaurante",
+    "tiempo_estancia_seg": 12
+  }
+}
+```
+
+#### Evento 4: `beneficio_canje_initiated`
 
 ```json
 {
   "evento": "beneficio_canje_initiated",
   "propiedades": {
-    "id_beneficio": "BEN-001",
+    "tipo_beneficio": "descuento",
     "metodo_pago": "saldo_yape | tarjeta | plin",
-    "monto_estimado": 45.50,
-    "pasos_previos": 2,
-    "tiempo_desde_seleccion_seg": 12
+    "ubicacion_usuario": "Lima | Arequipa | Trujillo"
   }
 }
 ```
 
-#### Evento 4: `beneficio_canje_completed`
+#### Evento 5: `beneficio_canje_completed`
 
 ```json
 {
   "evento": "beneficio_canje_completed",
   "propiedades": {
-    "id_beneficio": "BEN-001",
-    "tiempo_canje_seg": 8,
-    "monto_ahorro": 6.83,
-    "tipo_comercio": "restaurante",
-    "exitoso": true
+    "monto_descuento": 6.83,
+    "comercio_asociado": "El Rincón del Sabor",
+    "duracion_procedimiento_seg": 8
   }
 }
 ```
 
-#### Evento 5: `beneficio_shared`
+#### Evento 6: `beneficio_canje_abandoned`
 
 ```json
 {
-  "evento": "beneficio_shared",
+  "evento": "beneficio_canje_abandoned",
   "propiedades": {
-    "id_beneficio": "BEN-001",
-    "canal_share": "whatsapp | link | copy_clipboard",
-    "destino": "contacto_yape | externo"
-  }
-}
-```
-
-#### Evento 6: `beneficio_favorited`
-
-```json
-{
-  "evento": "beneficio_favorited",
-  "propiedades": {
-    "id_beneficio": "BEN-001",
-    "categoria": "restaurante",
-    "ubicacion_usuario": "Lima | Arequipa | Trujillo"
+    "paso_de_abandono": "seleccion | confirmacion | pago",
+    "motivo_registro": "opcion_no_disponible | timeout | otro",
+    "periodo_previo_desercion_seg": 15
   }
 }
 ```
@@ -245,15 +255,15 @@ graph TD
 | Vista | Tipo de gráfico | Métricas principales | Periodicidad |
 |---|---|---|---|
 | **Overview de Beneficios** | KPI Cards + Line Chart | Tasa de activación, sesiones totales, canjes completados | Diaria/Semanal |
-| **Funnel de Conversión** | Funnel Chart | viewed → selected → initiated → completed | Semanal |
+| **Funnel de Conversión** | Funnel Chart | banner_shown → selected → details_viewed → initiated → completed | Semanal |
 | **Retention de Canje** | Retention Chart | % usuarios que vuelven a canjear en 7, 14, 30 días | Mensual |
-| **Segmentación por Fuente** | Bar Chart | Tráfico por origen (home, notificación, búsqueda) | Semanal |
-| **Top Beneficios** | Horizontal Bar Chart | Beneficios más vistos, canjeados y compartidos | Semanal |
+| **Segmentación por Fuente** | Bar Chart | Tráfico por origen (banner, notificación, búsqueda) | Semanal |
+| **Top Beneficios** | Horizontal Bar Chart | Beneficios más mostrados, seleccionados y canjeados | Semanal |
 | **Tiempo de Canje** | Histograma | Distribución de tiempo desde selección hasta completado | Semanal |
 
-### Descripción de cada vista
+### Vista 1: Overview de Beneficios
 
-#### Vista 1: Overview de Beneficios
+![Diagrama de la vista Overview de Beneficios en Amplitude con KPI Cards y Line Chart](./overview.png)
 
 ```mermaid
 graph LR
@@ -265,17 +275,20 @@ graph LR
     C --> G["Evolución diaria de métricas"]
 ```
 
-#### Vista 2: Funnel de Conversión
+### Vista 2: Funnel de Conversión
 
 ```
 ┌─────────────────────────────────────────────────────┐
 │ FUNNEL: Beneficios para ti                          │
 ├─────────────────────────────────────────────────────┤
 │                                                      │
-│  VIEWED ────────────────── 100% (45,000 usuarios)   │
+│  BANNER_SHOWN ──────────── 100% (45,000 usuarios)   │
 │     │                                                │
 │     ▼                                                │
 │  SELECTED ──────────────── 45% (20,250)             │
+│     │                                                │
+│     ▼                                                │
+│  DETAILS_VIEWED ────────── 30% (13,500)             │
 │     │                                                │
 │     ▼                                                │
 │  INITIATED ─────────────── 22% (9,900)              │
@@ -284,30 +297,30 @@ graph LR
 │  COMPLETED ─────────────── 18% (8,100)              │
 │                                                      │
 │  Tasa de conversión total: 18%                       │
-│  Mayor drop-off: Selected → Initiated (-23%)         │
+│  Mayor drop-off: Selected → Details (-15%)           │
 │                                                      │
 └─────────────────────────────────────────────────────┘
 ```
 
-#### Vista 3: Retención de Canje
+### Vista 3: Retención de Canje
 
 | Cohort | Semana 1 | Semana 2 | Semana 3 | Semana 4 |
 |---|---|---|---|---|
 | Usuarios nuevo canje | 100% | 65% | 52% | 45% |
 | Usuarios recurrente | 100% | 78% | 70% | 65% |
 
-#### Vista 4: Segmentación por Fuente
+### Vista 4: Segmentación por Fuente
 
 | Fuente | % del tráfico | Tasa de conversión |
 |---|---|---|
-| Home (card destacada) | 55% | 22% |
+| Banner post-transferencia | 55% | 22% |
 | Notificación push | 25% | 28% |
 | Búsqueda/Exploración | 15% | 12% |
 | Deep link/Compartido | 5% | 30% |
 
-#### Vista 5: Top Beneficios
+### Vista 5: Top Beneficios
 
-| # | Beneficio | Vistas | Canjes | Tasa conversión |
+| # | Beneficio | Mostrados | Canjes | Tasa conversión |
 |---|---|---|---|---|
 | 1 | 20% en restaurantes | 12,500 | 3,200 | 25.6% |
 | 2 | Cashback supermercados | 9,800 | 2,100 | 21.4% |
@@ -322,7 +335,7 @@ graph LR
 
 ### Hipótesis
 
-> "Si mostramos beneficios contextuales y personalizados en el home de Yape (en lugar de solo tener la sección estática), la tasa de activación de beneficios aumentará al menos un 30% en 4 semanas."
+> "Si mostramos un banner contextual con beneficio personalizado después de cada transferencia (en lugar de depender de que el usuario descubra la sección de Beneficios), la tasa de activación de beneficios aumentará al menos un 30% en 4 semanas."
 
 ### Configuración del experimento
 
@@ -330,7 +343,7 @@ graph LR
 |---|---|
 | **Público** | 50% de usuarios activos mensuales (aleatorio, sin sesgo) |
 | **Variante A (Control)** | Experiencia actual: sección "Beneficios para ti" estática en el menú |
-| **Variante B (Tratamiento)** | Nueva experiencia: card personalizada en el home + flujo simplificado de canje |
+| **Variante B (Tratamiento)** | Banner contextual post-transferencia con beneficio personalizado + canje en 1 toque |
 | **Métrica principal** | Tasa de activación de beneficios (interacción con al menos 1 beneficio) |
 | **Métrica secundaria** | Tasa de conversión de canje (initiated → completed) |
 | **Duración** | 4 semanas |
@@ -365,23 +378,20 @@ graph LR
 
 ```
 ┌─────────────────────────────────────┐
-│ HOME YAPE NUEVA VERSIÓN              │
+│ POST-TRANSFERENCIA EXITOSA           │
 ├─────────────────────────────────────┤
 │                                      │
-│  [Saldo: S/ 450.00]                 │
-│                                      │
-│  [Enviar dinero]  [Recargar]         │
+│  ✅ Transferencia completada         │
+│  Enviaste S/ 50 a María García      │
 │                                      │
 │  ┌─────────────────────────────┐    │
-│  │ 🎁 TUS BENEFICIOS           │    │
+│  │ 🎁 BENEFICIO RECOMENDADO    │    │
 │  │ 20% en El Rincón del Sabor  │    │
-│  │ ⏰ Expira en 3 días         │    │
-│  │ [Ver todos →]               │    │
+│  │ Tu restaurante favorito     │    │
+│  │ [Canjear ahora →]          │    │
 │  └─────────────────────────────┘    │
 │                                      │
-│  ─────────────────────────────────  │
-│  Mis productos                       │
-│  [Yape QR] [Transferir] [Pagar]     │
+│  [Volver al inicio]                 │
 │                                      │
 └─────────────────────────────────────┘
 ```
@@ -414,31 +424,31 @@ graph LR
 
 | Señal | Interpretación |
 |---|---|
-| **Adopción sube** | La card personalizada en el home funciona para atraer usuarios a la sección |
-| **CES bajo** | Una vez que el usuario ingresa, el flujo de canje sigue siendo difícil |
+| **Adopción sube** | El banner post-transferencia funciona para atraer usuarios a la sección |
+| **CES bajo** | Una vez que el usuario ingresa, el proceso de canje sigue siendo difícil |
 
-**Diagnóstico:** El problema de **visibilidad** se resolvió con la card contextual, pero el problema de **fricción en el canje** persiste. Los usuarios llegan pero se frustran al intentar canjear.
+**Diagnóstico:** El problema de **visibilidad** se resolvió con el banner contextual, pero el problema de **fricción en el canje** persiste. Los usuarios llegan pero se frustran al intentar canjear.
 
 ### Decisión recomendada
 
 | Acción | Prioridad | Justificación |
 |---|---|---|
-| **1. Mantener la card personalizada** | Alta | Funcionó para aumentar adopción |
+| **1. Mantener el banner post-transferencia** | Alta | Funcionó para aumentar adopción |
 | **2. Rediseñar el flujo de canje** | Crítica | Es donde está el dolor principal (CES bajo) |
 | **3. Investigar puntos de fricción** | Alta | Entrevistar usuarios que abandonaron el canje |
-| **4. Ejecutar segundo experimento** | Media | Probar flujo de 2 taps vs flujo actual |
+| **4. Ejecutar segundo experimento** | Media | Probar flujo de 1 toque vs flujo actual |
 
 ### Plan de acción inmediato
 
 ```
-SEMANA 1-2 ( post-experimento):
-├─ Mantener Variante B (card personalizada)
+SEMANA 1-2 (post-experimento):
+├─ Mantener Variante B (banner post-transferencia)
 ├─ Entrevistar 15 usuarios que canjearon y 15 que abandonaron
 ├─ Identificar los 3 pasos con mayor abandono en el funnel
 └─ Priorizar fix de fricción
 
 SEMANA 3-4:
-├─ Diseñar flujo de canje simplificado (2 taps)
+├─ Diseñar flujo de canje simplificado (1 toque)
 ├─ Ejecutar segundo A/B test: flujo actual vs flujo simplificado
 └─ Medir CES post-canje en ambas variantes
 
@@ -492,6 +502,8 @@ SEMANA 5-6:
 
 ### Timeline visual
 
+![Gantt del roadmap de 4 semanas para Beneficios para ti](./gantt.png)
+
 ```mermaid
 gantt
     title Roadmap 4 Semanas - Beneficios para ti
@@ -520,11 +532,11 @@ gantt
 
 ## Conclusión Ejecutiva
 
-La propuesta **"Smart Benefits"** para Yape aborda el problema de la sección "Beneficios para ti" desde tres ángulos complementarios:
+La propuesta **"Beneficio recomendado para ti"** para Yape aborda el problema de la sección "Beneficios para ti" desde tres ángulos complementarios:
 
-1. **Visibilidad:** Card personalizada en el home que muestra beneficios relevantes
-2. **Relevancia:** Personalización basada en comportamiento de pago del usuario
-3. **Fricción:** Flujo de canje simplificado de 5 a 2 pasos
+1. **Visibilidad:** Banner contextual post-transferencia que muestra un beneficio personalizado en el momento de mayor atención del usuario
+2. **Relevancia:** Personalización basada en comportamiento real de pago y comercios frecuentes
+3. **Fricción:** Canje con un solo toque, eliminando los múltiples pasos del proceso actual
 
 El framework HEART permite medir la experiencia de forma integral, mientras que el A/B testing validar si la propuesta genera impacto real. La decisión final se basa en datos: si la adopción sube pero el CES sigue bajo, se prioriza arreglar la fricción antes de escalar.
 
@@ -534,12 +546,27 @@ El framework HEART permite medir la experiencia de forma integral, mientras que 
 
 ## Fuentes
 
+Las afirmaciones y datos provienen de estas fuentes.  
+Tipo: **oficial** = autor/creador; **tercero** = prensa o fuente secundaria.
+
+### Customer Centricity y UX
+
 | # | Fuente | Tipo | URL |
-|---|--------|------|-----|
+|---|---|---|---|
 | 1 | Google. *HEART Framework for Measuring UX* | Oficial | https://research.google/pubs/the-heart-framework-for-measuring-ux/ |
 | 2 | Dixon, M., Toman, N., & DeLisi, R. (2013). *The Effortless Experience* | Libro | https://www.penguinrandomhouse.com/books/310798/the-effortless-experience/ |
+
+### Analítica de Producto
+
+| # | Fuente | Tipo | URL |
+|---|---|---|---|
 | 3 | Amplitude. *Product Analytics Documentation* | Oficial | https://amplitude.com/docs |
 | 4 | Kohavi, R., Tang, D., & Xu, Y. (2020). *Trustworthy Online Controlled Experiments* | Libro | https://www.trustworthyexperiments.com/ |
+
+### Métricas de Experiencia
+
+| # | Fuente | Tipo | URL |
+|---|---|---|---|
 | 5 | Forrester Research. *The Customer Experience Index* | Oficial | https://www.forrester.com/report/the-customer-experience-index/ |
 
 ---

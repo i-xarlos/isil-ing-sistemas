@@ -28,6 +28,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 12 | Clase | **Modelo IA: Integración, Interfaces y Técnicas ML** | Integración en apps, diseño UI, técnicas de ML (supervisado, no supervisado, refuerzo, deep learning) | [📄](./clase-12/diseno-soluciones-ia-tecnicas-machine-learning-clase-12.md) · [📊](./clase-12/40098-S12-PRESENTACION.pdf) |
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | 2 | Actividad | **Calidad de Datos y Reducción de Dimensionalidad** | Evaluación de problemas de calidad, PCA y relación vs causalidad | [📄](./actividad-2/diseno-soluciones-ia-actividad-2-solucion.md) |
+| 4 | Actividad | **Modelado y Evaluación de Soluciones de IA** | Tipos de ML, selección de modelos, evaluación antes de implementar, overfitting, métricas por stakeholder | [📄](./actividad-4/SOLUCION-ACTIVIDAD-4-DISENO-IA.md) |
 | 8 | Actividad | **EDA, limpieza e insights con Python** | Dataset sintético, imputación, outliers, correlaciones y storytelling de negocio | [📄](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md) |
 | 12 | Actividad | **Alerta Académica ML** | Prototipo app web con ML para clasificar nivel de riesgo académico de estudiantes | [📄](./actividad-12/solucion-actividad-12-alerta-academica-ml.md) |
 | PA01 | Evaluación | **Formulación de Problemas y Viabilidad IA** | 2 casos: clasificación incidencias + diagnóstico médico sesgado | [pendiente] |
@@ -160,6 +161,16 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 - 📄 [swe-bench-comparacion-modelos-actividad-1.md](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md)
 - 🖼️ Gráficos: `mrcrv2-benchmark-actividad-1.png`, `modelos-claude-3-5-comparativa-actividad-1.png`
 
+### Actividad 4: Modelado y Evaluación de Soluciones de IA
+
+- 📄 [SOLUCION-ACTIVIDAD-4-DISENO-IA.md](./actividad-4/SOLUCION-ACTIVIDAD-4-DISENO-IA.md)
+- 📋 Temas:
+  - **Caso SaludPlus Digital:** Plataforma de clínicas con problemas de inasistencia, tiempos de espera y segmentación
+  - **P1 — Tipos de ML y selección de modelos:** Clasificación supervisada (inasistencia), regresión supervisada (tiempo de espera), clustering no supervisado (segmentación), criterios de selección por stakeholder
+  - **P2 — Evaluación antes de implementar:** Overfitting, split 60/20/20, validación cruzada, métricas por tipo (F1-Score, MAE, Silhouette), debate accuracy vs otras métricas, framework multi-criterio
+  - **Algoritmos:** Regresión Logística, Random Forest, XGBoost, K-Means, DBSCAN
+  - **Herramientas:** Sklearn, classification_report, cross_val_score, TimeSeriesSplit, SHAP values
+
 ### Actividad 8: EDA, limpieza e insights con Python
 
 - 📄 [diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md)
@@ -228,6 +239,9 @@ diseno-soluciones-ia/
 ├── actividad-8/
 │   ├── ACTIVIDAD SESIÓN 8.docx
 │   └── diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md
+├── actividad-4/
+│   ├── PROCESO DE APRENDIZAJE 04 DISEÑO DE SOLUCIONES CON IA.docx
+│   └── SOLUCION-ACTIVIDAD-4-DISENO-IA.md
 ├── actividad-12/
 │   ├── ACTIVIDAD SESIÓN 12.docx
 │   └── solucion-actividad-12-alerta-academica-ml.md
@@ -238,6 +252,7 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **29/06/2026:** Actividad 4 documentada: Modelado y Evaluación de Soluciones de IA — caso SaludPlus Digital con tipos de ML, selección de modelos y evaluación antes de implementar
 - **24/06/2026:** Actividad 12 documentada: Alerta Académica ML — prototipo app web con clasificación supervisada para detectar riesgo académico de estudiantes
 - **24/06/2026:** Clase 12 documentada: Integración de modelos IA, diseño de interfaces, técnicas de ML (supervisado, no supervisado, refuerzo, deep learning), cómo elegir técnica, ejemplos por industria, prototipo MVP
 - **17/06/2026:** Clase 11 agregada: Métricas de Evaluación de Modelos (precisión, exactitud, error promedio y discusión)
