@@ -26,7 +26,9 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 | 8 | **Repaso sesión 8** | Estadística descriptiva vs inferencial, outliers, Big Data, limpieza de datos y evaluación de modelos | [📄](./clase-8/analisis-estadistico-data-mining-repaso-sesion-8-clase-8.md) |
 | 9 | **Instalación y entornos (R y Python)** | Entorno local, hardware recomendado, R vs Python, librerías e instalación, entornos virtuales | [📄](./clase-9/instalacion-r-python-entornos-clase-9.md) |
 | 12 | **Análisis Integrado en R y Python** | Comparación R vs Python, integración de flujos, análisis estadístico, minería de datos, pipelines | [📄](./clase-12/analisis-integrado-r-python-clase-12.md) |
-| 13 | **Diseño del Proyecto Integrador** | Selección de datos, objetivos SMART, alcance, planificación de etapas, selección de R o Python | [📄](./clase-13/diseno-proyecto-integrador-clase-13.md) |
+| 13 | **Diseño del Proyecto Integrador y Taller R Studio** | Selección de datos, objetivos SMART, alcance, planificación + Introducción a R Studio, dplyr, ggplot2, T-test, correlación | [📄](./clase-13/diseno-proyecto-integrador-clase-13.md) |
+| 14 | **Recopilación y Análisis de Datos** | Obtención de datasets, limpieza, preprocesamiento, métodos estadísticos, minería de datos | [📄](./clase-14/recopilacion-analisis-datos-clase-14.md) |
+| 15 | **Presentación y Conclusiones del Proyecto** | Diseño de presentaciones, visualización de resultados, interpretación crítica, conclusiones | [📄](./clase-15/presentacion-conclusiones-proyecto-clase-15.md) |
 
 ---
 
@@ -113,16 +115,45 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 - 📑 PDF: [analisis-integrado-r-python-clase-12.pdf](./clase-12/analisis-integrado-r-python-clase-12.pdf)
 - 🔧 **Implementación:** Ejemplos completos de código en R y Python para cada técnica
 
-### Clase 13: Diseño del Proyecto Integrador
+### Clase 13: Diseño del Proyecto Integrador y Taller Práctico en R Studio
 - 📄 [diseno-proyecto-integrador-clase-13.md](./clase-13/diseno-proyecto-integrador-clase-13.md)
 - 📊 [diseno-proyecto-integrador-clase-13.pdf](./clase-13/diseno-proyecto-integrador-clase-13.pdf)
 - 📊 **Temas principales:**
-  - **Selección de datos:** 5 criterios (relevancia, calidad, accesibilidad, potencial analítico, autenticidad)
-  - **Objetivos SMART:** Framework para formular metas específicas, medibles, alcanzables, relevantes y temporales
-  - **Alcance del proyecto:** 5 dimensiones (temático, metodológico, poblacional, temporal, exclusiones)
-  - **Planificación de etapas:** Cronograma en 3 semanas con entregables definidos
-  - **Selección de herramientas:** Cuándo elegir R vs Python según tipo de análisis
+  - **PARTE I — Diseño del Proyecto:**
+    - **Selección de datos:** 5 criterios (relevancia, calidad, accesibilidad, potencial analítico, autenticidad)
+    - **Objetivos SMART:** Framework para formular metas específicas, medibles, alcanzables, relevantes y temporales
+    - **Alcance del proyecto:** 5 dimensiones (temático, metodológico, poblacional, temporal, exclusiones)
+    - **Planificación de etapas:** Cronograma en 3 semanas con entregables definidos
+    - **Selección de herramientas:** Cuándo elegir R vs Python según tipo de análisis
+  - **PARTE II — Taller Práctico en R Studio:**
+    - **Introducción a R Studio:** Interfaz (4 vistas), extensiones, atajos de teclado
+    - **Librerías clave:** `dplyr` (manipulación) y `ggplot2` (visualización)
+    - **Manipulación de datos:** `filter`, `group_by`, `summarize`, operador pipe `%>%`
+    - **Visualización:** Gráfico de barras con `ggplot2` y sistema de capas
+    - **T-test (Prueba T de Student):** Comparación de medias, interpretación del P-value
+    - **Análisis de correlación:** Coeficiente de Pearson, interpretación de fuerza y dirección
 - 📑 Material complementario: `40097-S13-MATERIAL COMPLEMENTARIO01.docx`
+
+### Clase 14: Recopilación y Análisis de Datos
+- 📄 [recopilacion-analisis-datos-clase-14.md](./clase-14/recopilacion-analisis-datos-clase-14.md)
+- 📊 [recopilacion-analisis-datos-clase-14.pdf](./clase-14/recopilacion-analisis-datos-clase-14.pdf)
+- 📊 **Temas principales:**
+  - **Obtención de datos:** Fuentes abiertas (Kaggle, OpenData), APIs, bases internas, gubernamentales
+  - **Limpieza de datos:** Manejo de faltantes (imputación por media, mediana, moda), detección de outliers (boxplots, Z-score, IQR)
+  - **Preprocesamiento:** Normalización (Min-Max, Z-score), transformación de variables categóricas (one-hot encoding)
+  - **Métodos estadísticos:** Correlaciones (Pearson, Spearman, Chi-cuadrado), pruebas (t-test, ANOVA)
+  - **Minería de datos:** Clustering (K-means), clasificación (árboles de decisión), regresión lineal
+- 📑 PDF: [recopilacion-analisis-datos-clase-14.pdf](./clase-14/recopilacion-analisis-datos-clase-14.pdf)
+
+### Clase 15: Presentación y Conclusiones del Proyecto
+- 📄 [presentacion-conclusiones-proyecto-clase-15.md](./clase-15/presentacion-conclusiones-proyecto-clase-15.md)
+- 📊 [presentacion-conclusiones-proyecto-clase-15.pdf](./clase-15/presentacion-conclusiones-proyecto-clase-15.pdf)
+- 📊 **Temas principales:**
+  - **Diseño de presentaciones:** Estructura (problema, datos, análisis, resultados, conclusiones)
+  - **Visualización de resultados:** Tipos de gráficos (dispersión, barras, histogramas, mapas de calor)
+  - **Interpretación crítica:** Patrones, variables influyentes, limitaciones, acciones
+  - **Conclusiones y recomendaciones:** Síntesis de hallazgos, impacto potencial, mejoras futuras
+- 📑 PDF: [presentacion-conclusiones-proyecto-clase-15.pdf](./clase-15/presentacion-conclusiones-proyecto-clase-15.pdf)
 
 ### Actividades
 
@@ -199,6 +230,12 @@ analisis-estadistico-data-mining/
 │   ├── diseno-proyecto-integrador-clase-13.md
 │   ├── diseno-proyecto-integrador-clase-13.pdf
 │   └── 40097-S13-MATERIAL COMPLEMENTARIO01.docx
+├── clase-14/
+│   ├── recopilacion-analisis-datos-clase-14.md
+│   └── recopilacion-analisis-datos-clase-14.pdf
+├── clase-15/
+│   ├── presentacion-conclusiones-proyecto-clase-15.md
+│   └── presentacion-conclusiones-proyecto-clase-15.pdf
 ├── actividad-sesion-8/
 │   ├── ACTIVIDAD SESIÓN 8.docx
 │   └── analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md

@@ -39,6 +39,8 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 | 11 | **Modelos de Madurez y Métodos de Implementación COBIT** | CMM, madurez de procesos, implementación COBIT, métricas y casos prácticos | [📄](./clase-11/direccion-estrategica-datos-modelos-madurez-cobit-clase-11.md) | [📄](./clase-11/modelos-madurez-metodos-implementacion-cobit-clase-11.pdf) |
 | 12 | **Estrategias de Monetización de Datos** | Modelos de negocio basados en datos, estrategias por industria, factores clave, tendencias emergentes | [📄](./clase-12/estrategias-monetizacion-datos-clase-12.md) | [📊](./clase-12/estrategias-monetizacion-datos-clase-12.pdf) |
 | 13 | **Métricas y KPIs para la Rentabilidad de Datos** | ROI, conversión, LTV, CAC, retención, selección de KPIs, interpretación | [📄](./clase-13/metricas-kpis-rentabilidad-datos-clase-13.md) | [📊](./clase-13/metricas-kpis-rentabilidad-datos-clase-13.pdf) |
+| 14 | **Análisis de ROI en Proyectos de Datos** | Métodos de cálculo, evaluación de beneficios y costos, casos de estudio | [📄](./clase-14/analisis-roi-proyectos-datos-clase-14.md) | [📊](./clase-14/analisis-roi-proyectos-datos-clase-14.pdf) |
+| 15 | **Implementación de Herramientas de Monetización** | Configuración de herramientas, plataformas en línea, evaluación de efectividad | [📄](./clase-15/implementacion-herramientas-monetizacion-datos-clase-15.md) | [📊](./clase-15/implementacion-herramientas-monetizacion-datos-clase-15.pdf) |
 
 ---
 
@@ -102,6 +104,24 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
   - Importancia en toma de decisiones: objetividad, evaluación, oportunidades
   - Interpretación de KPIs: contexto, tendencia, relación, desviaciones, impacto
 
+### Clase 14: Análisis de ROI en Proyectos de Datos
+- 📄 [analisis-roi-proyectos-datos-clase-14.md](./clase-14/analisis-roi-proyectos-datos-clase-14.md)
+- 📊 [analisis-roi-proyectos-datos-clase-14.pdf](./clase-14/analisis-roi-proyectos-datos-clase-14.pdf)
+- 📊 **Temas principales:**
+  - **Métodos de cálculo:** Costo-beneficio, DCF (flujo de caja descontado), Payback Period
+  - **Evaluación de beneficios:** Financieros directos, indirectos e intangibles
+  - **Casos de estudio:** CRM minorista (763% ROI), Big Data telecomunicaciones (709%), BI financiera (536%)
+  - **Estrategias de maximización:** Objetivos claros, gobernanza, automatización, seguimiento
+
+### Clase 15: Implementación de Herramientas de Monetización de Datos
+- 📄 [implementacion-herramientas-monetizacion-datos-clase-15.md](./clase-15/implementacion-herramientas-monetizacion-datos-clase-15.md)
+- 📊 [implementacion-herramientas-monetizacion-datos-clase-15.pdf](./clase-15/implementacion-herramientas-monetizacion-datos-clase-15.pdf)
+- 📊 **Temas principales:**
+  - **Herramientas:** Google AdSense, Amazon Mechanical Turk
+  - **Plataformas:** Dawex, Snowflake Data Exchange, Data.world
+  - **Evaluación:** Métricas de rendimiento, comparación de ingresos, ROI
+  - **Optimización:** Calidad de datos, usabilidad, colaboración, análisis avanzados
+
 ### Actividades
 - ✅ [direccion-estrategica-de-datos-pa001-glovo-solucion.md](./actividad-1/direccion-estrategica-de-datos-pa001-glovo-solucion.md) — Caso Glovo: diagnóstico, estrategia, gobernanza y riesgos
 - ✅ [direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md](./actividad-2/direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md) — Caso Mercado Andino: diagnóstico, innovación, Agile y gestión del cambio
@@ -150,6 +170,12 @@ direccion-estrategica-de-datos/
 ├── clase-13/
 │   ├── metricas-kpis-rentabilidad-datos-clase-13.md
 │   └── metricas-kpis-rentabilidad-datos-clase-13.pdf
+├── clase-14/
+│   ├── analisis-roi-proyectos-datos-clase-14.md
+│   └── analisis-roi-proyectos-datos-clase-14.pdf
+├── clase-15/
+│   ├── implementacion-herramientas-monetizacion-datos-clase-15.md
+│   └── implementacion-herramientas-monetizacion-datos-clase-15.pdf
 ├── actividad-1/
 │   └── direccion-estrategica-de-datos-pa001-glovo-solucion.md
 ├── actividad-2/

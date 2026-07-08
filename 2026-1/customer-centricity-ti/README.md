@@ -28,6 +28,9 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 | 10 | **Métricas de Experiencia y Analítica Digital** | CES vs NPS vs CSAT, analítica digital, eventos/propiedades, framework HEART, herramientas | [📄](./clase-10/customer-centricity-metricas-analitica-digital-clase-10.md) | [📊](./clase-10/customer-centricity-metricas-analitica-digital-clase-10.pdf) |
 | 11 | **Analítica Digital II: Amplitude e Implementación** | Roadmap y métricas, Amplitude (funnels, retention, journeys, cohorts), buenas prácticas, proceso de implementación | [📄](./clase-11/customer-centricity-analitica-digital-amplitude-clase-11.md) | [📊](./clase-11/customer-centricity-analitica-digital-amplitude-clase-11.pdf) |
 | 12 | **Experimentación como Herramienta Customer Centric** | A/B testing, fake door testing, herramientas (VWO, Amplitude Experiment), proceso de implementación, mitos y buenas prácticas | [📄](./clase-12/customer-centricity-experimentacion-producto-clase-12.md) | [📊](./clase-12/customer-centricity-experimentacion-producto-clase-12.pdf) |
+| 13 | **Priorización de Iniciativas Digitales** | Frameworks de priorización (RICE, WSJF, MoSCoW), rol de tecnología, mitos y prácticas | [📄](./clase-13/priorizacion-iniciativas-digitales-clase-13.md) | [📊](./clase-13/priorizacion-iniciativas-digitales-clase-13.pdf) |
+| 14 | **Tendencias de IA, IoT y Ética en Soluciones** | Ética y responsabilidad, tendencias de IA e IoT, casos de éxito customer-centric | [📄](./clase-14/tendencias-ia-iot-etica-soluciones-clase-14.md) | [📊](./clase-14/tendencias-ia-iot-etica-soluciones-clase-14.pdf) |
+| 15 | **Técnicas para Presentar Iniciativas** | Storytelling, elevator pitch, integración de herramientas para proyecto | [📄](./clase-15/tecnicas-presentar-iniciativas-storytelling-clase-15.md) | [📊](./clase-15/tecnicas-presentar-iniciativas-storytelling-clase-15.pdf) |
 
 ---
 
@@ -78,6 +81,33 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 - 📄 [customer-centricity-experimentacion-producto-clase-12.md](./clase-12/customer-centricity-experimentacion-producto-clase-12.md) — A/B testing, fake door testing, herramientas, proceso de implementación, mitos
 - 📊 [customer-centricity-experimentacion-producto-clase-12.pdf](./clase-12/customer-centricity-experimentacion-producto-clase-12.pdf)
 
+### Clase 13: Priorización de Iniciativas Digitales
+- 📄 [priorizacion-iniciativas-digitales-clase-13.md](./clase-13/priorizacion-iniciativas-digitales-clase-13.md)
+- 📊 [priorizacion-iniciativas-digitales-clase-13.pdf](./clase-13/priorizacion-iniciativas-digitales-clase-13.pdf)
+- 📊 **Temas principales:**
+  - **Frameworks de priorización:** RICE (Reach, Impact, Confidence, Effort), WSJF (SAFe), MoSCoW
+  - **Rol de tecnología:** Participación en decisiones estratégicas de roadmap
+  - **Mitos comunes:** Roadmap fijo, tecnología como obstáculo, copiar a competencia
+  - **Deuda técnica:** Cómo tratarla en priorizaciones
+
+### Clase 14: Tendencias de IA, IoT y Ética en Soluciones Digitales
+- 📄 [tendencias-ia-iot-etica-soluciones-clase-14.md](./clase-14/tendencias-ia-iot-etica-soluciones-clase-14.md)
+- 📊 [tendencias-ia-iot-etica-soluciones-clase-14.pdf](./clase-14/tendencias-ia-iot-etica-soluciones-clase-14.pdf)
+- 📊 **Temas principales:**
+  - **Ética en soluciones:** Caso Cambridge Analytica, principios de transparencia y privacidad
+  - **Tendencias de IA:** IA explicable, automatizaciones, aprendizaje
+  - **IoT aplicado:** Smart devices, gestión de inventarios, procesos de fabricación
+  - **Casos de éxito:** Microsoft Copilot, GitHub Copilot, Crehana HANA AI
+
+### Clase 15: Técnicas para Presentar Iniciativas
+- 📄 [tecnicas-presentar-iniciativas-storytelling-clase-15.md](./clase-15/tecnicas-presentar-iniciativas-storytelling-clase-15.md)
+- 📊 [tecnicas-presentar-iniciativas-storytelling-clase-15.pdf](./clase-15/tecnicas-presentar-iniciativas-storytelling-clase-15.pdf)
+- 📊 **Temas principales:**
+  - **Storytelling:** Estructura narrativa, hook, personaje, problema, solución
+  - **Elevator Pitch:** Componentes, regla de simplicidad, recursos útiles
+  - **Integración de herramientas:** Fases del curso aplicadas al proyecto
+  - **Retroalimentación:** Presentación grupal y feedback
+
 ### Actividad 1: Proyecto RAPIDGO
 - 📋 [RAPIDGO-solucion-actividad-1.md](./actividad-1/RAPIDGO-solucion-actividad-1.md) — Solución completa con diagnóstico, investigación, MVP/MLP y plan ágil
 
@@ -125,6 +155,15 @@ customer-centricity-ti/
 ├── clase-12/
 │   ├── customer-centricity-experimentacion-producto-clase-12.md
 │   └── customer-centricity-experimentacion-producto-clase-12.pdf
+├── clase-13/
+│   ├── priorizacion-iniciativas-digitales-clase-13.md
+│   └── priorizacion-iniciativas-digitales-clase-13.pdf
+├── clase-14/
+│   ├── tendencias-ia-iot-etica-soluciones-clase-14.md
+│   └── tendencias-ia-iot-etica-soluciones-clase-14.pdf
+├── clase-15/
+│   ├── tecnicas-presentar-iniciativas-storytelling-clase-15.md
+│   └── tecnicas-presentar-iniciativas-storytelling-clase-15.pdf
 ├── actividad-1/
 │   ├── PA1 CUSTOMER CENTRICITY.docx
 │   ├── MEJORAS-SUGERIDAS-GRUPO-C.md
@@ -139,6 +178,7 @@ customer-centricity-ti/
 
 ## Últimas Actualizaciones
 
+- **07/07/2026:** Clases 13, 14 y 15 agregadas - Priorización de Iniciativas, Tendencias IA/IoT, y Técnicas de Presentación
 - **Actividad 4**: Solución completa de Yape "Beneficios para ti" con diagnóstico, discovery, métricas HEART, eventos digitales, dashboard Amplitude, A/B testing y roadmap 4 semanas
 - **Clase 12**: Resumen completo de Experimentación como Herramienta Customer Centric (A/B testing, fake door testing, herramientas, proceso de implementación, mitos y buenas prácticas). Incluye PDF
 - **Clase 11**: Resumen completo de Analítica Digital II: roadmap y métricas, Amplitude (funnels, retention, journeys, cohorts), buenas prácticas, proceso de implementación. Incluye PDF
