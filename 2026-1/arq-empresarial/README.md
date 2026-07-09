@@ -27,7 +27,14 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 | 10 | **Arquitectura de Aplicaciones** | Componentes, servicios, integración y gestión de aplicaciones empresariales | [📄](./clase-10/arquitectura-de-aplicaciones-clase-10.md) | [📊](./clase-10/40096-S10-PRESENTACION.pdf) |
 | 11 | **Alineamiento Estratégico y Trazabilidad** | Cómo alinear iniciativas de AE con objetivos de negocio y medir impacto | [📄](./clase-11/arquitectura-empresarial-alineamiento-estrategico-trazabilidad-clase-11.md) | [📊](./clase-11/arquitectura-empresarial-alineamiento-estrategico-trazabilidad-clase-11.pdf) |
 | 12 | **Estrategias de Monetización de Datos** | Modelos de negocio basados en datos, estrategias de monetización, factores de éxito | [📄](./clase-12/estrategias-monetizacion-datos-clase-12.md) | [📊](./clase-12/arquitectura-empresarial-clase-12.pdf) |
+<<<<<<< Updated upstream
 | 13 | **Arquitectura de Datos** | Valor estratégico de datos, tipologías (centralizada, distribuida, federada), ciclo de vida | [📄](./clase-13/arquitectura-datos-valor-estrategico-tipologias-ciclo-vida-clase-13.md) | [📊](./clase-13/arquitectura-datos-valor-estrategico-tipologias-ciclo-vida-clase-13.pdf) |
+| 14 | **Tecnologías Emergentes: Cloud, IA, Blockchain, IoT** | Cloud computing, inteligencia artificial, blockchain, IoT, digital twins | [📄](./clase-14/tecnologias-emergentes-cloud-ia-blockchain-iot-clase-14.md) | [📊](./clase-14/tecnologias-emergentes-cloud-ia-blockchain-iot-clase-14.pdf) |
+| 15 | **Criterios para Selección de Tecnologías** | Modelo operativo, ventajas competitivas, capacidad de adopción, niveles de madurez | [📄](./clase-15/criterios-seleccion-tecnologias-modelo-operativo-clase-15.md) | [📊](./clase-15/criterios-seleccion-tecnologias-modelo-operativo-clase-15.pdf) |
+=======
+| 13 | **Plataformas de Gestión de Datos** | BD relacionales, NoSQL, Data Warehouses, Lakes y Lakehouses, comparativa cloud | [📄](./clase-13/plataformas-gestion-datos-clase-13.md) | [📊](./clase-13/plataformas-gestion-datos-clase-13.pdf) |
+| 14 | **Tecnologías Emergentes** | Cloud computing, IA, blockchain, IoT, gemelos digitales, impacto en AE | [📄](./clase-14/tecnologias-emergentes-clase-14.md) | [📊](./clase-14/tecnologias-emergentes-clase-14.pdf) |
+>>>>>>> Stashed changes
 
 ---
 
@@ -90,8 +97,32 @@ Entender los marcos de referencia (TOGAF, Zachman) y las capas de arquitectura (
 - 📊 [arquitectura-empresarial-clase-12.pdf](./clase-12/arquitectura-empresarial-clase-12.pdf)
 
 ### Clase 13: Arquitectura de Datos
-- 📄 [arquitectura-datos-valor-estrategico-tipologias-ciclo-vida-clase-13.md](./clase-13/arquitectura-datos-valor-estrategico-tipologias-ciclo-vida-clase-13.md)
-- 📊 [arquitectura-datos-valor-estrategico-tipologias-ciclo-vida-clase-13.pdf](./clase-13/arquitectura-datos-valor-estrategico-tipologias-ciclo-vida-clase-13.pdf)
+- 📄 [plataformas-gestion-datos-clase-13.md](./clase-13/plataformas-gestion-datos-clase-13.md) — BD relacionales, NoSQL, Data Warehouses/Lakes/Lakehouses, comparativa cloud
+- 📊 [plataformas-gestion-datos-clase-13.pdf](./clase-13/plataformas-gestion-datos-clase-13.pdf)
+
+### Clase 14: Tecnologías Emergentes
+- 📄 [tecnologias-emergentes-clase-14.md](./clase-14/tecnologias-emergentes-clase-14.md) — Cloud, IA, blockchain, IoT, gemelos digitales, impacto en AE
+- 📊 [tecnologias-emergentes-clase-14.pdf](./clase-14/tecnologias-emergentes-clase-14.pdf)
+
+### Clase 14: Tecnologías Emergentes: Cloud, IA, Blockchain, IoT
+- 📄 [tecnologias-emergentes-cloud-ia-blockchain-iot-clase-14.md](./clase-14/tecnologias-emergentes-cloud-ia-blockchain-iot-clase-14.md)
+- 📊 [tecnologias-emergentes-cloud-ia-blockchain-iot-clase-14.pdf](./clase-14/tecnologias-emergentes-cloud-ia-blockchain-iot-clase-14.pdf)
+- 📊 **Temas principales:**
+  - **Cloud Computing:** IaaS, PaaS, SaaS, elasticidad, escalabilidad
+  - **Inteligencia Artificial:** Analítica predictiva, automatización, sistemas inteligentes
+  - **IoT y Digital Twins:** Dispositivos conectados, gemelos digitales, monitoreo en tiempo real
+  - **Blockchain:** Registros distribuidos, inmutabilidad, contratos inteligentes
+- 📑 PDF: [tecnologias-emergentes-cloud-ia-blockchain-iot-clase-14.pdf](./clase-14/tecnologias-emergentes-cloud-ia-blockchain-iot-clase-14.pdf)
+
+### Clase 15: Criterios para Selección de Tecnologías
+- 📄 [criterios-seleccion-tecnologias-modelo-operativo-clase-15.md](./clase-15/criterios-seleccion-tecnologias-modelo-operativo-clase-15.md)
+- 📊 [criterios-seleccion-tecnologias-modelo-operativo-clase-15.pdf](./clase-15/criterios-seleccion-tecnologias-modelo-operativo-clase-15.pdf)
+- 📊 **Temas principales:**
+  - **Modelo operativo:** Diversificación, coordinación, replicación, unificación (MIT CISR)
+  - **Ventajas competitivas:** Tecnología como habilitador estratégico
+  - **Madurez organizacional:** Niveles de adopción tecnológica
+  - **Impacto organizacional y cultural:** Gestión del cambio, cultura basada en datos
+- 📑 PDF: [criterios-seleccion-tecnologias-modelo-operativo-clase-15.pdf](./clase-15/criterios-seleccion-tecnologias-modelo-operativo-clase-15.pdf)
 
 ### Actividad 1
 - ✅ [arquitectura-empresarial-solucion-actividad-1.md](./actividad-1/arquitectura-empresarial-solucion-actividad-1.md) — Caso BancoXYZ (sector financiero)
@@ -142,8 +173,22 @@ arq-empresarial/
 │   ├── estrategias-monetizacion-datos-clase-12.md
 │   └── arquitectura-empresarial-clase-12.pdf
 ├── clase-13/
+<<<<<<< Updated upstream
 │   ├── arquitectura-datos-valor-estrategico-tipologias-ciclo-vida-clase-13.md
 │   └── arquitectura-datos-valor-estrategico-tipologias-ciclo-vida-clase-13.pdf
+├── clase-14/
+│   ├── tecnologias-emergentes-cloud-ia-blockchain-iot-clase-14.md
+│   └── tecnologias-emergentes-cloud-ia-blockchain-iot-clase-14.pdf
+├── clase-15/
+│   ├── criterios-seleccion-tecnologias-modelo-operativo-clase-15.md
+│   └── criterios-seleccion-tecnologias-modelo-operativo-clase-15.pdf
+=======
+│   ├── plataformas-gestion-datos-clase-13.md
+│   └── plataformas-gestion-datos-clase-13.pdf
+├── clase-14/
+│   ├── tecnologias-emergentes-clase-14.md
+│   └── tecnologias-emergentes-clase-14.pdf
+>>>>>>> Stashed changes
 ├── actividad-1/
 │   ├── arquitectura-empresarial-solucion-actividad-1.md
 │   ├── arquitectura-empresarial-pa01-retail-Metro.md
@@ -163,6 +208,12 @@ arq-empresarial/
 
 ## Últimas Actualizaciones
 
+<<<<<<< Updated upstream
+- **07/07/2026:** Clases 14 y 15 agregadas - Tecnologías Emergentes y Selección de Tecnologías
+=======
+- **07/07/2026:** Clase 14 completada — Tecnologías Emergentes (Cloud, IA, blockchain, IoT, gemelos digitales)
+- **07/07/2026:** Clase 13 completada — Plataformas de Gestión de Datos (BD relacionales, NoSQL, Data Warehouses, Lakes, Lakehouses, comparativa cloud)
+>>>>>>> Stashed changes
 - **30/06/2026:** Clase 13 completada - Arquitectura de Datos (valor estratégico, tipologías, ciclo de vida)
 - **27/06/2026:** Actividad 4 completada — Cadena de trazabilidad: Mercado Libre y Banco Inter
 - **23/06/2026:** Clase 12 completada - Estrategias de Monetización de Datos

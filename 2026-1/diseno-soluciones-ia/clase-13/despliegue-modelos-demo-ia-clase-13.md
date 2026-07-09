@@ -28,15 +28,28 @@
 
 Desplegar es pasar de un modelo entrenado a uno que genera predicciones reales en un entorno utilizable.
 
+### Validación previa al despliegue
+
+Antes de desplegar, el modelo debe superar control de calidad de datos, entrenamiento y validación por métricas de rendimiento. Si el negocio exige un **95% de precisión**, una vez alcanzada esa métrica, el modelo está listo para producción.
+
 ### Entornos de ejecución
+
+Una línea de escala para ejecutar IA según la complejidad del proyecto:
 
 | Entorno | Descripción | Cuándo usarlo |
 |---------|-------------|---------------|
-| **Local** | Notebooks, scripts, testing rápido | Prototipos, experimentación |
+| **Local (PC/Laptops)** | Notebooks, scripts, testing rápido | Prototipos, scripts iniciales, experimentación |
+| **On-premise** | Servidores propios, control total | Alto cumplimiento normativo, datos sensibles |
+| **Cloud (IaaS/PaaS)** | Elasticidad, servicios gestionados | Despliegue rápido y escalable, dinamismo |
 | **Serverless** | Endpoints ligeros, carga variable | APIs con tráfico intermitente |
-| **Cloud (IaaS/PaaS)** | Elasticidad, servicios gestionados | Despliegue rápido y escalable |
-| **On-premise** | Control total, compliance estricto | Datos sensibles, regulación |
-| **Edge/móvil** | Inferencia en dispositivo | Privacidad, baja latencia, offline |
+| **Edge/móvil** | Inferencia en el dispositivo del usuario | Privacidad, baja latencia, offline |
+
+**Ejemplo — Enfoque Cloud vs Edge:**
+
+- **Nube:** Una cámara de seguridad toma una foto para reconocimiento facial, la envía a la nube, la nube procesa y dictamina si la persona está autorizada, y regresa la orden de abrir la puerta. El viaje de datos por internet genera tiempos de espera.
+- **Edge:** El modelo de IA reside en la propia cámara o smartphone (como la identificación biométrica actual). El procesamiento es local e instantáneo, eliminando la dependencia de la red.
+
+> **El futuro de la IA apunta hacia terminales autónomos con inferencia en el borde.**
 
 ### Patrones de despliegue
 
@@ -69,9 +82,17 @@ En producción, el modelo se "empaqueta" con:
 
 ---
 
-## 2. Estrategias de Release de Modelos
+## 2. Estrategias de Entrenamiento, Inferencia y Release
 
-### Canary Release
+### Procesos por lotes (Batch Processing)
+
+Se utiliza para entrenamientos o predicciones no continuas dentro de un entorno controlado (usando a menudo un ambiente *Staging* o "espejo" que replica datos de producción sin alterarlos).
+
+**Ejemplo:** En una entidad financiera, se acumulan los datos de nuevos solicitantes y transacciones durante la semana. Cada fin de semana (de forma lotizada), se corre el entrenamiento del modelo con la data generada en esos 7 días para optimizarlo de cara a la semana siguiente.
+
+### Estrategias de lanzamiento
+
+#### Canary Release
 
 Se dirige una pequeña fracción del tráfico al nuevo modelo para evaluar su desempeño con métricas reales. Según los resultados, se promueve o se hace rollback.
 
@@ -123,7 +144,21 @@ Muchos proyectos de ML se quedan en prueba de concepto (PoC) y no llegan a produ
 - Falta de monitoreo
 - Baja gobernanza
 
-**MLOps** surge para cerrar esta brecha mediante prácticas, cultura y automatización.
+**MLOps** surge para cerrar esta brecha de manera análoga a DevOps en el software tradicional. Su objetivo es cerrar las brechas de integración y eliminar los procedimientos manuales repetitivos, permitiendo que el ciclo de vida del modelo (desarrollo, empaquetado mediante contenedores como Docker, despliegue y monitoreo) sea automatizado, escalable y repetible utilizando **Infraestructura como Código (IaC)**.
+
+### Deuda técnica oculta en ML
+
+En la práctica de Machine Learning, el código del modelo es solo una pequeña fracción de todo el sistema. Existen brechas de tiempo y gestión en:
+
+- **Recolección de datos** — obtención y preparación
+- **Feature engineering** — gestión de características
+- **Configuración** — parámetros y entornos
+- **Testing** — pruebas automatizadas
+- **Monitoreo** — seguimiento continuo
+
+### Pipelines End-to-End (E2E)
+
+**Solución:** Implementar pipelines E2E desde el inicio del proyecto para validar y probar de extremo a extremo todas las fases de manera continua y evitar errores sorpresa al integrar.
 
 ### Versionado triple: Datos + Código + Modelo
 
@@ -142,7 +177,17 @@ Sin versionado triple, resolver incidentes se vuelve una "adivinanza".
 | **CD** (Continuous Deployment) | Despliega automáticamente | Promueve modelos a producción |
 | **CT** (Continuous Training) | Reentrena con nueva data | Actualiza el modelo cuando llegan datos relevantes |
 
-### Monitoreo: Drift y salud del modelo
+### Monitoreo y continuidad: la degradación del modelo
+
+No basta con que el modelo funcione el primer día. La realidad cambia y el modelo puede empezar a fallar (degradación del modelo). Se requiere monitoreo constante en una línea de tiempo.
+
+**Ejemplo práctico:** El 1 de julio se aprueba un crédito a "Juan Pérez" porque el modelo predijo que pagaría puntualmente. Si para el 1 de agosto el cliente no paga, la realidad contradice al modelo. Ese error se debe capturar para volver a entrenar el modelo con los nuevos datos reales.
+
+### Gobernanza y reentrenamiento
+
+Cuando se detectan errores en producción, se debe aplicar reconfiguración o reentrenamiento. Técnicas como el **aprendizaje por refuerzo** permiten "castigar" errores y "premiar" aciertos para corregir el modelo de forma continua.
+
+### Drift y salud del modelo
 
 | Métrica | Qué mide | Acción si falla |
 |---------|----------|-----------------|
@@ -259,15 +304,21 @@ Una demo interactiva no es un pitch. Es evidencia funcional del valor del modelo
 | Sin versionado | No se sabe qué versión del modelo está en producción | Imposible hacer rollback |
 | Demo sin transparencia | "La IA predice perfecto" sin mostrar métricas | Falta de confianza |
 | Ignorar el drift | Los datos cambian pero el modelo no se reentrena | Predicciones cada vez peores |
+| No implementar pipelines E2E | Integración manual de datos, modelo y servicio | Errores sorpresa al integrar |
+| Dejar PoCs sin producción | Prototipos guardados que nunca se usan | Inversión sin retorno |
 
 ---
 
 ## Conclusiones
 
 1. El despliegue transforma un modelo académico en una solución funcional real
-2. La demo es clave para validar y comunicar el valor del proyecto
-3. Herramientas low-code facilitan la experimentación rápida sin infraestructura compleja
-4. Comprender conceptos de producción permite anticipar desafíos reales
+2. La validación previa (métricas de rendimiento) es prerequisito antes de pasar a producción
+3. El monitoreo continuo detecta la degradación del modelo cuando la realidad cambia
+4. Los pipelines E2E evitan la deuda técnica oculta y los errores sorpresa al integrar
+5. MLOps automatiza el ciclo de vida completo: desarrollo, empaquetado (Docker), despliegue y monitoreo con IaC
+6. La demo es clave para validar y comunicar el valor del proyecto
+7. Herramientas low-code facilitan la experimentación rápida sin infraestructura compleja
+8. El futuro de la IA apunta a terminales autónomos con inferencia en el borde (Edge)
 
 **Frase clave:**
 > "Un modelo sin despliegue es un experimento. Un modelo desplegado es un producto."
@@ -278,14 +329,35 @@ Una demo interactiva no es un pitch. Es evidencia funcional del valor del modelo
 
 | Término | Definición | Ejemplo |
 |---------|------------|---------|
+| **PoC (Prueba de Concepto)** | Prototipo funcional que valida si un modelo puede resolver el problema real | Modelo de scoring crediticio en notebooks con datos de prueba |
 | **Despliegue** | Proceso de llevar un modelo de entrenamiento a producción | API de predicciones en la nube |
-| **MLOps** | Prácticas para operar modelos ML en producción | CI/CD para modelos |
+| **MLOps** | Prácticas para operar modelos ML en producción (análogo a DevOps) | CI/CD para modelos, monitoreo automatizado |
 | **Canary Release** | Estrategia de despliegue gradual con fracción de tráfico | 5% tráfico al modelo nuevo |
 | **Blue-Green** | Dos entornos en paralelo, swap instantáneo | Cambio de v1 a v2 sin downtime |
-| **Drift** | Cambio en la distribución de datos de entrada | Clientes compran diferente post-pandemia |
+| **Batch Processing** | Entrenamiento o predicción por lotes en intervalos programados | Reentrenamiento semanal de fin de semana en banca |
+| **Streaming inference** | Procesamiento de predicciones en tiempo real sobre flujos de datos | Detección de fraude en transacciones |
+| **Drift** | Cambio en la distribución de datos de entrada que degrada el modelo | Clientes compran diferente post-pandemia |
+| **Degradación del modelo** | Pérdida de rendimiento cuando la realidad cambia y el modelo no se actualiza | Modelo predice pagos que no ocurren |
+| **Deuda técnica oculta** | Brechas invisibles entre código del modelo y el sistema completo | Falta de monitoreo, feature engineering manual |
+| **Pipelines E2E** | Flujo automatizado de extremo a extremo del ciclo ML | Validación continua de datos → modelo → producción |
+| **IaC (Infraestructura como Código)** | Gestión de infraestructura mediante scripts versionados | Terraform, CloudFormation |
+| **Feature engineering** | Creación y gestión de variables de entrada para el modelo | Transformar fechas en categorías temporales |
+| **Aprendizaje por refuerzo** | Técnica que castiga errores y premia aciertos para corregir el modelo | Reentrenamiento con feedback de producción |
+| **Docker** | Plataforma de empaquetado en contenedores para despliegue portátil | Modelo ML empaquetado con todas sus dependencias |
+| **Kubernetes (K8s)** | Orquestador de contenedores para escalar servicios | Escalar automáticamente un modelo con alta demanda |
+| **Rollback** | Revertir el despliegue a una versión anterior ante un fallo | Volver al modelo v1 tras detectar errores en v2 |
+| **Staging** | Entorno de pruebas que replica producción sin afectar usuarios | Probar el modelo con datos reales antes de liberarlo |
+| **Ground truth** | Respuesta correcta conocida para validar predicciones | El cliente real pagó o no pagó el crédito |
+| **CI/CD/CT** | Integración, despliegue y entrenamiento continuos | Pipeline que reentrena el modelo al recibir nuevos datos |
+| **On-premise** | Servidores en instalaciones propias de la organización | Data center corporativo con datos sensibles |
+| **Serverless** | Ejecución de código sin gestionar servidores (pay per use) | Endpoint de inferencia con tráfico intermitente |
+| **Edge (Computación en el Borde)** | Inferencia directamente en el dispositivo del usuario | Modelo de reconocimiento facial en la cámara |
+| **Latencia** | Tiempo de respuesta entre solicitud y resultado | <100ms para inferencia en Edge vs 500ms en Cloud |
+| **Compliance** | Cumplimiento normativo y regulatorio | GDPR, protección de datos personales |
 | **Streamlit** | Framework para crear dashboards interactivos en Python | App de predicción de precios |
-| **Colab** | Notebook de Google con GPU gratis | Entrenar modelos sin configuración |
-| **Edge** | Inferencia en el dispositivo del usuario | Filtros de cámara en tiempo real |
+| **Gradio** | Herramienta para crear demos rápidas de modelos de IA | Interfaz web para clasificación de imágenes |
+| **Colab** | Notebook de Google con GPU gratis | Entrenar modelos sin configuración local |
+| **MVP (Producto Mínimo Viable)** | Versión más básica funcional de una solución IA | App con chatbot y 3 pantallas principales |
 
 ---
 
