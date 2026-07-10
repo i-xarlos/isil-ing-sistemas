@@ -1,11 +1,29 @@
 {
   "version": 1,
   "skills": {
+    "clase-processor": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".opencode/skills/clase-processor/SKILL.md",
+      "computedHash": "00d028ec3612a8ae9131a4d7a31aa0a11a60a1e94fe18d25a17f1310046e9894"
+    },
     "documentation-writer": {
       "source": "github/awesome-copilot",
       "sourceType": "github",
       "skillPath": ".opencode/skills/documentation-writer/SKILL.md",
       "computedHash": "ee53d65b163cd7eb953a930c95841cfe398cc2c0bd24c06508bbaa07c432be35"
+    },
+    "mermaid-analysis": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".opencode/skills/mermaid-analysis/SKILL.md",
+      "computedHash": "7077cea3a4aecfb837ff800266f110030c7cbb9385d1e0e54d4a8de3bde8e8df"
+    },
+    "pptx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": ".github/skills/pptx/SKILL.md",
+      "computedHash": "e5b0df918cbe9d62508b3cf808d73899633f82fc19f6258a25ef9f0de7e62125"
     },
     "study": {
       "source": "flc1125/skills",
