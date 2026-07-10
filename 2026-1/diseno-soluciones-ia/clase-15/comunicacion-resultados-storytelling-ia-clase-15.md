@@ -1,7 +1,7 @@
 # Comunicación de Resultados y Storytelling con IA (Clase 15)
 
-**Curso:** Diseño de Soluciones con Inteligencia Artificial (ISIL, 2026-1)  
-**Docente:** [pendiente]  
+**Curso:** Diseño de Soluciones con Inteligencia Artificial (ISIL, 2026-1)
+**Docente:** [pendiente]
 **Fecha:** DD/MM/AAAA
 
 ---
@@ -13,6 +13,7 @@
 **Pregunta guía:** ¿Cómo transformar análisis de datos en historias que generen decisiones?
 
 **Objetivos de aprendizaje:**
+
 - Comprender fundamentos del storytelling con datos
 - Evaluar el impacto de una solución de IA
 - Reflexionar sobre dificultades y mejoras futuras
@@ -28,30 +29,30 @@
 
 ### Componentes fundamentales
 
-| Componente | Descripción |
-|------------|-------------|
-| **Datos** | Evidencia cuantitativa |
+| Componente               | Descripción                         |
+| ------------------------ | ------------------------------------ |
+| **Datos**          | Evidencia cuantitativa               |
 | **Visualización** | Gráficos que facilitan comprensión |
-| **Narrativa** | Contexto y significado |
+| **Narrativa**      | Contexto y significado               |
 
 ### Diferencia entre reporte, visualización y storytelling
 
-| Tipo | Qué hace |
-|------|----------|
-| **Reporte** | Presenta números o métricas |
-| **Visualización** | Usa gráficos para mostrar patrones |
-| **Storytelling** | Interpreta datos, explica por qué ocurren, propone acciones |
+| Tipo                     | Qué hace                                                    |
+| ------------------------ | ------------------------------------------------------------ |
+| **Reporte**        | Presenta números o métricas                                |
+| **Visualización** | Usa gráficos para mostrar patrones                          |
+| **Storytelling**   | Interpreta datos, explica por qué ocurren, propone acciones |
 
 ### Estructura narrativa para resultados
 
-| Paso | Descripción |
-|------|-------------|
-| **1. Contexto** | Problema o situación inicial |
-| **2. Pregunta** | Qué queríamos responder |
-| **3. Metodología** | Cómo lo analizamos |
-| **4. Resultados** | Qué encontramos |
-| **5. Interpretación** | Qué significa |
-| **6. Recomendaciones** | Qué acciones proponemos |
+| Paso                         | Descripción                  |
+| ---------------------------- | ----------------------------- |
+| **1. Contexto**        | Problema o situación inicial |
+| **2. Pregunta**        | Qué queríamos responder     |
+| **3. Metodología**    | Cómo lo analizamos           |
+| **4. Resultados**      | Qué encontramos              |
+| **5. Interpretación** | Qué significa                |
+| **6. Recomendaciones** | Qué acciones proponemos      |
 
 ---
 
@@ -59,25 +60,26 @@
 
 ### Tipos de impacto
 
-| Tipo | Qué evalúa |
-|------|------------|
-| **Técnico** | Precisión, confiabilidad, eficiencia del modelo |
-| **Organizacional** | Productividad, adopción, cambios en procesos |
-| **Social** | Equidad, privacidad, confianza del usuario |
-| **Económico** | Costos, beneficios, retorno de inversión |
+| Tipo                     | Qué evalúa                                     |
+| ------------------------ | ------------------------------------------------ |
+| **Técnico**       | Precisión, confiabilidad, eficiencia del modelo |
+| **Organizacional** | Productividad, adopción, cambios en procesos    |
+| **Social**         | Equidad, privacidad, confianza del usuario       |
+| **Económico**     | Costos, beneficios, retorno de inversión        |
 
 ### Métricas de evaluación
 
 | Indicadores técnicos | Indicadores de negocio |
-|----------------------|------------------------|
-| Accuracy | ROI |
-| Precisión | Eficiencia operativa |
-| Recall | Reducción de costos |
-| F1-Score | Generación de valor |
+| --------------------- | ---------------------- |
+| Accuracy              | ROI                    |
+| Precisión            | Eficiencia operativa   |
+| Recall                | Reducción de costos   |
+| F1-Score              | Generación de valor   |
 
 ### Análisis de resultados
 
 El análisis debe responder:
+
 - ¿El modelo resuelve el problema?
 - ¿Los resultados son confiables?
 - ¿Qué impacto tiene en el negocio o usuario?
@@ -88,19 +90,19 @@ El análisis debe responder:
 
 ### Dificultades técnicas
 
-| Dificultad | Descripción |
-|------------|-------------|
-| **Calidad de datos** | Datos incompletos o incorrectos |
-| **Sesgos en datasets** | Información desbalanceada |
-| **Entrenamiento del modelo** | Problemas de rendimiento |
+| Dificultad                         | Descripción                    |
+| ---------------------------------- | ------------------------------- |
+| **Calidad de datos**         | Datos incompletos o incorrectos |
+| **Sesgos en datasets**       | Información desbalanceada      |
+| **Entrenamiento del modelo** | Problemas de rendimiento        |
 
 ### Dificultades organizacionales
 
-| Dificultad | Descripción |
-|------------|-------------|
-| **Resistencia al cambio** | Personas que no adoptan la solución |
-| **Falta de cultura de datos** | Organización no orientada a evidencia |
-| **Falta de habilidades técnicas** | Equipo sin conocimientos suficientes |
+| Dificultad                               | Descripción                           |
+| ---------------------------------------- | -------------------------------------- |
+| **Resistencia al cambio**          | Personas que no adoptan la solución   |
+| **Falta de cultura de datos**      | Organización no orientada a evidencia |
+| **Falta de habilidades técnicas** | Equipo sin conocimientos suficientes   |
 
 ### Aprendizajes obtenidos
 
@@ -110,12 +112,12 @@ El análisis debe responder:
 
 ### Mejora continua
 
-| Acción | Descripción |
-|--------|-------------|
-| **Mejorar datasets** | Más datos, mejor calidad |
-| **Optimizar algoritmos** | Ajustar parámetros |
-| **Iterar modelos** | Probar diferentes enfoques |
-| **Mejorar interfaces** | Experiencia del usuario |
+| Acción                        | Descripción               |
+| ------------------------------ | -------------------------- |
+| **Mejorar datasets**     | Más datos, mejor calidad  |
+| **Optimizar algoritmos** | Ajustar parámetros        |
+| **Iterar modelos**       | Probar diferentes enfoques |
+| **Mejorar interfaces**   | Experiencia del usuario    |
 
 ---
 
@@ -123,12 +125,12 @@ El análisis debe responder:
 
 ### Principios fundamentales
 
-| Principio | Descripción |
-|-----------|-------------|
-| **Transparencia** | Decisiones comprensibles para usuarios |
-| **Privacidad** | Protección de datos personales |
-| **Equidad** | Evitar discriminación algorítmica |
-| **Responsabilidad** | Claridad sobre quién es responsable |
+| Principio                 | Descripción                           |
+| ------------------------- | -------------------------------------- |
+| **Transparencia**   | Decisiones comprensibles para usuarios |
+| **Privacidad**      | Protección de datos personales        |
+| **Equidad**         | Evitar discriminación algorítmica    |
+| **Responsabilidad** | Claridad sobre quién es responsable   |
 
 ### Sesgo algorítmico
 
@@ -138,11 +140,11 @@ El análisis debe responder:
 
 ### Gobernanza de IA
 
-| Práctica | Descripción |
-|----------|-------------|
-| **Supervisión humana** | Revisión de decisiones importantes |
-| **Evaluaciones de impacto** | Análisis previo de efectos |
-| **Auditorías algorítmicas** | Revisión periódica de modelos |
+| Práctica                           | Descripción                        |
+| ----------------------------------- | ----------------------------------- |
+| **Supervisión humana**       | Revisión de decisiones importantes |
+| **Evaluaciones de impacto**   | Análisis previo de efectos         |
+| **Auditorías algorítmicas** | Revisión periódica de modelos     |
 
 ---
 
@@ -155,37 +157,36 @@ El análisis debe responder:
 5. El desarrollo de soluciones con IA requiere responsabilidad ética
 
 **Frase clave:**
+
 > "Comunicar adecuadamente el proyecto permite demostrar el valor generado."
 
 ---
 
 ## Glosario
 
-| Término | Definición | Ejemplo |
-|---------|------------|---------|
-| **Data Storytelling** | Comunicar datos mediante narrativa | Explicar un gráfico con una historia |
-| **Impacto técnico** | Rendimiento del modelo | Precisión del 95% |
+| Término                     | Definición                            | Ejemplo                                                        |
+| ---------------------------- | -------------------------------------- | -------------------------------------------------------------- |
+| **Data Storytelling**  | Comunicar datos mediante narrativa     | Explicar un gráfico con una historia                          |
+| **Impacto técnico**   | Rendimiento del modelo                 | Precisión del 95%                                             |
 | **Sesgo algorítmico** | Resultados injustos por datos sesgados | Reconocimiento facial con menos precisión para ciertos grupos |
-| **Gobernanza de IA** | Políticas para uso responsable | Auditorías periódicas de modelos |
+| **Gobernanza de IA**   | Políticas para uso responsable        | Auditorías periódicas de modelos                             |
 
 ---
 
 ## Preguntas de Reflexión
 
 1. **Pregunta aplicada:** Si tuvieras que presentar un proyecto de IA a inversores, ¿qué storytelling usarías?
-
 2. **Pregunta comparativa:** ¿Cuál es la diferencia entre reportar datos y contar una historia con datos?
-
 3. **Pregunta crítica:** ¿Qué pasaría si ignoras las consideraciones éticas al desarrollar IA?
 
 ---
 
 ## Fuentes
 
-| # | Fuente | Tipo | URL |
-|---|--------|------|-----|
-| 1 | Blagec, K. et al. (2020). *A critical analysis of metrics for AI* | Académica | arXiv |
-| 2 | Moreira, O. D. L., & Díaz, J. N. (2025). *Narratives in the Age of AI* | Académica | YUYAY |
-| 3 | Stahl, B. C. et al. (2023). *A systematic review of AI impact assessments* | Académica | AI Review |
-| 4 | Tarigan, F. N., & Hasibuan, S. A. (2024). *Digital storytelling based AI* | Académica | SALTeL Journal |
-| 5 | Wamba-Taguimdje, S. L. et al. (2020). *Influence of AI on firm performance* | Académica | BPM Journal |
+| # | Fuente                                                                       | Tipo       | URL            |
+| - | ---------------------------------------------------------------------------- | ---------- | -------------- |
+| 1 | Blagec, K. et al. (2020).*A critical analysis of metrics for AI*           | Académica | arXiv          |
+| 2 | Moreira, O. D. L., & Díaz, J. N. (2025).*Narratives in the Age of AI*     | Académica | YUYAY          |
+| 3 | Stahl, B. C. et al. (2023).*A systematic review of AI impact assessments*  | Académica | AI Review      |
+| 4 | Tarigan, F. N., & Hasibuan, S. A. (2024).*Digital storytelling based AI*   | Académica | SALTeL Journal |
+| 5 | Wamba-Taguimdje, S. L. et al. (2020).*Influence of AI on firm performance* | Académica | BPM Journal    |

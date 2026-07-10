@@ -34,6 +34,7 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 4 | Actividad | **Modelado y Evaluación de Soluciones de IA** | Tipos de ML, selección de modelos, evaluación antes de implementar, overfitting, métricas por stakeholder | [📄](./actividad-4/SOLUCION-ACTIVIDAD-4-DISENO-IA.md) |
 | 8 | Actividad | **EDA, limpieza e insights con Python** | Dataset sintético, imputación, outliers, correlaciones y storytelling de negocio | [📄](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md) |
 | 12 | Actividad | **Alerta Académica ML** | Prototipo app web con ML para clasificar nivel de riesgo académico de estudiantes | [📄](./actividad-12/solucion-actividad-12-alerta-academica-ml.md) |
+| 14 | Actividad | **Validación y Generación de Valor de una Solución con IA** | Análisis de IA-Orienta: problemas, valor, indicadores, encuesta Likert, feedback | [📄](./actividad-14/solucion-actividad-14-validacion-ia-orienta.md) |
 | PA01 | Evaluación | **Formulación de Problemas y Viabilidad IA** | 2 casos: clasificación incidencias + diagnóstico médico sesgado | [pendiente] |
 
 ---
@@ -220,6 +221,12 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 - 📝 Material base: `ACTIVIDAD SESIÓN 12.docx`
 - 📋 Temas: comprensión del problema, variables de entrada, clasificación supervisada, técnica ML, arquitectura frontend-backend, flujo de datos, pantallas, seguridad, métricas de validación
 
+### Actividad 14: Validación y Generación de Valor de una Solución con IA
+
+- 📄 [solucion-actividad-14-validacion-ia-orienta.md](./actividad-14/solucion-actividad-14-validacion-ia-orienta.md)
+- 📝 Material base: `ACTIVIDAD SESIÓN 14.docx`
+- 📋 Temas: análisis de problemas (adopción, confianza, falta de métricas), matriz de valor (eficiencia, costos, decisiones, UX), indicadores medibles (retención, precisión, satisfacción), encuesta Likert 10 afirmaciones (facilidad, eficiencia, confianza, explicabilidad, control), registro de feedback (usabilidad, explicabilidad)
+
 ### Evaluación PA01: Formación de Problemas y Viabilidad de IA
 
 - 📋 diseno-soluciones-ia-pa01-solucion.md — [pendiente] (archivo no incluido en el repositorio) — Solución completa:
@@ -291,6 +298,9 @@ diseno-soluciones-ia/
 ├── actividad-12/
 │   ├── ACTIVIDAD SESIÓN 12.docx
 │   └── solucion-actividad-12-alerta-academica-ml.md
+├── actividad-14/
+│   ├── ACTIVIDAD SESIÓN 14.docx
+│   └── solucion-actividad-14-validacion-ia-orienta.md
 └── README.md (este archivo)
 ```
 
@@ -298,6 +308,7 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **08/07/2026:** Actividad 14 documentada: Validación y Generación de Valor — caso IA-Orienta con análisis de problemas, matriz de valor, indicadores, encuesta Likert y feedback
 - **07/07/2026:** Clases 14 y 15 documentadas - Validación con IA/Role Play y Comunicación de Resultados/Storytelling
 - **02/07/2026:** Clase 13 documentada: Despliegue de Modelos y Demo Interactiva — conceptos de despliegue, MLOps, herramientas low-code (Streamlit, Colab, Gradio), diseño de demo interactiva
 - **29/06/2026:** Actividad 4 documentada: Modelado y Evaluación de Soluciones de IA — caso SaludPlus Digital con tipos de ML, selección de modelos y evaluación antes de implementar
