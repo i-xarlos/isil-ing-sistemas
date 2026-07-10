@@ -8,6 +8,14 @@
     ".github/instructions/actividad.instructions.md",
     ".github/instructions/images.instructions.md"
   ],
+  "permission": {
+    "external_directory": {
+      "~/isil/**": "allow"
+    },
+    "network": {
+      "localhost:11434": "allow"
+    }
+  },
   "skills": {
     "paths": [
       ".github/skills",
