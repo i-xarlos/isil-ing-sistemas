@@ -32,9 +32,11 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 | 1 | Actividad | **SWE-Bench: Comparación de Modelos** | Análisis de frontier models en benchmark | [📄](./actividad-1/swe-bench-comparacion-modelos-actividad-1.md) |
 | 2 | Actividad | **Calidad de Datos y Reducción de Dimensionalidad** | Evaluación de problemas de calidad, PCA y relación vs causalidad | [📄](./actividad-2/diseno-soluciones-ia-actividad-2-solucion.md) |
 | 4 | Actividad | **Modelado y Evaluación de Soluciones de IA** | Tipos de ML, selección de modelos, evaluación antes de implementar, overfitting, métricas por stakeholder | [📄](./actividad-4/SOLUCION-ACTIVIDAD-4-DISENO-IA.md) |
+| 5 | Actividad | **Evaluación Integral: Entrega a Tiempo** | Diagnóstico de calidad de datos, análisis de métricas de modelos, ética y privacidad, despliegue y monitoreo | [📄](./actividad-5/solucion-actividad-5-entrega-a-tiempo.md) |
 | 8 | Actividad | **EDA, limpieza e insights con Python** | Dataset sintético, imputación, outliers, correlaciones y storytelling de negocio | [📄](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md) |
 | 12 | Actividad | **Alerta Académica ML** | Prototipo app web con ML para clasificar nivel de riesgo académico de estudiantes | [📄](./actividad-12/solucion-actividad-12-alerta-academica-ml.md) |
 | 14 | Actividad | **Validación y Generación de Valor de una Solución con IA** | Análisis de IA-Orienta: problemas, valor, indicadores, encuesta Likert, feedback | [📄](./actividad-14/solucion-actividad-14-validacion-ia-orienta.md) |
+| 15 | Actividad | **RescateIA: IA para Encontrar Personas Después de un Terremoto** | Diseño de solución completa: misión, arquitectura, centro de control, decisión final | [📄](./actividad-15/solucion-actividad-15-rescate-ia.md) |
 | PA01 | Evaluación | **Formulación de Problemas y Viabilidad IA** | 2 casos: clasificación incidencias + diagnóstico médico sesgado | [pendiente] |
 
 ---
@@ -209,6 +211,15 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
   - **Algoritmos:** Regresión Logística, Random Forest, XGBoost, K-Means, DBSCAN
   - **Herramientas:** Sklearn, classification_report, cross_val_score, TimeSeriesSplit, SHAP values
 
+### Actividad 5: Evaluación Integral — Entrega a Tiempo
+
+- 📄 [solucion-actividad-5-entrega-a-tiempo.md](./actividad-5/solucion-actividad-5-entrega-a-tiempo.md)
+- 📋 Temas:
+  - **a) Diagnóstico de datos:** Problemas de calidad (nulos, outliers, formatos inconsistentes, duplicados), decisiones de tratamiento, rechazo de propuestas incorrectas
+  - **b) Análisis de alternativas:** Matriz de confusión, cálculo de accuracy, precision, recall y F1-Score para 3 modelos, recomendación de Alternativa B (explicable)
+  - **c) Uso responsable:** Condiciones para datos de pedido, comentarios, fotografías, grabaciones y datos demográficos; principios de minimización, consentimiento y transparencia
+  - **d) Despliegue y control:** Versionado triple, Canary Release, monitoreo de drift, explicabilidad por predicción, rollback, gobernanza
+
 ### Actividad 8: EDA, limpieza e insights con Python
 
 - 📄 [diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md](./actividad-8/diseno-soluciones-ia-eda-marketing-solucion-actividad-sesion-8.md)
@@ -226,6 +237,12 @@ Diseñar soluciones empresariales usando IA (Narrow, Generativa, ML, Deep Learni
 - 📄 [solucion-actividad-14-validacion-ia-orienta.md](./actividad-14/solucion-actividad-14-validacion-ia-orienta.md)
 - 📝 Material base: `ACTIVIDAD SESIÓN 14.docx`
 - 📋 Temas: análisis de problemas (adopción, confianza, falta de métricas), matriz de valor (eficiencia, costos, decisiones, UX), indicadores medibles (retención, precisión, satisfacción), encuesta Likert 10 afirmaciones (facilidad, eficiencia, confianza, explicabilidad, control), registro de feedback (usabilidad, explicabilidad)
+
+### Actividad 15: RescateIA — IA para Encontrar Personas Después de un Terremoto
+
+- 📄 [solucion-actividad-15-rescate-ia.md](./actividad-15/solucion-actividad-15-rescate-ia.md)
+- 📝 Material base: `ACTIVIDAD SESIÓN 15.docx`
+- 📋 Temas: declaración de misión, arquitectura de solución (entrada, IA, supervisión, ejecución, presentación), reglas obligatorias, diseño de centro de control, simulación con tarjetas de incidentes, matriz de impacto (técnica, organizacional, social, económica), semáforo de riesgos, decisión final
 
 ### Evaluación PA01: Formación de Problemas y Viabilidad de IA
 
@@ -295,12 +312,18 @@ diseno-soluciones-ia/
 ├── actividad-4/
 │   ├── PROCESO DE APRENDIZAJE 04 DISEÑO DE SOLUCIONES CON IA.docx
 │   └── SOLUCION-ACTIVIDAD-4-DISENO-IA.md
+├── actividad-5/
+│   ├── EVALUACIÓN INTEGRAL.docx
+│   └── solucion-actividad-5-entrega-a-tiempo.md
 ├── actividad-12/
 │   ├── ACTIVIDAD SESIÓN 12.docx
 │   └── solucion-actividad-12-alerta-academica-ml.md
 ├── actividad-14/
 │   ├── ACTIVIDAD SESIÓN 14.docx
 │   └── solucion-actividad-14-validacion-ia-orienta.md
+├── actividad-15/
+│   ├── ACTIVIDAD SESIÓN 15.docx
+│   └── solucion-actividad-15-rescate-ia.md
 └── README.md (este archivo)
 ```
 
@@ -308,6 +331,8 @@ diseno-soluciones-ia/
 
 ## Últimas Actualizaciones
 
+- **20/07/2026:** Actividad 5 documentada: Evaluación Integral — caso Entrega a Tiempo con diagnóstico de calidad de datos, análisis de 3 alternativas (métricas de clasificación), condiciones éticas de uso de información, y estrategia de despliegue con monitoreo
+- **15/07/2026:** Actividad 15 documentada: RescateIA — solución completa para localización de personas tras terremoto con arquitectura híbrida, centro de control y decisión final
 - **08/07/2026:** Actividad 14 documentada: Validación y Generación de Valor — caso IA-Orienta con análisis de problemas, matriz de valor, indicadores, encuesta Likert y feedback
 - **07/07/2026:** Clases 14 y 15 documentadas - Validación con IA/Role Play y Comunicación de Resultados/Storytelling
 - **02/07/2026:** Clase 13 documentada: Despliegue de Modelos y Demo Interactiva — conceptos de despliegue, MLOps, herramientas low-code (Streamlit, Colab, Gradio), diseño de demo interactiva

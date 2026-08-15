@@ -184,8 +184,15 @@ Aplicar técnicas estadísticas y data mining para extraer insights de datos. Es
 
 #### Actividad 13: Proyecto Integrador — Diseño del Proyecto
 - 📄 [analisis-estadistico-data-mining-proyecto-integrador-actividad-13-solucion.md](./actividad-13/analisis-estadistico-data-mining-proyecto-integrador-actividad-13-solucion.md)
-- **Contenido:** Avance 1 del Proyecto Integrador — definición del problema, dataset, objetivos SMART, alcance, plan de trabajo
-- **Temas:** Segmentación de clientes en e-commerce,K-Means clustering, estadística descriptiva e inferencial, Python con pandas/scikit-learn
+- **Contenido:** Avance 1 del Proyecto Integrador — análisis del mercado laboral de software engineers en EE.UU. combinando seniority y modalidad remoto
+- **Temas:** Feature engineering (extracción de seniority, parsing de salarios), estadística descriptiva por nivel y modalidad, K-Means clustering para segmentación del mercado, Árbol de Decisión para predecir nivel salarial, Python con pandas/scikit-learn
+- 📊 **Dataset:** `us-software-engineer-jobs-zenrows.csv` — 58,433 ofertas laborales de Indeed/ZenRows
+
+#### Actividad 15: Operación Código Rojo — Emergencias Metropolitanas
+- 📄 [analisis-estadistico-data-mining-operacion-codigo-rojo-actividad-15-solucion.md](./actividad-15/analisis-estadistico-data-mining-operacion-codigo-rojo-actividad-15-solucion.md)
+- **Contenido:** Análisis de datos de emergencias metropolitanas para optimizar tiempos de respuesta de ambulancias
+- **Temas:** Filtro de confiabilidad de dataset, arquitectura de proyecto analítico, calidad de datos (limpieza, estandarización, outliers), ANOVA para comparación de zonas, correlación tráfico-tiempo, K-means clustering, Árbol de Decisión para predicción de traslado hospitalario
+- 📊 **Dataset:** `emergencias_rmap.csv` — 12,480 atenciones de emergencias en ocho zonas metropolitanas (2025)
 
 ---
 
@@ -241,11 +248,16 @@ analisis-estadistico-data-mining/
 │   └── analisis-estadistico-data-mining-mineria-datos-clientes-retail-solucion-actividad-sesion-8.md
 ├── actividad-13/
 │   ├── 40097-S13-MATERIAL COMPLEMENTARIO01.docx
-│   └── analisis-estadistico-data-mining-proyecto-integrador-actividad-13-solucion.md
+│   ├── analisis-estadistico-data-mining-proyecto-integrador-actividad-13-solucion.md
+│   ├── us-software-engineer-jobs-zenrows.csv
+│   └── LAB-8/
 ├── actividad-1/
 │   └── analisis-estadistico-data-mining-pa01-respuestas.md
 ├── actividad-4/
 │   └── analisis-estadistico-data-mining-actividad-4-solucion.md
+├── actividad-15/
+│   ├── ACTIVIDAD SESIÓN 15.docx
+│   └── analisis-estadistico-data-mining-operacion-codigo-rojo-actividad-15-solucion.md
 └── README.md (este archivo)
 ```
 
