@@ -20,6 +20,7 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 | EP002 | **Transformación Digital de Mercado Andino** | Diagnóstico, innovación basada en datos, Agile, Design Thinking, cambio y gobierno de datos | [✅ Caso Mercado Andino](./actividad-2/direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md) |
 | EP003 | **Gestión Estratégica de Datos: Mercado Express Perú** | Diagnóstico de problemas, roles y organización, gobernanza, proyecto piloto, cultura data-driven | [✅ Caso Mercado Express](./actividad-3/direccion-estrategica-de-datos-mercado-express-peru-actividad-3-solucion.md) |
 | EP004 | **Gobernanza de Datos con COBIT: DATARETAIL S.A.** | Diagnóstico, evaluación de madurez CMM, controles, KPIs y plan de mejora continua | [✅ Caso DATARETAIL](./actividad-4/direccion-estrategica-de-datos-dataretail-actividad-4-solucion.md) |
+| EP005 | **Evaluación Integral: Lima Market Express S.A.** | ROI, beneficios y costos, monetización de datos, KPIs y estrategia de optimización | [✅ Caso Lima Market Express](./actividad-5/direccion-estrategica-de-datos-lima-market-express-actividad-5-solucion.md) |
 
 ---
 
@@ -127,6 +128,7 @@ Desarrollar capacidades de liderazgo y decisión empresarial basada en datos. Es
 - ✅ [direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md](./actividad-2/direccion-estrategica-de-datos-ep002-mercado-andino-solucion.md) — Caso Mercado Andino: diagnóstico, innovación, Agile y gestión del cambio
 - ✅ [direccion-estrategica-de-datos-mercado-express-peru-actividad-3-solucion.md](./actividad-3/direccion-estrategica-de-datos-mercado-express-peru-actividad-3-solucion.md) — Caso Mercado Express: diagnóstico de fragmentación, roles de datos, gobernanza, piloto de predicción de demanda, cultura data-driven
 - ✅ [direccion-estrategica-de-datos-dataretail-actividad-4-solucion.md](./actividad-4/direccion-estrategica-de-datos-dataretail-actividad-4-solucion.md) — Caso DATARETAIL: diagnóstico COBIT, evaluación de madurez CMM, controles de calidad, KPIs y plan de mejora continua
+- ✅ [direccion-estrategica-de-datos-lima-market-express-actividad-5-solucion.md](./actividad-5/direccion-estrategica-de-datos-lima-market-express-actividad-5-solucion.md) — Caso Lima Market Express: ROI (450%), clasificación beneficios/costos, Snowflake Marketplace, 5 KPIs, estrategia de optimización a 3 años
 
 ---
 
@@ -186,6 +188,9 @@ direccion-estrategica-de-datos/
 ├── actividad-4/
 │   ├── EP4 Direccion Estrategica de Datos.pdf
 │   └── direccion-estrategica-de-datos-dataretail-actividad-4-solucion.md
+├── actividad-5/
+│   ├── 20261 Evaluacion integral Gestión Estrategica de Datos .docx
+│   └── direccion-estrategica-de-datos-lima-market-express-actividad-5-solucion.md
 └── README.md (este archivo)
 ```
 

@@ -114,6 +114,9 @@ Integrar metodologías ágiles (Scrum, Kanban) con enfoque centrado en cliente. 
 ### Actividad 4: Yape — Mejora de Experiencia en "Beneficios para ti"
 - 📋 [yape-beneficios-mejora-experiencia-actividad-4.md](./actividad-4/yape-beneficios-mejora-experiencia-actividad-4.md) — Solución completa: diagnóstico, discovery, métricas HEART, eventos, dashboard, A/B testing y roadmap
 
+### Actividad 5: Yape Seguro — Centro de Confianza y Recuperación
+- 📋 [yape-seguridad-confianza-actividad-5.md](./actividad-5/yape-seguridad-confianza-actividad-5.md) — Solución completa: problema, JTBD, solución digital, priorización RICE, métricas HEART, experimento A/B y roadmap 10 semanas
+
 ---
 
 ## Estructura de la Carpeta
@@ -171,6 +174,9 @@ customer-centricity-ti/
 ├── actividad-4/
 │   ├── PA4 customer centric.docx
 │   └── yape-beneficios-mejora-experiencia-actividad-4.md
+├── actividad-5/
+│   ├── EVALUACIÓN INTEGRAL Customer Centric.docx
+│   └── yape-seguridad-confianza-actividad-5.md
 └── README.md (este archivo)
 ```
 
@@ -178,6 +184,7 @@ customer-centricity-ti/
 
 ## Últimas Actualizaciones
 
+- **14/07/2026:** Actividad 5 agregada - Solución completa de Yape Seguro: centro de confianza y recuperación
 - **07/07/2026:** Clases 13, 14 y 15 agregadas - Priorización de Iniciativas, Tendencias IA/IoT, y Técnicas de Presentación
 - **Actividad 4**: Solución completa de Yape "Beneficios para ti" con diagnóstico, discovery, métricas HEART, eventos digitales, dashboard Amplitude, A/B testing y roadmap 4 semanas
 - **Clase 12**: Resumen completo de Experimentación como Herramienta Customer Centric (A/B testing, fake door testing, herramientas, proceso de implementación, mitos y buenas prácticas). Incluye PDF
