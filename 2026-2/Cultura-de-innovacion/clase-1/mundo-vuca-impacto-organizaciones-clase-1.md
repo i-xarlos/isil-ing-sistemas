@@ -39,8 +39,8 @@ El concepto de un mundo VUCA fue introducido por el ejército de los Estados Uni
 |---------|-------------|---------|
 | **Volatilidad** | Dinámica de los cambios y velocidad | Movimientos amplios e imprevistos de los mercados |
 | **Incertidumbre** | La volatilidad dificulta prever los cambios | Dificultad para anticiparse a cambios repentinos |
-| **Complejidad** | Ausencia de conexión entre causas y efectos | Múltiples factores interactuando simultáneamente |
-| **Ambigüedad** | No poder conceptualizar posibles amenazas | Situaciones nuevas sin precedentes |
+| **Complejidad** | Múltiples factores interdependientes cuyos efectos son difíciles de aislar y predecir | Múltiples factores interactuando simultáneamente |
+| **Ambigüedad** | Falta de claridad sobre el significado o la interpretación de una situación | Situaciones nuevas con varias explicaciones plausibles |
 
 ### ¿Cómo es el Mundo VUCA?
 
@@ -293,7 +293,7 @@ El elemento más desafiante para las organizaciones peruanas es la **Complejidad
 
 | Razón | Explicación |
 |-------|-------------|
-| **Diversidad regional** | El Perú tiene 30 departamentos con realidades económicas, culturales y geográficas muy diferentes. Una estrategia única no funciona en Lima, Cusco y Loreto |
+| **Diversidad regional** | El Perú tiene 24 departamentos y la Provincia Constitucional del Callao, con realidades económicas, culturales y geográficas muy diferentes. Una estrategia única no funciona en Lima, Cusco y Loreto |
 | **Informalidad empresarial** | Según INEI, más del 70% de la economía es informal. Esto genera complejidad en cadenas de suministro, competencia desleal y dificultad para implementar procesos estandarizados |
 | **Marco regulatorio cambiante** | Las normas tributarias, laborales y comerciales cambian con frecuencia, creando incertidumbre adicional |
 

@@ -73,11 +73,13 @@ Es una herramienta visual creada por Alex Osterwalder que permite describir, ana
 | Componente | Descripción |
 |------------|-------------|
 | **Alianzas clave** | Estudios cinematográficos, proveedores de servicio de internet |
-| **Actividades clave** | Software de reproducción vía streaming, operaciones de manejo de correos |
+| **Actividades clave** | Operación de la plataforma de streaming, producción y adquisición de contenidos, distribución digital, personalización y atención al cliente |
 | **Propuesta de valor** | Consumo en streaming de un gran catálogo de contenidos de manera legal |
 | **Relación con clientes** | Servicio propio y automatizado |
 | **Segmentos** | Mercado masivo, fanáticos de películas y series |
-| **Fuentes de ingreso** | Ganancias por suscripción mensual |
+| **Fuentes de ingreso** | Suscripciones de usuarios y, según el mercado, planes con publicidad |
+
+| **Recursos clave** | Plataforma tecnológica, catálogo y derechos de contenido, marca, datos de uso e infraestructura de distribución |
 
 > En este modelo de negocio, la **tecnología de información es un recurso clave**.
 

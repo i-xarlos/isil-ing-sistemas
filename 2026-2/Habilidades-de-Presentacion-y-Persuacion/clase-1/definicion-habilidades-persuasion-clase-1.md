@@ -77,17 +77,43 @@ Es recomendable elaborar una «Ficha Persona», que consiste en crear un persona
 - Nivel de conocimiento: experto
 - Objetivo: Convencerlo para que sea auspiciador de un proyecto digital
 
-### Pirámide de Aprendizaje de William Glasser
+### Modelo de aprendizaje atribuido a William Glasser
 
-| Porcentaje | Forma de Aprendizaje |
-|------------|---------------------|
-| 10% | Lo que LEE |
-| 20% | Lo que OYE |
-| 30% | Lo que VE |
-| 50% | Lo que VE Y OYE |
-| 70% | Lo que DISCUTIMOS CON OTROS |
-| 80% | Lo que HACEMOS |
-| 95% | Lo que ENSEÑAMOS A OTROS |
+Este modelo propone que la participación activa, la discusión y la enseñanza a otros pueden favorecer el aprendizaje. Sus porcentajes exactos no deben interpretarse como resultados científicos universales.
+
+### Ejemplo Práctico: Presentación en ISIL
+
+**Escenario:** Un estudiante de Ingeniería debe presentar un proyecto de IA ante inversores de banca.
+
+| Componente | Cómo Aplicarlo |
+|------------|----------------|
+| **Emocional** | Abrir con un caso documentado o, si es hipotético, presentarlo como una situación ilustrativa |
+| **Innovación** | Mostrar demo en vivo de un prototipo funcionando (no solo slides) |
+| **Memorable** | Cerrar con un resultado medible del prototipo, indicando que la cifra es ilustrativa hasta validarla con datos |
+
+**Estructura de la presentación (15 minutos):**
+1. **Min 0-2:** Historia impactante (gancho emocional)
+2. **Min 2-5:** Problema actual en banca (datos + empatía)
+3. **Min 5-10:** Demo de la solución (innovación + efecto WOW)
+4. **Min 10-13:** Beneficios concretos (resultado: S/ ahorrados)
+5. **Min 13-15:** CTA y preguntas (memorable)
+
+> **Resultado:** Los inversores no solo aprueban el proyecto, sino que quieren ser parte de él.
+
+### Ejemplo: Ficha Persona para Presentación Bancaria
+
+| Campo | Ejemplo |
+|-------|---------|
+| **Nombre** | María Fernández |
+| **Edad** | 45 años |
+| **Cargo** | Gerente de Innovación Digital, BCP |
+| **Generación** | Gen X |
+| **Nivel de conocimiento** | Experto en banca, novato en IA |
+| **Objetivo** | Convencerla para que apruebe presupuesto de S/ 500,000 para proyecto IA |
+| **Preocupación** | Que la IA funcione con datos sensibles de clientes |
+| **Sistema de representación** | Visual (le gusta ver gráficos, no texto largo) |
+
+> **Estrategia:** Usar menos texto, más imágenes. Enfocarme en seguridad y casos de éxito en otros bancos.
 
 ---
 
@@ -191,7 +217,7 @@ Las presentaciones de ALTO IMPACTO deben elevar los niveles de dopamina de la au
 | **Efecto WOW** | Capacidad de generar sorpresa y fascinación | Presentación con datos sorprendentes |
 | **Dopamina** | Neurotransmisor responsable de la felicidad y el placer | Se activa con información novedosa |
 | **Ficha Persona** | Personaje ficticio que representa a la audiencia | "Juan Castro, 32 años, experto en el tema" |
-| **Pirámide de Glasser** | Modelo de aprendizaje según tipo de estímulo | 95% aprendemos lo que enseñamos |
+| **Modelo atribuido a Glasser** | Propone que la participación activa puede favorecer el aprendizaje; sus porcentajes exactos no son una regla universal | Enseñar a otros es una forma de participación activa |
 | **Componente Emocional** | Elemento que despierta emociones agradables | Humor, música, juego |
 
 ---

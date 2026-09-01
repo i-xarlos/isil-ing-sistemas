@@ -66,6 +66,23 @@ En términos sencillos, estrategia es identificar la mejor forma en que se prete
 - **Liderazgo en Costos:** Walmart, Ryanair, IKEA
 - **Enfoque:** Ferrari (enfoque diferenciado), Rolls Royce (enfoque premium)
 
+### Ejemplo Práctico: Estrategias en Perú
+
+| Empresa | Estrategia | ¿Por qué? |
+|---------|------------|-----------|
+| **Falabella Perú** | Diferenciación | Experiencia omnicanal, tarjeta CMR, showrooms |
+| **Plaza Vea** | Liderazgo en costos | Productos más baratos, alto volumen, eficiencia logística |
+| **InRetail Pharma** | Enfoque | Solo farmacias, nicho específico, operación especializada |
+
+**Caso Real: Interbank vs. BCP**
+
+| Banco | Estrategia | Acciones |
+|-------|------------|----------|
+| **BCP** | Diferenciación | App Yape, servicio al cliente premium, experiencia digital superior |
+| **Interbank** | Diferenciación + Costo | Combina experiencia digital con costos operativos eficientes |
+
+> **Lección:** En Perú, la diferenciación digital es clave para ganar mercado.
+
 ---
 
 ## 3. Proceso de Planificación Estratégica Empresarial
@@ -161,6 +178,31 @@ Es una técnica para analizar la situación actual de una empresa, analizando su
 | **Fortalezas** | **Estrategia FO:** ¿Cómo usar nuestras fortalezas para aprovechar nuestras oportunidades? | **Estrategia FA:** ¿Cómo usar nuestras fortalezas para mitigar las amenazas? |
 | **Debilidades** | **Estrategia DO:** ¿Cómo aprovechar las oportunidades para corregir nuestras debilidades? | **Estrategia DA:** ¿Cómo podemos mantenernos en pie aun con las amenazas? |
 
+### Ejemplo Práctico: FODA de Startup de Delivery en Lima
+
+| FORTALEZAS | DEBILIDADES |
+|------------|-------------|
+| ✅ App funcional y fácil de usar | ❌ Solo operan en Miraflores |
+| ✅ Equipo técnico joven y comprometido | ❌ Presupuesto limitado (S/ 50,000) |
+| ✅ Tiempo de entrega promedio: 25 min | ❌ Pocos restaurantes aliados (solo 15) |
+
+| OPORTUNIDADES | AMENAZAS |
+|----------------|----------|
+| 🔵 Crecimiento del delivery post-COVID | 🔴 Rappi y PedidosYa dominan el mercado |
+| 🔵 Zonas como San Isidre y La Molina sin cobertura | 🔴 Regulación de plataformas digitales |
+| 🔵 Restaurantes buscan canales alternativos | 🔴 Usuarios muy fieles a apps existentes |
+
+**Estrategias Derivadas del FODA:**
+
+| Tipo | Estrategia | Acción Concreta |
+|------|------------|-----------------|
+| **FO** | Usar app funcional para expandirse | Lanzar campaña en San Isidre (zona sin cobertura) |
+| **FA** | Usar equipo técnico para diferenciarse | Crear sistema de tracking en tiempo real (Rappi no lo tiene tan bueno) |
+| **DO** | Usar oportunidades para crecer | Aliarse con restaurantes de nicho (vegano, peruano fusión) |
+| **DA** | Mitigar amenazas con fortalezas | Enfocarse en un nicho específico donde Rappi es débil |
+
+> **Resultado:** En 6 meses, la startup pasa de 15 a 100 restaurantes y de Miraflores a 3 distritos más.
+
 ---
 
 ## 7. Definición de Objetivos, Metas y KPIs
@@ -191,6 +233,29 @@ Es una técnica para analizar la situación actual de una empresa, analizando su
 - **Meta:** 26%
 - **Tiempo:** Final del 2018
 - **Propietario:** Gerente de negocios
+
+### Ejemplo Práctico: Objetivos SMART para Empresa de Delivery en Lima
+
+| Objetivo NO SMART ❌ | Objetivo SMART ✅ |
+|----------------------|-------------------|
+| "Queremos crecer" | "Aumentar pedidos mensuales de 500 a 1,500 para diciembre 2026" |
+| "Ser mejores que Rappi" | "Reducir tiempo promedio de entrega de 35 a 25 minutos para septiembre 2026" |
+| "Tener más clientes" | "Alcanzar 10,000 usuarios registrados con 30% de recompra para marzo 2027" |
+
+**Desglose de un Objetivo SMART:**
+
+| Componente | Ejemplo |
+|------------|---------|
+| **Objetivo** | Aumentar pedidos mensuales de 500 a 1,500 |
+| **KPI 1** | Número de pedidos completados |
+| **KPI 2** | Tasa de recompra |
+| **KPI 3** | Tiempo promedio de entrega |
+| **Meta** | 1,500 pedidos/mes |
+| **Tiempo** | Para diciembre 2026 |
+| **Propietario** | Gerente de Operaciones |
+| **Recursos necesarios** | 10 repartidores más, marketing digital S/ 20,000 |
+
+> **Lección:** Un objetivo sin número y sin fecha es solo un sueño, no una estrategia.
 
 ---
 

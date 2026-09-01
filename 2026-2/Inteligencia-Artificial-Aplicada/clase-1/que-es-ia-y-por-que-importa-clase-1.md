@@ -152,8 +152,8 @@ Entrenar una IA es como enseñar a un niño, pero con millones de ejemplos. Este
 ### Asistentes Virtuales y Chatbots
 
 **Ejemplos en Perú:**
-- "Alexa" de BCP
-- "SofIA" de Interbank
+- Asistentes virtuales y chatbots propios de bancos como BCP e Interbank
+- Alexa, de Amazon, como ejemplo internacional de asistente virtual
 - Chatbots de Claro, Movistar, Entel
 
 ### Algoritmos de Recomendación

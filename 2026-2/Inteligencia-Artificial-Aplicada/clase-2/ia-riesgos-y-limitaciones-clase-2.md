@@ -53,6 +53,31 @@ Una consultora en Lima utilizó IA generativa para obtener estadísticas sobre e
 
 Interbank implementó un programa de capacitación para sus analistas financieros en el que aprendieron que, cuando la IA genera proyecciones sobre sectores emergentes en Perú, estas deben contrastarse con datos del BCRP y la SBS.
 
+### Ejemplo: Cómo Verificar Información de IA
+
+**Paso 1:** Pide a ChatGPT datos sobre turismo en Cusco
+**Paso 2:** El sistema responde: "En 2024, Cusco recibió 4.5 millones de turistas"
+**Paso 3:** Contrasta la respuesta con una publicación oficial de MINCETUR o con el repositorio estadístico correspondiente. Registra el enlace, el período, la definición de “turista” y la unidad de medida. Si la cifra no coincide, no la presentes como un dato validado.
+
+| Fuente | Qué revisar | ¿Coincide? |
+|--------|-------------|------------|
+| MINCETUR (gob.pe) | Publicación, período, definición y unidad de medida | Pendiente de verificar |
+| BCRP | Serie o informe estadístico aplicable y su metodología | Pendiente de verificar |
+| ONU Turismo | Cobertura, período y definición de turismo utilizada | Pendiente de verificar |
+
+> **Resultado:** Una respuesta de IA no se considera validada hasta contrastarla con una fuente oficial y documentar el criterio de comparación.
+
+### Ejemplo: Uso Responsable de IA en Estudiantes
+
+| Tarea | Uso Correcto | Uso Incorrecto |
+|-------|--------------|----------------|
+| Investigar para tesis | Usar IA para obtener ideas, luego verificar en fuentes académicas | Copiar texto de IA sin verificar |
+| Redactar ensayo | Usar IA para estructurar ideas, luego escribir con tu propio estilo | Pedir a IA que escriba todo el ensayo |
+| Preparar examen | Usar IA para crear preguntas de práctica | Usar IA durante el examen |
+| Presentación | Usar IA para diseñar slides, luego revisar contenido | Presentar contenido de IA sin entenderlo |
+
+> **Regla de oro:** La IA es tu asistente, no tu sustituto.
+
 ---
 
 ## 2. Sesgos y Entrenamiento de Modelos
@@ -133,11 +158,11 @@ Se refiere a los riesgos asociados con el manejo de datos personales, informaci�
 
 | Característica | Descripción |
 |----------------|-------------|
-| **Persistencia de datos** | Las conversaciones con sistemas de IA son típicamente almacenadas por los proveedores |
-| **Uso para entrenamiento** | Tus conversaciones pueden ser utilizadas para entrenar versiones futuras |
+| **Persistencia de datos** | Algunos proveedores almacenan conversaciones durante períodos definidos por sus políticas y configuraciones de privacidad |
+| **Uso para entrenamiento** | Algunos servicios pueden utilizar conversaciones para mejorar sus modelos, mientras que otros planes o configuraciones lo restringen |
 | **Falta de contexto de confidencialidad** | Los modelos de IA no tienen concepto real de "confidencial" o "privado" |
 | **Vulnerabilidad a prompt injection** | Atacantes pueden diseñar prompts maliciosos que manipulan el comportamiento de la IA |
-| **Riesgos de fuga de información** | Información sensible puede aparecer inadvertidamente en respuestas a otros usuarios |
+| **Riesgos de fuga de información** | La información sensible puede quedar expuesta por errores de configuración, controles de acceso deficientes, filtraciones, integraciones inseguras o ataques de extracción |
 | **Jurisdicción legal ambigua** | Los datos pueden estar almacenados en servidores de múltiples países |
 
 ### Mejores Prácticas de Seguridad y Privacidad
