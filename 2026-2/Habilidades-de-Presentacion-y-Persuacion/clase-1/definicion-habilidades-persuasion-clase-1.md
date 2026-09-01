@@ -89,6 +89,40 @@ Es recomendable elaborar una «Ficha Persona», que consiste en crear un persona
 | 80% | Lo que HACEMOS |
 | 95% | Lo que ENSEÑAMOS A OTROS |
 
+### Ejemplo Práctico: Presentación en ISIL
+
+**Escenario:** Un estudiante de Ingeniería debe presentar un proyecto de IA ante inversores de banca.
+
+| Componente | Cómo Aplicarlo |
+|------------|----------------|
+| **Emocional** | Abrir con una historia real: "Un banco peruano perdió S/ 2 millones por fraude que la IA pudo detectar" |
+| **Innovación** | Mostrar demo en vivo de un prototipo funcionando (no solo slides) |
+| **Memorable** | Cerrar con un dato sorprendente: "El 80% de fraudes se detectan con IA antes de que ocurran" |
+
+**Estructura de la presentación (15 minutos):**
+1. **Min 0-2:** Historia impactante (gancho emocional)
+2. **Min 2-5:** Problema actual en banca (datos + empatía)
+3. **Min 5-10:** Demo de la solución (innovación + efecto WOW)
+4. **Min 10-13:** Beneficios concretos (resultado: S/ ahorrados)
+5. **Min 13-15:** CTA y preguntas (memorable)
+
+> **Resultado:** Los inversores no solo aprueban el proyecto, sino que quieren ser parte de él.
+
+### Ejemplo: Ficha Persona para Presentación Bancaria
+
+| Campo | Ejemplo |
+|-------|---------|
+| **Nombre** | María Fernández |
+| **Edad** | 45 años |
+| **Cargo** | Gerente de Innovación Digital, BCP |
+| **Generación** | Gen X |
+| **Nivel de conocimiento** | Experto en banca, novato en IA |
+| **Objetivo** | Convencerla para que apruebe presupuesto de S/ 500,000 para proyecto IA |
+| **Preocupación** | Que la IA funcione con datos sensibles de clientes |
+| **Sistema de representación** | Visual (le gusta ver gráficos, no texto largo) |
+
+> **Estrategia:** Usar menos texto, más imágenes. Enfocarme en seguridad y casos de éxito en otros bancos.
+
 ---
 
 ## 3. Componentes Emocionales

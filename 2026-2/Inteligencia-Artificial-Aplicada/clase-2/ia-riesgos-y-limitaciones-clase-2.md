@@ -53,6 +53,31 @@ Una consultora en Lima utilizó IA generativa para obtener estadísticas sobre e
 
 Interbank implementó un programa de capacitación para sus analistas financieros en el que aprendieron que, cuando la IA genera proyecciones sobre sectores emergentes en Perú, estas deben contrastarse con datos del BCRP y la SBS.
 
+### Ejemplo: Cómo Verificar Información de IA
+
+**Paso 1:** Pide a ChatGPT datos sobre turismo en Cusco
+**Paso 2:** El sistema responde: "En 2024, Cusco recibió 4.5 millones de turistas"
+**Paso 3:** Verifica en fuentes oficiales:
+
+| Fuente | Dato Real | ¿Coincide? |
+|--------|-----------|------------|
+| Mincetur (gob.pe) | 3.2 millones (2024) | ❌ No |
+| BCRL (Banco Central de Reserva del Perú) | 3.1 millones (2024) | ❌ No |
+| OMT (Organización Mundial del Turismo) | Datos no disponibles para Perú | — |
+
+> **Resultado:** La IA inventó el dato. Si lo hubieras usado en una presentación al directorio, habrías perdido credibilidad.
+
+### Ejemplo: Uso Responsable de IA en Estudiantes
+
+| Tarea | Uso Correcto | Uso Incorrecto |
+|-------|--------------|----------------|
+| Investigar para tesis | Usar IA para obtener ideas, luego verificar en fuentes académicas | Copiar texto de IA sin verificar |
+| Redactar ensayo | Usar IA para estructurar ideas, luego escribir con tu propio estilo | Pedir a IA que escriba todo el ensayo |
+| Preparar examen | Usar IA para crear preguntas de práctica | Usar IA durante el examen |
+| Presentación | Usar IA para diseñar slides, luego revisar contenido | Presentar contenido de IA sin entenderlo |
+
+> **Regla de oro:** La IA es tu asistente, no tu sustituto.
+
 ---
 
 ## 2. Sesgos y Entrenamiento de Modelos

@@ -133,6 +133,38 @@ La validación se preocupa de asegurar que el producto construido efectivamente 
 | Cálculo automático de la pensión | Todos los datos deben estar encriptados |
 | Consulta en línea del estado | Accesible a través de múltiples plataformas |
 
+### Ejemplo Práctico: Caso Real en Perú
+
+**Caso: Sistema de Gestión de Citas Médicas para Clínica en San Isidro**
+
+| Requisitos Funcionales | Requisitos No Funcionales |
+|------------------------|---------------------------|
+| Registro de pacientes con datos personales y seguro médico | Manejar al menos 500 usuarios concurrentes |
+| Agendamiento de citas por especialidad y médico | Tiempo de respuesta menor a 2 segundos |
+| Recordatorios automáticos por SMS y email | Disponibilidad 99.9% del sistema |
+| Historial clínico digital accesible | Todos los datos encriptados (Ley 29733) |
+| Sistema de facturación integrado | Compatible con IOS y Android |
+| Portal del paciente para consultar resultados | Backup automático diario |
+
+**Verificación vs. Validación en la práctica:**
+
+| Acción | ¿Verificación o Validación? |
+|--------|------------------------------|
+| Probar que el sistema envía el recordatorio SMS correctamente | Verificación |
+| Confirmar que el paciente de verdad recibe y entiende el recordatorio | Validación |
+| Revisar que el código cumple con el estándar de codificación | Verificación |
+| Preguntar al médico si el sistema le facilita su trabajo diario | Validación |
+
+**Matriz de Trazabilidad Ejemplo:**
+
+| ID | Requisito | Fuente | Verificación | Validación |
+|----|-----------|--------|--------------|------------|
+| REQ-001 | Agendamiento de citas | Dra. García (Jefe de turnos) | Prueba unitaria del módulo | Encuesta a médicos después de 1 mes |
+| REQ-002 | Recordatorios SMS | Pacientes (encuesta) | Prueba de envío automático | Tasa de asistencia a citas |
+| REQ-003 | Historial digital | Dr. López (Cardiólogo) | Revisión de código | Tiempo de acceso del médico |
+
+> **Resultado:** Con una buena trazabilidad, si un requisito falla, sabes exactamente a quién preguntar, qué probar y dónde está el problema.
+
 ---
 
 ## 4. Trazabilidad de Requisitos

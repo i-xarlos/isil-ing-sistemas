@@ -126,6 +126,41 @@ Conocer el estilo de comportamiento propio nos permitirá potenciar nuestro esti
 | **Debilidad** | Impaciencia | Falta de disciplina | Lentitud | Perfeccionismo |
 | **Bajo estrés** | Dictatorial | Impulsivo | Paraliza | Crítico |
 
+### Ejemplo Práctico: Presentar a los 4 Estilos en Perú
+
+**Escenario:** Eres gerente de TI y debes presentar un proyecto de migración a la nube ante 4 directivos diferentes.
+
+| Estilo | Directivo | Cómo Adaptar tu Presentación |
+|--------|-----------|------------------------------|
+| **Dominante (D)** | Gerente General (CEO) | "En 3 meses reduciremos costos IT en 30%. Aquí está el ROI." → Directo, datos de impacto, sin rodeos |
+| **Influyente (I)** | Gerente de Marketing | "Imagina que tu equipo puede trabajar desde cualquier lugar del Perú. ¡Vamos a hacerlo realidad!" → Visión inspiradora, beneficios emocionales |
+| **Soporte (S)** | Gerente de RRHH | "El cambio será gradual, con capacitación para todos. Nadie se queda atrás." → Tranquilidad, seguridad, apoyo al equipo |
+| **Controlador (C)** | Gerente de Finanzas | "Aquí está el análisis técnico completo: arquitectura, proveedores,SLAs y comparativa de costos." → Datos precisos, documentación, evidencia |
+
+### Ejemplo: Reunión de Ventas con Cliente Tipo D vs. Tipo I
+
+| Cliente Dominante (D) | Cliente Influyente (I) |
+|-----------------------|------------------------|
+| "Tengo 5 minutos, ve al grano" | "¡Hola! ¿Cómo estás? Cuéntame de tu empresa" |
+| "¿Cuánto cuesta y qué retorno genera?" | "¿Qué te emociona de este proyecto?" |
+| "Demuéstrame con datos" | "¿Quiénes serían los usuarios? ¿Ya hablaste con ellos?" |
+| "Si funciona, lo aprobamos hoy" | "Me encantaría que lo presente el equipo completo" |
+
+> **Clave:** Con estilo D, ve al punto. Con estilo I, crea conexión primero.
+
+### Ejemplo: Equipo de Trabajo Mixto
+
+**Situación:** Un equipo de 4 personas tiene cada uno un estilo diferente.
+
+| Estilo | Rol Ideal | Cómo Motivarlo |
+|--------|-----------|----------------|
+| **D** | Líder del proyecto | Darle autonomía y autoridad para decidir |
+| **I** | Comunicaciones y presentaciones | Dejarlo presentar resultados, reconocimiento público |
+| **S** | Coordinación y seguimiento | Darle estabilidad, no cambiarlo de tarea constantemente |
+| **C** | Control de calidad y documentación | Darle tiempo para revisar todo con detalle |
+
+> **Resultado:** Cuando cada uno trabaja en lo que le gusta, el equipo es imparable.
+
 ---
 
 ## Conclusiones

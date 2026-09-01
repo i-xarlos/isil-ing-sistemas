@@ -90,6 +90,39 @@ Se enfoca en mejorar lo que una empresa ya posee en lugar de "comenzar de nuevo"
 
 Una cadena de distribución pudo predecir cuándo sus clientes esperaban un bebé. Al asignar un ID único a cada cliente, asociado a su tarjeta de crédito, podían analizar su historial de compra y generar cupones de descuento. Construyeron un algoritmo capaz de predecir el comportamiento de compra de mujeres embarazadas.
 
+### Ejemplo Práctico: Transformación Digital en Perú
+
+**Caso: Ripley - De Tienda Tradicional a Omnicanal**
+
+| Antes | Ahora |
+|-------|-------|
+| Solo tiendas físicas | App móvil + web + tiendas |
+| Pago solo en caja | Yape, Plin, tarjetas, cuotas |
+| Inventario por tienda | Inventario centralizado y visible |
+| Promociones genéricas | Ofertas personalizadas por cliente |
+
+**Pasos que siguió Ripley:**
+1. **Quick Win:** Lanzó la app móvil en 3 meses
+2. **Escaló:** Integró pagos con todas las billeteras digitales
+3. **Lideró el cambio:** Los vendedores ahora usan tablets para mostrar catálogo completo
+
+> **Resultado:** Durante el COVID-19, Ripley sobrevivió porque ya tenía canal digital. Competidores que no lo tenían quebraron.
+
+### Ejemplo: Metodologías en Acción
+
+**Design Thinking en Rappi:**
+1. **Empatizar:** ¿Qué necesita el usuario limeño? → Pedir comida rápido y barato
+2. **Definir:** El problema es la demora en delivery
+3. **Idear:** Moto repartidores + restaurantes cercanos
+4. **Prototipo:** App con mapa en tiempo real
+5. **Testear:** Usuarios de Barranco probaron primero
+
+**Lean Startup en Crehana:**
+1. **MVP:** Primer curso online de diseño (solo 10 alumnos)
+2. **Medir:** ¿Pagan los alumnos? → Sí
+3. **Aprender:** Los peruanos quieren aprender habilidades digitales
+4. **Escalar:** Hoy tienen +500 cursos y operan en Latinoamérica
+
 ### Pasos para Transformarse a la Era Digital
 
 | Paso | Descripción | Enfoque |

@@ -62,6 +62,28 @@ Implica dividir un sistema complejo en partes más pequeñas y manejables, llama
 - **UX (Experiencia de Usuario):** Experiencia general que un usuario tiene al interactuar con un sistema
 - **Seguridad:** Medidas para proteger la integridad, disponibilidad y confidencialidad de los datos y servicios
 
+### Ejemplo Práctico: Caso Real en Perú
+
+**Caso: Sistema de Gestión de Delivery para Restaurantes en Lima**
+
+Imagina que un grupo de restaurantes en Miraflores quiere crear una app de delivery. Así se aplicaría el diseño de sistemas:
+
+| Componente | Ejemplo Práctico |
+|------------|------------------|
+| **Frontend** | App móvil para clientes (iOS/Android) donde eligen platos y pagan |
+| **Backend** | Servidor que procesa pedidos, gestiona inventario y coordina entregas |
+| **Base de datos** | Almacena menús, clientes, pedidos, historial de compras |
+| **API de pagos** | Integra con Plin, Yape o tarjetas de crédito |
+
+**Módulos del sistema:**
+1. **Módulo de Usuarios:** Registro, login, perfil, direcciones guardadas
+2. **Módulo de Menú:** Carta digital, precios, disponibilidad en tiempo real
+3. **Módulo de Pedidos:** Carrito, confirmación, seguimiento del delivery
+4. **Módulo de Pagos:** Integración con billeteras digitales y tarjetas
+5. **Módulo de Repartidores:** Asignación automática, ruta óptima, estado del pedido
+
+> **Resultado:** Si el diseño es bueno, el usuario puede hacer un pedido en 3 pasos simples. Si es malo, necesita 15 minutos para completar una orden.
+
 ---
 
 ## 2. Buenas Prácticas de Diseño de Sistemas
