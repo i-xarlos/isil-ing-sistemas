@@ -114,7 +114,39 @@ Deben adaptarse a este nuevo mundo para cumplir con sus objetivos y permanecer e
 
 ---
 
-## 2. Innovación Disruptiva y Management Disruptivo
+## 2. Resumen del Material Complementario: Management Disruptivo
+
+> **Fuente:** Serradell-López, E. (2018). "Management disruptivo. En búsqueda de 'The Next Big Thing'". Artículo académico presentado en el ICR & BM, Arequipa, Perú. → [PDF completo](./40001-S01-COMPLEMENTARIO.pdf)
+
+### Ideas Principales del Artículo
+
+| Concepto | Resumen | Conexión con VUCA |
+|----------|---------|-------------------|
+| **Disrupción** | "Rotura o interrupción brusca". Dejar de hacer las cosas de la manera habitual para hacerlas de forma diferente | Responder a la incertidumbre con innovación |
+| **Prosumidor** | El consumidor combina roles de proveedor y consumidor; es exigente, analiza, evalúa y publica en redes sociales | La volatilidad de los mercados se acelera |
+| **Certeza relativa vs. Incertidumbre** | Continuum donde los directivos toman decisiones con información limitada | La planificación tradicional ya no funciona |
+| **Innovación disruptiva** | Crea nuevos mercados y desplaza a líderes; usualmente viene de pequeñas empresas o startups | Respuesta a la complejidad del entorno |
+
+### Tecnologías Clave para la Disrupción (McKinsey, 2018)
+
+| Tecnología | Impacto Esperado (2025) | Ejemplo |
+|------------|-------------------------|---------|
+| **Internet de las Cosas (IoT)** | Alto | Sensores en ciudades inteligentes, fábricas conectadas |
+| **Automatización del trabajo** | Alto | Robots en manufacturing, procesos automatizados |
+| **Smart Cities** | Medio-Alto | Gestión inteligente de tráfico, energía, seguridad |
+| **Internet** | Base | Plataforma para todas las demás disruptivas |
+
+### El Artículo Resumido en 5 Puntos
+
+1. **El entorno VUCA es inevitable:** Movimientos impredecibles de mercados, nuevos competidores, ciclos de vida más cortos
+2. **La disrupción es un proceso:** Pequeñas empresas compiten con establecidas ofreciendo soluciones más simples y baratas
+3. **Dos tipos de disrupción:** New market (nuevos mercados) y Low-end (coste inferior)
+4. **El directivo debe cambiar:** De gestor a innovador; de reactiva a proactiva
+5. **La tecnología es estratégica:** No es soporte, es parte del ADN de la empresa
+
+---
+
+## 3. Innovación Disruptiva y Management Disruptivo
 
 ### ¿Qué es la Innovación Disruptiva?
 
@@ -176,7 +208,7 @@ Certeza relativa ←——————————————→ Gran incertidu
 
 ---
 
-## 3. Modelo VUCA Prime
+## 4. Modelo VUCA Prime
 
 ### ¿Qué es?
 
