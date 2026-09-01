@@ -26,9 +26,9 @@
 
 Este documento articula los objetivos generales, las funcionalidades clave, las restricciones y los criterios de éxito del sistema que se va a desarrollar. La visión del sistema sirve como un punto de referencia común para desarrolladores, stakeholders, gerentes de proyecto y otros miembros del equipo.
 
-### Estándar IEEE Std 830-2018
+### Estándar ISO/IEC/IEEE 29148:2018
 
-El estándar IEEE proporciona directrices sobre cómo escribir requisitos de software:
+Este estándar vigente amplía y reemplaza las prácticas de IEEE 830-1998 para la ingeniería de requisitos:
 - Descripción del sistema, incluyendo propósito, alcance y objetivos
 - Descripción de cómo los usuarios interactúan con el sistema
 - Descripción de las funciones que el sistema debe realizar
@@ -83,7 +83,7 @@ Es vital invertir tiempo y esfuerzo en la etapa de recolección y documentación
 | Estándar | Descripción |
 |----------|-------------|
 | **IEEE 830-1998** | Estándar conocido para la especificación de requisitos de software |
-| **ISO/IEC/IEEE 29148** | Actualización y reemplazo del IEEE 830; cubre el proceso de desarrollo completo |
+| **ISO/IEC/IEEE 29148:2018** | Estándar vigente para la ingeniería de requisitos; cubre el proceso de desarrollo completo |
 | **CMMI** | Ofrece directrices útiles para el proceso de gestión de requisitos |
 
 ### Normalización de Requisitos
@@ -130,7 +130,7 @@ La validación se preocupa de asegurar que el producto construido efectivamente 
 | Requisitos Funcionales | Requisitos No Funcionales |
 |------------------------|---------------------------|
 | Registro de nuevos beneficiarios | Manejar al menos 100.000 usuarios concurrentes |
-| Cálculo automático de la pensión | Todos los datos deben estar encriptados |
+| Cálculo automático de la pensión | Aplicar medidas de seguridad proporcionales al riesgo y la sensibilidad de los datos |
 | Consulta en línea del estado | Accesible a través de múltiples plataformas |
 
 ### Ejemplo Práctico: Caso Real en Perú
@@ -142,7 +142,7 @@ La validación se preocupa de asegurar que el producto construido efectivamente 
 | Registro de pacientes con datos personales y seguro médico | Manejar al menos 500 usuarios concurrentes |
 | Agendamiento de citas por especialidad y médico | Tiempo de respuesta menor a 2 segundos |
 | Recordatorios automáticos por SMS y email | Disponibilidad 99.9% del sistema |
-| Historial clínico digital accesible | Todos los datos encriptados (Ley 29733) |
+| Historial clínico digital accesible | Aplicar las medidas de seguridad de la Ley 29733 y su reglamento, incluyendo cifrado cuando corresponda |
 | Sistema de facturación integrado | Compatible con IOS y Android |
 | Portal del paciente para consultar resultados | Backup automático diario |
 
@@ -161,9 +161,9 @@ La validación se preocupa de asegurar que el producto construido efectivamente 
 |----|-----------|--------|--------------|------------|
 | REQ-001 | Agendamiento de citas | Dra. García (Jefe de turnos) | Prueba unitaria del módulo | Encuesta a médicos después de 1 mes |
 | REQ-002 | Recordatorios SMS | Pacientes (encuesta) | Prueba de envío automático | Tasa de asistencia a citas |
-| REQ-003 | Historial digital | Dr. López (Cardiólogo) | Revisión de código | Tiempo de acceso del médico |
+| REQ-003 | Historial clínico digital accesible | Dr. López (Cardiólogo) | Prueba de integración y autorización de acceso | Prueba de aceptación con médicos y medición del tiempo de consulta |
 
-> **Resultado:** Con una buena trazabilidad, si un requisito falla, sabes exactamente a quién preguntar, qué probar y dónde está el problema.
+> **Resultado:** Con una buena trazabilidad, si un requisito falla, puedes identificar su fuente, los elementos afectados y las pruebas que deben repetirse.
 
 ---
 

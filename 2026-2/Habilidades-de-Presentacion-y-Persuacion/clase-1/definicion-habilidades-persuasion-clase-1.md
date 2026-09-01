@@ -77,17 +77,9 @@ Es recomendable elaborar una «Ficha Persona», que consiste en crear un persona
 - Nivel de conocimiento: experto
 - Objetivo: Convencerlo para que sea auspiciador de un proyecto digital
 
-### Pirámide de Aprendizaje de William Glasser
+### Modelo de aprendizaje atribuido a William Glasser
 
-| Porcentaje | Forma de Aprendizaje |
-|------------|---------------------|
-| 10% | Lo que LEE |
-| 20% | Lo que OYE |
-| 30% | Lo que VE |
-| 50% | Lo que VE Y OYE |
-| 70% | Lo que DISCUTIMOS CON OTROS |
-| 80% | Lo que HACEMOS |
-| 95% | Lo que ENSEÑAMOS A OTROS |
+Este modelo propone que la participación activa, la discusión y la enseñanza a otros pueden favorecer el aprendizaje. Sus porcentajes exactos no deben interpretarse como resultados científicos universales.
 
 ### Ejemplo Práctico: Presentación en ISIL
 
@@ -95,9 +87,9 @@ Es recomendable elaborar una «Ficha Persona», que consiste en crear un persona
 
 | Componente | Cómo Aplicarlo |
 |------------|----------------|
-| **Emocional** | Abrir con una historia real: "Un banco peruano perdió S/ 2 millones por fraude que la IA pudo detectar" |
+| **Emocional** | Abrir con un caso documentado o, si es hipotético, presentarlo como una situación ilustrativa |
 | **Innovación** | Mostrar demo en vivo de un prototipo funcionando (no solo slides) |
-| **Memorable** | Cerrar con un dato sorprendente: "El 80% de fraudes se detectan con IA antes de que ocurran" |
+| **Memorable** | Cerrar con un resultado medible del prototipo, indicando que la cifra es ilustrativa hasta validarla con datos |
 
 **Estructura de la presentación (15 minutos):**
 1. **Min 0-2:** Historia impactante (gancho emocional)
@@ -225,7 +217,7 @@ Las presentaciones de ALTO IMPACTO deben elevar los niveles de dopamina de la au
 | **Efecto WOW** | Capacidad de generar sorpresa y fascinación | Presentación con datos sorprendentes |
 | **Dopamina** | Neurotransmisor responsable de la felicidad y el placer | Se activa con información novedosa |
 | **Ficha Persona** | Personaje ficticio que representa a la audiencia | "Juan Castro, 32 años, experto en el tema" |
-| **Pirámide de Glasser** | Modelo de aprendizaje según tipo de estímulo | 95% aprendemos lo que enseñamos |
+| **Modelo atribuido a Glasser** | Propone que la participación activa puede favorecer el aprendizaje; sus porcentajes exactos no son una regla universal | Enseñar a otros es una forma de participación activa |
 | **Componente Emocional** | Elemento que despierta emociones agradables | Humor, música, juego |
 
 ---

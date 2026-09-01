@@ -132,10 +132,10 @@ Conocer el estilo de comportamiento propio nos permitirá potenciar nuestro esti
 
 | Estilo | Directivo | Cómo Adaptar tu Presentación |
 |--------|-----------|------------------------------|
-| **Dominante (D)** | Gerente General (CEO) | "En 3 meses reduciremos costos IT en 30%. Aquí está el ROI." → Directo, datos de impacto, sin rodeos |
-| **Influyente (I)** | Gerente de Marketing | "Imagina que tu equipo puede trabajar desde cualquier lugar del Perú. ¡Vamos a hacerlo realidad!" → Visión inspiradora, beneficios emocionales |
-| **Soporte (S)** | Gerente de RRHH | "El cambio será gradual, con capacitación para todos. Nadie se queda atrás." → Tranquilidad, seguridad, apoyo al equipo |
-| **Controlador (C)** | Gerente de Finanzas | "Aquí está el análisis técnico completo: arquitectura, proveedores,SLAs y comparativa de costos." → Datos precisos, documentación, evidencia |
+| **Dominante (D)** | Directivo con tendencia D | "En 3 meses reduciremos costos de TI en 30%. Aquí está el ROI." → Directo, datos de impacto, sin rodeos |
+| **Influyente (I)** | Directivo con tendencia I | "Imagina que tu equipo puede trabajar desde cualquier lugar del Perú. Vamos a hacerlo realidad." → Visión inspiradora, beneficios emocionales |
+| **Soporte (S)** | Directivo con tendencia S | "El cambio será gradual, con capacitación para todos." → Tranquilidad, seguridad, apoyo al equipo |
+| **Controlador (C)** | Directivo con tendencia C | "Aquí está el análisis técnico completo: arquitectura, proveedores, SLAs y comparativa de costos." → Datos precisos, documentación, evidencia |
 
 ### Ejemplo: Reunión de Ventas con Cliente Tipo D vs. Tipo I
 

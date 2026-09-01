@@ -106,7 +106,7 @@ Una cadena de distribución pudo predecir cuándo sus clientes esperaban un beb�
 2. **Escaló:** Integró pagos con todas las billeteras digitales
 3. **Lideró el cambio:** Los vendedores ahora usan tablets para mostrar catálogo completo
 
-> **Resultado:** Durante el COVID-19, Ripley sobrevivió porque ya tenía canal digital. Competidores que no lo tenían quebraron.
+> **Resultado:** Durante la pandemia, contar con canales digitales permitió a Ripley mantener parte de sus operaciones y atender a sus clientes pese a las restricciones. La continuidad del negocio también dependió de factores financieros, logísticos y operativos.
 
 ### Ejemplo: Metodologías en Acción
 
@@ -183,7 +183,7 @@ La metodología elegida dependerá del estado de la iniciativa:
 
 ## Conclusiones
 
-1. Actualmente estamos en la cuarta etapa de la revolución industrial que es la transformación digital.
+1. Actualmente se desarrolla la cuarta revolución industrial, conocida como Industria 4.0. La transformación digital es un proceso más amplio que puede incluirla y también abarcar servicios, procesos administrativos, cultura y experiencia del cliente.
 2. La digitalización puede darse de forma rápida o evolutiva. En ambos casos, un cambio cultural es necesario.
 3. La industria 4.0 tiene beneficios como mejor escalabilidad, conocimiento del cliente, recopilación en tiempo real de data, etc.
 4. Antes de elegir una metodología, se debe entender primero el problema que tiene el usuario.
