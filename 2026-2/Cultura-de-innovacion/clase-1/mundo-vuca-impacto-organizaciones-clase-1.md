@@ -114,6 +114,68 @@ Deben adaptarse a este nuevo mundo para cumplir con sus objetivos y permanecer e
 
 ---
 
+## 2. Innovación Disruptiva y Management Disruptivo
+
+### ¿Qué es la Innovación Disruptiva?
+
+Término acuñado por Clayton Christensen y Josep Bower (1995). Crea nuevos mercados y transforma los existentes mediante **simplicidad, conveniencia, asequibilidad o accesibilidad**.
+
+> **Dato clave:** Las innovaciones disruptivas suelen ser producidas por pequeñas empresas, emprendedores o start-ups, no por empresas establecidas que lideran un mercado.
+
+### Tipos de Innovación Disruptiva
+
+| Tipo | Descripción | Ejemplo |
+|------|-------------|---------|
+| **New Market Disruption** | Dirigida a clientes con necesidades insatisfechas (que ni ellos mismos conocían) | Productos o servicios completamente nuevos |
+| **Low-End Disruption** | Empresas existentes proveen funcionalidades que exceden las necesidades; la innovación ofrece productos a coste muy inferior | Smartphones de gama baja que ofrecen funcionalidades básicas a precio mucho menor |
+
+### El Continuum de Decisiones
+
+Las condiciones para tomar decisiones se clasifican en tres tipos:
+
+```
+Certeza relativa ←——————————————→ Gran incertidumbre
+     (predecible)                      (turbulento)
+```
+
+> **Metáfora de Sala y Martín:** "Tomar decisiones usando datos del pasado es como conducir con el parabrisas tapado y usando solo los espejos retrovisores. Cuando la carretera es recta no hay problema, pero cuando aparecen curvas, los problemas aparecen de golpe."
+
+### 5 Comportamientos del Líder Innovador (Dyer, Gregersen y Christensen)
+
+| # | Comportamiento | Descripción |
+|---|----------------|-------------|
+| 1 | **Pensamiento asociativo** | Conectar ideas de diferentes ámbitos para generar soluciones nuevas |
+| 2 | **Cuestionar** | Desafiar el statu quo y hacer preguntas incómodas |
+| 3 | **Observar** | Analizar el comportamiento de clientes y competidores |
+| 4 | **Networking** | Buscar perspectivas diversas fuera del círculo habitual |
+| 5 | **Experimentación** | Probar, fallar y aprender rápidamente |
+
+### 6 Elementos del Perfil del Directivo Disruptivo (Nitin Seth)
+
+| # | Elemento | Descripción |
+|---|----------|-------------|
+| 1 | **Llevar las riendas del propio futuro** | Estar abierto a nuevas ideas, asumir riesgos, no temer canibalizar los propios productos |
+| 2 | **Tecnología como elemento estratégico** | No verla como soporte, sino como parte del ADN de la empresa |
+| 3 | **Foco en la ejecución** | Ejecución y evaluación en tiempo real |
+| 4 | **Colaboración con clientes** | Considerar clientes como socios, relación iterativa con múltiples puntos de interacción |
+| 5 | **Simplicidad organizacional** | Rediseñar la organización fomentando la simplicidad sobre el control |
+| 6 | **Espíritu emprendedor** | Fomentar nuevos líderes más que gestores, con objetivos a corto y largo plazo |
+
+### 6 Preguntas Clave para Directivos Disruptivos
+
+¿Quieres ser disruptor o disruptado? Responde estas preguntas:
+
+1. ¿Qué tipo de disrupción (cambio no lineal) afectará a nuestro sector en los próximos años?
+2. ¿Cuáles serán los cambios en clientes o tecnologías?
+3. ¿Qué productos o servicios esperan nuestros clientes? ¿Cuáles no se esperan?
+4. ¿Podemos ser creativos segmentando clientes con criterios distintos a los tradicionales?
+5. ¿Podemos ofrecer el producto o servicio que realmente necesitarán nuestros clientes del futuro?
+6. ¿Podemos ofrecer nuestro producto al coste más bajo posible?
+
+> Si respondes **SÍ** a la mayoría, tienes perfil de directivo disruptivo. Si no, necesitas un equipo multidisciplinar y creativo.
+
+---
+
 ## 3. Modelo VUCA Prime
 
 ### ¿Qué es?
@@ -171,6 +233,80 @@ Desarrollado por Bob Johansen, considera que los mejores líderes para este mund
 
 ---
 
+## Soluciones a Preguntas de Reflexión
+
+### Solución 1: Estrategias para liderar en entorno VUCA
+
+**Respuesta modelada:**
+
+Para liderar una empresa en entorno VUCA, adoptaría un enfoque integral basado en:
+
+| Estrategia | Acción Concreta |
+|------------|-----------------|
+| **Agilidad organizacional** | Implementar metodologías ágiles (Scrum, Kanban) para iterar rápidamente y adaptar productos/servicios |
+| **Escaneo continuo del entorno** | Crear un equipo de análisis de tendencias que monitoree competidores, tecnología y cambios regulatorios |
+| **Cultura de experimentación** | Fomentar pruebas piloto antes de lanzamientos masivos, aceptando el fracaso como aprendizaje |
+| **Diversificación de ingresos** | No depender de un solo producto/mercado; crear múltiples fuentes de valor |
+| **Talento adaptable** | Invertir en capacitación continua y contratar personas con perfil versátil |
+
+**Ejemplo práctico:** Una empresa peruana de retail podría crear un equipo de "innovación rápida" que lance una tienda online en 3 meses (en lugar de 12), teste con un segmento pequeño, y escale lo que funcione.
+
+---
+
+### Solución 2: Elemento VUCA más desafiante para Perú
+
+**Respuesta modelada:**
+
+El elemento más desafiante para las organizaciones peruanas es la **Complejidad**, por tres razones:
+
+| Razón | Explicación |
+|-------|-------------|
+| **Diversidad regional** | El Perú tiene 30 departamentos con realidades económicas, culturales y geográficas muy diferentes. Una estrategia única no funciona en Lima, Cusco y Loreto |
+| **Informalidad empresarial** | Según INEI, más del 70% de la economía es informal. Esto genera complejidad en cadenas de suministro, competencia desleal y dificultad para implementar procesos estandarizados |
+| **Marco regulatorio cambiante** | Las normas tributarias, laborales y comerciales cambian con frecuencia, creando incertidumbre adicional |
+
+**Comparación con otros elementos:**
+
+| Elemento | Nivel de Impacto en Perú | Justificación |
+|----------|--------------------------|---------------|
+| Volatilidad | Alto | Tipo de cambio, dólar, materias primas |
+| Incertidumbre | Medio-Alto | Elecciones, pandemias, geopolítica |
+| **Complejidad** | **Muy Alto** | Diversidad regional + informalidad + regulación |
+| Ambigüedad | Medio | Información disponible, pero interpretación compleja |
+
+---
+
+### Solución 3: Impacto del VUCA en la planificación estratégica peruana
+
+**Respuesta modelada:**
+
+El mundo VUCA ha transformado radicalmente la planificación estratégica en las empresas peruanas:
+
+| Antes (Era Pre-VUCA) | Ahora (Era VUCA) |
+|----------------------|------------------|
+| Planes estratégicos a 5-10 años | Planes a 1-2 años con revisiones trimestrales |
+| Análisis estático de competidores | Monitoreo continuo de amenazas disruptivas |
+| Decisiones basadas en datos históricos | Decisiones basadas en escenarios y tendencias |
+| Jerarquía rígida de aprobación | Equipos ágiles con autonomía para decidir |
+| Inversión en infraestructura fija | Inversión en tecnología flexible y escalable |
+
+**Ejemplo peruano concreto:**
+
+| Empresa/Sector | Adaptación VUCA |
+|----------------|-----------------|
+| **Bancos (BCP, Interbank)** | Migraron a servicios digitales en meses durante la pandemia, no en años |
+| **Retail (Ripley, Saga)** | Implementaron omicanalidad (online + offline) para reducir volatilidad |
+| **Agricultura (agroexportadores)** | Usan sensores IoT y datos climáticos para reducir incertidumbre |
+| **Minería** | Implementan automatización y IA para gestionar complejidad operativa |
+
+**Conclusión:** Las empresas peruanas que sobrevivirán serán aquellas que pasen de la planificación rígida a la **adaptación continua**, incorporando herramientas como:
+- Análisis de escenarios (¿qué pasaría si...?)
+- Indicadores adelantados (no solo rezagados)
+- Equipos multidisciplinarios para decisiones rápidas
+- Inversión en tecnología como recurso estratégico
+
+---
+
 ## Fuentes
 
 | # | Fuente | Tipo | URL |
@@ -178,6 +314,10 @@ Desarrollado por Bob Johansen, considera que los mejores líderes para este mund
 | 1 | Lopez, J.A. (2018). Los entornos VUCA y el nuevo paradigma empresarial | Artículo | https://corporateyachting.es/es/los-entornos-vuca-y-el-nuevo-paradigma-empresarial/ |
 | 2 | Serradell López, E. (2019). Management disruptivo | Blog | http://blogs.eada.edu/2019/04/29/management-disruptivo-en-busqueda-de-the-next-big-thing/ |
 | 3 | Johansen, R. (2012). *Leaders Make the Future* | Libro | https://www.amazon.com/Leaders-Make-Future-Transforming/dp/1577319729 |
+| 4 | Serradell-López, E. (2018). Management disruptivo. En búsqueda de "The Next Big Thing" | Artículo académico | [PDF complementario](./40001-S01-COMPLEMENTARIO.pdf) |
+| 5 | Christensen, C. M. y Bower, J. L. (1995). Disruptive technologies: Catching the wave | Artículo académico | Harvard Business Review |
+| 6 | Dyer, J., Gregersen, H., & Christensen, C. M. (2012). *El ADN del innovador* | Libro | Grupo Planeta |
+| 7 | McKinsey (2018). Forecast economic impact of disruptive technologies | Reporte | Statista |
 
 ---
 
