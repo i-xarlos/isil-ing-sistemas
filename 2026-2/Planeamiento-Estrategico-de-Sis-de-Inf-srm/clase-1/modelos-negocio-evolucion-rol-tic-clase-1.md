@@ -1,7 +1,8 @@
 # Modelos de Negocio y Evolución del Rol de las TIC (Clase 1)
 
 **Curso:** Planeamiento Estratégico de Sistemas de Información (ISIL, 2026-2)  
-**Docente:** [pendiente]  
+**NRC:** 4332  
+**Docente:** Marco Antonio Méndez Bendezú  
 **Fecha:** 01/09/2026
 
 ---
@@ -17,6 +18,17 @@
 - Comprender los conceptos de modelo de negocio y sus elementos
 - Identificar la cadena de valor de las empresas
 - Identificar y comprender el rol de los sistemas de información dentro de la estrategia
+
+**Estructura del curso (4 unidades):**
+
+| Unidad | Nombre | Sesiones | Temas Principales |
+|--------|--------|----------|-------------------|
+| **I** | Planificación Estratégica de Negocios | 1-3 | Modelos de negocio, rol estratégico de TI, análisis competitivo |
+| **II** | Requerimientos de Sistemas de Información | 4-7 | Cadena de valor, identificación de requerimientos por procesos |
+| **III** | Formulación Estratégica | 8-11 | Misión/Visión de TI, arquitecturas de datos y sistemas (ERP, CRM) |
+| **IV** | Implementación y Control | 12-15 | Matriz de priorización, indicadores (KPIs), métricas y plan de acción |
+
+**Metodología:** Aprendizaje bidireccional basado en análisis de casos reales y experiencia colaborativa. Proyecto integrador grupal (4 estudiantes) que se construye sesión tras sesión.
 
 ---
 
@@ -68,6 +80,19 @@ Es una herramienta visual creada por Alex Osterwalder que permite describir, ana
 | **Fuentes de ingreso** | Ganancias por suscripción mensual |
 
 > En este modelo de negocio, la **tecnología de información es un recurso clave**.
+
+### Ejemplo de Alineamiento según Modelo de Negocio
+
+| Tipo de Empresa | Prioridad Estratégica de TI |
+|-----------------|----------------------------|
+| **Comercial/Retail** | Plataformas e-commerce, omnicanalidad y sistemas CRM para maximizar venta y fidelización |
+| **Industrial/Manufactura** | Automatización de planta, módulos de inventarios y sistemas ERP (ej. SAP S/4HANA) para reducir costos |
+
+### Ejemplo del Dilema de Priorización
+
+**Escenario:** Un banco tiene 10 proyectos tecnológicos solicitados (migración a la nube, nuevo módulo de créditos, app móvil renovada), pero solo presupuesto para 3.
+
+**Solución:** Mediante la matriz de priorización, se evalúan criterios como impacto en el margen del negocio, riesgo operativo y costo de implementación para seleccionar las 3 iniciativas clave.
 
 ---
 

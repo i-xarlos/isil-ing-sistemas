@@ -1,7 +1,7 @@
 # Mundo VUCA y su Impacto en las Organizaciones (Clase 1)
 
 **Curso:** Cultura de Innovación (ISIL, 2026-2)  
-**Docente:** [pendiente]  
+**Docente:** Ing. Sigfrido Erwin Alva Peralta (Ing. de Sistemas, Magíster en Ciencias Empresariales)  
 **Fecha:** 01/09/2026
 
 ---
@@ -16,6 +16,8 @@
 - Entender qué es el mundo VUCA y su impacto en las organizaciones
 - Conocer cómo navegar por el mundo VUCA
 - Comprender el modelo VUCA Prime
+
+**Contexto del curso:** Esta asignatura se enfoca en el **empresariado peruano**, analizando sus sectores productivos, la sociedad y el contexto socioeconómico local frente al marco global. El docente aporta una visión integral sobre el comportamiento de los consumidores y la dinámica empresarial a través de su experiencia en desarrollo de software para múltiples sectores comerciales.
 
 ---
 
@@ -101,6 +103,14 @@ Deben adaptarse a este nuevo mundo para cumplir con sus objetivos y permanecer e
 - Empáticos
 - Resilientes
 - Capaces de comunicar, generar compromiso e inspirar
+
+### Ejemplos Prácticos en el Contexto Peruano
+
+| Ejemplo | Descripción |
+|---------|-------------|
+| **Retail peruano** | Una empresa tradicional que debe reorganizar de emergencia su logística y pasarela digital para adaptarse a cambios inesperados en las demandas del mercado |
+| **Hiperpersonalización** | Aplicaciones de delivery o streaming que ajustan su catálogo y recomendaciones en tiempo real según hábitos específicos de cada usuario |
+| **Adopción de tecnología** | La rápida integración de billeteras digitales (Yape, Plin) por parte de PyMEs y pequeños comercios locales para responder al cambio de hábitos de pago |
 
 ---
 
