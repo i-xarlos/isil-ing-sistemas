@@ -1,6 +1,6 @@
 # ISIL - Notas de Cursos
 
-> **`{year-semestre}`** es el placeholder para el periodo académico (ej: `2026-1`, `2026-2`, `2027-1`). Este repositorio puede contener múltiples periodos. Los enlaces apuntan al periodo actual `2026-1`.
+> **`{year-semestre}`** es el placeholder para el periodo académico (ej: `2026-1`, `2026-2`, `2027-1`). Este repositorio puede contener múltiples periodos. Los enlaces se agrupan por periodo académico.
 
 ## Propósito
 
@@ -263,4 +263,51 @@ Cada carpeta de clase incluye:
 
 ---
 
-**Periodo**: 2026-1 | ISIL Ingeniería de Sistemas
+## Periodo 2026-2
+
+### Análisis y Diseño de Sistemas Avanzado (`Analisis-Diseno-de-Sistemas-Avanzado`)
+
+| Semana | Tema | Notas |
+|--------|------|-------|
+| 1 | Introducción al Diseño de Sistemas | [Ver](2026-2/Analisis-Diseno-de-Sistemas-Avanzado/clase-1/introduccion-diseno-sistemas-clase-1.md) |
+| 2 | Requisitos del Sistema | [Ver](2026-2/Analisis-Diseno-de-Sistemas-Avanzado/clase-2/requisitos-sistema-clase-2.md) |
+
+---
+
+### Cultura de Innovación (`Cultura-de-innovacion`)
+
+| Semana | Tema | Notas |
+|--------|------|-------|
+| 1 | Mundo VUCA y su Impacto en las Organizaciones | [Ver](2026-2/Cultura-de-innovacion/clase-1/mundo-vuca-impacto-organizaciones-clase-1.md) |
+| 2 | Industria 4.0 y Transformación Digital | [Ver](2026-2/Cultura-de-innovacion/clase-2/industria-4-0-transformacion-digital-clase-2.md) |
+
+---
+
+### Habilidades de Presentación y Persuasión (`Habilidades-de-Presentacion-y-Persuacion`)
+
+| Semana | Tema | Notas |
+|--------|------|-------|
+| 1 | Definición de Habilidades de Persuasión | [Ver](2026-2/Habilidades-de-Presentacion-y-Persuacion/clase-1/definicion-habilidades-persuasion-clase-1.md) |
+| 2 | Tipos de Audiencia según su Estilo de Comunicación | [Ver](2026-2/Habilidades-de-Presentacion-y-Persuacion/clase-2/tipos-audiencia-estilos-comunicacion-clase-2.md) |
+
+---
+
+### Inteligencia Artificial Aplicada (`Inteligencia-Artificial-Aplicada`)
+
+| Semana | Tema | Notas |
+|--------|------|-------|
+| 1 | ¿Qué es la IA y por qué es importante? | [Ver](2026-2/Inteligencia-Artificial-Aplicada/clase-1/que-es-ia-y-por-que-importa-clase-1.md) |
+| 2 | IA: Riesgos y Limitaciones | [Ver](2026-2/Inteligencia-Artificial-Aplicada/clase-2/ia-riesgos-y-limitaciones-clase-2.md) |
+
+---
+
+### Planeamiento Estratégico de Sistemas de Información (`Planeamiento-Estrategico-de-Sis-de-Inf-srm`)
+
+| Semana | Tema | Notas |
+|--------|------|-------|
+| 1 | Modelos de Negocio y Evolución del Rol de las TIC | [Ver](2026-2/Planeamiento-Estrategico-de-Sis-de-Inf-srm/clase-1/modelos-negocio-evolucion-rol-tic-clase-1.md) |
+| 2 | Fundamentos de Estrategia y Planificación Estratégica | [Ver](2026-2/Planeamiento-Estrategico-de-Sis-de-Inf-srm/clase-2/fundamentos-estrategia-planificacion-estrategica-clase-2.md) |
+
+---
+
+**Periodos documentados**: 2026-1 y 2026-2 | ISIL Ingeniería de Sistemas

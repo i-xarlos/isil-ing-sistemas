@@ -81,7 +81,7 @@ Los archivos que no pertenecen a un curso específico van en `_meta/`:
 
 ### Extensiones permitidas
 
-`.md`, `.png`, `.jpg`, `.gif`
+`.md`, `.png`, `.jpg`, `.gif`, `.pdf`
 
 ### Archivos a ignorar
 
