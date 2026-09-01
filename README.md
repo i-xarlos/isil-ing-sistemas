@@ -1,6 +1,6 @@
 # ISIL - Notas de Cursos
 
-> **`{year-semestre}`** es el placeholder para el periodo académico (ej: `2026-1`, `2026-2`, `2027-1`). Este repositorio puede contener múltiples periodos. Los enlaces apuntan al periodo actual `2026-1`.
+> **`{year-semestre}`** es el placeholder para el periodo académico (ej: `2026-1`, `2026-2`, `2027-1`). Este repositorio puede contener múltiples periodos. Los enlaces se agrupan por periodo académico.
 
 ## Propósito
 
@@ -310,4 +310,4 @@ Cada carpeta de clase incluye:
 
 ---
 
-**Periodo**: 2026-1 | ISIL Ingeniería de Sistemas
+**Periodos documentados**: 2026-1 y 2026-2 | ISIL Ingeniería de Sistemas
