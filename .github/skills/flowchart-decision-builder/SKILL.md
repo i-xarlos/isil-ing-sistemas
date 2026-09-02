@@ -273,7 +273,7 @@ flowchart TD
 - **No cruzar líneas** cuando sea posible
 - **Etiquetar siempre** las conexiones de decisión
 - **Un solo punto de inicio** — múltiples fines son aceptables
-- **Usar Mermaid** como formato首选 para diagramas simples; **ASCII** cuando Mermaid no sea suficiente (arquitectura compleja, diagramas muy anchos)
+- **Usar Mermaid** como formato preferido para diagramas simples; **ASCII** cuando Mermaid no sea suficiente (arquitectura compleja, diagramas muy anchos)
 
 ---
 

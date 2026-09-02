@@ -176,7 +176,7 @@ Agregar errores comunes, conexiones y ejemplo práctico.
 Para cada concepto, identificar:
 
 1. **Confusión frecuente:** ¿Qué suele confundirse con qué?
-2. **Simplificación excesiva:** ¿Qué细节 se pierden al simplificar?
+2. **Simplificación excesiva:** ¿Qué detalles se pierden al simplificar?
 3. **Overengineering:** ¿Qué complejidad innecesaria se agrega?
 
 Marcar con **"Lo que la gente suele confundir es..."**
@@ -214,7 +214,7 @@ Un microservicio es **una parte pequeña de un programa grande** que hace solo u
 
 ## Nivel 2 — Explicación Intermedia
 
-Un microservicio es un **patrón de arquitectura** donde una aplicación se divide en **servicios pequeños e independientes**, cada uno ejecutando un proceso específico y comunicándose通过 APIs.
+Un microservicio es un **patrón de arquitectura** donde una aplicación se divide en **servicios pequeños e independientes**, cada uno ejecutando un proceso específico y comunicándose a través de APIs.
 
 **Conceptos clave:**
 - **Servicio:** Un programa que ofrece una funcionalidad específica
