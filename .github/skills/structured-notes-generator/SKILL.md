@@ -61,7 +61,7 @@ Verificar que los apuntes cumplan el checklist de calidad.
 ### Encabezado Obligatorio
 
 ```md
-# {Tema del tema} (Clase N)
+# {Tema} (Clase N)
 
 **Curso:** {Nombre del curso} (ISIL, {year-semestre})
 **Docente:** {Nombre del docente}
@@ -195,7 +195,7 @@ Antes de entregar los apuntes, verificar:
 ## Ejemplo de Uso
 
 **Entrada:**
-> "Genera apuntes sobre模型 de madurez CMMI"
+> "Genera apuntes sobre modelo de madurez CMMI"
 
 **Salida:**
 ```md

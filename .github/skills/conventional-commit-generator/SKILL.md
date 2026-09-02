@@ -32,7 +32,7 @@ Asignar el tipo principal según la naturaleza del cambio:
 | **fix** | Corrección de bug o comportamiento incorrecto | Corregir validación, error 500, fallback |
 | **refactor** | Reestructuración sin cambio de comportamiento | Extraer función, renombrar variable |
 | **docs** | Cambios solo en documentación | Actualizar README, agregar comentarios |
-| **style** | Formato, espacios, sinimpacto lógico | Indentación, Prettier, ESLint fix |
+| **style** | Formato, espacios, sin impacto lógico | Indentación, Prettier, ESLint fix |
 | **test** | Agregar o corregir tests | Unit tests, integration tests |
 | **chore** | Tareas de mantenimiento, dependencias | Actualizar package.json, CI/CD |
 | **perf** | Mejoras de rendimiento | Optimizar queries, caché, lazy loading |
