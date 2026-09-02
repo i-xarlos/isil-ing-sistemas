@@ -22,6 +22,8 @@ Este directorio contiene todos los **skills personalizados** para el repositorio
     │   ├── SKILL.md         # Metodología de análisis
     │   ├── README.md        # Índice de la carpeta
     │   └── EJEMPLO-ANALISIS-REPOSITORIO-COMPLETO.md
+    ├── learning-roadmap-generator/  # Skill: planes de aprendizaje semana a semana
+    │   └── SKILL.md         # Generador de roadmaps con objetivos, recursos y checkpoints
     ├── structured-notes-generator/  # Skill: apuntes de estudio estructurados
     │   └── SKILL.md         # Generador de apuntes desde temas, PDFs o transcripciones
     └── utilities/           ← Skills de herramientas
@@ -66,6 +68,7 @@ Consulta [`.github/skills/`](./) para herramientas y análisis:
 | Skill | Cuándo Usarlo | Archivo |
 |---|---|---|
 | **mermaid-analysis** | Analizar dónde agregar diagramas Mermaid | [mermaid-analysis/SKILL.md](mermaid-analysis/SKILL.md) |
+| **learning-roadmap-generator** | Crear planes de aprendizaje semana a semana con objetivos, recursos y checkpoints | [learning-roadmap-generator/SKILL.md](learning-roadmap-generator/SKILL.md) |
 | **structured-notes-generator** | Transformar temas, PDFs o transcripciones en apuntes de estudio | [structured-notes-generator/SKILL.md](structured-notes-generator/SKILL.md) |
 | **write-a-skill** | Crear nuevos skills personalizados | [utilities/write-a-skill/SKILL.md](utilities/write-a-skill/SKILL.md) |
 | **handoff** | Transferir conversación a otro agente | [utilities/handoff/SKILL.md](utilities/handoff/SKILL.md) |
@@ -189,6 +192,6 @@ Antes de agregar un nuevo skill, verifica:
 ## 📝 Última Actualización
 
 **Restructuración:** 10/06/2026 — Separación clara entre Instructions (reglas) y Skills (metodologías)  
-**Skills activos:** 6 (mermaid-analysis, structured-notes-generator, write-a-skill, handoff, excel-reader, caveman)  
+**Skills activos:** 7 (mermaid-analysis, learning-roadmap-generator, structured-notes-generator, write-a-skill, handoff, excel-reader, caveman)  
 **Instructions activas:** 5 (writing, clase, actividad, images, mermaid-analysis)  
 **Compatibilidad:** VS Code + GitHub Copilot
