@@ -176,7 +176,7 @@ Agregar errores comunes, conexiones y ejemplo práctico.
 Para cada concepto, identificar:
 
 1. **Confusión frecuente:** ¿Qué suele confundirse con qué?
-2. **Simplificación excesiva:** ¿Qué细节 se pierden al simplificar?
+2. **Simplificación excesiva:** ¿Qué detalles se pierden al simplificar?
 3. **Overengineering:** ¿Qué complejidad innecesaria se agrega?
 
 Marcar con **"Lo que la gente suele confundir es..."**
