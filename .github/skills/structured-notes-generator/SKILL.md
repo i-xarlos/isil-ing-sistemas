@@ -195,7 +195,7 @@ Antes de entregar los apuntes, verificar:
 ## Ejemplo de Uso
 
 **Entrada:**
-> "Genera apuntes sobre模型 de madurez CMMI"
+> "Genera apuntes sobre modelo de madurez CMMI"
 
 **Salida:**
 ```md
