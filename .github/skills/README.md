@@ -150,6 +150,24 @@ applyTo: "*/**/*.md"  # Activar para archivos Markdown del periodo activo
 
 El agente consulta las `description` de todos los skills y elige el relevante según el request del usuario.
 
+### Orquestada (vía Skill Orchestrator)
+
+Para tareas complejas, el agente **Skill Orchestrator** coordina múltiples skills:
+
+```
+Usuario: "Documenta la clase 5 con todo"
+    ↓
+Skill Orchestrator analiza la solicitud
+    ↓
+Identifica cadena: clase-processor → structured-notes → flowchart → mermaid
+    ↓
+Ejecuta secuencia pasando outputs entre skills
+    ↓
+Valida resultado final y reporta progreso
+```
+
+**Invocación:** En el chat, escribe `/skill-orchestrator` y describe la tarea.
+
 ---
 
 ## 🛠️ Cómo Agregar un Nuevo Skill

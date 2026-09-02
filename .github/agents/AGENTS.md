@@ -262,7 +262,51 @@ Una línea clara de qué cambio haces.
 
 ## Agentes Especializados Disponibles
 
-### 1. **Clase Processor** — `/clase-processor` Skill
+### 1. **Skill Orchestrator** — `/skill-orchestrator` Agent
+
+**Descripción:** Orquesta múltiples skills para tareas complejas que requieren más de una herramienta. Coordina ejecución, pasa outputs entre skills y valida resultados.
+
+**Ubicación del agent:** `.github/agents/skill-orchestrator.agent.md`
+
+**Cuándo usarlo:**
+- Cuando una tarea requiere 2+ skills
+- Cuando hay dependencias entre skills
+- Cuando se necesita una cadena de procesamiento completa
+
+**Cadenas predefinidas:**
+
+| Cadena | Skills | Para qué |
+|--------|--------|----------|
+| **Documentación de Clase** | clase-processor → structured-notes → flowchart → mermaid-analysis | Clase completa con todo |
+| **Concepto Complejo** | complex-concept → structured-notes → flowchart | Explicación + apuntes + diagrama |
+| **Presentación** | structured-notes → complex-concept → presentation-prep | Preparar presentación |
+| **Trabajo Académico** | structured-notes → academic-paper → conventional-commit | Research + documento + commit |
+| **Plan de Aprendizaje** | learning-roadmap → workflow → conventional-commit | Plan + tareas + commit |
+
+**Cómo invocarlo:**
+1. En el chat, escribe `/skill-orchestrator`
+2. Describe la tarea compleja a orquestar
+3. El agente identificará y ejecutará los skills necesarios
+
+**Ejemplos:**
+- "Documenta la clase 5 de Arquitectura Empresarial con todo"
+- "Prepara una presentación sobre los conceptos vistos en la clase 3"
+- "Crea un plan de aprendizaje completo sobre IoT con commits"
+
+**Resultado esperado:**
+```
+🔄 Orquestando: {tarea}
+Paso 1/N: Ejecutando {skill}...
+   ✅ Output generado
+Paso 2/N: Ejecutando {skill}...
+   ✅ Output generado
+...
+✅ Tarea completada: {resumen de outputs}
+```
+
+---
+
+### 2. **Clase Processor** — `/clase-processor` Skill
 
 **Descripción:** Automatiza conversión de archivos de clase (PPTX → PDF), generación de resúmenes estructurados, y validación de convenciones.
 
