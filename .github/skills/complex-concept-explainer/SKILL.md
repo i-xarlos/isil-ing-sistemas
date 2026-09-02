@@ -214,7 +214,7 @@ Un microservicio es **una parte pequeña de un programa grande** que hace solo u
 
 ## Nivel 2 — Explicación Intermedia
 
-Un microservicio es un **patrón de arquitectura** donde una aplicación se divide en **servicios pequeños e independientes**, cada uno ejecutando un proceso específico y comunicándose通过 APIs.
+Un microservicio es un **patrón de arquitectura** donde una aplicación se divide en **servicios pequeños e independientes**, cada uno ejecutando un proceso específico y comunicándose a través de APIs.
 
 **Conceptos clave:**
 - **Servicio:** Un programa que ofrece una funcionalidad específica
