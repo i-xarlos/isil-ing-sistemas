@@ -2,7 +2,9 @@
 
 **Curso:** Dirección Estratégica de Datos  
 **Programa:** Ingeniería de Sistemas  
-**Período:** 2026-1
+**Período:** 2026-1  
+**Docente:** Brezli Paola Luna Figueroa  
+**Inicio:** 09/04/2026
 
 ---
 

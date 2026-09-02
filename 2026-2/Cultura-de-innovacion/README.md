@@ -1,6 +1,7 @@
 # Cultura de Innovación
 
-**Periodo:** 2026-2 | **Institución:** ISIL
+**Periodo:** 2026-2 | **Institución:** ISIL  
+**Docente:** Ing. Sigfrido Erwin Alva Peralta | **Inicio:** 01/09/2026
 
 ---
 
