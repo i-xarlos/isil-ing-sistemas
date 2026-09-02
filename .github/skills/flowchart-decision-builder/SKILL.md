@@ -265,7 +265,7 @@ flowchart TD
 - **No cruzar líneas** cuando sea posible
 - **Etiquetar siempre** las conexiones de decisión
 - **Un solo punto de inicio** — múltiples fines son aceptables
-- **Usar Mermaid** como formato首选 (se renderiza en GitHub)
+- **Usar Mermaid** como formato preferido (se renderiza en GitHub)
 
 ---
 
