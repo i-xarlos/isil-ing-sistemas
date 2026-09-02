@@ -28,6 +28,8 @@ Este directorio contiene todos los **skills personalizados** para el repositorio
     │   └── SKILL.md         # Explicador con capas: básico → intermedio → técnico
     ├── learning-roadmap-generator/  # Skill: planes de aprendizaje semana a semana
     │   └── SKILL.md         # Generador de roadmaps con objetivos, recursos y checkpoints
+    ├── presentation-prep-skill/  # Skill: preparación de presentaciones slide por slide
+    │   └── SKILL.md         # Narrativa, visuales, notas del ponente y timing
     ├── structured-notes-generator/  # Skill: apuntes de estudio estructurados
     │   └── SKILL.md         # Generador de apuntes desde temas, PDFs o transcripciones
     └── utilities/           ← Skills de herramientas
@@ -75,6 +77,7 @@ Consulta [`.github/skills/`](./) para herramientas y análisis:
 | **academic-paper-drafter** | Estructurar y redactar trabajos académicos con formato estándar y citas | [academic-paper-drafter/SKILL.md](academic-paper-drafter/SKILL.md) |
 | **complex-concept-explainer** | Explicar conceptos complejos con analogías y 3 niveles de profundidad | [complex-concept-explainer/SKILL.md](complex-concept-explainer/SKILL.md) |
 | **learning-roadmap-generator** | Crear planes de aprendizaje semana a semana con objetivos, recursos y checkpoints | [learning-roadmap-generator/SKILL.md](learning-roadmap-generator/SKILL.md) |
+| **presentation-prep-skill** | Estructurar presentaciones slide por slide con narrativa, visuales y notas del ponente | [presentation-prep-skill/SKILL.md](presentation-prep-skill/SKILL.md) |
 | **structured-notes-generator** | Transformar temas, PDFs o transcripciones en apuntes de estudio | [structured-notes-generator/SKILL.md](structured-notes-generator/SKILL.md) |
 | **write-a-skill** | Crear nuevos skills personalizados | [utilities/write-a-skill/SKILL.md](utilities/write-a-skill/SKILL.md) |
 | **handoff** | Transferir conversación a otro agente | [utilities/handoff/SKILL.md](utilities/handoff/SKILL.md) |
@@ -198,6 +201,6 @@ Antes de agregar un nuevo skill, verifica:
 ## 📝 Última Actualización
 
 **Restructuración:** 10/06/2026 — Separación clara entre Instructions (reglas) y Skills (metodologías)  
-**Skills activos:** 9 (mermaid-analysis, academic-paper-drafter, complex-concept-explainer, learning-roadmap-generator, structured-notes-generator, write-a-skill, handoff, excel-reader, caveman)  
+**Skills activos:** 10 (mermaid-analysis, academic-paper-drafter, complex-concept-explainer, learning-roadmap-generator, presentation-prep-skill, structured-notes-generator, write-a-skill, handoff, excel-reader, caveman)  
 **Instructions activas:** 5 (writing, clase, actividad, images, mermaid-analysis)  
 **Compatibilidad:** VS Code + GitHub Copilot
