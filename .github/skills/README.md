@@ -22,6 +22,8 @@ Este directorio contiene todos los **skills personalizados** para el repositorio
     │   ├── SKILL.md         # Metodología de análisis
     │   ├── README.md        # Índice de la carpeta
     │   └── EJEMPLO-ANALISIS-REPOSITORIO-COMPLETO.md
+    ├── academic-paper-drafter/  # Skill: redacción de trabajos académicos
+    │   └── SKILL.md         # Estructura, guías de secciones, formato APA/Harvard/Vancouver
     ├── complex-concept-explainer/  # Skill: explicar conceptos con analogías y 3 niveles
     │   └── SKILL.md         # Explicador con capas: básico → intermedio → técnico
     ├── learning-roadmap-generator/  # Skill: planes de aprendizaje semana a semana
@@ -70,6 +72,7 @@ Consulta [`.github/skills/`](./) para herramientas y análisis:
 | Skill | Cuándo Usarlo | Archivo |
 |---|---|---|
 | **mermaid-analysis** | Analizar dónde agregar diagramas Mermaid | [mermaid-analysis/SKILL.md](mermaid-analysis/SKILL.md) |
+| **academic-paper-drafter** | Estructurar y redactar trabajos académicos con formato estándar y citas | [academic-paper-drafter/SKILL.md](academic-paper-drafter/SKILL.md) |
 | **complex-concept-explainer** | Explicar conceptos complejos con analogías y 3 niveles de profundidad | [complex-concept-explainer/SKILL.md](complex-concept-explainer/SKILL.md) |
 | **learning-roadmap-generator** | Crear planes de aprendizaje semana a semana con objetivos, recursos y checkpoints | [learning-roadmap-generator/SKILL.md](learning-roadmap-generator/SKILL.md) |
 | **structured-notes-generator** | Transformar temas, PDFs o transcripciones en apuntes de estudio | [structured-notes-generator/SKILL.md](structured-notes-generator/SKILL.md) |
@@ -195,6 +198,6 @@ Antes de agregar un nuevo skill, verifica:
 ## 📝 Última Actualización
 
 **Restructuración:** 10/06/2026 — Separación clara entre Instructions (reglas) y Skills (metodologías)  
-**Skills activos:** 8 (mermaid-analysis, complex-concept-explainer, learning-roadmap-generator, structured-notes-generator, write-a-skill, handoff, excel-reader, caveman)  
+**Skills activos:** 9 (mermaid-analysis, academic-paper-drafter, complex-concept-explainer, learning-roadmap-generator, structured-notes-generator, write-a-skill, handoff, excel-reader, caveman)  
 **Instructions activas:** 5 (writing, clase, actividad, images, mermaid-analysis)  
 **Compatibilidad:** VS Code + GitHub Copilot
