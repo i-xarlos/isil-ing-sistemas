@@ -139,7 +139,7 @@ Los checkpoints deben ser **verificables**, no abstractos:
 
 - **Máximo 5-7 horas semanales** salvo que el usuario pida más
 - **Máximo 12 semanas** por roadmap (si requiere más, dividir en fases)
-- **Incluir tiempo de descanso** entre semanas密集as
+- **Incluir tiempo de descanso** entre semanas intensas
 
 ---
 
