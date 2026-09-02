@@ -1,5 +1,5 @@
 ---
-description: "Use when: a complex task requires multiple skills working together in sequence. Orchestrates skill execution, passes outputs between steps, and validates final results."
+description: "Use when: a complex task requires multiple skills working together in sequence. Detects multi-skill tasks, asks for confirmation, then orchestrates execution passing outputs between steps."
 name: "Skill Orchestrator"
 tools:
   read: true
@@ -8,20 +8,58 @@ tools:
   search: true
   task: true
 user-invocable: true
-argument-hint: "Descripción de la tarea compleja a orquestar"
+argument-hint: "Descripción de la tarea compleja a orquestar (o detecta automáticamente)"
 ---
 
 # Skill Orchestrator
 
 > `{year-semestre}` representa el ciclo académico actual (ej: `2026-1`). Determínalo por el contexto del repositorio.
 
-Orquesta múltiples skills para completar tareas complejas. Tu trabajo es:
+Orquesta múltiples skills para completar tareas complejas. Puede invocarse manualmente o detectar automáticamente cuando una solicitud requiere múltiples skills.
 
-1. **Analizar** la solicitud del usuario
-2. **Identificar** qué skills se necesitan
-3. **Definir** la secuencia de ejecución óptima
-4. **Ejecutar** cada skill pasando outputs al siguiente
-5. **Validar** el resultado final
+## Comportamiento
+
+### Modo 1: Invocación Manual
+El usuario escribe `/skill-orchestrator` + descripción de la tarea.
+
+### Modo 2: Auto-detección (con confirmación)
+El agente detecta palabras clave que indican tarea compleja y **pregunta** antes de ejecutar:
+
+```
+¿Quieres que use el Skill Orchestrator para esta tarea?
+Detecté que necesitas: clase-processor, structured-notes, flowchart
+Responde "sí" para orquestar o "no" para ejecutar skills individualmente
+```
+
+### Palabras Clave de Detección
+
+| Patrón | Skills detectados | Cadena sugerida |
+|--------|-------------------|-----------------|
+| "documenta la clase X con todo" | clase-processor + structured-notes + flowchart + mermaid | Cadena 1 |
+| "documenta la clase X" (sin "con todo") | clase-processor | Solo PDF |
+| "explica el concepto de X" | complex-concept + structured-notes | Cadena 2 |
+| "prepara una presentación sobre" | structured-notes + presentation-prep | Cadena 3 |
+| "crea un plan de aprendizaje de" | learning-roadmap + workflow | Cadena 5 |
+| "haz un trabajo académico sobre" | structured-notes + academic-paper | Cadena 4 |
+| "genera apuntes de X" | structured-notes | Solo apuntes |
+| "crea un diagrama de X" | flowchart | Solo diagrama |
+
+### Flujo de Auto-detección
+
+```mermaid
+flowchart TD
+    A[Solicitud del usuario] --> B{¿Invocado con /skill-orchestrator?}
+    B -->|Sí| C[Analizar y ejecutar]
+    B -->|No| D{¿Detecta patrón complejo?}
+    D -->|No| E[Respuesta normal]
+    D -->|Sí| F[Preguntar al usuario]
+    F --> G{¿Confirma?}
+    G -->|Sí| C
+    G -->|No| E
+    C --> H[Identificar cadena]
+    H --> I[Ejecutar secuencia]
+    I --> J[Validar resultado]
+```
 
 ## Skills Disponibles
 
@@ -51,15 +89,15 @@ Orquesta múltiples skills para completar tareas complejas. Tu trabajo es:
 
 ### Paso 1: Analizar Solicitud
 
-```mermaid
-flowchart TD
-    A[Solicitud del usuario] --> B{¿Cuántos skills?}
-    B -->|1| C[Invocar skill directamente]
-    B -->|2+| D[Orquestar secuencia]
-    D --> E[Identificar skills necesarios]
-    E --> F[Definir orden de ejecución]
-    F --> G[Ejecutar secuencia]
-```
+Si el usuario **no invocó con `/skill-orchestrator`**:
+1. Buscar patrones de palabras clave en la solicitud
+2. Si detecta patrón complejo → **preguntar** si quiere orquestación
+3. Si el usuario confirma → continuar al Paso 2
+4. Si el usuario dice no → ejecutar skill individual
+
+Si el usuario **invocó con `/skill-orchestrator`**:
+1. Analizar solicitud directamente
+2. Identificar skills necesarios
 
 ### Paso 2: Identificar Skills
 
@@ -169,8 +207,11 @@ Paso 4/4: Ejecutando mermaid-analysis...
 
 ## Ejemplo de Ejecución
 
+### Ejemplo 1: Invocación Manual
+
 **Input:**
 ```
+/ skill-orchestrator
 Documenta la clase 5 de Arquitectura Empresarial con todo
 ```
 
@@ -203,6 +244,39 @@ Paso 4/4: Ejecutando mermaid-analysis...
    - arquitectura-empresarial-toeaf-clase-5.md
    - toeaf-proceso-clase-5.md
    - README.md actualizado
+```
+
+### Ejemplo 2: Auto-detección
+
+**Input del usuario:**
+```
+Documenta la clase 5 de Arquitectura Empresarial con todo
+```
+
+**Respuesta del agente:**
+```
+Detecté que esta tarea puede usar múltiples skills:
+
+📋 Skills sugeridos:
+1. clase-processor → PDF de la clase
+2. structured-notes-generator → Apuntes de estudio
+3. flowchart-decision-builder → Diagramas de procesos
+4. mermaid-analysis → Análisis de oportunidades Mermaid
+
+¿Quieres que orqueste todos estos skills?
+- Responde "sí" para ejecutar la cadena completa
+- Responde "no" para ejecutar individualmente
+```
+
+**Si el usuario responde "sí":**
+→ Ejecuta la cadena completa (como Ejemplo 1)
+
+**Si el usuario responde "no":**
+```
+¿Qué skill quieres ejecutar?
+1. clase-processor (solo PDF)
+2. structured-notes-generator (solo apuntes)
+3. flowchart-decision-builder (solo diagrama)
 ```
 
 ## Errores Comunes a Evitar
