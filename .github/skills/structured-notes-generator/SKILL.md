@@ -122,6 +122,8 @@ Para cada concepto que sea abstracto o difícil:
 3. **Ejemplo real** de empresa o industria
 4. **Conexión** con otro concepto del curso
 
+> **Nota:** Para analogías de alta calidad, seguir las reglas del skill `complex-concept-explainer`: la analogía debe ser fiel, reconocible y no forzada. Si el concepto requiere explicación por capas (básico → intermedio → técnico), invocar ese skill directamente.
+
 Si un concepto necesita más contexto, marcar con `[AMPLIAR]`.
 
 ---

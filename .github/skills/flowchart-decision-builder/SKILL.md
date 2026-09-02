@@ -38,7 +38,15 @@ Inicio
 
 ### Paso 3: Generar Diagrama
 
-Crear en formato Mermaid o ASCII según el caso.
+Crear en formato Mermaid o ASCII según el caso:
+
+| Complejidad | Formato recomendado | Cuándo usarlo |
+|-------------|---------------------|---------------|
+| **Simple** (3-5 nodos) | Mermaid | Flujos lineales, decisiones sí/no |
+| **Media** (6-10 nodos) | Mermaid | Procesos con varias ramas |
+| **Compleja** (10+ nodos) | ASCII o dividir en subdiagramas | Arquitectura, procesos con muchas excepciones |
+
+> **Regla:** Si Mermaid no se renderiza correctamente (diagrama demasiado ancho, cruces inevitables), usar ASCII. La claridad del diagrama tiene prioridad sobre el formato.
 
 ### Paso 4: Validar Claridad
 
@@ -265,7 +273,7 @@ flowchart TD
 - **No cruzar líneas** cuando sea posible
 - **Etiquetar siempre** las conexiones de decisión
 - **Un solo punto de inicio** — múltiples fines son aceptables
-- **Usar Mermaid** como formato首选 (se renderiza en GitHub)
+- **Usar Mermaid** como formato首选 para diagramas simples; **ASCII** cuando Mermaid no sea suficiente (arquitectura compleja, diagramas muy anchos)
 
 ---
 
