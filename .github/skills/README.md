@@ -36,6 +36,8 @@ Este directorio contiene todos los **skills personalizados** para el repositorio
     │   └── SKILL.md         # Narrativa, visuales, notas del ponente y timing
     ├── structured-notes-generator/  # Skill: apuntes de estudio estructurados
     │   └── SKILL.md         # Generador de apuntes desde temas, PDFs o transcripciones
+    ├── workflow-automation-agent/  # Skill: automatización de flujos de trabajo
+    │   └── SKILL.md         # Descomposición de tareas, mapeo de herramientas, optimización
     └── utilities/           ← Skills de herramientas
         ├── README.md
         ├── write-a-skill/
@@ -85,6 +87,7 @@ Consulta [`.github/skills/`](./) para herramientas y análisis:
 | **learning-roadmap-generator** | Crear planes de aprendizaje semana a semana con objetivos, recursos y checkpoints | [learning-roadmap-generator/SKILL.md](learning-roadmap-generator/SKILL.md) |
 | **presentation-prep-skill** | Estructurar presentaciones slide por slide con narrativa, visuales y notas del ponente | [presentation-prep-skill/SKILL.md](presentation-prep-skill/SKILL.md) |
 | **structured-notes-generator** | Transformar temas, PDFs o transcripciones en apuntes de estudio | [structured-notes-generator/SKILL.md](structured-notes-generator/SKILL.md) |
+| **workflow-automation-agent** | Descomponer tareas complejas en flujos de trabajo paso a paso con mapeo de herramientas | [workflow-automation-agent/SKILL.md](workflow-automation-agent/SKILL.md) |
 | **write-a-skill** | Crear nuevos skills personalizados | [utilities/write-a-skill/SKILL.md](utilities/write-a-skill/SKILL.md) |
 | **handoff** | Transferir conversación a otro agente | [utilities/handoff/SKILL.md](utilities/handoff/SKILL.md) |
 | **excel-reader** | Extraer contenido de archivos Excel | [utilities/excel-reader/SKILL.md](utilities/excel-reader/SKILL.md) |
@@ -207,6 +210,6 @@ Antes de agregar un nuevo skill, verifica:
 ## 📝 Última Actualización
 
 **Restructuración:** 10/06/2026 — Separación clara entre Instructions (reglas) y Skills (metodologías)  
-**Skills activos:** 12 (mermaid-analysis, academic-paper-drafter, complex-concept-explainer, conventional-commit-generator, flowchart-decision-builder, learning-roadmap-generator, presentation-prep-skill, structured-notes-generator, write-a-skill, handoff, excel-reader, caveman)  
+**Skills activos:** 13 (mermaid-analysis, academic-paper-drafter, complex-concept-explainer, conventional-commit-generator, flowchart-decision-builder, learning-roadmap-generator, presentation-prep-skill, structured-notes-generator, workflow-automation-agent, write-a-skill, handoff, excel-reader, caveman)  
 **Instructions activas:** 5 (writing, clase, actividad, images, mermaid-analysis)  
 **Compatibilidad:** VS Code + GitHub Copilot
