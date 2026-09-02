@@ -2,7 +2,9 @@
 
 **Curso:** Diseño de Soluciones con IA  
 **Programa:** Ingeniería de Sistemas  
-**Período:** 2026-1
+**Período:** 2026-1  
+**Docente:** Omar David Visitación Romero  
+**Inicio:** 08/04/2026
 
 ---
 

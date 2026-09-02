@@ -1,6 +1,7 @@
 # Inteligencia Artificial Aplicada
 
-**Periodo:** 2026-2 | **Institución:** ISIL
+**Periodo:** 2026-2 | **Institución:** ISIL  
+**Docente:** [pendiente] | **Inicio:** 01/09/2026
 
 ---
 

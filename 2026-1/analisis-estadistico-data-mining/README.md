@@ -2,7 +2,9 @@
 
 **Curso:** Análisis Estadístico y Data Mining  
 **Programa:** Ingeniería de Sistemas  
-**Período:** 2026-1
+**Período:** 2026-1  
+**Docente:** Omar David Visitación Romero  
+**Inicio:** 15/04/2026
 
 ---
 

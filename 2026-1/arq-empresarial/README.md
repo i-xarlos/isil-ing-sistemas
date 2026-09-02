@@ -2,7 +2,9 @@
 
 **Curso:** Arquitectura Empresarial  
 **Programa:** Ingeniería de Sistemas  
-**Período:** 2026-1
+**Período:** 2026-1  
+**Docente:** Richard Anthony Romero Mori  
+**Inicio:** 08/04/2026
 
 ---
 

@@ -2,7 +2,9 @@
 
 **Curso:** Customer Centricity & Agilidad en TI  
 **Programa:** Ingeniería de Sistemas  
-**Período:** 2026-1
+**Período:** 2026-1  
+**Docente:** Henry Joseph Paredes del Alamo  
+**Inicio:** 10/04/2026
 
 ---
 

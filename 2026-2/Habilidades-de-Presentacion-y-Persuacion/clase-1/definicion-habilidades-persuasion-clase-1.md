@@ -1,21 +1,42 @@
 # Definición de Habilidades de Persuasión (Clase 1)
 
 **Curso:** Habilidades de Presentación y Persuasión (ISIL, 2026-2)  
-**Docente:** [pendiente]  
+**Docente:** Macarena Soto  
 **Fecha:** 01/09/2026
 
 ---
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez has visto una presentación que te dejó boquiabierto? ¿Qué la hizo tan especial? No fue solo el contenido, sino la forma en que fue presentada.
+**Gancho humano:** Tener una buena idea no basta. Es indispensable saber cómo presentarla para generar interés y recordación en la audiencia.
 
-**Pregunta guía:** ¿Qué componentes hacen que una presentación sea de alto impacto y memorable?
+**Frase clave de inicio:**
+> *"Una buena presentación no comienza cuando abrimos el PowerPoint; comienza cuando decidimos qué queremos comunicar a la audiencia, qué queremos que sientan durante la presentación y qué queremos que recuerden al final."*
 
-**Objetivos de aprendizaje:**
-- Conocer los principales componentes para crear presentaciones espectaculares
-- Entender la importancia de conocer a la audiencia
-- Comprender el papel de los componentes emocionales y la innovación
+**Objetivo principal:** El curso no busca transformar a los estudiantes en grandes oradores de un día para otro, sino brindarles un espacio seguro para practicar, cometer errores y recibir retroalimentación. La meta es que cada participante descubra su propio estilo, aprenda a conocer a su audiencia y comunique con claridad, seguridad y autenticidad.
+
+**Diversidad:** Al participar alumnos de distintas carreras, la variedad de estilos y formas de interpretar los contenidos enriquecerá el aprendizaje grupal.
+
+---
+
+## Estructura del Sílabo y Evaluación
+
+El curso consta de 3 créditos (2 horas síncronas los martes y 1 hora asíncrona) y se divide en 4 componentes principales:
+
+| Semanas | Componente | Enfoque |
+|---------|------------|---------|
+| 1-3 | **Comunicacional** | Análisis de estilos de comunicación y alineación con las presentaciones |
+| 4-7 | **Emocional** | Conexión con la audiencia mediante emociones e historias para lograr recordación |
+| 8-11 | **Innovador** | Técnicas de impacto que generan el "efecto wow" |
+| 12-16 | **Memorable** | Manejo de tiempos, estructura y recursos para perdurar en la mente del público |
+
+### Evaluación
+
+- 4 entregas de procesos de aprendizaje (semanas 4, 7, 10 y 13)
+- 1 evaluación integral
+- La mayoría de trabajos requieren evidencia en video
+- Las consignas se entregan una semana antes
+- La plataforma institucional otorga 24 horas adicionales tras la fecha límite antes de cerrar el acceso
 
 ---
 
@@ -27,33 +48,27 @@ Son 3 los componentes que contribuyen a crear presentaciones de alto impacto:
 
 | Componente | Descripción |
 |------------|-------------|
-| **Emocional** | Despertar emociones agradables |
-| **Innovación** | Generar el efecto WOW (enseñando algo «nuevo») |
-| **Hacerlo memorable** | Dejar recuerdos gratos en el corazón de la audiencia |
+| **Emocional** | Conectar con la audiencia a través de emociones (agradables o incluso impactantes) para abrir la puerta del entendimiento |
+| **Innovación** | Enseñar algo nuevo o diferente para captar la atención mediante el "efecto Wow" |
+| **Memorable** | Dejar un recuerdo perdurable en la audiencia tras finalizar la exposición |
 
 ### Una presentación de alto impacto es como hacer un SHOW de magia
 
 Hay que emocionar a la audiencia robándoles más de una sonrisa y dejarlos boquiabiertos sacando varios conejos del sombrero. Esta es la única manera de grabarse en su memoria y dejar un buen recurso.
 
-### Recursos para Impactar
-
-1. **Buscar un experto:** Que te enseñe sobre tu imagen personal y presentaciones multimedia
-2. **Usar videos:** Un corto, un fragmento de una película, una caricatura
-3. **Usar recursos auditivos:** Un discurso, un podcast, una canción, música
-4. **Usar tangibles:** Material didáctico para armar, para hacer, para jugar
-
 ---
 
-## 2. Audiencia
+## 2. Conocimiento de la Audiencia
 
 ### ¿Por qué es importante conocer a la audiencia?
 
-Conocer a la audiencia es la clave para crear presentaciones de alto impacto. Para ello es importante responder:
+Para estructurar cualquier presentación, es imprescindible definir:
 
-- ¿Qué objetivo se quiere alcanzar con la presentación?
-- ¿Cómo le aporta VALOR la presentación a la audiencia?
-- ¿Por quiénes está conformada la audiencia? (Datos demográficos)
-- ¿Qué nivel de conocimiento tiene la audiencia sobre el tema?
+- **El objetivo:** ¿Qué se busca lograr al final? (ej. aprobar un proyecto, sustentar una tesis, presentar un perfil profesional)
+- **El valor o beneficio:** ¿Qué aporta la exposición a la audiencia?
+- **El perfil del público:** Considerar edad, grado de instrucción, nivel socioeconómico y el nivel de conocimiento previo sobre el tema
+
+> No es lo mismo presentar un proyecto a clientes, a un equipo técnico o a un grupo de ejecutivos.
 
 ### Niveles de Conocimiento
 
@@ -77,47 +92,54 @@ Es recomendable elaborar una «Ficha Persona», que consiste en crear un persona
 - Nivel de conocimiento: experto
 - Objetivo: Convencerlo para que sea auspiciador de un proyecto digital
 
+### Experiencia de la docente
+
+Macarena Soto compartió cómo, tras años de presentar proyectos ante gerentes y directores, tuvo que salir de su zona de confort al asumir la docencia para adaptar su estilo de comunicación a un público joven y universitario.
+
 ### Modelo de aprendizaje atribuido a William Glasser
 
 Este modelo propone que la participación activa, la discusión y la enseñanza a otros pueden favorecer el aprendizaje. Sus porcentajes exactos no deben interpretarse como resultados científicos universales.
 
-### Ejemplo Práctico: Presentación en ISIL
+---
 
-**Escenario:** Un estudiante de Ingeniería debe presentar un proyecto de IA ante inversores de banca.
+## 3. Recursos para Presentaciones de Alto Impacto (directivos)
 
-| Componente | Cómo Aplicarlo |
-|------------|----------------|
-| **Emocional** | Abrir con un caso documentado o, si es hipotético, presentarlo como una situación ilustrativa |
-| **Innovación** | Mostrar demo en vivo de un prototipo funcionando (no solo slides) |
-| **Memorable** | Cerrar con un resultado medible del prototipo, indicando que la cifra es ilustrativa hasta validarla con datos |
+Las técnicas para preparar presentaciones dirigidas a directivos, CEOs o miembros de la empresa incluyen:
 
-**Estructura de la presentación (15 minutos):**
-1. **Min 0-2:** Historia impactante (gancho emocional)
-2. **Min 2-5:** Problema actual en banca (datos + empatía)
-3. **Min 5-10:** Demo de la solución (innovación + efecto WOW)
-4. **Min 10-13:** Beneficios concretos (resultado: S/ ahorrados)
-5. **Min 13-15:** CTA y preguntas (memorable)
+### Preparación estratégica
 
-> **Resultado:** Los inversores no solo aprueban el proyecto, sino que quieren ser parte de él.
+- **Asesoría experta:** Recurrir a especialistas en imagen o diseño para estructurar presentaciones visual y personalmente impactantes si el evento es crítico
+- **Cambio de entorno:** Si se busca la aprobación o el voto positivo de decisiones clave, es recomendable rentar una sala de reuniones fuera de la empresa para tener una audiencia cautiva y libre de distracciones del trabajo diario
 
-### Ejemplo: Ficha Persona para Presentación Bancaria
+### Recursos multimedia
 
-| Campo | Ejemplo |
-|-------|---------|
-| **Nombre** | María Fernández |
-| **Edad** | 45 años |
-| **Cargo** | Gerente de Innovación Digital, BCP |
-| **Generación** | Gen X |
-| **Nivel de conocimiento** | Experto en banca, novato en IA |
-| **Objetivo** | Convencerla para que apruebe presupuesto de S/ 500,000 para proyecto IA |
-| **Preocupación** | Que la IA funcione con datos sensibles de clientes |
-| **Sistema de representación** | Visual (le gusta ver gráficos, no texto largo) |
+| Tipo | Ejemplos |
+|------|----------|
+| **Visuales/Videos** | Cortometrajes, fragmentos de películas o caricaturas para reforzar el punto principal |
+| **Auditivos** | Canciones, fragmentos de pódcast o discursos famosos que empalmen con la tendencia o tema tratado |
+| **Elementos Tangibles** | Llevar el producto físico, invitar a alguien a hacer una demostración en vivo del servicio o utilizar material didáctico/juegos para mantener las manos y la atención ocupadas |
 
-> **Estrategia:** Usar menos texto, más imágenes. Enfocarme en seguridad y casos de éxito en otros bancos.
+### Regla de duración
+
+> Las presentaciones de alto impacto deben ser dinámicas y no extenderse por más de una hora.
 
 ---
 
-## 3. Componentes Emocionales
+## 4. Ejemplos Participativos de la Sesión
+
+### Ejemplo 1: Naomi Mariñas — Presentación en congreso nikkei
+
+- **Caso:** Exposición durante un congreso de la comunidad peruano-japonesa
+- **Por qué fue memorable:** El expositor innovó en su enfoque. En lugar de limitarse a temas históricos o ancestrales habituales, vinculó la filosofía, los valores y la cultura nikkei con la administración de empresas, la publicidad, el marketing y el mundo de las *startups*
+- **Conclusión:** La innovación en la forma de presentar un tema común captó la atención y permitió recordar el contenido en detalle
+
+### Ejemplo 2: Video explicativo (presentado por Aarón Buendía)
+
+Se reprodujo un video con técnicas para preparar presentaciones ante directivos. Los puntos clave fueron los recursos multimedia, el cambio de entorno y la asesoría experta (detallados en la sección anterior).
+
+---
+
+## 5. Componentes Emocionales
 
 ### ¿Por qué son importantes?
 
@@ -144,7 +166,7 @@ Según el psicólogo Paul Ekman, existen 5 emociones básicas en el ser humano:
 
 ---
 
-## 4. Innovación
+## 6. Innovación
 
 ### ¿Qué es el Efecto WOW?
 
@@ -162,7 +184,7 @@ Las presentaciones de ALTO IMPACTO deben elevar los niveles de dopamina de la au
 
 ---
 
-## 5. Hacerlo Memorable
+## 7. Hacerlo Memorable
 
 ### ¿Qué hace a una presentación memorable?
 
@@ -199,11 +221,48 @@ Las presentaciones de ALTO IMPACTO deben elevar los niveles de dopamina de la au
 
 ---
 
+## Ejemplo Práctico: Presentación en ISIL
+
+**Escenario:** Un estudiante de Ingeniería debe presentar un proyecto de IA ante inversores de banca.
+
+| Componente | Cómo Aplicarlo |
+|------------|----------------|
+| **Emocional** | Abrir con un caso documentado o, si es hipotético, presentarlo como una situación ilustrativa |
+| **Innovación** | Mostrar demo en vivo de un prototipo funcionando (no solo slides) |
+| **Memorable** | Cerrar con un resultado medible del prototipo, indicando que la cifra es ilustrativa hasta validarla con datos |
+
+**Estructura de la presentación (15 minutos):**
+1. **Min 0-2:** Historia impactante (gancho emocional)
+2. **Min 2-5:** Problema actual en banca (datos + empatía)
+3. **Min 5-10:** Demo de la solución (innovación + efecto WOW)
+4. **Min 10-13:** Beneficios concretos (resultado: S/ ahorrados)
+5. **Min 13-15:** CTA y preguntas (memorable)
+
+> **Resultado:** Los inversores no solo aprueban el proyecto, sino que quieren ser parte de él.
+
+### Ejemplo: Ficha Persona para Presentación Bancaria
+
+| Campo | Ejemplo |
+|-------|---------|
+| **Nombre** | María Fernández |
+| **Edad** | 45 años |
+| **Cargo** | Gerente de Innovación Digital, BCP |
+| **Generación** | Gen X |
+| **Nivel de conocimiento** | Experto en banca, novato en IA |
+| **Objetivo** | Convencerla para que apruebe presupuesto de S/ 500,000 para proyecto IA |
+| **Preocupación** | Que la IA funcione con datos sensibles de clientes |
+| **Sistema de representación** | Visual (le gusta ver gráficos, no texto largo) |
+
+> **Estrategia:** Usar menos texto, más imágenes. Enfocarme en seguridad y casos de éxito en otros bancos.
+
+---
+
 ## Conclusiones
 
-1. Conocer a la audiencia es la clave para crear presentaciones de alto impacto.
-2. Existen componentes que contribuyen a crear presentaciones de alto impacto: componente emocional, innovación, hacerlo memorable.
-3. Para lograr una presentación efectiva, tanto el presentador como la presentación deben ser IMPACTANTES.
+1. Tener una buena idea no basta; saber presentarla es lo que marca la diferencia.
+2. Conocer a la audiencia es la clave para crear presentaciones de alto impacto.
+3. Los 3 componentes (emocional, innovación, memorable) se complementan para lograr recordación.
+4. La práctica en un espacio seguro permite descubrir el propio estilo y ganar seguridad.
 
 **Frase clave:**
 > "No es por lo que eres, es por lo que transmites. Allí está tu magia."
