@@ -1,7 +1,16 @@
 # Inteligencia Artificial Aplicada
 
 **Periodo:** 2026-2 | **Institución:** ISIL  
-**Docente:** [pendiente] | **Inicio:** 01/09/2026
+**Profesor:** Mg. Christian Cancharez Aguirre | **Inicio:** 01/09/2026
+
+### Unidades del Curso
+
+| Unidad | Tema | Semanas |
+|--------|------|---------|
+| I | Fundamentos de la IA | 4 |
+| II | Interacción y diseño de prompts | 3 |
+| III | Producción y automatización con IA | 4 |
+| IV | IA como herramienta estratégica de aprendizaje y exploración | 3 |
 
 ---
 

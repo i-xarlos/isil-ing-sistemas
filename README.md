@@ -296,7 +296,7 @@ Cada carpeta de clase incluye:
 
 | Semana | Tema | Notas |
 |--------|------|-------|
-| 1 | ¿Qué es la IA y por qué es importante? | [Ver](2026-2/Inteligencia-Artificial-Aplicada/clase-1/que-es-ia-y-por-que-importa-clase-1.md) |
+| 1 | ¿Qué es la IA y por qué es importante? — Historia, evolución, paradigmas y modelos de lenguaje | [Ver](2026-2/Inteligencia-Artificial-Aplicada/clase-1/que-es-ia-y-por-que-importa-clase-1.md) |
 | 2 | IA: Riesgos y Limitaciones | [Ver](2026-2/Inteligencia-Artificial-Aplicada/clase-2/ia-riesgos-y-limitaciones-clase-2.md) |
 
 ---
