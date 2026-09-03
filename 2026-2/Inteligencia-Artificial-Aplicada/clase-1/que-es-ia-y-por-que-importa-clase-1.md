@@ -1,7 +1,7 @@
 # ¿Qué es la IA y por qué es importante? (Clase 1)
 
 **Curso:** Inteligencia Artificial Aplicada (ISIL, 2026-2)  
-**Docente:** [pendiente]  
+**Docente:** Mg. Christian Cancharez Aguirre  
 **Fecha:** 01/09/2026
 
 ---
@@ -33,6 +33,57 @@ Es la capacidad de las máquinas para realizar tareas que normalmente requieren 
 | **IA Simbólica** | 1950-1980 | Sistemas basados en reglas lógicas explícitas programadas por humanos |
 | **IA Estadística** | 1990-2010 | Sistemas que aprenden patrones a partir de datos usando métodos matemáticos |
 | **IA Generativa** | 2020-presente | Sistemas capaces de crear contenido nuevo aprendiendo de ejemplos existentes |
+
+### Historia y Evolución de la IA
+
+La inteligencia artificial no surgió de la noche a la mañana. Su historia se remonta a miles de años, cuando los filósofos antiguos ya consideraban cuestiones de vida, muerte y lo que significaba ser "inteligente".
+
+#### Antecedentes Históricos
+
+| Año | Antecedente | Descripción |
+|-----|-------------|-------------|
+| **400 a.C.** | Paloma mecánica de Arquitas | Amigo del filósofo Platón creó un autómata que simulaba los movimientos de un ave |
+| **1495** | Máquina voladora de Leonardo Da Vinci | Inventó una construcción autómata capaz de simular el vuelo de un ave |
+| **1921** | Término "Robot" | Karel Čapek acuña la palabra "robot" en una obra de teatro checa |
+| **1938** | Primera serie de ciencia ficción | La BBC emite "R.U.R." de Čapek, explorando la idea de cerebros artificiales |
+
+> **Dato clave:** La palabra "autómata" proviene del griego antiguo y significa "actuar por voluntad propia".
+
+#### Pioneros de la Inteligencia Artificial
+
+| Pionero | Contribución Principal | Año |
+|---------|----------------------|-----|
+| **Alan Turing** | Test de Turing; descifrado de ENIGMA; padre de la computación teórica | 1950 |
+| **John McCarthy** | Acuñó "inteligencia artificial"; creó LISP; pionero de la IA simbólica | 1956 |
+| **Arthur Samuel** | Acuñó "Machine Learning"; programas de ajedrez autodidactas | 1959 |
+| **Joseph Weizenbaum** | Creó ELIZA, primer chatbot de la historia | 1966 |
+| **Geoffrey Hinton** | Creó backpropagation; padre del deep learning moderno | 1986 |
+| **Marvin Minsky** | Construyó SNARC, primer ordenador con red neuronal | 1951 |
+
+#### Etapas de la Evolución de la IA
+
+| Etapa | Período | Hitos Principales |
+|-------|---------|-------------------|
+| **1. Nacimiento** | 1950-1956 | Alan Turing publica "Maquinaria computacional e inteligencia" (1950); John McCarthy acuña "inteligencia artificial" en Dartmouth (1956) |
+| **2. Maduración** | 1957-1979 | John McCarthy crea LISP (1958); Arthur Samuel acuña "Machine Learning" (1959); Joseph Weizenbaum crea ELIZA, primer chatbot (1966) |
+| **3. Auge** | 1980-1987 | Ernst Dickmann presenta primer automóvil sin conductor (1986); Geoffrey Hinton crea backpropagation (1986) |
+| **4. Invierno** | 1988-1993 | Período de escaso interés y financiación reducida en IA |
+| **5. IA Moderna** | 1993-2011 | Deep Blue vence a Kasparov (1997); Windows lanza reconocimiento de voz (1997); Netflix, Facebook usan IA (2006); Apple lanza Siri (2011) |
+| **6. IA General** | 2012-hoy | Google entrena red neuronal para reconocer gatos (2012); OpenAI desarrolla DALL-E (2021); GPT-3 alcanza 100M usuarios en 2 meses (2022) |
+
+#### Línea de Tiempo Detallada
+
+| Década | Hitos Principales |
+|--------|-------------------|
+| **1940** | Alan Turing construye ENIGMA; Konrad Zuse crea primera computadora programable; McCulloch y Pitts primer modelo de red neuronal |
+| **1950** | Término "inteligencia artificial" en Dartmouth; Marvin Minsky construye SNARC; Isaac Asimov publica "Yo, robot" |
+| **1960** | Arthur Samuel escribe programas de ajedrez autodidactas; Se crea PROLOG en Francia; Newell y Simon formulan hipótesis de sistemas simbólicos |
+| **1970** | Se desarrolla programa SAINT para resolución de problemas; McDermott crea R1, primer sistema experto comercial exitoso |
+| **1980-90** | Aparición del razonamiento probabilístico; Deep Blue vence a Kasparov (1997) |
+| **2000-2005** | Robomascotas interactivas; Robot ASIMO de Honda; Proyecto Blue Brain |
+| **2005-2010** | Reconocimiento de voz en iPhone; Google construye auto autónomo |
+| **2010-2020** | Alexa, Siri, Google Now; AlphaGo vence a Lee Sedol; Watson gana premio de $1M |
+| **2020-2025** | GPT-3, DALL-E, ChatGPT; IA generativa masiva |
 
 ### IA Simbólica (1950-1980)
 
@@ -156,12 +207,26 @@ Entrenar una IA es como enseñar a un niño, pero con millones de ejemplos. Este
 - Alexa, de Amazon, como ejemplo internacional de asistente virtual
 - Chatbots de Claro, Movistar, Entel
 
+**Casos de éxito en Perú:**
+- **BCP:** Asistente virtual para consultas bancarias 24/7
+- **Interbank:** Chatbot para atención al cliente y transferencias
+- **Claro:** Asistente virtual para soporte técnico
+
+**Evolución de los asistentes:**
+| Año | Asistente | Empresa | Característica Principal |
+|-----|-----------|---------|--------------------------|
+| 1966 | ELIZA | MIT | Primer chatbot, terapeuta simulado |
+| 2011 | Siri | Apple | Primer asistente virtual popular |
+| 2014 | Alexa | Amazon | Asistente con interfaz de voz |
+| 2016 | Google Now | Google | Integración con servicios Google |
+| 2016 | Cortana | Microsoft | Integración con Windows |
+
 ### Algoritmos de Recomendación
 
 **Ejemplos:**
 - Netflix recomienda series basándose en lo que has visto
 - Spotify genera listas personalizadas como "Descubrimiento semanal"
-- Juntoz: "Los clientes que compraron esto también compraron..."
+- Amazon: "Los clientes que compraron esto también compraron..."
 
 ### Personalización en Plataformas Digitales
 
@@ -177,6 +242,20 @@ La IA no solo reacciona, sino que predice comportamientos y necesidades futuras:
 - **Gestión de riesgo crediticio:** Los bancos predicen la probabilidad de que un cliente pague
 - **Predicción de demanda:** Supermercados predicen qué productos se venderán más
 
+### Reconocimiento de Voz e Imagen
+
+**Hitos:**
+- **1997:** Windows lanza software de reconocimiento de voz (Dragon Systems)
+- **2011:** Apple lanza Siri con reconocimiento de voz
+- **2012:** Google entrena red neuronal para reconocer gatos en imágenes
+
+### Vehículos Autónomos
+
+**Evolución:**
+- **1986:** Ernst Dickmann presenta el primer automóvil sin conductor (55 mph)
+- **2005:** Google construye el primer auto capaz de manejarse así mismo
+- **2010-2020:** Desarrollo de vehículos autónomos por Waymo, Tesla, etc.
+
 ---
 
 ## 5. Diferencias entre IA Generativa y Otras Formas de Automatización
@@ -189,15 +268,72 @@ La IA no solo reacciona, sino que predice comportamientos y necesidades futuras:
 
 ---
 
+## 6. La IA en el Perú
+
+### Estrategia Nacional de IA
+
+El Perú cuenta con una **Estrategia Nacional de Inteligencia Artificial** (2019) que busca:
+- Promover el desarrollo responsable de la IA
+- Cerrar la brecha digital
+- Generar oportunidades económicas y sociales
+
+### Sectores Clave en Perú
+
+| Sector | Aplicación de IA | Ejemplo |
+|--------|------------------|---------|
+| **Banca** | Detección de fraudes, scoring crediticio | BCP, Interbank |
+| **Retail** | Recomendación de productos, predicción de demanda | Ripley, Falabella |
+| **Logística** | Optimización de rutas, mantenimiento predictivo | DHL, Molina |
+| **Salud** | Diagnóstico asistido, análisis de imágenes médicas | Clínicas privadas |
+| **Agricultura** | Monitoreo de cultivos, predicción de rendimientos | Agrícola Afumosa |
+
+### Brecha Digital en Perú
+
+**Desafíos:**
+- Acceso limitado a internet en zonas rurales
+- Brecha de habilidades digitales
+- Costo elevado de infraestructura tecnológica
+
+**Oportunidades:**
+- Programas de capacitación en IA
+- Alianzas público-privadas
+- Inversión en infraestructura digital
+
+---
+
 ## Conclusiones
 
 1. La IA evolucionó de reglas simbólicas a modelos generativos. No piensa como humano, sino usa correlaciones estadísticas.
 2. La IA en Perú ya se usa en banca, retail y logística. Existe una brecha digital que puede ampliar desigualdades, pero también oportunidades únicas.
 3. Es recomendable adoptar un "optimismo crítico": aprovechar la IA para aumentar productividad, siempre verificando la información.
 4. La IA plantea dilemas sobre responsabilidad, privacidad y equidad.
+5. La historia de la IA muestra un patrón de expectativas, decepciones y logros revolucionarios.
 
 **Frase clave:**
 > "La inteligencia artificial es la nueva electricidad. Así como la electricidad transformó casi todo hace 100 años, hoy la IA está a punto de transformar casi todas las industrias." — Andrew Ng
+
+---
+
+## Sobre el Docente
+
+**Mg. Christian Cancharez Aguirre**
+- Miembro de la Red Nacional de Innovadores Digitales de la PCM
+- Miembro de la mesa técnica de creación de la Ley de Inteligencia Artificial en el Perú N°31814
+- Doctorando en Ciencias, mención en ingeniería y Soluciones Inteligentes
+- Magister en Administración de Empresas - MBA
+- Becario del Programa "Impact Harvard Business" - Harvard University (USA)
+
+**Certificaciones:**
+- Facilitador de inteligencia artificial MICROSOFT EIDOS
+- Instructor Certificado por GOOGLE GEMINI
+- Instructor de inteligencia artificial certificado UNESCO IESALC
+- Especialista del programa "Artificial Intelligence" OEA YOUTH ACADEMY (USA)
+- Especialista del programa "Element AI" UNIVERSIDAD DE HELSINKI (FINLANDIA)
+- Instructor "Train The Trainers Innovation" UNIVERSIDAD DE INHA (COREA DEL SUR)
+
+**Libros publicados:**
+- "Comportamiento del consumidor Customer Experience 2025" (ISBN 978-612-03-0563-8)
+- "Fundamentos de Inteligencia Artificial para negocios"
 
 ---
 
@@ -213,6 +349,14 @@ La IA no solo reacciona, sino que predice comportamientos y necesidades futuras:
 | **Token** | Unidad pequeña de texto que el modelo procesa | Palabra o parte de palabra |
 | **Alucinación** | Información falsa presentada con confianza por la IA | Estadísticas inventadas |
 | **Optimismo crítico** | Aprovechar IA comprendiendo sus límites | Usar ChatGPT verificando resultados |
+| **Test de Turing** | Prueba propuesta por Alan Turing para evaluar si una máquina puede pensar | Conversación con chatbot |
+| **LISP** | Primer lenguaje de programación para investigación de IA (1958) | Usado en investigación académica |
+| **Machine Learning** | Aprendizaje automático; máquinas que aprenden de datos | Recomendaciones de Netflix |
+| **Backpropagation** | Algoritmo para entrenar redes neuronales (1986) | Base del deep learning moderno |
+| **Deep Blue** | Supercomputadora de IBM que venció al campeón mundial de ajedrez (1997) | Victoria sobre Kaspárov |
+| **DALL-E** | Modelo de IA que genera imágenes a partir de texto (2021) | Crear imágenes con descripciones |
+| **GPT-3** | Modelo de lenguaje grande de OpenAI (2022) | ChatGPT, 100M usuarios en 2 meses |
+| **Autómata** | Mecanismo que se mueve independientemente de la intervención humana | Paloma mecánica de Arquitas (400 a.C.) |
 
 ---
 
@@ -235,6 +379,7 @@ La IA no solo reacciona, sino que predice comportamientos y necesidades futuras:
 | 3 | Comisión Europea. (2020). Libro blanco sobre IA | Informe | https://ec.europa.eu/info/publications/white-paper-artificial-intelligence-european-approach-excellence-and-trust_es |
 | 4 | Ministerio de la Producción del Perú. (2019). Estrategia Nacional de IA | Informe | https://cdn.www.gob.pe/uploads/document/file/1394099/Estrategia%20Nacional%20de%20Inteligencia%20Artificial.pdf |
 | 5 | Ng, A. (2024). AI for everyone | Curso | https://www.coursera.org/learn/ai-for-everyone-es |
+| 6 | Cancharez, C. (2026). Inteligencia Artificial Aplicada - Sesión 1: Evolución de la IA | Presentación ISIL | ./IA_APLICADA_SESION_1_evolucion_compressed.pdf |
 
 ---
 
