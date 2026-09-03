@@ -1,0 +1,44 @@
+name: Validate Clases & Actividades
+
+on:
+  pull_request:
+    paths:
+      - '**/clase-*/*.md'
+      - '**/clase-*/*.png'
+      - '**/clase-*/*.jpg'
+      - '**/actividad-*/*.md'
+      - '**/actividad-*/*.png'
+      - '**/actividad-*/*.jpg'
+
+jobs:
+  validate:
+    name: Validar formato de clases
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get changed files
+        id: changed
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            **/clase-*/*.md
+            **/clase-*/*.png
+            **/clase-*/*.jpg
+            **/clase-*/*.jpeg
+            **/clase-*/*.gif
+            **/actividad-*/*.md
+            **/actividad-*/*.png
+            **/actividad-*/*.jpg
+            **/actividad-*/*.jpeg
+            **/actividad-*/*.gif
+
+      - name: Validate format and content
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          echo "Archivos detectados en el PR:"
+          echo "${{ steps.changed.outputs.all_changed_files }}"
+          echo ""
+          .github/scripts/validate-clases.sh ${{ steps.changed.outputs.all_changed_files }}
