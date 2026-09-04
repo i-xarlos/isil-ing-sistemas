@@ -7,6 +7,12 @@
 
 ---
 
+## Preview Visual
+
+**[Ver Infografía HTML](https://html-preview.github.io/?url=https://raw.githubusercontent.com/i-xarlos/isil-ing-sistemas/feat/plan-negocio-puredose/proyecto-limpieza/infografia-plan-negocio.html)** — Mapa visual interactivo con costos, inversión, marketing, roadmap, Year 2, cursos ISIL, retail, y más.
+
+---
+
 ## Documentos del Proyecto
 
 | # | Archivo | Descripción | Actualizado |
