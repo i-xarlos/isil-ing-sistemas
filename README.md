@@ -299,10 +299,6 @@ Cada carpeta de clase incluye:
 | 1 | ¿Qué es la IA y por qué es importante? — Historia, evolución, paradigmas y modelos de lenguaje | [Ver](2026-2/Inteligencia-Artificial-Aplicada/clase-1/que-es-ia-y-por-que-importa-clase-1.md) |
 | 2 | IA: Riesgos y Limitaciones | [Ver](2026-2/Inteligencia-Artificial-Aplicada/clase-2/ia-riesgos-y-limitaciones-clase-2.md) |
 
-| Actividad | Tema | Notas |
-|-----------|------|-------|
-| 1 | Código Enigma e Inteligencia Artificial | [Ver](2026-2/Inteligencia-Artificial-Aplicada/clase-1/actividad-1/codigo-enigma-inteligencia-artificial-actividad-1.md) · [Infografía](https://htmlpreview.github.io/?https://github.com/i-xarlos/isil-ing-sistemas/blob/main/2026-2/Inteligencia-Artificial-Aplicada/clase-1/actividad-1/codigo-enigma-inteligencia-artificial-actividad-1.html) |
-
 ---
 
 ### Planeamiento Estratégico de Sistemas de Información (`Planeamiento-Estrategico-de-Sis-de-Inf-srm`)
@@ -311,16 +307,6 @@ Cada carpeta de clase incluye:
 |--------|------|-------|
 | 1 | Modelos de Negocio y Evolución del Rol de las TIC | [Ver](2026-2/Planeamiento-Estrategico-de-Sis-de-Inf-srm/clase-1/modelos-negocio-evolucion-rol-tic-clase-1.md) |
 | 2 | Fundamentos de Estrategia y Planificación Estratégica | [Ver](2026-2/Planeamiento-Estrategico-de-Sis-de-Inf-srm/clase-2/fundamentos-estrategia-planificacion-estrategica-clase-2.md) |
-
----
-
-## Infografías Interactivas
-
-HTMLs scrollables con diseño visual, disponibles vía [htmlpreview.github.io](https://htmlpreview.github.io).
-
-| Curso | Actividad | Infografía |
-|-------|-----------|------------|
-| Inteligencia Artificial Aplicada | Actividad 1 — Código Enigma | [Ver HTML](https://htmlpreview.github.io/?https://github.com/i-xarlos/isil-ing-sistemas/blob/main/2026-2/Inteligencia-Artificial-Aplicada/clase-1/actividad-1/codigo-enigma-inteligencia-artificial-actividad-1.html) |
 
 ---
 

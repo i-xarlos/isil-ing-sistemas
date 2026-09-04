@@ -3,8 +3,7 @@
 **Curso:** Inteligencia Artificial Aplicada (ISIL, 2026-2)  
 **Estudiante:** Carlos Gil Carrillo  
 **Docente:** Mg. Christian Cancharez Aguirre  
-**Fecha:** 03/09/2026  
-**Infografía HTML:** [Ver infografía](https://htmlpreview.github.io/?https://github.com/i-xarlos/isil-ing-sistemas/blob/main/2026-2/Inteligencia-Artificial-Aplicada/clase-1/actividad-1/codigo-enigma-inteligencia-artificial-actividad-1.html)
+**Fecha:** 03/09/2026
 
 ---
 
