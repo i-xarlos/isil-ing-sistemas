@@ -154,8 +154,8 @@
 
 | Imagen | Archivo |
 |---|---|
-| Estante Cascade / Great Value | `WhatsApp Image 2026-08-30 at 20.26.09.jpeg` |
-| Estante Finish / Nature Clean | `WhatsApp Image 2026-08-30 at 20.26.09 (1).jpeg` |
+| Estante Cascade / Great Value | `estante-cascade-greatvalue-walmart.jpeg` |
+| Estante Finish / Nature Clean | `estante-finish-natureclean-walmart.jpeg` |
 
 ---
 

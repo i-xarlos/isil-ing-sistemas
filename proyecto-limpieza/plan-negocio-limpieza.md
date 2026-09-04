@@ -102,12 +102,18 @@ El producto se diseña **alrededor del envío**, no al revés:
 | Envío promedio Canadá | $6.00–$8.50 |
 | **Margen bruto estimado** | **~70–75%** |
 
-### 4.3 Precio por Lavada
+### 4.3 Precio por Lavada vs. Competencia
 
-| Producto | Precio | Dosis | Costo/lavada |
-|---|---|---|---|
-| Refill 60 | $24.99 | 60 | $0.42 |
-| Refill 30 | $14.99 | 30 | $0.50 |
+| Producto | Precio | Dosis | Costo/lavada | vs. Competencia |
+|---|---|---|---|---|
+| **Nuestro Refill 60** | $24.99 | 60 | **$0.42** | Nature Clean: $0.35 |
+| **Nuestro Refill 30** | $14.99 | 30 | **$0.50** | Cascade Platinum+: $0.49 |
+| Cascade Platinum+ 51 ct | $24.97 | 51 | $0.49 | Líder premium |
+| Cascade Platinum 83 ct | $24.97 | 83 | $0.30 | Mejor valor mainstream |
+| Nature Clean 60 ct | $20.98 | 60 | $0.35 | Competencia ecológica directa |
+| Finish Quantum 68 ct | $27.97 | 68 | $0.41 | Premium mainstream |
+
+**Posicionamiento:** Estamos en el rango premium justificado por formato ecológico + sachet individual + fabricación canadiense.
 
 ### 4.4 Estrategia de Pricing y Envío
 
@@ -159,24 +165,23 @@ Usar como respaldo para:
 
 | Pedidos/mes | Estrategia |
 |---|---|
-| 0–100 | Fulfillment desde casa, lotes a Chit Chats en London |
-| 100–300 | Impresora térmica + shipping station en casa |
-| 300–500 | Considerar self-storage 5×10 (~$52–70/mes) |
-| 500–1,500 | Self-storage 10×10 o 3PL |
-| 1,500+ | 3PL obligatorio |
-| 5,000+ | 3PL + Amazon FBA |
+| 0–50 | Fulfillment desde casa, lotes a Chit Chats en London |
+| 50–150 | Impresora térmica + shipping station en casa |
+| 150–300 | Considerar self-storage 5×10 (~$52–70/mes) |
+| 300–500 | Self-storage 10×10 o 3PL |
+| 500+ | 3PL obligatorio + Amazon FBA |
 
 ---
 
 ## 6. Almacenamiento
 
-### 6.1 Fase 1: Casa (0–500 unidades)
+### 6.1 Fase 1: Casa (0–150 unidades)
 
 - 1–2 estanterías metálicas (6 ft × 2 ft)
 - Espacio dedicado para: inventario, cajas de envío, impresora, etiquetas
 - **Costo adicional: $0**
 
-### 6.2 Fase 2: Self-Storage (500–1,500 unidades)
+### 6.2 Fase 2: Self-Storage (150–500 unidades)
 
 | Opción | Tamaño | Precio estimado | Proveedor |
 |---|---|---|---|
@@ -186,7 +191,7 @@ Usar como respaldo para:
 
 **Requisito:** Confirmar que permiten almacenamiento de inventario comercial y packing/fulfillment.
 
-### 6.3 Fase 3: 3PL (1,500+ unidades)
+### 6.3 Fase 3: 3PL (500+ unidades)
 
 Buscar 3PL en London/GTA con:
 - Integración Shopify y Amazon
@@ -327,13 +332,13 @@ Para detergente de lavaplatos estándar: no aplica.
 ## 11. Modelo de Escalabilidad
 
 ```
-Casa (0–500 uds)
+Casa (0–150 uds)
     ↓
-Self-Storage 5×10 (500–1,500 uds)
+Self-Storage 5×10 (150–500 uds)
     ↓
-3PL London/GTA (1,500–3,000 uds)
+3PL London/GTA (500+ uds)
     ↓
-3PL + Amazon FBA (5,000+ uds)
+3PL + Amazon FBA (1,000+ uds)
 ```
 
 **Costos fijos por etapa:**
@@ -343,7 +348,6 @@ Self-Storage 5×10 (500–1,500 uds)
 | Casa | $0 | Tú llevas lotes a Chit Chats | Tú |
 | Self-storage | ~$50–70/mes | Pickup programado | Tú |
 | 3PL | Variable | Automático | Tú (estrategia) |
-| FBA | Variable | Automático | Tú (estrategia) |
 
 ---
 
