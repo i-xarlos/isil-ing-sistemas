@@ -455,16 +455,92 @@
         }
 
         @media (max-width: 768px) {
-            .grid { grid-template-columns: 1fr; }
-            .grid-3 { grid-template-columns: 1fr; }
-            .comparison { grid-template-columns: 1fr; }
-            .stat-grid { grid-template-columns: 1fr; }
-            .header { padding: 30px 20px; }
-            .header h1 { font-size: 1.8rem; }
-            .header .meta { flex-direction: column; gap: 8px; align-items: center; }
-            .header .meta span { width: 100%; max-width: 250px; text-align: center; }
-            .header-stats { flex-direction: column; gap: 16px; }
-            .header-stat-value { font-size: 1.3rem; }
+            .grid { grid-template-columns: 1fr !important; }
+            .grid-3 { grid-template-columns: 1fr !important; }
+            .comparison { grid-template-columns: 1fr !important; }
+            .stat-grid { grid-template-columns: 1fr !important; }
+            .header { padding: 30px 20px !important; }
+            .header h1 { font-size: 1.8rem !important; }
+            .header .meta { flex-direction: column !important; gap: 8px !important; align-items: center !important; }
+            .header .meta span { width: 100% !important; max-width: 250px !important; text-align: center !important; }
+            .header-stats { flex-direction: column !important; gap: 16px !important; }
+            .header-stat-value { font-size: 1.3rem !important; }
+            
+            /* Fix all inline grids */
+            [style*="grid-template-columns: repeat"] {
+                grid-template-columns: 1fr !important;
+            }
+            [style*="grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+            [style*="grid-template-columns: repeat(2"] {
+                grid-template-columns: 1fr !important;
+            }
+            [style*="grid-template-columns: repeat(3"] {
+                grid-template-columns: 1fr !important;
+            }
+            [style*="grid-template-columns: repeat(4"] {
+                grid-template-columns: 1fr !important;
+            }
+            [style*="grid-template-columns: repeat(5"] {
+                grid-template-columns: 1fr !important;
+            }
+            
+            /* Tables responsive */
+            table { font-size: 0.75rem !important; }
+            th, td { padding: 6px 8px !important; }
+            
+            /* Cards responsive */
+            .card { padding: 16px !important; }
+            .card h2 { font-size: 1rem !important; }
+            
+            /* Pricing rows */
+            .pricing-row { flex-direction: column !important; gap: 8px !important; }
+            .pricing-price { text-align: left !important; }
+            
+            /* Badges */
+            .badge { font-size: 0.65rem !important; padding: 3px 8px !important; }
+            
+            /* Container */
+            .container { padding: 12px !important; }
+            
+            /* Sections */
+            .section { padding: 16px !important; }
+            
+            /* Full width cards */
+            .full-width { grid-column: 1 / -1 !important; }
+            
+            /* Flex items */
+            [style*="display: flex"] {
+                flex-direction: column !important;
+            }
+            [style*="flex-direction: row"] {
+                flex-direction: column !important;
+            }
+            
+            /* Text alignment */
+            .text-right { text-align: left !important; }
+            
+            /* Stats */
+            .big-number { font-size: 1.5rem !important; }
+            .big-label { font-size: 0.75rem !important; }
+            
+            /* Section titles */
+            h2 { font-size: 1rem !important; }
+            
+            /* Links */
+            a { word-break: break-all !important; }
+            
+            /* Footer */
+            .footer { padding: 16px !important; text-align: center !important; }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 { font-size: 1.5rem !important; }
+            .header-stat-value { font-size: 1.1rem !important; }
+            .big-number { font-size: 1.3rem !important; }
+            .container { padding: 8px !important; }
+            .card { padding: 12px !important; }
         }
     </style>
 </head>
