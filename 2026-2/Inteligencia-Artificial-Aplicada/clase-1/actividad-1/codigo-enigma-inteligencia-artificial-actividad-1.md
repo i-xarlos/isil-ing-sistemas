@@ -1,4 +1,4 @@
-# Código Enigma e Inteligencia Artificial (Actividad 1)
+# Código Enigma e Inteligencia Artificial — Clase 1 (Actividad 1)
 
 **Curso:** Inteligencia Artificial Aplicada (ISIL, 2026-2)  
 **Estudiante:** Carlos Gil Carrillo  
