@@ -486,12 +486,20 @@
                 grid-template-columns: 1fr !important;
             }
             
-            /* Tables responsive */
-            table { font-size: 0.75rem !important; }
+            /* Tables responsive with horizontal scroll */
+            table { 
+                font-size: 0.75rem !important; 
+                min-width: 100% !important;
+                white-space: nowrap !important;
+            }
             th, td { padding: 6px 8px !important; }
             
             /* Cards responsive */
-            .card { padding: 16px !important; }
+            .card { 
+                padding: 16px !important; 
+                overflow-x: auto !important;
+                -webkit-overflow-scrolling: touch !important;
+            }
             .card h2 { font-size: 1rem !important; }
             
             /* Pricing rows */
@@ -502,10 +510,10 @@
             .badge { font-size: 0.65rem !important; padding: 3px 8px !important; }
             
             /* Container */
-            .container { padding: 12px !important; }
+            .container { padding: 12px !important; overflow-x: hidden !important; }
             
             /* Sections */
-            .section { padding: 16px !important; }
+            .section { padding: 16px !important; overflow-x: auto !important; }
             
             /* Full width cards */
             .full-width { grid-column: 1 / -1 !important; }
@@ -533,6 +541,11 @@
             
             /* Footer */
             .footer { padding: 16px !important; text-align: center !important; }
+            
+            /* Scroll horizontal para contenido overflow */
+            * { 
+                -webkit-tap-highlight-color: transparent !important;
+            }
         }
 
         @media (max-width: 480px) {
@@ -541,6 +554,41 @@
             .big-number { font-size: 1.3rem !important; }
             .container { padding: 8px !important; }
             .card { padding: 12px !important; }
+        }
+
+        /* Scroll horizontal para tablas en todos los tamaños */
+        .table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 12px 0;
+            border-radius: 8px;
+        }
+
+        /* Scroll horizontal para grids que exceden ancho */
+        .scroll-x {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 8px;
+        }
+
+        /* Indicador visual de scroll */
+        .scroll-x::after,
+        .table-wrapper::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 30px;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.8));
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .scroll-x:has(> *:not(:only-child)):hover::after,
+        .table-wrapper:has(> table):hover::after {
+            opacity: 1;
         }
     </style>
 </head>
@@ -3041,6 +3089,55 @@
     </div>
 
 </div>
+
+<script>
+// Wrap all tables in scrollable containers
+document.addEventListener('DOMContentLoaded', function() {
+    const tables = document.querySelectorAll('table');
+    tables.forEach(function(table) {
+        // Check if already wrapped
+        if (table.parentElement.classList.contains('table-wrapper')) return;
+        
+        // Create wrapper
+        const wrapper = document.createElement('div');
+        wrapper.className = 'table-wrapper';
+        wrapper.style.position = 'relative';
+        wrapper.style.overflowX = 'auto';
+        wrapper.style.webkitOverflowScrolling = 'touch';
+        wrapper.style.borderRadius = '8px';
+        wrapper.style.margin = '12px 0';
+        
+        // Wrap table
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+        
+        // Add scroll indicator for mobile
+        if (window.innerWidth <= 768) {
+            const indicator = document.createElement('div');
+            indicator.style.cssText = 'position: absolute; right: 0; top: 0; bottom: 0; width: 20px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.9)); pointer-events: none; border-radius: 0 8px 8px 0;';
+            wrapper.appendChild(indicator);
+            
+            // Hide indicator when scrolled to end
+            wrapper.addEventListener('scroll', function() {
+                if (wrapper.scrollLeft + wrapper.clientWidth >= wrapper.scrollWidth - 10) {
+                    indicator.style.opacity = '0';
+                } else {
+                    indicator.style.opacity = '1';
+                }
+            });
+        }
+    });
+    
+    // Wrap grids that might overflow
+    document.querySelectorAll('[style*="grid-template-columns"]').forEach(function(el) {
+        if (el.scrollWidth > el.clientWidth + 10) {
+            el.style.overflowX = 'auto';
+            el.style.webkitOverflowScrolling = 'touch';
+            el.style.paddingBottom = '8px';
+        }
+    });
+});
+</script>
 
 </body>
 </html>
