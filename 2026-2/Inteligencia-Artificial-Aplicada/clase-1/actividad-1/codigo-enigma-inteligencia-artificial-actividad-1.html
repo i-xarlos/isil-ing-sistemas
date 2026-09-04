@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código Enigma e Inteligencia Artificial — Infografía</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a14;
+            --surface: #12121e;
+            --card: #1a1a2e;
+            --accent: #e94560;
+            --accent2: #533483;
+            --blue: #0f3460;
+            --text: #e8e8f0;
+            --muted: #8888a0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            overflow-x: hidden;
+        }
+
+        /* ── HERO ── */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            background: radial-gradient(ellipse at 50% 30%, #1a1040 0%, #0a0a14 70%);
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 600px; height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(233,69,96,0.12) 0%, transparent 70%);
+            top: 10%; left: 50%; transform: translateX(-50%);
+            pointer-events: none;
+        }
+
+        .hero .badge {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 0.4rem 1.2rem;
+            border-radius: 50px;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #fff 30%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero .subtitle {
+            font-size: 1.2rem;
+            color: var(--muted);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            line-height: 1.6;
+        }
+
+        .hero .meta-row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+
+        .hero .meta-row span { white-space: nowrap; }
+        .hero .meta-row strong { color: var(--accent); }
+
+        .scroll-hint {
+            position: absolute;
+            bottom: 2rem;
+            animation: bounce 2s infinite;
+            font-size: 1.5rem;
+            color: var(--accent);
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(8px); }
+        }
+
+        /* ── SECTIONS ── */
+        section {
+            padding: 5rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+        }
+
+        section h2 {
+            font-size: clamp(1.6rem, 4vw, 2.4rem);
+            font-weight: 900;
+            margin-bottom: 1.25rem;
+            line-height: 1.2;
+        }
+
+        section p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+
+        /* ── TIMELINE ── */
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            margin: 2rem 0;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 70px;
+            top: 0; bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, var(--accent), var(--accent2));
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            padding: 1rem 0;
+        }
+
+        .timeline-year {
+            width: 60px;
+            flex-shrink: 0;
+            font-size: 0.85rem;
+            font-weight: 900;
+            color: var(--accent);
+            text-align: right;
+            padding-top: 2px;
+        }
+
+        .timeline-content {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 1rem 1.25rem;
+            flex: 1;
+            border-left: 3px solid var(--accent2);
+            position: relative;
+        }
+
+        .timeline-content::before {
+            content: '';
+            position: absolute;
+            left: -2.4rem;
+            top: 1.1rem;
+            width: 12px; height: 12px;
+            border-radius: 50%;
+            background: var(--accent);
+            border: 3px solid var(--bg);
+        }
+
+        .timeline-content h4 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.25rem;
+        }
+
+        .timeline-content p {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        /* ── DIVIDER ── */
+        .divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        /* ── COMPARISON BLOCKS ── */
+        .comparison-blocks {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .comparison-block {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid rgba(233,69,96,0.15);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .comparison-block::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent), var(--accent2));
+        }
+
+        .comparison-block .block-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .comparison-block .block-icon {
+            font-size: 2rem;
+        }
+
+        .comparison-block .block-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .comparison-block ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .comparison-block li {
+            display: flex;
+            gap: 0.75rem;
+            align-items: flex-start;
+            font-size: 0.88rem;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+
+        .comparison-block li .bullet {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: var(--accent);
+            flex-shrink: 0;
+            margin-top: 0.5rem;
+        }
+
+        .comparison-block.right::before {
+            background: linear-gradient(90deg, var(--accent2), var(--accent));
+        }
+
+        .comparison-block.right .bullet {
+            background: var(--accent2);
+        }
+
+        /* ── TWO COLUMN LAYOUT ── */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .two-col p {
+            font-size: 0.92rem;
+            line-height: 1.7;
+            color: var(--text);
+        }
+
+        /* ── QUOTE CARD ── */
+        .quote-card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--accent);
+            position: relative;
+        }
+
+        .quote-card .quote-icon {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .quote-card blockquote {
+            font-size: 1rem;
+            font-weight: 600;
+            font-style: italic;
+            color: #fff;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .quote-card.highlight-card {
+            border-left-color: var(--accent2);
+            background: linear-gradient(135deg, var(--card), #1e1040);
+        }
+
+        /* ── KEY POINT ── */
+        .key-point {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+            background: linear-gradient(135deg, var(--accent2), var(--accent));
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .key-point .kp-icon {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .key-point h4 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.3rem;
+        }
+
+        .key-point p {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.9);
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        /* ── ANSWER BOX ── */
+        .answer-box {
+            background: var(--card);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid rgba(83,52,131,0.3);
+        }
+
+        .answer-box .ab-quote {
+            background: linear-gradient(135deg, var(--accent2), var(--accent));
+            padding: 2rem 1.5rem;
+            text-align: center;
+        }
+
+        .answer-box .ab-quote .quote-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .answer-box .ab-quote blockquote {
+            font-size: 1.05rem;
+            font-weight: 700;
+            font-style: italic;
+            color: #fff;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .answer-box .ab-body {
+            padding: 1.5rem;
+        }
+
+        .answer-box .ab-body p {
+            font-size: 0.9rem;
+            color: var(--text);
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+
+        .answer-box .ab-keypoint {
+            display: flex;
+            gap: 0.75rem;
+            align-items: flex-start;
+            background: rgba(233,69,96,0.1);
+            border-radius: 12px;
+            padding: 1rem;
+            border: 1px solid rgba(233,69,96,0.2);
+        }
+
+        .answer-box .ab-kp-icon {
+            font-size: 1.2rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .answer-box .ab-keypoint strong {
+            color: var(--accent);
+        }
+
+        .answer-box .ab-keypoint div {
+            font-size: 0.85rem;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+
+        /* ── FULL-WIDTH BANNER ── */
+        .banner {
+            background: linear-gradient(135deg, var(--accent2) 0%, var(--accent) 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .banner blockquote {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            font-weight: 600;
+            line-height: 1.6;
+            color: #fff;
+        }
+
+        /* ── FLOW STEPS ── */
+        .flow-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            margin: 2rem 0;
+        }
+
+        .flow-step {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+        }
+
+        .flow-step .line {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-shrink: 0;
+            width: 40px;
+        }
+
+        .flow-step .dot {
+            width: 40px; height: 40px;
+            border-radius: 50%;
+            background: var(--card);
+            border: 3px solid var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 0.85rem;
+            color: var(--accent);
+            flex-shrink: 0;
+            z-index: 1;
+        }
+
+        .flow-step .connector {
+            width: 3px;
+            flex: 1;
+            min-height: 30px;
+            background: linear-gradient(180deg, var(--accent), var(--accent2));
+        }
+
+        .flow-step .content {
+            padding-bottom: 2rem;
+        }
+
+        .flow-step .content h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.25rem;
+        }
+
+        .flow-step .content p {
+            font-size: 0.9rem;
+            color: var(--muted);
+            margin: 0;
+        }
+
+        /* ── PROCESS BLOCKS ── */
+        .process-grid {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+            align-items: center;
+            gap: 0;
+            margin: 1.5rem 0;
+        }
+
+        .process-block {
+            background: var(--card);
+            border: 2px solid var(--accent2);
+            border-radius: 16px;
+            padding: 1.5rem 1rem;
+            text-align: center;
+        }
+
+        .process-block .pb-icon {
+            font-size: 2rem;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .process-block h4 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.3rem;
+        }
+
+        .process-block p {
+            font-size: 0.75rem;
+            color: var(--muted);
+            line-height: 1.4;
+            margin: 0;
+        }
+
+        .process-connector {
+            font-size: 1.5rem;
+            color: var(--accent);
+            text-align: center;
+            padding: 0 0.25rem;
+        }
+
+        .process-grid.alt .process-block {
+            border-color: var(--accent);
+            background: linear-gradient(135deg, var(--card), #1e1040);
+        }
+
+        /* ── PROCESS BAR ── */
+        .process-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .process-node {
+            background: var(--card);
+            border: 2px solid var(--accent2);
+            border-radius: 12px;
+            padding: 0.75rem 1.25rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-align: center;
+            color: #fff;
+            min-width: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .process-node .pn-icon {
+            font-size: 1.4rem;
+        }
+
+        .process-arrow {
+            font-size: 1.5rem;
+            color: var(--accent);
+            padding: 0 0.5rem;
+        }
+
+        .process-bar.alt { margin-top: 1rem; }
+        .process-bar.alt .process-node { border-color: var(--accent); background: linear-gradient(135deg, var(--card), #1e1040); }
+
+        /* ── NUMBERED LIST VISUAL ── */
+        .visual-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .visual-list .item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            background: var(--card);
+            border-radius: 12px;
+            padding: 1rem 1.25rem;
+            border-left: 4px solid var(--accent);
+        }
+
+        .visual-list .item .num {
+            background: var(--accent);
+            color: #fff;
+            font-weight: 900;
+            font-size: 0.85rem;
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .visual-list .item span {
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        /* ── 3-COLUMN CARDS ── */
+        .three-col {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .stage-card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            border: 1px solid rgba(83,52,131,0.3);
+            position: relative;
+        }
+
+        .stage-card .stage-num {
+            position: absolute;
+            top: -18px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent);
+            color: #fff;
+            font-weight: 900;
+            font-size: 0.8rem;
+            padding: 0.3rem 1rem;
+            border-radius: 50px;
+            letter-spacing: 1px;
+        }
+
+        .stage-card .icon { font-size: 2.5rem; margin: 0.5rem 0 1rem; }
+        .stage-card h4 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; color: #fff; }
+        .stage-card .roles { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1rem; }
+        .stage-card .role-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); }
+        .stage-card .role-text { font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+
+        /* ── CONCLUSION CARDS ── */
+        .conclusion-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.25rem;
+            margin: 2rem 0;
+        }
+
+        .conclusion-card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 1.5rem;
+            border-top: 3px solid var(--accent);
+        }
+
+        .conclusion-card .cn {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--accent);
+            opacity: 0.3;
+            line-height: 1;
+            margin-bottom: 0.25rem;
+        }
+
+        .conclusion-card h4 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.4rem;
+        }
+
+        .conclusion-card p {
+            font-size: 0.8rem;
+            color: var(--muted);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* ── TAKEAWAY ── */
+        .takeaway-box {
+            background: linear-gradient(135deg, var(--accent2), var(--accent));
+            border-radius: 20px;
+            padding: 2.5rem;
+            text-align: center;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .takeaway-box::before {
+            content: '';
+            position: absolute;
+            width: 300px; height: 300px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.05);
+            top: -100px; right: -80px;
+        }
+
+        .takeaway-box .label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            color: rgba(255,255,255,0.7);
+        }
+
+        .takeaway-box p {
+            font-size: 1.1rem;
+            font-weight: 600;
+            line-height: 1.7;
+            color: #fff;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        /* ── REFLEXION ── */
+        .reflexion {
+            background: var(--surface);
+            border-radius: 20px;
+            padding: 2.5rem;
+            margin: 2rem 0;
+            border: 1px solid rgba(83,52,131,0.3);
+        }
+
+        .reflexion h2 { margin-top: 0; }
+
+        .reflexion-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .reflexion-item {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .reflexion-item .q {
+            background: var(--accent);
+            color: #fff;
+            font-weight: 900;
+            font-size: 0.8rem;
+            width: 30px; height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .reflexion-item p {
+            font-size: 0.9rem;
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* ── FOOTER ── */
+        footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: var(--muted);
+            font-size: 0.75rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 700px) {
+            .comparison-blocks, .three-col, .conclusion-grid, .two-col {
+                grid-template-columns: 1fr;
+            }
+            .process-grid {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+            .process-connector {
+                transform: rotate(90deg);
+                padding: 0.5rem 0;
+            }
+            .process-bar { flex-direction: column; }
+            .process-arrow { transform: rotate(90deg); }
+            section { padding: 3rem 1.25rem; }
+            .timeline::before { left: 50px; }
+            .timeline-year { width: 42px; font-size: 0.75rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ═══════════════════ HERO ═══════════════════ -->
+    <div class="hero">
+        <div class="badge">Actividad 1</div>
+        <h1>Código Enigma<br>e Inteligencia Artificial</h1>
+        <p class="subtitle">Cómo una película sobre la Segunda Guerra Mundial explica el origen, los dilemas y el futuro de la IA.</p>
+        <div class="meta-row">
+            <span><strong>Curso:</strong> Inteligencia Artificial Aplicada (ISIL, 2026-2)</span>
+            <span><strong>Estudiante:</strong> Carlos Gil Carrillo</span>
+            <span><strong>Docente:</strong> Mg. Christian Cancharez Aguirre</span>
+            <span><strong>Fecha:</strong> 03/09/2026</span>
+        </div>
+        <div class="scroll-hint">&#8964;</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ MÁQUINA DE TURING ═══════════════════ -->
+    <section>
+        <span class="section-label">Antes de empezar</span>
+        <h2>De la máquina de Turing a las computadoras modernas</h2>
+        <p>Para entender por qué la película conecta tanto con la IA, primero hay que entender qué era la "máquina de Turing" y cómo nos llevó hasta aquí.</p>
+
+        <p>En 1936, Alan Turing publicó un artículo donde describió un modelo teórico de computación: una máquina que podía leer instrucciones en una cinta y ejecutar operaciones lógicas simples. No existía físicamente, pero demostró algo poderoso: <strong style="color:#fff;">cualquier problema que pueda resolverse con lógica puede ser procesado por una máquina, siempre que tenga las instrucciones correctas</strong>.</p>
+
+        <p>Esa idea sentó las bases de lo que hoy llamamos computación. Sin ella, no existirían las computadoras, ni el internet, ni los teléfonos inteligentes, ni la inteligencia artificial.</p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-year">1936</div>
+                <div class="timeline-content">
+                    <h4>Máquina de Turing</h4>
+                    <p>Concepto teórico que demostró que las máquinas pueden ejecutar cualquier tarea computable con instrucciones adecuadas.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">1944</div>
+                <div class="timeline-content">
+                    <h4>Colossus</h4>
+                    <p>Primera computadora electrónica. Turing participó en su diseño para descifrar códigos nazis.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">1945</div>
+                <div class="timeline-content">
+                    <h4>ENIAC</h4>
+                    <p>Primera computadora de propósito general. Marcó el inicio de la computación moderna.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">1950</div>
+                <div class="timeline-content">
+                    <h4>Test de Turing</h4>
+                    <p>Turing planteó formalmente la pregunta: ¿Puede una máquina pensar? Esto fundó el campo de la IA.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">1956</div>
+                <div class="timeline-content">
+                    <h4>Conferencia de Dartmouth</h4>
+                    <p>Se acuñó el término "Inteligencia Artificial" y se empezaron a crear los primeros sistemas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="background:var(--card);border-radius:12px;padding:1.25rem;margin-top:1.5rem;border-left:4px solid var(--accent);">
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);"><strong style="color:var(--accent);">Lo fascinante:</strong> Turing no solo imaginó la computadora: también imaginó que esas máquinas podrían hacer cosas que antes solo podíamos hacer nosotros con la mente. La película muestra exactamente ese momento.</p>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ PARALELOS ═══════════════════ -->
+    <section>
+        <span class="section-label">01 — Paralelos</span>
+        <h2>La película vs. la IA moderna</h2>
+        <p>Casi cada escena de <em>Código Enigma</em> tiene un equivalente directo en cómo funciona la inteligencia artificial hoy:</p>
+
+        <div class="comparison-blocks">
+            <div class="comparison-block">
+                <div class="block-header">
+                    <div class="block-icon">&#128196;</div>
+                    <div class="block-title">En la película</div>
+                </div>
+                <ul>
+                    <li><span class="bullet"></span>Turing construye una máquina para resolver un problema que los humanos no pueden procesar manualmente.</li>
+                    <li><span class="bullet"></span>La máquina prueba sistemáticamente diferentes configuraciones de Enigma.</li>
+                    <li><span class="bullet"></span>Turing intenta convertir un problema intelectual en un proceso mecánico.</li>
+                    <li><span class="bullet"></span>La máquina necesita que los humanos definan el problema y las reglas.</li>
+                    <li><span class="bullet"></span>El equipo interpreta los resultados de la máquina.</li>
+                    <li><span class="bullet"></span>La máquina encuentra posibles soluciones, pero no decide por sí misma qué hacer con ellas.</li>
+                </ul>
+            </div>
+            <div class="comparison-block right">
+                <div class="block-header">
+                    <div class="block-icon">&#129302;</div>
+                    <div class="block-title">En la IA moderna</div>
+                </div>
+                <ul>
+                    <li><span class="bullet"></span>Las IA procesan cantidades enormes de información que serían imposibles de analizar manualmente.</li>
+                    <li><span class="bullet"></span>Los algoritmos exploran enormes espacios de posibilidades para encontrar patrones o soluciones.</li>
+                    <li><span class="bullet"></span>La IA busca convertir tareas que asociamos con la inteligencia humana en procesos computacionales.</li>
+                    <li><span class="bullet"></span>Los modelos actuales dependen de objetivos, datos, instrucciones y sistemas diseñados por humanos.</li>
+                    <li><span class="bullet"></span>Hoy los humanos siguen siendo necesarios para interpretar, validar y utilizar las respuestas de una IA.</li>
+                    <li><span class="bullet"></span>Una IA puede generar predicciones o recomendaciones, pero la decisión y responsabilidad siguen siendo humanas.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="background:var(--card);border-radius:12px;padding:1.25rem;margin-top:1.5rem;border-left:4px solid var(--accent);">
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);"><strong style="color:var(--accent);">¿Por qué importa?</strong> La IA no es algo mágico ni nuevo. Es la continuación de una idea que empezó hace más de 80 años: construir máquinas que hagan cosas que antes solo podíamos hacer nosotros.</p>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ PREGUNTA PROFUNDA ═══════════════════ -->
+    <section>
+        <span class="section-label">02 — La gran pregunta</span>
+        <h2>¿Puede una máquina pensar?</h2>
+
+        <div class="two-col">
+            <div class="two-col-left">
+                <p>Este es el vínculo más importante entre la película y la IA actual.</p>
+
+                <p>En la película, Turing no se centra únicamente en construir una máquina rápida. Su idea fundamental es:</p>
+
+                <div class="quote-card">
+                    <div class="quote-icon">&#128172;</div>
+                    <blockquote>"¿Podemos construir una máquina que realice una tarea que normalmente consideramos propia de la inteligencia humana?"</blockquote>
+                </div>
+
+                <p>Después de la guerra, Turing llevó esta pregunta mucho más lejos con su famoso trabajo de 1950 y el llamado <strong>Test de Turing</strong>: si una máquina puede conversar y engañar a un humano para que crea que es otro humano, entonces se puede decir que "piensa".</p>
+
+                <p>Cuando usas ChatGPT y te responde algo convincente, estás viviendo la misma experiencia que los personajes de la película: la sensación de que algo "parece" inteligente, aunque no sabemos exactamente si lo es.</p>
+            </div>
+            <div class="two-col-right">
+                <div class="answer-box">
+                    <div class="ab-quote">
+                        <div class="quote-icon">&#129504;</div>
+                        <blockquote>"¿Una máquina está realmente pensando o simplemente está produciendo resultados que parecen inteligentes?"</blockquote>
+                    </div>
+                    <div class="ab-body">
+                        <p>Hoy hacemos prácticamente la misma pregunta con ChatGPT, Claude, Gemini y otros.</p>
+                        <div class="ab-keypoint">
+                            <span class="ab-kp-icon">&#9889;</span>
+                            <div>
+                                <strong>Idea clave:</strong> La pregunta de Turing no se resolvió en 1950. Sigue abierta. Cada vez que usas una IA, estás contribuyendo a responderla.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ MÁQUINA vs IA ═══════════════════ -->
+    <section>
+        <span class="section-label">03 — Proceso</span>
+        <h2>De Turing a las IA actuales</h2>
+
+        <p style="font-weight:600;color:#fff;margin-bottom:1rem;">La máquina de Turing:</p>
+        <div class="process-grid">
+            <div class="process-block">
+                <span class="pb-icon">&#128196;</span>
+                <h4>Problema</h4>
+                <p>Un objetivo claro definido por humanos</p>
+            </div>
+            <div class="process-connector">&rarr;</div>
+            <div class="process-block">
+                <span class="pb-icon">&#9881;</span>
+                <h4>Reglas</h4>
+                <p>Instrucciones fijas para procesar</p>
+            </div>
+            <div class="process-connector">&rarr;</div>
+            <div class="process-block">
+                <span class="pb-icon">&#9889;</span>
+                <h4>Procesamiento masivo</h4>
+                <p>Miles de combinaciones por segundo</p>
+            </div>
+            <div class="process-connector">&rarr;</div>
+            <div class="process-block">
+                <span class="pb-icon">&#128200;</span>
+                <h4>Resultado</h4>
+                <p>La solución encontrada</p>
+            </div>
+        </div>
+
+        <p style="font-weight:600;color:#fff;margin-bottom:1rem;margin-top:2.5rem;">Las IA modernas:</p>
+        <div class="process-grid alt">
+            <div class="process-block">
+                <span class="pb-icon">&#128221;</span>
+                <h4>Entrada</h4>
+                <p>Prompt o dato del usuario</p>
+            </div>
+            <div class="process-connector">&rarr;</div>
+            <div class="process-block">
+                <span class="pb-icon">&#129504;</span>
+                <h4>Modelo</h4>
+                <p>Redes neuronales entrenadas con datos</p>
+            </div>
+            <div class="process-connector">&rarr;</div>
+            <div class="process-block">
+                <span class="pb-icon">&#128296;</span>
+                <h4>Procesamiento</h4>
+                <p>Patrones aprendidos, no reglas fijas</p>
+            </div>
+            <div class="process-connector">&rarr;</div>
+            <div class="process-block">
+                <span class="pb-icon">&#129302;</span>
+                <h4>Respuesta</h4>
+                <p>Texto, imagen o acción generada</p>
+            </div>
+        </div>
+
+        <div style="background:var(--card);border-radius:16px;padding:1.5rem;margin-top:2rem;border-left:4px solid var(--accent2);">
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);"><strong style="color:#fff;">Ejemplo concreto:</strong> Piensa en cómo aprendes a cocinar. Al principio sigues recetas al pie de la letra (como una máquina que prueba combinaciones). Con el tiempo, empiezas a "sentir" qué combina con qué. Los modelos de IA hacen algo parecido: aprendieron patrones de millones de ejemplos y ahora pueden "generar" respuestas nuevas.</p>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ DIFERENCIA ═══════════════════ -->
+    <section>
+        <span class="section-label">04 — Diferencia clave</span>
+        <h2>Procesar información ≠ inteligencia</h2>
+        <p>La película lo muestra claramente: tener una máquina capaz de procesar información no significa automáticamente tener inteligencia.</p>
+
+        <div class="visual-list">
+            <div class="item">
+                <div class="num">1</div>
+                <span>Un problema <strong style="color:#fff;">definido por humanos</strong>.</span>
+            </div>
+            <div class="item">
+                <div class="num">2</div>
+                <span>Un método <strong style="color:#fff;">diseñado por humanos</strong>.</span>
+            </div>
+            <div class="item">
+                <div class="num">3</div>
+                <span>Información <strong style="color:#fff;">proporcionada por humanos</strong>.</span>
+            </div>
+            <div class="item">
+                <div class="num">4</div>
+                <span>Personas que <strong style="color:#fff;">interpreten</strong> los resultados.</span>
+            </div>
+            <div class="item">
+                <div class="num">5</div>
+                <span>Personas que <strong style="color:#fff;">decidan</strong> qué hacer con esos resultados.</span>
+            </div>
+        </div>
+
+        <p>Un modelo como ChatGPT no "decide" qué responder por iniciativa propia. Responde porque alguien le hizo una pregunta y le dio instrucciones. Los <strong>agentes de IA</strong> están cambiando esto: pasamos de sistemas que responden a sistemas que pueden <strong>planificar, usar herramientas y ejecutar acciones</strong>.</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ 3 ETAPAS ═══════════════════ -->
+    <section>
+        <span class="section-label">05 — Evolución</span>
+        <h2>Tres etapas de la relación humano-máquina</h2>
+        <p>La película muestra el comienzo. Pero la transición sigue evolucionando.</p>
+
+        <div class="three-col">
+            <div class="stage-card">
+                <div class="stage-num">1940–2010</div>
+                <div class="icon">&#9881;</div>
+                <h4>Automatización</h4>
+                <div class="roles">
+                    <div>
+                        <div class="role-label">Humano</div>
+                        <div class="role-text">Piensa, decide, ejecuta parcialmente</div>
+                    </div>
+                    <div>
+                        <div class="role-label">Máquina</div>
+                        <div class="role-text">Ejecuta tareas repetitivas</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stage-card">
+                <div class="stage-num">2010–2025</div>
+                <div class="icon">&#129309;</div>
+                <h4>Colaboración</h4>
+                <div class="roles">
+                    <div>
+                        <div class="role-label">Humano</div>
+                        <div class="role-text">Orienta, pregunta, valida resultados</div>
+                    </div>
+                    <div>
+                        <div class="role-label">IA</div>
+                        <div class="role-text">Procesa datos, sugiere opciones</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stage-card">
+                <div class="stage-num">2025+</div>
+                <div class="icon">&#129302;</div>
+                <h4>Agentes</h4>
+                <div class="roles">
+                    <div>
+                        <div class="role-label">Humano</div>
+                        <div class="role-text">Define objetivos y criterios</div>
+                    </div>
+                    <div>
+                        <div class="role-label">Agente IA</div>
+                        <div class="role-text">Planifica, usa herramientas, ejecuta acciones</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background:var(--card);border-radius:16px;padding:1.5rem;margin-top:1.5rem;border-left:4px solid var(--accent2);">
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);"><strong style="color:#fff;">Dato histórico:</strong> Alan Turing publicó su artículo "Computing Machinery and Intelligence" en 1950, solo cinco años después de que terminara la guerra. En ese artículo planteó la pregunta que todavía hoy define el campo de la IA.</p>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ CONCLUSIONES ═══════════════════ -->
+    <section>
+        <span class="section-label">06 — Conclusiones</span>
+        <h2>Lo que quedó claro</h2>
+
+        <div class="conclusion-grid">
+            <div class="conclusion-card">
+                <div class="cn">01</div>
+                <h4>La IA no nació con ChatGPT</h4>
+                <p>La idea tiene sus raíces en los años 40, con Alan Turing y la máquina que descifró Enigma. La tecnología cambió, pero el objetivo central se mantiene.</p>
+            </div>
+            <div class="conclusion-card">
+                <div class="cn">02</div>
+                <h4>Procesar no es pensar</h4>
+                <p>La máquina de Turing ejecutaba un algoritmo sin entender nada. Los modelos modernos son más sofisticados, pero siguen dependiendo de humanos.</p>
+            </div>
+            <div class="conclusion-card">
+                <div class="cn">03</div>
+                <h4>De herramienta a colaborador</h4>
+                <p>Pasamos de máquinas que ejecutan instrucciones a sistemas que se adaptan, generan contenido y toman decisiones parciales.</p>
+            </div>
+            <div class="conclusion-card">
+                <div class="cn">04</div>
+                <h4>La pregunta sigue abierta</h4>
+                <p>¿Qué parte de nuestra inteligencia puede ser replicada por una máquina? La película fue la primera respuesta; la IA actual es la continuación.</p>
+            </div>
+        </div>
+
+        <div class="takeaway-box">
+            <div class="label">Takeaway</div>
+            <p>La conexión entre <em>Código Enigma</em> y la IA no es solo histórica. Es conceptual: ambos buscan automatizar lo que antes solo podíamos hacer con la mente humana.</p>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ REFLEXIÓN ═══════════════════ -->
+    <section>
+        <div class="reflexion">
+            <span class="section-label">07 — Reflexión</span>
+            <h2>Preguntas para pensar</h2>
+            <div class="reflexion-list">
+                <div class="reflexion-item">
+                    <div class="q">1</div>
+                    <p>Si la máquina de Turing "probaba combinaciones hasta encontrar la correcta", ¿qué diferencia hay con cómo un modelo de lenguaje genera una respuesta? ¿O son más parecidos de lo que creemos?</p>
+                </div>
+                <div class="reflexion-item">
+                    <div class="q">2</div>
+                    <p>Turing decía que si una máquina podía engañar a un humano haciéndose pasar por otro humano, se podía considerar inteligente. ¿Estás de acuerdo con ese criterio?</p>
+                </div>
+                <div class="reflexion-item">
+                    <div class="q">3</div>
+                    <p>Piensa en una tarea que hoy automatizas con tecnología (GPS, calculadora, asistente de voz). ¿Eso la convierte en "inteligente" o simplemente es una herramienta que ejecuta instrucciones?</p>
+                </div>
+                <div class="reflexion-item">
+                    <div class="q">4</div>
+                    <p>La película muestra a Turing luchando contra la burocracia y el escepticismo. ¿Crees que hoy la IA enfrenta resistencias similares? ¿Cuáles?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Actividad basada en la película Código Enigma (The Imitation Game, 2014) dirigida por Morten Tyldum.
+    </footer>
+
+</body>
+</html>

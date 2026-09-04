@@ -26,6 +26,7 @@
 ### Clase 1: ¿Qué es la IA y por qué es importante?
 - **Markdown:** [que-es-ia-y-por-que-importa-clase-1.md](clase-1/que-es-ia-y-por-que-importa-clase-1.md)
 - **PDF:** [que-es-ia-y-por-que-importa-clase-1.pdf](clase-1/que-es-ia-y-por-que-importa-clase-1.pdf)
+- **Actividad 1:** [Código Enigma e Inteligencia Artificial](clase-1/actividad-1/codigo-enigma-inteligencia-artificial-actividad-1.md)
 
 ### Clase 2: IA: Riesgos y Limitaciones
 - **Markdown:** [ia-riesgos-y-limitaciones-clase-2.md](clase-2/ia-riesgos-y-limitaciones-clase-2.md)
@@ -33,4 +34,4 @@
 
 ---
 
-**Última actualización:** 01/09/2026
+**Última actualización:** 03/09/2026
