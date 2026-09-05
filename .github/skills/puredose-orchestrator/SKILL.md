@@ -312,3 +312,5 @@ Orquestador especializado para el proyecto de negocio PureDose — detergente co
 ---
 
 *Última actualización: 04/09/2026*
+
+Resistencia: OPERATIONAL
