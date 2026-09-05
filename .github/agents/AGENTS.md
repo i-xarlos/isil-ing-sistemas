@@ -122,6 +122,8 @@ Antes de dar por terminado un cambio, verifica que:
 
 ## Workflow Git: Branches y Pull Requests
 
+**REGLA OBLIGATORIA:** SIEMPRE crear un PR para cualquier cambio en el repositorio. NUNCA commitear directamente a `main`.
+
 Cuando hajas realizado cambios importantes de documentación, **DEBES usar GitHub CLI (`gh`)** para crear PRs.
 
 ### Requisito Previo
