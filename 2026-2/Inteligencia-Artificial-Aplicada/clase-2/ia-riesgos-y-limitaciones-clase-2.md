@@ -18,6 +18,8 @@
 - Entender los sesgos y su impacto en los modelos
 - Reflexionar sobre la dependencia tecnológica y la seguridad digital
 
+La sesión organiza el análisis en cuatro dimensiones: **alucinaciones y errores**, **sesgos y entrenamiento**, **dependencia tecnológica**, y **seguridad digital y privacidad**. Estas limitaciones forman parte del funcionamiento y del contexto de uso de la IA, por lo que exigen criterio humano, verificación y controles.
+
 ---
 
 ## 1. Alucinaciones y Errores
@@ -187,6 +189,12 @@ Se refiere a los riesgos asociados con el manejo de datos personales, informaci�
 | **Ley N.° 31814** | Ley que Promueve el Uso de la Inteligencia Artificial |
 | **Código de Protección y Defensa del Consumidor** | Protección al consumidor |
 
+### Caso de Confidencialidad Profesional
+
+Compartir con una IA información de un caso legal real puede vulnerar la confidencialidad abogado-cliente aunque no se mencione el nombre del cliente. La combinación de hechos, fechas, lugares, documentos y circunstancias puede permitir identificar el caso, y además la información podría almacenarse o procesarse fuera del control profesional.
+
+> **Regla práctica:** anonimizar los datos no basta si el conjunto de detalles permite reconstruir la identidad o la estrategia legal.
+
 ---
 
 ## Conclusiones
@@ -195,6 +203,8 @@ Se refiere a los riesgos asociados con el manejo de datos personales, informaci�
 2. Todo sistema de IA contiene sesgos derivados de sus datos de entrenamiento, que frecuentemente subrepresentan perspectivas latinoamericanas.
 3. El uso irreflexivo de IA puede erosionar gradualmente habilidades cognitivas fundamentales.
 4. Cada interacción con sistemas de IA implica compartir información que puede ser almacenada y procesada de maneras no previstas.
+
+**Uso responsable:** verificar los resultados, revisar sesgos, conservar habilidades humanas y no introducir información sensible sin autorización ni controles adecuados.
 
 **Frase clave:**
 > "La tecnología es un sirviente útil, pero un amo peligroso." — Christian Lous Lange, Nobel de la Paz
@@ -220,7 +230,7 @@ Se refiere a los riesgos asociados con el manejo de datos personales, informaci�
 
 2. **Pregunta comparativa:** ¿Cuál de los riesgos de dependencia tecnológica crees que es más peligroso para los profesionales peruanos? ¿Por qué?
 
-3. **Pregunta crítica:** ¿Cómo平衡ar los beneficios de la IA con los riesgos de privacidad en un país como Perú donde la regulación es incipiente?
+3. **Pregunta crítica:** ¿Cómo equilibrar los beneficios de la IA con los riesgos de privacidad en un país como Perú donde la regulación es incipiente?
 
 ---
 
@@ -235,4 +245,4 @@ Se refiere a los riesgos asociados con el manejo de datos personales, informaci�
 
 ---
 
-*Última verificación: 01/09/2026.*
+*Última actualización: 07/09/2026 - Contenido alineado con PDF de clase del 01/09/2026.*

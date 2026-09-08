@@ -62,6 +62,18 @@ Implica dividir un sistema complejo en partes más pequeñas y manejables, llama
 - **UX (Experiencia de Usuario):** Experiencia general que un usuario tiene al interactuar con un sistema
 - **Seguridad:** Medidas para proteger la integridad, disponibilidad y confidencialidad de los datos y servicios
 
+### Otros Conceptos del Diseño
+
+| Concepto | Qué implica | Ejemplo |
+|----------|-------------|---------|
+| **Base de datos** | Definir qué datos se almacenan, cómo se organizan y cómo se accede a ellos | Tablas de libros, usuarios, préstamos y multas en una biblioteca |
+| **Escalabilidad** | Soportar un aumento de carga o demanda sin rediseños costosos | Añadir servidores durante una campaña de alta demanda |
+| **Rendimiento** | Ejecutar las tareas con eficiencia bajo una carga determinada | Usar cachés y balanceadores de carga |
+| **Integración de sistemas** | Conectar aplicaciones, bases de datos y otros recursos para trabajar como una unidad | Historia clínica, citas y facturación sincronizadas en un hospital |
+| **Documentación** | Explicar el funcionamiento, mantenimiento y uso del sistema | Manuales, diagramas de arquitectura y guías de instalación |
+
+La seguridad del diseño debe proteger la **confidencialidad, integridad y disponibilidad** mediante autenticación, autorización, cifrado y auditoría.
+
 ### Ejemplo Práctico: Caso Real en Perú
 
 **Caso: Sistema de Gestión de Delivery para Restaurantes en Lima**
@@ -105,6 +117,10 @@ Son un conjunto de métodos y técnicas que se han demostrado eficaces para crea
 | **Documentación Exhaustiva** | Crear documentación detallada del diseño | Facilita mantenimiento y extensión futura |
 | **Diseño Centrado en el Usuario** | Involucrar a usuarios en el proceso | Mejora adopción y satisfacción |
 
+### Consideraciones de las Buenas Prácticas
+
+Estas prácticas tienen impacto directo en la calidad final. La modularidad facilita el mantenimiento y la reutilización; la seguridad desde el diseño reduce vulnerabilidades; y la documentación ayuda a extender el sistema y a incorporar nuevos desarrolladores. El tiempo invertido en diseño reduce retrabajo, incidentes y costos posteriores.
+
 ---
 
 ## 3. Diseño de la Arquitectura del Sistema
@@ -123,6 +139,11 @@ Es una de las etapas más críticas en el desarrollo de software. En esta fase s
 6. **Seguridad:** Incorporación de características de seguridad
 7. **Resiliencia y Recuperación:** Planificación de cómo el sistema se recuperará de fallos
 8. **Interoperabilidad:** Capacidad de interactuar con otros sistemas externos
+9. **Documentación:** Registro de la arquitectura, decisiones y relaciones entre componentes
+
+### Ejemplo Completo: Arquitectura de un E-commerce
+
+En una plataforma de comercio electrónico, los módulos de inventario, carrito, pagos y usuarios pueden comunicarse mediante APIs RESTful. Al comprar, los datos pasan del carrito al procesamiento de pagos y luego actualizan el inventario. La solución puede organizarse en frontend, backend y base de datos; usar balanceadores de carga y aplicar autenticación de dos factores, cifrado, copias de seguridad y un plan de recuperación ante desastres. Si se conecta con un sistema de almacén, debe facilitar esa interoperabilidad.
 
 ### Metodologías y Herramientas
 
@@ -131,6 +152,12 @@ Es una de las etapas más críticas en el desarrollo de software. En esta fase s
 - Arquitectura Orientada a Servicios (SOA)
 - Microservicios
 - Arquitectura en Capas
+
+**Técnicas:**
+- Diagramas de arquitectura para visualizar componentes y relaciones
+- Patrones de diseño como plantillas para problemas recurrentes
+- Principios SOLID para crear sistemas mantenibles y robustos
+- Prototipado para validar decisiones de diseño antes de construir todo el sistema
 
 **Herramientas:**
 - Enterprise Architect
@@ -187,4 +214,4 @@ Es una de las etapas más críticas en el desarrollo de software. En esta fase s
 
 ---
 
-*Última verificación: 01/09/2026.*
+*Última actualización: 07/09/2026 - Contenido alineado con PDF de clase del 01/09/2026.*

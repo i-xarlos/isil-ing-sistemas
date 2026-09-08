@@ -38,9 +38,9 @@ El concepto de un mundo VUCA fue introducido por el ejército de los Estados Uni
 | Término | Significado | Ejemplo |
 |---------|-------------|---------|
 | **Volatilidad** | Dinámica de los cambios y velocidad | Movimientos amplios e imprevistos de los mercados |
-| **Incertidumbre** | La volatilidad dificulta prever los cambios | Dificultad para anticiparse a cambios repentinos |
-| **Complejidad** | Múltiples factores interdependientes cuyos efectos son difíciles de aislar y predecir | Múltiples factores interactuando simultáneamente |
-| **Ambigüedad** | Falta de claridad sobre el significado o la interpretación de una situación | Situaciones nuevas con varias explicaciones plausibles |
+| **Incertidumbre** | La volatilidad dificulta prever los cambios y anticiparse a ellos | Dificultad para anticiparse a cambios repentinos |
+| **Complejidad** | Ausencia de una conexión clara entre causas y efectos | Múltiples factores interactuando simultáneamente |
+| **Ambigüedad** | Dificultad para conceptualizar posibles amenazas o interpretar una situación | Situaciones nuevas con varias explicaciones plausibles |
 
 ### ¿Cómo es el Mundo VUCA?
 
@@ -70,6 +70,8 @@ Usualmente es la internacionalización y la incorporación de nuevas tecnología
 ### ¿Cómo reaccionar ante el Mundo VUCA?
 
 Más importante que la gestión tradicional de planificación es la capacidad de reacción que tienen las empresas ante nuevos acontecimientos.
+
+> **Regla de adaptación:** cuando la velocidad del cambio del entorno es mayor que la velocidad de cambio de la organización, la continuidad del negocio queda amenazada.
 
 ### Relación con la Globalización
 
@@ -114,9 +116,9 @@ Deben adaptarse a este nuevo mundo para cumplir con sus objetivos y permanecer e
 
 ---
 
-## 2. Resumen del Material Complementario: Management Disruptivo
+## 3. Resumen del Material Complementario: Management Disruptivo
 
-> **Fuente:** Serradell-López, E. (2018). "Management disruptivo. En búsqueda de 'The Next Big Thing'". Artículo académico presentado en el ICR & BM, Arequipa, Perú. → [PDF completo](./40001-S01-COMPLEMENTARIO.pdf)
+> **Fuente:** Serradell-López, E. (2018). "Management disruptivo. En búsqueda de 'The Next Big Thing'". Artículo académico presentado en el ICR & BM, Arequipa, Perú. → [PDF completo](./management-disruptivo-complementario-clase-1.pdf)
 
 ### Ideas Principales del Artículo
 
@@ -146,7 +148,7 @@ Deben adaptarse a este nuevo mundo para cumplir con sus objetivos y permanecer e
 
 ---
 
-## 3. Innovación Disruptiva y Management Disruptivo
+## 4. Innovación Disruptiva y Management Disruptivo
 
 ### ¿Qué es la Innovación Disruptiva?
 
@@ -208,7 +210,7 @@ Certeza relativa ←——————————————→ Gran incertidu
 
 ---
 
-## 4. Modelo VUCA Prime
+## 5. Modelo VUCA Prime
 
 ### ¿Qué es?
 
@@ -230,9 +232,13 @@ Desarrollado por Bob Johansen, considera que los mejores líderes para este mund
 3. Trabajar en colaboración y ser excelentes comunicadores
 4. **Sobre todo, ser capaces de aprender rápido** porque el cambio es constante
 
+### Casos de Éxito del PDF
+
+El PDF presenta como referencias de respuesta empresarial al mundo VUCA a **Unilever, McDonald's y Procter & Gamble**. Estos casos sirven para observar cómo organizaciones grandes combinan adaptación, innovación, conocimiento del cliente y ejecución para responder a cambios del entorno.
+
 ---
 
-## Conclusiones
+## 6. Conclusiones
 
 1. El mundo VUCA es una realidad que está impactando en el desarrollo de las organizaciones en el contexto actual.
 2. Está compuesto por Volatilidad, Incertidumbre, Complejidad y Ambigüedad.
@@ -346,11 +352,11 @@ El mundo VUCA ha transformado radicalmente la planificación estratégica en las
 | 1 | Lopez, J.A. (2018). Los entornos VUCA y el nuevo paradigma empresarial | Artículo | https://corporateyachting.es/es/los-entornos-vuca-y-el-nuevo-paradigma-empresarial/ |
 | 2 | Serradell López, E. (2019). Management disruptivo | Blog | http://blogs.eada.edu/2019/04/29/management-disruptivo-en-busqueda-de-the-next-big-thing/ |
 | 3 | Johansen, R. (2012). *Leaders Make the Future* | Libro | https://www.amazon.com/Leaders-Make-Future-Transforming/dp/1577319729 |
-| 4 | Serradell-López, E. (2018). Management disruptivo. En búsqueda de "The Next Big Thing" | Artículo académico | [PDF complementario](./40001-S01-COMPLEMENTARIO.pdf) |
+| 4 | Serradell-López, E. (2018). Management disruptivo. En búsqueda de "The Next Big Thing" | Artículo académico | [PDF complementario](./management-disruptivo-complementario-clase-1.pdf) |
 | 5 | Christensen, C. M. y Bower, J. L. (1995). Disruptive technologies: Catching the wave | Artículo académico | Harvard Business Review |
 | 6 | Dyer, J., Gregersen, H., & Christensen, C. M. (2012). *El ADN del innovador* | Libro | Grupo Planeta |
 | 7 | McKinsey (2018). Forecast economic impact of disruptive technologies | Reporte | Statista |
 
 ---
 
-*Última verificación: 01/09/2026.*
+*Última actualización: 07/09/2026 - Contenido alineado con PDF de clase del 01/09/2026.*

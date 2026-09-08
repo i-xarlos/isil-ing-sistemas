@@ -48,13 +48,13 @@ Son 3 los componentes que contribuyen a crear presentaciones de alto impacto:
 
 | Componente | Descripción |
 |------------|-------------|
-| **Emocional** | Conectar con la audiencia a través de emociones (agradables o incluso impactantes) para abrir la puerta del entendimiento |
+| **Emocional** | Despertar emociones agradables para abrir la puerta del entendimiento |
 | **Innovación** | Enseñar algo nuevo o diferente para captar la atención mediante el "efecto Wow" |
 | **Memorable** | Dejar un recuerdo perdurable en la audiencia tras finalizar la exposición |
 
 ### Una presentación de alto impacto es como hacer un SHOW de magia
 
-Hay que emocionar a la audiencia robándoles más de una sonrisa y dejarlos boquiabiertos sacando varios conejos del sombrero. Esta es la única manera de grabarse en su memoria y dejar un buen recurso.
+Hay que emocionar a la audiencia robándoles más de una sonrisa y dejarlos boquiabiertos sacando varios conejos del sombrero. Esta es la única manera de grabarse en su memoria y dejar un buen recuerdo.
 
 ---
 
@@ -143,7 +143,7 @@ Se reprodujo un video con técnicas para preparar presentaciones ante directivos
 
 ### ¿Por qué son importantes?
 
-"No hay presentación espectacular sin emoción". La emoción del presentador es FUNDAMENTAL para impactar de manera positiva en la audiencia. Es importante estar seguro de sí mismo, generar confianza, mostrarse cercano y fomentar el diálogo.
+"No hay presentación espectacular sin emoción". La emoción del presentador es FUNDAMENTAL para impactar de manera positiva en la audiencia. Es importante estar seguro de sí mismo, generar confianza, mostrarse cercano y fomentar el diálogo. El reto es despertar emociones agradables, poniendo especial atención al inicio y al final de la presentación.
 
 ### Las 5 Emociones Básicas (Paul Ekman)
 
@@ -155,6 +155,8 @@ Según el psicólogo Paul Ekman, existen 5 emociones básicas en el ser humano:
 - Tristeza
 
 4 con connotación «desagradable» y 1 con connotación «agradable» (la alegría).
+
+La alegría puede dar lugar a gratitud, asombro, felicidad, optimismo, euforia, confianza y amor. Según el enfoque presentado en clase, las emociones agradables son las que contribuyen a hacer memorable una presentación.
 
 ### Recursos para Despertar Emociones Agradables
 
@@ -303,4 +305,4 @@ Las presentaciones de ALTO IMPACTO deben elevar los niveles de dopamina de la au
 
 ---
 
-*Última verificación: 01/09/2026.*
+*Última actualización: 07/09/2026 - Contenido alineado con PDF de clase del 01/09/2026.*

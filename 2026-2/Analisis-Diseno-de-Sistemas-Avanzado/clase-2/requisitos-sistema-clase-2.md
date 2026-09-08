@@ -58,6 +58,19 @@ Este estándar vigente amplía y reemplaza las prácticas de IEEE 830-1998 para 
 11. **Revisión y Aprobación:** Revisar con todos los stakeholders y obtener aprobación formal
 12. **Mantenimiento y Actualización:** Mantener el documento actualizado
 
+### Ejemplo: Documento de Visión para un E-commerce
+
+Una plataforma de comercio electrónico puede definir una meta de aumentar las ventas en línea en 20% durante el primer año y reducir el abandono del carrito en 10%. Su alcance incluye una plataforma web y móvil integrada con pagos y logística.
+
+| Elemento | Contenido del ejemplo |
+|----------|----------------------|
+| **Stakeholders** | Inversores, directivos, compradores, vendedores, equipo de desarrollo y proveedores logísticos |
+| **Funcionalidades** | Búsqueda avanzada, pagos seguros, gestión de inventario y recomendaciones personalizadas |
+| **Restricciones** | Escalabilidad, compatibilidad con dispositivos, protección de datos e integración con servicios existentes |
+| **Criterios de éxito** | Conversión mínima de 3% y calificación de usuario de 4 estrellas o más |
+| **Escenarios de uso** | Buscar un producto y añadirlo al carrito; actualizar el inventario de una tienda |
+| **Arquitectura inicial** | Frontend en React, backend en Node.js y base de datos MongoDB |
+
 ---
 
 ## 2. Especificación de Requisitos del Sistema
@@ -85,6 +98,20 @@ Es vital invertir tiempo y esfuerzo en la etapa de recolección y documentación
 | **IEEE 830-1998** | Estándar conocido para la especificación de requisitos de software |
 | **ISO/IEC/IEEE 29148:2018** | Estándar vigente para la ingeniería de requisitos; cubre el proceso de desarrollo completo |
 | **CMMI** | Ofrece directrices útiles para el proceso de gestión de requisitos |
+
+### Herramientas de Gestión
+
+- **Gestión de requisitos:** IBM Engineering Requirements Management DOORS y Jama Connect ayudan a organizar y mantener los requisitos.
+- **Control de versiones:** Git, SVN y herramientas similares conservan el historial de cambios.
+
+### Ventajas de una Especificación Bien Documentada
+
+| Área | Aporte |
+|------|--------|
+| **Claridad** | Define qué está incluido y evita el *scope creep* o crecimiento descontrolado del alcance |
+| **Planificación** | Permite estimar mejor tiempos, recursos y decisiones del proyecto |
+| **Calidad** | Establece el criterio contra el que se evalúa el producto final |
+| **Mantenimiento** | Facilita cambios, actualizaciones y reutilización del conocimiento |
 
 ### Normalización de Requisitos
 
@@ -190,6 +217,27 @@ Una matriz de trazabilidad incluye:
 - **Etapa de Validación:** Cómo se validará que el requisito cumple con las necesidades
 - **Elemento de Implementación:** Qué parte del sistema es responsable de implementarlo
 
+### Estructura Básica de la Matriz
+
+Además de los campos anteriores, el registro de cada requisito puede incluir:
+
+| Campo | Uso |
+|-------|-----|
+| **Nombre** | Referencia corta y descriptiva |
+| **Descripción completa** | Detalle de lo que el sistema debe hacer |
+| **Prioridad** | Importancia o urgencia para asignar recursos |
+| **Tipo** | Funcional, no funcional, interfaz u otra categoría |
+| **Estado** | No iniciado, en desarrollo, completado o verificado |
+
+### Ejemplo de Trazabilidad: Sistema de Pensiones
+
+| ID | Fuente | Verificación | Validación | Implementación |
+|----|--------|--------------|------------|----------------|
+| **R1** Registro de beneficiarios | Departamento de Beneficios | Inspección formal y pruebas unitarias | Pruebas de aceptación y entrevistas | Módulo de Registro |
+| **R2** Cálculo automático de pensión | Actuarios y usuarios finales | Análisis estático y pruebas unitarias | Prototipado y análisis de caso de uso | Módulo de Cálculo |
+
+La matriz permite saber quién solicitó cada requisito, cómo se comprobará, cómo se validará con usuarios y qué componente del sistema lo implementa.
+
 ---
 
 ## Conclusiones
@@ -239,4 +287,4 @@ Una matriz de trazabilidad incluye:
 
 ---
 
-*Última verificación: 01/09/2026.*
+*Última actualización: 07/09/2026 - Contenido alineado con PDF de clase del 01/09/2026.*

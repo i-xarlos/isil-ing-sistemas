@@ -41,6 +41,10 @@ Es un modelo de organización y control de la cadena de valor a través del cicl
 - Aplica a la industria el modelo Internet de las cosas (IoT)
 - Los sistemas ciber físicos controlan los procesos físicos, crean una copia virtual del mundo físico y toman decisiones descentralizadas
 
+**Tecnologías habilitadoras:** robótica, inteligencia artificial, blockchain, nanotecnología, computación cuántica, biotecnología, IoT, impresión 3D y vehículos autónomos.
+
+Las necesidades del cliente también cambian: los mercados exigen personalización y nuevos productos o servicios. Por eso, el cliente puede valorar más la experiencia y los servicios asociados que el producto aislado, lo que impulsa añadir software y conectividad.
+
 ### El Mundo Digital Facilita la Innovación
 
 La era digital ha creado ventajas que antes no se tenían:
@@ -50,6 +54,8 @@ La era digital ha creado ventajas que antes no se tenían:
 3. **Escalabilidad:** El crecimiento es intangible y exponencial en digital
 4. **La relación con el cliente:** Medios de comunicación innumerables y crecientes canales
 5. **La facilidad de colaborar con otros:** Colaboración entre rivales cada vez más necesaria
+
+**Big Data:** La información proviene de sensores climáticos, publicaciones en redes sociales, fotografías, videos, transacciones y señales GPS. La disponibilidad de estos datos permite experimentar, analizar y diseñar productos con mayor rapidez.
 
 ---
 
@@ -131,6 +137,11 @@ Una cadena de distribución pudo predecir cuándo sus clientes esperaban un beb�
 | **2. Escalar las Iniciativas Exitosas** | Que más áreas trabajen de esta manera | Adquirir talento digital, formar centro de excelencia |
 | **3. Mantener y Liderar el Cambio** | Llevar la nueva mentalidad a toda la organización | Estrategia de largo plazo, colaboración entre departamentos |
 
+**Detalle de los pasos:**
+- **Quick wins:** iniciar con iniciativas de baja complejidad y alto impacto, llevar productos rápido al mercado, aprender del feedback y limitar tiempo y capital.
+- **Escalar:** adquirir talento digital, capacitar al talento interno, crear un centro de excelencia y colaborar con startups.
+- **Mantener y liderar:** asegurar el respaldo de los líderes, generar una estrategia digital de largo plazo, fomentar la colaboración y convertir TI en una capacidad integrada, no solo en un proveedor.
+
 ### ¿Cómo saber si una empresa está "madura" para la era digital?
 
 | Dimensión | Características |
@@ -140,6 +151,8 @@ Una cadena de distribución pudo predecir cuándo sus clientes esperaban un beb�
 | **Tecnología** | Uso y adopción de nuevas tecnologías por toda la organización |
 | **Insights o Data** | Uso adecuado de la data de clientes y negocio |
 
+La madurez digital combina estas cuatro dimensiones: una cultura orientada a la innovación, una estructura alineada con la estrategia, adopción tecnológica transversal y uso de datos para medir el avance.
+
 ---
 
 ## 3. Metodologías de Desarrollo de Producto
@@ -148,9 +161,11 @@ Una cadena de distribución pudo predecir cuándo sus clientes esperaban un beb�
 
 Metodología de solución de problemas enfocada en la gente, en lo que realmente piensa, siente y cuál es su dificultad real. Usa la empatía, ideación, prototipado y experimentación para resolver problemas reales.
 
+> **Idea clave:** "Piensa con tus manos": investiga el problema, genera ideas, construye una solución y pruébala con las personas.
+
 ### Lean UX
 
-Se basa en tratar de construir, medir y validad que lo que se está construyendo sea lo que realmente se necesita. Se basa en construir un producto mínimo viable para que el público objetivo realmente pueda probarlo en el mercado real.
+Se basa en tratar de construir, medir y validar que lo que se está construyendo sea lo que realmente se necesita. Se basa en construir un producto mínimo viable para que el público objetivo realmente pueda probarlo en el mercado real.
 
 ### Desarrollo Ágil
 
@@ -171,6 +186,18 @@ Sirve para optimizar el embudo de Marketing, encontrando el público objetivo pr
 No es una metodología, es una forma de pensar. Busca una validación temprana de un producto mínimo viable para optimizar tiempos y esfuerzos.
 
 > "fail early, fail fast, fail often"
+
+### Criterio para Elegir una Metodología
+
+La elección depende del estado de la iniciativa:
+
+| Pregunta | Decisión orientadora |
+|----------|---------------------|
+| ¿Ya conocemos el problema del cliente? | Si no, comenzar con investigación y Design Thinking |
+| ¿Tenemos una idea que debemos probar? | Usar prototipos, Lean UX o Lean Startup |
+| ¿El producto debe desarrollarse iterativamente? | Organizar el trabajo con Desarrollo Ágil |
+| ¿Necesitamos optimizar adquisición y conversión? | Aplicar Growth Hacking |
+| ¿Ya sabemos qué funciona y debemos crecer? | Escalar con procesos, datos y capacidades digitales |
 
 ### ¿Cómo elegir la metodología?
 
@@ -228,4 +255,4 @@ La metodología elegida dependerá del estado de la iniciativa:
 
 ---
 
-*Última verificación: 01/09/2026.*
+*Última actualización: 07/09/2026 - Contenido alineado con PDF de clase del 01/09/2026.*
