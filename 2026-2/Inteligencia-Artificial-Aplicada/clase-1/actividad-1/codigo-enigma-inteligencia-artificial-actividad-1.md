@@ -24,30 +24,14 @@ Esa idea sentó las bases de lo que hoy llamamos computación. Sin ella, no exis
 
 | Hito | Año | ¿Por qué importa? |
 |---|---|---|
-| **Máquina de Turing** (concepto teórico) | 1936 | Demostró que las máquinas pueden ejecutar cualquier tarea computable con instrucciones adecuadas. |
-| **Colossus** (primera computadora electrónica) | 1944 | Turing participó en su diseño para descifrar códigos nazis. Fue una de las primeras pruebas de que las máquinas podían procesar información a velocidad humana. |
+| **Máquina de Turing** (concepto teórico) | 1936 | Demostró que las máquinas pueden ejecutar cualquier tarea computable con instrucciones adecuadas. Rol de Turing: autor total. No descifraba nada — es una idea. |
+| **"Christopher" / Bombe** (máquina electromecánica real) | 1939–1940 | Codiseñada por Turing para descifrar Enigma. Fue la aplicación práctica de su idea teórica durante la guerra. |
+| **Colossus** (primera computadora electrónica) | 1944 | Turing participó en su diseño para descifrar códigos nazis. Descifraba Lorenz. Fue una de las primeras pruebas de que las máquinas podían procesar información a velocidad humana. |
 | **ENIAC** (primera computadora de propósito general) | 1945 | Marcó el inicio de la computación moderna: máquinas programables para resolver diferentes tipos de problemas. |
 | **Test de Turing** | 1950 | Turing planteó formalmente la pregunta: ¿Puede una máquina pensar? Esto fundó el campo de la IA. |
 | **Primeros programas de IA** | 1956 | En la conferencia de Dartmouth se acuñó el término "Inteligencia Artificial" y se empezaron a crear los primeros sistemas. |
 
 Lo fascinante es que Turing no solo imaginó la computadora: también imaginó que esas máquinas podrían hacer cosas que antes solo podíamos hacer nosotros con la mente. La película *Código Enigma* muestra exactamente ese momento: cuando una máquina empieza a hacer un trabajo que parecía exclusivamente humano.
-
-### La relación entre las tres
-
-> **Máquina de Turing**
-> Qué es: Concepto teórico
-> Rol de Turing: Autor total
-> Qué descifraba: N/A — es una idea
-
-> **"Christopher" / Bombe**
-> Qué es: Máquina electromecánica real
-> Rol de Turing: Codiseñador principal
-> Qué descifraba: Enigma
-
-> **Colossus**
-> Qué es: Computadora electrónica real
-> Rol de Turing: Rol indirecto
-> Qué descifraba: Lorenz
 
 En resumen: la Máquina de Turing es la idea madre, la Bombe ("Christopher" en la película) es la aplicación práctica de esa idea durante la guerra, y Colossus es el siguiente salto tecnológico, ya acercándose a lo que hoy entendemos como computadora.
 
