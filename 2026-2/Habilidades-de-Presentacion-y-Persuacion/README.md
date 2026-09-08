@@ -25,4 +25,4 @@
 
 ---
 
-**Última actualización:** 01/09/2026 | **Docente Clase 1:** Macarena Soto
+**Última actualización:** 07/09/2026 | **Docente Clase 1:** Macarena Soto

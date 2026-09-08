@@ -27,6 +27,8 @@ William Marston PhD fijó su interés psicológico en entender y describir el co
 
 Es un modelo de comportamiento humano que ayuda a la gente a entender "por qué hacen lo que hacen". No hay estilos puros, todas las personas comparten estos cuatro estilos en diferentes grados de intensidad.
 
+Los estilos se pueden leer en dos ejes: orientación a la **tarea o a las personas**, y comunicación **directa o indirecta**. Por eso existen mezclas de estilo, cada una con preferencias, fortalezas, temores y limitaciones propias.
+
 ### Los 4 Estilos
 
 | Estilo | Descripción |
@@ -103,6 +105,22 @@ Conocer el estilo de comportamiento propio nos permitirá potenciar nuestro esti
 
 **Pregunta clave:** ¿Cómo? (pregunta analítica y técnica)
 
+### Mapa Comparativo de los Estilos
+
+| Estilo | Busca | Fortalezas | Áreas de crecimiento | Bajo estrés |
+|--------|-------|------------|----------------------|-------------|
+| **D** | Control | Liderazgo y organización | Impaciencia, baja escucha e insensibilidad | Dictatorial o desafiante |
+| **I** | Reconocimiento | Persuasión, entretenimiento y animación | Falta de atención, disciplina y cierre | Impulsivo o vehemente |
+| **S** | Aceptación | Escucha, apoyo y trabajo en equipo | Sensibilidad, lentitud para actuar y dificultad para decir no | Paralizado o lento |
+| **C** | Precisión | Planificación, estructura y organización | Perfeccionismo, crítica e indiferencia | Crítico o insensible |
+
+| Estilo | Pregunta típica | Prefiere |
+|--------|-----------------|----------|
+| **D** | ¿Qué? | Resultados, autoridad, retos y metas de corto plazo |
+| **I** | ¿Quién? | Relaciones, actividades grupales, flexibilidad y reconocimiento |
+| **S** | ¿Por qué? | Propósito, contacto personal, seguridad y límites claros |
+| **C** | ¿Cómo? | Información, tiempo para prepararse y alternativas |
+
 ---
 
 ## 3. Identificación del Estilo de Comunicación
@@ -115,6 +133,15 @@ Conocer el estilo de comportamiento propio nos permitirá potenciar nuestro esti
 | **Influyente** | Romper el hielo, mostrar interés, ser ameno, usar humor | Eliminar tiempo social, hablar todo el tiempo, ser frío |
 | **Soporte** | Dar tiempo para la relación, explicar ventajas para personas, mostrarse cercano | Ser agresivo, confrontar, hablar sin ceder la palabra |
 | **Controlador** | Ofrecer datos objetivos, información estructurada, ser puntual | Negarse a explicar detalles, usar generalizaciones, ser difuso |
+
+### Pautas Detalladas de Comunicación
+
+| Estilo | Cómo comunicarse | Qué evitar |
+|--------|------------------|------------|
+| **D** | Hablar de objetivos, resultados y beneficios; ser directo, concreto y seguro | Titubear, repetir, centrarse en procesos, ser demasiado emocional o hacer afirmaciones sin respaldo |
+| **I** | Romper el hielo, mostrar interés, dejar espacio a su iniciativa, ser ameno y usar humor | Eliminar el tiempo social, hablar todo el tiempo, ignorar sus ideas o ser demasiado frío |
+| **S** | Dar tiempo para la relación, explicar beneficios para las personas, ser cercano, escuchar dudas y valorar sus aportes | Ser agresivo, confrontar, monopolizar la conversación o impacientarse con sus preguntas |
+| **C** | Ofrecer datos objetivos, gráficos, tablas, normas y procedimientos; ser puntual y formal | Negarse a explicar detalles, usar datos inexactos, confrontar o presentar decisiones sin plan |
 
 ### Resumen de Estilos
 
@@ -207,4 +234,4 @@ Conocer el estilo de comportamiento propio nos permitirá potenciar nuestro esti
 
 ---
 
-*Última verificación: 01/09/2026.*
+*Última actualización: 07/09/2026 - Contenido alineado con PDF de clase del 01/09/2026.*

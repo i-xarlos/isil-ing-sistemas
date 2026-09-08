@@ -18,6 +18,8 @@
 - Analizar cómo se entrena una IA y por qué no "piensa" como los humanos
 - Reflexionar sobre los retos éticos, sociales y profesionales que plantea la IA
 
+**Materiales cubiertos:** Este resumen integra la presentación principal *¿Qué es la IA y por qué importa?* y el material complementario *Evolución de la IA*. La cronología incluye los antecedentes de los autómatas, las etapas de nacimiento, maduración, auge, invierno, IA moderna e IA general, y los hitos históricos desarrollados en ambos PDF.
+
 ---
 
 ## 1. ¿Qué es la Inteligencia Artificial?
@@ -256,6 +258,13 @@ La IA no solo reacciona, sino que predice comportamientos y necesidades futuras:
 - **2005:** Google construye el primer auto capaz de manejarse así mismo
 - **2010-2020:** Desarrollo de vehículos autónomos por Waymo, Tesla, etc.
 
+### Actividades de la Sesión
+
+- Ubicar el nivel de conocimiento o experiencia personal frente a la IA.
+- Compartir saberes previos, experiencias y anécdotas relacionadas con el tema.
+- Describir las seis fases del entrenamiento de una IA e identificar cuál es especialmente importante para la calidad del resultado.
+- Identificar tres situaciones en las que un chatbot puede ser superior a una persona y tres en las que el criterio humano sea irremplazable.
+
 ---
 
 ## 5. Diferencias entre IA Generativa y Otras Formas de Automatización
@@ -383,4 +392,4 @@ El Perú cuenta con una **Estrategia Nacional de Inteligencia Artificial** (2019
 
 ---
 
-*Última verificación: 01/09/2026.*
+*Última actualización: 07/09/2026 - Contenido alineado con PDF de clase del 01/09/2026.*

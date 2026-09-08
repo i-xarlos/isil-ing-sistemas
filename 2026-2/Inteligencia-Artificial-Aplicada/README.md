@@ -34,4 +34,4 @@
 
 ---
 
-**Última actualización:** 03/09/2026
+**Última actualización:** 07/09/2026
