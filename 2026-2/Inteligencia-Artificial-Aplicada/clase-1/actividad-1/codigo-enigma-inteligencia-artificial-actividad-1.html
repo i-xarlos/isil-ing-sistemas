@@ -36,7 +36,9 @@
             align-items: center;
             text-align: center;
             padding: 2rem;
-            background: radial-gradient(ellipse at 50% 30%, #1a1040 0%, #0a0a14 70%);
+            background: 
+                linear-gradient(135deg, rgba(10,10,20,0.85) 0%, rgba(26,16,64,0.8) 50%, rgba(10,10,20,0.9) 100%),
+                url('./bombe-codigo-enigma-fondo.jpg') center/cover no-repeat;
             overflow: hidden;
         }
 
@@ -847,6 +849,7 @@
 
         <div style="background:linear-gradient(135deg,var(--accent2),var(--accent));border-radius:16px;padding:1.5rem;margin:2rem 0;text-align:center;">
             <p style="font-size:0.8rem;color:rgba(255,255,255,0.7);text-transform:uppercase;letter-spacing:2px;margin-bottom:0.5rem;">El problema de Enigma</p>
+            <p style="font-size:0.85rem;color:rgba(255,255,255,0.7);margin-bottom:1rem;line-height:1.6;">Un equipo de personas tardaría <strong style="color:#fff;">siglos</strong> en probar cada configuración manualmente. La <strong style="color:#fff;">Bombe</strong> hacía ese trabajo en <strong style="color:#fff;">horas</strong>. Sin esa velocidad, la guerra se habría extendido y <strong style="color:#fff;">millones de vidas</strong> habrían estado en riesgo.</p>
             <p style="font-size:clamp(1.5rem,4vw,2.5rem);font-weight:900;color:#fff;margin:0;">~158.962.555.217.826.360.000</p>
             <p style="font-size:0.9rem;color:rgba(255,255,255,0.8);margin-top:0.5rem;">combinaciones posibles. Probar una por una era como buscar una aguja en un gigantesco pajar.</p>
         </div>
@@ -864,18 +867,19 @@
             </div>
         </div>
 
-        <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1.5rem;">Alan Turing (1912–1954): matemático, criptoanalista y pionero de la computación.</p>
+        <h3 style="font-size:1.1rem;font-weight:700;color:#fff;margin:0 0 0.25rem 0;">Alan Turing (1912–1954)</h3>
+        <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1.5rem;">Matemático, criptoanalista y pionero de la computación. Su trabajo sentó las bases teóricas de la inteligencia artificial.</p>
 
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-year">1936</div>
                 <div class="timeline-content">
                     <h4>Máquina de Turing</h4>
-                    <p style="margin-bottom:0.5rem;">Concepto teórico que sentó las bases de la computación moderna.</p>
+                    <p style="margin-bottom:0.5rem;">Concepto matemático abstracto descrito en su artículo "On Computable Numbers".</p>
                     <ul style="list-style:none;padding:0;margin:0;">
-                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Demostró que las máquinas pueden ejecutar cualquier tarea computable con instrucciones adecuadas.</li>
-                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Rol de Turing: autor total.</li>
-                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; No descifraba nada — es una idea.</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; No es un aparato físico — es una máquina imaginaria que lee y escribe símbolos en una cinta infinita siguiendo reglas.</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Sirvió para definir qué es "computable".</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Sentó las bases de toda la computación moderna, pero nunca se construyó como tal.</li>
                     </ul>
                 </div>
             </div>
@@ -886,24 +890,20 @@
                         <h4 style="margin:0;">Bombe ("Christopher")</h4>
                         <span style="background:var(--accent);color:#fff;font-size:0.65rem;font-weight:700;padding:0.2rem 0.6rem;border-radius:50px;letter-spacing:1px;white-space:nowrap;">&#127909; EN LA PELÍCULA</span>
                     </div>
-                    <p style="margin-bottom:0.5rem;">Máquina electromecánica para descifrar Enigma. Turing la llamó "Christopher" en homenaje a Christopher Morcom.</p>
-                    <p style="margin:0 0 0.5rem 0;font-size:0.85rem;color:#fff;font-style:italic;line-height:1.5;">Turing resolvió el problema creando una máquina que probaba miles de configuraciones por segundo, descartaba las imposibles y encontraba la configuración correcta de Enigma.</p>
-                    <ul style="list-style:none;padding:0;margin:0;">
-                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Máquina electromecánica real codiseñada por Turing.</li>
-                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Usaba mensajes interceptados y "cribas" (pistas de los mensajes).</li>
-                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Descifraba Enigma probando configuraciones y eliminando las que no coincidían.</li>
-                    </ul>
+                    <p style="margin-bottom:0.5rem;">Máquina electromecánica para descifrar Enigma. Basada en un diseño polaco previo de Marian Rejewski, mejorada por Turing y Gordon Welchman en Bletchley Park.</p>
+                    <p style="margin:0 0 0.5rem 0;font-size:0.85rem;color:#fff;font-style:italic;line-height:1.5;">Funcionaba probando combinaciones de rotores hasta encontrar la configuración diaria de Enigma.</p>
+                    <p style="margin:0;font-size:0.8rem;color:var(--muted);font-style:italic;">El nombre "Christopher" es licencia dramática de la película. En la vida real la Bombe no se llamaba así.</p>
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-year">1944</div>
+                <div class="timeline-year">1943–44</div>
                 <div class="timeline-content">
                     <h4>Colossus</h4>
-                    <p style="margin-bottom:0.5rem;">El siguiente salto tecnológico hacia la computadora moderna.</p>
+                    <p style="margin-bottom:0.5rem;">Máquina completamente distinta, construida años después. No descifraba Enigma, sino el cifrado Lorenz.</p>
                     <ul style="list-style:none;padding:0;margin:0;">
-                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Primera computadora electrónica real, pero aún especializada (solo Lorenz).</li>
-                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Rol de Turing: indirecto.</li>
-                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Programable, pero para una sola tarea.</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Diseñada principalmente por Tommy Flowers, con aportes del equipo de Max Newman.</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Rol de Turing: indirecto, no fue su diseñador principal.</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Primera computadora electrónica programable del mundo.</li>
                     </ul>
                 </div>
             </div>
@@ -911,8 +911,9 @@
                 <div class="timeline-year">1945</div>
                 <div class="timeline-content">
                     <h4>ENIAC</h4>
-                    <p style="margin-bottom:0.5rem;">Primera computadora de propósito general.</p>
+                    <p style="margin-bottom:0.5rem;">Primera computadora electrónica de propósito general.</p>
                     <ul style="list-style:none;padding:0;margin:0;">
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; 17.468 tubos de vacío, 7.200 diodos, 1.500 relés.</li>
                         <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Podía programarse para resolver diferentes tipos de problemas.</li>
                         <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Marcó el inicio de la computación moderna.</li>
                     </ul>
@@ -948,17 +949,8 @@
             </div>
         </div>
 
-        <div style="background:var(--card);border-radius:12px;padding:1.25rem;margin-top:1.5rem;border-left:4px solid var(--accent);">
-            <p style="margin:0;font-size:0.9rem;color:var(--muted);"><strong style="color:var(--accent);">La clave del éxito:</strong> No se trataba de que la máquina "pensara" como una persona, sino de que realizara millones de operaciones de forma rápida, ordenada y sin errores. La automatización fue la gran ventaja.</p>
-        </div>
-
         <div style="background:var(--card);border-radius:16px;padding:1.5rem;margin-top:2rem;border-left:4px solid var(--accent2);">
             <p style="margin:0;font-size:0.9rem;color:var(--muted);line-height:1.7;"><strong style="color:#fff;">La evolución no fue un salto, sino una misma idea que se fue perfeccionando con el tiempo:</strong> "¿Podemos usar una máquina para realizar automáticamente una tarea que sería demasiado difícil o lenta para un ser humano?"</p>
-        </div>
-
-        <div style="background:var(--surface);border-radius:16px;padding:1.5rem;margin-top:1.5rem;border:1px solid rgba(233,69,96,0.2);">
-            <p style="margin:0 0 0.75rem 0;font-weight:700;color:var(--accent);">&#9888; No era como ChatGPT</p>
-            <p style="margin:0;font-size:0.9rem;color:var(--muted);line-height:1.7;">La máquina de Turing funcionaba mediante mecanismos de búsqueda y comprobación de configuraciones. No aprendía como los sistemas actuales de machine learning. Pero sí representa un antecedente histórico muy importante de la computación.</p>
         </div>
 
         <div style="background:linear-gradient(135deg,var(--accent2),var(--accent));border-radius:16px;padding:1.5rem;margin-top:1.5rem;text-align:center;">
@@ -1007,6 +999,38 @@
 
         <div style="background:var(--card);border-radius:12px;padding:1.25rem;margin-top:1.5rem;border-left:4px solid var(--accent);">
             <p style="margin:0;font-size:0.9rem;color:var(--muted);"><strong style="color:var(--accent);">¿Por qué importa?</strong> La IA no es algo mágico ni nuevo. Es la continuación de una idea que empezó hace más de 80 años: construir máquinas que hagan cosas que antes solo podíamos hacer nosotros.</p>
+        </div>
+
+        <div style="background:var(--card);border-radius:12px;padding:1.25rem;margin-top:1rem;border-left:4px solid var(--accent2);">
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);"><strong style="color:#fff;">La clave del éxito:</strong> No se trataba de que la máquina "pensara" como una persona, sino de que realizara millones de operaciones de forma rápida, ordenada y sin errores. La automatización fue la gran ventaja.</p>
+        </div>
+
+        <div style="margin-top:2rem;">
+            <span class="section-label">Puntos de conexión</span>
+            <h3 style="font-size:1.2rem;font-weight:900;color:#fff;margin-bottom:1rem;">4 formas en que Enigma conecta con la IA actual</h3>
+
+            <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:1rem;">
+                <div style="background:var(--card);border-radius:12px;padding:1.25rem;border-left:4px solid var(--accent);">
+                    <h4 style="margin:0 0 0.5rem 0;font-size:0.95rem;color:#fff;">&#9881; Automatización</h4>
+                    <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">Turing buscaba que una máquina realizara automáticamente tareas que normalmente requerían intervención humana. Hoy la IA automatiza tareas como analizar datos, traducir idiomas, reconocer imágenes o responder preguntas.</p>
+                </div>
+                <div style="background:var(--card);border-radius:12px;padding:1.25rem;border-left:4px solid var(--accent2);">
+                    <h4 style="margin:0 0 0.5rem 0;font-size:0.95rem;color:#fff;">&lt;/&gt; Algoritmos</h4>
+                    <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">La máquina siguió procedimientos sistemáticos para analizar las posibles configuraciones de Enigma. Los algoritmos son fundamentales en la informática y en la IA.</p>
+                </div>
+                <div style="background:var(--card);border-radius:12px;padding:1.25rem;border-left:4px solid var(--accent);">
+                    <h4 style="margin:0 0 0.5rem 0;font-size:0.95rem;color:#fff;">&#128202; Grandes volúmenes de información</h4>
+                    <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">El problema de Enigma implicaba una cantidad enorme de posibilidades (~158 trillones). La solución consistió en usar una máquina para analizarlas mucho más rápido que una persona.</p>
+                </div>
+                <div style="background:var(--card);border-radius:12px;padding:1.25rem;border-left:4px solid var(--accent2);">
+                    <h4 style="margin:0 0 0.5rem 0;font-size:0.95rem;color:#fff;">&#129504; ¿Puede una máquina pensar?</h4>
+                    <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">Turing planteó esta pregunta y creó el concepto del "juego de imitación" (Test de Turing), que hoy se relaciona con los chatbots y asistentes de IA.</p>
+                </div>
+            </div>
+
+            <div style="background:var(--card);border-radius:16px;padding:1.25rem;margin-top:1.5rem;text-align:center;border:1px solid rgba(83,52,131,0.4);">
+                <p style="margin:0;font-size:1.1rem;font-weight:700;color:#fff;letter-spacing:1px;">DEL CÓDIGO AL ALGORITMO, DEL ALGORITMO A LA IA</p>
+            </div>
         </div>
     </section>
 
@@ -1124,32 +1148,36 @@
     <section>
         <span class="section-label">04 — Diferencia clave</span>
         <h2>Procesar información ≠ inteligencia</h2>
-        <p>La película lo muestra claramente: tener una máquina capaz de procesar información no significa automáticamente tener inteligencia.</p>
 
-        <div class="visual-list">
-            <div class="item">
-                <div class="num">1</div>
-                <span>Un problema <strong style="color:#fff;">definido por humanos</strong>.</span>
+        <div style="display:grid;grid-template-columns:4fr 6fr;gap:2rem;align-items:start;margin-top:1.5rem;">
+            <div>
+                <p>La película lo demuestra, una máquina que procesa información no es automáticamente inteligente. La Bombe de Turing procesaba millones de configuraciones pero no "pensaba", ejecutaba instrucciones.</p>
+                <p>Hoy vemos lo mismo con ChatGPT, responde porque alguien le hizo una pregunta y le dio reglas. No decide por iniciativa propia. Los <strong>agentes de IA</strong> están cambiando esto, de sistemas que responden a sistemas que pueden <strong>planificar, usar herramientas y ejecutar acciones</strong>.</p>
             </div>
-            <div class="item">
-                <div class="num">2</div>
-                <span>Un método <strong style="color:#fff;">diseñado por humanos</strong>.</span>
-            </div>
-            <div class="item">
-                <div class="num">3</div>
-                <span>Información <strong style="color:#fff;">proporcionada por humanos</strong>.</span>
-            </div>
-            <div class="item">
-                <div class="num">4</div>
-                <span>Personas que <strong style="color:#fff;">interpreten</strong> los resultados.</span>
-            </div>
-            <div class="item">
-                <div class="num">5</div>
-                <span>Personas que <strong style="color:#fff;">decidan</strong> qué hacer con esos resultados.</span>
+
+            <div class="visual-list">
+                <div class="item">
+                    <div class="num">1</div>
+                    <span>Un problema <strong style="color:#fff;">definido por humanos</strong>.</span>
+                </div>
+                <div class="item">
+                    <div class="num">2</div>
+                    <span>Un método <strong style="color:#fff;">diseñado por humanos</strong>.</span>
+                </div>
+                <div class="item">
+                    <div class="num">3</div>
+                    <span>Información <strong style="color:#fff;">proporcionada por humanos</strong>.</span>
+                </div>
+                <div class="item">
+                    <div class="num">4</div>
+                    <span>Personas que <strong style="color:#fff;">interpreten</strong> los resultados.</span>
+                </div>
+                <div class="item">
+                    <div class="num">5</div>
+                    <span>Personas que <strong style="color:#fff;">decidan</strong> qué hacer con esos resultados.</span>
+                </div>
             </div>
         </div>
-
-        <p>Un modelo como ChatGPT no "decide" qué responder por iniciativa propia. Responde porque alguien le hizo una pregunta y le dio instrucciones. Los <strong>agentes de IA</strong> están cambiando esto: pasamos de sistemas que responden a sistemas que pueden <strong>planificar, usar herramientas y ejecutar acciones</strong>.</p>
     </section>
 
     <div class="divider"></div>
@@ -1243,6 +1271,11 @@
                 <h4>La pregunta sigue abierta</h4>
                 <p>¿Qué parte de nuestra inteligencia puede ser replicada por una máquina? La película fue la primera respuesta; la IA actual es la continuación.</p>
             </div>
+        </div>
+
+        <div style="background:var(--surface);border-radius:16px;padding:1.5rem;margin-top:1.5rem;border:1px solid rgba(233,69,96,0.2);">
+            <p style="margin:0 0 0.75rem 0;font-weight:700;color:var(--accent);">&#9888; No era como ChatGPT</p>
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);line-height:1.7;">La máquina de Turing funcionaba mediante mecanismos de búsqueda y comprobación de configuraciones. No aprendía como los sistemas actuales de machine learning. Pero sí representa un antecedente histórico muy importante de la computación.</p>
         </div>
 
         <div class="takeaway-box">
