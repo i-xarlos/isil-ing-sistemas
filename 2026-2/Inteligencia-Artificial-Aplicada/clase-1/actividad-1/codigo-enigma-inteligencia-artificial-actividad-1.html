@@ -845,19 +845,60 @@
 
         <p>Esa idea sentó las bases de lo que hoy llamamos computación. Sin ella, no existirían las computadoras, ni el internet, ni los teléfonos inteligentes, ni la inteligencia artificial.</p>
 
+        <div style="background:linear-gradient(135deg,var(--accent2),var(--accent));border-radius:16px;padding:1.5rem;margin:2rem 0;text-align:center;">
+            <p style="font-size:0.8rem;color:rgba(255,255,255,0.7);text-transform:uppercase;letter-spacing:2px;margin-bottom:0.5rem;">El problema de Enigma</p>
+            <p style="font-size:clamp(1.5rem,4vw,2.5rem);font-weight:900;color:#fff;margin:0;">~158.962.555.217.826.360.000</p>
+            <p style="font-size:0.9rem;color:rgba(255,255,255,0.8);margin-top:0.5rem;">combinaciones posibles. Probar una por una era como buscar una aguja en un gigantesco pajar.</p>
+        </div>
+
+        <div style="background:var(--card);border-radius:16px;padding:1.5rem;margin:1.5rem 0;border-left:4px solid var(--accent);">
+            <p style="margin:0 0 1rem 0;font-weight:700;color:#fff;">&#128161; La idea de Turing</p>
+            <p style="margin:0 0 0.75rem 0;font-size:0.9rem;color:var(--muted);line-height:1.6;">En lugar de probar cada configuración a mano, Turing propuso automatizar la búsqueda. Su idea fue crear una máquina que pudiera:</p>
+            <ul style="list-style:none;padding:0;margin:0;">
+                <li style="font-size:0.9rem;color:var(--muted);padding:0.3rem 0;"><span style="color:var(--accent);">&#9679;</span> Probar rápidamente muchas configuraciones.</li>
+                <li style="font-size:0.9rem;color:var(--muted);padding:0.3rem 0;"><span style="color:var(--accent);">&#9679;</span> Descartar las que no funcionaban.</li>
+                <li style="font-size:0.9rem;color:var(--muted);padding:0.3rem 0;"><span style="color:var(--accent);">&#9679;</span> Encontrar patrones en los mensajes cifrados.</li>
+            </ul>
+            <div style="background:rgba(233,69,96,0.1);border-radius:8px;padding:0.75rem 1rem;margin-top:1rem;border:1px solid rgba(233,69,96,0.2);">
+                <p style="margin:0;font-size:0.85rem;font-style:italic;color:var(--accent);">"La clave no era pensar como un humano, sino hacer muchas pruebas de forma rápida y sistemática." — Alan Turing</p>
+            </div>
+        </div>
+
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-year">1936</div>
                 <div class="timeline-content">
                     <h4>Máquina de Turing</h4>
-                    <p>Concepto teórico que demostró que las máquinas pueden ejecutar cualquier tarea computable con instrucciones adecuadas.</p>
+                    <p style="margin-bottom:0.5rem;">Concepto teórico que sentó las bases de la computación moderna.</p>
+                    <ul style="list-style:none;padding:0;margin:0;">
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Demostró que las máquinas pueden ejecutar cualquier tarea computable con instrucciones adecuadas.</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Rol de Turing: autor total.</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; No descifraba nada — es una idea.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">1939–40</div>
+                <div class="timeline-content">
+                    <h4>"Christopher" / Bombe</h4>
+                    <p style="margin-bottom:0.5rem;">La aplicación práctica de la idea de Turing durante la guerra.</p>
+                    <ul style="list-style:none;padding:0;margin:0;">
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Máquina electromecánica real codiseñada por Turing.</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Usaba mensajes interceptados y "cribas" (pistas de los mensajes).</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Descifraba Enigma probando configuraciones y eliminando las que no coincidían.</li>
+                    </ul>
                 </div>
             </div>
             <div class="timeline-item">
                 <div class="timeline-year">1944</div>
                 <div class="timeline-content">
                     <h4>Colossus</h4>
-                    <p>Primera computadora electrónica. Turing participó en su diseño para descifrar códigos nazis.</p>
+                    <p style="margin-bottom:0.5rem;">El siguiente salto tecnológico hacia la computadora moderna.</p>
+                    <ul style="list-style:none;padding:0;margin:0;">
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Primera computadora electrónica real.</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Rol de Turing: indirecto.</li>
+                        <li style="font-size:0.85rem;color:var(--muted);padding:0.2rem 0;">&#8226; Descifraba Lorenz.</li>
+                    </ul>
                 </div>
             </div>
             <div class="timeline-item">
@@ -884,43 +925,56 @@
         </div>
 
         <div style="background:var(--card);border-radius:12px;padding:1.25rem;margin-top:1.5rem;border-left:4px solid var(--accent);">
-            <p style="margin:0;font-size:0.9rem;color:var(--muted);"><strong style="color:var(--accent);">Lo fascinante:</strong> Turing no solo imaginó la computadora: también imaginó que esas máquinas podrían hacer cosas que antes solo podíamos hacer nosotros con la mente. La película muestra exactamente ese momento.</p>
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);"><strong style="color:var(--accent);">La clave del éxito:</strong> No se trataba de que la máquina "pensara" como una persona, sino de que realizara millones de operaciones de forma rápida, ordenada y sin errores. La automatización fue la gran ventaja.</p>
         </div>
 
-        <h3 style="margin-top:2rem;margin-bottom:1rem;font-size:1.1rem;font-weight:700;color:#fff;">La relación entre las tres</h3>
-        <div style="overflow-x:auto;">
-            <table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
-                <thead>
-                    <tr style="background:var(--accent2);">
-                        <th style="padding:0.75rem;text-align:left;color:#fff;border-bottom:2px solid var(--accent);"></th>
-                        <th style="padding:0.75rem;text-align:left;color:#fff;border-bottom:2px solid var(--accent);">Qué es</th>
-                        <th style="padding:0.75rem;text-align:left;color:#fff;border-bottom:2px solid var(--accent);">Rol de Turing</th>
-                        <th style="padding:0.75rem;text-align:left;color:#fff;border-bottom:2px solid var(--accent);">Qué descifraba</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-                        <td style="padding:0.75rem;font-weight:700;color:var(--accent);">Máquina de Turing</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Concepto teórico</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Autor total</td>
-                        <td style="padding:0.75rem;color:var(--muted);">N/A — es una idea</td>
-                    </tr>
-                    <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-                        <td style="padding:0.75rem;font-weight:700;color:var(--accent);">"Christopher" / Bombe</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Máquina electromecánica real</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Codiseñador principal</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Enigma</td>
-                    </tr>
-                    <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-                        <td style="padding:0.75rem;font-weight:700;color:var(--accent);">Colossus</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Computadora electrónica real</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Rol indirecto</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Lorenz</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div style="margin-top:2rem;">
+            <p style="font-weight:700;color:#fff;margin-bottom:1rem;">De Enigma a la IA: una misma idea, diferentes épocas</p>
+            <div style="display:flex;align-items:center;justify-content:center;gap:0;flex-wrap:nowrap;">
+                <div style="background:var(--card);border:2px solid var(--accent2);border-radius:10px;padding:0.5rem 0.75rem;text-align:center;min-width:0;flex:1;">
+                    <span style="font-size:1.2rem;">&#128220;</span>
+                    <p style="font-size:0.75rem;font-weight:700;color:#fff;margin:0.2rem 0 0;">Enigma</p>
+                    <p style="font-size:0.6rem;color:var(--muted);margin:0;">Cifraba mensajes</p>
+                </div>
+                <span style="font-size:1rem;color:var(--accent);padding:0 0.25rem;">&rarr;</span>
+                <div style="background:var(--card);border:2px solid var(--accent2);border-radius:10px;padding:0.5rem 0.75rem;text-align:center;min-width:0;flex:1;">
+                    <span style="font-size:1.2rem;">&#9881;</span>
+                    <p style="font-size:0.75rem;font-weight:700;color:#fff;margin:0.2rem 0 0;">Bombe</p>
+                    <p style="font-size:0.6rem;color:var(--muted);margin:0;">Buscaba configuraciones</p>
+                </div>
+                <span style="font-size:1rem;color:var(--accent);padding:0 0.25rem;">&rarr;</span>
+                <div style="background:var(--card);border:2px solid var(--accent2);border-radius:10px;padding:0.5rem 0.75rem;text-align:center;min-width:0;flex:1;">
+                    <span style="font-size:1.2rem;">&#128187;</span>
+                    <p style="font-size:0.75rem;font-weight:700;color:#fff;margin:0.2rem 0 0;">Computadoras</p>
+                    <p style="font-size:0.6rem;color:var(--muted);margin:0;">Procesamiento masivo</p>
+                </div>
+                <span style="font-size:1rem;color:var(--accent);padding:0 0.25rem;">&rarr;</span>
+                <div style="background:var(--card);border:2px solid var(--accent2);border-radius:10px;padding:0.5rem 0.75rem;text-align:center;min-width:0;flex:1;">
+                    <span style="font-size:1.2rem;">&#128296;</span>
+                    <p style="font-size:0.75rem;font-weight:700;color:#fff;margin:0.2rem 0 0;">Algoritmos</p>
+                    <p style="font-size:0.6rem;color:var(--muted);margin:0;">Búsqueda y análisis</p>
+                </div>
+                <span style="font-size:1rem;color:var(--accent);padding:0 0.25rem;">&rarr;</span>
+                <div style="background:linear-gradient(135deg,var(--card),#1e1040);border:2px solid var(--accent);border-radius:10px;padding:0.5rem 0.75rem;text-align:center;min-width:0;flex:1;">
+                    <span style="font-size:1.2rem;">&#129302;</span>
+                    <p style="font-size:0.75rem;font-weight:700;color:#fff;margin:0.2rem 0 0;">IA</p>
+                    <p style="font-size:0.6rem;color:var(--muted);margin:0;">Aprendizaje y decisión</p>
+                </div>
+            </div>
         </div>
-        <p style="font-size:0.9rem;color:var(--muted);margin-top:1rem;line-height:1.7;">En resumen: la Máquina de Turing es la idea madre, la Bombe ("Christopher" en la película) es la aplicación práctica de esa idea durante la guerra, y Colossus es el siguiente salto tecnológico, ya acercándose a lo que hoy entendemos como computadora.</p>
+
+        <div style="background:var(--card);border-radius:16px;padding:1.5rem;margin-top:2rem;border-left:4px solid var(--accent2);">
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);line-height:1.7;"><strong style="color:#fff;">La evolución no fue un salto, sino una misma idea que se fue perfeccionando con el tiempo:</strong> "¿Podemos usar una máquina para realizar automáticamente una tarea que sería demasiado difícil o lenta para un ser humano?"</p>
+        </div>
+
+        <div style="background:var(--surface);border-radius:16px;padding:1.5rem;margin-top:1.5rem;border:1px solid rgba(233,69,96,0.2);">
+            <p style="margin:0 0 0.75rem 0;font-weight:700;color:var(--accent);">&#9888; No era como ChatGPT</p>
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);line-height:1.7;">La máquina de Turing funcionaba mediante mecanismos de búsqueda y comprobación de configuraciones. No aprendía como los sistemas actuales de machine learning. Pero sí representa un antecedente histórico muy importante de la computación.</p>
+        </div>
+
+        <div style="background:linear-gradient(135deg,var(--accent2),var(--accent));border-radius:16px;padding:1.5rem;margin-top:1.5rem;text-align:center;">
+            <p style="margin:0;font-size:1.05rem;font-weight:600;font-style:italic;color:#fff;line-height:1.6;">"Una idea, puede cambiar el futuro."</p>
+        </div>
     </section>
 
     <div class="divider"></div>
@@ -1205,6 +1259,10 @@
         <div class="takeaway-box">
             <div class="label">Takeaway</div>
             <p>La conexión entre <em>Código Enigma</em> y la IA no es solo histórica. Es conceptual: ambos buscan automatizar lo que antes solo podíamos hacer con la mente humana.</p>
+        </div>
+
+        <div style="background:var(--surface);border-radius:16px;padding:1.5rem;margin-top:1.5rem;border:1px solid rgba(83,52,131,0.3);text-align:center;">
+            <p style="margin:0;font-size:0.95rem;font-style:italic;color:var(--text);line-height:1.7;">"Lo que comenzó como una máquina para resolver códigos terminó ayudando a plantearse una de las preguntas más importantes de nuestra era: <strong style="color:#fff;">¿hasta dónde puede llegar la inteligencia de una máquina?</strong>"</p>
         </div>
     </section>
 
