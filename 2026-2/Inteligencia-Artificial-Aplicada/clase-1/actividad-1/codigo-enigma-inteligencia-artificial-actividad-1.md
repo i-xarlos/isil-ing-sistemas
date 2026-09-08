@@ -34,11 +34,20 @@ Lo fascinante es que Turing no solo imaginó la computadora: también imaginó q
 
 ### La relación entre las tres
 
-| | Qué es | Rol de Turing | Qué descifraba |
-|---|---|---|---|
-| **Máquina de Turing** | Concepto teórico | Autor total | N/A — es una idea |
-| **"Christopher" / Bombe** | Máquina electromecánica real | Codiseñador principal | Enigma |
-| **Colossus** | Computadora electrónica real | Rol indirecto | Lorenz |
+> **Máquina de Turing**
+> Qué es: Concepto teórico
+> Rol de Turing: Autor total
+> Qué descifraba: N/A — es una idea
+
+> **"Christopher" / Bombe**
+> Qué es: Máquina electromecánica real
+> Rol de Turing: Codiseñador principal
+> Qué descifraba: Enigma
+
+> **Colossus**
+> Qué es: Computadora electrónica real
+> Rol de Turing: Rol indirecto
+> Qué descifraba: Lorenz
 
 En resumen: la Máquina de Turing es la idea madre, la Bombe ("Christopher" en la película) es la aplicación práctica de esa idea durante la guerra, y Colossus es el siguiente salto tecnológico, ya acercándose a lo que hoy entendemos como computadora.
 

@@ -888,37 +888,39 @@
         </div>
 
         <h3 style="margin-top:2rem;margin-bottom:1rem;font-size:1.1rem;font-weight:700;color:#fff;">La relación entre las tres</h3>
-        <div style="overflow-x:auto;">
-            <table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
-                <thead>
-                    <tr style="background:var(--accent2);">
-                        <th style="padding:0.75rem;text-align:left;color:#fff;border-bottom:2px solid var(--accent);"></th>
-                        <th style="padding:0.75rem;text-align:left;color:#fff;border-bottom:2px solid var(--accent);">Qué es</th>
-                        <th style="padding:0.75rem;text-align:left;color:#fff;border-bottom:2px solid var(--accent);">Rol de Turing</th>
-                        <th style="padding:0.75rem;text-align:left;color:#fff;border-bottom:2px solid var(--accent);">Qué descifraba</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-                        <td style="padding:0.75rem;font-weight:700;color:var(--accent);">Máquina de Turing</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Concepto teórico</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Autor total</td>
-                        <td style="padding:0.75rem;color:var(--muted);">N/A — es una idea</td>
-                    </tr>
-                    <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-                        <td style="padding:0.75rem;font-weight:700;color:var(--accent);">"Christopher" / Bombe</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Máquina electromecánica real</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Codiseñador principal</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Enigma</td>
-                    </tr>
-                    <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-                        <td style="padding:0.75rem;font-weight:700;color:var(--accent);">Colossus</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Computadora electrónica real</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Rol indirecto</td>
-                        <td style="padding:0.75rem;color:var(--muted);">Lorenz</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="comparison-blocks">
+            <div class="comparison-block">
+                <div class="block-header">
+                    <div class="block-title" style="color:var(--accent);">Máquina de Turing</div>
+                </div>
+                <ul>
+                    <li><span class="bullet"></span><strong style="color:#fff;">Qué es:</strong> Concepto teórico</li>
+                    <li><span class="bullet"></span><strong style="color:#fff;">Rol de Turing:</strong> Autor total</li>
+                    <li><span class="bullet"></span><strong style="color:#fff;">Qué descifraba:</strong> N/A — es una idea</li>
+                </ul>
+            </div>
+            <div class="comparison-block right">
+                <div class="block-header">
+                    <div class="block-title" style="color:var(--accent2);">"Christopher" / Bombe</div>
+                </div>
+                <ul>
+                    <li><span class="bullet"></span><strong style="color:#fff;">Qué es:</strong> Máquina electromecánica real</li>
+                    <li><span class="bullet"></span><strong style="color:#fff;">Rol de Turing:</strong> Codiseñador principal</li>
+                    <li><span class="bullet"></span><strong style="color:#fff;">Qué descifraba:</strong> Enigma</li>
+                </ul>
+            </div>
+        </div>
+        <div class="comparison-blocks" style="margin-top:1rem;">
+            <div class="comparison-block" style="max-width:48%;">
+                <div class="block-header">
+                    <div class="block-title" style="color:var(--accent);">Colossus</div>
+                </div>
+                <ul>
+                    <li><span class="bullet"></span><strong style="color:#fff;">Qué es:</strong> Computadora electrónica real</li>
+                    <li><span class="bullet"></span><strong style="color:#fff;">Rol de Turing:</strong> Rol indirecto</li>
+                    <li><span class="bullet"></span><strong style="color:#fff;">Qué descifraba:</strong> Lorenz</li>
+                </ul>
+            </div>
         </div>
         <p style="font-size:0.9rem;color:var(--muted);margin-top:1rem;line-height:1.7;">En resumen: la Máquina de Turing es la idea madre, la Bombe ("Christopher" en la película) es la aplicación práctica de esa idea durante la guerra, y Colossus es el siguiente salto tecnológico, ya acercándose a lo que hoy entendemos como computadora.</p>
     </section>
