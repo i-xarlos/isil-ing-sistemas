@@ -327,3 +327,4 @@ HTMLs scrollables con diseño visual, disponibles vía [htmlpreview.github.io](h
 **Periodos documentados**: 2026-1 y 2026-2 | ISIL Ingeniería de Sistemas
 
 <!-- test: verificación de flujo PR -->
+<!-- test: segundo PR para auto-merge -->
