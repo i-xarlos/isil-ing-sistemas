@@ -32,6 +32,16 @@ Esa idea sentó las bases de lo que hoy llamamos computación. Sin ella, no exis
 
 Lo fascinante es que Turing no solo imaginó la computadora: también imaginó que esas máquinas podrían hacer cosas que antes solo podíamos hacer nosotros con la mente. La película *Código Enigma* muestra exactamente ese momento: cuando una máquina empieza a hacer un trabajo que parecía exclusivamente humano.
 
+### La relación entre las tres
+
+| | Qué es | Rol de Turing | Qué descifraba |
+|---|---|---|---|
+| **Máquina de Turing** | Concepto teórico | Autor total | N/A — es una idea |
+| **"Christopher" / Bombe** | Máquina electromecánica real | Codiseñador principal | Enigma |
+| **Colossus** | Computadora electrónica real | Rol indirecto | Lorenz |
+
+En resumen: la Máquina de Turing es la idea madre, la Bombe ("Christopher" en la película) es la aplicación práctica de esa idea durante la guerra, y Colossus es el siguiente salto tecnológico, ya acercándose a lo que hoy entendemos como computadora.
+
 ---
 
 ## Paralelos entre *Código Enigma* y la IA
