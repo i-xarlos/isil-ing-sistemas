@@ -24,9 +24,9 @@ Esa idea sentó las bases de lo que hoy llamamos computación. Sin ella, no exis
 
 | Hito | Año | ¿Por qué importa? |
 |---|---|---|
-| **Máquina de Turing** (concepto teórico) | 1936 | • Concepto teórico que demostró que las máquinas pueden ejecutar cualquier tarea computable con instrucciones adecuadas.<br>• Rol de Turing: autor total.<br>• No descifraba nada — es una idea. |
-| **"Christopher" / Bombe** (máquina electromecánica real) | 1939–1940 | • Máquina electromecánica real codiseñada por Turing.<br>• Rol de Turing: codiseñador principal.<br>• Descifraba Enigma. Fue la aplicación práctica de su idea teórica durante la guerra. |
-| **Colossus** (primera computadora electrónica) | 1944 | • Primera computadora electrónica real.<br>• Rol de Turing: indirecto.<br>• Descifraba Lorenz. Turing participó en su diseño para descifrar códigos nazis. |
+| **Máquina de Turing** (concepto teórico) | 1936 | Concepto teórico que sentó las bases de la computación moderna.<br>• Demostró que las máquinas pueden ejecutar cualquier tarea computable con instrucciones adecuadas.<br>• Rol de Turing: autor total.<br>• No descifraba nada — es una idea. |
+| **"Christopher" / Bombe** (máquina electromecánica real) | 1939–1940 | La aplicación práctica de la idea de Turing durante la guerra.<br>• Máquina electromecánica real codiseñada por Turing.<br>• Rol de Turing: codiseñador principal.<br>• Descifraba Enigma. |
+| **Colossus** (primera computadora electrónica) | 1944 | El siguiente salto tecnológico hacia la computadora moderna.<br>• Primera computadora electrónica real.<br>• Rol de Turing: indirecto.<br>• Descifraba Lorenz. |
 | **ENIAC** (primera computadora de propósito general) | 1945 | Marcó el inicio de la computación moderna: máquinas programables para resolver diferentes tipos de problemas. |
 | **Test de Turing** | 1950 | Turing planteó formalmente la pregunta: ¿Puede una máquina pensar? Esto fundó el campo de la IA. |
 | **Primeros programas de IA** | 1956 | En la conferencia de Dartmouth se acuñó el término "Inteligencia Artificial" y se empezaron a crear los primeros sistemas. |
