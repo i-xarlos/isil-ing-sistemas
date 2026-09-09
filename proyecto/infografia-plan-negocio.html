@@ -40,6 +40,70 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+            padding-top: 80px;
+        }
+
+        /* Sticky Navigation */
+        .sticky-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+            padding: 10px 20px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .sticky-nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+
+        .sticky-nav-brand {
+            font-weight: 800;
+            font-size: 0.9rem;
+            color: var(--green);
+            white-space: nowrap;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        .sticky-nav a {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 7px 14px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--gray);
+            background: var(--gray-light);
+            border: 1px solid var(--border);
+            white-space: nowrap;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .sticky-nav a:hover {
+            background: var(--green-light);
+            color: var(--green-dark);
+            border-color: var(--green);
+            transform: translateY(-1px);
+        }
+
+        .sticky-nav a.active {
+            background: var(--green);
+            color: white;
+            border-color: var(--green);
         }
 
         /* Header */
@@ -596,6 +660,22 @@
 
 <div class="container">
 
+    <!-- STICKY NAVIGATION -->
+    <nav class="sticky-nav">
+        <div class="sticky-nav-inner">
+            <div class="sticky-nav-brand">PureDose</div>
+            <a href="#producto">📦 Producto</a>
+            <a href="#finanzas">💰 Finanzas</a>
+            <a href="#operacion">⚙️ Operación</a>
+            <a href="#marketing">📱 Marketing</a>
+            <a href="#marca">✨ Marca</a>
+            <a href="#legal">📋 Legal</a>
+            <a href="#canales">🚚 Canales</a>
+            <a href="#mercado">🍁 Mercado</a>
+            <a href="#documentos">📑 Docs</a>
+        </div>
+    </nav>
+
     <!-- HEADER -->
     <div class="header">
         <div class="header-content">
@@ -646,7 +726,7 @@
     </div>
 
     <!-- PRODUCTO + COMPETENCIA -->
-    <div class="grid">
+    <div id="producto" class="grid">
         <!-- Nuestros Productos -->
         <div class="card">
             <h2><span class="icon icon-green">📦</span> Nuestros Productos</h2>
@@ -723,7 +803,7 @@
     </div>
 
     <!-- COSTOS + INVERSIÓN -->
-    <div class="grid">
+    <div id="finanzas" class="grid">
         <!-- Estructura de Costos -->
         <div class="card">
             <h2><span class="icon icon-blue">💰</span> Estructura de Costos (Refill 60)</h2>
@@ -821,7 +901,7 @@
     </div>
 
     <!-- COSTOS FIJOS MENSUALES -->
-    <div class="card full-width" style="margin-bottom: 30px;">
+    <div id="costos-fijos" class="card full-width" style="margin-bottom: 30px;">
         <h2><span class="icon icon-red">📅</span> Costos Fijos Mensuales por Fase</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin-top: 16px;">
             
@@ -895,7 +975,7 @@
     </div>
 
     <!-- PROYECCIONES -->
-    <div class="card full-width" style="margin-bottom: 30px;">
+    <div id="proyecciones" class="card full-width" style="margin-bottom: 30px;">
         <h2><span class="icon icon-purple">📊</span> Proyecciones de Ventas — 3 Escenarios (Año 1)</h2>
         <div style="padding: 12px 16px; background: var(--blue-light); border-radius: 8px; margin-bottom: 16px; font-size: 0.85rem; color: var(--blue);">
             <strong>Modelo actualizado:</strong> Incorpora frecuencia de compra real (cada 3 meses) + 30% retención Año 1
@@ -935,7 +1015,7 @@
     </div>
 
     <!-- PROYECCIÓN AÑO 2 -->
-    <div class="card full-width" style="margin-bottom: 30px;">
+    <div id="ano2" class="card full-width" style="margin-bottom: 30px;">
         <h2><span class="icon icon-green">📈</span> Proyección Año 2 — El Negocio Despega</h2>
         
         <div style="padding: 16px 20px; background: linear-gradient(135deg, var(--green-light), #d1fae5); border-radius: 12px; margin-bottom: 24px; border-left: 4px solid var(--green);">
@@ -1877,7 +1957,7 @@
     </div>
 
     <!-- MARKETING + LOGÍSTICA -->
-    <div class="grid">
+    <div id="marketing" class="grid">
         <!-- Marketing -->
         <div class="card">
             <h2><span class="icon icon-green">📱</span> Plan de Marketing (Orgánico + Pago)</h2>
@@ -1969,7 +2049,7 @@
     </div>
 
     <!-- ESCALABILIDAD + ROADMAP -->
-    <div class="grid">
+    <div id="operacion" class="grid">
         <!-- Escalabilidad -->
         <div class="card">
             <h2><span class="icon icon-purple">📈</span> Modelo de Escalabilidad</h2>
@@ -2127,7 +2207,7 @@
     </div>
 
     <!-- NOMBRES + SLOGANS -->
-    <div class="card full-width" style="margin-bottom: 30px;">
+    <div id="marca" class="card full-width" style="margin-bottom: 30px;">
         <h2><span class="icon icon-purple">✨</span> Propuesta de Marca — Nombres y Slogans</h2>
         
         <!-- Top 3 Recommended -->
@@ -2138,7 +2218,7 @@
                 <div style="padding: 20px; background: linear-gradient(135deg, var(--green-light), #d1fae5); border-radius: 12px; border: 2px solid var(--green); position: relative;">
                     <div style="position: absolute; top: -10px; right: 16px; background: var(--green); color: white; padding: 3px 12px; border-radius: 12px; font-size: 0.7rem; font-weight: 700;">#1 RECOMENDADO</div>
                     <div style="font-size: 1.8rem; font-weight: 800; color: var(--green-dark); margin-bottom: 4px;">PUREDOSE</div>
-                    <div style="font-size: 0.95rem; color: var(--green-dark); font-style: italic; margin-bottom: 12px;">"Pureza medida. Limpieza real."</div>
+                    <div style="font-size: 0.95rem; color: var(--green-dark); font-style: italic; margin-bottom: 12px;">"Cleans hard. Cares gentle."</div>
                     <div style="font-size: 0.8rem; color: var(--gray);">
                         ✅ Premium · ✅ Extensible · ✅ Fácil de recordar<br>
                         <strong>Dominio:</strong> puredose.ca / puredose.com
@@ -2192,6 +2272,32 @@
             </div>
         </div>
 
+        <!-- Top 3 English Slogans -->
+        <div style="margin-bottom: 24px;">
+            <div style="font-size: 0.85rem; color: var(--gray); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">🎯 Top 3 Slogans en Inglés</div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+                
+                <div style="padding: 20px; background: linear-gradient(135deg, var(--green-light), #d1fae5); border-radius: 12px; border: 2px solid var(--green); position: relative;">
+                    <div style="position: absolute; top: -10px; right: 16px; background: var(--green); color: white; padding: 3px 12px; border-radius: 12px; font-size: 0.7rem; font-weight: 700;">#1 TAGLINE</div>
+                    <div style="font-size: 1.3rem; font-weight: 800; color: var(--green-dark); margin-bottom: 8px;">"Cleans hard. Cares gentle."</div>
+                    <div style="font-size: 0.85rem; color: var(--gray); margin-bottom: 8px;">Limpia fuerte. Cuida suave.</div>
+                    <div style="font-size: 0.8rem; color: var(--green);">📌 Tagline principal de marca · Logo · Empaque · Sitio web</div>
+                </div>
+
+                <div style="padding: 20px; background: linear-gradient(135deg, #dbeafe, #bfdbfe); border-radius: 12px; border: 2px solid var(--blue);">
+                    <div style="font-size: 1.3rem; font-weight: 800; color: #1e40af; margin-bottom: 8px;">"Pure for your family. Powerful for your home."</div>
+                    <div style="font-size: 0.85rem; color: var(--gray); margin-bottom: 8px;">Puro para tu familia. Potente para tu hogar.</div>
+                    <div style="font-size: 0.8rem; color: var(--blue);;">📱 Mensaje emocional · Packaging · Email marketing</div>
+                </div>
+
+                <div style="padding: 20px; background: linear-gradient(135deg, #fce7f3, #fbcfe8); border-radius: 12px; border: 2px solid #ec4899;">
+                    <div style="font-size: 1.3rem; font-weight: 800; color: #be185d; margin-bottom: 8px;">"Puro. Potent. Healthy."</div>
+                    <div style="font-size: 0.85rem; color: var(--gray); margin-bottom: 8px;">Puro. Potente. Saludable.</div>
+                    <div style="font-size: 0.8rem; color: #ec4899;">📸 Instagram · TikTok · Campañas visuales</div>
+                </div>
+            </div>
+        </div>
+
         <!-- Slogans for Marketing -->
         <div>
             <div style="font-size: 0.85rem; color: var(--gray); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">📣 Slogans para Marketing Digital</div>
@@ -2231,7 +2337,7 @@
     </div>
 
     <!-- PERFIL COMPRADOR + GASTO -->
-    <div class="card full-width" style="margin-bottom: 30px;">
+    <div id="comprador" class="card full-width" style="margin-bottom: 30px;">
         <h2><span class="icon icon-orange">👤</span> Perfil del Comprador Canadiense</h2>
         
         <!-- Buyer Personas -->
@@ -2377,7 +2483,7 @@
     </div>
 
     <!-- PERMISOS E IMPUESTOS -->
-    <div class="card full-width" style="margin-bottom: 30px;">
+    <div id="legal" class="card full-width" style="margin-bottom: 30px;">
         <h2><span class="icon icon-orange">📋</span> Permisos e Impuestos — Canadá</h2>
         
         <div style="padding: 12px 16px; background: var(--orange-light); border-radius: 8px; margin-bottom: 20px; font-size: 0.85rem; color: var(--orange);">
@@ -2589,7 +2695,7 @@
     </div>
 
     <!-- COSTOS DE ENVÍO POR CANAL -->
-    <div class="card full-width" style="margin-bottom: 30px;">
+    <div id="canales" class="card full-width" style="margin-bottom: 30px;">
         <h2><span class="icon icon-green">📦</span> Costos de Envío por Canal</h2>
         
         <div style="padding: 12px 16px; background: var(--green-light); border-radius: 8px; margin-bottom: 20px; font-size: 0.85rem; color: var(--green-dark);">
@@ -2815,7 +2921,7 @@
     </div>
 
     <!-- ==================== RETAIL ==================== -->
-    <div class="card full-width" style="margin-bottom: 30px;">
+    <div id="retail" class="card full-width" style="margin-bottom: 30px;">
         <h2><span class="icon icon-orange">🏪</span> Retail — Supermercados en Ontario</h2>
         
         <div style="padding: 12px 16px; background: var(--orange-light); border-radius: 8px; margin-bottom: 20px; font-size: 0.85rem; color: var(--orange-dark);">
@@ -2952,7 +3058,7 @@
     </div>
 
     <!-- ÍNDICE DE DOCUMENTOS -->
-    <div class="card full-width" style="margin-bottom: 30px;">
+    <div id="documentos" class="card full-width" style="margin-bottom: 30px;">
         <h2><span class="icon icon-blue">📑</span> Índice de Documentos del Proyecto</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-top: 16px;">
             
@@ -3082,10 +3188,235 @@
         </div>
     </div>
 
+    <!-- ==================== ONTARIO MARKET ==================== -->
+    <div id="mercado" class="card full-width" style="margin-bottom: 30px;">
+        <h2><span class="icon icon-blue">🍁</span> Mercado Ontario — Datos Clave</h2>
+        
+        <div style="padding: 12px 16px; background: var(--blue-light); border-radius: 8px; margin-bottom: 20px; font-size: 0.85rem; color: #1e40af;">
+            <strong>Ontario = nuestro mercado objetivo.</strong> 16.5M personas, 79% conciencia sostenible, familias con hijos son el segmento ideal.
+        </div>
+
+        <!-- Datos Demográficos -->
+        <div style="margin-bottom: 24px;">
+            <div style="font-size: 0.85rem; color: var(--gray); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">📊 Datos Demográficos Ontario</div>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;">
+                
+                <div style="padding: 16px; background: linear-gradient(135deg, var(--green-light), #d1fae5); border-radius: 10px; border: 2px solid var(--green); text-align: center;">
+                    <div style="font-weight: 700; color: var(--green-dark);">Población</div>
+                    <div style="font-size: 1.5rem; font-weight: 800; color: var(--green); margin: 8px 0;">16.5M</div>
+                    <div style="font-size: 0.75rem; color: var(--gray);">Ontario Ministry of Finance</div>
+                </div>
+
+                <div style="padding: 16px; background: linear-gradient(135deg, #dbeafe, #bfdbfe); border-radius: 10px; border: 2px solid #3b82f6; text-align: center;">
+                    <div style="font-weight: 700; color: #1e40af;">Niños 0-14</div>
+                    <div style="font-size: 1.5rem; font-weight: 800; color: #3b82f6; margin: 8px 0;">2.4M</div>
+                    <div style="font-size: 0.75rem; color: var(--gray);">14.6% de la población</div>
+                </div>
+
+                <div style="padding: 16px; background: linear-gradient(135deg, #fce7f3, #fbcfe8); border-radius: 10px; border: 2px solid #ec4899; text-align: center;">
+                    <div style="font-weight: 700; color: #be185d;">Familias</div>
+                    <div style="font-size: 1.5rem; font-weight: 800; color: #ec4899; margin: 8px 0;">~1.8M</div>
+                    <div style="font-size: 0.75rem; color: var(--gray);">Statistics Canada</div>
+                </div>
+
+                <div style="padding: 16px; background: linear-gradient(135deg, var(--orange-light), #fed7aa); border-radius: 10px; border: 2px solid var(--orange); text-align: center;">
+                    <div style="font-weight: 700; color: var(--orange-dark);">Conciencia Eco</div>
+                    <div style="font-size: 1.5rem; font-weight: 800; color: var(--orange); margin: 8px 0;">79%</div>
+                    <div style="font-size: 0.75rem; color: var(--gray);">Industry & Business Canada</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ciudades Clave -->
+        <div style="margin-bottom: 24px; padding: 20px; background: var(--gray-light); border-radius: 12px; border: 1px solid var(--border);">
+            <div style="font-weight: 700; margin-bottom: 12px;">🏙️ Ciudades Clave para PureDose</div>
+            <table style="width: 100%; font-size: 0.85rem;">
+                <thead>
+                    <tr style="border-bottom: 2px solid var(--border);">
+                        <th style="text-align: left; padding: 8px 0;">Ciudad</th>
+                        <th style="text-align: left; padding: 8px 0;">Población</th>
+                        <th style="text-align: left; padding: 8px 0;">Perfil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 8px 0; font-weight: 600;">Toronto (GTA)</td>
+                        <td style="padding: 8px 0;">7.0M</td>
+                        <td style="padding: 8px 0; color: var(--gray);">Mayor concentración familiar, alto poder adquisitivo</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 8px 0; font-weight: 600;">Ottawa</td>
+                        <td style="padding: 8px 0;">1.4M</td>
+                        <td style="padding: 8px 0; color: var(--gray);">Familias estables, sector público</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 8px 0; font-weight: 600;">London-St. Thomas</td>
+                        <td style="padding: 8px 0;">750K</td>
+                        <td style="padding: 8px 0; color: var(--gray);">Nuestro mercado local, manufacturing</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px 0; font-weight: 600;">Hamilton-Niagara</td>
+                        <td style="padding: 8px 0;">785K</td>
+                        <td style="padding: 8px 0; color: var(--gray);">Crecimiento rápido, familias jóvenes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tendencias Eco -->
+        <div style="margin-bottom: 24px;">
+            <div style="font-size: 0.85rem; color: var(--gray); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">🌿 Tendencias Eco-Consumer</div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
+                
+                <div style="padding: 16px; background: linear-gradient(135deg, #d1fae5, #a7f3d0); border-radius: 10px; border: 2px solid #059669; text-align: center;">
+                    <div style="font-size: 1.5rem; margin-bottom: 4px;">🌱</div>
+                    <div style="font-weight: 700; color: #065f46;">Mercado Eco Limpieza Canadá</div>
+                    <div style="font-size: 1.5rem; font-weight: 800; color: #059669; margin: 8px 0;">$2,963M</div>
+                    <div style="font-size: 0.75rem; color: var(--gray);">2025 → $7,717M para 2034</div>
+                </div>
+
+                <div style="padding: 16px; background: linear-gradient(135deg, #dbeafe, #bfdbfe); border-radius: 10px; border: 2px solid #3b82f6; text-align: center;">
+                    <div style="font-size: 1.5rem; margin-bottom: 4px;">📈</div>
+                    <div style="font-weight: 700; color: #1e40af;">Crecimiento Anual</div>
+                    <div style="font-size: 1.5rem; font-weight: 800; color: #3b82f6; margin: 8px 0;">11.27%</div>
+                    <div style="font-size: 0.75rem; color: var(--gray);">CAGR 2025-2034</div>
+                </div>
+
+                <div style="padding: 16px; background: linear-gradient(135deg, #fef3c7, #fde68a); border-radius: 10px; border: 2px solid #f59e0b; text-align: center;">
+                    <div style="font-size: 1.5rem; margin-bottom: 4px;">💰</div>
+                    <div style="font-weight: 700; color: #92400e;">Dispuesta a Pagar Premium</div>
+                    <div style="font-size: 1.5rem; font-weight: 800; color: #f59e0b; margin: 8px 0;">73%</div>
+                    <div style="font-size: 0.75rem; color: var(--gray);">10-15% más por producto sostenible</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Say-Do Gap -->
+        <div style="padding: 20px; background: linear-gradient(135deg, var(--purple-light), #ede9fe); border-radius: 12px; border: 2px solid var(--purple);">
+            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+                <div style="font-size: 1.5rem;">⚠️</div>
+                <div style="font-weight: 700; font-size: 1.1rem; color: #6d28d9;">Say-Do Gap — El Reto del Consumidor Eco</div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                <div style="padding: 16px; background: white; border-radius: 10px; text-align: center;">
+                    <div style="font-weight: 700; color: #6d28d9; margin-bottom: 8px;">Dicen que quieren</div>
+                    <div style="font-size: 2rem; font-weight: 800; color: var(--purple);">76%</div>
+                    <div style="font-size: 0.8rem; color: var(--gray);">prefieren marcas sostenibles</div>
+                </div>
+                <div style="padding: 16px; background: white; border-radius: 10px; text-align: center;">
+                    <div style="font-weight: 700; color: #6d28d9; margin-bottom: 8px;">Pero compran</div>
+                    <div style="font-size: 2rem; font-weight: 800; color: var(--red);">38%</div>
+                    <div style="font-size: 0.8rem; color: var(--gray);">compran consistentemente eco</div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 16px; padding: 12px; background: white; border-radius: 8px; font-size: 0.85rem;">
+                <strong>Estrategia PureDose:</strong> Cerrar la brecha con precio competitivo ($0.40/dosis vs $0.49 de Cascade), formato diferenciado (sachet), y marketing que conecte con familias reales.
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== ENVASE ALUMINIO AÑO 2 ==================== -->
+    <div id="envase" class="card full-width" style="margin-bottom: 30px;">
+        <h2><span class="icon icon-orange">♻️</span> Envase Premium Aluminio — Year 2</h2>
+        
+        <div style="padding: 12px 16px; background: var(--orange-light); border-radius: 8px; margin-bottom: 20px; font-size: 0.85rem; color: var(--orange-dark);">
+            <strong>Diferenciador estratégico, NO para MVP.</strong> Se activa cuando el brand tenga tracción suficiente para justificar el costo adicional.
+        </div>
+
+        <!-- Comparativa Envases -->
+        <div style="margin-bottom: 24px;">
+            <div style="font-size: 0.85rem; color: var(--gray); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">📦 Comparativa: Plástico vs Aluminio</div>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;">
+                
+                <div style="padding: 20px; background: linear-gradient(135deg, var(--green-light), #d1fae5); border-radius: 12px; border: 2px solid var(--green);">
+                    <div style="font-weight: 700; color: var(--green-dark); margin-bottom: 12px; font-size: 1.1rem;">🟢 Starter Kit Actual (MVP)</div>
+                    <table style="width: 100%; font-size: 0.85rem;">
+                        <tr><td>Contenedor</td><td class="text-right">Plástico reutilizable</td></tr>
+                        <tr><td>COGS</td><td class="text-right">$4.75</td></tr>
+                        <tr><td>Precio venta</td><td class="text-right">$29.99</td></tr>
+                        <tr style="font-weight: 700; border-top: 2px solid var(--green);"><td>Margen bruto</td><td class="text-right text-green">~84%</td></tr>
+                    </table>
+                </div>
+
+                <div style="padding: 20px; background: linear-gradient(135deg, var(--orange-light), #fed7aa); border-radius: 12px; border: 2px solid var(--orange);">
+                    <div style="font-weight: 700; color: var(--orange-dark); margin-bottom: 12px; font-size: 1.1rem;">🟠 Starter Kit Premium (Año 2)</div>
+                    <table style="width: 100%; font-size: 0.85rem;">
+                        <tr><td>Contenedor</td><td class="text-right">Aluminio anodizado</td></tr>
+                        <tr><td>COGS</td><td class="text-right">$6.70</td></tr>
+                        <tr><td>Precio venta</td><td class="text-right">$39.99–$44.99</td></tr>
+                        <tr style="font-weight: 700; border-top: 2px solid var(--orange);"><td>Margen bruto</td><td class="text-right" style="color: var(--orange);">~83–85%</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Criterios de Activación -->
+        <div style="margin-bottom: 24px; padding: 20px; background: var(--gray-light); border-radius: 12px; border: 1px solid var(--border);">
+            <div style="font-weight: 700; margin-bottom: 12px;">🎯 Criterios de Activación (Year 2)</div>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;">
+                <div style="padding: 12px; background: white; border-radius: 8px; text-align: center;">
+                    <div style="font-weight: 700; color: var(--green);">Clientes</div>
+                    <div style="font-size: 1.3rem; font-weight: 800; color: var(--dark);">500+</div>
+                </div>
+                <div style="padding: 12px; background: white; border-radius: 8px; text-align: center;">
+                    <div style="font-weight: 700; color: var(--green);">Pedidos/mes</div>
+                    <div style="font-size: 1.3rem; font-weight: 800; color: var(--dark);">100+</div>
+                </div>
+                <div style="padding: 12px; background: white; border-radius: 8px; text-align: center;">
+                    <div style="font-weight: 700; color: var(--green);">Recompra</div>
+                    <div style="font-size: 1.3rem; font-weight: 800; color: var(--dark);">30%+</div>
+                </div>
+                <div style="padding: 12px; background: white; border-radius: 8px; text-align: center;">
+                    <div style="font-weight: 700; color: var(--green);">NPS</div>
+                    <div style="font-size: 1.3rem; font-weight: 800; color: var(--dark);">8+/10</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Timeline -->
+        <div style="padding: 20px; background: linear-gradient(135deg, var(--orange-light), #fed7aa); border-radius: 12px; border: 2px solid var(--orange);">
+            <div style="font-weight: 700; margin-bottom: 16px;">📅 Timeline de Implementación</div>
+            <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; font-size: 0.85rem;">
+                <div style="padding: 12px; background: white; border-radius: 8px; text-align: center;">
+                    <div style="font-weight: 700; color: var(--green);">Año 1</div>
+                    <div style="font-size: 0.8rem; color: var(--gray);">MVP<br>Contenedor plástico</div>
+                </div>
+                <div style="padding: 12px; background: white; border-radius: 8px; text-align: center;">
+                    <div style="font-weight: 700; color: var(--orange);">Año 2 Q1</div>
+                    <div style="font-size: 0.8rem; color: var(--gray);">Diseño final<br>+ muestras</div>
+                </div>
+                <div style="padding: 12px; background: white; border-radius: 8px; text-align: center;">
+                    <div style="font-weight: 700; color: var(--orange);">Año 2 Q2</div>
+                    <div style="font-size: 0.8rem; color: var(--gray);">Producción<br>piloto (1K)</div>
+                </div>
+                <div style="padding: 12px; background: white; border-radius: 8px; text-align: center;">
+                    <div style="font-weight: 700; color: var(--orange);">Año 2 Q3</div>
+                    <div style="font-size: 0.8rem; color: var(--gray);">Lanzamiento<br>Starter Premium</div>
+                </div>
+                <div style="padding: 12px; background: white; border-radius: 8px; text-align: center;">
+                    <div style="font-weight: 700; color: var(--orange);">Año 2 Q4</div>
+                    <div style="font-size: 0.8rem; color: var(--gray);">Evaluar uptake<br>+ decidir escalar</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Documentos Relacionados -->
+        <div style="margin-top: 20px; padding: 16px 20px; background: var(--gray-light); border-radius: 12px; border: 1px solid var(--border);">
+            <div style="font-weight: 600; margin-bottom: 8px;">📄 Documentos Relacionados</div>
+            <div style="font-size: 0.85rem; color: var(--gray);">
+                • <a href="envase-aluminio-especificaciones.md" style="color: var(--orange);">Especificaciones Envase Premium</a> — Material, costos, proveedores, criterios<br>
+                • <a href="investigacion-mercado-ontario.md" style="color: var(--blue);">Investigación Mercado Ontario</a> — Datos demográficos, tendencias eco<br>
+                • <a href="perfil-comprador-canadiense.md" style="color: var(--purple);">Perfil Comprador</a> — Disposición a pagar premium
+            </div>
+        </div>
+    </div>
+
     <!-- FOOTER -->
     <div class="footer">
         <p>Plan de Negocio Consolidado · Detergente Concentrado para Lavaplatos · Canadá D2C</p>
-        <p style="margin-top: 4px;">Datos verificados 04/09/2026 · Todos los precios en CAD</p>
+        <p style="margin-top: 4px;">Datos verificados 04/09/2026 · Mercado Ontario + Envase Premium Year 2</p>
     </div>
 
 </div>
@@ -3136,6 +3467,49 @@ document.addEventListener('DOMContentLoaded', function() {
             el.style.paddingBottom = '8px';
         }
     });
+
+    // Smooth scroll for nav links
+    document.querySelectorAll('.sticky-nav a[href^="#"]').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            var targetId = this.getAttribute('href').substring(1);
+            var target = document.getElementById(targetId);
+            if (target) {
+                var navHeight = document.querySelector('.sticky-nav').offsetHeight;
+                var targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
+                window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+            }
+        });
+    });
+
+    // Active state on scroll
+    var navLinks = document.querySelectorAll('.sticky-nav a[href^="#"]');
+    var sectionIds = [];
+    navLinks.forEach(function(link) {
+        sectionIds.push(link.getAttribute('href').substring(1));
+    });
+
+    function updateActiveNav() {
+        var scrollPos = window.scrollY + 100;
+        var currentSection = '';
+        
+        sectionIds.forEach(function(id) {
+            var section = document.getElementById(id);
+            if (section && section.offsetTop <= scrollPos) {
+                currentSection = id;
+            }
+        });
+
+        navLinks.forEach(function(link) {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + currentSection) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', updateActiveNav);
+    updateActiveNav();
 });
 </script>
 

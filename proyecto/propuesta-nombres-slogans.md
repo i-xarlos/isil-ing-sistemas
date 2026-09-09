@@ -82,7 +82,7 @@
 |---|---|
 | Nombre | **PUREDOSE** |
 | Dominio | puredose.ca / puredose.com |
-| Tagline | "Pureza medida. Limpieza real." |
+| Tagline | **"Cleans hard. Cares gentle."** |
 | Por qué funciona | "Pure" (puro) + "dose" (dosis). Comunica pureza + precisión. Suena premium. |
 | Extensibilidad | PureDose Home, PureDose Care |
 | Tono | Premium, limpio, confiable |
@@ -111,7 +111,33 @@
 
 ---
 
-## 3. Tabla Comparativa
+## 3. Top 3 Slogans en Inglés
+
+Los 3 slogans principales para la marca PUREDOSE. Enfocados en **salud familiar**, **medio ambiente** y **eficiencia**.
+
+| Rank | Slogan | Significado | Uso recomendado |
+|---|---|---|---|
+| 🥇 | **"Cleans hard. Cares gentle."** | Limpia fuerte. Cuida suave. | Tagline principal de marca |
+| 🥈 | **"Pure for your family. Powerful for your home."** | Puro para tu familia. Potente para tu hogar. | Mensaje emocional / empaque |
+| 🥉 | **"Puro. Potent. Healthy."** | Puro. Potente. Saludable. | Minimalista / redes sociales |
+
+### Por qué estos slogans funcionan
+
+| Slogan | Salud | Familia | Eco | Eficiencia |
+|---|---|---|---|---|
+| "Cleans hard. Cares gentle." | ✅ "Cares" | ✅ Implícito | ✅ Implícito | ✅ "Hard" |
+| "Pure for your family. Powerful for your home." | ✅ "Pure" | ✅ "Family" | ✅ "Pure" | ✅ "Powerful" |
+| "Puro. Potent. Healthy." | ✅ "Healthy" | ✅ Implícito | ✅ "Puro" | ✅ "Potent" |
+
+### Cómo usar cada slogan
+
+- **"Cleans hard. Cares gentle."** — En el logo, empaque, sitio web, y toda comunicación de marca
+- **"Pure for your family. Powerful for your home."** — En descripciones de producto, packaging, y email marketing
+- **"Puro. Potent. Healthy."** — En Instagram, TikTok, y campañas de alto impacto visual
+
+---
+
+## 4. Tabla Comparativa
 
 | Nombre | Memorabilidad | Eco Signal | Premium | Extensible | Dominio | **Total** |
 |---|---|---|---|---|---|---|
@@ -128,9 +154,9 @@
 
 ---
 
-## 4. Slogans por Categoría
+## 5. Slogans por Categoría
 
-### 4.1 Slogans de Función (qué hace)
+### 5.1 Slogans de Función (qué hace)
 
 | Slogan | Nombre sugerido |
 |---|---|
@@ -140,7 +166,7 @@
 | "60 lavadas. Un paquete. Cero plástico." | PUREDOSE |
 | "Dosis perfecta. Resultado garantizado." | ONEWASH |
 
-### 4.2 Slogans de Emoción (cómo se siente)
+### 5.2 Slogans de Emoción (cómo se siente)
 
 | Slogan | Nombre sugerido |
 |---|---|
@@ -150,7 +176,7 @@
 | "Cada sobre es una decisión mejor." | PUREDOSE |
 | "Hogar limpio. Conciencia tranquila." | DOSILIMPIO |
 
-### 4.3 Slogans de Diferenciación (por qué nosotros)
+### 5.3 Slogans de Diferenciación (por qué nosotros)
 
 | Slogan | Nombre sugerido |
 |---|---|
@@ -160,7 +186,7 @@
 | "Fabricado en Canadá. Diseñado para el mundo." | ONEWASH |
 | "Sin plástico. Sin desperdicio. Sin excusas." | KLEANPACK |
 
-### 4.4 Slogans para Marketing Digital
+### 5.4 Slogans para Marketing Digital
 
 | Slogan | Plataforma | Uso |
 |---|---|---|
@@ -173,7 +199,7 @@
 
 ---
 
-## 5. Naming para Sub-Marcas (si expandimos)
+## 6. Naming para Sub-Marcas (si expandimos)
 
 | Producto | Nombre sugerido | Slogan |
 |---|---|---|
@@ -185,7 +211,7 @@
 
 ---
 
-## 6. Checklist para Elegir Nombre
+## 7. Checklist para Elegir Nombre
 
 Antes de decidir, verificar:
 
@@ -201,7 +227,7 @@ Antes de decidir, verificar:
 
 ---
 
-## 7. Proceso de Decisión
+## 8. Proceso de Decisión
 
 ### Paso 1: Filtrar (de 8 a 3)
 

@@ -30,6 +30,8 @@
 | 11 | [Permisos e Impuestos Canadá](permisos-impuestos-canada.md) | Guía completa: permisos, impuestos, seguro, labeling bilingüe | ✅ |
 | 12 | [Costos de Envío por Canal](costos-envio-canal.md) | Shopify, Amazon FBA, Instagram/Facebook: fees y comparativa | ✅ |
 | 13 | [Guía Retail Supermercados Ontario](guia-retail-supermercados-ontario.md) | Cómo entrar al retail: brokers, supermercados, pricing, rentabilidad | ✅ |
+| 14 | [Investigación de Mercado Ontario](investigacion-mercado-ontario.md) | Datos demográficos, tendencias eco, público objetivo salud/medio ambiente | ✅ |
+| 15 | [Envase Premium Aluminio](envase-aluminio-especificaciones.md) | Especificaciones envase reutilizable Año 2 (diferenciador) | ✅ |
 
 ---
 
@@ -80,6 +82,8 @@ proyecto-limpieza/
 ├── permisos-impuestos-canada.md       ← Permisos, impuestos, seguro, labeling
 ├── costos-envio-canal.md              ← Envío: Shopify, Amazon, Instagram
 ├── guia-retail-supermercados-ontario.md ← Retail: brokers, supermercados, rentabilidad
+├── investigacion-mercado-ontario.md   ← Datos demográficos, tendencias eco, público objetivo
+├── envase-aluminio-especificaciones.md ← Envase premium Año 2 (diferenciador)
 ├── estante-cascade-greatvalue-walmart.jpeg  ← Foto estante Cascade/Great Value
 ├── estante-finish-natureclean-walmart.jpeg  ← Foto estante Finish/Nature Clean
 ├── Plan de negocio de limpieza.pdf     ← Conversación ChatGPT (referencia)
