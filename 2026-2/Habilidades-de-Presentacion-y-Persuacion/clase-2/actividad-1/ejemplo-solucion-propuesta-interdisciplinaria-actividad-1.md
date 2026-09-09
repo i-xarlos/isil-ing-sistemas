@@ -1,4 +1,4 @@
-# Ejemplo Solución — Propuesta Interdisciplinaria para Audiencia Controlador (Actividad 1)
+# Ejemplo Solución — Propuesta Interdisciplinaria para Audiencia Controlador (Clase 2 — Actividad 1)
 
 **Curso:** Habilidades de Presentación y Persuasión (ISIL, 2026-2)  
 **Docente:** [pendiente]  

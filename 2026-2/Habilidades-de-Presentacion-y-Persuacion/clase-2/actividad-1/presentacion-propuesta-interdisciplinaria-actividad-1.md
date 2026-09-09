@@ -1,4 +1,4 @@
-# Presentar una Propuesta Interdisciplinaria de Proyectos (Actividad 1)
+# Presentar una Propuesta Interdisciplinaria de Proyectos (Clase 2 — Actividad 1)
 
 **Curso:** Habilidades de Presentación y Persuasión (ISIL, 2026-2)  
 **Docente:** [pendiente]  
