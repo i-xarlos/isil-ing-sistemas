@@ -11,7 +11,7 @@
 
 Negocio de venta directa de detergente concentrado para lavaplatos en formato de dosis individuales (sachets secos), enfocado en el mercado canadiense. El producto se diseña desde cero para optimizar logística: peso < 750g por paquete, volumen mínimo y alta recurrencia de compra.
 
-**Propuesta de valor:** Detergente ecológico, concentrado, sin plástico, con envío económico a toda Canadá.
+**Propuesta de valor:** Detergente ecológico, concentrado, sin plástico. **Cleans hard. Cares gentle.**
 
 **Ventaja competitiva:** El formato seco eliminó el problema #1 de los productos de limpieza en e-commerce — enviar agua empaquetada.
 
@@ -80,6 +80,91 @@ El producto se diseña **alrededor del envío**, no al revés:
 - **Segmento:** Premium ecológico, comparable a Nature Clean pero con formato diferenciado
 - **Diferenciador único:** sachet individual (no pod ni pastilla), empaque 100% reciclable, fabricación canadiense
 - **Nadie ofrece:** producto diseñado específicamente para envío e-commerce (ligero, compacto, sin plástico)
+
+### 3.4 Datos Demográficos Ontario
+
+| Dato | Valor | Fuente |
+|---|---|---|
+| Población total | 16.5 millones | Ontario Ministry of Finance |
+| Niños 0-14 años | 2.4 millones (14.6%) | Ontario Ministry of Finance |
+| Familias con hijos | ~1.8 millones | Statistics Canada |
+| Ingreso familiar promedio | ~$95,000 CAD | Statistics Canada |
+| Conciencia sostenible | 79% | Industry & Business Canada |
+
+**Ciudades clave para PureDose:**
+
+| Ciudad | Población | Perfil |
+|---|---|---|
+| **Toronto (GTA)** | 7.0M | Mayor concentración familiar, alto poder adquisitivo |
+| **Ottawa** | 1.4M | Familias estables, sector público |
+| **London-St. Thomas** | 750K | Nuestro mercado local, manufacturing |
+| **Hamilton-Niagara** | 800K | Clase media, familias jóvenes |
+| **Kitchener-Waterloo** | 600K | Tech hub, profesionales jóvenes |
+
+**Comparativa provincial:**
+
+| Provincia | Población | Conciencia Sostenible | Ingreso Promedio |
+|---|---|---|---|
+| **Ontario** | 16.5M | 79% | ~$95K |
+| Columbia Británica | 5.5M | 84% | ~$100K |
+| Quebec | 8.8M | 77% | ~$85K |
+
+### 3.5 Consumidor Eco-Consciente Canadiense
+
+| Dato | Valor | Fuente |
+|---|---|---|
+| Dispuestos a pagar premium | 73% | Deloitte/Ipsos |
+| Premium aceptado | 10-15% | Retail Council of Canada |
+| Compran consistentemente | 38% | Ipsos |
+| Dicen querer marcas sostenibles | 76% | Ipsos |
+| Abandonan por claims confusos | 49% | Ipsos |
+| Mujeres lideran compras eco | 76% | Industry & Business Canada |
+
+**El "Say-Do Gap":** El 76% dice querer marcas sostenibles, pero solo 38% compra consistentemente. Los claims claros y beneficios personales inmediatos son clave para cerrar esta brecha.
+
+### 3.6 Público Objetivo: Salud Familiar + Medio Ambiente
+
+**Segmento primario:** Madres eco-conscientes (25-45 años, hogares con hijos, Ontario)
+
+| Preocupación | % Padres | Conexión PureDose |
+|---|---|---|
+| Ingredientes en productos de limpieza | 68% | Lista completa de ingredientes transparente |
+| Químicos agresivos en vajilla | 62% | Enzimas biodegradables, sin fosfatos |
+| Impacto ambiental para hijos | 58% | 100% reciclable, sin plástico |
+| Alergias y sensibilidad cutánea | 45% | Opción sin fragancia |
+
+**Mensajes que resuenan con este público:**
+- "Lo que pongas en tu lavaplatos termina en tu vajilla"
+- "60 platos limpios sin un gramo de plástico"
+- "Para mamás que quieren lo mejor para su familia Y el planeta"
+
+### 3.7 Tendencias de Formato en Crecimiento
+
+| Formato | Crecimiento Anual | Participación Actual |
+|---|---|---|
+| **Refills concentrados** | **12-18%** | <5% |
+| **Sólidos/tablas** | **8-12%** | 5-8% |
+| Líquidos eco | 5-7% | 80-85% |
+| Pods/disolubles | Minor | <5% |
+
+**Oportunidad:** Los refills concentrados son el formato de más rápido crecimiento. El 10-15% de hogares canadienses ya usa al menos un sistema de refill reutilizable.
+
+### 3.8 Certificaciones y Regulación
+
+| Certificación | Descripción | Prioridad |
+|---|---|---|
+| **EcoLogo (UL)** | Estándar canadiense de sostenibilidad | Alta |
+| **Green Seal** | Certificación ambiental | Alta |
+| **Leaping Bunny** | Libre de experimentación animal | Media-Alta |
+| Safe Food for Canadians Licence | Licencia federal | Obligatoria |
+| GS1 Barcode | GTIN para tracking | Obligatoria |
+
+**Regulación clave:**
+- Labeling bilingüe inglés/francés con igual prominencia
+- Lista completa de ingredientes obligatoria
+- Detergentes estándar: no requiere aprobación especial de Health Canada
+
+**Documento completo de investigación:** Ver [investigacion-mercado-ontario.md](investigacion-mercado-ontario.md)
 
 ---
 
