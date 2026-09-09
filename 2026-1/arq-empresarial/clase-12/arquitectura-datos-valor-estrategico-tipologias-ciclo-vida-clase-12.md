@@ -1,4 +1,4 @@
-# Arquitectura de Datos: Valor Estratégico, Tipologías y Ciclo de Vida (Clase 13)
+# Arquitectura de Datos: Valor Estratégico, Tipologías y Ciclo de Vida (Clase 12)
 
 **Curso:** Arquitectura Empresarial (ISIL, 2026-1)
 **Docente:** [pendiente]
