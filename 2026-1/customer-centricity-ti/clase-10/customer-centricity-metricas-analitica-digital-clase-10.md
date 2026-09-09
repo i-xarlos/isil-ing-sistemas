@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez completaste un formulario de 10 pasos para cancelar una suscripción y juraste no volver a usar ese servicio? Ese dolor exacto es lo que mide el CES. Y si nadie lo mide, nadie lo arregla.
+¿Alguna vez completaste un formulario de 10 pasos para cancelar una suscripción y juraste no volver a usar ese servicio? Ese dolor exacto es lo que mide el CES. Y si nadie lo mide, nadie lo arregla.
 
 **Pregunta guía:** ¿Cómo pasar de "saber si el cliente está satisfecho" a "entender exactamente qué hacer para mejorar su experiencia"?
 

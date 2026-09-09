@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Sabías que las tecnologías emergentes están redefiniendo cómo las organizaciones diseñan sus arquitecturas?
+¿Sabías que las tecnologías emergentes están redefiniendo cómo las organizaciones diseñan sus arquitecturas?
 
 **Pregunta guía:** ¿Cómo impactan cloud, IA, blockchain e IoT en la arquitectura empresarial?
 

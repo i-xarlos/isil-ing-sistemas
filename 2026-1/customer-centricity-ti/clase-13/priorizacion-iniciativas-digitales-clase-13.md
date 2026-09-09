@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** Tenemos muchísimas cosas que ejecutar para solucionar los problemas de nuestros clientes. ¿Cuál elegimos? ¿Por dónde empezamos?
+Tenemos muchísimas cosas que ejecutar para solucionar los problemas de nuestros clientes. ¿Cuál elegimos? ¿Por dónde empezamos?
 
 **Pregunta guía:** ¿Cómo priorizar iniciativas cuando hay tiempo limitado, recursos escasos y múltiples variables en juego?
 

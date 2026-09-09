@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** Cuando pides un producto por internet y te llega en 24 horas, detrás hay una cadena completa de tecnología trabajando en silencio: servidores en la nube, sensores IoT, algoritmos de IA y registros inmutables en blockchain. ¿Alguna vez te has detenido a pensar cómo todo eso se conecta?
+Cuando pides un producto por internet y te llega en 24 horas, detrás hay una cadena completa de tecnología trabajando en silencio: servidores en la nube, sensores IoT, algoritmos de IA y registros inmutables en blockchain. ¿Alguna vez te has detenido a pensar cómo todo eso se conecta?
 
 **Pregunta guía:** ¿Cómo impactan las tecnologías emergentes en el diseño de la arquitectura empresarial de una organización?
 

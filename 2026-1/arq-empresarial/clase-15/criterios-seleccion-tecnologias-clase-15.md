@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** Imagina que tu empresa compra un sistema ERP "de los mejores del mercado" y en 6 meses nadie lo usa. No falló la tecnología. Falló el diagnóstico previo.
+Imagina que tu empresa compra un sistema ERP "de los mejores del mercado" y en 6 meses nadie lo usa. No falló la tecnología. Falló el diagnóstico previo.
 
 **Pregunta guía:** ¿Cómo decidimos qué tecnología adoptar cuando hay cientos de opciones y presupuestos limitados?
 

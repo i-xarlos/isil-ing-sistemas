@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** Cuando abres tu app bancaria y haces una transferencia, ¿alguna vez te preguntaste qué pasa con tus datos mientras viajan del punto A al punto B? Detrás de cada transacción hay una plataforma de datos que decide si esa operación se confirma o se rechaza en milisegundos.
+Cuando abres tu app bancaria y haces una transferencia, ¿alguna vez te preguntaste qué pasa con tus datos mientras viajan del punto A al punto B? Detrás de cada transacción hay una plataforma de datos que decide si esa operación se confirma o se rechaza en milisegundos.
 
 **Pregunta guía:** ¿Qué plataforma de datos elegir cuando la empresa crece y los datos dejan de caber en una sola tabla?
 

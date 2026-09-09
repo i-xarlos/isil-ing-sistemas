@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Has tenido resultados increíbles en tu análisis pero no supiste cómo comunicarlos?
+¿Has tenido resultados increíbles en tu análisis pero no supiste cómo comunicarlos?
 
 **Pregunta guía:** ¿Cómo transformar datos complejos en una presentación que genere decisiones?
 

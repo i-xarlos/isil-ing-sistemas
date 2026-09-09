@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez te has preguntado por qué algunos sistemas de información son fáciles de usar y otros son un laberinto imposible? La diferencia no está en la suerte, sino en el **diseño**.
+¿Alguna vez te has preguntado por qué algunos sistemas de información son fáciles de usar y otros son un laberinto imposible? La diferencia no está en la suerte, sino en el **diseño**.
 
 **Pregunta guía:** ¿Cómo convertimos los requisitos de un sistema en una especificación detallada que los desarrolladores puedan implementar?
 

@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Sabías que los datos que generas cada día — tus compras, búsquedas, ubicación — son la materia prima de un negocio worth miles de millones? Las empresas que saben convertir datos en dinero son las que dominan el mercado.
+¿Sabías que los datos que generas cada día — tus compras, búsquedas, ubicación — son la materia prima de un negocio worth miles de millones? Las empresas que saben convertir datos en dinero son las que dominan el mercado.
 
 **Pregunta guía:** ¿Cómo transformar los datos de una empresa en ingresos reales sin comprometer la ética ni la privacidad?
 

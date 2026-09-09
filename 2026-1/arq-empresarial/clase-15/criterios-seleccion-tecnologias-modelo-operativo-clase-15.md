@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Sabías que más del 70% de las transformaciones digitales fracasan por barreras culturales y organizacionales, no por limitaciones tecnológicas?
+¿Sabías que más del 70% de las transformaciones digitales fracasan por barreras culturales y organizacionales, no por limitaciones tecnológicas?
 
 **Pregunta guía:** ¿Cómo alinear la selección tecnológica con el modelo operativo de la organización?
 

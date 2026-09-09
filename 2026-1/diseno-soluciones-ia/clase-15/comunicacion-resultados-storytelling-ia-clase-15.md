@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** El desarrollo de una solución con IA culmina con la presentación de resultados. ¿Cómo comunicar hallazgos complejos de manera clara y persuasiva?
+El desarrollo de una solución con IA culmina con la presentación de resultados. ¿Cómo comunicar hallazgos complejos de manera clara y persuasiva?
 
 **Pregunta guía:** ¿Cómo transformar análisis de datos en historias que generen decisiones?
 

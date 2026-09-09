@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** La tecnología está constantemente evolucionando y nuestros clientes adaptándose a ella. ¿Cómo adoptar nuevas tendencias sin repetir errores del pasado?
+La tecnología está constantemente evolucionando y nuestros clientes adaptándose a ella. ¿Cómo adoptar nuevas tendencias sin repetir errores del pasado?
 
 **Pregunta guía:** ¿Cómo integrar IA, IoT y ética en soluciones digitales customer-centric?
 

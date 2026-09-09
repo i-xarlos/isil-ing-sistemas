@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez lanzaste una función nueva y descubriste que nadie la usaba? ¿O peor: que la gente se confundía y abandonaba el producto? En el mundo físico, revertir un error de diseño toma semanas. En el digital, puede ser cuestión de clics. La experimentación te permite aprender rápido, fallar barato y crecer con datos, no con suposiciones.
+¿Alguna vez lanzaste una función nueva y descubriste que nadie la usaba? ¿O peor: que la gente se confundía y abandonaba el producto? En el mundo físico, revertir un error de diseño toma semanas. En el digital, puede ser cuestión de clics. La experimentación te permite aprender rápido, fallar barato y crecer con datos, no con suposiciones.
 
 **Pregunta guía:** ¿Cómo pasar de "creo que esta feature va a funcionar" a "sé que esta feature funciona, porque los datos lo confirman"?
 

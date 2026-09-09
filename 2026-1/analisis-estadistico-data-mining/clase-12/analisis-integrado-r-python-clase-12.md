@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez te has preguntado por qué algunas empresas toman decisiones basadas en datos y otras siguen adivinando? La diferencia está en saber combinar las herramientas correctas.
+¿Alguna vez te has preguntado por qué algunas empresas toman decisiones basadas en datos y otras siguen adivinando? La diferencia está en saber combinar las herramientas correctas.
 
 **Pregunta guía:** ¿Cómo aprovechar lo mejor de R y Python en un solo flujo de trabajo analítico?
 

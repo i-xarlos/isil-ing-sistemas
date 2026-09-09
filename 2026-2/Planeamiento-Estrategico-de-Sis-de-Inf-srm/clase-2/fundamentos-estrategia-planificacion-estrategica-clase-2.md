@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez has intentado subir al Everest sin un plan? Llegar a la cima requiere estrategia, planificación y ejecución. Los negocios no son diferentes.
+¿Alguna vez has intentado subir al Everest sin un plan? Llegar a la cima requiere estrategia, planificación y ejecución. Los negocios no son diferentes.
 
 **Pregunta guía:** ¿Cómo se define la estrategia de una empresa y cómo se traduce en un plan de acción concreto?
 

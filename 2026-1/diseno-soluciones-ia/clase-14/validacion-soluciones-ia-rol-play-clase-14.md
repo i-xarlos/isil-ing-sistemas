@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** Desarrollar una solución con IA no garantiza que sea útil para los usuarios. ¿Cómo saber si tu solución realmente funciona?
+Desarrollar una solución con IA no garantiza que sea útil para los usuarios. ¿Cómo saber si tu solución realmente funciona?
 
 **Pregunta guía:** ¿Cómo validar si una solución de IA genera valor real para los usuarios?
 

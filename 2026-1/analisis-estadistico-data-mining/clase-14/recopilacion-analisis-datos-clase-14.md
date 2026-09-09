@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez has tenido un dataset completo pero no sabías por dónde empezar a analizarlo?
+¿Alguna vez has tenido un dataset completo pero no sabías por dónde empezar a analizarlo?
 
 **Pregunta guía:** ¿Cómo convertir datos crudos en información accionable para un proyecto?
 

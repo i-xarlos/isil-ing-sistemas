@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez te has preguntado por qué Netflix recomienda exactamente la serie que quieres ver, o por qué Amazon sugiere productos que necesitas antes de que los busques? La respuesta está en cómo manejan sus datos.
+¿Alguna vez te has preguntado por qué Netflix recomienda exactamente la serie que quieres ver, o por qué Amazon sugiere productos que necesitas antes de que los busques? La respuesta está en cómo manejan sus datos.
 
 **Pregunta guía:** ¿Qué diferencia a una empresa que usa datos como activo estratégico de una que los tiene guardados sin explotar?
 

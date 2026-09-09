@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** Tener una buena idea no basta. Es indispensable saber cómo presentarla para generar interés y recordación en la audiencia.
+Tener una buena idea no basta. Es indispensable saber cómo presentarla para generar interés y recordación en la audiencia.
 
 **Frase clave de inicio:**
 > *"Una buena presentación no comienza cuando abrimos el PowerPoint; comienza cuando decidimos qué queremos comunicar a la audiencia, qué queremos que sientan durante la presentación y qué queremos que recuerden al final."*

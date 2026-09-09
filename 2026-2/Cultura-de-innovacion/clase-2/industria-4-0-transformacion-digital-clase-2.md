@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez te has preguntado por qué algunas empresas se adaptan rápidamente a los cambios tecnológicos mientras otras se quedan atrás? La respuesta está en su capacidad de transformación.
+¿Alguna vez te has preguntado por qué algunas empresas se adaptan rápidamente a los cambios tecnológicos mientras otras se quedan atrás? La respuesta está en su capacidad de transformación.
 
 **Pregunta guía:** ¿Cómo pueden las organizaciones aprovechar las tendencias tecnológicas para innovar y crecer?
 

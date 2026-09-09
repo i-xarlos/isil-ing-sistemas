@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Sabías que tus datos pueden generar ingresos? Muchas empresas ya están monetizando la información que recopilan diariamente.
+¿Sabías que tus datos pueden generar ingresos? Muchas empresas ya están monetizando la información que recopilan diariamente.
 
 **Pregunta guía:** ¿Cómo implementar herramientas para convertir datos en dinero?
 
