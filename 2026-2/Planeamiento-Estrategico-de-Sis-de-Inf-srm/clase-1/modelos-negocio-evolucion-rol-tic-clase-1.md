@@ -9,7 +9,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez te has preguntado por qué Netflix pasó de enviar DVDs por correo a convertirse en la plataforma de streaming más grande del mundo? La respuesta está en cómo entendieron su modelo de negocio y el rol de la tecnología.
+¿Alguna vez te has preguntado por qué Netflix pasó de enviar DVDs por correo a convertirse en la plataforma de streaming más grande del mundo? La respuesta está en cómo entendieron su modelo de negocio y el rol de la tecnología.
 
 **Pregunta guía:** ¿Cómo pueden las organizaciones aprovechar las TIC como recurso estratégico para crear ventaja competitiva?
 

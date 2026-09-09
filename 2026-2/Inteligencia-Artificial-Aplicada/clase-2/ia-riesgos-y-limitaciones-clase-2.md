@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez has confiado completamente en una respuesta de ChatGPT solo para descubrir que era completamente falsa? Las alucinaciones de la IA son más comunes de lo que creemos.
+¿Alguna vez has confiado completamente en una respuesta de ChatGPT solo para descubrir que era completamente falsa? Las alucinaciones de la IA son más comunes de lo que creemos.
 
 **Pregunta guía:** ¿Cuáles son los principales riesgos de la IA y cómo podemos mitigarlos para usarla de forma responsable?
 

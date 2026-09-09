@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez te has sentido abrumado por los cambios constantes en el mundo que te rodea? La incertidumbre se ha convertido en la nueva normalidad.
+¿Alguna vez te has sentido abrumado por los cambios constantes en el mundo que te rodea? La incertidumbre se ha convertido en la nueva normalidad.
 
 **Pregunta guía:** ¿Cómo pueden las organizaciones sobrevivir y prosperar en un entorno cada vez más impredecible?
 

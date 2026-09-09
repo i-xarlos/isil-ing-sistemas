@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Sabías que el retorno de inversión (ROI) es el indicador que determina si un proyecto de datos sobrevivirá o será cancelado?
+¿Sabías que el retorno de inversión (ROI) es el indicador que determina si un proyecto de datos sobrevivirá o será cancelado?
 
 **Pregunta guía:** ¿Cómo calcular y maximizar el ROI en proyectos de gestión de datos?
 

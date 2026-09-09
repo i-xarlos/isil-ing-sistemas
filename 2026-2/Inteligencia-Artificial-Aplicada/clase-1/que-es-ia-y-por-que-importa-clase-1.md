@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez te has preguntado por qué Netflix te recomienda esa serie exacta que te encanta? O ¿cómo tu banco detecta un cargo sospechoso en tu tarjeta antes de que tú lo hagas? La respuesta está en la inteligencia artificial.
+¿Alguna vez te has preguntado por qué Netflix te recomienda esa serie exacta que te encanta? O ¿cómo tu banco detecta un cargo sospechoso en tu tarjeta antes de que tú lo hagas? La respuesta está en la inteligencia artificial.
 
 **Pregunta guía:** ¿Qué es realmente la IA y cómo ha evolucionado desde los sistemas simbólicos hasta los modelos generativos actuales?
 

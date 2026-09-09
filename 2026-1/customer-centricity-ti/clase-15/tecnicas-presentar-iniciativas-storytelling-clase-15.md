@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** Una de las razones principales por la que las ideas fracasan es porque las personas no creen en ellas. Esto sucede cuando el equipo no tiene herramientas para comunicar lo que tiene en la cabeza.
+Una de las razones principales por la que las ideas fracasan es porque las personas no creen en ellas. Esto sucede cuando el equipo no tiene herramientas para comunicar lo que tiene en la cabeza.
 
 **Pregunta guía:** ¿Cómo transformar una idea técnica en una historia que convenza a cualquier audiencia?
 

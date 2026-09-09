@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** Llevas 12 clases aprendiendo estadística, R, Python y minería de datos. Ahora viene la pregunta: ¿cómo juntar todo eso en un proyecto que realmente demuestre lo que sabes? La respuesta está en el diseño... y en la práctica.
+Llevas 12 clases aprendiendo estadística, R, Python y minería de datos. Ahora viene la pregunta: ¿cómo juntar todo eso en un proyecto que realmente demuestre lo que sabes? La respuesta está en el diseño... y en la práctica.
 
 **Pregunta guía:** ¿Cómo convertir una idea vaga en un proyecto de análisis de datos estructurado, factible y con impacto? Y una vez diseñado, ¿cómo se ejecuta en R Studio?
 

@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** Tienes 50 iniciativas en el roadmap y solo recursos para 10. ¿Cuáles elegirías? Si la respuesta es "las que suenan mejor" o "las que pide el jefe", estás tomando decisiones a ciegas. La analítica digital te da el mapa para decidir con datos, no con corazonadas.
+Tienes 50 iniciativas en el roadmap y solo recursos para 10. ¿Cuáles elegirías? Si la respuesta es "las que suenan mejor" o "las que pide el jefe", estás tomando decisiones a ciegas. La analítica digital te da el mapa para decidir con datos, no con corazonadas.
 
 **Pregunta guía:** ¿Cómo conectar las métricas digitales con la estrategia de negocio para priorizar lo que realmente importa?
 

@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez has notado que algunas personas prefieren datos y hechos, mientras que otras buscan conexiones personales? Entender estas diferencias puede transformar la efectividad de tus presentaciones.
+¿Alguna vez has notado que algunas personas prefieren datos y hechos, mientras que otras buscan conexiones personales? Entender estas diferencias puede transformar la efectividad de tus presentaciones.
 
 **Pregunta guía:** ¿Cómo adaptar nuestro estilo de comunicación al estilo de comportamiento de nuestro oyente?
 

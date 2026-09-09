@@ -8,7 +8,7 @@
 
 ## Introduccion
 
-**Gancho humano:** Cuando usas un chatbot en una pagina web o un filtros de Instagram que reconoce tu cara, estas usando un modelo de IA integrado en una aplicacion. Pero detras de esa experencia simple hay una decision tecnica critica: donde corre el modelo, como se conecta con el usuario, y como se disena la interfaz para que sea util, no solo bonita.
+Cuando usas un chatbot en una pagina web o un filtros de Instagram que reconoce tu cara, estas usando un modelo de IA integrado en una aplicacion. Pero detras de esa experencia simple hay una decision tecnica critica: donde corre el modelo, como se conecta con el usuario, y como se disena la interfaz para que sea util, no solo bonita.
 
 **Pregunta guia:** Como llevamos un modelo de IA evaluado hacia una aplicacion funcional que el usuario pueda usar?
 
@@ -358,7 +358,7 @@ Basada en TripSense:
 
 ## 9. Tecnicas de Machine Learning: Cual se Usa y Por Que
 
-**Gancho humano:** Netflix te recomienda una serie que nunca buscaste pero que te encanta. Detras de esa recomendacion hay una tecnica de ML especifica elegida por una razon concreta. No es magia: es seleccion de modelo.
+Netflix te recomienda una serie que nunca buscaste pero que te encanta. Detras de esa recomendacion hay una tecnica de ML especifica elegida por una razon concreta. No es magia: es seleccion de modelo.
 
 ### 9.1 ML Supervisado
 

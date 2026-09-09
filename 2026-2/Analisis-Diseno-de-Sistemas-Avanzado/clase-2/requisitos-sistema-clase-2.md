@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez has construido algo sin tener claro qué necesitas? Los requisitos son la brújula que guía todo el desarrollo de software.
+¿Alguna vez has construido algo sin tener claro qué necesitas? Los requisitos son la brújula que guía todo el desarrollo de software.
 
 **Pregunta guía:** ¿Cómo asegurarnos de que el sistema que construimos es el que realmente necesitan los usuarios?
 

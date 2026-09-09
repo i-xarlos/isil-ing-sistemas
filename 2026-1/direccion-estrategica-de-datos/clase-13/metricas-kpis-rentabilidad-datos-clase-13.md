@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** ¿Alguna vez has visto un dashboard lleno de números y no sabías cuáles realmente importan? La diferencia entre una empresa que gana dinero con datos y una que solo gasta, está en saber qué métricas monitorear.
+¿Alguna vez has visto un dashboard lleno de números y no sabías cuáles realmente importan? La diferencia entre una empresa que gana dinero con datos y una que solo gasta, está en saber qué métricas monitorear.
 
 **Pregunta guía:** ¿Cómo saber si我们的 inversiones en datos realmente están generando retorno?
 

@@ -8,7 +8,7 @@
 
 ## Introducción
 
-**Gancho humano:** Has entrenado un modelo de IA que funciona perfecto en tu laptop. Pero cuando intentas usarlo con usuarios reales... falla. ¿Por qué? Porque hay una gran diferencia entre un modelo en un notebook y un modelo en producción.
+Has entrenado un modelo de IA que funciona perfecto en tu laptop. Pero cuando intentas usarlo con usuarios reales... falla. ¿Por qué? Porque hay una gran diferencia entre un modelo en un notebook y un modelo en producción.
 
 **Pregunta guía:** ¿Cómo llevamos un modelo de IA de un experimento a una solución funcional que los usuarios puedan usar?
 
