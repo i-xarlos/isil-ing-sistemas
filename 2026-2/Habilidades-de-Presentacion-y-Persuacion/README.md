@@ -23,6 +23,11 @@
 - **Markdown:** [tipos-audiencia-estilos-comunicacion-clase-2.md](clase-2/tipos-audiencia-estilos-comunicacion-clase-2.md)
 - **PDF:** [tipos-audiencia-estilos-comunicacion-clase-2.pdf](clase-2/tipos-audiencia-estilos-comunicacion-clase-2.pdf)
 
+#### Actividad 1: Presentación de Propuesta Interdisciplinaria
+- **Markdown:** [presentacion-propuesta-interdisciplinaria-actividad-1.md](clase-2/actividad-1/presentacion-propuesta-interdisciplinaria-actividad-1.md)
+- **Ejemplo solución:** [ejemplo-solucion-propuesta-interdisciplinaria-actividad-1.md](clase-2/actividad-1/ejemplo-solucion-propuesta-interdisciplinaria-actividad-1.md)
+- **Audiencia objetivo:** Controlador (Grupo 7)
+
 ---
 
 **Última actualización:** 07/09/2026 | **Docente Clase 1:** Macarena Soto
