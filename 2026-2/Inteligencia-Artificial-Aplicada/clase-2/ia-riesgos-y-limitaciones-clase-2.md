@@ -1,7 +1,7 @@
 # IA: Riesgos y Limitaciones (Clase 2)
 
-**Curso:** Inteligencia Artificial Aplicada (ISIL, 2026-2)  
-**Docente:** [pendiente]  
+**Curso:** Inteligencia Artificial Aplicada (ISIL, 2026-2)
+**Docente:** Mg. Christian Cancharez Aguirre
 **Fecha:** 01/09/2026
 
 ---
@@ -20,6 +20,8 @@
 
 La sesión organiza el análisis en cuatro dimensiones: **alucinaciones y errores**, **sesgos y entrenamiento**, **dependencia tecnológica**, y **seguridad digital y privacidad**. Estas limitaciones forman parte del funcionamiento y del contexto de uso de la IA, por lo que exigen criterio humano, verificación y controles.
 
+> **Dato clave:** Un estudio de Columbia Journalism Review (2025) encontró que cuando se les pide citar fuentes periodísticas, los modelos de IA pueden generar respuestas incorrectas entre un 37% y un 94% de las veces. Esto demuestra que la confianza de la IA no garantiza precisión.
+
 ---
 
 ## 1. Alucinaciones y Errores
@@ -27,6 +29,27 @@ La sesión organiza el análisis en cuatro dimensiones: **alucinaciones y errore
 ### ¿Qué son las alucinaciones en IA?
 
 Son respuestas que el sistema genera con aparente confianza, pero que contienen información falsa, inventada o inexacta. A diferencia de un error humano consciente, la IA no "sabe" que está equivocada.
+
+**Analogía simple:** Imagina a alguien que responde una pregunta en un examen con mucha seguridad, pero que está inventando las respuestas. La IA hace exactamente eso: genera texto que suena convincente pero que puede ser completamente falso.
+
+### Imagen: Tasas de Alucinación por Modelo
+
+![Tasas de alucinación de modelos de IA cuando se les pide citar fuentes](./AI-Hallucination-Rates-Terzo-Main.webp)
+
+**¿Qué muestra este gráfico?** Cuando se les pide citar fuentes de noticias, los modelos de IA dan respuestas confidentes pero incorrectas con frecuencias alarmantes:
+
+| Modelo | Tasa de alucinación |
+|--------|---------------------|
+| Perplexity | 76% |
+| Copilot | 94% |
+| Perplexity Pro | 77% |
+| ChatGPT | 67% |
+| Deepseek | 68% |
+| Gemini | 45% |
+| Grok-2 | 40% |
+| Grok-3 | 37% |
+
+> **Fuente:** Columbia Journalism Review, marzo 2025. Las tasas se basan en respuestas que fueron completamente o parcialmente incorrectas.
 
 ### Características Principales
 
@@ -51,11 +74,46 @@ Son respuestas que el sistema genera con aparente confianza, pero que contienen 
 
 Una consultora en Lima utilizó IA generativa para obtener estadísticas sobre el flujo turístico en Cusco. El sistema "alucinó" datos atribuidos al Mincetur que eran totalmente falsas. El cliente tomó decisiones de inversión basándose en este análisis erróneo y sufrió pérdidas significativas.
 
+```
+┌─────────────────────────────────────────────────────────┐
+│   FLUJO DE ALUCINACIÓN EN CONSULTORÍA                  │
+├─────────────────────────────────────────────────────────┤
+│  1. Consultor pide datos de turismo en Cusco a ChatGPT │
+│     ↓                                                   │
+│  2. ChatGPT responde: "4.5 millones de turistas"       │
+│     con fuente: Mincetur 2024                           │
+│     ↓                                                   │
+│  3. Consultor presenta datos al cliente sin verificar   │
+│     ↓                                                   │
+│  4. Cliente toma decisión de inversión                  │
+│     ↓                                                   │
+│  5. Datos son falsos → pérdidas económicas              │
+└─────────────────────────────────────────────────────────┘
+```
+
 ### Ejemplo: Sector Financiero
 
 Interbank implementó un programa de capacitación para sus analistas financieros en el que aprendieron que, cuando la IA genera proyecciones sobre sectores emergentes en Perú, estas deben contrastarse con datos del BCRP y la SBS.
 
 ### Ejemplo: Cómo Verificar Información de IA
+
+```
+┌─────────────────────────────────────────────────────────┐
+│   FLUJO DE VERIFICACIÓN OBLIGATORIO                    │
+├─────────────────────────────────────────────────────────┤
+│  1. Pide a ChatGPT datos sobre turismo en Cusco        │
+│     ↓                                                   │
+│  2. El sistema responde: "En 2024, Cusco recibió       │
+│     4.5 millones de turistas"                           │
+│     ↓                                                   │
+│  3. Contrasta con fuente oficial (MINCETUR, BCRP)      │
+│     ↓                                                   │
+│  4. Documenta: enlace, período, definición, unidad      │
+│     ↓                                                   │
+│  5. ¿Coincide? → SÍ: usar como dato validado           │
+│                  NO: NO presentar como validado         │
+└─────────────────────────────────────────────────────────┘
+```
 
 **Paso 1:** Pide a ChatGPT datos sobre turismo en Cusco
 **Paso 2:** El sistema responde: "En 2024, Cusco recibió 4.5 millones de turistas"
@@ -197,6 +255,23 @@ Compartir con una IA información de un caso legal real puede vulnerar la confid
 
 ---
 
+## 5. Conectando con Clase 1: De Turing a los Riesgos
+
+En la Clase 1 vimos cómo Alan Turing imaginó una máquina que pudiera realizar tareas que parecían exclusivamente humanas. Hoy, casi 90 años después, esa visión se hizo realidad con una limitación importante: **las máquinas pueden procesar información, pero no entienden lo que procesan.**
+
+### La ironía de Turing
+
+Turing creó la Bombbe para descifrar Enigma porque una máquina podía probar combinaciones más rápido que cualquier humano. Pero él también planteó la pregunta fundamental: *"¿Puede una máquina pensar?"*
+
+Hoy sabemos que:
+- **La Bombbe no "pensaba"** — ejecutaba un algoritmo fijo
+- **Los modelos actuales tampoco "piensan"** — generan probabilidades basadas en patrones
+- **La diferencia:** los modelos modernos son mucho más sofisticados, pero comparten la misma limitación fundamental
+
+> **Lección de la Clase 1 aplicada a la Clase 2:** Si la máquina de Turing no "entendía" Enigma, ¿por qué esperaríamos que ChatGPT "entienda" lo que nos dice? La alucinación no es un error — es una consecuencia natural de cómo funciona la IA.
+
+---
+
 ## Conclusiones
 
 1. Los sistemas de IA pueden generar alucinaciones, contenido falso presentado con confianza, especialmente en temas técnicos o recientes.
@@ -205,6 +280,9 @@ Compartir con una IA información de un caso legal real puede vulnerar la confid
 4. Cada interacción con sistemas de IA implica compartir información que puede ser almacenada y procesada de maneras no previstas.
 
 **Uso responsable:** verificar los resultados, revisar sesgos, conservar habilidades humanas y no introducir información sensible sin autorización ni controles adecuados.
+
+**Takeaway:**
+> "La IA no es mágica ni peligrosa por sí misma. Es peligrosa cuando la usamos sin entender sus limitaciones. La alucinación, el sesgo y la dependencia no son bugs — son características del sistema que debemos aprender a gestionar."
 
 **Frase clave:**
 > "La tecnología es un sirviente útil, pero un amo peligroso." — Christian Lous Lange, Nobel de la Paz
@@ -236,13 +314,27 @@ Compartir con una IA información de un caso legal real puede vulnerar la confid
 
 ## Fuentes
 
+Las afirmaciones y datos provienen de estas fuentes. Tipo: **oficial** = autor/creador; **tercero** = prensa o fuente secundaria.
+
+### Alucinaciones y Errores
+
 | # | Fuente | Tipo | URL |
 |---|--------|------|-----|
-| 1 | Akhtar, M. A. K., et al. (2024). Towards Ethical and Socially Responsible Explainable AI | Libro | https://doi.org/10.1007/978-3-031-66489-2 |
-| 2 | Bai, X., et al. (2025). Explicitly unbiased large language models still form biased associations | Artículo | https://doi.org/10.1073/pnas.2416228122 |
-| 3 | Eubanks, V. (2018). *Automating Inequality* | Libro | https://www.abebooks.com/9781250074317/Automating-Inequality-High-Tech-Tools-Profile-1250074312/plp |
-| 4 | Nemko Digital. (2025). AI regulation in Peru | Artículo | https://digital.nemko.com/regulations/ai-regulation-in-peru |
+| 1 | Columbia Journalism Review. (2025). *AI Hallucination Rates* | Tercero | https://www.cjr.org/ai_hallucinations |
+| 2 | Akhtar, M. A. K., et al. (2024). *Towards Ethical and Socially Responsible Explainable AI* | Académica | https://doi.org/10.1007/978-3-031-66489-2 |
 
----
+### Sesgos y Entrenamiento
 
-*Última actualización: 07/09/2026 - Contenido alineado con PDF de clase del 01/09/2026.*
+| # | Fuente | Tipo | URL |
+|---|--------|------|-----|
+| 3 | Bai, X., et al. (2025). *Explicitly unbiased large language models still form biased associations* | Académica | https://doi.org/10.1073/pnas.2416228122 |
+| 4 | Eubanks, V. (2018). *Automating Inequality* | Libro | https://www.abebooks.com/9781250074317/Automating-Inequality-High-Tech-Tools-Profile-1250074312/plp |
+
+### Regulación en Perú
+
+| # | Fuente | Tipo | URL |
+|---|--------|------|-----|
+| 5 | Nemko Digital. (2025). *AI regulation in Peru* | Tercero | https://digital.nemko.com/regulations/ai-regulation-in-peru |
+| 6 | El Peruano. *Ley N.° 31814: Ley que Promueve el Uso de la Inteligencia Artificial* | Oficial | https://www.gob.pe/institucion/pmj/acciones-y-programas/ley-que-promueve-el-uso-de-la-inteligencia-artificial |
+
+*Última verificación: 09/09/2026.*
