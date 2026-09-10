@@ -16,8 +16,8 @@ Orquestador especializado para el proyecto de negocio PureDose — detergente co
 | **Producto** | Detergente concentrado para lavaplatos en sachets individuales |
 | **Mercado** | Canadá (e-commerce D2C + Retail) |
 | **Ubicación** | St. Thomas, Ontario |
-| **Marca** | PureDose (.nombre provisional) |
-| **Carpeta** | `proyecto/` |
+| **Marca** | PureDose (nombre oficial del producto) |
+| **Carpeta** | `proyecto/puredose/` |
 
 ### Documentos del Proyecto
 
@@ -56,15 +56,16 @@ Orquestador especializado para el proyecto de negocio PureDose — detergente co
 | Envío (Chit Chats) | $6.00–$7.00 |
 | AOV | $28.50 |
 | LTV (12 meses) | $114 |
-| LTV/CAC | 6.5x |
+| LTV/CAC | 5.8x |
 
-### Proyecciones
+### Proyecciones (Modelo Base Validado)
 
-| Métrica | Año 1 | Año 2 |
+| Métrica | Año 1 (Validación D2C) | Año 2 (Tracción & Escala) |
 |---------|-------|-------|
-| Ingreso | $69,300 | $390,000 |
-| Utilidad neta | +$637 | +$52,015 |
-| Margen neto | 40% | 42% |
+| Pedidos totales | 498 | 2,420 |
+| Ingreso | $14,195 CAD | $72,600 CAD |
+| Utilidad neta | +$911 CAD | +$30,795 CAD |
+| Margen neto | 6.4% | 42.4% |
 
 ---
 
