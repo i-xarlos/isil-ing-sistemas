@@ -1,6 +1,6 @@
-# Proyecto Limpieza — Plan de Negocio Completo
+# PureDose — Plan de Negocio Completo
 
-**Producto:** Detergente concentrado para lavaplatos en sachets individuales  
+**Marca:** PureDose — Detergente concentrado para lavaplatos en sachets individuales  
 **Mercado:** Canadá (e-commerce D2C)  
 **Ubicación:** St. Thomas, Ontario  
 **Fecha:** 04/09/2026  
@@ -9,29 +9,29 @@
 
 ## Preview Visual
 
-**[Ver Infografía HTML](https://html-preview.github.io/?url=https://raw.githubusercontent.com/i-xarlos/isil-ing-sistemas/main/proyecto/infografia-plan-negocio.html)** — Mapa visual interactivo con costos, inversión, marketing, roadmap, Year 2, cursos ISIL, retail, y más.
+**[Ver Infografía HTML](https://html-preview.github.io/?url=https://raw.githubusercontent.com/i-xarlos/isil-ing-sistemas/main/proyecto/puredose/infografia-plan-negocio.html)** — Mapa visual interactivo con costos, inversión, marketing, roadmap, Year 2, cursos ISIL, retail, y más.
 
 ---
 
 ## Documentos del Proyecto
 
-| # | Archivo | Descripción | Actualizado |
+| # | Archivo | Descripción | Carpeta |
 |---|---|---|---|
-| 1 | [Plan de Negocio](plan-negocio-limpieza.md) | Plan integral: producto, mercado, finanzas, logística, regulatorio, roadmap | ✅ |
-| 2 | [Análisis Competitivo Walmart](analisis-competitivo-walmart.md) | Precios y presentaciones de competidores en estante real | ✅ |
-| 3 | [Análisis de Viabilidad](analisis-viabilidad.md) | Proyecciones financieras, break-even, escenarios, riesgos | ✅ |
-| 4 | [Plan de Marketing Redes](plan-marketing-redes.md) | Estrategia orgánica + pago (Instagram, TikTok, Google, email) | ✅ |
-| 5 | [Carta a Fabricantes](carta-cotizacion-fabricantes.md) | RFQ lista para enviar a proveedores canadienses | ✅ |
-| 6 | [Carta a Carriers](carta-cotizacion-envios.md) | Cotización para Chit Chats y Canada Post | ✅ |
-| 7 | [Infografía HTML](infografia-plan-negocio.html) | Mapa visual: costos, inversión, marketing, roadmap, Year 2, cursos | ✅ |
-| 8 | [Nombres y Slogans](propuesta-nombres-slogans.md) | 8 propuestas de marca + 30 slogans categorizados | ✅ |
-| 9 | [Perfil Comprador](perfil-comprador-canadiense.md) | 3 buyer personas + customer journey + objeciones + gasto real | ✅ |
-| 10 | [Cursos ISIL × Plan de Negocio](cursos-isil-plan-negocio.md) | Mapeo de 5 cursos con aplicaciones concretas al negocio | ✅ |
-| 11 | [Permisos e Impuestos Canadá](permisos-impuestos-canada.md) | Guía completa: permisos, impuestos, seguro, labeling bilingüe | ✅ |
-| 12 | [Costos de Envío por Canal](costos-envio-canal.md) | Shopify, Amazon FBA, Instagram/Facebook: fees y comparativa | ✅ |
-| 13 | [Guía Retail Supermercados Ontario](guia-retail-supermercados-ontario.md) | Cómo entrar al retail: brokers, supermercados, pricing, rentabilidad | ✅ |
-| 14 | [Investigación de Mercado Ontario](investigacion-mercado-ontario.md) | Datos demográficos, tendencias eco, público objetivo salud/medio ambiente | ✅ |
-| 15 | [Envase Premium Aluminio](envase-aluminio-especificaciones.md) | Especificaciones envase reutilizable Año 2 (diferenciador) | ✅ |
+| 1 | [Plan de Negocio](plan-negocio-limpieza.md) | Plan integral: producto, mercado, finanzas, logística, regulatorio, roadmap | `proyecto/` |
+| 2 | [Análisis Competitivo Walmart](puredose/analisis-competitivo-walmart.md) | Precios y presentaciones de competidores en estante real | `puredose/` |
+| 3 | [Análisis de Viabilidad](puredose/analisis-viabilidad.md) | Proyecciones financieras, break-even, escenarios y unit economics corregidos | `puredose/` |
+| 4 | [Plan de Marketing Redes](puredose/plan-marketing-redes.md) | Estrategia orgánica + pago (Instagram, TikTok, Google, email) | `puredose/` |
+| 5 | [Carta a Fabricantes](puredose/carta-cotizacion-fabricantes.md) | RFQ lista para enviar a proveedores canadienses | `puredose/` |
+| 6 | [Carta a Carriers](puredose/carta-cotizacion-envios.md) | Cotización para Chit Chats y Canada Post | `puredose/` |
+| 7 | [Infografía HTML](puredose/infografia-plan-negocio.html) | Mapa visual: costos, inversión, marketing, roadmap, Year 2, cursos | `puredose/` |
+| 8 | [Nombres y Slogans](propuesta-nombres-slogans.md) | 8 propuestas de marca + 30 slogans categorizados | `proyecto/` |
+| 9 | [Perfil Comprador](puredose/perfil-comprador-canadiense.md) | Buyer personas en profundidad, agua dura, microplásticos y JTBD | `puredose/` |
+| 10 | [Cursos ISIL × Plan de Negocio](puredose/cursos-isil-plan-negocio.md) | Mapeo de 5 cursos con aplicaciones concretas al negocio | `puredose/` |
+| 11 | [Permisos e Impuestos Canadá](puredose/permisos-impuestos-canada.md) | Guía completa: permisos, impuestos, seguro, labeling bilingüe | `puredose/` |
+| 12 | [Costos de Envío por Canal](puredose/costos-envio-canal.md) | Shopify, Amazon FBA, Instagram/Facebook: fees y comparativa | `puredose/` |
+| 13 | [Guía Retail Supermercados Ontario](puredose/guia-retail-supermercados-ontario.md) | Cómo entrar al retail: brokers, supermercados, pricing, rentabilidad | `puredose/` |
+| 14 | [Investigación de Mercado Ontario](puredose/investigacion-mercado-ontario.md) | Datos demográficos, tendencias eco, público objetivo salud/medio ambiente | `puredose/` |
+| 15 | [Envase Premium Aluminio](puredose/envase-aluminio-especificaciones.md) | Especificaciones envase reutilizable Año 2 (diferenciador) | `puredose/` |
 
 ---
 
@@ -47,10 +47,10 @@ Venta directa de detergente concentrado para lavaplatos en sachets individuales.
 |---|---|
 | Inversión inicial | $1,800–$3,100 CAD |
 | Margen bruto | ~70–75% |
-| Margen neto (escenario medio) | 17% |
-| Break-even | Mes 2–3 |
-| Utilidad Año 1 (medio) | +$5,165 CAD |
-| Formato único | Nadie ofrece sachets individuales en el estante |
+| Margen neto Año 1 (escenario medio) | 6.4% (+ $911 CAD) |
+| Margen neto Año 2 (escenario medio) | 42.4% (+ $30,795 CAD) |
+| Break-even operativo mensual | Mes 2 |
+| Formato único | Nadie ofrece sachets individuales secos en el estante |
 
 ### Datos Clave Verificados
 
@@ -67,27 +67,27 @@ Venta directa de detergente concentrado para lavaplatos en sachets individuales.
 ## Estructura del Proyecto
 
 ```
-proyecto-limpieza/
+proyecto/
 ├── README.md                           ← Este archivo (índice)
-├── infografia-plan-negocio.html        ← Infografía visual (abrir en navegador)
 ├── plan-negocio-limpieza.md            ← Plan integral del negocio
-├── analisis-competitivo-walmart.md     ← Análisis de estante real
-├── analisis-viabilidad.md              ← Viabilidad y proyecciones (Año 1 + Año 2)
-├── plan-marketing-redes.md             ← Marketing orgánico + pago
-├── carta-cotizacion-fabricantes.md     ← RFQ para proveedores
-├── carta-cotizacion-envios.md          ← Cotización para carriers
-├── propuesta-nombres-slogans.md       ← Nombres de marca + slogans
-├── perfil-comprador-canadiense.md     ← Buyer personas + gasto real + recarga
-├── cursos-isil-plan-negocio.md        ← 5 cursos ISIL aplicados al negocio
-├── permisos-impuestos-canada.md       ← Permisos, impuestos, seguro, labeling
-├── costos-envio-canal.md              ← Envío: Shopify, Amazon, Instagram
-├── guia-retail-supermercados-ontario.md ← Retail: brokers, supermercados, rentabilidad
-├── investigacion-mercado-ontario.md   ← Datos demográficos, tendencias eco, público objetivo
-├── envase-aluminio-especificaciones.md ← Envase premium Año 2 (diferenciador)
-├── estante-cascade-greatvalue-walmart.jpeg  ← Foto estante Cascade/Great Value
-├── estante-finish-natureclean-walmart.jpeg  ← Foto estante Finish/Nature Clean
-├── Plan de negocio de limpieza.pdf     ← Conversación ChatGPT (referencia)
-└── Plan de Negocio para Limpieza - Google Gemini.pdf  ← Conversación Gemini (referencia)
+├── plan-woocommerce-puredose.md        ← Plan implementación WooCommerce
+├── propuesta-nombres-slogans.md       ← Nombres de marca + slogans (PureDose recomendado)
+└── puredose/                           ← Carpeta del producto PureDose
+    ├── infografia-plan-negocio.html        ← Infografía visual (abrir en navegador)
+    ├── analisis-competitivo-walmart.md     ← Análisis de estante real
+    ├── analisis-viabilidad.md              ← Viabilidad y proyecciones (Año 1 + Año 2)
+    ├── plan-marketing-redes.md             ← Marketing orgánico + pago
+    ├── carta-cotizacion-fabricantes.md     ← RFQ para proveedores
+    ├── carta-cotizacion-envios.md          ← Cotización para carriers
+    ├── perfil-comprador-canadiense.md     ← Buyer personas + gasto real + recarga
+    ├── cursos-isil-plan-negocio.md        ← 5 cursos ISIL aplicados al negocio
+    ├── permisos-impuestos-canada.md       ← Permisos, impuestos, seguro, labeling
+    ├── costos-envio-canal.md              ← Envío: Shopify, Amazon, Instagram
+    ├── guia-retail-supermercados-ontario.md ← Retail: brokers, supermercados, rentabilidad
+    ├── investigacion-mercado-ontario.md   ← Datos demográficos, tendencias eco, público objetivo
+    ├── envase-aluminio-especificaciones.md ← Envase premium Año 2 (diferenciador)
+    ├── estante-cascade-greatvalue-walmart.jpeg  ← Foto estante Cascade/Great Value
+    └── estante-finish-natureclean-walmart.jpeg  ← Foto estante Finish/Nature Clean
 ```
 
 ---
@@ -117,18 +117,20 @@ Todos los documentos están alineados con los siguientes datos base:
 | Precio Starter Kit | $29.99 CAD |
 | COGS estimado (60 dosis) | $4.75 CAD (escenario medio) |
 | Costo envío (Chit Chats) | $6.00–$7.00 CAD |
-| Margen neto por pedido | $12.83 CAD |
+| Margen neto por pedido (Refill 60) | $11.22 CAD (45% absorbiendo envío individual) |
 | AOV | $28.50 CAD |
-| LTV (12 meses) | $114 CAD |
-| LTV/CAC | 6.5x |
-| Presupuesto marketing (mes 1–3) | $180/mes |
+| LTV Anual (ingreso promedio) | $114.00 CAD |
+| LTV Anual (margen contribución promedio) | $69.10 CAD |
+| CAC promedio target | $12.00 CAD |
+| Ratio LTV / CAC | 5.8x |
+| Presupuesto marketing (mes 1–3) | $200/mes |
 | Presupuesto marketing (mes 4–6) | $400/mes |
-| Presupuesto marketing (mes 7–12) | $705/mes |
-| Utilidad Año 1 (escenario medio) | +$637 CAD |
-| Utilidad Año 2 (escenario medio) | +$52,015 CAD |
+| Presupuesto marketing (mes 7–12) | $600/mes |
+| Utilidad Año 1 (escenario medio) | +$911 CAD (6.4% margen neto) |
+| Utilidad Año 2 (escenario medio) | +$30,795 CAD (42.4% margen neto) |
 | Umbral self-storage | 150+ pedidos/mes |
 | Umbral 3PL | 500+ pedidos/mes |
 
 ---
 
-*Índice del proyecto. Última actualización: 04/09/2026.*
+*Índice del proyecto. Última actualización: 10/09/2026.*

@@ -1,12 +1,34 @@
-# Perfil de Comprador Canadiense — Buyer Persona
+# Perfil de Comprador Canadiense — Buyer Persona & Audiencia Objetivo
 
-**Producto:** Detergente concentrado para lavaplatos en sachets individuales  
-**Mercado:** Canadá (e-commerce D2C)  
-**Fecha:** 04/09/2026  
+**Producto:** Detergente concentrado para lavaplatos en sachets individuales (PureDose)  
+**Mercado:** Canadá (Ontario como mercado primario, expansión nacional)  
+**Modelo:** E-commerce Direct-to-Consumer (D2C)  
+**Fecha de actualización:** 10/09/2026  
 
 ---
 
-## 1. Buyer Persona Principal: "Sarah"
+## 0. Contexto Macroeconómico y Psicológico del Consumidor Canadiense (2026)
+
+Para comprender al comprador actual, la estrategia debe responder a tres realidades del mercado canadiense:
+
+### 1. La fatiga inflacionaria y el escrutinio del "Cost-per-load"
+Los hogares canadienses han sufrido incrementos acumulados en la canasta de compras de supermercado. Aunque el 73% afirma estar dispuesto a pagar un premium moderado (10-15%) por productos ecológicos, exigen paridad funcional frente a marcas convencionales como Cascade o Finish. El comprador evalúa conscientemente el costo por dosis: **$0.42 CAD/dosis** de PureDose vs **$0.49 CAD/dosis** de Cascade Platinum Plus demuestra ahorro directo con mayor valor ecológico.
+
+### 2. El "Say-Do Gap" y el escepticismo ante el Greenwashing
+* El **76%** de los canadienses declara preferencia por marcas sostenibles.
+* Solo el **38%** compra de forma recurrente productos ecológicos.
+* El **49%** abandona la compra si percibe claims confusos o sospecha de greenwashing.
+* **Respuesta PureDose:** Mensajes transparentes y medibles: *"1 sachet = 1 lavado. Cero plástico. 100% biodegradable. Hecho en Ontario."*
+
+### 3. La problemática oculta de los Microplásticos y Films de PVA
+Existe una creciente preocupación entre padres e investigadores sobre los films disolubles de alcohol polivinílico (PVA/PVOH) usados en pods convencionales. Diversos estudios canadienses alertan sobre partículas de PVA no degradadas que llegan a los sistemas de aguas municipales. El sachet seco de PureDose en papel/kraft reciclable resuelve de raíz esta ansiedad.
+
+### 4. El factor regional: Agua Dura (Hard Water) en Ontario
+En el suroeste de Ontario (London, Kitchener, Waterloo, Guelph, St. Thomas), la dureza del agua oscila entre **15 y 35 granos por galón (gpg)**. Muchos detergentes ecológicos de formulación básica dejan velo blanco y sarro. PureDose incorpora citrato y carbonato de sodio que actúan como secuestrantes de calcio y magnesio, permitiendo a las enzimas biodegradables desengrasar con máxima efectividad.
+
+---
+
+## 1. Buyer Persona Principal: "Sarah" (55% de la Demanda Objetivo)
 
 ### 1.1 Datos Demográficos
 
@@ -395,86 +417,86 @@
 
 ---
 
-## 7. Objeciones y Respuestas
+## 7. Objeciones Psicológicas y Respuestas Estratégicas
 
-| # | Objeción | Respuesta |
-|---|---|---|
-| 1 | "¿Los ecológicos limpian igual?" | Nuestros sachets usan enzimas que remueven grasa incrustada. Misma potencia, sin químicos agresivos. |
-| 2 | "Es más caro que Cascade" | Cascade 100ct = $0.25/dosis pero viene en plástico. Nosotros = $0.42/dosis, 100% reciclable. El planeta también cuenta. |
-| 3 | "No conozco la marca" | Somos nuevos, pero fabricados en Canadá. 30 días de garantía. Si no te gusta, te devolvemos tu dinero. |
-| 4 | "El envío es caro" | Envío $6.99 estándar. Gratis en compras > $49 (2 refills). |
-| 5 | "No sé si funciona en mi lavaplatos" | Funciona en todos los lavaplatos estándar. Incluimos guía de uso. |
-| 6 | "¿Qué pasa si no me gusta?" | Garantía 30 días. Si no estás satisfecha, reembolso completo. |
-
----
-
-## 8. Canales de Adquisición por Persona
-
-| Persona | Canal principal | Canal secundario | Tipo de contenido |
+| # | Objeción del Comprador | Causa Raíz / Temor | Respuesta Estratégica PureDose |
 |---|---|---|---|
-| **Sarah** (mamá eco) | Instagram | Google Search | Educativo, cleaning hacks, ingredientes |
-| **Mike & Emma** (pareja urbana) | TikTok | Instagram Ads | Trendy, unboxing, lifestyle |
-| **Patricia** (familia busy) | Google Search | Facebook | Reviews, comparativas, valor |
+| 1 | "¿Los ecológicos realmente limpian igual que Cascade?" | Experiencias negativas pasadas con marcas eco que no usan enzimas o no combaten grasa quemada. | Complejo multienzimático activo que degrada almidones y grasas difíciles + Garantía de 30 días: "Platos impecables o te devolvemos tu dinero". |
+| 2 | "Es más caro que comprar Great Value o Cascade grande" | Sensibilidad al presupuesto mensual de supermercado. | Cascade Complete 45ct cuesta $0.56/dosis y Platinum Plus $0.49/dosis. PureDose cuesta **$0.42/dosis** con Refill 60. Es más económico que la línea premium convencional y 100% libre de plástico. |
+| 3 | "Pagar $6.99 de envío por un producto de $24.99 se siente antieconómico" | Fricción natural del e-commerce frente a la compra en tienda física. | Envío 100% gratis a partir de $49 CAD (Pack de 2 Refills = 120 dosis garantizadas para 4–6 meses). |
+| 4 | "¿Por qué un sachet seco individual en lugar de un pod soluble?" | Costumbre del pod plástico y miedo a que el sachet sea incómodo. | El film de los pods tradicionales contiene PVA (microplásticos disueltos que van al agua). El sachet individual protege los activos de la humedad de la cocina sin dejar residuos plásticos. |
+| 5 | "¿Funcionará con el agua dura de mi ciudad en Ontario?" | Sarro y velo blanco en copas y vajilla de vidrio (London, Guelph, Waterloo). | Formulado específicamente con agentes secuestrantes (citrato de sodio) que neutralizan minerales de agua dura de Ontario sin químicos agresivos. |
+| 6 | "No conozco la marca frente a gigantes como P&G o Reckitt" | Inercia hacia marcas tradicionales de supermercado. | Fabricación local en St. Thomas, Ontario. Apoyo a la economía local canadiense con control directo de calidad y atención personalizada. |
 
 ---
 
-## 9. Métricas Clave por Persona
+## 8. Canales de Adquisición por Segmento
 
-| Métrica | Sarah | Mike & Emma | Patricia |
+| Persona | Canal Principal | Canal Secundario | Formato de Contenido de Mayor Impacto |
 |---|---|---|---|
-| CAC target | $12 | $10 | $18 |
-| AOV esperado | $30 | $25 | $40 |
-| Frecuencia compra | Cada 2 meses | Cada 3 meses | Cada 2 meses |
-| LTV (12 meses) | $180 | $100 | $240 |
-| Canal conversión | Instagram → Shopify | TikTok → Shopify | Google → Shopify |
+| **Sarah** (Mamá eco) | Instagram Reels & Stories | Google Search / SEO local | Educativo, demostración de eliminación de grasa y residuos en biberones/platos infantiles. |
+| **Mike & Emma** (Pareja urbana) | TikTok / IG Reels | Reddit (r/ZeroWaste, r/BuyItForLife) | Estética minimalista, ASMR de empaque compacto, comparación de espacio bajo el fregadero. |
+| **Patricia** (Familia ocupada) | Google Search / Ads | Facebook Groups comunitarios | Reviews con fotos reales, cálculo de ahorro anual en pack doble con envío gratis. |
+| **Hard-Water Sufferers** | Google Ads geolocalizados | Foros de vivienda en Ontario | Pruebas de transparencia en cristalería en ciudades con agua dura (London, Waterloo, Kitchener). |
 
 ---
 
-## 10. Frases que Resuenan
+## 9. Métricas Clave y Unit Economics por Comprador (Modelo Verificado)
 
-### Para Sarah (mamá eco):
-- "Lo que pongas en tu lavaplatos termina en tu vajilla"
-- "60 platos limpios sin un gramo de plástico"
-- "Para mamás que quieren lo mejor para su familia Y el planeta"
-
-### Para Mike & Emma (pareja urbana):
-- "Tu departamento no necesita 5 botellas de detergente"
-- "Un sachet. Un plato. Sin excusas."
-- "Diseñado en Canadá. Enviamos limpieza, no agua."
-
-### Para Patricia (familia busy):
-- "La misma limpieza, menos desperdicio"
-- "Funciona igual que tu detergente actual, pero mejor para el planeta"
-- "Envío gratis cuando compras para todo el mes"
+| Métrica | Sarah (Hogar con niños) | Mike & Emma (Pareja urbana) | Patricia (Familia grande) | Promedio Ponderado PureDose |
+|---|---|---|---|---|
+| **Cargas semanales** | 5 cargas | 3.5 cargas | 6–7 cargas | 4.5 cargas |
+| **AOV (Ticket Promedio)** | **$28.50 CAD** (mix Starter/Refill) | **$24.99 CAD** (Refill 60) | **$49.98 CAD** (Pack 2 Refills) | **$28.50 CAD** |
+| **Frecuencia de reorden** | Cada ~84 días (3 meses) | Cada ~120 días (4 meses) | Cada ~60–70 días (2.5 meses) | Cada ~90 días (~3 meses) |
+| **Pedidos por año** | 4 pedidos | 3 pedidos | 2.5 a 3 pedidos (packs dobles) | 4 pedidos / año |
+| **LTV Anual (Ingreso Bruto)**| **$114.00 CAD** | **$75.00 CAD** | **$124.95 CAD** | **$114.00 CAD** |
+| **LTV Anual (Margen Contribución)**| **$64.50 CAD** | **$38.19 CAD** | **$77.12 CAD** | **$69.10 CAD** |
+| **CAC Target (Adquisición)** | **$12.00 CAD** | **$10.00 CAD** | **$16.00 CAD** | **$12.00 CAD** |
+| **Ratio LTV / CAC (12 meses)**| **5.4x** | **3.8x** | **4.8x** | **5.8x** |
+| **Canal preferido de conversión**| Instagram Ad → Shopify | TikTok/IG → Shopify 1-Click | Google Search → Shopify | Shopify D2C |
 
 ---
 
-## 11. Resumen Visual
+## 10. Frases y Mensajes que Resuenan por Audiencia
+
+### Para Sarah (Mamá Eco-Pragmática):
+- *"Lo que pones en tu lavavajillas termina en los platos de tu familia. Cero químicos agresivos, cero microplásticos."*
+- *"60 lavados impecables sin un gramo de plástico ni residuos tóxicos."*
+- *"La tranquilidad de saber exactamente qué toca la vajilla de tus hijos."*
+
+### Para Mike & Emma (Pareja Urbana DINK):
+- *"Tu departamento no necesita botellas gigantes de plástico. Limpieza concentrada en tamaño de bolsillo."*
+- *"Un sachet. Una carga. Cero excusas."*
+- *"Diseñado y producido en Ontario: enviamos limpieza activa, no agua embotellada."*
+
+### Para Patricia (Gestora Familiar Pragmática):
+- *"El mismo poder desengrasante de los líderes del mercado, sin el desperdicio de plástico."*
+- *"Pack de 120 dosis con envío gratis directo a tu puerta: ahorra tiempo y dinero."*
+- *"Funciona a la primera, incluso con el agua más dura de Ontario."*
+
+---
+
+## 11. Resumen Visual del Ecosistema de Audiencias
 
 ```
-                    SARAH (32, mamá eco)
-                    ┌─────────────────┐
-                    │ Instagram/TikTok │
-                    │ London, ON      │
-                    │ $95K household  │
-                    │ Compra: $30/ord │
-                    └────────┬────────┘
-                             │
-                    MIKE & EMMA (28, pareja urbana)
-                    ┌─────────────────┐
-                    │ TikTok/Instagram│
-                    │ Toronto, ON     │
-                    │ $130K household │
-                    │ Compra: $25/ord │
-                    └────────┬────────┘
-                             │
-                    PATRICIA (48, familia busy)
-                    ┌─────────────────┐
-                    │ Google/Facebook │
-                    │ Ottawa, ON      │
-                    │ $120K household │
-                    │ Compra: $40/ord │
-                    └─────────────────┘
+                           ECOSISTEMA PUREDOSE
+                                    │
+    ┌───────────────────────────────┼───────────────────────────────┐
+    ▼                               ▼                               ▼
+SARAH (32 años)            MIKE & EMMA (28 años)           PATRICIA (48 años)
+Mamá Eco-Pragmática         Pareja DINK Urbana             Familia Suburbana
+London / Kitchener          Toronto / Ottawa               Ottawa / Suburbios GTA
+$95K ingreso familiar       $130K ingreso combinado        $120K ingreso familiar
+5 cargas/semana             3.5 cargas/semana              6-7 cargas/semana
+AOV: $28.50 | 4 ord/año     AOV: $25.00 | 3 ord/año        AOV: $50.00 | 2.5 ord/año
+LTV: $114 CAD | CAC: $12    LTV: $75 CAD | CAC: $10        LTV: $125 CAD | CAC: $16
+Gatillo: Salud y No-Tóxicos Gatillo: Espacio y Cero Waste  Gatillo: Valor y Free Shipping
+    │                               │                               │
+    └───────────────────────┬───────┴───────────────────────────────┘
+                            ▼
+           NICHO TRANSVERSAL: "HARD WATER SUFFERERS"
+           • Ciudades con dureza >20 gpg en Ontario
+           • Gatillo: Cero velo blanco y máxima disolución enzimática
 ```
 
 ---

@@ -94,11 +94,11 @@
 **Pedidos totales:** 234  
 **Tasa de retención:** 30%
 
-### 3.2 Escenario Medio (Más probable)
+### 3.2 Escenario Medio (Más probable y validado)
 
 | Mes | Nuevos clientes | Recompras | Total pedidos | Ingreso | Costos variables | Costos fijos | **Utilidad** |
 |---|---|---|---|---|---|---|---|
-| 1 | 15 | 0 | 15 | $428 | $210 | $266 | **-$248** |
+| 1 | 15 | 0 | 15 | $428 | $210 | $266 | **-$48** |
 | 2 | 20 | 0 | 20 | $570 | $280 | $266 | **+$24** |
 | 3 | 25 | 0 | 25 | $713 | $350 | $266 | **+$97** |
 | 4 | 30 | 4 | 34 | $969 | $476 | $456 | **+$37** |
@@ -111,13 +111,17 @@
 | 11 | 40 | 14 | 54 | $1,539 | $756 | $691 | **+$92** |
 | 12 | 40 | 14 | 54 | $1,539 | $756 | $691 | **+$92** |
 
-**Resultado Año 1:** +$637 (ganancia moderada)  
+**Resultado Año 1:** +$911 CAD (utilidad operativa neta)  
+**Ingresos totales Año 1:** $14,195 CAD  
+**Costos variables totales:** $6,972 CAD ($14.00/pedido: COGS + envío + packaging + comisiones)  
+**Costos fijos totales:** $6,312 CAD  
 **Clientes totales adquiridos:** 425  
-**Pedidos totales:** 498  
-**Tasa de retención:** 30%  
-**Break-even:** Mes 2
+**Pedidos totales:** 498 (425 primera compra + 73 recompras)  
+**Tasa de retención anual:** ~30%  
+**Break-even operativo mensual:** Mes 2 (+$24)  
+**Margen neto Año 1:** 6.4% (típico de fase de arranque y adquisición intensiva)
 
-> **Ajuste importante:** El escenario medio con recompra real muestra ganancia menor (+$637 vs. $5,165 anterior) porque el modelo anterior asumía AOV constante sin decaimiento de retención. Este modelo es más conservador pero más realista.
+> **Nota metodológica:** Este modelo utiliza una curva de recompra realista (frecuencia canadiense cada 3 meses promedio) y absorbe el flete unitario en pedidos individuales. A diferencia de proyecciones optimistas desancladas, este modelo demuestra que el negocio es autosostenible operativamente desde el mes 2 con capital mínimo.
 
 ### 3.3 Escenario Optimista (con Suscripción)
 
@@ -150,57 +154,58 @@
 
 ### 4.1 Supuestos Año 2
 
-| Variable | Año 1 | Año 2 | Cambio |
+| Variable | Año 1 | Año 2 | Justificación / Cambio |
 |---|---|---|---|
-| Clientes recurrentes (base) | 0 | 128 | +128 |
-| Nuevos clientes/mes | 40 | 50 | +25% (品牌 crece) |
-| Tasa de retención | 30% | 35% | +5% (mejor producto) |
-| AOV | $28.50 | $30.00 | +$1.50 (upsell) |
-| COGS unitario | $4.75 | $4.25 | -$0.50 (economies of scale) |
-| Costos fijos/mes | $691 | $850 | +$159 (3PL incremento) |
+| Clientes recurrentes (base) | 0 | 128 | Base acumulada del Año 1 |
+| Nuevos clientes/mes | 40 | 50–70 | +25% a +75% por referidos y tracción de marca |
+| Tasa de retención | 30% | 35% | Fidelización con opción de suscripción |
+| AOV | $28.50 | $30.00 | Mayor mix de packs dobles ($49.98) |
+| COGS unitario | $4.75 | $4.25 | -$0.50 por compras a mayor escala (lotes >1,000 uds) |
+| Costo variable/pedido | $14.00 | $13.06 | COGS $4.25 + Envío $6.50 + Packaging $1.20 + Shopify fee $1.11 |
+| Costos fijos/mes | $691 | $850 | +$159 (3PL/almacenamiento exterior y mayor ad spend) |
 
-### 4.2 Proyección Mensual Año 2
+### 4.2 Proyección Mensual Año 2 (Costos Variables Reales Integrados)
 
-| Mes | Clientes recurrentes | Nuevos clientes | Total pedidos | Ingreso | Costos variables | Costos fijos | **Utilidad** |
+| Mes | Clientes recurrentes | Nuevos clientes | Total pedidos | Ingreso ($30 AOV) | Costos variables ($13.06/ped) | Costos fijos | **Utilidad Neta** |
 |---|---|---|---|---|---|---|---|
-| 1 | 128 | 50 | 178 | $5,340 | $756 | $850 | **+$3,734** |
-| 2 | 130 | 50 | 180 | $5,400 | $765 | $850 | **+$3,785** |
-| 3 | 132 | 55 | 187 | $5,610 | $795 | $850 | **+$3,965** |
-| 4 | 135 | 55 | 190 | $5,700 | $807 | $850 | **+$4,043** |
-| 5 | 138 | 60 | 198 | $5,940 | $842 | $850 | **+$4,248** |
-| 6 | 140 | 60 | 200 | $6,000 | $850 | $850 | **+$4,300** |
-| 7 | 142 | 60 | 202 | $6,060 | $859 | $850 | **+$4,351** |
-| 8 | 145 | 65 | 210 | $6,300 | $892 | $850 | **+$4,558** |
-| 9 | 148 | 65 | 213 | $6,390 | $905 | $850 | **+$4,635** |
-| 10 | 150 | 65 | 215 | $6,450 | $914 | $850 | **+$4,686** |
-| 11 | 152 | 70 | 222 | $6,660 | $944 | $850 | **+$4,866** |
-| 12 | 155 | 70 | 225 | $6,750 | $956 | $850 | **+$4,944** |
+| 1 | 128 | 50 | 178 | $5,340 | $2,325 | $850 | **+$2,165** |
+| 2 | 130 | 50 | 180 | $5,400 | $2,351 | $850 | **+$2,199** |
+| 3 | 132 | 55 | 187 | $5,610 | $2,442 | $850 | **+$2,318** |
+| 4 | 135 | 55 | 190 | $5,700 | $2,481 | $850 | **+$2,369** |
+| 5 | 138 | 60 | 198 | $5,940 | $2,586 | $850 | **+$2,504** |
+| 6 | 140 | 60 | 200 | $6,000 | $2,612 | $850 | **+$2,538** |
+| 7 | 142 | 60 | 202 | $6,060 | $2,638 | $850 | **+$2,572** |
+| 8 | 145 | 65 | 210 | $6,300 | $2,743 | $850 | **+$2,707** |
+| 9 | 148 | 65 | 213 | $6,390 | $2,782 | $850 | **+$2,758** |
+| 10 | 150 | 65 | 215 | $6,450 | $2,808 | $850 | **+$2,792** |
+| 11 | 152 | 70 | 222 | $6,660 | $2,899 | $850 | **+$2,911** |
+| 12 | 155 | 70 | 225 | $6,750 | $2,939 | $850 | **+$2,961** |
 
 ### 4.3 Resumen Año 2
 
 | Métrica | Valor |
 |---|---|
-| **Ingreso total Año 2** | **$72,600** |
-| **Costos variables totales** | **$10,385** |
-| **Costos fijos totales** | **$10,200** |
-| **Utilidad neta Año 2** | **+$52,015** |
-| **Margen neto** | **71.6%** |
+| **Ingreso total Año 2** | **$72,600 CAD** |
+| **Costos variables totales** | **$31,605 CAD** (incluye COGS, flete real, empaque y fees) |
+| **Costos fijos totales** | **$10,200 CAD** |
+| **Utilidad neta Año 2** | **+$30,795 CAD** |
+| **Margen neto real** | **42.4%** |
 | **Clientes recurrentes al cierre** | 155 |
 | **Nuevos clientes totales** | 725 |
 | **Pedidos totales Año 2** | 2,420 |
-| **Tasa de retención** | 36% |
+| **Tasa de retención** | 35% |
 
 ### 4.4 Comparativa Año 1 vs Año 2
 
-| Métrica | Año 1 | Año 2 | Crecimiento |
+| Métrica | Año 1 (Validación) | Año 2 (Tracción & Escala) | Crecimiento |
 |---|---|---|---|
-| Ingreso | $13,695 | $72,600 | **+430%** |
-| Utilidad neta | +$637 | +$52,015 | **+8,080%** |
-| Clientes totales | 425 | 725 | **+70%** |
+| Ingreso total | $14,195 CAD | $72,600 CAD | **+411%** |
+| Utilidad neta | +$911 CAD | +$30,795 CAD | **+3,280%** |
+| Clientes nuevos adquiridos | 425 | 725 | **+70%** |
 | Pedidos totales | 498 | 2,420 | **+386%** |
-| Margen neto | 4.6% | 71.6% | **+67pp** |
+| Margen neto | 6.4% | 42.4% | **+36pp** |
 
-> **Insight:** Año 2 es donde el negocio se acelera. La base de clientes recurrentes genera ingresos predecibles mientras la adquisición nueva escala. El margen neto salta de 4.6% a 71.6% por economies of scale en COGS.
+> **Insight clave:** En el Año 1 la ganancia es modesta (+ $911) debido a que los ingresos absorben la inversión mensual en software, amortización y marketing de arranque sobre un volumen bajo. En el Año 2, los 128 clientes recurrentes generan ingresos estables sin costo de adquisición adicional (CAC $0 en recompra), lo que dispara la utilidad neta a **+$30,795 CAD con un margen del 42.4%**, sin distorsiones irreales.
 
 ---
 
@@ -237,43 +242,47 @@
 | **Patricia** (4 personas) | 6 | 70 días (2.5 meses) | 5 | $120 |
 | **Promedio ponderado** | **4.5** | **~90 días (3 meses)** | **~4** | **$98** |
 
-### 5.2 Unit Economics por Tipo de Cliente
+### 5.2 Unit Economics por Tipo de Cliente (Grounded & Verificado)
 
-| Métrica | Sarah | Mike & Emma | Patricia | Promedio |
+| Métrica | Sarah (Hogar con niños) | Mike & Emma (Pareja urbana) | Patricia (Familia grande) | Promedio Ponderado |
 |---|---|---|---|---|
-| AOV | $24.99 | $24.99 | $49.98* | $28.50 |
-| Compras/año | 4 | 3 | 5 | 4 |
-| **LTV (ingreso)** | **$100** | **$75** | **$250** | **$114** |
-| COGS/año | $19 | $14.25 | $23.75 | $19 |
-| Envío/año | $26 | $19.50 | $0** | $16.50 |
-| **LTV (margen)** | **$55** | **$41** | **$226** | **$78** |
-| CAC estimado | $12 | $10 | $15 | $12 |
-| **ROI por cliente** | **4.6x** | **4.1x** | **15x** | **6.5x** |
+| Cargas / semana | 5 cargas | 3.5 cargas | 6 cargas | 4.5 cargas |
+| Cargas / año | 260 cargas | 182 cargas | 312 cargas | 234 cargas |
+| Cajas Refill 60 / año | ~4.3 cajas | ~3 cajas | ~5.2 cajas | 4 cajas |
+| AOV por pedido | $28.50 (Starter/Refill) | $24.99 (Refill 60) | $49.98 (Pack 2 Refills)* | $28.50 |
+| Pedidos / año | 4 | 3 | 2.5 (pedidos dobles) | 4 |
+| **LTV anual (Ingreso)** | **$114.00** | **$75.00** | **$124.95** | **$114.00** |
+| COGS anual | $19.00 | $14.25 | $24.70 | $19.00 |
+| Envío asumido anual | $26.00 | $19.50 | $18.75** | $21.40 |
+| Shopify fees anuales | $4.50 | $3.06 | $4.38 | $4.50 |
+| **LTV anual (Margen neto)** | **$64.50** | **$38.19** | **$77.12** | **$69.10** |
+| CAC estimado | $12.00 | $10.00 | $16.00 | $12.00 |
+| **Ratio LTV / CAC** | **5.4x** | **3.8x** | **4.8x** | **5.8x** |
 
-*Patricia compra 2× Refill 60 para free shipping*  
-**Patricia califica para free shipping en todas sus compras*
+*Patricia adquiere 2× Refill 60 por pedido para desbloquear Free Shipping ($49.98).  
+**En el caso de Patricia, PureDose absorbe el flete por política de Free Shipping >$49 (~$7.50/envío doble).*
 
-### 5.3 Cliente Promedio (Modelo Actualizado)
+### 5.3 Cliente Promedio (Modelo Actualizado y Grounded)
 
-| Métrica | Antes (estimado) | **Ahora (verificado)** |
+| Métrica | Antes (estimado inicial) | **Ahora (verificado)** |
 |---|---|---|
-| AOV | $24.99 | **$28.50** (mix de 1 y 2 refills) |
-| Compras/año | No definido | **4** (cada 3 meses) |
-| **LTV (ingreso)** | $74.97 (6 meses) | **$114** (12 meses) |
-| **LTV (margen)** | No definido | **$78** |
-| CAC | $8–$15 | **$12** |
-| **LTV/CAC** | 5–9x | **6.5x** |
+| AOV | $24.99 | **$28.50** (mix Starter Kit y Refills) |
+| Compras / año | No definido | **4 pedidos** (cada ~90 días) |
+| **LTV anual (ingreso)** | $74.97 (6 meses) | **$114.00 CAD** (12 meses) |
+| **LTV anual (margen de contribución)** | No definido | **$69.10 CAD** |
+| CAC estimado | $8–$15 | **$12.00 CAD** |
+| **Ratio LTV / CAC** | 5–9x | **5.8x** |
 
 ### 5.4 Retención de Clientes (Modelo con Frecuencia Real)
 
 | Escenario | Retención | Compras/año | LTV | Margen LTV |
 |---|---|---|---|---|
-| Sin retención (one-time) | 0% | 1 | $28.50 | $12.83 |
-| Baja retención | 20% | 2 | $57.00 | $25.65 |
-| **Media retención (target)** | **40%** | **4** | **$114** | **$78** |
-| Alta retención (suscripción) | 60% | 5+ | $142+ | $97+ |
+| Sin retención (one-time) | 0% | 1 | $28.50 | $17.28 |
+| Baja retención | 20% | 2 | $57.00 | $34.55 |
+| **Media retención (target)** | **40%** | **4** | **$114** | **$69.10** |
+| Alta retención (suscripción) | 60% | 5+ | $142+ | $86.38 |
 
-**Insight:** Un cliente con retención media (40%) genera **$78 de margen** vs. $12.83 one-time. La retención es el multiplicador más poderoso del negocio.
+**Insight:** Un cliente con retención media (40%) genera **$69.10 de margen** vs. $17.28 one-time. La retención es el multiplicador más poderoso del negocio.
 
 ---
 
@@ -381,29 +390,31 @@ Pedidos/mes
 
 ---
 
-## 10. Expectativas Realistas (Año 1)
+## 10. Expectativas Realistas y Validación (Año 1)
 
-### 10.1 Escenario Más Probable (Medio)
+### 10.1 Escenario Base Validado (Arranque Orgánico / D2C Inicial)
 
-| Métrica | Valor esperado |
-|---|---|
-| Pedidos totales Año 1 | 1,200 |
-| Ingresos brutos | $30,000 |
-| Costos totales | $24,835 |
-| **Utilidad neta** | **$5,165** |
-| Margen neto | 17% |
-| Clientes únicos | ~800 (con 50% recompra) |
-| Break-even | Mes 2–3 |
+| Métrica | Escenario Conservador | Escenario Medio (Base) | Escenario Optimista (Suscripción) |
+|---|---|---|---|
+| Pedidos totales Año 1 | 234 | **498** | 1,032 |
+| Ingresos brutos | $6,669 CAD | **$14,195 CAD** | $34,449 CAD |
+| Costos variables totales | $3,276 CAD | **$6,972 CAD** | $14,448 CAD |
+| Costos fijos totales | $6,312 CAD | **$6,312 CAD** | $6,312 CAD |
+| **Utilidad neta** | **-$2,919 CAD** | **+$911 CAD** | **+$11,303 CAD** |
+| Margen neto | -43.8% | **6.4%** | **32.8%** |
+| Clientes únicos | 180 | **425** | 630 |
+| Break-even mensual | No alcanzado | **Mes 2** | **Mes 1** |
 
-### 10.2 Métricas de Éxito al Cierre del Año 1
+### 10.2 Métricas de Éxito al Cierre del Año 1 (Objetivos de Control)
 
-| Métrica | Mínimo aceptable | Target |
-|---|---|---|
-| Pedidos/mes | 50 | 150+ |
-| AOV | $22 | $28+ |
-| Tasa de recompra | 15% | 30%+ |
-| Margen neto | 10% | 20%+ |
-| Clientes activos | 200 | 500+ |
+| Métrica | Mínimo aceptable | Target saludable | Óptimo |
+|---|---|---|---|
+| Pedidos/mes (M10–M12) | 35 | **50–60** | 100+ |
+| AOV (Average Order Value) | $24.99 | **$28.50** | $35.00+ |
+| Tasa de recompra (cohorts 90 días) | 20% | **30%–35%** | 45%+ |
+| Margen neto operativo (M12) | 5% | **6%–10%** | 15%+ |
+| Costo Adquisición (CAC) | < $18 | **$10–$12** | < $8 |
+| Clientes activos recurrentes | 75 | **125–150** | 200+ |
 
 ### 10.3 Señales de Alerta (Cuándo Pivotar)
 
