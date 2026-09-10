@@ -293,7 +293,7 @@ Las afirmaciones históricas y conceptuales se contrastan con fuentes académica
 | - | ----------------------------------------------------------------------------------------------------- | ---------------- | ---------------------------------------------------------------------------- |
 | 1 | Turing, A. M. (1936).*On Computable Numbers, with an Application to the Entscheidungsproblem*       | Académica       | [Enlace](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)           |
 | 2 | Turing, A. M. (1950).*Computing Machinery and Intelligence*. Mind                                   | Académica       | [Enlace](https://academic.oup.com/mind/article/LIX/236/433/986238)            |
-| 3 | Bletchley Park.*The Bombe*                                                                          | Oficial          | [Enlace](https://www.bletchleypark.org.uk/our-story/the-bombe)                |
+| 3 | Bletchley Park.*The Bombe*                                                                          | Oficial          | [Enlace](https://www.bletchleypark.org.uk/our-story/6-facts-about-the-bombe/)                |
 | 4 | Dartmouth College.*A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence* | Académica       | [Enlace](http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html) |
 | 5 | Tyldum, M. (Director). (2014).*The Imitation Game* [Película]                                      | Obra audiovisual | [Enlace](https://www.imdb.com/title/tt2084970/)                               |
 
